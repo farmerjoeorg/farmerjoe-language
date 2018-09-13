@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Filtru"
+  "filter": "Filtru",
+  "emailVerified": "Adresa de e-mail a fost confirmată",
+  "resetPasswordLinkExpired": "Solicitarea de resetare a parolei a expirat sau linkul a fost folosit deja",
+  "verifyEmailLinkExpired": "Solicitarea de confirmare a adresei de e-mail a expirat sau linkul a fost folosit deja",
+  "emailChangeReverted": "Adresa de e-mail de conectare a fost schimbată înapoi la {{email}}.",
+  "invalidActionCode": "Codul nu mai este valid"
 }

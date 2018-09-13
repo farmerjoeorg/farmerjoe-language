@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Filter"
+  "filter": "Filter",
+  "emailVerified": "E-poštni naslov je bil preverjen",
+  "resetPasswordLinkExpired": "Vaša zahteva za ponastavitev gesla je potekla ali pa je bila povezava že uporabljena",
+  "verifyEmailLinkExpired": "Vaša zahteva za preverjanje e-poštnega naslova je potekla ali pa je bila povezava že uporabljena",
+  "emailChangeReverted": "Vaš e-poštni naslov za prijavo je bil spremenjen nazaj v {{email}}.",
+  "invalidActionCode": "Ta koda ni več veljavna"
 }

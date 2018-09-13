@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Фильтр"
+  "filter": "Фильтр",
+  "emailVerified": "Адрес электронной почты подтвержден",
+  "resetPasswordLinkExpired": "Срок действия запроса на сброс пароля истек, или ссылка уже использована.",
+  "verifyEmailLinkExpired": "Срок действия запроса на подтверждение адреса электронной почты истек, или ссылка уже использована.",
+  "emailChangeReverted": "Для входа в аккаунт вновь будет использоваться адрес {{email}}.",
+  "invalidActionCode": "Этот код уже неактивен."
 }

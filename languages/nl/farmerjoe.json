@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Filter"
+  "filter": "Filter",
+  "emailVerified": "Uw e-mailadres is geverifieerd",
+  "resetPasswordLinkExpired": "Uw verzoek om uw wachtwoord te resetten, is verlopen of de link is al gebruikt",
+  "verifyEmailLinkExpired": "Uw verzoek om uw e-mailadres te verifiëren, is verlopen of de link is al gebruikt",
+  "emailChangeReverted": "Uw inlog-e-mailadres is terugveranderd naar {{email}}.",
+  "invalidActionCode": "Deze code is niet meer geldig"
 }

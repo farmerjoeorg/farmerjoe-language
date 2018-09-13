@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Filtre"
+  "filter": "Filtre",
+  "emailVerified": "E-postanız doğrulandı",
+  "resetPasswordLinkExpired": "Şifrenizi sıfırlama isteğinizin süresi dolmuş veya bağlantı zaten kullanılmış",
+  "verifyEmailLinkExpired": "E-postanızı doğrulama isteğinizin süresi dolmuş veya bağlantı zaten kullanılmış",
+  "emailChangeReverted": "Oturum açma e-posta adresiniz tekrar {{email}} olarak değiştirildi.",
+  "invalidActionCode": "Bu kod artık geçerli değil"
 }

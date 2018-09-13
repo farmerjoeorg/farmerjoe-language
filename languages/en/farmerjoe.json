@@ -606,5 +606,10 @@
   "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
   "refresh": "Refresh",
   "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead."
+  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "emailVerified": "Your email has been verified",
+  "resetPasswordLinkExpired": "Your request to reset your password has expired or the link has already been used",
+  "verifyEmailLinkExpired": "Your request to verify your email has expired or the link has already been used",
+  "emailChangeReverted": "Your sign-in email address has been changed back to {{email}}.",
+  "invalidActionCode": "This code is no longer valid"
 }

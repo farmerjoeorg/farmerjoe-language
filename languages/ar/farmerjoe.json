@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "تصفية البحث"
+  "filter": "تصفية البحث",
+  "emailVerified": "تم إثبات ملكية بريدك الإلكتروني",
+  "resetPasswordLinkExpired": "انتهت صلاحية طلبك لإعادة تعيين كلمة المرور أو سبق أن تم استخدام الرابط",
+  "verifyEmailLinkExpired": "انتهت صلاحية طلبك لإثبات ملكية بريدك الإلكتروني أو سبق أن تم استخدام الرابط",
+  "emailChangeReverted": "تم تغيير عنوان البريد الإلكتروني لتسجيل الدخول مجددًا إلى {{email}}.",
+  "invalidActionCode": "لم يعد هذا الرمز صالحًا"
 }

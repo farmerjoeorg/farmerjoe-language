@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Filter"
+  "filter": "Filter",
+  "emailVerified": "Se ha verificado tu correo electrónico",
+  "resetPasswordLinkExpired": "La petición para cambiar la contraseña ha caducado o ya se ha usado el enlace",
+  "verifyEmailLinkExpired": "La petición para verificar tu correo electrónico ha caducado o ya se ha usado el enlace",
+  "emailChangeReverted": "La dirección de correo electrónico de inicio de sesión se ha vuelto a cambiar a {{email}}.",
+  "invalidActionCode": "Este código ya no es válido"
 }

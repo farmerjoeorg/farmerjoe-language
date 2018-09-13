@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Szűrő"
+  "filter": "Szűrő",
+  "emailVerified": "E-mail-címét ellenőriztük",
+  "resetPasswordLinkExpired": "A jelszó-visszaállítási kérelem lejárt, vagy pedig már használták a linket.",
+  "verifyEmailLinkExpired": "Az e-mail-címe igazolására vonatkozó kérelem lejárt, vagy pedig már használták a linket.",
+  "emailChangeReverted": "Bejelentkezési e-mail-címe visszamódosult a következőre: {{email}}.",
+  "invalidActionCode": "Ez a kód már nem érvényes."
 }

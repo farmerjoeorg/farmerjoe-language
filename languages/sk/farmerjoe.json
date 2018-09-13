@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Filter"
+  "filter": "Filter",
+  "emailVerified": "Váš e-mail bol overený",
+  "resetPasswordLinkExpired": "Platnosť vašej žiadosti o obnovu hesla vypršala alebo už bol odkaz použitý",
+  "verifyEmailLinkExpired": "Platnosť vašej žiadosti o overenie e-mailu vypršala alebo už bol odkaz použitý",
+  "emailChangeReverted": "Vaša prihlasovacia e-mailová adresa bola zmenená späť na {{email}}.",
+  "invalidActionCode": "Tento kód už nie je platný"
 }

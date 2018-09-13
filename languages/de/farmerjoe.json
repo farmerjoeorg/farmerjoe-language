@@ -605,5 +605,10 @@
   "close": "schließen",
   "errorMessage": "Es ist ein Fehler aufgetreten. Das Entwicklungsteam wurde benachrichtigt.",
   "remoteSupport": "Anfrage zu Fernsteuerung",
-  "screenTooSmall": "Deine Bildschirmauflösung ist zu klein. Nutze unsere App für iOS und Android."
+  "screenTooSmall": "Deine Bildschirmauflösung ist zu klein. Nutze unsere App für iOS und Android.",
+  "emailVerified": "Ihre E-Mail-Adresse wurde bestätigt",
+  "resetPasswordLinkExpired": "Ihre Anfrage zum Zurücksetzen des Passworts ist abgelaufen oder der Link wurde bereits verwendet",
+  "verifyEmailLinkExpired": "Ihre Anfrage zur Bestätigung der E-Mail-Adresse ist abgelaufen oder der Link wurde bereits verwendet",
+  "emailChangeReverted": "Ihre Anmelde-E-Mail-Adresse wurde wieder in {{email}} geändert.",
+  "invalidActionCode": "Dieser Code ist nicht mehr gültig"
 }

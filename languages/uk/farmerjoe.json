@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Фільтр"
+  "filter": "Фільтр",
+  "emailVerified": "Вашу електронну адресу підтверджено",
+  "resetPasswordLinkExpired": "Ваш запит на скидання пароля вже не дійсний або посиланням уже скористалися",
+  "verifyEmailLinkExpired": "Ваш запит на підтвердження електронної адреси вже не дійсний або посиланням уже скористалися",
+  "emailChangeReverted": "Електронну адресу для входу змінено на {{email}}.",
+  "invalidActionCode": "Цей код уже не дійсний"
 }

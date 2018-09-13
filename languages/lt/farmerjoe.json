@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Filtruoti"
+  "filter": "Filtruoti",
+  "emailVerified": "Jūsų el. pašto adresas patvirtintas",
+  "resetPasswordLinkExpired": "Jūsų užklausa pakeisti slaptažodį nebegalioja arba nuoroda jau buvo panaudota",
+  "verifyEmailLinkExpired": "Jūsų užklausa patvirtinti el. pašto adresą nebegalioja arba nuoroda jau buvo panaudota",
+  "emailChangeReverted": "Prisijungimo el. pašto adresas pakeistas į pirminį – {{email}}.",
+  "invalidActionCode": "Šis kodas nebegalioja"
 }

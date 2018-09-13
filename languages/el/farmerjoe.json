@@ -407,5 +407,10 @@
       "description": "Please allow access to your camera if you want to take photos."
     }
   },
-  "filter": "Φίλτρο"
+  "filter": "Φίλτρο",
+  "emailVerified": "Η διεύθυνση ηλεκτρονικού ταχυδρομείου επαληθεύτηκε",
+  "resetPasswordLinkExpired": "Το αίτημα επαναφοράς του κωδικού πρόσβασής σας έληξε ή ο σύνδεσμος χρησιμοποιείται ήδη",
+  "verifyEmailLinkExpired": "Το αίτημά σας για επαλήθευση της διεύθυνσης ηλεκτρονικού ταχυδρομείου έληξε ή ο σύνδεσμος χρησιμοποιείται ήδη",
+  "emailChangeReverted": "Έγινε επαναφορά της διεύθυνσης ηλεκτρονικού ταχυδρομείου σε {{email}}.",
+  "invalidActionCode": "Αυτός ο κωδικός δεν είναι πλέον έγκυρος"
 }
