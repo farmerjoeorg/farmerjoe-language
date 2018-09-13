@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Andmetöötluse põhimõtted",
+  "invites": {
+    "reject": "Keeldu",
+    "from": "Kutse isikult {{name}}",
+    "accept": "Aktsepteeri"
+  },
+  "invalid_email": "E-posti aadress on kehtetu.",
+  "analysis": {
+    "cancelAnalysis": "Tühista analüüs",
+    "residue": "Jäägid",
+    "order": "Telli",
+    "plantOrSowDate": "Külvamise kuupäev",
+    "pleaseLabelProbe": "Palun märgi proovile!",
+    "compostType": "Komposti tüüp",
+    "compostAmountInTons": "Kogus tonnides",
+    "compostApplicationYear": "Kasutamise aasta",
+    "profileNotComplete": "Kasutaja andmed pole täidetud.",
+    "comment": "Märkus",
+    "thankYouForOrder": "{0} tellimuse eest.",
+    "thankYou": "Täname",
+    "after_harvest": "Pärast saagikoristust",
+    "commissionWithCharge": "Tasuline tellimus",
+    "productLabel": "Toote etikett",
+    "harvest_start": "Saagikoristus algab?",
+    "before_harvest": "Enne saagikoristust",
+    "analysisCancelledOn": "Analüüs katkestati {{date}} kuupäeval kell {{time}} kasutaja {{user}} poolt.",
+    "during_harvest": "Saagikoristuse ajal",
+    "result_for": "Seda nõuavad",
+    "sample": "Näidis",
+    "sample_taker": "Võtja",
+    "sample_date": "Võetud kuupäeval",
+    "resultResidue": "Tulemusjääkide analüüs",
+    "mondayFriday": "E-R",
+    "questions": "Küsimused?",
+    "offer": "Pakkumine",
+    "number": "Analüüsi number",
+    "cancelled": "Tühistatud",
+    "result_for_analysis_from_ready": "Teie {{date}} analüüsi tulemus on nüüd kättesaadav.",
+    "noCompanyAddress": "Ettevõtte aadressi pole.",
+    "ourOffers": "Pakutavad analüüsid",
+    "compost": "Kompost",
+    "analysis": "Analüüs",
+    "cancel": "Tühista",
+    "results": "Tulemused",
+    "orderAnalysisWithCommission": "Kas olete kindel, et soovite tellida?",
+    "toUserAnalysisEnterProfileData": "Analüüsifunktsiooni kasutamiseks peate täitma oma kasutajaandmed.",
+    "outdoor": "Väljas",
+    "pick_up_service": "Telli transport",
+    "orderSent": "Esitage tellimus",
+    "noResultsAvailable": "Tulemusi pole saadaval.",
+    "result": "Tulemus",
+    "self_pick_up": "Iseseisev proovivõtmine",
+    "doYouReallyWantToCancelAnalysis": "Kas soovite tõesti analüüsi tühistada?",
+    "commission": "Tellimus",
+    "bio": "Orgaaniline",
+    "ordered": "Tellitud analüüs",
+    "orderFrom": "Tellimus esitatud kuupäeval {{date}}",
+    "pending": "Ootel",
+    "takeSampleForm": "Sondi tüüp",
+    "questionsPleaseCall": "Küsimuste korral palume helistada.",
+    "soilAnalysis": "Mulla analüüs",
+    "orderResidue": "Jääkide analüüsi tellimine",
+    "result_expected_on": "Tulemus oodatakse: {{date}}",
+    "orderSoil": "Telli mullaanalüüs",
+    "conventional": "Tavapärane",
+    "residueAnalysis": "Jääkide analüüs",
+    "input_in_database": "Andmebaasi sisestamine",
+    "result_on": "Tulemused",
+    "needFastTomorrow": "Kiiresti homseks",
+    "soil": "Muld",
+    "self_delivery": "Tulen ise järele",
+    "resultSoil": "Mullanalüüsi tulemus",
+    "greenhouse": "Kasvuhoone",
+    "orderNumber": "Tellimuse number",
+    "orderSoilAnalysis": "Telli mullaanalüüs {{number}}",
+    "cancelledOn": "Tühistatud kuupäeval: {{date}}",
+    "result_till": "Tulemused laekuvad",
+    "toUseAnalysisEnterCompanyData": "Analüüsifunktsiooni kasutamiseks peate täitma oma ettevõtte andmed.",
+    "needFastToday": "Kiiresti tänaseks",
+    "pick_up_from_laboratory": "Labori proov",
+    "pleaseFollowCurrentFertilizerRegulation": "Järgige palun kehtvat väetamise direktiivi.",
+    "sampleIsTakenAccordingToRegulation": "Näidis võetakse vastavalt kehtivale väetamise direktiivile."
+  },
+  "field": {
+    "number": "Põllu number",
+    "harvested": "Põld koristatud",
+    "noFieldsCreated": "Pole loodud põlde.",
+    "sendToArchive": "Arhiveeri põld",
+    "cultivate": "Hari põldu",
+    "harvested_on": "Saak koristati kuupäeval {{date}}",
+    "delete": "Kustuta põld",
+    "moveToArchive": "Põld viiakse arhiivi. (Farm -> arhiiv)",
+    "area": "Piirkond",
+    "when_was_the_field_harvested": "Millal on saak koristatud?",
+    "movedToArchive": "Põllu harimine on lõppenud (Arhiveeri).",
+    "cultivateAgain": "Põldu haritakse taas.",
+    "fields": "Põllud",
+    "coordinatesFromField": "Põllu koordinaadid: {{name}}",
+    "name": "Põllu nimi",
+    "doYouReallyWantToDelete": "Kas soovite kustutada selle põllu jäädavalt?",
+    "position_it": "Põllu asukoht",
+    "createNow": "Loo põld",
+    "toArchive": "Arhiiv",
+    "field": "Põld",
+    "created": "Põld on loodud."
+  },
+  "no_email_no_password_entered": "Te pole sisestanud e-posti ja parooli",
+  "pleaseWaitImageIsBeingUploaded": "Oodake, pilti laaditakse üles",
+  "x_employees": {
+    "one": "1 töötaja",
+    "other": "{{count}} töötajat",
+    "zero": "0 töötajat"
+  },
+  "company": {
+    "company": "Farm",
+    "edit": "Muuda farmi",
+    "create": "Loo",
+    "create_first_company": "Loo oma esimene farm",
+    "delete": "Kustuta farm",
+    "qs_number": "QS number",
+    "doYouWantToDeleteCompany": "Kas soovite tõesti farmi kustutada?"
+  },
+  "crop": {
+    "cancelCultivation": "Tühista planeeritud kultuur",
+    "plant": "Külva",
+    "from_field": "Saak põllult",
+    "catch_crop": "Vahekultuur",
+    "field_without_crop_since": "Põld on kasutamata alates {{date}}.",
+    "variety": "Sort",
+    "permanent": "Püsikultuuride",
+    "plannedSingle": "Planeeritud kultuur",
+    "commodityItem": "Poes",
+    "planted_on": "Külvatud",
+    "stockItem": "Laos",
+    "doYouReallyWantToDeleteCrop": "Kas soovite tõesti selle kultuuri kultuuri ajaloo ja kommentaarid eemaldada?",
+    "deleteAndWithout": "Eemalda kultuur (jäta põld ilma kultuurita)",
+    "resetAge": "Kultuuri vanuse loendur alustab nüüd 0 päevast",
+    "nothingHarvested": "Saaki pole koristatud.",
+    "plan": "Planeeri saaki",
+    "temporary": "Iga-sastane saak",
+    "when_was_crop_planted": "Millal kultuur külvati?",
+    "ageBeginsAt0": "Sea kultuuri vanuseks 0",
+    "planned": "Planeeritud kultuurid",
+    "doYourReallyWantToCancelCultivation": "Kas tõesti soovite planeeritud kultuuri tühistada?",
+    "pre": "Eelmine kultuur",
+    "type": "Kultuuri tüüp",
+    "origin": "Kultuuri päritolu",
+    "name": "Kultuur nimi",
+    "delete": "Kustuta kultuur",
+    "crop": "Kultuur",
+    "planned_crop_is_active": "Külvatud kultuur.",
+    "isActiveNow": "Kultuur on külvatud.",
+    "active": "Külvatud kultuurid",
+    "select_color": "Valige värv",
+    "without": "Ilma kultuurita",
+    "cropPlanning": "Kultuuri-planeerimine",
+    "age": "Kultuur vanus"
+  },
+  "fertilizer": {
+    "fertilization": "Väetamine",
+    "fertilizer": "Väetis",
+    "enter_nutrient_ratio": "Palun sisesta toitainesisaldus (%).",
+    "delete": "Kustuta väetamine",
+    "doYouReallyWantToDelete": "Kas soovite väetamise kindlasti kustutada?"
+  },
+  "company_name": "Farmi nimi",
+  "cancel": "Tühistage",
+  "country": "Riik",
+  "add": "Lisa",
+  "no_first_last_name_entered": "Palun sisestage oma ees- ja perekonnanimi.",
+  "deletePhoto": "Kustuta foto",
+  "date": "Kuupäev",
+  "invoice": {
+    "youDontHaveAddress": "Te pole sisestanud arveldusaadressi."
+  },
+  "saveChanges": "Salvesta muudatused?",
+  "account": {
+    "account": "Konto",
+    "avatar": {
+      "camera": "Tehke uus profiilipilt",
+      "upload": "Valige profiilipilt"
+    },
+    "edit": "Muuda kontot"
+  },
+  "waittime": {
+    "set": "Määra ooteaeg",
+    "waiting_period_in_days": "Ooteaeg päevades",
+    "application_day": "Kasutamise päev",
+    "delete": "Kustuta ooteaeg",
+    "doYouReallyWantToDelete": "Kas soovid ooteaja tõesti kustutada?",
+    "pesticide": "Pestitsiid",
+    "waitTime": "Ooteaeg"
+  },
+  "more": "Rohkem",
+  "position": "Asukoht",
+  "harvested": "Koristatud",
+  "friends": {
+    "shortShareMessage": "Vaata farmerjoe'd oma nutitelefoni jaoks. Laadi see alla {{url}}.",
+    "inform": "Räägi sõbrale sõpru",
+    "emailMessage": "Hei!\n\nMa laadisin just farmerjoe oma {{phone}}.\n\nfarmerjoe on lihtsasti kasutatav dokumentatsioonirakendus talunikele. Rakendusega saate näha oma põlde ja saaki kaardil, saate lisada märkusi pildi abil. Võite määrata ooteaegu ja salvestada väetisi.\n\nfarmerjoe on saadaval iPhone'i ja Androidi jaoks.\n\nPaigaldage see {{url}}."
+  },
+  "confrim_agb_data_security": "Klõpsates nupul \"Registreeri\", nõustute meie {0}-ga ja kinnitate, et olete meie {1} lugenud.",
+  "password": {
+    "current": "Praegune parool",
+    "password": "Parool",
+    "yourPasswordWasUpdated": "Teie parool uuendati.",
+    "notUpdated": "Parooli ei muudetud.",
+    "forgotten": "Unustasin salasõna",
+    "wrong": "Parool on vale. Kui te ei tea oma parooli, kasutage \"unustasin parooli\" valikut.",
+    "change": "Muuda parooli",
+    "dontMatch": "Paroolid ei ühti.",
+    "repeat": "Korrake parooli",
+    "updated": "Parool uuendatud.",
+    "min6char": "Parool peab olema vähemalt 6 tähemärki pikk."
+  },
+  "noSearchResults": "Tulemusi pole.",
+  "login": "Sisene",
+  "forgotten_password_mail_sent_to": "Oleme saatnud aadressile {0} e-kirja, millel on parooli lähtestamiseks link. Parooli lähtestamiseks järgige e-kirjas toodud juhiseid.",
+  "add_company": "Lisage farm",
+  "languages": {
+    "really_change": "Kas olete kindel, et soovite keelt keelde muuta {{language}}?",
+    "change": "Muuda keelt"
+  },
+  "theImageCouldntBeUploaded": "Pilti ei saanud üles laadida: {{error}}",
+  "sortFieldsBy": "Sorteeri",
+  "x_fields": {
+    "zero": "0 põld",
+    "other": "{{count}} põldu",
+    "one": "1 põld"
+  },
+  "yes": "Jah",
+  "warehouse": {
+    "add": "Lisa ladu",
+    "noWarehousesCreated": "Laohoonet pole loodud.",
+    "position_it": "Laohoone asukoht",
+    "warehouse": "Laohoone",
+    "name": "Laohoone nimi"
+  },
+  "employee": "Töötaja",
+  "archive": {
+    "archive": "Arhiiv",
+    "noFieldsInArchive": "Arhiivis pole põlde."
+  },
+  "save_as_favorite": "Salvesta lemmikuna",
+  "cover": {
+    "photo": "Kaanepilt",
+    "showCollegesWhatIsImportantToYou": "Näidake oma kolleege, mis on teile oluline"
+  },
+  "ok": "Hästi",
+  "call_laboratory": "Helistage laborisse",
+  "countries": {
+    "select": "Valige riik",
+    "all": "Kõik riigid"
+  },
+  "analysis_plural": "Analüüsid",
+  "app": {
+    "rate": "Hinda rakendust"
+  },
+  "dontKnowHowToOpenUrl": "Nimetatud URL-i ei saa avada {{url}}",
+  "zip": "Postiindeks",
+  "invoice_address": "Arveldusaadress",
+  "logout": "Logi välja",
+  "employees": {
+    "plural": "Töötajad",
+    "admin": "Administraator",
+    "manage": "Halda kasutajaid",
+    "adminRWD": "Administraator (loe, kirjuta, kustuta)",
+    "invitationSentOn": "Kutse saadeti {{date}}",
+    "invitrationRejectedOn": "Kutse lükati tagasi {{date}}"
+  },
+  "search": "Otsing",
+  "satellite": "Satelliit",
+  "hybrid": "Hübriid",
+  "name": "Nimi",
+  "agb": "Tingimused",
+  "note": "Märkused",
+  "please_correct_your_entry": "Palun parandage oma kirje",
+  "connecting": "Ühendamine",
+  "email_already_in_use": "Sisestatud e-posti aadressi kasutab juba teine ​​konto.",
+  "version": "Versioon",
+  "profile": {
+    "reallyLogout": "Kas olete kindel, et soovite välja logida?"
+  },
+  "back": "Tagasi",
+  "last_name": "Perekonnanimi",
+  "mobile_phone": "Mobiiltelefon",
+  "wine_fruit": "Viinamarjad, puuviljad",
+  "enter_address": "Sisestage aadress",
+  "favorites": "Lemmikud",
+  "legal_data_security": "Andmete turvalisus",
+  "coordinates": "Koordinaadid",
+  "deletePermenantly": "Kustuta jäädavalt",
+  "comment": {
+    "fromField": "Märkused põllult: {{name}}",
+    "doYouReallyWantToDelete": "Kas soovite tõesti kommentaari kustutada?",
+    "delete": "Kustutage kommentaar"
+  },
+  "lastEntry": "Viimane sissekanne",
+  "deleteElement": "Kustutage element",
+  "delete": "Kustuta",
+  "current": "Praegune",
+  "email": "E-post",
+  "ggn_gln_number": "GGN / GLN number",
+  "phone": "Telefon",
+  "notes": "Märkmed",
+  "x_days": "{{days}} päeva",
+  "create_account": "Uus registreerumine",
+  "map": "Kaardid",
+  "maps": {
+    "pressToSetPin": "Vajutage kaardile asukoha nööpnõela paigaldamiseks."
+  },
+  "no_email_entered": "Te ei sisestanud e-posti aadressi.",
+  "camera": "Kaamera",
+  "areYouSureYouWantToDeleteElement": "Kas soovite tõesti objekti kustutada?",
+  "enter_notes_here": "Sisestage siia märkused",
+  "street": "Tänav",
+  "photoLibrary": "Fotokogu",
+  "save": "Salvesta",
+  "error": "Tõrge",
+  "first_name": "Eesnimi",
+  "request_new_password": "Taotle uut parooli",
+  "register": "Registreeru",
+  "phones": {
+    "enterNumber": "Sisestage oma telefoninumber"
+  },
+  "companies": "Farmid",
+  "uploadError": "Üleslaadimine ebaõnnestus",
+  "laboratory": "Laboratoorium",
+  "user_not_found": "Sisestatud e-posti aadressiga ei ole kasutajat.",
+  "settings": "Seaded",
+  "help": "Abi",
+  "position_company": "Farmi asukoht",
+  "copy": "Koopia",
+  "share": "Jaga",
+  "directions": "Juhised",
+  "first_last_name": "Ees- ja perekonnanimi",
+  "company_number": "Farmi number",
+  "select_field": "Vali põld",
+  "grains_vegetables": "Teravili, köögiviljad",
+  "no_password_entered": "Te ei ole parooli sisestanud.",
+  "language": "Keel",
+  "edit": "Muuda",
+  "change": "Muutus",
+  "contact": {
+    "dontDeleteData": "Palun ärge kustutage järgmisi andmeid. Me vajame neid, et süsteemis teid tuvastada. Nii võime teile pakkuda tõhusat ja kiiret abi.\n"
+  },
+  "no": "Ei",
+  "done": "Valmis",
+  "city": "Linn",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Taname teid, et valisite farmerjoe",
+        "description": "Nüüd saate lihtsalt ja efektiivselt oma toodangut optimeerida."
+      },
+      "slide2": {
+        "title": "Halda mitut farmi",
+        "description": "Hoidke lihtsalt oma farmides toimuval silm peal."
+      },
+      "slide3": {
+        "title": "Lihtne dokumenteerimine",
+        "description": "Kirjutage üles asjad, mis on teile tähtsad. Tehke pilte, mida tahate säilitada."
+      },
+      "slide4": {
+        "title": "Leidke lihtsasti oma põllud",
+        "description": "Saage koheselt ülevaade kõigist põldudest. Kasutage saagi vanuse ja ooteaja mahalugemist oma otsusteks."
+      },
+      "slide5": {
+        "title": "Telli analüüse",
+        "description": "Tellige analüüsid oma nutitelefoniga. Nende tulemused sisestatakse otseselt teie põllu dokumentatsiooni."
+      },
+      "slide6": {
+        "title": "Lisage oma töötajad",
+        "description": "Kasutage oma meeskonnajõudu paremaks töötamiseks."
+      },
+      "done": "Alustage nüüd"
+    },
+    "skip": "Jäta vahele"
+  },
+  "moments": {
+    "today": "Täna",
+    "days_ago": {
+      "one": "1 päev tagasi",
+      "other": "{{count}} päeva tagasi"
+    },
+    "in_days": {
+      "one": "1 päeva pärast",
+      "other": "{{count}} päeva pärast"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerjoe vajab teie asukohta",
+      "description": "farmerjoe'l ei ole hetkel luba saada juurdepääsu teie asukohale."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerjoe ei suuda määrata teie asukohta.",
+      "description": "Palun lülitage oma telefoni GPS sisse."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filter"
+}

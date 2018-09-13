@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "duomenų politiką",
+  "invites": {
+    "reject": "Atmesti",
+    "from": "Kvietimas iš {{name}}",
+    "accept": "Priimti"
+  },
+  "invalid_email": "Netinkamas el. pašto adresas.",
+  "analysis": {
+    "cancelAnalysis": "Atšaukti analizę",
+    "residue": "Liekanos",
+    "order": "Užsakymas",
+    "plantOrSowDate": "Sodinimo (sėjos) data",
+    "pleaseLabelProbe": "Pažymėkite zondą!",
+    "compostType": "Komposto tipas",
+    "compostAmountInTons": "Kiekis tonomis",
+    "compostApplicationYear": "Išbarstymo metai",
+    "profileNotComplete": "Naudotojo profilis nebaigtas.",
+    "comment": "Komentaras",
+    "thankYouForOrder": "{0} už užsakymą.",
+    "thankYou": "Dėkojame",
+    "after_harvest": "Po derliaus nuėmimo",
+    "commissionWithCharge": "Apmokestinamas užsakymas",
+    "productLabel": "Produkto etiketė",
+    "harvest_start": "Kada pradedamas derliaus nuėmimas?",
+    "before_harvest": "Prieš derliaus nuėmimą",
+    "analysisCancelledOn": "Analizę {{date}} {{time}} atšaukė {{user}}.",
+    "during_harvest": "Per derliaus nuėmimą",
+    "result_for": "Reikia",
+    "sample": "Mėginys",
+    "sample_taker": "Paėmė",
+    "sample_date": "Paimta",
+    "resultResidue": "Liekanų analizės rezultatas",
+    "mondayFriday": "Pirm.–penk.",
+    "questions": "Turite klausimų?",
+    "offer": "Pasiūlymas",
+    "number": "Analizės numeris",
+    "cancelled": "Atšaukta",
+    "result_for_analysis_from_ready": "Gauti {{date}} analizės rezultatai.",
+    "noCompanyAddress": "Nėra įmonės adreso.",
+    "ourOffers": "Siūloma analizė",
+    "compost": "Kompostas",
+    "analysis": "Analizė",
+    "cancel": "Atšaukti",
+    "results": "Rezultatai",
+    "orderAnalysisWithCommission": "Ar tikrai norite pateikti užsakymą?",
+    "toUserAnalysisEnterProfileData": "Kad galėtumėte naudoti analizės funkciją, turite pateikti visus reikalingus naudotojo duomenis.",
+    "outdoor": "Lauke",
+    "pick_up_service": "Prašyti paimti",
+    "orderSent": "Pateikti užsakymą",
+    "noResultsAvailable": "Zondo rezultatų nėra.",
+    "result": "Rezultatas",
+    "self_pick_up": "Savarankiškas mėginys",
+    "doYouReallyWantToCancelAnalysis": "Ar tikrai norite atšaukti analizę?",
+    "commission": "Užsakymas",
+    "bio": "Ekologiškas",
+    "ordered": "Užsakyta analizė",
+    "orderFrom": "Užsakymas pateiktas {{date}}",
+    "pending": "Laukiama",
+    "takeSampleForm": "Zondo tipas",
+    "questionsPleaseCall": "Kilus klausimų skambinkite.",
+    "soilAnalysis": "Dirvožemio analizė",
+    "orderResidue": "Liekanų analizės užsakymas",
+    "result_expected_on": "Rezultatus gauti tikimasi {{date}}",
+    "orderSoil": "Dirvožemio analizės užsakymas",
+    "conventional": "Tradicinis",
+    "residueAnalysis": "Liekanų analizė",
+    "input_in_database": "Pateikti į duomenų bazę",
+    "result_on": "Rezultatai",
+    "needFastTomorrow": "Skubiai rytoj",
+    "soil": "Dirvožemis",
+    "self_delivery": "Savarankiškas pristatymas",
+    "resultSoil": "Dirvožemio analizės rezultatas",
+    "greenhouse": "Šiltnamis",
+    "orderNumber": "Užsakymo numeris",
+    "orderSoilAnalysis": "Dirvožemio analizės užsakymas {{number}}",
+    "cancelledOn": "Atšaukta {{date}}",
+    "result_till": "Rezultatus tikimasi gauti iki",
+    "toUseAnalysisEnterCompanyData": "Norėdami naudoti analizės funkciją, pirmiausia užpildykite visus įmonės duomenis.",
+    "needFastToday": "Skubiai šiandien",
+    "pick_up_from_laboratory": "Laboratorijos mėginys",
+    "pleaseFollowCurrentFertilizerRegulation": "Laikykitės dabartinės trąšų direktyvos.",
+    "sampleIsTakenAccordingToRegulation": "Mėginys bus paimtas pagal dabartinės trąšų direktyvos reikalavimus."
+  },
+  "field": {
+    "number": "Lauko numeris",
+    "harvested": "Lauko derlius nuimtas",
+    "noFieldsCreated": "Laukų nesukurta.",
+    "sendToArchive": "Archyvuoti lauką",
+    "cultivate": "Apdirbti lauką",
+    "harvested_on": "Derlius nuimtas {{date}}",
+    "delete": "Ištrinti lauką",
+    "moveToArchive": "Laukas bus perkeltas į archyvą („Ūkis“ -> „Archyvas“)",
+    "area": "Plotas",
+    "when_was_the_field_harvested": "Kada buvo nuimtas derlius?",
+    "movedToArchive": "Lauko apdirbimas pasibaigė (archyvas).",
+    "cultivateAgain": "Laukas vėl apdirbamas.",
+    "fields": "Laukai",
+    "coordinatesFromField": "Lauko koordinatės: {{name}}",
+    "name": "Lauko pavadinimas",
+    "doYouReallyWantToDelete": "Ar tikrai norite visam laikui ištrinti šį lauką?",
+    "position_it": "Lauko vieta",
+    "createNow": "Kurti lauką dabar",
+    "toArchive": "Archyvas",
+    "field": "Laukas",
+    "created": "Laukas sukurtas."
+  },
+  "no_email_no_password_entered": "Neįvedėte el. pašto adreso ir slaptažodžio",
+  "pleaseWaitImageIsBeingUploaded": "Palaukite. Vaizdas įkeliamas.",
+  "x_employees": {
+    "one": "1 darbuot.",
+    "other": "{{count}} darbuot.",
+    "zero": "0 darbuot."
+  },
+  "company": {
+    "company": "Ūkis",
+    "edit": "Redaguoti ūkį",
+    "create": "Kurti",
+    "create_first_company": "Sukurkite pirmąjį ūkį",
+    "delete": "Ištrinti ūkį",
+    "qs_number": "QS numeris",
+    "doYouWantToDeleteCompany": "Ar tikrai norite ištrinti šį ūkį?"
+  },
+  "crop": {
+    "cancelCultivation": "Atšaukti planuotus pasėlius",
+    "plant": "Sodinti pasėlius",
+    "from_field": "Pasėliai iš lauko",
+    "catch_crop": "Tarpiniai pasėliai",
+    "field_without_crop_since": "Lauke nėra pasėlių nuo {{date}}.",
+    "variety": "Rūšis",
+    "permanent": "Daugiamečiai pasėliai",
+    "plannedSingle": "Planuojami pasėliai",
+    "commodityItem": "Parduotuvėje",
+    "planted_on": "Pasodinta",
+    "stockItem": "Sandėlyje",
+    "doYouReallyWantToDeleteCrop": "Ar tikrai norite ištrinti pasėlių istoriją, įskaitant visus komentarus?",
+    "deleteAndWithout": "Ištrinti pasėlius (palikti neapdirbtą)",
+    "resetAge": "Pasėlių amžius pradedamas nuo 0 dienų",
+    "nothingHarvested": "Jokių pasėlių derlius nenuimtas.",
+    "plan": "Planuoti pasėlius",
+    "temporary": "Vienmečiai pasėliai",
+    "when_was_crop_planted": "Kada buvo apdirbti pasėliai?",
+    "ageBeginsAt0": "Nustatyti pasėlių amžių kaip 0",
+    "planned": "Planuojami pasėliai",
+    "doYourReallyWantToCancelCultivation": "Ar tikrai norite atšaukti planuojamus pasėlius?",
+    "pre": "Ankstesni pasėliai",
+    "type": "Pasėlių tipas",
+    "origin": "Pasėlių kilmė",
+    "name": "Pasėlių pavadinimas",
+    "delete": "Ištrinti pasėlius",
+    "crop": "Pasėliai",
+    "planned_crop_is_active": "Pasodinti pasėliai.",
+    "isActiveNow": "Pasėliai pasodinti.",
+    "active": "Pasodinti pasėliai",
+    "select_color": "Pasirinkite spalvą",
+    "without": "Neapdirbtas",
+    "cropPlanning": "Pasėlių planavimas",
+    "age": "Pasėlių amžius"
+  },
+  "fertilizer": {
+    "fertilization": "Tręšimas",
+    "fertilizer": "Trąša",
+    "enter_nutrient_ratio": "Įveskite maisto medžiagų santykį (%).",
+    "delete": "Ištrinti tręšimą",
+    "doYouReallyWantToDelete": "Ar tikrai norite ištrinti tręšimą?"
+  },
+  "company_name": "Ūkio pavadinimas",
+  "cancel": "Atšaukti",
+  "country": "Šalis",
+  "add": "Pridėti",
+  "no_first_last_name_entered": "Įveskite savo vardą ir pavardę.",
+  "deletePhoto": "Ištrinti nuotrauką",
+  "date": "Data",
+  "invoice": {
+    "youDontHaveAddress": "Neįvedėte sąskaitų faktūrų adreso."
+  },
+  "saveChanges": "Išsaugoti pakeitimus?",
+  "account": {
+    "account": "Paskyra",
+    "avatar": {
+      "camera": "Fotografuoti naują profilio nuotrauką",
+      "upload": "Pasirinkti profilio nuotrauką"
+    },
+    "edit": "Redaguoti paskyrą"
+  },
+  "waittime": {
+    "set": "Nustatyti laukimo trukmę",
+    "waiting_period_in_days": "Laukimo trukmė dienomis",
+    "application_day": "Apdorojimo diena",
+    "delete": "Ištrinti laukimo trukmę",
+    "doYouReallyWantToDelete": "Ar tikrai norite ištrinti laukimo trukmę?",
+    "pesticide": "Pesticido pavadinimas",
+    "waitTime": "Laukimo laikotarpis"
+  },
+  "more": "Daugiau",
+  "position": "Vieta",
+  "harvested": "Derlius nuimtas",
+  "friends": {
+    "shortShareMessage": "Išbandykite „farmerJoe“ išmaniajame telefone. Nieko nelaukdami atsisiųskite iš {{url}}.",
+    "inform": "Pasakyti draugui",
+    "emailMessage": "Labas,\n\nką tik atsisiunčiau „farmerJoe“ savajam {{phone}}.\n\n„farmerJoe“ yra ūkininkams skirta ir lengvai naudojama dokumentacijos programa. Programoje galima matyti laukų ir pasėlių žemėlapį, pridėti pastabų su nuotrauka. Galima nustatyti laukimo trukmes ir registruoti trąšas.\n\n„farmerJoe“ skirta „iPhone“ ir „Android“.\n\nGalima įdiegti iš {{url}}."
+  },
+  "confrim_agb_data_security": "Spustelėdami „Kurti paskyrą“ sutinkate su mūsų {0} ir patvirtinkite, kad perskaitėte {1}.",
+  "password": {
+    "current": "Dabartinis slaptažodis",
+    "password": "Slaptažodis",
+    "yourPasswordWasUpdated": "Slaptažodis atnaujintas.",
+    "notUpdated": "Slaptažodis nebuvo pakeistas.",
+    "forgotten": "Pamiršote slaptažodį",
+    "wrong": "Slaptažodis neteisingas. Jei jo nežinote, spustelėkite nuorodą „Pamiršote slaptažodį“.",
+    "change": "Keisti slaptažodį",
+    "dontMatch": "Slaptažodžiai nesutampa.",
+    "repeat": "Pakartokite slaptažodį",
+    "updated": "Slaptažodis atnaujintas.",
+    "min6char": "Slaptažodį turi sudaryti bent 6 ženklai."
+  },
+  "noSearchResults": "Rezultatų nėra.",
+  "login": "Prisijungti",
+  "forgotten_password_mail_sent_to": "Išsiuntėme el. laišką adresu {0} su slaptažodžio nustatymo iš naujo nuoroda. Vadovaudamiesi el. laiške pateiktomis instrukcijomis iš naujo nustatykite slaptažodį.",
+  "add_company": "Pridėti ūkį",
+  "languages": {
+    "really_change": "Ar tikrai norite pakeisti kalbą į {{language}}?",
+    "change": "Keisti kalbą"
+  },
+  "theImageCouldntBeUploaded": "Vaizdo įkelti nepavyko: {{error}}",
+  "sortFieldsBy": "Rikiuoti pagal",
+  "x_fields": {
+    "zero": "0 lauk.",
+    "other": "{{count}} lauk.",
+    "one": "1 lauk."
+  },
+  "yes": "Taip",
+  "warehouse": {
+    "add": "Pridėti sandėlį",
+    "noWarehousesCreated": "Sandėlių nesukurta.",
+    "position_it": "Sandėlio vieta",
+    "warehouse": "Sandėlis",
+    "name": "Sandėlio pavadinimas"
+  },
+  "employee": "Darbuotojas",
+  "archive": {
+    "archive": "Archyvas",
+    "noFieldsInArchive": "Laukų archyve nėra."
+  },
+  "save_as_favorite": "Išsaugoti kaip mėgstamą",
+  "cover": {
+    "photo": "Viršelio nuotrauka",
+    "showCollegesWhatIsImportantToYou": "Parodykite kolegoms, kas jums svarbu"
+  },
+  "ok": "Gerai",
+  "call_laboratory": "Skambinti į laboratoriją",
+  "countries": {
+    "select": "Pasirinkite šalį",
+    "all": "Visos šalys"
+  },
+  "analysis_plural": "Analizės",
+  "app": {
+    "rate": "Įvertinti programą"
+  },
+  "dontKnowHowToOpenUrl": "Nepavyksta atidaryti URL {{url}}",
+  "zip": "Pašto indeksas",
+  "invoice_address": "Sąskaitų faktūrų adresas",
+  "logout": "Atsijungti",
+  "employees": {
+    "plural": "Darbuotojai",
+    "admin": "Administratorius",
+    "manage": "Valdyti darbuotojus",
+    "adminRWD": "Administratorius (skaityti, rašyti, ištrinti)",
+    "invitationSentOn": "Kvietimas išsiųstas {{date}}",
+    "invitrationRejectedOn": "Kvietimas atmestas {{date}}"
+  },
+  "search": "Paieška",
+  "satellite": "Palydovas",
+  "hybrid": "Hibridinis",
+  "name": "Pavadinimas",
+  "agb": "sąlygomis",
+  "note": "Pastabos",
+  "please_correct_your_entry": "Ištaisykite įrašą",
+  "connecting": "Jungiamasi",
+  "email_already_in_use": "El. pašto adresas jau naudojamas kitoje paskyroje.",
+  "version": "Versija",
+  "profile": {
+    "reallyLogout": "Ar tikrai norite atsijungti?"
+  },
+  "back": "Atgal",
+  "last_name": "Pavardė",
+  "mobile_phone": "Mobiliojo tel. nr.",
+  "wine_fruit": "Vynuogės, vaisiai",
+  "enter_address": "Įveskite adresą",
+  "favorites": "Mėgstami",
+  "legal_data_security": "Teisinė informacija ir duomenų saugumas",
+  "coordinates": "Koordinatės",
+  "deletePermenantly": "Ištrinti visam laikui",
+  "comment": {
+    "fromField": "Komentaras iš lauko: {{name}}",
+    "doYouReallyWantToDelete": "Ar tikrai norite ištrinti komentarą?",
+    "delete": "Ištrinti komentarą"
+  },
+  "lastEntry": "Paskutinis įrašas",
+  "deleteElement": "Ištrinti elementą",
+  "delete": "Ištrinti",
+  "current": "Dabartinis",
+  "email": "El. pašto adresas",
+  "ggn_gln_number": "GGN / GLN",
+  "phone": "Tel.",
+  "notes": "Pastabos",
+  "x_days": "{{days}} d.",
+  "create_account": "Nauja registracija",
+  "map": "Žemėlapiai",
+  "maps": {
+    "pressToSetPin": "Norėdami nustatyti vietos smeigtuką, spustelėkite žemėlapyje."
+  },
+  "no_email_entered": "Neįvedėte el. pašto adreso.",
+  "camera": "Fotoaparatas",
+  "areYouSureYouWantToDeleteElement": "Ar tikrai norite ištrinti šį elementą?",
+  "enter_notes_here": "Įveskite komentarus čia",
+  "street": "Gatvė",
+  "photoLibrary": "Nuotraukų biblioteka",
+  "save": "Išsaugoti",
+  "error": "Klaida",
+  "first_name": "Vardas",
+  "request_new_password": "Prašyti naujo slaptažodžio",
+  "register": "Kurti paskyrą",
+  "phones": {
+    "enterNumber": "Įveskite savo telefono numerį"
+  },
+  "companies": "Ūkiai",
+  "uploadError": "Įkelti nepavyko",
+  "laboratory": "Laboratorija",
+  "user_not_found": "Pagal pateiktą el. pašto adresą naudotojas nerastas.",
+  "settings": "Nustatymai",
+  "help": "Pagalba",
+  "position_company": "Ūkio vieta",
+  "copy": "Kopijuoti",
+  "share": "Bendrinti",
+  "directions": "Nurodymai",
+  "first_last_name": "Vardas ir pavardė",
+  "company_number": "Ūkio numeris",
+  "select_field": "Pasirinkite lauką",
+  "grains_vegetables": "Javai, daržovės",
+  "no_password_entered": "Neįvedėte slaptažodžio.",
+  "language": "Kalba",
+  "edit": "Redaguoti",
+  "change": "Keisti",
+  "contact": {
+    "dontDeleteData": "Neištrinkite toliau nurodytų duomenų. Mums jų reikia, kad galėtume jus tinkamai identifikuoti sistemoje. Taip galime jums pasiūlyti geresnę pagalbą."
+  },
+  "no": "Ne",
+  "done": "Atlikta",
+  "city": "Miestas",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Dėkojame, kad pasirinkote „farmerJoe“",
+        "description": "Dabar galite lengvai ir efektyviai optimizuoti veiklą."
+      },
+      "slide2": {
+        "title": "Tvarkykite keletą ūkių",
+        "description": "Lengvai sekite, kas vyksta jūsų ūkiuose."
+      },
+      "slide3": {
+        "title": "Lengvai naudojama dokumentacija",
+        "description": "Užsirašykite, kas jums svarbu. Darykite nuotraukas, kurias norėtumėte išsaugoti."
+      },
+      "slide4": {
+        "title": "Lengvai raskite savo laukus",
+        "description": "Akimirksniu pamatykite visų laukų apžvalgą. Kad būtų lengviau priimti sprendimus, naudokitės pasėlių amžiaus ir laukimo trukmės atgaline atskaita."
+      },
+      "slide5": {
+        "title": "Užsakykite analizes",
+        "description": "Išmaniuoju telefonu užsakykite analizes. Jų rezultatai įvedami tiesiai į jūsų lauko dokumentaciją."
+      },
+      "slide6": {
+        "title": "Pridėkite darbuotojų",
+        "description": "Kad geriau dirbtumėte, pasitelkite komandą."
+      },
+      "done": "Pradėti dabar pat"
+    },
+    "skip": "Praleisti"
+  },
+  "moments": {
+    "today": "Šiandien",
+    "days_ago": {
+      "one": "prieš 1 d.",
+      "other": "prieš {{count}} d."
+    },
+    "in_days": {
+      "one": "po 1 d.",
+      "other": "po {{count}} d."
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "Programai „farmerJoe“ reikia jūsų buvimo vietos",
+      "description": "Šiuo metu programai „farmerJoe“ neleidžiama gauti jūsų buvimo vietos duomenų."
+    },
+    "cantDetermineLocation": {
+      "title": "Programa „farmerJoe“ negali nustatyti jūsų buvimo vietos.",
+      "description": "Įjunkite telefono GPS."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filtruoti"
+}

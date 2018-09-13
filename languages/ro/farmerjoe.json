@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Politica de date",
+  "invites": {
+    "reject": "Refuză",
+    "from": "Invitație de la {{name}}",
+    "accept": "Acceptă"
+  },
+  "invalid_email": "Adresa de e-mail nu este validă.",
+  "analysis": {
+    "cancelAnalysis": "Anulați analiza",
+    "residue": "Reziduuri",
+    "order": "Comandă",
+    "plantOrSowDate": "Dată plantare/însămânțare",
+    "pleaseLabelProbe": "Etichetați eșantionul!",
+    "compostType": "Tip compost",
+    "compostAmountInTons": "Cantitate în tone",
+    "compostApplicationYear": "An aplicare",
+    "profileNotComplete": "Profilul dvs. de utilizator nu este complet.",
+    "comment": "Comentariu",
+    "thankYouForOrder": "{0} pentru comanda dvs.",
+    "thankYou": "Vă mulțumim",
+    "after_harvest": "După recoltare",
+    "commissionWithCharge": "Comandă taxabilă",
+    "productLabel": "Eticheta produsului",
+    "harvest_start": "Recoltarea începe pe?",
+    "before_harvest": "Înainte de recoltare",
+    "analysisCancelledOn": "Analiza a fost anulată pe {{date}}, la ora {{time}}, de către {{user}}.",
+    "during_harvest": "În timpul recoltării",
+    "result_for": "Solicitat de",
+    "sample": "Probă",
+    "sample_taker": "Prelevat de",
+    "sample_date": "Prelevat la",
+    "resultResidue": "Rezultatul analizei reziduurilor",
+    "mondayFriday": "Luni-Vineri",
+    "questions": "Întrebări?",
+    "offer": "Ofertă",
+    "number": "Numărul analizei",
+    "cancelled": "Anulat",
+    "result_for_analysis_from_ready": "Rezultatele analizei dvs. din {{date}} sunt acum disponibile.",
+    "noCompanyAddress": "Nicio adresă a companiei.",
+    "ourOffers": "Oferta de analiză",
+    "compost": "Compost",
+    "analysis": "Analiză",
+    "cancel": "Anulează",
+    "results": "Rezultate",
+    "orderAnalysisWithCommission": "Sigur doriți să comandați?",
+    "toUserAnalysisEnterProfileData": "Pentru a utiliza funcția de analiză, trebuie să furnizați toate datele de utilizator solicitate.",
+    "outdoor": "În aer liber",
+    "pick_up_service": "Solicitare colectare",
+    "orderSent": "Plasați comanda",
+    "noResultsAvailable": "Nu există rezultate disponibile pentru probe.",
+    "result": "Rezultat",
+    "self_pick_up": "Recoltare personală",
+    "doYouReallyWantToCancelAnalysis": "Sigur doriți să anulați analiza?",
+    "commission": "Comandă",
+    "bio": "Organică",
+    "ordered": "Analiza comandată",
+    "orderFrom": "Comandă efectuată pe {{date}}",
+    "pending": "În așteptare",
+    "takeSampleForm": "Tip probă",
+    "questionsPleaseCall": "Pentru întrebări, vă rugăm să sunați.",
+    "soilAnalysis": "Analiza solului",
+    "orderResidue": "Comandați analiza reziduurilor",
+    "result_expected_on": "Rezultate așteptate pe: {{date}}",
+    "orderSoil": "Comandați analiza solului",
+    "conventional": "Convențională",
+    "residueAnalysis": "Analiza reziduurilor",
+    "input_in_database": "Introducere în baza de date",
+    "result_on": "Rezultat pe",
+    "needFastTomorrow": "Urgent mâine",
+    "soil": "Sol",
+    "self_delivery": "Livrare personală",
+    "resultSoil": "Rezultatul analizei solului",
+    "greenhouse": "Seră",
+    "orderNumber": "Număr comandă",
+    "orderSoilAnalysis": "Comandați analiza solului {{number}}",
+    "cancelledOn": "Anulat la: {{date}}",
+    "result_till": "Rezultate așteptate pe",
+    "toUseAnalysisEnterCompanyData": "Pentru a utiliza funcția de analiză, trebuie mai întâi să completați toate datele companiei.",
+    "needFastToday": "Urgent astăzi",
+    "pick_up_from_laboratory": "Recoltare laborator",
+    "pleaseFollowCurrentFertilizerRegulation": "Respectați directiva în vigoare privind îngrășămintele.",
+    "sampleIsTakenAccordingToRegulation": "Proba va fi recoltată în conformitate cu directiva în vigoare privind îngrășămintele."
+  },
+  "field": {
+    "number": "Număr câmp",
+    "harvested": "Câmp recoltat",
+    "noFieldsCreated": "Nu au fost create câmpuri.",
+    "sendToArchive": "Arhivați câmpul",
+    "cultivate": "Cultivați câmpul",
+    "harvested_on": "Cultură recoltată pe {{date}}",
+    "delete": "Ștergeți câmpul",
+    "moveToArchive": "Câmpul va fi mutat în arhivă (Fermă -> Arhivă)",
+    "area": "Supraf.",
+    "when_was_the_field_harvested": "Când a fost recoltată cultura?",
+    "movedToArchive": "Cultivare câmp încheiată (Arhivă).",
+    "cultivateAgain": "Câmpul este cultivat din nou.",
+    "fields": "domenii",
+    "coordinatesFromField": "Coordonatele câmpului: {{name}}",
+    "name": "Denumire câmp",
+    "doYouReallyWantToDelete": "Sigur doriți să ștergeți definitiv acest câmp?",
+    "position_it": "Localizare câmp",
+    "createNow": "Creați acum un câmp",
+    "toArchive": "Arhivă",
+    "field": "Câmp",
+    "created": "Câmp creat."
+  },
+  "no_email_no_password_entered": "Nu ați introdus un e-mail și o parolă",
+  "pleaseWaitImageIsBeingUploaded": "Așteptați; imaginea este încărcată",
+  "x_employees": {
+    "one": "1 angajat",
+    "other": "{{count}} angajați",
+    "zero": "0 angajați"
+  },
+  "company": {
+    "company": "Fermă",
+    "edit": "Editare fermă",
+    "create": "Creează",
+    "create_first_company": "Creați-vă prima fermă",
+    "delete": "Ștergere fermă",
+    "qs_number": "Număr QS",
+    "doYouWantToDeleteCompany": "Sigur doriți să ștergeți această fermă?"
+  },
+  "crop": {
+    "cancelCultivation": "Anulare cultură planificată",
+    "plant": "Plantare cultură",
+    "from_field": "Cultură de câmp",
+    "catch_crop": "Cultură secundară",
+    "field_without_crop_since": "Câmpul nu mai este cultivat din {{date}}.",
+    "variety": "Soi",
+    "permanent": "Cultură permanentă",
+    "plannedSingle": "Cultură planificată",
+    "commodityItem": "Din magazin",
+    "planted_on": "Plantat pe",
+    "stockItem": "Din depozit",
+    "doYouReallyWantToDeleteCrop": "Sigur doriți să ștergeți istoricul culturilor, inclusiv toate comentariile pentru această cultură?",
+    "deleteAndWithout": "Ștergeți cultura (lăsați necultivat)",
+    "resetAge": "Vârsta culturii începe acum la 0 zile",
+    "nothingHarvested": "Nu s-au recoltat culturi.",
+    "plan": "Planificarea culturii",
+    "temporary": "Cultură anuală",
+    "when_was_crop_planted": "Când a fost cultivată plantația?",
+    "ageBeginsAt0": "Setați vârsta culturii la 0",
+    "planned": "Culturi planificate",
+    "doYourReallyWantToCancelCultivation": "Sigur doriți să anulați cultura planificată?",
+    "pre": "Precultură",
+    "type": "Tipul culturii",
+    "origin": "Originea culturii",
+    "name": "Denumire cultură",
+    "delete": "Ștergere cultură",
+    "crop": "Cultură",
+    "planned_crop_is_active": "Cultură plantată.",
+    "isActiveNow": "Cultura a fost plantată.",
+    "active": "Culturi plantate",
+    "select_color": "Selectați culoarea",
+    "without": "Necultivat",
+    "cropPlanning": "Planificare cultură",
+    "age": "Vârstă cultură"
+  },
+  "fertilizer": {
+    "fertilization": "Fertilizare",
+    "fertilizer": "Îngrășământ",
+    "enter_nutrient_ratio": "Introduceți procentul de nutrienți (%).",
+    "delete": "Ștergere fertilizare",
+    "doYouReallyWantToDelete": "Sigur doriți să ștergeți fertilizarea?"
+  },
+  "company_name": "Denumire fermă",
+  "cancel": "Anulează",
+  "country": "Țară",
+  "add": "Adaugă",
+  "no_first_last_name_entered": "Introduceți numele și prenumele dvs.",
+  "deletePhoto": "Ștergeți imaginea",
+  "date": "Data",
+  "invoice": {
+    "youDontHaveAddress": "Nu ați introdus o adresă de facturare."
+  },
+  "saveChanges": "Salvați modificările?",
+  "account": {
+    "account": "Cont",
+    "avatar": {
+      "camera": "Faceți o nouă fotografie de profil",
+      "upload": "Selectați fotografia de profil"
+    },
+    "edit": "Editare cont"
+  },
+  "waittime": {
+    "set": "Setare timp de așteptare",
+    "waiting_period_in_days": "Timp de așteptare în zile",
+    "application_day": "Zi aplicare",
+    "delete": "Ștergere timp de așteptare",
+    "doYouReallyWantToDelete": "Sigur doriți să ștergeți timpul de așteptare?",
+    "pesticide": "Denumire pesticid",
+    "waitTime": "Perioadă de așteptare"
+  },
+  "more": "Mai mult",
+  "position": "Poziție",
+  "harvested": "Recoltat",
+  "friends": {
+    "shortShareMessage": "Încercați aplicația farmerJoe pentru smartphone. Descărcați-o astăzi de la adresa {{url}}.",
+    "inform": "Spuneți unui prieten",
+    "emailMessage": "Salut,\n\nTocmai am descărcat farmerJoe pentru {{phone}}.\n\nfarmerJoe este o aplicație de documentare pentru agricultori, ușor de utilizat. Aplicația te ajută să îți vezi câmpurile și recoltele pe o hartă și îți permite să adaugi note și fotografii. De asemenea, poți seta perioade de așteptare și îți poți înregistra îngrășămintele.\n\nAplicația farmerJoe este disponibilă pentru iPhone și Android.\n\nInstaleaz-o de la adresa {{url}}."
+  },
+  "confrim_agb_data_security": "Făcând clic pe Creare cont, sunteți de acord cu {0} noastre și confirmați că ați citit {1}.",
+  "password": {
+    "current": "Parola curentă",
+    "password": "Parolă",
+    "yourPasswordWasUpdated": "Parola dvs. a fost actualizată.",
+    "notUpdated": "Parola nu a fost modificată.",
+    "forgotten": "Parolă uitată",
+    "wrong": "Parola nu este corectă. Dacă nu o știți, utilizați linkul Parolă uitată.",
+    "change": "Modificare parolă",
+    "dontMatch": "Parolele nu se potrivesc.",
+    "repeat": "Reintroduceți parola",
+    "updated": "Parolă actualizată.",
+    "min6char": "Parola trebuie să conțină cel puțin 6 caractere."
+  },
+  "noSearchResults": "Niciun rezultat.",
+  "login": "Conectare",
+  "forgotten_password_mail_sent_to": "V-am trimis un e-mail la adresa {0}, cu un link pentru a vă reseta parola. Urmați instrucțiunile din e-mail pentru a vă reseta parola.",
+  "add_company": "Adăugare fermă",
+  "languages": {
+    "really_change": "Sigur doriți să schimbați limba la {{language}}?",
+    "change": "Schimbați limba"
+  },
+  "theImageCouldntBeUploaded": "Imaginea nu a putut fi încărcată: {{error}}",
+  "sortFieldsBy": "Sortare după",
+  "x_fields": {
+    "zero": "0 (de) câmpuri",
+    "other": "{{count}} (de) câmpuri",
+    "one": "1 câmp"
+  },
+  "yes": "Da",
+  "warehouse": {
+    "add": "Adăugare depozit",
+    "noWarehousesCreated": "Niciun depozit creat.",
+    "position_it": "Localizare depozit",
+    "warehouse": "Depozit",
+    "name": "Denumire depozit"
+  },
+  "employee": "Angajat",
+  "archive": {
+    "archive": "Arhivă",
+    "noFieldsInArchive": "Niciun câmp arhivat."
+  },
+  "save_as_favorite": "Salvați ca favorit",
+  "cover": {
+    "photo": "Fotografie de copertă",
+    "showCollegesWhatIsImportantToYou": "Arătați-le colegilor dvs. ce vă interesează"
+  },
+  "ok": "OK",
+  "call_laboratory": "Sunați la laborator",
+  "countries": {
+    "select": "Selectare țară",
+    "all": "Toate țările"
+  },
+  "analysis_plural": "Analize",
+  "app": {
+    "rate": "Evaluați aplic."
+  },
+  "dontKnowHowToOpenUrl": "Adresa URL {{url}} nu poate fi deschisă",
+  "zip": "Cod",
+  "invoice_address": "Adresa de facturare",
+  "logout": "Deconectare",
+  "employees": {
+    "plural": "Angajați",
+    "admin": "Admin",
+    "manage": "Gestionare angajați",
+    "adminRWD": "Administrator (citiți, scrieți, ștergeți)",
+    "invitationSentOn": "Invitație trimisă pe {{date}}",
+    "invitrationRejectedOn": "Invitație refuzată pe {{date}}"
+  },
+  "search": "Căutare",
+  "satellite": "Satelit",
+  "hybrid": "Hibrid",
+  "name": "Nume",
+  "agb": "Condițiile",
+  "note": "Note",
+  "please_correct_your_entry": "Corectați-vă intrarea",
+  "connecting": "Se conectează",
+  "email_already_in_use": "Adresa de e-mail este deja utilizată de un alt cont.",
+  "version": "Versiune",
+  "profile": {
+    "reallyLogout": "Sigur doriți să vă deconectați?"
+  },
+  "back": "Înapoi",
+  "last_name": "Nume",
+  "mobile_phone": "Mobil",
+  "wine_fruit": "Struguri, fructe",
+  "enter_address": "Introduceți adresa",
+  "favorites": "Favorite",
+  "legal_data_security": "Aspecte juridice și securitatea datelor",
+  "coordinates": "Coordonate",
+  "deletePermenantly": "Ștergeți definitiv",
+  "comment": {
+    "fromField": "Comentariu pentru câmpul: {{name}}",
+    "doYouReallyWantToDelete": "Sigur doriți să ștergeți comentariul?",
+    "delete": "Ștergere comentariu"
+  },
+  "lastEntry": "Ultima intrare",
+  "deleteElement": "Ștergeți elementul",
+  "delete": "Șterge",
+  "current": "În prezent",
+  "email": "E-mail",
+  "ggn_gln_number": "GGN/GLN",
+  "phone": "Tel.",
+  "notes": "Note",
+  "x_days": "{{days}} z",
+  "create_account": "Înregistrare nouă",
+  "map": "Hărți",
+  "maps": {
+    "pressToSetPin": "Atingeți pe hartă pentru a marca locul."
+  },
+  "no_email_entered": "Nu ați introdus o adresă de e-mail.",
+  "camera": "Cameră",
+  "areYouSureYouWantToDeleteElement": "Sigur doriți să ștergeți acest element?",
+  "enter_notes_here": "Introduceți comentarii aici",
+  "street": "Strada",
+  "photoLibrary": "Bibliotecă foto",
+  "save": "Salvează",
+  "error": "Eroare",
+  "first_name": "Prenume",
+  "request_new_password": "Solicitare parolă nouă",
+  "register": "Creare cont",
+  "phones": {
+    "enterNumber": "Introduceți numărul de telefon"
+  },
+  "companies": "Ferme",
+  "uploadError": "Încărcarea nu a reușit",
+  "laboratory": "Laborator",
+  "user_not_found": "Nu există niciun utilizator cu adresa de e-mail furnizată.",
+  "settings": "Setări",
+  "help": "Ajutor",
+  "position_company": "Localizare fermă",
+  "copy": "Copiere",
+  "share": "Partajare",
+  "directions": "Îndrumări",
+  "first_last_name": "Nume complet",
+  "company_number": "Număr fermă",
+  "select_field": "Selectare câmp",
+  "grains_vegetables": "Cereale, legume",
+  "no_password_entered": "Nu ați introdus o parolă.",
+  "language": "Limbă",
+  "edit": "Editare",
+  "change": "Modifică",
+  "contact": {
+    "dontDeleteData": "Nu ștergeți următoarele date. Avem nevoie de acestea pentru a vă identifica în mod corect în sistem. Astfel, vă vom putea oferi asistență îmbunătățită."
+  },
+  "no": "Nu",
+  "done": "Gata",
+  "city": "Oraș",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Vă mulțumim că ați ales farmerJoe",
+        "description": "Acum puteți să vă organizați producția simplu și eficient."
+      },
+      "slide2": {
+        "title": "Administrați mai multe ferme",
+        "description": "Rămâneți la curent cu tot ce se întâmplă în fermele dvs."
+      },
+      "slide3": {
+        "title": "Documentare simplă",
+        "description": "Notați lucrurile importante și faceți fotografii pe care le puteți păstra."
+      },
+      "slide4": {
+        "title": "Găsiți-vă cu ușurință câmpurile",
+        "description": "Obțineți instantaneu o privire de ansamblu asupra tuturor câmpurilor. Utilizați vârsta culturilor și durata de așteptare pentru luarea deciziilor."
+      },
+      "slide5": {
+        "title": "Comandați analize",
+        "description": "Comandați analize de pe smartphone. Rezultatele acestora sunt transmise direct în documentația aferentă câmpului."
+      },
+      "slide6": {
+        "title": "Adăugați angajați",
+        "description": "Bazați-vă pe echipă pentru a obține rezultate mai bune."
+      },
+      "done": "Începeți acum"
+    },
+    "skip": "Omitere"
+  },
+  "moments": {
+    "today": "Astăzi",
+    "days_ago": {
+      "one": "Ieri",
+      "other": "Cu {{count}} zile în urmă"
+    },
+    "in_days": {
+      "one": "Mâine",
+      "other": "în {{count}} zile"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerJoe dorește să vă acceseze locația",
+      "description": "farmerJoe nu are momentan drepturi de acces la locație."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe nu vă poate stabili locația.",
+      "description": "Activați funcția GPS a telefonului."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filtru"
+}

@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Gegevensbeleid",
+  "invites": {
+    "reject": "Weigeren",
+    "from": "Uitnodiging van {{name}}",
+    "accept": "Accepteren"
+  },
+  "invalid_email": "Het e-mailadres is ongeldig.",
+  "analysis": {
+    "cancelAnalysis": "Analyse annuleren",
+    "residue": "Residu",
+    "order": "Bestellen",
+    "plantOrSowDate": "Plant-/zaaidatum",
+    "pleaseLabelProbe": "Label het monster!",
+    "compostType": "Composttype",
+    "compostAmountInTons": "Hoeveelheid in tonnen",
+    "compostApplicationYear": "Uitvoeringsjaar",
+    "profileNotComplete": "Uw gebruikersprofiel is niet compleet.",
+    "comment": "Opmerking",
+    "thankYouForOrder": "{0} voor uw bestelling.",
+    "thankYou": "Bedankt",
+    "after_harvest": "Na de oogst",
+    "commissionWithCharge": "Betaalde opdracht",
+    "productLabel": "Productetiket",
+    "harvest_start": "Oogst begint?",
+    "before_harvest": "Vóór de oogst",
+    "analysisCancelledOn": "De analyse is geannuleerd op {{date}} om {{time}} door {{user}}.",
+    "during_harvest": "Tijens de oogst",
+    "result_for": "Vereist door",
+    "sample": "Monster",
+    "sample_taker": "Genomen door",
+    "sample_date": "Genomen op",
+    "resultResidue": "Resultaat residuanalyse",
+    "mondayFriday": "Ma-vr",
+    "questions": "Vragen?",
+    "offer": "Aanbod",
+    "number": "Analysenummer",
+    "cancelled": "Geannuleerd",
+    "result_for_analysis_from_ready": "Het resultaat van uw analyse van {{date}} is nu beschikbaar.",
+    "noCompanyAddress": "Geen bedrijfsadres.",
+    "ourOffers": "Aangeboden analyse",
+    "compost": "Compost",
+    "analysis": "Analyse",
+    "cancel": "Annuleren",
+    "results": "Resultaat",
+    "orderAnalysisWithCommission": "Weet u zeker dat u wilt bestellen?",
+    "toUserAnalysisEnterProfileData": "Om de analysefunctie te gebruiken, moet u alle gevraagde gebruikersgegevens invullen.",
+    "outdoor": "Open lucht",
+    "pick_up_service": "Laten ophalen",
+    "orderSent": "Bestelling plaatsen",
+    "noResultsAvailable": "Geen monsterresultaten beschikbaar.",
+    "result": "Resultaat",
+    "self_pick_up": "Zelf monster",
+    "doYouReallyWantToCancelAnalysis": "Wilt u de analyse echt annuleren?",
+    "commission": "Bestellen",
+    "bio": "Biologisch",
+    "ordered": "Analyse besteld",
+    "orderFrom": "Besteld op {{date}}",
+    "pending": "Lopend",
+    "takeSampleForm": "Monstertype",
+    "questionsPleaseCall": "Voor vragen kunt u bellen.",
+    "soilAnalysis": "Bodemanalyse",
+    "orderResidue": "Residuanalyse bestellen",
+    "result_expected_on": "Resultaten verwacht op: {{date}}",
+    "orderSoil": "Bodemanalyse bestellen",
+    "conventional": "Conventioneel",
+    "residueAnalysis": "Residuanalyse",
+    "input_in_database": "Invoeren in database",
+    "result_on": "Resultaten op",
+    "needFastTomorrow": "Spoed morgen",
+    "soil": "Bodem",
+    "self_delivery": "Zelf bezorgen",
+    "resultSoil": "Resultaat bodemanalyse",
+    "greenhouse": "Kas",
+    "orderNumber": "Bestelnummer",
+    "orderSoilAnalysis": "Bodemanalyse {{number}} bestellen",
+    "cancelledOn": "Geannuleerd op: {{date}}",
+    "result_till": "Resultaten verwacht op",
+    "toUseAnalysisEnterCompanyData": "Om de analysefunctie te gebruiken, moet u eerst al uw bedrijfsgegevens invullen.",
+    "needFastToday": "Spoed vandaag",
+    "pick_up_from_laboratory": "Labmonster",
+    "pleaseFollowCurrentFertilizerRegulation": "Volg de actuele mestrichtlijn.",
+    "sampleIsTakenAccordingToRegulation": "Het monster wordt genomen volgens de actuele mestrichtlijn."
+  },
+  "field": {
+    "number": "Veldnummer",
+    "harvested": "Oogstveld",
+    "noFieldsCreated": "Geen velden aangemaakt.",
+    "sendToArchive": "Veld archiveren",
+    "cultivate": "Veld bebouwen",
+    "harvested_on": "Gewas geoogst op {{date}}",
+    "delete": "Veld verwijderen",
+    "moveToArchive": "Het veld wordt verplaatst naar het archief. (Boerderij -> Archief)",
+    "area": "Oppervlakte",
+    "when_was_the_field_harvested": "Wanneer is het gewas geoogst?",
+    "movedToArchive": "Veldbeheer beëindigd (archief).",
+    "cultivateAgain": "Het veld wordt opnieuw bebouwd.",
+    "fields": "Velden",
+    "coordinatesFromField": "Coördinaten van het veld: {{name}}",
+    "name": "Veldnaam",
+    "doYouReallyWantToDelete": "Wilt u dit veld echt permanent verwijderen?",
+    "position_it": "Veldlocatie",
+    "createNow": "Nu veld aanmaken",
+    "toArchive": "Archief",
+    "field": "Veld",
+    "created": "Het veld is aangemaakt."
+  },
+  "no_email_no_password_entered": "U heeft geen e-mailadres en wachtwoord ingevoerd",
+  "pleaseWaitImageIsBeingUploaded": "Even geduld, de foto wordt geüpload",
+  "x_employees": {
+    "one": "1 medewerker",
+    "other": "{{count}} medewerkers",
+    "zero": "0 medewerkers"
+  },
+  "company": {
+    "company": "Boerderij",
+    "edit": "Boerderij bewerken",
+    "create": "Aanmaken",
+    "create_first_company": "Maak uw eerste boerderij",
+    "delete": "Boerderij verwijderen",
+    "qs_number": "QS nummer",
+    "doYouWantToDeleteCompany": "Wilt u deze boerderij echt verwijderen?"
+  },
+  "crop": {
+    "cancelCultivation": "Geplande gewas annuleren",
+    "plant": "Gewas planten",
+    "from_field": "Gewas van veld",
+    "catch_crop": "Tussengewas",
+    "field_without_crop_since": "Veld is niet bebouwd sinds {{date}}.",
+    "variety": "Soort",
+    "permanent": "Meerjarig gewas",
+    "plannedSingle": "Gepland gewas",
+    "commodityItem": "In winkel",
+    "planted_on": "Geplant op",
+    "stockItem": "In opslag",
+    "doYouReallyWantToDeleteCrop": "Wil je echt de gewasgeschiedenis verwijderen, inclusief alle opmerkingen voor dit gewas?",
+    "deleteAndWithout": "Gewas verwijderen (onbebouwd laten)",
+    "resetAge": "Gewasleeftijd begint nu op 0 dagen",
+    "nothingHarvested": "Geen gewassen geoogst.",
+    "plan": "Gewas plannen",
+    "temporary": "Eenjarig gewas",
+    "when_was_crop_planted": "Wanneer is het gewas geplant?",
+    "ageBeginsAt0": "Gewasleeftijd op 0 zetten",
+    "planned": "Geplande gewassen",
+    "doYourReallyWantToCancelCultivation": "Wilt u het geplande gewas echt annuleren?",
+    "pre": "Vorig gewas",
+    "type": "Gewastype",
+    "origin": "Herkomst gewas",
+    "name": "Gewasnaam",
+    "delete": "Gewas verwijderen",
+    "crop": "Gewas",
+    "planned_crop_is_active": "Gepland gewas.",
+    "isActiveNow": "Het gewas is geplant.",
+    "active": "Geplante gewassen",
+    "select_color": "Selecteer een kleur",
+    "without": "Onbebouwd",
+    "cropPlanning": "Gewassenplanning",
+    "age": "Gewasleeftijd"
+  },
+  "fertilizer": {
+    "fertilization": "Bemesting",
+    "fertilizer": "Mest",
+    "enter_nutrient_ratio": "Voer de nutriëntenverhouding in (%).",
+    "delete": "Bemesting verwijderen",
+    "doYouReallyWantToDelete": "Wilt u de bemesting echt verwijderen?"
+  },
+  "company_name": "Boerderijnaam",
+  "cancel": "Annuleren",
+  "country": "Land",
+  "add": "Toevoegen",
+  "no_first_last_name_entered": "Voer uw voor- en achternaam in.",
+  "deletePhoto": "Foto verwijderen",
+  "date": "Datum",
+  "invoice": {
+    "youDontHaveAddress": "U hebt geen factuuradres ingevoerd."
+  },
+  "saveChanges": "Wijzigingen opslaan?",
+  "account": {
+    "account": "Account",
+    "avatar": {
+      "camera": "Nieuwe profielfoto maken",
+      "upload": "Profielfoto selecteren"
+    },
+    "edit": "Account bewerken"
+  },
+  "waittime": {
+    "set": "Wachttijd instellen",
+    "waiting_period_in_days": "Wachttijd in dagen",
+    "application_day": "Uitvoeringsdatum",
+    "delete": "Wachttijd verwijderen",
+    "doYouReallyWantToDelete": "Wilt u de wachttijd echt verwijderen?",
+    "pesticide": "Naam pesticide",
+    "waitTime": "Wachttijd"
+  },
+  "more": "Meer",
+  "position": "Positie",
+  "harvested": "Geoogst",
+  "friends": {
+    "shortShareMessage": "Probeer farmerJoe voor uw smartphone. Download het vandaag nog van {{url}}.",
+    "inform": "Vrienden informeren",
+    "emailMessage": "Hallo,\n\nIk heb net farmerJoe voor mijn {{phone}} gedownload.\n\nfarmerJoe is een eenvoudig te gebruiken documentatie-app voor boeren. Met de app zie je velden en gewassen op een kaart en kun je notities met een foto toevoegen. wachttijden instellen en bemestingen registreren.\n\nfarmerJoe is beschikbaar voor iPhone en Android.\n\nInstalleer het via {{url}}."
+  },
+  "confrim_agb_data_security": "Door op Account aanmaken te klikken, gaat u akkoord met onze {0} en bevestigt u dat u onze {1} heeft gelezen.",
+  "password": {
+    "current": "Huidig ​​wachtwoord",
+    "password": "Wachtwoord",
+    "yourPasswordWasUpdated": "Uw wachtwoord is bijgewerkt.",
+    "notUpdated": "Wachtwoord is niet gewijzigd.",
+    "forgotten": "Wachtwoord vergeten",
+    "wrong": "Het wachtwoord is onjuist. Als u uw wachtwoord niet weet, gebruik dan de link Wachtwoord vergeten.",
+    "change": "Wachtwoord wijzigen",
+    "dontMatch": "De wachtwoorden komen niet overeen.",
+    "repeat": "Wachtwoord opnieuw",
+    "updated": "Wachtwoord bijgewerkt.",
+    "min6char": "Het wachtwoord moet minimaal 6 tekens lang zijn."
+  },
+  "noSearchResults": "Geen resultaten.",
+  "login": "Aanmelden",
+  "forgotten_password_mail_sent_to": "We hebben een e-mail gestuurd naar {0} met een link om uw wachtwoord opnieuw in te stellen. Volg de instructies in de e-mail om uw wachtwoord opnieuw in te stellen.",
+  "add_company": "Boerderij toevoegen",
+  "languages": {
+    "really_change": "Weet u zeker dat u de taal wilt wijzigen naar {{language}}?",
+    "change": "Taal wijzigen"
+  },
+  "theImageCouldntBeUploaded": "De afbeelding kon niet worden geüpload: {{error}}",
+  "sortFieldsBy": "Sorteren op",
+  "x_fields": {
+    "zero": "0 velden",
+    "other": "{{count}} velden",
+    "one": "1 veld"
+  },
+  "yes": "Ja",
+  "warehouse": {
+    "add": "Opslag toevoegen",
+    "noWarehousesCreated": "Geen opslag aangemaakt.",
+    "position_it": "Opslaglocatie",
+    "warehouse": "Opslag",
+    "name": "Opslagnaam"
+  },
+  "employee": "Medewerker",
+  "archive": {
+    "archive": "Archief",
+    "noFieldsInArchive": "Geen velden in het archief."
+  },
+  "save_as_favorite": "Opslaan als favoriet",
+  "cover": {
+    "photo": "Omslagfoto",
+    "showCollegesWhatIsImportantToYou": "Laat je collega's zien waar je om geeft"
+  },
+  "ok": "OK",
+  "call_laboratory": "Lab bellen",
+  "countries": {
+    "select": "Selecteer een land",
+    "all": "Alle landen"
+  },
+  "analysis_plural": "Analyses",
+  "app": {
+    "rate": "App beoordelen"
+  },
+  "dontKnowHowToOpenUrl": "De opgegeven URL kon niet worden geopend {{url}}",
+  "zip": "Postcode",
+  "invoice_address": "Factuuradres",
+  "logout": "Afmelden",
+  "employees": {
+    "plural": "Medewerkers",
+    "admin": "Beheerder",
+    "manage": "Medewerkers beheren",
+    "adminRWD": "Beheerder (lezen, schrijven, verwijderen)",
+    "invitationSentOn": "Uitnodiging verzonden op {{date}}",
+    "invitrationRejectedOn": "Uitnodiging geweigerd op {{date}}"
+  },
+  "search": "Zoeken",
+  "satellite": "Satelliet",
+  "hybrid": "Hybride",
+  "name": "Naam",
+  "agb": "Voorwaarden",
+  "note": "Notities",
+  "please_correct_your_entry": "Corrigeer uw invoer",
+  "connecting": "Verbinden",
+  "email_already_in_use": "Het e-mailadres wordt al gebruikt door een ander account.",
+  "version": "Versie",
+  "profile": {
+    "reallyLogout": "Weet u zeker dat u wilt afmelden?"
+  },
+  "back": "Terug",
+  "last_name": "Achternaam",
+  "mobile_phone": "Mobiel",
+  "wine_fruit": "Druiven, fruit",
+  "enter_address": "Voer adres in",
+  "favorites": "Favorieten",
+  "legal_data_security": "Juridisch en gegevensbeveiliging",
+  "coordinates": "Coördinaten",
+  "deletePermenantly": "Permanent verwijderen",
+  "comment": {
+    "fromField": "Opmerking bij veld: {{name}}",
+    "doYouReallyWantToDelete": "Wilt u de opmerking echt verwijderen?",
+    "delete": "Opmerking verwijderen"
+  },
+  "lastEntry": "Laatst ingevoed",
+  "deleteElement": "Element verwijderen",
+  "delete": "Verwijderen",
+  "current": "Actueel",
+  "email": "E-mailadres",
+  "ggn_gln_number": "GGN/GLN-nummer",
+  "phone": "Telefoonnummer",
+  "notes": "Notities",
+  "x_days": "{{days}} d",
+  "create_account": "Nieuwe registratie",
+  "map": "Kaart",
+  "maps": {
+    "pressToSetPin": "Druk op de kaart om de locatiepin in te stellen."
+  },
+  "no_email_entered": "U heeft geen e-mailadres ingevoerd.",
+  "camera": "Camera",
+  "areYouSureYouWantToDeleteElement": "Wilt u dit element echt verwijderen?",
+  "enter_notes_here": "Voer hier opmerkingen in",
+  "street": "Straat",
+  "photoLibrary": "Fotobibliotheek",
+  "save": "Opslaan",
+  "error": "Fout",
+  "first_name": "Voornaam",
+  "request_new_password": "Nieuw wachtwoord aanvragen",
+  "register": "Account aanmaken",
+  "phones": {
+    "enterNumber": "Voer uw telefoonnummer in"
+  },
+  "companies": "Boerderijen",
+  "uploadError": "Upload mislukt",
+  "laboratory": "Laboratorium",
+  "user_not_found": "Er is geen gebruiker met het opgegeven e-mailadres.",
+  "settings": "Instellingen",
+  "help": "Help",
+  "position_company": "Boerderijlocatie",
+  "copy": "Kopiëren",
+  "share": "Delen",
+  "directions": "Routebeschrijving",
+  "first_last_name": "Volledige naam",
+  "company_number": "Boerderijnummer",
+  "select_field": "Selecteer een veld",
+  "grains_vegetables": "Granen, groenten",
+  "no_password_entered": "U heeft geen wachtwoord ingevoerd.",
+  "language": "Taal",
+  "edit": "Bewerken",
+  "change": "Wijzigen",
+  "contact": {
+    "dontDeleteData": "Verwijder de volgende gegevens niet. Wij hebben deze nodig om u te identificeren in het systeem. Zo kunnen wij u beter van dienst zijn.\n"
+  },
+  "no": "Nee",
+  "done": "Gereed",
+  "city": "Plaats",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Bedankt dat u voor farmerJoe heeft gekozen",
+        "description": "U kunt uw productie nu eenvoudig en efficiënt optimaliseren."
+      },
+      "slide2": {
+        "title": "Beheer meerdere boerderijen",
+        "description": "Blijf eenvoudig op de hoogte van uw boerderijen."
+      },
+      "slide3": {
+        "title": "Eenvoudige documentatie",
+        "description": "Schrijf alles op wat belangrijk is. Maak foto's die u wilt bewaren."
+      },
+      "slide4": {
+        "title": "Zoek eenvoudig velden",
+        "description": "U heeft direct een overzicht van alle velden. Gebruik de gewasleeftijd en wachttijdteller voor beslissingen."
+      },
+      "slide5": {
+        "title": "Bestel analyses",
+        "description": "Bestel analyses via uw smartphone. De resultaten worden direct opgenomen in uw velddocumentatie."
+      },
+      "slide6": {
+        "title": "Voeg uw medewerkers toe",
+        "description": "Gebruik de kracht van uw team om beter te werken."
+      },
+      "done": "Nu beginnen"
+    },
+    "skip": "Overslaan"
+  },
+  "moments": {
+    "today": "Vandaag",
+    "days_ago": {
+      "one": "1 dag geleden",
+      "other": "{{count}} dagen geleden"
+    },
+    "in_days": {
+      "one": "over 1 dag",
+      "other": "over {{count}} dagen"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerJoe heeft uw locatie nodig",
+      "description": "farmerJoe heeft momenteel geen toegang tot uw locatie."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe kan uw locatie niet bepalen.",
+      "description": "Schakel de GPS van uw telefoon in."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filter"
+}

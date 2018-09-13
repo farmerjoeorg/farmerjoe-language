@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "політику даних",
+  "invites": {
+    "reject": "Відхилити",
+    "from": "Запрошення від {{name}}",
+    "accept": "Прийняти"
+  },
+  "invalid_email": "Адреса електронної пошти недійсна.",
+  "analysis": {
+    "cancelAnalysis": "Скасувати аналіз",
+    "residue": "залишок",
+    "order": "замовлення",
+    "plantOrSowDate": "Посів/показати дату",
+    "pleaseLabelProbe": "Будь ласка, підпишіть зразок!",
+    "compostType": "Тип компосту",
+    "compostAmountInTons": "Кількість в тоннах",
+    "compostApplicationYear": "Рік застосування",
+    "profileNotComplete": "Профіль користувача не є повним.",
+    "comment": "Коментар",
+    "thankYouForOrder": "{0} для вашого замовлення.",
+    "thankYou": "Дякую",
+    "after_harvest": "після збору врожаю",
+    "commissionWithCharge": "Платне замовлення",
+    "productLabel": "Маркування товару",
+    "harvest_start": "Урожай починається?",
+    "before_harvest": "перед урожаєм",
+    "analysisCancelledOn": "Аналіз було скасовано {{date}} о {{time}} користувачем {{user}}.",
+    "during_harvest": "Під час збору врожаю",
+    "result_for": "Необхідний для",
+    "sample": "Зразок",
+    "sample_taker": "Особа, яка бере зразок",
+    "sample_date": "Дата відбору зразка ",
+    "resultResidue": "Результат аналізу залишків",
+    "mondayFriday": "Пн-Пт",
+    "questions": "Питання?",
+    "offer": "Пропозиція",
+    "number": "№ аналізу",
+    "cancelled": "Скасовано",
+    "result_for_analysis_from_ready": "Результат для аналізу від {{date}} вже доступні.",
+    "noCompanyAddress": "Адреса компанії немає.",
+    "ourOffers": "Пропозиція нашого аналізу",
+    "compost": "компост",
+    "analysis": "Аналіз",
+    "cancel": "скасувати",
+    "results": "Результати",
+    "orderAnalysisWithCommission": "Ви впевнені, що ви хочете замовити?",
+    "toUserAnalysisEnterProfileData": "Щоб використовувати функцію аналізу, Ви повинні надати всі необхідні данні.",
+    "outdoor": "на відкритому повітрі",
+    "pick_up_service": "Запит збору",
+    "orderSent": "Розмістіть замовлення",
+    "noResultsAvailable": "Немає результатів.",
+    "result": "Результат",
+    "self_pick_up": "Свій зразок",
+    "doYouReallyWantToCancelAnalysis": "Ви дійсно хочете скасувати аналіз?",
+    "commission": "Замовити",
+    "bio": "Органічний",
+    "ordered": "Аналіз замовлено",
+    "orderFrom": "Замовлення від {{date}}",
+    "pending": "Відкриті",
+    "takeSampleForm": "Тип проб",
+    "questionsPleaseCall": "Будь ласка, зателефонуйте за наявності будь-яких питань.",
+    "soilAnalysis": "Аналіз грунту",
+    "orderResidue": "Замовити аналіз залишків",
+    "result_expected_on": "Результати очікуються: {{date}}",
+    "orderSoil": "Замовлення аналізу ґрунту",
+    "conventional": "Звичайне",
+    "residueAnalysis": "Залишок аналізу",
+    "input_in_database": "Відправити до бази даних",
+    "result_on": "Результати на",
+    "needFastTomorrow": "Завтра",
+    "soil": "Ґрунт",
+    "self_delivery": "Самостійна доставка",
+    "resultSoil": "Результат аналізу ґрунту",
+    "greenhouse": "Парник",
+    "orderNumber": "номер замовлення",
+    "orderSoilAnalysis": "Номер замовлення аналізу ґрунту {{number}}",
+    "cancelledOn": "Скасовано: {{date}}",
+    "result_till": "Результат очікується до",
+    "toUseAnalysisEnterCompanyData": "Щоб використовувати функцію аналізу Ви повинні заповнити всі данні про свою компанію.",
+    "needFastToday": "Сьогодні",
+    "pick_up_from_laboratory": "Зразок лабораторії",
+    "pleaseFollowCurrentFertilizerRegulation": "Будь ласка, дотримуйтесь поточних рекомендацій що до добрива.",
+    "sampleIsTakenAccordingToRegulation": "Зразок буде взято згідно поточних рекомендацій."
+  },
+  "field": {
+    "number": "номер поля",
+    "harvested": "Коли був зібраний врожай?",
+    "noFieldsCreated": "Полів немає.",
+    "sendToArchive": "Архівувати поле",
+    "cultivate": "Культивувати поле",
+    "harvested_on": "Урожай зібрано {{date}}",
+    "delete": "Видалити поле",
+    "moveToArchive": "Поле переноситься в архів. (Ферма -> Архів)",
+    "area": "Площа",
+    "when_was_the_field_harvested": "Коли було зібрано врожай?",
+    "movedToArchive": "Культивація поля завершена (архів).",
+    "cultivateAgain": "Поле знову культивується.",
+    "fields": "Поля",
+    "coordinatesFromField": "Координати поля: {{name}}",
+    "name": "Назва поля",
+    "doYouReallyWantToDelete": "Ви дійсно хочете назавжди видалити це поле?",
+    "position_it": "Розташування поля",
+    "createNow": "Створити поле",
+    "toArchive": "Архів",
+    "field": "поле",
+    "created": "Поле створено."
+  },
+  "no_email_no_password_entered": "Ви не ввели електронну пошту та пароль",
+  "pleaseWaitImageIsBeingUploaded": "Будь ласка, зачекайте, зображення завантажується",
+  "x_employees": {
+    "one": "1 працівник",
+    "other": "{{count}} працівники(ів)",
+    "zero": "0 працівників"
+  },
+  "company": {
+    "company": "Ферма",
+    "edit": "Редагувати ферму",
+    "create": "Створити",
+    "create_first_company": "Створити свою першу ферму",
+    "delete": "Видалити ферму",
+    "qs_number": "Номер QS",
+    "doYouWantToDeleteCompany": "Ви дійсно хочете видалити цю операцію?"
+  },
+  "crop": {
+    "cancelCultivation": "Скасувати заплановану культуру",
+    "plant": "Посадити рослину",
+    "from_field": "Культура з поля",
+    "catch_crop": "Культура зібрана",
+    "field_without_crop_since": "На полі нема рослин з {{date}}.",
+    "variety": "Різновид",
+    "permanent": "Однолітня",
+    "plannedSingle": "Многолітня",
+    "commodityItem": "В магазині",
+    "planted_on": "Висаджено на",
+    "stockItem": "На складі",
+    "doYouReallyWantToDeleteCrop": "Ви дійсно хочете видалити історію врожаю, включаючи всі примітки для цієї культури?",
+    "deleteAndWithout": "Видалити культуру (залишити не культивоване)",
+    "resetAge": "Культуру висаджено зараз",
+    "nothingHarvested": "Ніякі культури не збираються.",
+    "plan": "Запланувати культуру",
+    "temporary": "Щорічна культура",
+    "when_was_crop_planted": "Коли була вирощена ця культура?",
+    "ageBeginsAt0": "Задати 0 для віка культури",
+    "planned": "Заплановані рослини",
+    "doYourReallyWantToCancelCultivation": "Ви дійсно хочете скасувати планування культури?",
+    "pre": "Попередне культивування",
+    "type": "Тип культури",
+    "origin": "Походження культури",
+    "name": "Назва культури",
+    "delete": "Видалити культуру",
+    "crop": "культура",
+    "planned_crop_is_active": "Висаджена культура.",
+    "isActiveNow": "Урожай було посіяно.",
+    "active": "Висаджені культури",
+    "select_color": "Оберіть колір",
+    "without": "Не оброблено",
+    "cropPlanning": "Планування культур",
+    "age": "Вік рослин"
+  },
+  "fertilizer": {
+    "fertilization": "Удобрення",
+    "fertilizer": "Той, хто удобрюэ",
+    "enter_nutrient_ratio": "Введіть співвідношення поживних речовин у (%).",
+    "delete": "Видалити добриво",
+    "doYouReallyWantToDelete": "Ви точно хочете видалити добриво?"
+  },
+  "company_name": "Назва ферми",
+  "cancel": "Скасувати",
+  "country": "Країна",
+  "add": "Додати",
+  "no_first_last_name_entered": "Будь ласка, введіть своє ім'я та прізвище.",
+  "deletePhoto": "Видалити зображення",
+  "date": "дата",
+  "invoice": {
+    "youDontHaveAddress": "Ви не ввели платіжну адресу."
+  },
+  "saveChanges": "Зберегти зміни?",
+  "account": {
+    "account": "Профіль",
+    "avatar": {
+      "camera": "Зробити нове зображення профылю",
+      "upload": "Виберіть зображення профілю"
+    },
+    "edit": "Редагування профілю"
+  },
+  "waittime": {
+    "set": "Встановіть час очікування",
+    "waiting_period_in_days": "Час очікування у днях",
+    "application_day": "Дата застосування",
+    "delete": "Видалити час очікування",
+    "doYouReallyWantToDelete": "Ви дійсно хочете видалити час очікування?",
+    "pesticide": "Назва пестициду",
+    "waitTime": "період очікування"
+  },
+  "more": "більше",
+  "position": "Місцезнаходження",
+  "harvested": "Зібраний врожай",
+  "friends": {
+    "shortShareMessage": "Спробуйте Farmerjoe для вашого смартфона. Просто завантажте його з {{url}}.",
+    "inform": "Розповісти другу",
+    "emailMessage": "Привіт,\n\nЯ тільки що завантажив додаток farmerJoe для свого {{phone}}.\n\nfarmerJoe це легкий у користуванні додаток для ведення записів для фермерів. З цим додатком Ви можете бачити свої поля та врожаї на карті, також Ви зможете додати примітки з фотографіями. Ви можете вказувати час очікування та записувати інформацію про добрива.\n\nfarmerJoe працює на iPhone та Android.\n\nЗавантажте його з {{url}}."
+  },
+  "confrim_agb_data_security": "Натискаючи кнопку \"Зареєструватися\", ви погоджуєтеся з нашим {0} та підтверджуєте, що прочитали нашу {1}.",
+  "password": {
+    "current": "Поточний пароль",
+    "password": "пароль",
+    "yourPasswordWasUpdated": "Ваш пароль був оновлений.",
+    "notUpdated": "Пароль не був змінений.",
+    "forgotten": "Забули пароль",
+    "wrong": "Пароль неправильний. Якщо ви не знаєте свій пароль, то скористайтесь посиланням для забутого паролю.",
+    "change": "Змінити пароль",
+    "dontMatch": "Паролі не збігаються.",
+    "repeat": "Повторіть пароль",
+    "updated": "Пароль оновлено.",
+    "min6char": "Пароль має містити не менш 6 символів."
+  },
+  "noSearchResults": "Результатів немає.",
+  "login": "Ввійти",
+  "forgotten_password_mail_sent_to": "Ми надіслали вам електронний лист на {0} із посиланням, щоб скинути пароль. Будь ласка, дотримуйтесь інструкцій в електронному листі, щоб скинути свій пароль.",
+  "add_company": "Додати ферму",
+  "languages": {
+    "really_change": "Ви впевнені, що хочете змінити мову на {{language}}?",
+    "change": "Змінити мову"
+  },
+  "theImageCouldntBeUploaded": "Не вдалося завантажити зображення: {{error}}",
+  "sortFieldsBy": "Сортування за",
+  "x_fields": {
+    "zero": "0 полів",
+    "other": "{{count}} поля(ів)",
+    "one": "1 поле"
+  },
+  "yes": "Так",
+  "warehouse": {
+    "add": "Додати сховище",
+    "noWarehousesCreated": "Сховищ немає.",
+    "position_it": "Місцезнаходження сховища",
+    "warehouse": "Сховище",
+    "name": "Назва сховища"
+  },
+  "employee": "Співробітник",
+  "archive": {
+    "archive": "Архів",
+    "noFieldsInArchive": "В архіві немає полів."
+  },
+  "save_as_favorite": "Зберегти як вибране",
+  "cover": {
+    "photo": "Фотографія обкладинки",
+    "showCollegesWhatIsImportantToYou": "Покажіть Вашим колегам, що для Вас важливо"
+  },
+  "ok": "Гаразд",
+  "call_laboratory": "Подзвонити в лабораторію",
+  "countries": {
+    "select": "Виберіть країну",
+    "all": "Всі країни"
+  },
+  "analysis_plural": "Аналізи",
+  "app": {
+    "rate": "Оцінити додаток"
+  },
+  "dontKnowHowToOpenUrl": "Неможливо відкрити вказану URL-адресу {{url}}",
+  "zip": "Індекс",
+  "invoice_address": "платіжний адреса",
+  "logout": "Вихід ",
+  "employees": {
+    "plural": "Співробітники",
+    "admin": "адміністратор",
+    "manage": "Управління співробітниками",
+    "adminRWD": "Адміністратор (читати, записувати, видаляти)",
+    "invitationSentOn": "Запрошення, надіслано {{date}}",
+    "invitrationRejectedOn": "Запит відхилено {{date}}"
+  },
+  "search": "Пошук",
+  "satellite": "Супутник",
+  "hybrid": "Гібрид",
+  "name": "Назва",
+  "agb": "умовами",
+  "note": "Примітки",
+  "please_correct_your_entry": "Будь ласка, виправте Ваш запис",
+  "connecting": "Підключення",
+  "email_already_in_use": "Введена електронна адреса вже використовується іншим обліковим записом.",
+  "version": "версія",
+  "profile": {
+    "reallyLogout": "Ви впевнені, що хочете вийти?"
+  },
+  "back": "назад",
+  "last_name": "Прізвище",
+  "mobile_phone": "Мобільний",
+  "wine_fruit": "Виноград, фрукти",
+  "enter_address": "Введіть адресу",
+  "favorites": "обране",
+  "legal_data_security": "Захист прав та даних",
+  "coordinates": "Координати",
+  "deletePermenantly": "Видалити назавжди",
+  "comment": {
+    "fromField": "Коментарі для поля: {{name}}",
+    "doYouReallyWantToDelete": "Ви дійсно хочете видалити коментар?",
+    "delete": "Видалити коментар"
+  },
+  "lastEntry": "Останній запис",
+  "deleteElement": "Видалити елемент",
+  "delete": "видаляти",
+  "current": "Поточний",
+  "email": "Електронна пошта",
+  "ggn_gln_number": "Номер GGN/GLN",
+  "phone": "Тел",
+  "notes": "Примітки",
+  "x_days": "{{days}} д",
+  "create_account": "Нова реєстрація",
+  "map": "Карти",
+  "maps": {
+    "pressToSetPin": "Натисніть на карту, щоб встановити маркер."
+  },
+  "no_email_entered": "Ви не ввели електрону адресу.",
+  "camera": "камера",
+  "areYouSureYouWantToDeleteElement": "Ви дійсно хочете видалити елемент?",
+  "enter_notes_here": "Введіть коментарі тут",
+  "street": "Вулиця",
+  "photoLibrary": "Фото бібліотека",
+  "save": "Зберегти",
+  "error": "помилка",
+  "first_name": "Ім'я",
+  "request_new_password": "Запит нового пароля",
+  "register": "Створити обліковий запис",
+  "phones": {
+    "enterNumber": "Введіть свій номер телефону"
+  },
+  "companies": "Ферми",
+  "uploadError": "Не вдалося завантажити",
+  "laboratory": "Лабораторія",
+  "user_not_found": "Немає користувача з введеною електронною адресою.",
+  "settings": "Налаштування",
+  "help": "Допомога",
+  "position_company": "Місцезнаходження ферми",
+  "copy": "Копіювати",
+  "share": "Поділитися",
+  "directions": "Напрямки",
+  "first_last_name": "Ім'я та прізвище",
+  "company_number": "Номер ферми",
+  "select_field": "Оберіть поле",
+  "grains_vegetables": "Злаки, овочі",
+  "no_password_entered": "Ви не ввели пароль.",
+  "language": "мова",
+  "edit": "редагувати",
+  "change": "Змінити",
+  "contact": {
+    "dontDeleteData": "Будь ласка, не видаляйте такі дані. Нам потрібно Вас правильно ідентифікувати в системі. Таким чином ми можемо запропонувати Вам кращу підтримку.\n"
+  },
+  "no": "Ні",
+  "done": "Зберегти",
+  "city": "Місто",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Дякуємо за те, що обрали farmerJoe",
+        "description": "Тепер Ви можете легко та ефективно оптимізувати Ваше виробництво."
+      },
+      "slide2": {
+        "title": "Керувати декількома фермами",
+        "description": "З легкість стежте за тим, що робиться у Вас на фермах."
+      },
+      "slide3": {
+        "title": "Просте документування",
+        "description": "Запишіть речі, які важливі для Вас. Зробіть фотографії, які потрібно зберегти."
+      },
+      "slide4": {
+        "title": "З легкістю знайдіть свої поля",
+        "description": "Миттєво перегляньте всі поля. Використовуйте вік врожаю та час очікування для прийняття рішень."
+      },
+      "slide5": {
+        "title": "Замовте аналіз",
+        "description": "Замовлення аналізу з вашого смартфона. Їх результати попадуть безпосередньо у документацію по Вашим полям."
+      },
+      "slide6": {
+        "title": "Додавання Ваших співробітників",
+        "description": "Використовувати силу вашої команди, щоб працювати краще."
+      },
+      "done": "Почати зараз"
+    },
+    "skip": "Пропустити"
+  },
+  "moments": {
+    "today": "Сьогодні",
+    "days_ago": {
+      "one": "1 день тому",
+      "other": "{{count}} дні(в) тому"
+    },
+    "in_days": {
+      "one": "через 1 день",
+      "other": "через {{count}} дні(в)"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerJoe потребує Ваше місцезнаходження",
+      "description": "farmerJoe в даний час не дозволено отримати доступ до Вашого місцезнаходження."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe не може визначити Ваше місцезнаходження.",
+      "description": "Будь ласка, увімкніть GPS Вашого телефона."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Фільтр"
+}

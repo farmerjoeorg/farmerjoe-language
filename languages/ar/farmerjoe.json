@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "سياسة البيانات",
+  "invites": {
+    "reject": "رفض",
+    "from": "دعوة من {{name}}",
+    "accept": "قبول"
+  },
+  "invalid_email": "عنوان البريد الإلكتروني غير صالح.",
+  "analysis": {
+    "cancelAnalysis": "إلغاء التحليل",
+    "residue": "بقايا",
+    "order": "طلب",
+    "plantOrSowDate": "تاريخ الزرع/البذر",
+    "pleaseLabelProbe": "يرجى تسمية المجس!",
+    "compostType": "نوع السماد",
+    "compostAmountInTons": "الكمية بالطن",
+    "compostApplicationYear": "سنة التنفيذ",
+    "profileNotComplete": "ملف تعريف المستخدم الخاص بك غير متكمل.",
+    "comment": "تعليق",
+    "thankYouForOrder": "{0} لطلبك.",
+    "thankYou": "شكرًا",
+    "after_harvest": "بعد الحصاد",
+    "commissionWithCharge": "طلب خاضع للرسوم",
+    "productLabel": "آداب المنتج",
+    "harvest_start": "هل بدأ الحصاد؟",
+    "before_harvest": "قبل الحصاد",
+    "analysisCancelledOn": "تم إلغاء التحليل في {{date}} الساعة {{time}} بواسطة {{user}}.",
+    "during_harvest": "أثناء الحصاد",
+    "result_for": "مطلوب من",
+    "sample": "عينة",
+    "sample_taker": "أخذها",
+    "sample_date": "تاريخ أخذها",
+    "resultResidue": "نتيجة تحليل البقايا",
+    "mondayFriday": "من الاثنين إلى الجمعة",
+    "questions": "لديك أسئلة؟",
+    "offer": "العرض",
+    "number": "رقم التحليل",
+    "cancelled": "تم الإلغاء",
+    "result_for_analysis_from_ready": "نتائج التحليل الخاص بك من {{date}} متوفرة الآن.",
+    "noCompanyAddress": "لا يوجد عنوان للشركة.",
+    "ourOffers": "التحليل المعروض",
+    "compost": "سماد",
+    "analysis": "تحليل",
+    "cancel": "إلغاء",
+    "results": "النتائج",
+    "orderAnalysisWithCommission": "هل تريد الطلب فعلا؟",
+    "toUserAnalysisEnterProfileData": "لاستخدام وظيفة التحليل يلزمك تقديم جميع بيانات المستخدم المطلوبة.",
+    "outdoor": "في الهواء الطلق",
+    "pick_up_service": "طلب الحصاد",
+    "orderSent": "تقديم طلب",
+    "noResultsAvailable": "لا توجد نتائج متاحة.",
+    "result": "النتيجة",
+    "self_pick_up": "عينة DIY",
+    "doYouReallyWantToCancelAnalysis": "هل تريد حقا إلغاء التحليل؟",
+    "commission": "لجنة",
+    "bio": "عضوي",
+    "ordered": "التحليل المطلوب",
+    "orderFrom": "تاريخ تقديم الطلب {{date}}",
+    "pending": "معلق",
+    "takeSampleForm": "نوع المجس",
+    "questionsPleaseCall": "للأسئلة يرجى الاتصال.",
+    "soilAnalysis": "تحليل التربة",
+    "orderResidue": "طلب تحليل البقايا",
+    "result_expected_on": "تاريخ توقع النتائج: {{date}}",
+    "orderSoil": "طلب تحليل التربة",
+    "conventional": "تقليدي",
+    "residueAnalysis": "تحليل البقايا",
+    "input_in_database": "الإدخال في قاعدة البيانات",
+    "result_on": "النتائج في",
+    "needFastTomorrow": "تعجيل للغد",
+    "soil": "التربة",
+    "self_delivery": "تسليم DIY",
+    "resultSoil": "نتيجة تحليل التربة",
+    "greenhouse": "دفيئة",
+    "orderNumber": "رقم الطلب",
+    "orderSoilAnalysis": "طلب تحليل التربة {{number}}",
+    "cancelledOn": "تاريخ الإلغاء: {{date}}",
+    "result_till": "النتائج متوقعة من",
+    "toUseAnalysisEnterCompanyData": "لاستخدام وظيفة التحليل، يجب ملء بيانات شركتك أولا.",
+    "needFastToday": "تعجيل اليوم",
+    "pick_up_from_laboratory": "عينة المعمل",
+    "pleaseFollowCurrentFertilizerRegulation": "يرجى اتباع توجيهات المخصبات.",
+    "sampleIsTakenAccordingToRegulation": "سيتم أخذ العينة وفقًا لتوجيهات المخصبات الحالية."
+  },
+  "field": {
+    "number": "رقم الحقل",
+    "harvested": "تم حصاد الحقل",
+    "noFieldsCreated": "لم يتم إنشاء أي حقول.",
+    "sendToArchive": "أرشفة الحقل",
+    "cultivate": "زراعة الحقل",
+    "harvested_on": "تاريخ حصاد المحصول {{date}}",
+    "delete": "حذف الحقل",
+    "moveToArchive": "سيتم نقل الحقل إلى الأرشيف (مزرعة -> أرشيف)",
+    "area": "منطقة",
+    "when_was_the_field_harvested": "متى تم حصاد المحصول؟",
+    "movedToArchive": "انتهت زراعة الحقل (أرشيف).",
+    "cultivateAgain": "تجري زراعة الحقل مرة أخرى.",
+    "fields": "الحقول",
+    "coordinatesFromField": "إحداثيات الحقل: {{name}}",
+    "name": "اسم الحقل",
+    "doYouReallyWantToDelete": "هل تريد حقا حذف هذا الحقل نهائيا؟",
+    "position_it": "موقع الحقل",
+    "createNow": "إنشاء حقل الآن",
+    "toArchive": "أرشيف",
+    "field": "حقل",
+    "created": "تم إنشاء الحقل."
+  },
+  "no_email_no_password_entered": "لم تقم بإدخال بريد إلكتروني وكلمة مرور",
+  "pleaseWaitImageIsBeingUploaded": "يرجى الانتظار، سيتم تحميل الصورة",
+  "x_employees": {
+    "one": "1 موظف",
+    "other": "{{count}} من الموظفين",
+    "zero": "0 موظف"
+  },
+  "company": {
+    "company": "مزرعة",
+    "edit": "تحرير المزرعة",
+    "create": "إنشاء",
+    "create_first_company": "إنشاء مزرعتك الأولى",
+    "delete": "حذف المزرعة",
+    "qs_number": "رقم QS",
+    "doYouWantToDeleteCompany": "هل تريد حقا حذف هذه المزرعة؟"
+  },
+  "crop": {
+    "cancelCultivation": "إلغاء المحصول المخطط",
+    "plant": "زراعة محصول",
+    "from_field": "المحصول من الحقل",
+    "catch_crop": "جني المحصول",
+    "field_without_crop_since": "الحقل بدون محصول منذ {{date}}.",
+    "variety": "متنوع",
+    "permanent": "المحاصيل الدائمة",
+    "plannedSingle": "المحصول المخطط",
+    "commodityItem": "في المتجر",
+    "planted_on": "تاريخ الزراعة",
+    "stockItem": "في المستودع",
+    "doYouReallyWantToDeleteCrop": "هل تريد حقا إزالة محفوظات المحصول بما في ذلك جميع التعليقات المتعلقة به؟",
+    "deleteAndWithout": "حذف المحصول (تركه بدون زراعة)",
+    "resetAge": "يبدأ عمر المحصول الآن في 0 يوم",
+    "nothingHarvested": "لا توجد محاصيل محصودة.",
+    "plan": "تخطيط المحصول",
+    "temporary": "محصول سنوي",
+    "when_was_crop_planted": "متى تمت زراعة النبات؟",
+    "ageBeginsAt0": "تعيين عمر المحصول إلى 0",
+    "planned": "المحاصيل المخطط لها",
+    "doYourReallyWantToCancelCultivation": "هل تريد حقا إلغاء المحصول المخطط له؟",
+    "pre": "محصول أولي",
+    "type": "نوع المحصول",
+    "origin": "مصدر المحصول",
+    "name": "اسم المحصول",
+    "delete": "حذف المحصول",
+    "crop": "المحصول",
+    "planned_crop_is_active": "المحصول المزروع.",
+    "isActiveNow": "تمت زراعة المحصول.",
+    "active": "المحاصيل المزروعة",
+    "select_color": "حدد اللون",
+    "without": "غير مزروع",
+    "cropPlanning": "تخطيط المحصول",
+    "age": "عمر المحصول"
+  },
+  "fertilizer": {
+    "fertilization": "التخصيب",
+    "fertilizer": "المخصبات",
+    "enter_nutrient_ratio": "أدخل نسبة المغذيات (٪).",
+    "delete": "حذف التخصيب",
+    "doYouReallyWantToDelete": "هل أنت متأكد من أنك تريد حذف التخصيب؟"
+  },
+  "company_name": "اسم المزرعة",
+  "cancel": "إلغاء",
+  "country": "بلد",
+  "add": "إضافة",
+  "no_first_last_name_entered": "الرجاء إدخال الاسم الأول والأخير.",
+  "deletePhoto": "حذف الصورة",
+  "date": "تاريخ",
+  "invoice": {
+    "youDontHaveAddress": "لم تدخل عنوان إرسال الفواتير."
+  },
+  "saveChanges": "حفظ التغييرات؟",
+  "account": {
+    "account": "حساب",
+    "avatar": {
+      "camera": "التقاط صورة جديدة لملف التعريف",
+      "upload": "حدد صورة الملف الشخصي"
+    },
+    "edit": "تحرير الحساب"
+  },
+  "waittime": {
+    "set": "تعيين وقت الانتظار",
+    "waiting_period_in_days": "وقت الانتظار بالأيام",
+    "application_day": "يوم التنفيذ",
+    "delete": "حذف وقت الانتظار",
+    "doYouReallyWantToDelete": "هل تريد حقًا حذف وقت الانتظار؟",
+    "pesticide": "اسم المبيدات",
+    "waitTime": "فترة الانتظار"
+  },
+  "more": "أكثر",
+  "position": "موقع",
+  "harvested": "المحصود",
+  "friends": {
+    "shortShareMessage": "تفحص تطبيق farmerJoe لهاتفك الذكي. قم بتنزيله اليوم من {{url}}.",
+    "inform": "إبلاغ الأصدقاء",
+    "emailMessage": "مرحبًا،\nلقد قمت الآن بتحميل farmerJoe لـ {{phone}}.\n\nfarmerJoe هو تطبيق توثيق للمزارعين سهل الاستخدام. من خلال التطبيق يمكنك رؤية حقولك ومحاصيلك على الخريطة، كما أنه يمكنك إضافة ملاحظات مع صورة. يمكنك أيضًا تعيين أوقات الانتظار وتسجيل الأسمدة.\n\nfarmerJoe متاح لأجهزة الآيفون والأندرويد.\n\nقم بتثبيته من {{url}}."
+  },
+  "confrim_agb_data_security": "بالنقر على \"إنشاء حساب\"، فإنك توافق على {0} وتأكد أنك قد قرأت {1}.",
+  "password": {
+    "current": "كلمة المرور الحالية",
+    "password": "كلمة المرور",
+    "yourPasswordWasUpdated": "تم تحديث كلمة المرور.",
+    "notUpdated": "لم يتم تغيير كلمة المرور.",
+    "forgotten": "نسيت كلمة المرور",
+    "wrong": "كلمة المرور غير صحيحة. إذا كنت لا تعرف كلمة المرور، فاستخدم رابط نسيت كلمة المرور.",
+    "change": "تغيير كلمة المرور",
+    "dontMatch": "كلمات المرور غير متطابقة.",
+    "repeat": "كرر كلمة المرور",
+    "updated": "تم تحديث كلمة المرور.",
+    "min6char": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل."
+  },
+  "noSearchResults": "لا توجد نتائج.",
+  "login": "دخول",
+  "forgotten_password_mail_sent_to": "لقد أرسلنا إليك رسالة إلكترونية تتضمن رابطا لإعادة تعيين كلمة المرور إلى {0}. يرجى اتباع التعليمات الواردة في البريد الإلكتروني لإعادة تعيين كلمة المرور.",
+  "add_company": "إضافة مزرعة",
+  "languages": {
+    "really_change": "هل تريد بالتأكيد تغيير اللغة إلى {{لانغواد}}؟",
+    "change": "تغيير اللغة"
+  },
+  "theImageCouldntBeUploaded": "تعذر تحميل الصورة: {{error}}",
+  "sortFieldsBy": "فرز حسب",
+  "x_fields": {
+    "zero": "0 حقول",
+    "other": "{{count}} من الحقول",
+    "one": "1 حقل"
+  },
+  "yes": "نعم",
+  "warehouse": {
+    "add": "إضافة مستودع",
+    "noWarehousesCreated": "لم يتم إنشاء مستودع.",
+    "position_it": "وضع تحمل",
+    "warehouse": "المستودع",
+    "name": "اسم المستودع"
+  },
+  "employee": "الموظف",
+  "archive": {
+    "archive": "أرشيف",
+    "noFieldsInArchive": "لم يتم أرشفة أية حقول."
+  },
+  "save_as_favorite": "حفظ كمفضلة",
+  "cover": {
+    "photo": "صورة الغلاف",
+    "showCollegesWhatIsImportantToYou": "عرض ما يهمك لزملائك"
+  },
+  "ok": "O. K.",
+  "call_laboratory": "اتصل بالمختبر",
+  "countries": {
+    "select": "حدد البلد",
+    "all": "جميع البلدان"
+  },
+  "analysis_plural": "تحليلات",
+  "app": {
+    "rate": "تقييم التطبيق"
+  },
+  "dontKnowHowToOpenUrl": "لا يمكن فتح عنوان URL {{url}}",
+  "zip": "الرمز البريدي",
+  "invoice_address": "عنوان الفواتير",
+  "logout": "الخروج",
+  "employees": {
+    "plural": "موظفون",
+    "admin": "مدير",
+    "manage": "إدارة المستخدمين",
+    "adminRWD": "مدير (قراءة، كتابة، حذف)",
+    "invitationSentOn": "تم إرسال دعوة في {{date}}",
+    "invitrationRejectedOn": "تم رفض الدعوة في {{date}}"
+  },
+  "search": "بحث",
+  "satellite": "قمر صناعي",
+  "hybrid": "هجين",
+  "name": "اسم",
+  "agb": "الشروط",
+  "note": "مذكرة",
+  "please_correct_your_entry": "يرجى تصحيح الإدخالات",
+  "connecting": "يتم الاتصال",
+  "email_already_in_use": "يتم استخدام عنوان البريد الإلكتروني الذي تم إدخاله من قبل حساب آخر.",
+  "version": "الإصدار",
+  "profile": {
+    "reallyLogout": "هل تريد بالتأكيد تسجيل الخروج؟"
+  },
+  "back": "رجوع",
+  "last_name": "اللقب",
+  "mobile_phone": "المحمول",
+  "wine_fruit": "نبيذ، فاكهة",
+  "enter_address": "أدخل العنوان",
+  "favorites": "المفضلة",
+  "legal_data_security": "معلومات قانونية وأمان البيانات",
+  "coordinates": "إحداثيات",
+  "deletePermenantly": "حذف نهائيا",
+  "comment": {
+    "fromField": "تعليق من الحقل: {{name}}",
+    "doYouReallyWantToDelete": "هل تريد حقا حذف التعليق؟",
+    "delete": "حذف التعليق"
+  },
+  "lastEntry": "آخر إدخال",
+  "deleteElement": "حذف العنصر",
+  "delete": "حذف",
+  "current": "الحالي",
+  "email": "البريد الإلكتروني",
+  "ggn_gln_number": "GGN/GLN",
+  "phone": "هاتف",
+  "notes": "الملاحظات",
+  "x_days": "{{days}} من الأيام",
+  "create_account": "تسجيل جديد",
+  "map": "خرائط",
+  "maps": {
+    "pressToSetPin": "اضغط على الخريطة لتعيين دبوس الموقع."
+  },
+  "no_email_entered": "لم تقم بإدخال بريد إلكتروني.",
+  "camera": "كاميرا",
+  "areYouSureYouWantToDeleteElement": "هل تريد حقا حذف العنصر؟",
+  "enter_notes_here": "أدخل التعليقات هنا",
+  "street": "شارع",
+  "photoLibrary": "مكتبة الصور",
+  "save": "حفظ",
+  "error": "خطأ",
+  "first_name": "الاسم الأول",
+  "request_new_password": "طلب كلمة مرور جديدة",
+  "register": "إنشاء حساب",
+  "phones": {
+    "enterNumber": "أدخل رقم هاتفك"
+  },
+  "companies": "المزارع",
+  "uploadError": "أخفق التحميل",
+  "laboratory": "مختبر",
+  "user_not_found": "لا يوجد مستخدم بعنوان البريد الإلكتروني الذي تم إدخاله.",
+  "settings": "إعدادات",
+  "help": "مساعدة",
+  "position_company": "موقع المزرعة",
+  "copy": "نسخ",
+  "share": "مشاركة",
+  "directions": "اتجاهات",
+  "first_last_name": "الاسم الكامل",
+  "company_number": "رقم المزرعة",
+  "select_field": "حدد الحقل",
+  "grains_vegetables": "حبوب، الخضروات",
+  "no_password_entered": "لم تدخل كلمة مرور.",
+  "language": "اللغة",
+  "edit": "تحرير",
+  "change": "تغيير",
+  "contact": {
+    "dontDeleteData": "الرجاء عدم حذف البيانات التالية. نحن بحاجة إليها للتعرف عليك في النظام. وبالتالي، يمكننا توفير مساعدة فعالة وسريعة لك.\n"
+  },
+  "no": "لا",
+  "done": "تم",
+  "city": "المدينة",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "نشكرك على ختيار farmerJoe",
+        "description": "يمكنك الآن تحسين إنتاجك بسهولة وفعالية."
+      },
+      "slide2": {
+        "title": "إدارة أكثر من مزرعة",
+        "description": "واكب كل ما يحدث في مزرعتك بكل سهولة."
+      },
+      "slide3": {
+        "title": "توثيق سهل",
+        "description": "دون الأشياء المهمة بالنسبة إليك. صور ما تود الاحتفاظ به."
+      },
+      "slide4": {
+        "title": "ابحث على حقولك بكل سهولة",
+        "description": "سيكون لديك على الفور نظرة عامة على جميع الحقول. استخدم عمر المحاصيل والعد التنازلي لوقت الانتظار من أجل اتخاذ قراراتك."
+      },
+      "slide5": {
+        "title": "طلب تحليلات",
+        "description": "اطلب التحليلات باستخدام هاتفك الذكي. سيتم تغذية وثائق الحقل الخاصة بك مباشرة بنتائج تلك التحليلات."
+      },
+      "slide6": {
+        "title": "إضافة موظفيك",
+        "description": "استغل طاقة فريق العمل الخاص بك للعمل بشكل أفضل."
+      },
+      "done": "ابدأ الآن"
+    },
+    "skip": "تخطي"
+  },
+  "moments": {
+    "today": "اليوم",
+    "days_ago": {
+      "one": "منذ 1 يوم",
+      "other": "منذ {{count}} من الأيام"
+    },
+    "in_days": {
+      "one": "في 1 يوم",
+      "other": "في {{count}} من الأيام"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerJoe يحتاج إلى الموقع الخاص بك",
+      "description": "لا يُسمح لـ farmerJoe بالوصول إلى الموقع الذي توجد به في الوقت الحالي."
+    },
+    "cantDetermineLocation": {
+      "title": "لا يمكن لـ farmerJoe تحديد موقعك.",
+      "description": "يرجى تشغيل نظام التموضع العالمي في هاتفك."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "تصفية البحث"
+}

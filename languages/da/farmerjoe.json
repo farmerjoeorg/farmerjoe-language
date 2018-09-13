@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Datapolitik",
+  "invites": {
+    "reject": "Afvis",
+    "from": "Invitation fra {{name}}",
+    "accept": "Accepter"
+  },
+  "invalid_email": "E-mail-adressen er ugyldig.",
+  "analysis": {
+    "cancelAnalysis": "Annuller analyse",
+    "residue": "Rest",
+    "order": "Bestil",
+    "plantOrSowDate": "Dato for plantning/såning",
+    "pleaseLabelProbe": "Mærk venligst prøven!",
+    "compostType": "Komposttype",
+    "compostAmountInTons": "Mængde i ton",
+    "compostApplicationYear": "Anvendelsesår",
+    "profileNotComplete": "Din brugerprofil er ikke udfyldt helt.",
+    "comment": "Kommentar",
+    "thankYouForOrder": "{0} til din ordre.",
+    "thankYou": "Tak",
+    "after_harvest": "Efter høst",
+    "commissionWithCharge": "Ordre, der kan debiteres",
+    "productLabel": "Produktetiket",
+    "harvest_start": "Høst begynder?",
+    "before_harvest": "Før høst",
+    "analysisCancelledOn": "Analysen blev annulleret den {{date}} kl. {{time}} af {{user}}.",
+    "during_harvest": "Under høst",
+    "result_for": "Krævet af",
+    "sample": "Prøve",
+    "sample_taker": "Taget af",
+    "sample_date": "Taget på",
+    "resultResidue": "Resultat af restanalyse",
+    "mondayFriday": "Man-fre",
+    "questions": "Spørgsmål?",
+    "offer": "Tilbud",
+    "number": "Analysenummer",
+    "cancelled": "Annulleret",
+    "result_for_analysis_from_ready": "Resultatet af din analyse fra {{date}} er nu tilgængelig.",
+    "noCompanyAddress": "Ingen firmaadresse.",
+    "ourOffers": "Analyse tilbydes",
+    "compost": "Kompost",
+    "analysis": "Analyse",
+    "cancel": "Annuller",
+    "results": "Resultater",
+    "orderAnalysisWithCommission": "Er du sikker på, at du vil bestille?",
+    "toUserAnalysisEnterProfileData": "For at bruge analysefunktionen skal du udfylde dine brugerdata.",
+    "outdoor": "Udendørs",
+    "pick_up_service": "Anmod om afhentning",
+    "orderSent": "Afgiv en ordre",
+    "noResultsAvailable": "Ingen prøveresultater til rådighed.",
+    "result": "Resultat",
+    "self_pick_up": "Gør det selv-prøve",
+    "doYouReallyWantToCancelAnalysis": "Vil du virkelig annullere analysen?",
+    "commission": "Ordre",
+    "bio": "Økologisk",
+    "ordered": "Analyse bestilt",
+    "orderFrom": "Ordre foretaget d. {{date}}",
+    "pending": "Afventer",
+    "takeSampleForm": "Prøvetype",
+    "questionsPleaseCall": "Ring venligst, hvis du har spørgsmål.",
+    "soilAnalysis": "Jordbundsanalyse",
+    "orderResidue": "Bestil restanalyse",
+    "result_expected_on": "Resultater forventet den: {{date}}",
+    "orderSoil": "Bestil jordbundsanalyse",
+    "conventional": "Konventionelt",
+    "residueAnalysis": "Restanalyse",
+    "input_in_database": "Send til database",
+    "result_on": "Resultater på",
+    "needFastTomorrow": "Skynd dig i morgen",
+    "soil": "Jordbund",
+    "self_delivery": "Gør det selv-levering",
+    "resultSoil": "Resultat af jordbundsanalyse",
+    "greenhouse": "Drivhus",
+    "orderNumber": "Ordrenummer",
+    "orderSoilAnalysis": "Bestil jordbundsanalyse {{number}}",
+    "cancelledOn": "Annnulleret d.: {{date}}",
+    "result_till": "Resultater forventet før",
+    "toUseAnalysisEnterCompanyData": "For at bruge analysefunktionen skal du udfylde alle din firmadata.",
+    "needFastToday": "Skynd dig i dag",
+    "pick_up_from_laboratory": "Laboratorieprøve",
+    "pleaseFollowCurrentFertilizerRegulation": "Følg det aktuelle gødningsdirektiv.",
+    "sampleIsTakenAccordingToRegulation": "Prøven bliver taget i overensstemmelse med det aktuelle gødningsdirektiv."
+  },
+  "field": {
+    "number": "Marknummer",
+    "harvested": "Mark høstet",
+    "noFieldsCreated": "Ingen marker er oprettet.",
+    "sendToArchive": "Arkiver marken",
+    "cultivate": "Opdyrk mark",
+    "harvested_on": "Afgrøde blev høstet den {{date}}",
+    "delete": "Slet mark",
+    "moveToArchive": "Marken flyttes til arkivet. (Landbrug -> Arkiv)",
+    "area": "Område",
+    "when_was_the_field_harvested": "Hvornår blev afgrøden høstet?",
+    "movedToArchive": "Opdyrkning af mark afsluttet (arkiv).",
+    "cultivateAgain": "Mark opdyrkes igen.",
+    "fields": "Marker",
+    "coordinatesFromField": "Koordinater til mark: {{name}}",
+    "name": "Marknavn",
+    "doYouReallyWantToDelete": "Vil du virkelig slette denne mark permanent?",
+    "position_it": "Markplacering",
+    "createNow": "Opret mark nu",
+    "toArchive": "Arkiv",
+    "field": "Mark",
+    "created": "Marken er oprettet."
+  },
+  "no_email_no_password_entered": "Du har ikke indtastet en e-mail og en adgangskode",
+  "pleaseWaitImageIsBeingUploaded": "Vent venligst, billedet overføres",
+  "x_employees": {
+    "one": "1 medarbejder",
+    "other": "{{count}} medarbejdere",
+    "zero": "0 medarbejdere"
+  },
+  "company": {
+    "company": "Landbrug",
+    "edit": "Rediger landbrug",
+    "create": "Opret",
+    "create_first_company": "Opret dit første landbrug",
+    "delete": "Slet landbrug",
+    "qs_number": "QS-nummer",
+    "doYouWantToDeleteCompany": "Vil du virkelig slette dette landbrug?"
+  },
+  "crop": {
+    "cancelCultivation": "Annuller den planlagte afgrøde",
+    "plant": "Plant afgrøde",
+    "from_field": "Afgrøde fra mark",
+    "catch_crop": "Efter afgrøde",
+    "field_without_crop_since": "Marken har været uden afgrøde siden {{date}}.",
+    "variety": "Variation",
+    "permanent": "Permanent afgrøde",
+    "plannedSingle": "Planlagt afgrøde",
+    "commodityItem": "I butik",
+    "planted_on": "Plantet den",
+    "stockItem": "På lager",
+    "doYouReallyWantToDeleteCrop": "Ønsker du virkelig at slette afgrødehistorikken og kommentarerne for denne afgrøde?",
+    "deleteAndWithout": "Slet afgrøde (lad være uopdyrket)",
+    "resetAge": "Afgrødealder starter nu ved 0 dage",
+    "nothingHarvested": "Ingen afgrøder høstet.",
+    "plan": "Planlæg afgrøde",
+    "temporary": "Årlig afgrøde",
+    "when_was_crop_planted": "Hvornår blev afgrøden dyrket?",
+    "ageBeginsAt0": "Angiv afgrødealder til 0",
+    "planned": "Planlagte afgrøder",
+    "doYourReallyWantToCancelCultivation": "Vil du virkelig annullere den planlagte afgrøde?",
+    "pre": "Præ-afgrøde",
+    "type": "Afgrødetype",
+    "origin": "Afgrødes oprindelse",
+    "name": "Afgrødenavn",
+    "delete": "Slet afgrøde",
+    "crop": "Afgrøde",
+    "planned_crop_is_active": "Plantet afgrøde.",
+    "isActiveNow": "Afgrøden er blevet plantet.",
+    "active": "Plantede afgrøder",
+    "select_color": "Vælg farve",
+    "without": "Uopdyrket",
+    "cropPlanning": "Afgrødeplanlægning",
+    "age": "Afgrødealder"
+  },
+  "fertilizer": {
+    "fertilization": "Gødskning",
+    "fertilizer": "Gødning",
+    "enter_nutrient_ratio": "Indtast venligst næringsindhold (%).",
+    "delete": "Slet gødskning",
+    "doYouReallyWantToDelete": "Vil du virkelig slette gødskningen?"
+  },
+  "company_name": "Landbrugsnavn",
+  "cancel": "Annuller",
+  "country": "Land",
+  "add": "Tilføj",
+  "no_first_last_name_entered": "Indtast venligst dit for- og efternavn.",
+  "deletePhoto": "Slet billede",
+  "date": "Dato",
+  "invoice": {
+    "youDontHaveAddress": "Du har ikke indtastet en faktureringsadresse."
+  },
+  "saveChanges": "Gem ændringer?",
+  "account": {
+    "account": "Konto",
+    "avatar": {
+      "camera": "Tag et nyt profilbillede",
+      "upload": "Vælg profilbillede"
+    },
+    "edit": "Rediger konto"
+  },
+  "waittime": {
+    "set": "Indstil ventetid",
+    "waiting_period_in_days": "Ventetid i dage",
+    "application_day": "Anvendelsesdag",
+    "delete": "Slet ventetid",
+    "doYouReallyWantToDelete": "Vil du virkelig slette ventetiden?",
+    "pesticide": "Navn på pesticid",
+    "waitTime": "Venteperiode"
+  },
+  "more": "Mere",
+  "position": "Placering",
+  "harvested": "Høstet",
+  "friends": {
+    "shortShareMessage": "Prøv farmerJoe til din smartphone. Bare download den fra {{url}}.",
+    "inform": "Informer venner",
+    "emailMessage": "Hej\n\nJeg har lige downloadet farmerJoe til min {{phone}}.\n\nfarmerJoe er en brugervenlig dokumentationsapp til landmænd. Med appen kan du se dine marker og afgrøder på et kort, du kan tilføje noter med et billede. Du kan indstille ventetider og registrere gødningsstoffer.\n\nfarmerJoe fås til iPhone og Android.\n\nInstaller den fra {{url}}."
+  },
+  "confrim_agb_data_security": "Ved at klikke på \"Opret konto\" accepterer du vores {0} og bekræfter, at du har læst vores {1}.",
+  "password": {
+    "current": "Nuværende adgangskode",
+    "password": "Adgangskode",
+    "yourPasswordWasUpdated": "Din adgangskode er blevet opdateret.",
+    "notUpdated": "Adgangskoden blev ikke ændret.",
+    "forgotten": "Glemt adgangskode",
+    "wrong": "Adgangskoden er forkert. Hvis du ikke kender din adgangskode, skal bruge linket Glemt adgangskode.",
+    "change": "Skift adgangskode",
+    "dontMatch": "Adgangskoderne stemmer ikke overens.",
+    "repeat": "Gentag adgangskode",
+    "updated": "Adgangskode opdateret.",
+    "min6char": "Adgangskoden skal være mindst 6 tegn lang."
+  },
+  "noSearchResults": "Ingen resultater.",
+  "login": "Logon",
+  "forgotten_password_mail_sent_to": "Vi har sendt dig en e-mail med et link for at nulstille din adgangskode til {0}. Følg instruktionerne i e-mailen for at nulstille din adgangskode.",
+  "add_company": "Tilføj landbrug",
+  "languages": {
+    "really_change": "Er du sikker på, at du vil ændre sproget til {{language}}?",
+    "change": "Skift sprog"
+  },
+  "theImageCouldntBeUploaded": "Billedet kunne ikke overføres: {{error}}",
+  "sortFieldsBy": "Sorter efter",
+  "x_fields": {
+    "zero": "0 marker",
+    "other": "{{count}} marker",
+    "one": "1 mark"
+  },
+  "yes": "Ja",
+  "warehouse": {
+    "add": "Tilføj lager",
+    "noWarehousesCreated": "Intet lager oprettet.",
+    "position_it": "Placering af lager",
+    "warehouse": "Lager",
+    "name": "Navn på lager"
+  },
+  "employee": "Medarbejder",
+  "archive": {
+    "archive": "Arkiv",
+    "noFieldsInArchive": "Ingen marker i arkivet."
+  },
+  "save_as_favorite": "Gem som favorit",
+  "cover": {
+    "photo": "Forsidefoto",
+    "showCollegesWhatIsImportantToYou": "Vis dine kolleger, hvad du er interesseret i"
+  },
+  "ok": "OK",
+  "call_laboratory": "Ring til laboratoriet",
+  "countries": {
+    "select": "Vælg land",
+    "all": "Alle lande"
+  },
+  "analysis_plural": "Analyser",
+  "app": {
+    "rate": "Vurder app"
+  },
+  "dontKnowHowToOpenUrl": "Kan ikke åbne den angivne webadresse {{url}}",
+  "zip": "Postnummer",
+  "invoice_address": "Faktureringsadresse",
+  "logout": "Log af",
+  "employees": {
+    "plural": "Medarbejdere",
+    "admin": "Administrator",
+    "manage": "Administrer brugere",
+    "adminRWD": "Administrator (læs, skriv, slet)",
+    "invitationSentOn": "Invitation sendt d. {{date}}",
+    "invitrationRejectedOn": "Invitation blev afvist d. {{date}}"
+  },
+  "search": "Søg",
+  "satellite": "Satellit",
+  "hybrid": "Hybrid",
+  "name": "Navn",
+  "agb": "Betingelser",
+  "note": "Notater",
+  "please_correct_your_entry": "Ret venligst dine indtastninger",
+  "connecting": "Opretter forbindelse",
+  "email_already_in_use": "Den indtastede e-mail-adresse bruges allerede af en anden konto.",
+  "version": "Version",
+  "profile": {
+    "reallyLogout": "Er du sikker på, at du vil logge ud?"
+  },
+  "back": "Tilbage",
+  "last_name": "Efternavn",
+  "mobile_phone": "Mobil",
+  "wine_fruit": "Druer, frugt",
+  "enter_address": "Indtast adresse",
+  "favorites": "Favoritter",
+  "legal_data_security": "Juridiske oplysninger og datasikkerhed",
+  "coordinates": "Koordinater",
+  "deletePermenantly": "Slet permanent",
+  "comment": {
+    "fromField": "Kommentar fra marken: {{name}}",
+    "doYouReallyWantToDelete": "Vil du virkelig slette kommentaren?",
+    "delete": "Slet kommentar"
+  },
+  "lastEntry": "Sidste post",
+  "deleteElement": "Slet element",
+  "delete": "Slet",
+  "current": "Aktuel",
+  "email": "E-mail",
+  "ggn_gln_number": "GGN/GLN",
+  "phone": "Telefon",
+  "notes": "Notater",
+  "x_days": "{{days}} d",
+  "create_account": "Ny tilmelding",
+  "map": "Kort",
+  "maps": {
+    "pressToSetPin": "Tryk på kortet for at anbringe placeringsnålen."
+  },
+  "no_email_entered": "Du har ikke indtastet en e-mailadresse.",
+  "camera": "Kamera",
+  "areYouSureYouWantToDeleteElement": "Vil du virkelig slette dette element?",
+  "enter_notes_here": "Indtast kommentarer her",
+  "street": "Gade",
+  "photoLibrary": "Fotobibliotek",
+  "save": "Gem",
+  "error": "Fejl",
+  "first_name": "Fornavn",
+  "request_new_password": "Anmod om ny adgangskode",
+  "register": "Opret konto",
+  "phones": {
+    "enterNumber": "Indtast dit telefonnummer"
+  },
+  "companies": "Landbrug",
+  "uploadError": "Overførslen mislykkedes",
+  "laboratory": "Laboratorie",
+  "user_not_found": "Der er ingen bruger med den indtastede e-mailadresse.",
+  "settings": "Indstillinger",
+  "help": "Hjælp",
+  "position_company": "Placering af landbrug",
+  "copy": "Kopi",
+  "share": "Del",
+  "directions": "Retningsanvisninger",
+  "first_last_name": "Fuldt navn",
+  "company_number": "Landbrugsnummer",
+  "select_field": "Vælg mark",
+  "grains_vegetables": "Korn, grøntsager",
+  "no_password_entered": "Du har ikke indtastet en adgangskode.",
+  "language": "Sprog",
+  "edit": "Rediger",
+  "change": "Skift",
+  "contact": {
+    "dontDeleteData": "Du må ikke slette følgende data. Vi har brug for dem til at identificere dig i systemet. Således kan vi tilbyde dig en effektiv og hurtig hjælp."
+  },
+  "no": "Ingen",
+  "done": "Fuldført",
+  "city": "By",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Tak, fordi du valgte farmerJoe",
+        "description": "Nu kan du optimere din produktion nemt og effektivt."
+      },
+      "slide2": {
+        "title": "Administrer adskillige landbrug",
+        "description": "Hold dig nemt ajour med, hvad der sker på dine landbrug."
+      },
+      "slide3": {
+        "title": "Nem dokumentation",
+        "description": "Notér det, der er vigtigt for dig. Tag billeder, som du ønsker at gemme."
+      },
+      "slide4": {
+        "title": "Find nemt dine marker",
+        "description": "Få omgående overblikket over alle marker. Brug afgrødealderen og ventetidsnedtællingen til dine beslutninger."
+      },
+      "slide5": {
+        "title": "Bestil analyser",
+        "description": "Bestil analyser med din smartphone. Resultaterne heraf bliver sendt direkte tilbage til din markdokumentation."
+      },
+      "slide6": {
+        "title": "Tilføj dine medarbejdere",
+        "description": "Udnyt fordelen ved at samarbejde i dit team."
+      },
+      "done": "Start nu"
+    },
+    "skip": "Spring over"
+  },
+  "moments": {
+    "today": "I dag",
+    "days_ago": {
+      "one": "1 dag siden",
+      "other": "{{count}} dage siden"
+    },
+    "in_days": {
+      "one": "om 1 dag",
+      "other": "om {{count}} dage"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerJoe har brug for din placering",
+      "description": "farmerJoe tillader i øjeblikket ikke adgang til din placering."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe kan ikke fastslå din placering.",
+      "description": "Aktivér din telefons GPS."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filter"
+}

@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Pravilnik za podatke",
+  "invites": {
+    "reject": "Zavrni",
+    "from": "Povabilo od osebe {{name}}",
+    "accept": "Sprejmi"
+  },
+  "invalid_email": "E-poštni naslov ni veljaven.",
+  "analysis": {
+    "cancelAnalysis": "Prekliči analizo",
+    "residue": "Usedline",
+    "order": "Naroči",
+    "plantOrSowDate": "Datum sajenja/žetve",
+    "pleaseLabelProbe": "Označite vzorec!",
+    "compostType": "Vrsta komposta",
+    "compostAmountInTons": "Količina v tonah",
+    "compostApplicationYear": "Leto uporabe",
+    "profileNotComplete": "Vaši uporabniški podatki niso popolni.",
+    "comment": "Opomba",
+    "thankYouForOrder": "{0} za vaše naročilo.",
+    "thankYou": "Hvala",
+    "after_harvest": "Po žetvi",
+    "commissionWithCharge": "Zaračunljivo naročilo",
+    "productLabel": "Oznaka izdelka",
+    "harvest_start": "Začetek žetve?",
+    "before_harvest": "Pred žetvijo",
+    "analysisCancelledOn": "Analizo je preklical uporabnik {{user}}, dne {{date}} ob {{time}}.",
+    "during_harvest": "Med žetvijo",
+    "result_for": "Zahteval",
+    "sample": "Vzorec",
+    "sample_taker": "Vzorec odvzel",
+    "sample_date": "Datum vzorca",
+    "resultResidue": "Analiza usedlin",
+    "mondayFriday": "Pon-pet",
+    "questions": "Vprašanja?",
+    "offer": "Ponudba",
+    "number": "Številka analize",
+    "cancelled": "Preklicana",
+    "result_for_analysis_from_ready": "Rezultati analize z dne {{date}} so na voljo.",
+    "noCompanyAddress": "Ni naslova podjetja.",
+    "ourOffers": "Možnosti za analizo",
+    "compost": "Kompost",
+    "analysis": "Analiza",
+    "cancel": "Prekliči",
+    "results": "Rezultati",
+    "orderAnalysisWithCommission": "Res želite opraviti naročilo?",
+    "toUserAnalysisEnterProfileData": "Če želite uporabiti funkcijo analize, morate izpolniti vse zahtevane podatke.",
+    "outdoor": "Na prostem",
+    "pick_up_service": "Zah. pob. vzorca",
+    "orderSent": "Naroči",
+    "noResultsAvailable": "Ni rezultatov raziskave.",
+    "result": "Rezultat",
+    "self_pick_up": "Lasten vzorec",
+    "doYouReallyWantToCancelAnalysis": "Res želite preklicati analizo?",
+    "commission": "Naroči",
+    "bio": "Organsko",
+    "ordered": "Analiza je naročena",
+    "orderFrom": "Naročilo oddano dne {{date}}",
+    "pending": "Čakajoče",
+    "takeSampleForm": "Vrsta vzorca",
+    "questionsPleaseCall": "Za vprašanja pokličite.",
+    "soilAnalysis": "Analiza tal",
+    "orderResidue": "Naročilo analize usedlin",
+    "result_expected_on": "Predvideni datum rezultatov: {{date}}",
+    "orderSoil": "Naročilo analize tal",
+    "conventional": "Običajno",
+    "residueAnalysis": "Analiza usedlin",
+    "input_in_database": "Vnos v podatkovno zbirko",
+    "result_on": "Datum rezultatov",
+    "needFastTomorrow": "Hitro jutri",
+    "soil": "Prst",
+    "self_delivery": "Lasten vzorec",
+    "resultSoil": "Rezultat analize tal",
+    "greenhouse": "Topla greda",
+    "orderNumber": "Številka naročila",
+    "orderSoilAnalysis": "Naročilo analize tal {{number}}",
+    "cancelledOn": "Preklicano: {{date}}",
+    "result_till": "Predviden datum rezultatov",
+    "toUseAnalysisEnterCompanyData": "Če želite uporabiti funckijo za analizo, morate vnesti podatke podjetja.",
+    "needFastToday": "Hitro danes",
+    "pick_up_from_laboratory": "Lab. vzorec",
+    "pleaseFollowCurrentFertilizerRegulation": "Upoštevajte aktualno direktivo o gnojilih.",
+    "sampleIsTakenAccordingToRegulation": "Vzorec bo odvzet glede na zahteve aktualne direktive o gnojilih."
+  },
+  "field": {
+    "number": "Številka polja",
+    "harvested": "Obdelano polje",
+    "noFieldsCreated": "Ni ustvarjenih polj.",
+    "sendToArchive": "Arhiviranje polja",
+    "cultivate": "Obdelovanje polja",
+    "harvested_on": "Žetev opravljena {{date}}",
+    "delete": "Izbriši polje",
+    "moveToArchive": "Polje bo premaknjeno v arhiv. (Polje -> Arhiv)",
+    "area": "Območje",
+    "when_was_the_field_harvested": "Kdaj je bila opravljena žetev?",
+    "movedToArchive": "Obdelovanje polja je končano (Arhiv).",
+    "cultivateAgain": "Polje je znova obdelovano.",
+    "fields": "Polja",
+    "coordinatesFromField": "Koordinate polja: {{name}}",
+    "name": "Ime polja",
+    "doYouReallyWantToDelete": "Res želite trajno izbrisati polje?",
+    "position_it": "Lokacija polja",
+    "createNow": "Ustvari polje zdaj",
+    "toArchive": "Arhiv",
+    "field": "Polje",
+    "created": "Polje je bilo ustvarjeno."
+  },
+  "no_email_no_password_entered": "Niste vnesli e-pošte in gesla",
+  "pleaseWaitImageIsBeingUploaded": "Poteka nalaganja slike",
+  "x_employees": {
+    "one": "1 zaposleni",
+    "other": "{{count}} zaposlenih",
+    "zero": "0 zaposlenih"
+  },
+  "company": {
+    "company": "Farma",
+    "edit": "Urejanje farme",
+    "create": "Ustvari",
+    "create_first_company": "Ustvarite svojo prvo farmo",
+    "delete": "Izbriši farmo",
+    "qs_number": "Številka QS",
+    "doYouWantToDeleteCompany": "Res želite izbrisati to farmo?"
+  },
+  "crop": {
+    "cancelCultivation": "Prekliči načrtovano setev",
+    "plant": "Poljščina",
+    "from_field": "Žetev na polju",
+    "catch_crop": "Odstranjevanje plevela",
+    "field_without_crop_since": "Na polju ni nič posejanega od {{date}} dalje.",
+    "variety": "Sorta",
+    "permanent": "Trajni pridelek",
+    "plannedSingle": "Načrtovani pridelek",
+    "commodityItem": "V trgovini",
+    "planted_on": "Datum setve",
+    "stockItem": "V skladišču",
+    "doYouReallyWantToDeleteCrop": "Res želite izbrisati zgodovino pridelka ter opombe zanj?",
+    "deleteAndWithout": "Izbriši pridelek (brez pridelka)",
+    "resetAge": "Ponastavitev pridelka na 0 dni",
+    "nothingHarvested": "Brez pobranih pridelkov.",
+    "plan": "Načrtovanje pridelkov",
+    "temporary": "Letni pridelek",
+    "when_was_crop_planted": "Kdaj je bil na polju nazadnje pridelek?",
+    "ageBeginsAt0": "Ponastavi starost pridelka na 0",
+    "planned": "Načrtovani pridelki",
+    "doYourReallyWantToCancelCultivation": "Res želite preklicati načrtovani pridelek?",
+    "pre": "Predhodna setev",
+    "type": "Vrsta pridelka",
+    "origin": "Izvoz pridelka",
+    "name": "Ime pridelka",
+    "delete": "Izbriši pridelek",
+    "crop": "Pridelek",
+    "planned_crop_is_active": "Posejani pridelek.",
+    "isActiveNow": "Poljščina je posejana.",
+    "active": "Posejane poljščine",
+    "select_color": "Izberite barvo",
+    "without": "Brez poljščin",
+    "cropPlanning": "Načrtovanje setve",
+    "age": "Starost poljščine"
+  },
+  "fertilizer": {
+    "fertilization": "Gnojenje",
+    "fertilizer": "Gnojilo",
+    "enter_nutrient_ratio": "Vnesite vsebnost hranil v (%).",
+    "delete": "Izbriši gnojenje",
+    "doYouReallyWantToDelete": "Res želite izbrisati gnojenje?"
+  },
+  "company_name": "Ime farme",
+  "cancel": "Prekliči",
+  "country": "Država",
+  "add": "Dodaj",
+  "no_first_last_name_entered": "Vnesite svoje ime in priimek.",
+  "deletePhoto": "Izbriši sliko",
+  "date": "Datum",
+  "invoice": {
+    "youDontHaveAddress": "Niste vnesli naslova za izstavitev računa."
+  },
+  "saveChanges": "Želite shraniti spremembe?",
+  "account": {
+    "account": "Račun",
+    "avatar": {
+      "camera": "Nova profilna slika",
+      "upload": "Izberite sliko profila"
+    },
+    "edit": "Urejanje računa"
+  },
+  "waittime": {
+    "set": "Nastavitev čakalnega časa",
+    "waiting_period_in_days": "Čakalni čas v dnevih",
+    "application_day": "Dan uporabe",
+    "delete": "Brisanje čakalnega časa",
+    "doYouReallyWantToDelete": "Res želite izbrisati čakalni čas?",
+    "pesticide": "Ime pesticida",
+    "waitTime": "Čakalna doba"
+  },
+  "more": "Več",
+  "position": "Lokacija",
+  "harvested": "Obdelano",
+  "friends": {
+    "shortShareMessage": "Preizkusite aplikacijo farmerJoe v svojem telefonu. Prenesite jo z naslova {{url}}.",
+    "inform": "Pošlji prijateljem",
+    "emailMessage": "Zdravo,\n\npravkar sem namestil(-a) aplikacijo farmerJoe za {{phone}}.\n\nAplikacija farmerJoe je namenjena beleženja za kmetovalce in je preprosta za uporabo. Z aplikacijo si lahko ogledaš polja na zemljevidu, dodajaš opombe in slike. Prav tako lahko nastavljaš čakalne čase in beležiš gnojila.\n\nAplikacija farmerJoe je na voljo za telefone iPhone in Android.\n\nPrenesi aplikacijo z naslova {{url}}."
+  },
+  "confrim_agb_data_security": "S klikom »Ustvari račun « sprejemate naše {0} in potrjujete, da ste prebrali {1}.",
+  "password": {
+    "current": "Trenutno geslo",
+    "password": "Geslo",
+    "yourPasswordWasUpdated": "Geslo je bilo posodobljeno.",
+    "notUpdated": "Geslo ni bilo spremenjeno.",
+    "forgotten": "Pozabljeno geslo",
+    "wrong": "Geslo je napačno. Če se ne spomnite gesla, ga ponastavite s klikom na povezavo.",
+    "change": "Spremeni geslo",
+    "dontMatch": "Gesli se ne ujemata.",
+    "repeat": "Ponovite geslo",
+    "updated": "Geslo posodobljeno.",
+    "min6char": "Geslo mora biti dolgo najmanj 6 znakov."
+  },
+  "noSearchResults": "Ni rezultatov.",
+  "login": "Prijava",
+  "forgotten_password_mail_sent_to": "Na naslov {0} smo vam poslali povezavo za ponastavitev gesla. Upoštevajte navodila v sporočilu za ponastavitev gesla.",
+  "add_company": "Dodaj farmo",
+  "languages": {
+    "really_change": "Res želite spremeniti geslo v {{language}}?",
+    "change": "Spremeni jezik"
+  },
+  "theImageCouldntBeUploaded": "Slike ni bilo mogoče poslati: {{error}}",
+  "sortFieldsBy": "Razvrsti po",
+  "x_fields": {
+    "zero": "0 polj",
+    "other": "{{count}} polja",
+    "one": "1 polje"
+  },
+  "yes": "Da",
+  "warehouse": {
+    "add": "Dodaj skladišče",
+    "noWarehousesCreated": "Ni ustvarjenih skladišč.",
+    "position_it": "Lokacija skladišča",
+    "warehouse": "Skladišče",
+    "name": "Ime skladišča"
+  },
+  "employee": "Uslužbenec",
+  "archive": {
+    "archive": "Arhiv",
+    "noFieldsInArchive": "Ni arhiviranih polj."
+  },
+  "save_as_favorite": "Shrani kot priljubljeno",
+  "cover": {
+    "photo": "Naslovnica",
+    "showCollegesWhatIsImportantToYou": "Pokažite sodelavcem, kaj vam je pomembno"
+  },
+  "ok": "V redu",
+  "call_laboratory": "Pokliči laboratorij",
+  "countries": {
+    "select": "Izberite državo",
+    "all": "Vse države"
+  },
+  "analysis_plural": "Analize",
+  "app": {
+    "rate": "Ocenite aplikacijo"
+  },
+  "dontKnowHowToOpenUrl": "Ni mogoče odpreti navedenega URL-ja {{url}}",
+  "zip": "Poštna št.",
+  "invoice_address": "Naslov za izstavitev računa",
+  "logout": "Odjava",
+  "employees": {
+    "plural": "Zaposleni",
+    "admin": "Skrbnik",
+    "manage": "Upravljanje uporabnikov",
+    "adminRWD": "Skrbnik (branje, pisanje, brisanje)",
+    "invitationSentOn": "Povabilo poslano dne {{date}}",
+    "invitrationRejectedOn": "Povabilo zavrnjeno dne {{date}}"
+  },
+  "search": "Iskanje",
+  "satellite": "Satelit",
+  "hybrid": "Hibridno",
+  "name": "Ime",
+  "agb": "Pogoji",
+  "note": "Opombe",
+  "please_correct_your_entry": "Popravite vnos",
+  "connecting": "Povezovanje",
+  "email_already_in_use": "E-poštni naslov že uporablja drug račun.",
+  "version": "Različica",
+  "profile": {
+    "reallyLogout": "Se res želite odjaviti?"
+  },
+  "back": "Nazaj",
+  "last_name": "Priimek",
+  "mobile_phone": "Mobilni telefon",
+  "wine_fruit": "Trta, sadje",
+  "enter_address": "Vnesite naslov",
+  "favorites": "Priljubljene",
+  "legal_data_security": "Pravne informacije in varnost podatkov",
+  "coordinates": "Koordinate",
+  "deletePermenantly": "Trajno izbriši",
+  "comment": {
+    "fromField": "Opombe za polje: {{name}}",
+    "doYouReallyWantToDelete": "Res želite izbrisati komentar?",
+    "delete": "Izbriši komentar"
+  },
+  "lastEntry": "Zadnji vnos",
+  "deleteElement": "Izbriši element",
+  "delete": "Izbriši",
+  "current": "Trenutno",
+  "email": "E-pošta",
+  "ggn_gln_number": "GGN/GLN",
+  "phone": "Tel.",
+  "notes": "Opombe",
+  "x_days": "{{days}} d",
+  "create_account": "Nova registracija",
+  "map": "Zemljividi",
+  "maps": {
+    "pressToSetPin": "Dotaknite se zemljevida, da nastavite lokacijo."
+  },
+  "no_email_entered": "Niste vnesli e-poštnega naslova.",
+  "camera": "Fotoaparat",
+  "areYouSureYouWantToDeleteElement": "Res želite izbrisati ta element?",
+  "enter_notes_here": "Vnesite opombe",
+  "street": "Ulica",
+  "photoLibrary": "Knjižnica fotografij",
+  "save": "Shrani",
+  "error": "Napaka",
+  "first_name": "Ime",
+  "request_new_password": "Zahteva za novo geslo",
+  "register": "Ustvari račun",
+  "phones": {
+    "enterNumber": "Vnesite svojo telefonsko številko"
+  },
+  "companies": "Farme",
+  "uploadError": "Prenos ni uspel",
+  "laboratory": "Laboratorij",
+  "user_not_found": "Uporabnik s tem e-poštnim naslovom ne obstaja.",
+  "settings": "Nastavitve",
+  "help": "Pomoč",
+  "position_company": "Lokacije farme",
+  "copy": "Kopiraj",
+  "share": "Sk. raba",
+  "directions": "Napotki za pot",
+  "first_last_name": "Ime in priimek",
+  "company_number": "Številka farme",
+  "select_field": "Izberite polje",
+  "grains_vegetables": "Žitarice, zelenjava",
+  "no_password_entered": "Niste vnesli gesla.",
+  "language": "Jezik",
+  "edit": "Urejanje",
+  "change": "Sprememba",
+  "contact": {
+    "dontDeleteData": "Ne izbrišite teh podatkov, saj jih potrebujemo za pravilno identifikacijo v sistemu in izboljšano podporo."
+  },
+  "no": "Ne",
+  "done": "Končano",
+  "city": "Mesto",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Zahvaljujemo se vam, da ste izbrali aplikacijo farmerJoe",
+        "description": "Zdaj lahko preprosto in učinkovito izboljšate proizvodnjo."
+      },
+      "slide2": {
+        "title": "Upravljanje več farm",
+        "description": "Preprosto spremljanje napredka na farmi."
+      },
+      "slide3": {
+        "title": "Preprosto beleženje",
+        "description": "Beležite pomembne stvari ter shranite fotografije."
+      },
+      "slide4": {
+        "title": "Preprosto iskanje polj",
+        "description": "Hiter pregled polj. Uporabite starost pridelka in čakalni čas za lažje odločanje."
+      },
+      "slide5": {
+        "title": "Naročanje analiz",
+        "description": "Analize lahko naročite prek telefona. Prejmite rezultate neposredno v dokumentacijo posameznega polja."
+      },
+      "slide6": {
+        "title": "Dodajanje zaposlenih",
+        "description": "Izkoristite prednosti ekipnega dela za boljše rezultate."
+      },
+      "done": "Začni"
+    },
+    "skip": "Preskoči"
+  },
+  "moments": {
+    "today": "Danes",
+    "days_ago": {
+      "one": "Včeraj",
+      "other": "{{count}} dni nazaj"
+    },
+    "in_days": {
+      "one": "Jutri",
+      "other": "v {{count}} dneh"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "Aplikacija farmerJoe potrebuje dostop do vaše lokacije",
+      "description": "Aplikacija farmerJoe nima dostopa do vaše trenutne lokacije."
+    },
+    "cantDetermineLocation": {
+      "title": "Aplikacija farmerJoe ne najde vaše trenutne lokacije.",
+      "description": "Vklopite funkcijo GPS v telefonu."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filter"
+}

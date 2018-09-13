@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Zásady použitia údajov",
+  "invites": {
+    "reject": "Odmietnuť",
+    "from": "Pozvánka od {{name}}",
+    "accept": "Akceptovať"
+  },
+  "invalid_email": "E-mailová adresa je neplatná.",
+  "analysis": {
+    "cancelAnalysis": "Zrušiť analýzu",
+    "residue": "Usadeniny",
+    "order": "Objednávka",
+    "plantOrSowDate": "Dátum sadenia/siatia",
+    "pleaseLabelProbe": "Prosím, označte vzorku!",
+    "compostType": "Typ kompostu",
+    "compostAmountInTons": "Množstvo v tonách",
+    "compostApplicationYear": "Rok aplikácie",
+    "profileNotComplete": "Údaje používateľa nie sú dokončené.",
+    "comment": "Poznámka",
+    "thankYouForOrder": "{0} za vašu objednávku.",
+    "thankYou": "Ďakujeme",
+    "after_harvest": "Po zbere úrody",
+    "commissionWithCharge": "Spoplatnená objednávka",
+    "productLabel": "Produktová etiketa",
+    "harvest_start": "Začiatok zberu?",
+    "before_harvest": "Pred zberom",
+    "analysisCancelledOn": "Analýza bola zrušená dňa {{date}} o {{time}} používateľom {{user}}.",
+    "during_harvest": "Počas zberu",
+    "result_for": "Požiadavka od",
+    "sample": "Vzorka",
+    "sample_taker": "Odobral",
+    "sample_date": "Odobraná dňa",
+    "resultResidue": "Výsledok analýzy usadenín",
+    "mondayFriday": "Po-Pia",
+    "questions": "Otázky?",
+    "offer": "Ponuka",
+    "number": "Číslo analýzy",
+    "cancelled": "Zrušená",
+    "result_for_analysis_from_ready": "Výsledok vašej analýzy zo dňa {{date}} je dostupný.",
+    "noCompanyAddress": "Žiadna adresa spoločnosti.",
+    "ourOffers": "Naša ponuka analýzy",
+    "compost": "Kompost",
+    "analysis": "Analýza",
+    "cancel": "Zrušiť",
+    "results": "Výsledky",
+    "orderAnalysisWithCommission": "Naozaj chcete objednať?",
+    "toUserAnalysisEnterProfileData": "Ak chcete použiť funkciu analýzy, musíte vyplniť používateľské údaje.",
+    "outdoor": "Vonku",
+    "pick_up_service": "Požiadať o vyzdvihnutie",
+    "orderSent": "Objednať",
+    "noResultsAvailable": "Nie sú k dispozícii žiadne výsledky.",
+    "result": "Výsledok",
+    "self_pick_up": "Vlastnoručná vzorka",
+    "doYouReallyWantToCancelAnalysis": "Naozaj chcete zrušiť analýzu?",
+    "commission": "Objednať",
+    "bio": "Organické",
+    "ordered": "Objednaná analýza",
+    "orderFrom": "Objednávka dňa {{date}}",
+    "pending": "Otvorené",
+    "takeSampleForm": "Typ vzorkovania",
+    "questionsPleaseCall": "Ak máte akékoľvek otázky, zavolajte nám.",
+    "soilAnalysis": "Analýza pôdy",
+    "orderResidue": "Objednať analýzu usadenín",
+    "result_expected_on": "Výsledok sa očakáva dňa: {{date}}",
+    "orderSoil": "Objednať analýzu pôdy",
+    "conventional": "Bežná",
+    "residueAnalysis": "Analýza usadenín",
+    "input_in_database": "Odoslať do databázy",
+    "result_on": "Výsledok dňa",
+    "needFastTomorrow": "Urýchliť do zajtra",
+    "soil": "Pôda",
+    "self_delivery": "Vlastnoručné doručenie",
+    "resultSoil": "Výsledná analýza pôdy",
+    "greenhouse": "Skleník",
+    "orderNumber": "Číslo objednávky",
+    "orderSoilAnalysis": "Objednávka analýzy pôdy {{number}}",
+    "cancelledOn": "Zrušené dňa: {{date}}",
+    "result_till": "Výsledok do",
+    "toUseAnalysisEnterCompanyData": "Ak chcete použiť funkciu analýzy, musíte vyplniť všetky údaje o spoločnosti.",
+    "needFastToday": "Urýchliť do dnes",
+    "pick_up_from_laboratory": "Vzorka z laboratória",
+    "pleaseFollowCurrentFertilizerRegulation": "Postupujte podľa súčasnej smernice o hnojivách.",
+    "sampleIsTakenAccordingToRegulation": "Vzorky sa odoberajú v súlade so súčasnou smernicou o hnojivách."
+  },
+  "field": {
+    "number": "Číslo poľa",
+    "harvested": "Žatva poľa",
+    "noFieldsCreated": "Neboli vytvorené žiadne polia.",
+    "sendToArchive": "Archivovať pole",
+    "cultivate": "Obrobiť pole",
+    "harvested_on": "Pole bolo zozbierané dňa {{date}}",
+    "delete": "Odstrániť pole",
+    "moveToArchive": "Pole sa presunie do archívu (Farma -> Archív)",
+    "area": "Rozloha",
+    "when_was_the_field_harvested": "Kedy bolo pole zozbierané?",
+    "movedToArchive": "Obrábanie polí skončilo (archív).",
+    "cultivateAgain": "Pole sa znova obrába.",
+    "fields": "Polia",
+    "coordinatesFromField": "Súradnice poľa: {{name}}",
+    "name": "Názov poľa",
+    "doYouReallyWantToDelete": "Naozaj chcete pole natrvalo odstrániť?",
+    "position_it": "Poloha poľa",
+    "createNow": "Vytvoriť pole teraz",
+    "toArchive": "Archív",
+    "field": "Pole",
+    "created": "Pole bolo vytvorené."
+  },
+  "no_email_no_password_entered": "Nezadali ste e-mail a heslo",
+  "pleaseWaitImageIsBeingUploaded": "Počkajte, obrázok sa nahráva",
+  "x_employees": {
+    "one": "1 zamestnanec",
+    "other": "{{count}} zamestnancov",
+    "zero": "0 zamestnancov"
+  },
+  "company": {
+    "company": "Farma",
+    "edit": "Upraviť farmu",
+    "create": "Vytvoriť",
+    "create_first_company": "Vytvorte svoju prvú farmu",
+    "delete": "Odstrániť farmu",
+    "qs_number": "Číslo QS",
+    "doYouWantToDeleteCompany": "Naozaj chcete túto farmu odstrániť?"
+  },
+  "crop": {
+    "cancelCultivation": "Zrušiť plánovanú plodinu",
+    "plant": "Zasadiť plodinu",
+    "from_field": "Plodina z poľa",
+    "catch_crop": "Získať plodinu",
+    "field_without_crop_since": "Pole je bez úrody od {{date}}.",
+    "variety": "Rozmanitosť",
+    "permanent": "Trvalá plodina",
+    "plannedSingle": "Plánovaná plodina",
+    "commodityItem": "V obchode",
+    "planted_on": "Zasadené dňa",
+    "stockItem": "Na sklade",
+    "doYouReallyWantToDeleteCrop": "Naozaj chcete odstrániť históriu plodín vrátane všetkých komentárov pre plodinu?",
+    "deleteAndWithout": "Odstrániť plodinu (nechať bez obrábania)",
+    "resetAge": "Plodina je stará 0 dní",
+    "nothingHarvested": "Žiadna zožatá úroda.",
+    "plan": "Plánovanie plodiny",
+    "temporary": "Ročná plodina",
+    "when_was_crop_planted": "Kedy bolo pole obrobené?",
+    "ageBeginsAt0": "Nastaviť vek plodiny na 0",
+    "planned": "Plánované plodiny",
+    "doYourReallyWantToCancelCultivation": "Naozaj chcete zrušiť plánovanú plodinu?",
+    "pre": "Predchádzajúca plodina",
+    "type": "Druh plodiny",
+    "origin": "Pôvod plodiny",
+    "name": "Názov plodiny",
+    "delete": "Odstrániť plodinu",
+    "crop": "Plodina",
+    "planned_crop_is_active": "Zasadená plodina.",
+    "isActiveNow": "Plodina bola zasadená.",
+    "active": "Zasadené plodiny",
+    "select_color": "Vyberte farbu",
+    "without": "Bez obrábania",
+    "cropPlanning": "Plánovanie plodín",
+    "age": "Vek plodiny"
+  },
+  "fertilizer": {
+    "fertilization": "Hnojenie",
+    "fertilizer": "Hnojivo",
+    "enter_nutrient_ratio": "Zadajte obsah živín (%).",
+    "delete": "Odstrániť hnojenie",
+    "doYouReallyWantToDelete": "Naozaj chcete odstrániť hnojenie?"
+  },
+  "company_name": "Názov farmy",
+  "cancel": "Zrušiť",
+  "country": "Krajina",
+  "add": "Pridať",
+  "no_first_last_name_entered": "Zadajte svoje meno a priezvisko.",
+  "deletePhoto": "Odstrániť obrázok",
+  "date": "Dátum",
+  "invoice": {
+    "youDontHaveAddress": "Nezadali ste fakturačnú adresu."
+  },
+  "saveChanges": "Uložiť zmeny?",
+  "account": {
+    "account": "Účet",
+    "avatar": {
+      "camera": "Vytvoriť nový profilový obrázok",
+      "upload": "Vyberte profilový obrázok"
+    },
+    "edit": "Upraviť účet"
+  },
+  "waittime": {
+    "set": "Nastavte čakaciu dobu",
+    "waiting_period_in_days": "Čakacia doba v dňoch",
+    "application_day": "Deň aplikácie",
+    "delete": "Odstrániť čakaciu dobu",
+    "doYouReallyWantToDelete": "Naozaj chcete odstrániť dobu čakania?",
+    "pesticide": "Názov pesticíd",
+    "waitTime": "Čakacia doba"
+  },
+  "more": "Viac",
+  "position": "Poloha",
+  "harvested": "Pozberané",
+  "friends": {
+    "shortShareMessage": "Vyskúšajte aplikáciu Farmerjoe pre smartfón. Stiahnite si ju tu {{url}}.",
+    "inform": "Informujte svojich priateľov",
+    "emailMessage": "Dobrý deň,\n\npráve som si stiahol aplikáciu FarmerJoe na svoj {{phone}}.\n        \nJe to aplikácia zameraná na poľnohospodársku dokumentáciu, ktorá sa navyše jednoducho používa. Pomocou tejto aplikácie môžete zobraziť svoje polia a plodiny na mape a môžete si zapisovať poznámky s obrázkami. Tiež si môžete nastaviť čakacie doby a zaznamenávať hnojenie.\n\nAplikácia FarmerJoe je k dispozícii pre iPhone a Android.\n\nNainštalujte si aplikáciu Farmerjoe z {{url}}."
+  },
+  "confrim_agb_data_security": "Kliknutím na položku „Vytvoriť účet“ súhlasíte s {0} a potvrdíte, že ste si prečítali naše {1}.",
+  "password": {
+    "current": "Aktuálne heslo",
+    "password": "Heslo",
+    "yourPasswordWasUpdated": "Vaše heslo bolo aktualizované.",
+    "notUpdated": "Heslo sa nezmenilo.",
+    "forgotten": "Zabudli ste heslo?",
+    "wrong": "Nesprávne heslo. Ak ste zabudli svoje heslo, kliknite na odkaz Zabudnuté heslo.",
+    "change": "Zmeniť heslo",
+    "dontMatch": "Heslá sa nezhodujú.",
+    "repeat": "Opakujte heslo",
+    "updated": "Heslo aktualizované.",
+    "min6char": "Heslo musí mať dĺžku najmenej 6 znakov."
+  },
+  "noSearchResults": "Žiadne výsledky.",
+  "login": "Prihlásenie",
+  "forgotten_password_mail_sent_to": "Poslali sme vám e-mail s odkazom na obnovenie hesla na {0}. Ak si chcete obnoviť svoje heslo, postupujte podľa pokynov v e-maile.",
+  "add_company": "Pridať farmu",
+  "languages": {
+    "really_change": "Naozaj chcete zmeniť jazyk na {{language}}?",
+    "change": "Zmeniť jazyk"
+  },
+  "theImageCouldntBeUploaded": "Obrázok sa nedá nahrať: {{error}}",
+  "sortFieldsBy": "Zoradiť podľa",
+  "x_fields": {
+    "zero": "0 polí",
+    "other": "{{count}} polí",
+    "one": "1 pole"
+  },
+  "yes": "Áno",
+  "warehouse": {
+    "add": "Pridať sklad",
+    "noWarehousesCreated": "Nebol vytvorený žiadny sklad.",
+    "position_it": "Poloha skladu",
+    "warehouse": "Sklad",
+    "name": "Názov skladu"
+  },
+  "employee": "Zamestnanec",
+  "archive": {
+    "archive": "Archív",
+    "noFieldsInArchive": "Žiadne polia nie sú archivované."
+  },
+  "save_as_favorite": "Uložiť ako obľúbené",
+  "cover": {
+    "photo": "Titulný obrázok",
+    "showCollegesWhatIsImportantToYou": "Ukážte svojim kolegom, čo vás zaujíma"
+  },
+  "ok": "OK",
+  "call_laboratory": "Zavolajte laboratóriu",
+  "countries": {
+    "select": "Vyberte krajinu",
+    "all": "Všetky krajiny"
+  },
+  "analysis_plural": "Analýzy",
+  "app": {
+    "rate": "Hodnotiť aplikáciu"
+  },
+  "dontKnowHowToOpenUrl": "Nie je možné otvoriť zadanú adresu URL {{url}}",
+  "zip": "PSČ",
+  "invoice_address": "Fakturačná adresa",
+  "logout": "Odhlásenie",
+  "employees": {
+    "plural": "Zamestnanci",
+    "admin": "Správca",
+    "manage": "Správa používateľov",
+    "adminRWD": "Administrátor (čítať, písať, mazať)",
+    "invitationSentOn": "Pozvánka bola odoslaná dňa {{date}}",
+    "invitrationRejectedOn": "Pozvánka bola odmietnutá dňa {{date}}"
+  },
+  "search": "Vyhľadávanie",
+  "satellite": "Satelitná",
+  "hybrid": "Hybridná",
+  "name": "Názov",
+  "agb": "Podmienky",
+  "note": "Poznámky",
+  "please_correct_your_entry": "Prosím opravte svoj záznam",
+  "connecting": "Pripájanie",
+  "email_already_in_use": "Zadaná e-mailová adresa je priradená k inému účtu.",
+  "version": "Verzia",
+  "profile": {
+    "reallyLogout": "Naozaj sa chcete odhlásiť?"
+  },
+  "back": "Späť",
+  "last_name": "Priezvisko",
+  "mobile_phone": "Mobilný telefón",
+  "wine_fruit": "Hrozno, ovocie",
+  "enter_address": "Zadajte adresu",
+  "favorites": "Obľúbené",
+  "legal_data_security": "Právna bezpečnosť a bezpečnosť dát",
+  "coordinates": "Súradnice",
+  "deletePermenantly": "Trvalo odstrániť",
+  "comment": {
+    "fromField": "Komentár z poľa: {{name}}",
+    "doYouReallyWantToDelete": "Naozaj chcete odstrániť komentár?",
+    "delete": "Odstrániť komentár"
+  },
+  "lastEntry": "Posledný záznam",
+  "deleteElement": "Odstrániť prvok",
+  "delete": "Vymazať",
+  "current": "Aktuálne",
+  "email": "E-mail",
+  "ggn_gln_number": "Číslo GGN / GLN",
+  "phone": "Telefón",
+  "notes": "Poznámky",
+  "x_days": "{{days}} d",
+  "create_account": "Nová registrácia",
+  "map": "Mapy",
+  "maps": {
+    "pressToSetPin": "Stlačením miesta na mape nastavíte značku."
+  },
+  "no_email_entered": "Nezadali ste e-mail.",
+  "camera": "Fotoaparát",
+  "areYouSureYouWantToDeleteElement": "Naozaj chcete položku odstrániť?",
+  "enter_notes_here": "Sem napíšte komentár",
+  "street": "Ulica",
+  "photoLibrary": "Fotogaléria",
+  "save": "Uložiť",
+  "error": "Chyba",
+  "first_name": "Meno",
+  "request_new_password": "Vyžiadať nové heslo",
+  "register": "Vytvoriť účet",
+  "phones": {
+    "enterNumber": "Zadajte svoje telefónne číslo"
+  },
+  "companies": "Farmy",
+  "uploadError": "Nahrávanie zlyhalo",
+  "laboratory": "Laboratórium",
+  "user_not_found": "Používateľ so zadanou e-mailovou adresou neexistuje.",
+  "settings": "Nastavenia",
+  "help": "Pomoc",
+  "position_company": "Poloha farmy",
+  "copy": "Kopírovať",
+  "share": "Zdieľať",
+  "directions": "Navigácia",
+  "first_last_name": "Krstné meno",
+  "company_number": "Číslo farmy",
+  "select_field": "Vyberte pole",
+  "grains_vegetables": "Obilniny, zelenina",
+  "no_password_entered": "Nezadali ste heslo.",
+  "language": "Jazyk",
+  "edit": "Upraviť",
+  "change": "Zmeniť",
+  "contact": {
+    "dontDeleteData": "Nasledujúce údaje prosím neodstraňujte. Potrebujeme ich, aby sme vás mohli identifikovať v systéme a poskytnúť vám tak lepšiu podporu."
+  },
+  "no": "Nie",
+  "done": "Hotovo",
+  "city": "Mesto",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Ďakujeme, že ste si vybrali aplikáciu farmerJoe",
+        "description": "Teraz si môžete ľahko a efektívne optimalizovať svoju produkciu."
+      },
+      "slide2": {
+        "title": "Spravovať niekoľko fariem",
+        "description": "Jendoducho sledujte, čo sa deje na vašich farmách."
+      },
+      "slide3": {
+        "title": "Jednoduchá dokumentácia",
+        "description": "Zapíšte si veci, ktoré sú pre vás dôležité. Odfoťte fotografie, ktoré si chcete uložiť."
+      },
+      "slide4": {
+        "title": "Jednoducho nájdite svoje polia",
+        "description": "Získajte okamžitý prehľad všetkých svojich polí. Na prijímanie rozhodnutí použite vek plodín a čakaciu dobu."
+      },
+      "slide5": {
+        "title": "Objednať analýzy",
+        "description": "Objednajte si analýzy pomocou smartfónu. Výsledky sa posielajú priamo do dokumentácie k vašim poliam."
+      },
+      "slide6": {
+        "title": "Pridať zamestnancov",
+        "description": "Využite silu svojho tímu a pracujte lepšie."
+      },
+      "done": "Začať teraz"
+    },
+    "skip": "Preskočiť"
+  },
+  "moments": {
+    "today": "Dnes",
+    "days_ago": {
+      "one": "Pred 1 dňom",
+      "other": "Pred {{count}} dňami"
+    },
+    "in_days": {
+      "one": "o 1 deň",
+      "other": "o {{count}} dní"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "Aplikácia farmerJoe vyžaduje vašu polohu",
+      "description": "Aplikácia farmerJoe momentálne nemá povolený prístup k vašej polohe."
+    },
+    "cantDetermineLocation": {
+      "title": "Aplikácia farmerJoe nedokáže určiť vašu polohu.",
+      "description": "Zapnite GPS vo svojom telefóne."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filter"
+}

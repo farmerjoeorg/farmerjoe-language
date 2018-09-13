@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Veri Politikamızı",
+  "invites": {
+    "reject": "Reddet",
+    "from": "{{name}} size davetiye gönderdi",
+    "accept": "Kabul Et"
+  },
+  "invalid_email": "E-posta adresi geçersiz.",
+  "analysis": {
+    "cancelAnalysis": "Analizi iptal et",
+    "residue": "Küspe",
+    "order": "Sipariş",
+    "plantOrSowDate": "Dikme/tohum atma tarihi",
+    "pleaseLabelProbe": "Lütfen örneği etiketleyin!",
+    "compostType": "Organik Gübre Türü",
+    "compostAmountInTons": "Ton cinsinden miktar",
+    "compostApplicationYear": "Uygulama yılı",
+    "profileNotComplete": "Kullanıcı profiliniz tamamlanmadı.",
+    "comment": "Yorum",
+    "thankYouForOrder": "Siparişiniz için {0}.",
+    "thankYou": "teşekkür ederiz.",
+    "after_harvest": "Hasattan Sonra",
+    "commissionWithCharge": "Ücretli Sipariş",
+    "productLabel": "Ürün Etiketi",
+    "harvest_start": "Hasat başladı mı?",
+    "before_harvest": "Hasattan Önce",
+    "analysisCancelledOn": "Analiz {{date}} - {{time}} tarihinde {{user}} tarafından iptal edildi.",
+    "during_harvest": "Hasat Sırasında",
+    "result_for": "Gerekenler",
+    "sample": "Örnek",
+    "sample_taker": "Numuneyi alan",
+    "sample_date": "Numune alma tarihi",
+    "resultResidue": "Kalıntı Analiz Sonucu",
+    "mondayFriday": "Pazartesi-Cuma",
+    "questions": "Sorularınız mı var?",
+    "offer": "Teklif",
+    "number": "Analiz numarası",
+    "cancelled": "İptal edildi",
+    "result_for_analysis_from_ready": "Analiz sonuçlarınıza {{date}} tarihinden itibaren erişebilirsiniz.",
+    "noCompanyAddress": "Şirket adresi yok.",
+    "ourOffers": "Analizlerimiz",
+    "compost": "Organik Gübre",
+    "analysis": "Analiz",
+    "cancel": "İptal",
+    "results": "Sonuçlar",
+    "orderAnalysisWithCommission": "Sipariş vermek istediğinizden emin misiniz?",
+    "toUserAnalysisEnterProfileData": "Analiz işlevini kullanmak için, kullanıcı verilerinizi doldurmanız gereklidir.",
+    "outdoor": "Açık Hava",
+    "pick_up_service": "Alma Talebi",
+    "orderSent": "Sipariş ver",
+    "noResultsAvailable": "Analiz sonucu bulunamadı.",
+    "result": "Sonuç",
+    "self_pick_up": "Kendi Aldığım Numune",
+    "doYouReallyWantToCancelAnalysis": "Analizi gerçekten iptal etmek istiyor musunuz?",
+    "commission": "Sipariş",
+    "bio": "Organik",
+    "ordered": "Analiz siparişi verildi",
+    "orderFrom": "{{date}} tarihinden itibaren sipariş verin",
+    "pending": "Beklemede",
+    "takeSampleForm": "Analiz türü",
+    "questionsPleaseCall": "Sorularınız için lütfen arayın.",
+    "soilAnalysis": "Toprak analizi",
+    "orderResidue": "Kalıntı Analizi Siparişi",
+    "result_expected_on": "Muhtemel sonuç tarihi: {{date}}",
+    "orderSoil": "Toprak Analizi Siparişi",
+    "conventional": "Geleneksel",
+    "residueAnalysis": "Kalıntı Analizi",
+    "input_in_database": "Veritabanına Gönder",
+    "result_on": "Sonuçlanma tarihi",
+    "needFastTomorrow": "Acele - Yarın içinde",
+    "soil": "Toprak",
+    "self_delivery": "Elden Teslimat",
+    "resultSoil": "Toprak Analizi Sonucu",
+    "greenhouse": "Sera",
+    "orderNumber": "Sipariş Numarası",
+    "orderSoilAnalysis": "Toprak Analizi Siparişi {{number}}",
+    "cancelledOn": "İptal edildi: {{date}}",
+    "result_till": "Muhtemel sonuç tarihi",
+    "toUseAnalysisEnterCompanyData": "Analiz fonksiyonunu kullanmak için öncelikle işletme verilerinizi doldurmanız gerekir.",
+    "needFastToday": "Acil - Bugün İçinde",
+    "pick_up_from_laboratory": "Laboratuvar Numunesi",
+    "pleaseFollowCurrentFertilizerRegulation": "Lütfen mevcut Gübre düzenlemesine göre hareket edin.",
+    "sampleIsTakenAccordingToRegulation": "Numune, mevcut Gübre düzenlemelerine göre alınacaktır."
+  },
+  "field": {
+    "number": "Tarla Numarası",
+    "harvested": "Tarla Hasat Edildi",
+    "noFieldsCreated": "Tarla kaydı oluşturulmadı.",
+    "sendToArchive": "Tarla bilgilerini arşive kaldır",
+    "cultivate": "Tarlayı ek",
+    "harvested_on": "Ekin {{date}} tarihinde hasat edildi",
+    "delete": "Tarlayı Sil",
+    "moveToArchive": "Tarla bilgileri arşive (Çiftlik -> Aşiv) taşınacak",
+    "area": "Alan",
+    "when_was_the_field_harvested": "Ekin ne zaman hasat edildi?",
+    "movedToArchive": "Tarla ekimi bitti (Arşiv).",
+    "cultivateAgain": "Tarla tekrar ekiliyor.",
+    "fields": "Tarlalar",
+    "coordinatesFromField": "Tarla koordinatları: {{name}}",
+    "name": "Tarla Adı",
+    "doYouReallyWantToDelete": "Bu tarlayı kalıcı olarak silmek istiyor musunuz?",
+    "position_it": "Tarla Konumu",
+    "createNow": "Tarla kaydını şimdi oluştur",
+    "toArchive": "Arşiv",
+    "field": "Tarla",
+    "created": "Tarla kaydı oluşturuldu."
+  },
+  "no_email_no_password_entered": "E-posta adresinizi ve şifrenizi girmediniz",
+  "pleaseWaitImageIsBeingUploaded": "Lütfen bekleyin, resim yükleniyor",
+  "x_employees": {
+    "one": "1 İşçi",
+    "other": "{{count}} İşçi",
+    "zero": "0 İşçi"
+  },
+  "company": {
+    "company": "Çiftlik",
+    "edit": "Çiftliği Düzenle",
+    "create": "Oluştur",
+    "create_first_company": "İlk çiftliğinizi oluşturun",
+    "delete": "Çiftliği Sil",
+    "qs_number": "QS Numarası",
+    "doYouWantToDeleteCompany": "Bu çiftliği gerçekten silmek istiyor musunuz?"
+  },
+  "crop": {
+    "cancelCultivation": "Planlanan ekini iptal et",
+    "plant": "Ekin Ek",
+    "from_field": "Tarladan alınan tohum",
+    "catch_crop": "Hızlı Büyüyen Mahsul",
+    "field_without_crop_since": "Tarla {{date}} tarihinden bu yana ekilmedi.",
+    "variety": "Çeşit",
+    "permanent": "Sürekli Mahsul",
+    "plannedSingle": "Planlanan Ekin",
+    "commodityItem": "Mağazadan",
+    "planted_on": "Ekim Tarihi",
+    "stockItem": "Depodan",
+    "doYouReallyWantToDeleteCrop": "Bu ekin geçmişini ve ilgili tüm yorumları gerçekten kaldırmak istiyor musunuz?",
+    "deleteAndWithout": "Ekini sil (ekilmemiş olarak bırak)",
+    "resetAge": "Mahsul süresi 0 gün içinde başlıyor",
+    "nothingHarvested": "Hasat edilen mahsul yok.",
+    "plan": "Ekin Planı",
+    "temporary": "Yıllık Ekin",
+    "when_was_crop_planted": "Mahsul ne zaman ekildi?",
+    "ageBeginsAt0": "Ekin süresini 0 olarak ayarla",
+    "planned": "Planlanan Ekinler",
+    "doYourReallyWantToCancelCultivation": "Planlanan mahsul ekimini gerçekten iptal etmek istiyor musunuz?",
+    "pre": "Ön - ekim",
+    "type": "Ekin Türü",
+    "origin": "Tohum Menşei",
+    "name": "Ekin Adı",
+    "delete": "Ekini Sil",
+    "crop": "Ekin",
+    "planned_crop_is_active": "Ekilen mahsul.",
+    "isActiveNow": "Ekin ekildi.",
+    "active": "Ekilen Mahsuller",
+    "select_color": "Renk Seçin",
+    "without": "Ekilmedi",
+    "cropPlanning": "Ekin Planlama",
+    "age": "Mahsul Süresi"
+  },
+  "fertilizer": {
+    "fertilization": "Gübreleme",
+    "fertilizer": "Gübre",
+    "enter_nutrient_ratio": "Lütfen besin oranını (%) girin.",
+    "delete": "Gübreleme bilgisini sil",
+    "doYouReallyWantToDelete": "Gübreleme işlemini gerçekten silmek istiyor musunuz?"
+  },
+  "company_name": "Çiftlik Adı",
+  "cancel": "İptal et",
+  "country": "Ülke",
+  "add": "Ekle",
+  "no_first_last_name_entered": "Lütfen adınızı ve soyadınızı girin.",
+  "deletePhoto": "Fotoğrafı Sil",
+  "date": "Tarih",
+  "invoice": {
+    "youDontHaveAddress": "Fatura adresini girmediniz."
+  },
+  "saveChanges": "Değişiklikler kaydedilsin mi?",
+  "account": {
+    "account": "Hesap",
+    "avatar": {
+      "camera": "Profil resmini kaydet",
+      "upload": "Profil resmi seçin"
+    },
+    "edit": "Hesabı Düzenle"
+  },
+  "waittime": {
+    "set": "Bekleme Süresini Ayarla",
+    "waiting_period_in_days": "Gün olarak bekleme süresi",
+    "application_day": "Uygulama Günü",
+    "delete": "Bekleme Süresini Sil",
+    "doYouReallyWantToDelete": "Bekleme süresini gerçekten silmek istiyor musunuz?",
+    "pesticide": "Tarım İlacı Adı",
+    "waitTime": "Bekleme Süresi"
+  },
+  "more": "Daha fazla",
+  "position": "Konum",
+  "harvested": "Hasat Edildi",
+  "friends": {
+    "shortShareMessage": "Akıllı telefonunuzdan farmerJoe'yu deneyin. Uygulamayı {{url}} adresinden indirebilirsiniz.",
+    "inform": "Arkadaşına Tavsiye Et",
+    "emailMessage": "Selam,\n\nfarmerJoe'yu {{phone}} telefonuma indirdim.\n        \nfarmerJoe, çiftçilere yönelik kullanımı kolay bir dokümantasyon uygulaması. Uygulama sayesinde tarlalarınızı ve ekinlerinizi harita üzerinden görebilir, resimli notlar ekleyebilir, bekleme sürelerini ve gübreleme bilgilerinizi kaydedebilirsiniz.\n\nfarmerJoe, iPhone ve Android cihazlarda kullanılabilir.\n\nfarmerJoe'yu {{url}} adresinden yükleyebilirsiniz."
+  },
+  "confrim_agb_data_security": "\"Hesap Oluştur\"u tıklayarak {0} ve {1} okuduğunuzu ve onayladığınızı kabul etmiş sayılırsınız.",
+  "password": {
+    "current": "Geçerli Şifre",
+    "password": "Şifre",
+    "yourPasswordWasUpdated": "Şifreniz güncellendi.",
+    "notUpdated": "Şifre değiştirilemedi.",
+    "forgotten": "Şifremi Unuttum",
+    "wrong": "Şifre hatalı. Şifrenizi bilmiyorsanız, 'Şifremi Unuttum' bağlantısını kullanın.",
+    "change": "Şifreyi Değiştir",
+    "dontMatch": "Şifreler eşleşmiyor.",
+    "repeat": "Şifreyi Tekrar Girin",
+    "updated": "Şifre güncellendi.",
+    "min6char": "Şifre en az 6 karakter uzunluğunda olmalıdır."
+  },
+  "noSearchResults": "Sonuç yok.",
+  "login": "GİRİŞ",
+  "forgotten_password_mail_sent_to": "Şifrenizi sıfırlamanız için {0} adresine sıfırlama bağlantısını içeren bir e-posta gönderdik. Şifrenizi sıfırlamak için lütfen e-postadaki talimatları izleyin.",
+  "add_company": "Çiftlik Ekle",
+  "languages": {
+    "really_change": "Dili {{language}} olarak değiştirmek istediğinizden emin misiniz?",
+    "change": "Dili Değiştir"
+  },
+  "theImageCouldntBeUploaded": "Resim yüklenemedi: {{error}}",
+  "sortFieldsBy": "Sırala",
+  "x_fields": {
+    "zero": "0 tarla",
+    "other": "{{count}} tarla",
+    "one": "1 tarla"
+  },
+  "yes": "Evet",
+  "warehouse": {
+    "add": "Depo Ekle",
+    "noWarehousesCreated": "Depo oluşturulmadı.",
+    "position_it": "Depo Konumu",
+    "warehouse": "Depo",
+    "name": "Depo Adı"
+  },
+  "employee": "İşçi",
+  "archive": {
+    "archive": "Arşiv",
+    "noFieldsInArchive": "Arşivde hiç tarla yok."
+  },
+  "save_as_favorite": "Favori Olarak Kaydet",
+  "cover": {
+    "photo": "Kapak Resmi",
+    "showCollegesWhatIsImportantToYou": "Önemli gördüğünüz şeyleri meslektaşlarınızla paylaşın"
+  },
+  "ok": "Tamam",
+  "call_laboratory": "Laboratuvarı Ara",
+  "countries": {
+    "select": "Ülke Seçin",
+    "all": "Tüm Ülkeler"
+  },
+  "analysis_plural": "Analizler",
+  "app": {
+    "rate": "Uygulamayı Değerlendir"
+  },
+  "dontKnowHowToOpenUrl": "Belirtilen URL adresi ({{url}}) açılamıyor",
+  "zip": "Posta Kodu",
+  "invoice_address": "Fatura Adresi",
+  "logout": "Çıkış",
+  "employees": {
+    "plural": "İşçiler",
+    "admin": "Yönetici",
+    "manage": "İşçileri Yönet",
+    "adminRWD": "Yönetici (okuma, yazma, silme)",
+    "invitationSentOn": "Davet {{date}} tarihinde gönderildi",
+    "invitrationRejectedOn": "Davet {{date}} tarihinde reddedildi"
+  },
+  "search": "Ara",
+  "satellite": "Uydu",
+  "hybrid": "Birlikte",
+  "name": "Ad",
+  "agb": "Hizmet Koşullarımızı",
+  "note": "Notlar",
+  "please_correct_your_entry": "Lütfen girdiğiniz bilgileri düzeltin",
+  "connecting": "Bağlanılıyor",
+  "email_already_in_use": "Girilen e-posta adresi zaten başka bir hesap tarafından kullanılıyor.",
+  "version": "Sürüm",
+  "profile": {
+    "reallyLogout": "Oturumu kapatmak istediğinizden emin misiniz?"
+  },
+  "back": "Geri",
+  "last_name": "Soyad",
+  "mobile_phone": "Cep Telefonu",
+  "wine_fruit": "Üzüm, meyve",
+  "enter_address": "Adresi Girin",
+  "favorites": "Favoriler",
+  "legal_data_security": "Yasal Hükümler ve Veri Güvenliği",
+  "coordinates": "Koordinatlar",
+  "deletePermenantly": "Kalıcı olarak sil",
+  "comment": {
+    "fromField": "Tarladan açıklama gönderildi: {{name}}",
+    "doYouReallyWantToDelete": "Yorumu gerçekten silmek istiyor musun?",
+    "delete": "Yorumu sil"
+  },
+  "lastEntry": "Son Giriş",
+  "deleteElement": "Öğeyi Sil",
+  "delete": "Sil",
+  "current": "Mevcut",
+  "email": "E-posta",
+  "ggn_gln_number": "GGN/GLN Numarası",
+  "phone": "Telefon",
+  "notes": "Notlar",
+  "x_days": "{{days}} g",
+  "create_account": "Yeni Kayıt",
+  "map": "Haritalar",
+  "maps": {
+    "pressToSetPin": "Konumu sabitlemek için haritaya dokunun."
+  },
+  "no_email_entered": "E-posta adresi girmediniz.",
+  "camera": "Kamera",
+  "areYouSureYouWantToDeleteElement": "Bu öğeyi gerçekten silmek istiyor musunuz?",
+  "enter_notes_here": "Yorumlarınızı buraya girin",
+  "street": "Sokak",
+  "photoLibrary": "Fotoğraf Kütüphanesi",
+  "save": "Kaydet",
+  "error": "Hata",
+  "first_name": "Ad",
+  "request_new_password": "Yeni Şifre İste",
+  "register": "Hesap Oluştur",
+  "phones": {
+    "enterNumber": "Telefon numaranızı girin"
+  },
+  "companies": "Çiftlikler",
+  "uploadError": "Yükleme başarısız",
+  "laboratory": "Laboratuvar",
+  "user_not_found": "Girilen e-posta adresine sahip bir kullanıcı yok.",
+  "settings": "Ayarlar",
+  "help": "Yardım",
+  "position_company": "Çiftlik Konumu",
+  "copy": "Kopyala",
+  "share": "Paylaş",
+  "directions": "Yol Tarifi",
+  "first_last_name": "Ad - Soyad",
+  "company_number": "Çiftlik Numarası",
+  "select_field": "Tarla Seçin",
+  "grains_vegetables": "Tahıllar, sebzeler",
+  "no_password_entered": "Şifrenizi girmediniz.",
+  "language": "Dil",
+  "edit": "Düzenle",
+  "change": "Değiştir",
+  "contact": {
+    "dontDeleteData": "Lütfen aşağıdaki verileri silmeyin. Sizi sistemde doğru olarak tanımlamak için bu verilere ihtiyacımız var. Böylece size en iyi şekilde Destek sağlayabiliriz.\n"
+  },
+  "no": "Hayır",
+  "done": "Bitti",
+  "city": "Şehir",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "farmerjoe'yu seçtiğiniz için teşekkür ederiz",
+        "description": "Artık üretiminizi kolay ve verimli bir şekilde geliştirebilirsiniz."
+      },
+      "slide2": {
+        "title": "Birçok Çiftliği yönetin",
+        "description": "Çiftliklerinizde neler olup bittiğini kolayca takip edin."
+      },
+      "slide3": {
+        "title": "Kolay belgeleme",
+        "description": "Sizin için önemli olan şeyleri not edin. Saklamak istediğiniz fotoğraflar çekin."
+      },
+      "slide4": {
+        "title": "Tarlalarınızı kolayca bulun",
+        "description": "Tüm tarlalarınıza tek bakışta göz atın. Karar vermek için mahsul zamanını ve bekleme süresini kullanın."
+      },
+      "slide5": {
+        "title": "Analiz siparişi",
+        "description": "Akıllı telefonunuzla Analiz siparişleri verin. Sonuçlar doğrudan tarla belgelerinize aktarılsın."
+      },
+      "slide6": {
+        "title": "İşçilerinizi ekleyin",
+        "description": "Daha iyi çalışmak için ekibinizin gücünü kullanın."
+      },
+      "done": "Hemen başlayın"
+    },
+    "skip": "Atla"
+  },
+  "moments": {
+    "today": "Bugün",
+    "days_ago": {
+      "one": "1 gün önce",
+      "other": "{{count}} gün önce"
+    },
+    "in_days": {
+      "one": "1 gün içinde",
+      "other": "{{count}} gün içinde"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerjoe'nun konumunuza ihtiyacı var",
+      "description": "farmerjoe şu anda konumunuza erişemiyor."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerjoe konumunuzu belirleyemiyor.",
+      "description": "Lütfen telefonunuzun GPS'ini açın."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filtre"
+}

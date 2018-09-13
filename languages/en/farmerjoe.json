@@ -1,0 +1,610 @@
+{
+  "data_guidelines": "Data Policy",
+  "cookie_policy": "Cookie Policy",
+  "info": "Info",
+  "invites": {
+    "reject": "Reject",
+    "from": "Invitation from {{name}}",
+    "accept": "Accept",
+    "resend": "Resend",
+    "resendDoYouReally":"Do you really want to resend the invitation?",
+    "deleteDoYouReally":"Do you really want to delete the user from the company?",
+    "noInvites": "No invitations"
+  },
+  "latestActivities": {
+    "tabLabel": "Latest",
+    "sceneTitle": "Latest activities",
+    "period": "Period",
+    "selectPeriod": "Select period",
+    "onlyPhotos": "Only photos",
+    "photo": "Photo",
+    "all": "All",
+    "noActivity": "No activity for the selected period"
+  },
+  "invalid_email": "The email address is not valid.",
+  "analysis": {
+    "cancelAnalysis": "Cancel Analysis",
+    "residue": "Residue",
+    "order": "Order",
+    "plantOrSowDate": "Plant/sow date",
+    "pleaseLabelProbe": "Please label the probe!",
+    "dontForgetToLabelProbe":"Please don't forget to label the probe!",
+    "compostType": "Compost Type",
+    "compostAmountInTons": "Quantity in tons",
+    "compostApplicationYear": "Application year",
+    "profileNotComplete": "Your user profile is not complete.",
+    "comment": "Comment",
+    "thankYouForOrder": "{0} for your order.",
+    "thankYou": "Thank you",
+    "after_harvest": "After Harvest",
+    "commissionWithCharge": "Chargeable Order",
+    "productLabel": "Product Label",
+    "harvest_start": "Harvest begins?",
+    "before_harvest": "Before Harvest",
+    "analysisCancelledOn": "The analysis was cancelled on {{date}} at {{time}} by {{user}}.",
+    "during_harvest": "During Harvest",
+    "result_for": "Required by",
+    "sample": "Sample",
+    "sample_taker": "Taken by",
+    "sample_date": "Taken on",
+    "resultResidue": "Residue Analysis Result",
+    "mondayFriday": "Mon-Fri",
+    "questions": "Questions?",
+    "offer": "Offer",
+    "number": "Analysis number",
+    "cancelled": "Cancelled",
+    "result_for_analysis_from_ready": "The results of your analysis from {{date}} are now available.",
+    "noCompanyAddress": "No company address.",
+    "ourOffers": "Analysis offered",
+    "compost": "Compost",
+    "analysis": "Analysis",
+    "cancel": "Cancel",
+    "results": "Results",
+    "orderAnalysisWithCommission": "Are you sure you want to order?",
+    "toUserAnalysisEnterProfileData": "To use the analysis feature you need to provide all requested user data.",
+    "outdoor": "Open Air",
+    "pick_up_service": "Request Collection",
+    "orderSent": "Place order",
+    "noResultsAvailable": "No probe results available.",
+    "result": "Result",
+    "self_pick_up": "DIY Sample",
+    "doYouReallyWantToCancelAnalysis": "Do you really want to cancel the analysis?",
+    "commission": "Order",
+    "bio": "Organic",
+    "ordered": "Analysis ordered",
+    "orderFrom": "Order made on {{date}}",
+    "pending": "Pending",
+    "takeSampleForm": "Probe type",
+    "questionsPleaseCall": "Please call if you have any questions.",
+    "soilAnalysis": "Soil analysis",
+    "orderResidue": "Order Residue Analysis",
+    "result_expected_on": "Results expected on: {{date}}",
+    "orderSoil": "Order Soil Analysis",
+    "conventional": "Conventional",
+    "residueAnalysis": "Residue Analysis",
+    "input_in_database": "Submit to Database",
+    "result_on": "Results on",
+    "needFastTomorrow": "Rush Tomorrow",
+    "soil": "Soil",
+    "self_delivery": "DIY Delivery",
+    "resultSoil": "Soil Analysis Result",
+    "greenhouse": "Greenhouse",
+    "orderNumber": "Order Number",
+    "orderSoilAnalysis": "Order Soil Analysis {{number}}",
+    "cancelledOn": "Cancelled on: {{date}}",
+    "result_till": "Results expected by",
+    "toUseAnalysisEnterCompanyData": "To use the analysis function you must first fill out all your company data.",
+    "needFastToday": "Rush Today",
+    "pick_up_from_laboratory": "Lab Sample",
+    "pleaseFollowCurrentFertilizerRegulation": "Please follow current Fertilizer directive.",
+    "sampleIsTakenAccordingToRegulation": "The sample will be taken according to the current Fertilizer directive.",
+	"acceptedFromLab": "{{date}} - accepted by Lab",
+	"acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
+    "probeTaken": "{{date}} - probe taken by Lab",
+    "sortByCrop": "By Crop",
+	"sortByLatest": "By latest",
+	"latest": "Last analyses",
+    "analysisType": "Analysis type"
+  },
+  "field": {
+    "number": "Field Number",
+    "harvested": "Field Harvested",
+    "noFieldsCreated": "No fields created.",
+    "sendToArchive": "Archive the field",
+    "cultivate": "Cultivate field",
+    "harvested_on": "Crop harvested on {{date}}",
+    "sown_on": "Crop sown on {{date}}",
+    "delete": "Delete Field",
+    "moveToArchive": "The field is going to be moved to the archive (Farm -> Archive)",
+    "area": "Area",
+    "when_was_the_field_harvested": "When was the crop harvested?",
+    "movedToArchive": "Field cultivation ended (Archive).",
+    "cultivateAgain": "Field is being cultivated again.",
+    "fields": "Fields",
+    "coordinatesFromField": "Coordinates of field: {{name}}",
+    "name": "Field Name",
+    "doYouReallyWantToDelete": "Do you really want to permanently delete this Field?",
+    "position_it": "Field Location",
+    "createNow": "Create field now",
+    "toArchive": "Archive",
+    "field": "Field",
+    "created": "Field created.",
+    "history": "Field history",
+    "show": "Show field",
+    "dropFilesHere": "Drop files here",
+    "followingFilesAreUnsupported": "The following files are unsupported:"
+  },
+  "no_email_no_password_entered": "You didn't enter an email and password",
+  "pleaseWaitImageIsBeingUploaded": "Please wait, the image is being uploaded",
+  "x_employees": {
+    "one": "1 Employee",
+    "other": "{{count}} Employees",
+    "zero": "0 Employees"
+  },
+  "company": {
+    "company": "Farm",
+    "edit": "Edit Farm",
+    "create": "Create",
+    "create_first_company": "Create your first farm",
+    "delete": "Delete Farm",
+    "qs_number": "QS Number",
+    "logo": {
+      "upload": "Select company logo",
+      "camera": "Take a new company logo"
+    },
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?",
+    "addNew": "Add company"
+  },
+  "crop": {
+    "cancelCultivation": "Cancel the planned crop",
+    "plant": "Plant Crop",
+    "from_field": "Crop from field",
+    "catch_crop": "Catch Crop",
+    "field_without_crop_since": "Field is without crop since {{date}}.",
+    "variety": "Variety",
+    "permanent": "Permanent Crop",
+    "plannedSingle": "Planned Crop",
+    "commodityItem": "In Store",
+    "planted_on": "Planted on",
+    "stockItem": "In Warehouse",
+    "doYouReallyWantToDeleteCrop": "Do you really want to delete the Crop history including all comments for this crop?",
+    "deleteAndWithout": "Delete crop (leave uncultivated)",
+    "resetAge": "Crop age starts now at 0 days",
+    "nothingHarvested": "No crops harvested.",
+    "plan": "Plan crop",
+    "temporary": "Annual Crop",
+    "when_was_crop_planted": "When was the plantation cultivated?",
+    "ageBeginsAt0": "Set crop age to 0",
+    "planned": "Planned Crops",
+    "doYourReallyWantToCancelCultivation": "Do you really want to cancel the planned crop?",
+    "pre": "Pre-crop",
+    "type": "Crop Type",
+    "origin": "Crop origin",
+    "name": "Crop Name",
+    "delete": "Delete Crop",
+    "crop": "Crop",
+    "planned_crop_is_active": "Planted crop.",
+    "isActiveNow": "The crop has been planted.",
+    "active": "Planted Crops",
+    "select_color": "Choose Colour",
+    "without": "Uncultivated",
+    "cropPlanning": "Crop Planning",
+    "age": "Crop Age",
+    "cropDoesntExist": "The selected crop doesn't exist.",
+    "protection": "Plant protection"
+  },
+  "fertilizer": {
+    "fertilization": "Fertilisation",
+    "fertilizer": "Fertiliser",
+    "enter_nutrient_ratio": "Enter nutrient ratio in (%).",
+    "delete": "Delete fertilization",
+    "doYouReallyWantToDelete": "Do you really want to delete the fertilization?"
+  },
+  "company_name": "Farm Name",
+  "cancel": "Cancel",
+  "country": "Country",
+  "add": "Add",
+  "no_first_last_name_entered": "Please enter your first and last name.",
+  "deletePhoto": "Delete Photo",
+  "date": "Date",
+  "datePleaseSelect": "Please select date",
+  "invoice": {
+    "youDontHaveAddress": "You haven't entered an invoice address."
+  },
+  "saveChanges": "Save changes?",
+  "account": {
+    "account": "Account",
+    "avatar": {
+      "camera": "Take a new profile picture",
+      "upload": "Select profile picture"
+    },
+    "edit": "Edit Account"
+  },
+  "waittime": {
+    "set": "Set Wait Time",
+    "waiting_period_in_days": "Waiting time in days",
+    "application_day": "Application Day",
+    "delete": "Delete Wait Time",
+    "doYouReallyWantToDelete": "Do you really want to delete the wait time?",
+    "pesticide": "Pesticide Name",
+    "waitTime": "Waiting Period",
+    "waitTimeShort": "Wait time"
+  },
+  "more": "More",
+  "position": "Position",
+  "harvested": "Harvested",
+  "friends": {
+    "shortShareMessage": "Check out farmerJoe for your smartphone. Download it today from {{url}}.",
+    "inform": "Tell a Friend",
+    "emailMessage": "Hey,\n\nI just downloaded farmerJoe for my {{phone}}.\n\nfarmerJoe is a documentation app for farmers that is easy to use. With the app you can see your fields and crops on a map, you can add notes with a picture. You can set wait times and record fertilisers.\n\nfarmerJoe is available for iPhone and Android.\n\nInstall it from {{url}}."
+  },
+
+  "password": {
+    "current": "Current Password",
+    "password": "Password",
+    "yourPasswordWasUpdated": "Your password was updated.",
+    "notUpdated": "Password was not changed.",
+    "forgotten": "Forgotten Password",
+    "wrong": "The password is not correct. If you don't know it use the Forgotten Password link.",
+    "change": "Change Password",
+    "dontMatch": "The passwords do not match.",
+    "repeat": "Repeat Password",
+    "updated": "Password updated.",
+    "min6char": "The password must be at least 6 characters long."
+  },
+  "noSearchResults": "No results.",
+  "login": "Login",
+  "forgotten_password_mail_sent_to": "We have sent an email to {0} with a link to reset your password. Please follow the instructions in the email to reset your password.",
+  "add_company": "Add Farm",
+  "languages": {
+    "really_change": "Are you sure you want to change the language to {{language}}?",
+    "change": "Change Language"
+  },
+  "theImageCouldntBeUploaded": "The Image couldn't be uploaded: {{error}}",
+  "sortFieldsBy": "Sort by",
+  "x_fields": {
+    "zero": "0 fields",
+    "other": "{{count}} fields",
+    "one": "1 field"
+  },
+  "yes": "Yes",
+  "warehouse": {
+    "add": "Add Warehouse",
+    "noWarehousesCreated": "No warehouse created.",
+    "position_it": "Warehouse Location",
+    "warehouse": "Warehouse",
+    "name": "Warehouse Name"
+  },
+  "employee": "Employee",
+  "archive": {
+    "archive": "Archive",
+    "archivedFields": "Archived Fields",
+    "noFieldsInArchive": "No fields in the archive."
+  },
+  "save_as_favorite": "Save as Favourite",
+  "cover": {
+    "photo": "Cover Photo",
+    "showCollegesWhatIsImportantToYou": "Show your colleagues what is important to you"
+  },
+  "ok": "OK",
+  "call_laboratory": "Call Laboratory",
+  "countries": {
+    "select": "Select Country",
+    "all": "All Countries"
+  },
+  "analysis_plural": "Analyses",
+  "app": {
+    "rate": "Rate App"
+  },
+  "dontKnowHowToOpenUrl": "Can not open the URL {{url}}",
+  "zip": "ZIP",
+  "invoice_address": "Invoice Address",
+  "logout": "Logout",
+  "employees": {
+    "addEmployee": "Add Employee",
+    "noAdvisors": "No farm advisors",
+    "noDeactivatedUsers": "No deactivated users",
+    "plural": "Employees",
+    "active": "Active",
+    "deactivated": "Deactivated",
+    "reactivate": "Reactivate user",
+    "reactivateDoYouWant":"Do you really want to reactivate the user?",
+    "advisors": "Advisors",
+    "admin": "Admin",
+    "manage": "Manage Users",
+    "adminRWD": "Admin (read, write, delete)",
+    "invitationSentOn": "Invitation sent on {{date}}",
+    "invitrationRejectedOn": "Invitation rejected on {{date}}",
+    "getFromPhoneBook": "Search in Phonebook",
+    "choseEmail": "Choose email",
+    "employeeIsDeactivated": "Employee is deactivated"
+  },
+  "search": "Search",
+  "satellite": "Satellite",
+  "hybrid": "Hybrid",
+  "name": "Name",
+  "agb": "Terms",
+  "note": "Notes",
+  "please_correct_your_entry": "Please correct your entry",
+  "connecting": "Connecting",
+  "email_already_in_use": "The email address is already used by another account.",
+  "version": "Version",
+  "profile": {
+    "reallyLogout": "Are you sure that you want to logout?"
+  },
+  "back": "Back",
+  "last_name": "Surname",
+  "mobile_phone": "Mobile",
+  "wine_fruit": "Grapes, fruits",
+  "enter_address": "Enter Address",
+  "favorites": "Favourites",
+  "legal_data_security": "Legal & Data Security",
+  "coordinates": "Coordinates",
+  "deleteForAll": "Delete for all",
+  "deletePermenantly": "Delete permanently",
+  "comment": {
+    "fromField": "Comment from field: {{name}}",
+    "doYouReallyWantToDelete": "Do you really want to delete the comment?",
+    "delete": "Delete comment"
+  },
+  "lastEntry": "Last Entry",
+  "deleteElement": "Delete Element",
+  "delete": "Delete",
+  "current": "Current",
+  "email": "Email",
+  "ggn_gln_number": "GGN/GLN",
+  "phone": "Tel",
+  "notes": "Notes",
+  "x_days": "{{days}} d",
+  "create_account": "New Registration",
+  "map": "Maps",
+  "maps": {
+    "pressToSetPin": "Press on the map to set the location pin.",
+    "clickToShowMore": "Click to show more"
+  },
+  "no_email_entered": "You didn't enter an email address.",
+  "camera": "Camera",
+  "areYouSureYouWantToDeleteElement": "Do you really want to delete this element?",
+  "enter_notes_here": "Enter comments here",
+  "street": "Street",
+  "photoLibrary": "Photo Library",
+  "save": "Save",
+  "error": "Error",
+  "first_name": "First Name",
+  "request_new_password": "Request New Password",
+  "register": "Create Account",
+  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "phones": {
+    "enterNumber": "Enter your phone number"
+  },
+  "companies": "Farms",
+  "uploadError": "Uploading has failed",
+  "laboratory": "Laboratory",
+  "user_not_found": "A user with the provided email address doesn't exist.",
+  "settings": "Settings",
+  "help": "Help",
+  "position_company": "Farm Location",
+  "position_verb": "Set location",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
+  "copy": "Copy",
+  "share": "Share",
+  "directions": "Directions",
+  "first_last_name": "Full Name",
+  "company_number": "Farm Number",
+  "select_field": "Select Field",
+  "grains_vegetables": "Cereals, vegetables",
+  "no_password_entered": "You didn't enter a password.",
+  "language": "Language",
+  "edit": "Edit",
+  "change": "Change",
+  "contact": {
+    "dontDeleteData": "Please don't delete the following data. We need it to properly identify you in the system. So then we can offer you better Support.\n"
+  },
+  "no": "No",
+  "done": "Done",
+  "city": "City",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Thank you for choosing farmerJoe",
+        "description": "Now you can easily and efficiently optimize your production."
+      },
+      "slide2": {
+        "title": "Manage several Farms",
+        "description": "Keep up with what's going on in your Farms with ease."
+      },
+      "slide3": {
+        "title": "Easy documentation",
+        "description": "Write down the stuff that's important to you. Make photos that you want to keep."
+      },
+      "slide4": {
+        "title": "Find your fields with ease",
+        "description": "Immediately have the overview on all fields. Use the crop age and wait time count down for your decisions."
+      },
+      "slide5": {
+        "title": "Order analyses",
+        "description": "Order Analyses with your smartphone. The results of them are directly fed back to your field documentation."
+      },
+      "slide6": {
+        "title": "Add your employees",
+        "description": "Use the power of your team to work better."
+      },
+      "done": "Start now"
+    },
+    "skip": "Skip"
+  },
+  "moments": {
+    "today": "Today",
+    "days_ago": {
+      "one": "1 day ago",
+      "other": "{{count}} days ago"
+    },
+    "in_days": {
+      "one": "in 1 day",
+      "other": "in {{count}} days"
+    }
+  },
+  "alerts": {
+    "openSettings": "Open Settings",
+    "needLocation": {
+      "title": "farmerJoe needs your location",
+      "description": "farmerJoe is currently not allowed to access your location."
+    },
+    "needAlwaysLocation": {
+      "title": "Location permission not granted",
+      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe cannot determine your location.",
+      "description": "Please turn on your phone's GPS on."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    },
+    "needContactsAccess": {
+      "title": "FarmerJoe needs access to your contacts",
+      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+    }
+  },
+  "filter": "Filter",
+  "acl": {
+    "view": "View",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "department": "Department",
+    "selectFields": "Select fields",
+    "CRUD": "Create, Edit, Delete",
+    "role": {
+      "restricted": "Restricted access",
+      "allrights": "All rights",
+      "type": "Account type",
+      "admin": "Admin",
+      "standard": "Worker",
+      "advisor": "Advisor"
+    },
+    "user": {
+      "delete": "Delete Employee",
+      "deactivate": "Deactivate Employee",
+      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
+      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
+      "cantDeleteYourself": "You can't delete yourself",
+      "alertFound" : {
+        "title": "User already in company",
+        "message": "The user with this email is already existing in the company."
+      },
+      "alertNoFields": {
+        "title": "No fields selected",
+        "message": "You need to select at least one field for the user"
+      }
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+      },
+      "forbidFieldAlert": {
+        "message": "Do you really want to forbid {{name}} access to this field?"
+      },
+      "grantFieldAlert": {
+        "message": "Do you really want to give {{name}} access to this field?"
+      },
+      "alreadyHasAccess":"Already has access to field.",
+      "accessOnceInvitationAccepted":"Has access once user accepts invitation."
+    },
+    "rights": "Rights",
+    "fields": {
+      "all": "All",
+      "selected": "Only selected",
+      "selectDesc": "Select fields which the user is able to see.",
+      "standardUserRights": "The user can't create or edit fields."
+    },
+    "crops": {
+      "all": "Planted and harvested",
+      "active": "Only planted",
+      "standardUserRights": "The user can't create or edit any crops."
+    },
+    "comments": {
+      "comments": "Comments",
+      "all": "All comments",
+      "selected": "Only own comments",
+      "standardUserRights": "The user can create and edit his own comments."
+    },
+    "fertilizing": {
+      "description": "Select below what the user is able to do with Fertilizings."
+    },
+    "waittime": {
+      "description": "Select below what the user is able to do with Wait times."
+    }
+  },
+  "near" : {
+    "by" : "Near by",
+    "fields": "Nearest fields",
+    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+  },
+  "registerScreen": {
+    "startNow": "Get started",
+    "helpEasySteps": "We'll help you create an account in a few easy steps.",
+    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
+    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
+    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
+    "newsletter": "Sign up for farmerJoe's newsletter",
+    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
+    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {1}.",
+    "continueRegistration": "Continue sign up",
+    "next": "Next",
+    "enterEmail":"Enter your email",
+    "errorEmailExist": "Another account already users this email address.",
+    "retry": "Retry",
+    "titles": {
+      "finish": "Finish signing up",
+      "haveAnAccount": "Already have an account",
+      "join": "Join farmerJoe",
+      "password": "Create a password",
+      "whatIsYourName": "What's your name?",
+      "whatIsYourPhoneNumber": "What's your mobile number?",
+      "whatIsYourEmailAddress": "What's your email address?",
+      "creating":"Your account is being created."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
+    "sharedWithFarm": "Position is being shared with this farm.",
+    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
+    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "forX": {
+      "x_minutes" : {
+        "one": "For {{count}} minute",
+        "other": "For {{count}} minutes"
+      },
+      "x_hours": {
+        "other": "For {{count}} hours",
+        "one": "For 1 hour"
+      },
+      "x_days": {
+        "other": "For {{count}} days",
+        "one": "For 1 day"
+      }
+    },
+    "untilTurnedOff": "Until you turn this off",
+    "shareNow": "Share now",
+    "turnOff": "Turn off",
+    "sendLog": "Email location log"
+  },
+  "report": {
+    "issue": "Report issue"
+  },
+  "no_company_selected": "No company selected",
+  "no_field_selected": "No field selected",
+  "invalid_phone_number": "invalid phone number",
+  "close": "close",
+  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
+  "refresh": "Refresh",
+  "remoteSupport": "Remote support request",
+  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead."
+}

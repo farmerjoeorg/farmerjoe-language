@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Adatvédelmi irányelv",
+  "invites": {
+    "reject": "Hulladék",
+    "from": "Meghívó tőle: {{name}}",
+    "accept": "Elfogadja"
+  },
+  "invalid_email": "Az e-mail cím érvénytelen.",
+  "analysis": {
+    "cancelAnalysis": "Az elemzés törlése",
+    "residue": "Maradvány",
+    "order": "Megrendelés",
+    "plantOrSowDate": "Ültetés/vetés napja",
+    "pleaseLabelProbe": "Kérjük, címkézze a mintát!",
+    "compostType": "Komposzt típusa",
+    "compostAmountInTons": "Mennyiség tonnában",
+    "compostApplicationYear": "Alkalmazás éve",
+    "profileNotComplete": "Az Ön felhasználói adatai nem teljesek.",
+    "comment": "Megjegyzés",
+    "thankYouForOrder": "{0} az Ön megrendeléséhez.",
+    "thankYou": "Köszönöm",
+    "after_harvest": "Betakarítás után",
+    "commissionWithCharge": "Számlázható megrendelés",
+    "productLabel": "Termék címke",
+    "harvest_start": "Kezdődik a betakarítás?",
+    "before_harvest": "Betakarítás előtt",
+    "analysisCancelledOn": "Az elemzést {{user}} ekkor törölte: {{date}} {{time}}.",
+    "during_harvest": "Betakarításkor",
+    "result_for": "Előírta:",
+    "sample": "Minta",
+    "sample_taker": "Mintavételező",
+    "sample_date": "Mintavételezés ekkor:",
+    "resultResidue": "Maradványelemzés eredménye",
+    "mondayFriday": "Hétfő-péntek",
+    "questions": "Kérdései vannak?",
+    "offer": "Ajánlat",
+    "number": "Elemzés száma",
+    "cancelled": "Törölve",
+    "result_for_analysis_from_ready": "Az ekkor kelt {{date}} elemzésének eredménye itt található.",
+    "noCompanyAddress": "Nincs cégcím.",
+    "ourOffers": "Elemzési ajánlat",
+    "compost": "Komposzt",
+    "analysis": "Elemzés",
+    "cancel": "Törlés",
+    "results": "Eredmények",
+    "orderAnalysisWithCommission": "Tényleg megrendeli?",
+    "toUserAnalysisEnterProfileData": "Az elemzési funkció használatához ki kell töltenie az összes előírt felhasználói adatot.",
+    "outdoor": "Szabadban",
+    "pick_up_service": "Kéri a begyűjtést",
+    "orderSent": "Adjon fel egy rendelést",
+    "noResultsAvailable": "Nincs szonda eredmény.",
+    "result": "Eredmény",
+    "self_pick_up": "Csináld magad minta",
+    "doYouReallyWantToCancelAnalysis": "Tényleg törölni szeretné az elemzést?",
+    "commission": "Rendelés",
+    "bio": "Szerves",
+    "ordered": "Elemzés megrendelve",
+    "orderFrom": "Megrendelés feladva ekkor: {{date}}",
+    "pending": "Függőben",
+    "takeSampleForm": "Szonda típusa",
+    "questionsPleaseCall": "Ha vannak kérdései, hívjon fel.",
+    "soilAnalysis": "Talajvizsgálat",
+    "orderResidue": "Rendelés maradványelemzés",
+    "result_expected_on": "Az eredmény ekkor várható: {{date}}",
+    "orderSoil": "Rendelje meg a talajelemzést",
+    "conventional": "Hagyományos",
+    "residueAnalysis": "Maradvány elemzése",
+    "input_in_database": "Feladja az adatbázisba",
+    "result_on": "Eredmény ekkor:",
+    "needFastTomorrow": "Siessen holnap",
+    "soil": "Talaj",
+    "self_delivery": "\"Csináld magad\" szállítás",
+    "resultSoil": "Talajelemzés eredménye",
+    "greenhouse": "Üvegház",
+    "orderNumber": "Rendelés száma",
+    "orderSoilAnalysis": "A talajelemzés megrendelése {{number}}",
+    "cancelledOn": "Lemondva ekkor: {{date}}",
+    "result_till": "Eredmény ekkor várható",
+    "toUseAnalysisEnterCompanyData": "Az elemzési funkció használatához meg kell adnia cége minden adatát.",
+    "needFastToday": "Siessen ma",
+    "pick_up_from_laboratory": "Labor minta",
+    "pleaseFollowCurrentFertilizerRegulation": "Kérjük, kövesse a trágyázásra vonatkozó utasítást.",
+    "sampleIsTakenAccordingToRegulation": "A trágyázási utasításnak megfelelően kell mintát venni."
+  },
+  "field": {
+    "number": "Mező száma",
+    "harvested": "Betakarított terület",
+    "noFieldsCreated": "Nincsenek létrehozott mezők.",
+    "sendToArchive": "Mező archiválása",
+    "cultivate": "Mező megművelése",
+    "harvested_on": "Betakarítás kelte {{date}}",
+    "delete": "Mező törlése",
+    "moveToArchive": "A mező az archívumba kerül. (Farm -> Archívum)",
+    "area": "Terület",
+    "when_was_the_field_harvested": "Mikor takarították be a termést?",
+    "movedToArchive": "A szántóföldi termesztés befejeződött (archívum).",
+    "cultivateAgain": "A mezőt újra művelik.",
+    "fields": "Mezők",
+    "coordinatesFromField": "Mező {{name}} koordinátái",
+    "name": "Mező neve",
+    "doYouReallyWantToDelete": "Tényleg szeretné véglegesen törölni ezt a Mezőt?",
+    "position_it": "Mező helyzete",
+    "createNow": "Hozzon létre egy mezőt most",
+    "toArchive": "Archív",
+    "field": "Mező",
+    "created": "A mező létrejött."
+  },
+  "no_email_no_password_entered": "Nem adott meg e-mailt és jelszót",
+  "pleaseWaitImageIsBeingUploaded": "Kérem várjon, a kép feltöltésre kerül",
+  "x_employees": {
+    "one": "1 Alkalmazott",
+    "other": "{{count}} Alkalmazottak létszáma",
+    "zero": "0 Alkalmazott"
+  },
+  "company": {
+    "company": "Gazdaság",
+    "edit": "Gazdaság szerkesztése",
+    "create": "Létrehozás",
+    "create_first_company": "Hozza létre első gazdaságát",
+    "delete": "Gazdaság törlése",
+    "qs_number": "QS szám",
+    "doYouWantToDeleteCompany": "Tényleg törölni szeretné a gazdaságot?"
+  },
+  "crop": {
+    "cancelCultivation": "Tervezett termény törlése",
+    "plant": "Termény elvetése",
+    "from_field": "Szántóföldi termény",
+    "catch_crop": "kultúra által",
+    "field_without_crop_since": "A mező kultúrája nélkül van, mivel {{date}} óta.",
+    "variety": "fajta",
+    "permanent": "ültetvényre",
+    "plannedSingle": "tervezett kultúra",
+    "commodityItem": "árucikk",
+    "planted_on": "Nőtt",
+    "stockItem": "állomány tételek",
+    "doYouReallyWantToDeleteCrop": "Tényleg el szeretné távolítani a kultúráját és megjegyzéseit ehhez a kultúrához?",
+    "deleteAndWithout": "A kultúra eltávolítása (kultúra nélkül)",
+    "resetAge": "A kulturális életkor kezdődik 0 nap",
+    "nothingHarvested": "Nincs betakarított növény.",
+    "plan": "Tervezési kultúra",
+    "temporary": "kultúra változása",
+    "when_was_crop_planted": "Mikor jött létre a kultúra?",
+    "ageBeginsAt0": "A kulturális kor kezdete: 0",
+    "planned": "Tervezett kultúrák",
+    "doYourReallyWantToCancelCultivation": "Tényleg törölni szeretné a kulturális tervezést?",
+    "pre": "Előtermény",
+    "type": "Termény típus",
+    "origin": "Termény eredete",
+    "name": "Termény neve",
+    "delete": "Termény törlése",
+    "crop": "Termény",
+    "planned_crop_is_active": "Elvetett termény.",
+    "isActiveNow": "A kultúra mostantól aktív.",
+    "active": "Aktív kultúrák",
+    "select_color": "Válasszon színt",
+    "without": "Kultúra nélkül",
+    "cropPlanning": "kulturális tervezés",
+    "age": "Kultúra Age"
+  },
+  "fertilizer": {
+    "fertilization": "termékenyítés",
+    "fertilizer": "trágya",
+    "enter_nutrient_ratio": "Adja meg a tápanyagtartalmat (%).",
+    "delete": "Trágyázás törlése",
+    "doYouReallyWantToDelete": "Tényleg törölni szeretné a trágyázást?"
+  },
+  "company_name": "cég neve",
+  "cancel": "Törli",
+  "country": "Ország",
+  "add": "Hozzáad",
+  "no_first_last_name_entered": "Kérjük, adja meg kereszt- és vezetéknevét.",
+  "deletePhoto": "Kép törlése",
+  "date": "Dátum",
+  "invoice": {
+    "youDontHaveAddress": "Nem adott meg számlázási címet."
+  },
+  "saveChanges": "Módosítások mentése?",
+  "account": {
+    "account": "Számla",
+    "avatar": {
+      "camera": "Profilkép felvétele",
+      "upload": "Profilkép kiválasztása"
+    },
+    "edit": "Fiók szerkesztése"
+  },
+  "waittime": {
+    "set": "Állítsa be a várakozási időt",
+    "waiting_period_in_days": "Várakozási idő napokban",
+    "application_day": "Alkalmazás napja",
+    "delete": "Várakozási idő törlése",
+    "doYouReallyWantToDelete": "Tényleg törölni szeretné a várakozási időt?",
+    "pesticide": "Növényvédő szer neve",
+    "waitTime": "Várakozási idő"
+  },
+  "more": "Több",
+  "position": "Pozíció",
+  "harvested": "Betakarítva",
+  "friends": {
+    "shortShareMessage": "Próbálja ki a farmerJoe okostelefonra készült verzióját. Töltse le ma innen: {{url}}.",
+    "inform": "Ismertesse meg barátaival",
+    "emailMessage": "Hahó,\n\nMost töltöttem le a FarmerJoe alkalmazást {{phone}} telefonra.\n        \nA farmerJoe egy nagyon könnyen használható dokumentációs alkalmazás gazdálkodóknak. Az alkalmazás segítségével egy térképen jelenítheti meg mezőit és terményeit, és fényképekkel ellátott megjegyzéseket fűzhet hozzájuk. Beállíthatja a várakozási időket, és nyilvántarthatja a trágyázást.\n\nA FarmerJoe iPhone és Android készülékeken is elérhető.\n\nA {{url}} webhelyről telepítheti."
+  },
+  "confrim_agb_data_security": "A \"Regisztrálás\" gombra kattintva elfogadja {0} és megerősíti, hogy elolvasta {1} -et.",
+  "password": {
+    "current": "Jelenlegi jelszó",
+    "password": "Jelszó",
+    "yourPasswordWasUpdated": "Az Ön jelszavát frissítette.",
+    "notUpdated": "A jelszó nem változott.",
+    "forgotten": "Elfelejtett jelszó",
+    "wrong": "A jelszó rossz. Ha nem ismeri fel, használja az Elfelejtett jelszó kapcsolatot.",
+    "change": "Jelszó módosítása",
+    "dontMatch": "A jelszavak nem egyeznek.",
+    "repeat": "Ismételje meg a jelszót",
+    "updated": "A jelszó frissítve.",
+    "min6char": "A jelszónak legalább 6 karakter hosszúnak kell lennie."
+  },
+  "noSearchResults": "Nincs eredmény.",
+  "login": "bejelentkezés",
+  "forgotten_password_mail_sent_to": "E-mailt küldtünk Önnek {0} -ra egy hivatkozással, hogy a jelszavát állítsa vissza. Kérjük, kövesse az e-mailben található utasításokat a jelszó visszaállításához.",
+  "add_company": "Gazdaság hozzáadása",
+  "languages": {
+    "really_change": "Biztosan módosítani szeretné a nyelvet a (z) {{language}} nyelvre?",
+    "change": "A nyelv megváltoztatása"
+  },
+  "theImageCouldntBeUploaded": "A kép nem tölthető fel: {{error}}",
+  "sortFieldsBy": "Rendezze eszerint:",
+  "x_fields": {
+    "zero": "0 mező",
+    "other": "{{count}} mezők",
+    "one": "1 mező"
+  },
+  "yes": "Igen",
+  "warehouse": {
+    "add": "Adjon hozzá raktárat",
+    "noWarehousesCreated": "Nincs raktár.",
+    "position_it": "Pozícionáló csapágy",
+    "warehouse": "készlet",
+    "name": "tároló neve"
+  },
+  "employee": "munkavállaló",
+  "archive": {
+    "archive": "levéltár",
+    "noFieldsInArchive": "Nincsenek archív mezők."
+  },
+  "save_as_favorite": "Mentés kedvencként",
+  "cover": {
+    "photo": "frontképet",
+    "showCollegesWhatIsImportantToYou": "Mutasd meg kollégáidnak, mire számít"
+  },
+  "ok": "O. K.",
+  "call_laboratory": "Hívja a laboratóriumot",
+  "countries": {
+    "select": "Válassz országot",
+    "all": "Minden ország"
+  },
+  "analysis_plural": "elemzések",
+  "app": {
+    "rate": "Értékelje app"
+  },
+  "dontKnowHowToOpenUrl": "Nem lehet megnyitni a megadott URL {{url}}",
+  "zip": "irányítószám",
+  "invoice_address": "számlázási cím",
+  "logout": "Kilépés",
+  "employees": {
+    "plural": "Alkalmazottak",
+    "admin": "adminisztrátor",
+    "manage": "Alkalmazottak kezelése",
+    "adminRWD": "Rendszergazda (olvasás, írás, törlés)",
+    "invitationSentOn": "Felszólítás kiküldve ekkor: {{date}}",
+    "invitrationRejectedOn": "Felszólítás elutasítva ekkor: {{date}}"
+  },
+  "search": "Keresés",
+  "satellite": "Műhold",
+  "hybrid": "Hibrid",
+  "name": "Név",
+  "agb": "Feltételek",
+  "note": "Jegyzet",
+  "please_correct_your_entry": "Kérjük, javítsa ki a bejegyzést",
+  "connecting": "A kapcsolat létrejön",
+  "email_already_in_use": "A megadott e-mail címet már egy másik fiók használja.",
+  "version": "Változat",
+  "profile": {
+    "reallyLogout": "Biztosan ki szeretne lépni?"
+  },
+  "back": "Vissza",
+  "last_name": "Vezetéknév",
+  "mobile_phone": "Mozgó",
+  "wine_fruit": "Szőlő, gyümölcs",
+  "enter_address": "Írja be a címet",
+  "favorites": "Kedvencek",
+  "legal_data_security": "Jogi feltételek és adatbiztonság",
+  "coordinates": "Koordináták",
+  "deletePermenantly": "Véglegesen törli",
+  "comment": {
+    "fromField": "Megjegyzés a mezőről: {{name}}",
+    "doYouReallyWantToDelete": "Tényleg törölni szeretné a megjegyzést?",
+    "delete": "Megjegyzés törlése"
+  },
+  "lastEntry": "Utolsó bejegyzés",
+  "deleteElement": "Elem törlése",
+  "delete": "Törl",
+  "current": "Jelenlegi",
+  "email": "E-mail",
+  "ggn_gln_number": "GGN / GLN szám",
+  "phone": "Telefon",
+  "notes": "Jegyzetek",
+  "x_days": "{{days}} d",
+  "create_account": "Új regisztráció",
+  "map": "Térképek",
+  "maps": {
+    "pressToSetPin": "A képernyő egy pontjának megnyomásával elhelyezheti a helymeghatározó jelet."
+  },
+  "no_email_entered": "Nem írt be e-mail címet.",
+  "camera": "Fényképezőgép",
+  "areYouSureYouWantToDeleteElement": "Tényleg törli ezt az elemet?",
+  "enter_notes_here": "Írja be a jegyzeteit ide",
+  "street": "Utca",
+  "photoLibrary": "Fotótár",
+  "save": "Mentés",
+  "error": "Hiba",
+  "first_name": "Keresztnév",
+  "request_new_password": "Kérjen új jelszót",
+  "register": "Fiók létrehozása",
+  "phones": {
+    "enterNumber": "Adja meg a telefonszámát"
+  },
+  "companies": "Gazdaságok",
+  "uploadError": "A feltöltés sikertelen",
+  "laboratory": "laboratórium",
+  "user_not_found": "Nincs megadva a megadott e-mail címmel rendelkező felhasználó.",
+  "settings": "beállítások",
+  "help": "Segítség",
+  "position_company": "Pozíció működtetése",
+  "copy": "másolat",
+  "share": "Megosztás",
+  "directions": "Irányok",
+  "first_last_name": "Vezetéknév Vezetéknév",
+  "company_number": "művelet száma",
+  "select_field": "Válassza ki a mezőt",
+  "grains_vegetables": "Gabonafélék, zöldségek",
+  "no_password_entered": "Nem adott be jelszót.",
+  "language": "nyelv",
+  "edit": "szerkesztés",
+  "change": "változás",
+  "contact": {
+    "dontDeleteData": "Kérjük, ne törölje a következő adatokat. Olyanokra van szükségünk, akik azonosítják Önt a rendszerben. Így hatékony és gyors segítséget nyújtunk Önnek."
+  },
+  "no": "nincs",
+  "done": "kész",
+  "city": "hely",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Köszönjük, hogy a farmerJoe-t választotta",
+        "description": "Most egyszerűen és hatékonyan optimalizálhatja a termelést."
+      },
+      "slide2": {
+        "title": "Több farm kezelése",
+        "description": "Egyszerűen figyelemmel követheti, hogy mi történik farmjain."
+      },
+      "slide3": {
+        "title": "Egyszerű dokumentáció",
+        "description": "Jegyezze fel az Önnek fontos dolgokat. Készítsen fotókat mindarról, amit meg kíván őrizni."
+      },
+      "slide4": {
+        "title": "Könnyen megtalálja mezőit",
+        "description": "Azonnal áttekintést nyer minden mezőjéről. Döntéseihez használja ki a termény korát és a visszaszámláló várakozási időt."
+      },
+      "slide5": {
+        "title": "Elemzés megrendelése",
+        "description": "Rendeljen elemzést okostelefonjából. Az eredmények közvetlenül a mező dokumentációjába kerülnek vissza."
+      },
+      "slide6": {
+        "title": "Jegyezze be alkalmazottait",
+        "description": "A jobb munka érdekében használja ki a csapat együttes erejét."
+      },
+      "done": "Kezdés most"
+    },
+    "skip": "Kihagyja"
+  },
+  "moments": {
+    "today": "Ma",
+    "days_ago": {
+      "one": "1 nappal ezelőtt",
+      "other": "{{count}} nappal ezelőtt"
+    },
+    "in_days": {
+      "one": "1 napon belül",
+      "other": "{{count}} napon belül"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerJoe-nak szüksége van az Ön tartózkodási helyére",
+      "description": "farmerJoe jelenleg nem jogosult a helymeghatározási adatok elérésére."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe nem tudja meghatározni a helyszínt.",
+      "description": "Kapcsolja be a telefon GPS funkcióját."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Szűrő"
+}

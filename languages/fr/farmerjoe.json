@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Directive de données",
+  "invites": {
+    "reject": "Refuser",
+    "from": "Invitation de {{name}}",
+    "accept": "Accepter"
+  },
+  "invalid_email": "L'adresse e-mail est invalide.",
+  "analysis": {
+    "cancelAnalysis": "Annuler l'analyse",
+    "residue": "Résidu",
+    "order": "Commande",
+    "plantOrSowDate": "Date pour planter/semer",
+    "pleaseLabelProbe": "Étiquetez l'échantillon !",
+    "compostType": "Type de compost",
+    "compostAmountInTons": "Quantité en tonnes",
+    "compostApplicationYear": "Année d’application",
+    "profileNotComplete": "Votre profil d'utilisateur n'est pas complet.",
+    "comment": "Remarque",
+    "thankYouForOrder": "{0} pour votre commande.",
+    "thankYou": "Merci",
+    "after_harvest": "Après récolte",
+    "commissionWithCharge": "Commande avec frais",
+    "productLabel": "Étiquette du produit",
+    "harvest_start": "Début de la récolte ?",
+    "before_harvest": "Avant récolte",
+    "analysisCancelledOn": "L'analyse a été annulée le {{date}} à {{time}} par {{user}}.",
+    "during_harvest": "Lors de la récolte",
+    "result_for": "Demandée par",
+    "sample": "Échantillon",
+    "sample_taker": "Échantillon pris par",
+    "sample_date": "Échantillon pris le",
+    "resultResidue": "Résultat de l'analyse des résidus",
+    "mondayFriday": "Du lundi au vendredi",
+    "questions": "Des questions ?",
+    "offer": "Prestation",
+    "number": "Numéro de l'analyse",
+    "cancelled": "Annulé",
+    "result_for_analysis_from_ready": "Le résultat de votre analyse du {{date}} est maintenant disponible.",
+    "noCompanyAddress": "Adresse de l'entreprise manquante.",
+    "ourOffers": "Notre prestation d'analyse",
+    "compost": "Compost",
+    "analysis": "Analyse",
+    "cancel": "Annuler",
+    "results": "Résultats",
+    "orderAnalysisWithCommission": "Voulez-vous vraiment commander ?",
+    "toUserAnalysisEnterProfileData": "Pour utiliser la fonction d'analyse, vous devez fournir toutes les données utilisateur demandées.",
+    "outdoor": "En champs",
+    "pick_up_service": "Laisser collecter",
+    "orderSent": "Soumettre la commande",
+    "noResultsAvailable": "Aucun résultat disponible.",
+    "result": "Résultats",
+    "self_pick_up": "Échantillon pris maison",
+    "doYouReallyWantToCancelAnalysis": "Voulez-vous vraiment annuler l'analyse ?",
+    "commission": "Commander",
+    "bio": "Organique",
+    "ordered": "Analyse commandée",
+    "orderFrom": "Commande du {{date}}",
+    "pending": "En attente",
+    "takeSampleForm": "Èchantillonnage",
+    "questionsPleaseCall": "Si vous avez des questions, veuillez nous appeler.",
+    "soilAnalysis": "Analyse du sol",
+    "orderResidue": "Commandez une analyse des résidus",
+    "result_expected_on": "Résultats attendu le : {{date}}",
+    "orderSoil": "Commandez une analyse du sol",
+    "conventional": "Conventionnelle",
+    "residueAnalysis": "Analyse des résidus",
+    "input_in_database": "Envoyer à la base de données",
+    "result_on": "Résultat le",
+    "needFastTomorrow": "Accélérer pour demain",
+    "soil": "Sol",
+    "self_delivery": "Livraison par mes soins",
+    "resultSoil": "Résultat de l'analyse de sol",
+    "greenhouse": "Serre",
+    "orderNumber": "Numéro de la commande",
+    "orderSoilAnalysis": "Commander une analyse de sol {{number}}",
+    "cancelledOn": "Date d'annulation : {{date}}",
+    "result_till": "Résultats attendus d'ici le",
+    "toUseAnalysisEnterCompanyData": "Pour utiliser la fonction Analyse, veuillez d'abord fournir toutes les données de votre société.",
+    "needFastToday": "Accélérer pour aujourd'hui",
+    "pick_up_from_laboratory": "Laisser faire l'échantillon",
+    "pleaseFollowCurrentFertilizerRegulation": "Veuillez suivre la directive actuelle concernant les engrais.",
+    "sampleIsTakenAccordingToRegulation": "L’échantillon sera prélevé selon la directive actuelle concernant les engrais."
+  },
+  "field": {
+    "number": "Numéro de champ",
+    "harvested": "Champ récolté",
+    "noFieldsCreated": "Aucun champ créé.",
+    "sendToArchive": "Archiver le champ",
+    "cultivate": "Cultiver le champ",
+    "harvested_on": "Date de la récolte : {{date}}",
+    "delete": "Supprimer le champ",
+    "moveToArchive": "Le champ est déplacé vers l'archive (Ferme -> Archive)",
+    "area": "Zone",
+    "when_was_the_field_harvested": "Quand le champ a-t-il été récolté ?",
+    "movedToArchive": "Exploitation du champ terminée (Archive).",
+    "cultivateAgain": "Le champ est de nouveau exploité.",
+    "fields": "Champs",
+    "coordinatesFromField": "Coordonnées du champ : {{name}}",
+    "name": "Nom de champ",
+    "doYouReallyWantToDelete": "Voulez-vous vraiment supprimer définitivement ce champ ?",
+    "position_it": "Localisation du champ",
+    "createNow": "Créer maintenant un champ",
+    "toArchive": "Archives",
+    "field": "Terrain",
+    "created": "Le champ a été créé."
+  },
+  "no_email_no_password_entered": "Vous n'avez pas saisi d'e-mail et de mot de passe",
+  "pleaseWaitImageIsBeingUploaded": "Veuillez patienter, l'image est en cours de téléversement",
+  "x_employees": {
+    "one": "1 employé",
+    "other": "{{count}} employés",
+    "zero": "0 employé"
+  },
+  "company": {
+    "company": "Ferme",
+    "edit": "Éditer la ferme",
+    "create": "Créer",
+    "create_first_company": "Créez votre première ferme",
+    "delete": "Supprimer la ferme",
+    "qs_number": "Numéro QS",
+    "doYouWantToDeleteCompany": "Souhaitez vous vraiment supprimer la Ferme?"
+  },
+  "crop": {
+    "cancelCultivation": "Annuler la plantation prévue",
+    "plant": "Planter",
+    "from_field": "Culture du champ",
+    "catch_crop": "Culture dérobée",
+    "field_without_crop_since": "Le champ est sans culture depuis le {{date}}.",
+    "variety": "Variété",
+    "permanent": "Culture permanente",
+    "plannedSingle": "Culture planifiée",
+    "commodityItem": "En magasin",
+    "planted_on": "Date de plantation",
+    "stockItem": "En stock",
+    "doYouReallyWantToDeleteCrop": "Voulez-vous vraiment supprimer l'historique de la culture et tous ses commentaires ?",
+    "deleteAndWithout": "Supprimer la culture (laisser sans exploitation)",
+    "resetAge": "L'âge de la culture commence maintenant à 0 jour",
+    "nothingHarvested": "Aucune récolte.",
+    "plan": "Planifier la culture",
+    "temporary": "Culture annuelle",
+    "when_was_crop_planted": "Quand la plantation a-t-elle été cultivée ?",
+    "ageBeginsAt0": "Régler l'âge de la culture sur 0",
+    "planned": "Cultures planifiées",
+    "doYourReallyWantToCancelCultivation": "Souhaitez vous vraiment annuler la culture planifiée ?",
+    "pre": "Préculture",
+    "type": "Type de culture",
+    "origin": "Origine de la culture",
+    "name": "Nom de la culture",
+    "delete": "Supprimer la culture",
+    "crop": "Culture",
+    "planned_crop_is_active": "Plantation.",
+    "isActiveNow": "La plantation a été effectuée.",
+    "active": "Plantations",
+    "select_color": "Choisissez la couleur",
+    "without": "Sans exploitation",
+    "cropPlanning": "Planification des cultures",
+    "age": "Âge de la culture"
+  },
+  "fertilizer": {
+    "fertilization": "Fertilisation",
+    "fertilizer": "Engrais",
+    "enter_nutrient_ratio": "Saisissez le ratio nutritif (%).",
+    "delete": "Supprimer la fertilisation",
+    "doYouReallyWantToDelete": "Voulez-vous vraiment supprimer la fertilisation?"
+  },
+  "company_name": "Nom de la Ferme",
+  "cancel": "Annuler",
+  "country": "Pays",
+  "add": "Ajouter",
+  "no_first_last_name_entered": "Veuillez saisir vos nom et prénom.",
+  "deletePhoto": "Supprimer la photo",
+  "date": "Date",
+  "invoice": {
+    "youDontHaveAddress": "Vous n'avez pas saisi d'adresse de facturation."
+  },
+  "saveChanges": "Enregistrer les modifications ?",
+  "account": {
+    "account": "Compte",
+    "avatar": {
+      "camera": "Prendre une nouvelle photo de profil",
+      "upload": "Sélectionner une photo de profil"
+    },
+    "edit": "Éditer le compte"
+  },
+  "waittime": {
+    "set": "Entrer le temps d'attente",
+    "waiting_period_in_days": "Temps d'attente en jours",
+    "application_day": "Jour d'application",
+    "delete": "Supprimer le temps d'attente",
+    "doYouReallyWantToDelete": "Voulez-vous vraiment supprimer le temps d'attente ?",
+    "pesticide": "Produits phytosanitaires",
+    "waitTime": "Temps d'attente"
+  },
+  "more": "Plus",
+  "position": "Position",
+  "harvested": "Récolté",
+  "friends": {
+    "shortShareMessage": "Découvrez farmerJoe sur votre smartphone. Téléchargez l'application dès aujourd'hui depuis {{url}}.",
+    "inform": "Informer des amis",
+    "emailMessage": "Bonjour, \n\nje viens de télécharger farmerJoe sur mon {{phone}}. \n\nfarmerJoe est une application de documentation facile à utiliser et pour agriculteurs. Grâce à l’application, vous pouvez voir vos champs et vos cultures sur une carte, ajouter des notes agrémentées d'une photo, définir les temps d'attente et enregistrer les engrais. \n\nfarmerJoe est disponible sur iPhone et Android. Installez l'application depuis {{url}}."
+  },
+  "confrim_agb_data_security": "En cliquant sur \"Créer le compte\", vous acceptez notre {0} et confirmez avoir lu notre {1}.",
+  "password": {
+    "current": "Mot de passe actuel",
+    "password": "Mot de passe",
+    "yourPasswordWasUpdated": "Votre mot de passe a été mis à jour.",
+    "notUpdated": "Le mot de passe n'a pas été changé.",
+    "forgotten": "Mot de passe oublié",
+    "wrong": "Le mot de passe est erroné. Si vous ne le connaissez pas, utilisez le lien Mot de passe oublié.",
+    "change": "Modifier le mot de passe",
+    "dontMatch": "Les mots de passe ne correspondent pas.",
+    "repeat": "Répétez le mot de passe",
+    "updated": "Mot de passe mis à jour.",
+    "min6char": "Le mot de passe doit comporter au moins 6 caractères."
+  },
+  "noSearchResults": "Aucun résultat.",
+  "login": "Login",
+  "forgotten_password_mail_sent_to": "Nous avons envoyé à {0} un e-mail contenant un lien pour réinitialiser votre mot de passe. Veuillez suivre les instructions pour réaliser l'opération.",
+  "add_company": "Ajouter une ferme",
+  "languages": {
+    "really_change": "Êtes-vous sûr de vouloir changer la langue en {{language}}?",
+    "change": "Modifier la langue"
+  },
+  "theImageCouldntBeUploaded": "L'image n'a pas pu être téléversée : {{error}}",
+  "sortFieldsBy": "Trier par",
+  "x_fields": {
+    "zero": "0 champ",
+    "other": "{{count}} champs",
+    "one": "1 champ"
+  },
+  "yes": "Oui",
+  "warehouse": {
+    "add": "Ajouter un entrepôt",
+    "noWarehousesCreated": "Aucun entrepôt créé.",
+    "position_it": "Localisation entrepôt",
+    "warehouse": "Entrepôt",
+    "name": "Nom de l'entrepôt"
+  },
+  "employee": "Employé",
+  "archive": {
+    "archive": "Archive",
+    "noFieldsInArchive": "Aucun champ archivé."
+  },
+  "save_as_favorite": "Enregistrer comme favori",
+  "cover": {
+    "photo": "Photo de couverture",
+    "showCollegesWhatIsImportantToYou": "Montrez à vos collègues ce que vous importe"
+  },
+  "ok": "OK",
+  "call_laboratory": "Appeler le laboratoire",
+  "countries": {
+    "select": "Choisissez un pays",
+    "all": "Tous les pays"
+  },
+  "analysis_plural": "Analyses",
+  "app": {
+    "rate": "Évaluer l'application"
+  },
+  "dontKnowHowToOpenUrl": "Impossible d'ouvrir l'URL {{url}}",
+  "zip": "Code postale",
+  "invoice_address": "Adresse de facturation",
+  "logout": "Déconnexion",
+  "employees": {
+    "plural": "Employés",
+    "admin": "Administrateur",
+    "manage": "Gérer les utilisateurs",
+    "adminRWD": "Administrateur (lire, écrire, supprimer)",
+    "invitationSentOn": "Invitation envoyée le {{date}}",
+    "invitrationRejectedOn": "L'invitation a été refusée le {{date}}"
+  },
+  "search": "Chercher",
+  "satellite": "Satellite",
+  "hybrid": "Hybride",
+  "name": "Nom",
+  "agb": "Conditions",
+  "note": "Note",
+  "please_correct_your_entry": "Veuillez corriger vos entrées",
+  "connecting": "Connexion en cours",
+  "email_already_in_use": "L'adresse e-mail saisie est déjà utilisée par un autre compte.",
+  "version": "Version",
+  "profile": {
+    "reallyLogout": "Voulez-vous vraiment vous déconnecter ?"
+  },
+  "back": "Retour",
+  "last_name": "Nom",
+  "mobile_phone": "Mobile",
+  "wine_fruit": "Raisins, fruits",
+  "enter_address": "Saisissez l'adresse",
+  "favorites": "Favoris",
+  "legal_data_security": "Infos légales et sécurité des données",
+  "coordinates": "Coordonnées",
+  "deletePermenantly": "Supprimer définitivement",
+  "comment": {
+    "fromField": "Commentaire sur le champ : {{name}}",
+    "doYouReallyWantToDelete": "Voulez-vous vraiment supprimer le commentaire ?",
+    "delete": "Supprimer le commentaire"
+  },
+  "lastEntry": "Dernière entrée",
+  "deleteElement": "Supprimer l'élément",
+  "delete": "Effacer",
+  "current": "Actuel",
+  "email": "E-mail",
+  "ggn_gln_number": "GGN/GLN",
+  "phone": "Téléphone",
+  "notes": "Notes",
+  "x_days": "{{days}} J",
+  "create_account": "Inscription",
+  "map": "Carte",
+  "maps": {
+    "pressToSetPin": "Appuyez sur la carte pour épingler la localisation."
+  },
+  "no_email_entered": "Vous n'avez pas saisi d'e-mail.",
+  "camera": "Caméra",
+  "areYouSureYouWantToDeleteElement": "Voulez-vous vraiment supprimer cet élément ?",
+  "enter_notes_here": "Saisissez ici vos remarques",
+  "street": "Rue",
+  "photoLibrary": "Bibliothèque photo",
+  "save": "Enregistrer",
+  "error": "Erreur",
+  "first_name": "Prénom",
+  "request_new_password": "Demander un nouveau mot de passe",
+  "register": "S'inscrire",
+  "phones": {
+    "enterNumber": "Saisissez votre numéro de téléphone"
+  },
+  "companies": "Fermes",
+  "uploadError": "Le téléversement a échoué",
+  "laboratory": "Laboratoire",
+  "user_not_found": "Aucun utilisateur n'est associé à l'adresse e-mail saisie.",
+  "settings": "Paramètres",
+  "help": "Assistance",
+  "position_company": "Localisation de la ferme",
+  "copy": "Copie",
+  "share": "Partager",
+  "directions": "Directions",
+  "first_last_name": "Nom complet",
+  "company_number": "Numéro de la ferme",
+  "select_field": "Sélectionnez le champ",
+  "grains_vegetables": "Céréales, légumes",
+  "no_password_entered": "Vous n'avez pas saisi de mot de passe.",
+  "language": "Langue",
+  "edit": "Èditer",
+  "change": "Modifier",
+  "contact": {
+    "dontDeleteData": "Veuillez ne pas supprimer les données suivantes. Nous en avons besoin pour bien vous identifier dans le système, afin de vous fournir une meilleure assistance.\n"
+  },
+  "no": "No",
+  "done": "Prêt",
+  "city": "Ville",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Merci d’avoir choisi farmerJoe",
+        "description": "Vous pouvez maintenant optimiser facilement et efficacement votre production."
+      },
+      "slide2": {
+        "title": "Gérer plusieurs fermes",
+        "description": "Suivez facilement ce qui se passe sur vos fermes."
+      },
+      "slide3": {
+        "title": "Documentation facile",
+        "description": "Notez ce qui est important pour vous. Photographiez ce que vous souhaitez conserver."
+      },
+      "slide4": {
+        "title": "Trouvez facilement vos champs",
+        "description": "Accédez immédiatement à la vue d’ensemble de tous les champs. Utilisez l’âge des culture et les temps d'attente pour prendre vos décisions."
+      },
+      "slide5": {
+        "title": "Commandez des analyses",
+        "description": "Commandez des analyses depuis votre smartphone. Leurs résultats sont directement transférés dans la documentation de votre champ."
+      },
+      "slide6": {
+        "title": "Ajoutez vos employés",
+        "description": "Utilisez l'énergie de votre équipe pour mieux travailler."
+      },
+      "done": "Commencer maintenant"
+    },
+    "skip": "Ignorer"
+  },
+  "moments": {
+    "today": "Aujourd'hui",
+    "days_ago": {
+      "one": "Il y a 1 jour",
+      "other": "Il y a {{count}} jours"
+    },
+    "in_days": {
+      "one": "dans 1 jour",
+      "other": "dans {{count}} jours"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerJoe a besoin de connaître votre localisation",
+      "description": "farmerJoe n’a actuellement pas l'autorisation d'accéder à votre localisation."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe ne peut pas déterminer votre localisation.",
+      "description": "Veuillez activer le GPS de votre téléphone."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filtre"
+}

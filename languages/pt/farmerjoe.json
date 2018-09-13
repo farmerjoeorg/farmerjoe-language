@@ -1,0 +1,411 @@
+{
+  "data_guidelines": "Política de dados",
+  "invites": {
+    "reject": "Recusar",
+    "from": "Convite de {{name}}",
+    "accept": "Aceitar"
+  },
+  "invalid_email": "Endereço de e-mail inválido.",
+  "analysis": {
+    "cancelAnalysis": "Cancelar análise",
+    "residue": "Resíduo",
+    "order": "Encomenda",
+    "plantOrSowDate": "Data da plantação/colheita",
+    "pleaseLabelProbe": "Marque a amostra!",
+    "compostType": "Tipo de adubo",
+    "compostAmountInTons": "Quantidade em toneladas",
+    "compostApplicationYear": "Ano de aplicação",
+    "profileNotComplete": "O seu perfil de utilizador está incompleto.",
+    "comment": "Observações",
+    "thankYouForOrder": "{0} pela sua encomenda.",
+    "thankYou": "Obrigado",
+    "after_harvest": "Após a colheita",
+    "commissionWithCharge": "Encomenda com taxa",
+    "productLabel": "Etiqueta do produto",
+    "harvest_start": "A colheita começa?",
+    "before_harvest": "Antes da colheita",
+    "analysisCancelledOn": "A análise foi cancelada em {{date}} às {{time}} por {{user}}.",
+    "during_harvest": "Durante a colheita",
+    "result_for": "Solicitado por",
+    "sample": "Amostra",
+    "sample_taker": "Recolha efetuada por",
+    "sample_date": "Recolha efetuada a",
+    "resultResidue": "Resultado da análise de resíduos",
+    "mondayFriday": "Seg-Sex",
+    "questions": "Dúvidas?",
+    "offer": "Oferta",
+    "number": "Número da análise",
+    "cancelled": "Cancelado",
+    "result_for_analysis_from_ready": "Os resultados da sua análise de {{date}} estão agora disponíveis.",
+    "noCompanyAddress": "Sem endereço da empresa.",
+    "ourOffers": "A nossa oferta de análises",
+    "compost": "Adubo",
+    "analysis": "Análise",
+    "cancel": "Cancelar",
+    "results": "Resultados",
+    "orderAnalysisWithCommission": "Tem a certeza que deseja encomendar?",
+    "toUserAnalysisEnterProfileData": "Para utilizar a função de análise, deverá fornecer todos os dados de utilizador solicitados.",
+    "outdoor": "Ao ar livre",
+    "pick_up_service": "Solicitar recolha",
+    "orderSent": "Efetuar encomenda",
+    "noResultsAvailable": "Sem resultados disponíveis.",
+    "result": "Resultado",
+    "self_pick_up": "Amostra DIY",
+    "doYouReallyWantToCancelAnalysis": "Tem a certeza que deseja cancelar a análise?",
+    "commission": "Encomenda",
+    "bio": "Orgânico",
+    "ordered": "Análise solicitada",
+    "orderFrom": "Encomenda efetuada em {{date}}",
+    "pending": "Pendente",
+    "takeSampleForm": "Tipo de sonda",
+    "questionsPleaseCall": "Em caso de dúvidas, contacte-nos por telefone.",
+    "soilAnalysis": "Análise do solo",
+    "orderResidue": "Solicitar análise de resíduos",
+    "result_expected_on": "Resultados esperados em: {{date}}",
+    "orderSoil": "Solicitar análise do solo",
+    "conventional": "Convencional",
+    "residueAnalysis": "Análise de resíduos",
+    "input_in_database": "Submeter para a base de dados",
+    "result_on": "Resultados em",
+    "needFastTomorrow": "Urgente para amanhã",
+    "soil": "Solo",
+    "self_delivery": "Auto entrega",
+    "resultSoil": "Resultado da análise do solo",
+    "greenhouse": "Estufa",
+    "orderNumber": "Número da encomenda",
+    "orderSoilAnalysis": "Solicitar análise de solo {{number}}",
+    "cancelledOn": "Cancelado em: {{date}}",
+    "result_till": "Resultados esperados em",
+    "toUseAnalysisEnterCompanyData": "Para utilizar a função de análise deverá preencher todos os dados da sua empresa.",
+    "needFastToday": "Urgente para hoje",
+    "pick_up_from_laboratory": "Amostra de laboratório",
+    "pleaseFollowCurrentFertilizerRegulation": "Siga a atual diretiva sobre o fertilizante.",
+    "sampleIsTakenAccordingToRegulation": "A amostra será recolhida de acordo com a atual diretiva sobre o fertilizante."
+  },
+  "field": {
+    "number": "Número do campo",
+    "harvested": "Campo colhido",
+    "noFieldsCreated": "Não foram criados campos.",
+    "sendToArchive": "Arquivar o campo",
+    "cultivate": "Cultivar o campo",
+    "harvested_on": "Campo colhido em {{date}}",
+    "delete": "Apagar campo",
+    "moveToArchive": "O campo vai ser movido para o arquivo. (Quinta -> Arquivo)",
+    "area": "Área",
+    "when_was_the_field_harvested": "Quando foi o campo colhido?",
+    "movedToArchive": "O cultivo do campo terminou (Arquivo).",
+    "cultivateAgain": "O campo está a ser cultivado novamente.",
+    "fields": "Campos",
+    "coordinatesFromField": "Coordenadas do campo: {{name}}",
+    "name": "Nome do campo",
+    "doYouReallyWantToDelete": "Tem a certeza que deseja apagar este campo permanentemente?",
+    "position_it": "Localização do campo",
+    "createNow": "Criar campo agora",
+    "toArchive": "Arquivo",
+    "field": "Campo",
+    "created": "Campo criado."
+  },
+  "no_email_no_password_entered": "Não introduziu um email e palavra-passe",
+  "pleaseWaitImageIsBeingUploaded": "Aguarde, a imagem está a ser carregada",
+  "x_employees": {
+    "one": "1 funcionário",
+    "other": "{{count}} funcionários",
+    "zero": "0 funcionários"
+  },
+  "company": {
+    "company": "Quinta",
+    "edit": "Editar quinta",
+    "create": "Criar",
+    "create_first_company": "Crie a sua primeira quinta",
+    "delete": "Apagar quinta",
+    "qs_number": "Número QS",
+    "doYouWantToDeleteCompany": "Tem a certeza que deseja apagar esta quinta?"
+  },
+  "crop": {
+    "cancelCultivation": "Cancelar a planificação da cultura",
+    "plant": "Plantar cultura",
+    "from_field": "Campo de cultivo",
+    "catch_crop": "Cultura secundária",
+    "field_without_crop_since": "O campo está sem cultura desde {{date}}.",
+    "variety": "Variedade",
+    "permanent": "Cultura permanente",
+    "plannedSingle": "Cultura planeada",
+    "commodityItem": "Comércio",
+    "planted_on": "Plantado em",
+    "stockItem": "Armazém",
+    "doYouReallyWantToDeleteCrop": "Tem a certeza que deseja apagar o histórico de cultura, incluindo os comentários sobre essa cultura?",
+    "deleteAndWithout": "Apagar cultura (deixar não cultivado)",
+    "resetAge": "A idade da cultura agora começa aos 0 dias",
+    "nothingHarvested": "Não foram efetuadas colheitas.",
+    "plan": "Planear cultura",
+    "temporary": "Cultura anual",
+    "when_was_crop_planted": "Quando foi a cultura plantada?",
+    "ageBeginsAt0": "Definir a idade da cultura para 0",
+    "planned": "Culturas planeadas",
+    "doYourReallyWantToCancelCultivation": "Tem a certeza que deseja cancelar a cultura planeada?",
+    "pre": "Pré-cultura",
+    "type": "Tipo de cultura",
+    "origin": "Origem da cultura",
+    "name": "Nome da cultura",
+    "delete": "Apagar cultura",
+    "crop": "Cultura",
+    "planned_crop_is_active": "A cultura plantada.",
+    "isActiveNow": "A cultura foi plantada.",
+    "active": "Culturas plantadas",
+    "select_color": "Selecionar cor",
+    "without": "Não cultivado",
+    "cropPlanning": "Planeamento de cultivo",
+    "age": "Idade da cultura"
+  },
+  "fertilizer": {
+    "fertilization": "Fertilização",
+    "fertilizer": "Fertilizante",
+    "enter_nutrient_ratio": "Introduzir concentração de nutrientes (%).",
+    "delete": "Eliminar a fertilização",
+    "doYouReallyWantToDelete": "Pretende mesmo eliminar a fertilização?"
+  },
+  "company_name": "Nome da quinta",
+  "cancel": "Cancelar",
+  "country": "País",
+  "add": "Adicionar",
+  "no_first_last_name_entered": "Introduza o seu primeiro e último nome.",
+  "deletePhoto": "Apagar foto",
+  "date": "Data",
+  "invoice": {
+    "youDontHaveAddress": "Não introduziu um endereço de cobrança."
+  },
+  "saveChanges": "Guardar alterações?",
+  "account": {
+    "account": "Conta",
+    "avatar": {
+      "camera": "Tirar nova foto de perfil",
+      "upload": "Selecionar foto de perfil"
+    },
+    "edit": "Editar conta"
+  },
+  "waittime": {
+    "set": "Definir tempo de espera",
+    "waiting_period_in_days": "Tempo de espera em dias",
+    "application_day": "Dia de Aplicação",
+    "delete": "Apagar tempo de espera",
+    "doYouReallyWantToDelete": "Tem a certeza que deseja apagar o tempo de espera?",
+    "pesticide": "Produto fitossanitário",
+    "waitTime": "Período de espera"
+  },
+  "more": "Mais",
+  "position": "Posição",
+  "harvested": "Colhido",
+  "friends": {
+    "shortShareMessage": "Experimente a página do farmerJoe para o seu smartphone. Transfira hoje em {{url}}.",
+    "inform": "Contar a amigos",
+    "emailMessage": "Olá,\n\nAcabei de transferir o farmerJoe para o meu {{phone}}.\n\nO farmerJoe é uma aplicação de documentação para agricultores de fácil utilização. Com esta aplicação, pode ver os seus campos e culturas num mapa e adicionar notas com uma imagem. Pode definir tempos de espera e registar fertilizantes.\n\nA farmerJoe está disponível para iPhone e Android.\n\nInstalar a partir de {{url}}."
+  },
+  "confrim_agb_data_security": "Ao clicar em \"Criar conta\", o utilizador concorda com o nosso {0} e confirma que leu o nosso {1}.",
+  "password": {
+    "current": "Palavra-passe atual",
+    "password": "Palavra-passe",
+    "yourPasswordWasUpdated": "A sua palavra-passe foi atualizada.",
+    "notUpdated": "A palavra-passe não foi alterada.",
+    "forgotten": "Esqueci-me da palavra-passe",
+    "wrong": "A palavra-passe está incorreta. Se não se lembra da palavra-passe utilize a ligação Esqueci-me da palavra-passe.",
+    "change": "Alterar palavra-passe",
+    "dontMatch": "As palavras-passe não correspondem.",
+    "repeat": "Repita a palavra-passe",
+    "updated": "Senha atualizada.",
+    "min6char": "A palavra-passe tem de ter no mínimo 6 carateres."
+  },
+  "noSearchResults": "Nenhum resultado.",
+  "login": "Iniciar sessão",
+  "forgotten_password_mail_sent_to": "Enviámos um e-mail com uma ligação para redefinir a sua palavra-passe para {0}. Siga as instruções no e-mail para redefinir sua palavra-passe.",
+  "add_company": "Adicionar quinta",
+  "languages": {
+    "really_change": "Tem certeza de que deseja alterar o idioma para {{language}}?",
+    "change": "Alterar idioma"
+  },
+  "theImageCouldntBeUploaded": "Não foi possível carregar a imagem: {{error}}",
+  "sortFieldsBy": "Ordenar por",
+  "x_fields": {
+    "zero": "0 campos",
+    "other": "{{count}} campos",
+    "one": "1 campo"
+  },
+  "yes": "Sim",
+  "warehouse": {
+    "add": "Adicionar armazém",
+    "noWarehousesCreated": "Não foi criado nenhum armazém.",
+    "position_it": "Localização do armazém",
+    "warehouse": "Armazém",
+    "name": "Nome do armazém"
+  },
+  "employee": "Funcionário",
+  "archive": {
+    "archive": "Arquivo",
+    "noFieldsInArchive": "Não existem campos no arquivo."
+  },
+  "save_as_favorite": "Guardar como favorito",
+  "cover": {
+    "photo": "Foto de capa",
+    "showCollegesWhatIsImportantToYou": "Mostre aos seus colegas o que é importante para si"
+  },
+  "ok": "OK",
+  "call_laboratory": "Telefonar para o laboratório",
+  "countries": {
+    "select": "Selecionar país",
+    "all": "Todos os países"
+  },
+  "analysis_plural": "Análises",
+  "app": {
+    "rate": "Classificar a aplicação"
+  },
+  "dontKnowHowToOpenUrl": "Não foi possível abrir o URL {{url}}",
+  "zip": "Código postal",
+  "invoice_address": "Endereço de cobrança",
+  "logout": "Terminar sessão",
+  "employees": {
+    "plural": "Funcionários",
+    "admin": "Administrador",
+    "manage": "Gerir utilizadores",
+    "adminRWD": "Administrador (ler, escrever, apagar)",
+    "invitationSentOn": "Pedido enviado em {{date}}",
+    "invitrationRejectedOn": "Convite recusado em {{date}}"
+  },
+  "search": "Pesquisar",
+  "satellite": "Satélite",
+  "hybrid": "Híbrido",
+  "name": "Nome",
+  "agb": "Termos",
+  "note": "Notas",
+  "please_correct_your_entry": "Corrija a sua entrada",
+  "connecting": "A ligar",
+  "email_already_in_use": "O endereço de email já está a ser utilizado por outra conta.",
+  "version": "Versão",
+  "profile": {
+    "reallyLogout": "Tem certeza de que deseja terminar a sessão?"
+  },
+  "back": "Retroceder",
+  "last_name": "Apelido",
+  "mobile_phone": "Telemóvel",
+  "wine_fruit": "Uvas, frutas",
+  "enter_address": "Introduzir endereço",
+  "favorites": "Favoritos",
+  "legal_data_security": "Informação legal e proteção de dados",
+  "coordinates": "Coordenadas",
+  "deletePermenantly": "Apagar permanentemente",
+  "comment": {
+    "fromField": "Comentário do campo: {{name}}",
+    "doYouReallyWantToDelete": "Tem a certeza que deseja apagar o comentário?",
+    "delete": "Apagar comentário"
+  },
+  "lastEntry": "Última entrada",
+  "deleteElement": "Apagar elemento",
+  "delete": "Apagar",
+  "current": "Atual",
+  "email": "Email",
+  "ggn_gln_number": "Número GGN/GLN",
+  "phone": "Tel.",
+  "notes": "Notas",
+  "x_days": "{{days}} d",
+  "create_account": "Criar conta",
+  "map": "Mapas",
+  "maps": {
+    "pressToSetPin": "Toque no mapa para fixar o pino de localização."
+  },
+  "no_email_entered": "Não introduziu um endereço de email.",
+  "camera": "Câmera",
+  "areYouSureYouWantToDeleteElement": "Tem a certeza que deseja apagar este elemento?",
+  "enter_notes_here": "Inserir comentários aqui",
+  "street": "Rua",
+  "photoLibrary": "Biblioteca de fotos",
+  "save": "Guardar",
+  "error": "Erro",
+  "first_name": "Primeiro nome",
+  "request_new_password": "Solicitar nova palavra-passe",
+  "register": "Criar conta",
+  "phones": {
+    "enterNumber": "Introduza o seu número de telefone"
+  },
+  "companies": "Quintas",
+  "uploadError": "Não foi possível efetuar o upload",
+  "laboratory": "Laboratório",
+  "user_not_found": "Não existe um utilizador com o endereço de email fornecido.",
+  "settings": "Definições",
+  "help": "Ajuda",
+  "position_company": "Localização da quinta",
+  "copy": "Copiar",
+  "share": "Partilhar",
+  "directions": "Direções",
+  "first_last_name": "Nome completo",
+  "company_number": "Número da quinta",
+  "select_field": "Selecionar campo",
+  "grains_vegetables": "Cereais, legumes",
+  "no_password_entered": "Não introduziu palavra-passe.",
+  "language": "Idioma",
+  "edit": "Editar",
+  "change": "Alterar",
+  "contact": {
+    "dontDeleteData": "Não apague os dados seguintes. Precisamos desses dados para identificá-lo no sistema e fornecer-lhe uma melhor assistência.\n"
+  },
+  "no": "Não",
+  "done": "Concluído",
+  "city": "Cidade",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Obrigado por escolher o farmerJoe",
+        "description": "Agora pode otimizar a sua produção com facilidade e eficiência."
+      },
+      "slide2": {
+        "title": "Gestão de várias quintas",
+        "description": "Mantenha-se facilmente a par do que se passa nas suas quintas."
+      },
+      "slide3": {
+        "title": "Documentação fácil",
+        "description": "Anote tudo que é importante para si. Tire fotos ao que deseja manter."
+      },
+      "slide4": {
+        "title": "Encontre facilmente os seus campos",
+        "description": "Tenha uma visão geral imediata sobre todos os campos. Utilize a idade da colheita e a contagem regressiva do tempo de espera para as suas decisões."
+      },
+      "slide5": {
+        "title": "Encomendar análises",
+        "description": "Encomende análises através do seu smartphone. Os resultados das mesmas são diretamente comunicados para a sua documentação de campo."
+      },
+      "slide6": {
+        "title": "Adicione os seus funcionários",
+        "description": "Utilize a força da sua equipa para trabalhar melhor."
+      },
+      "done": "Começar agora"
+    },
+    "skip": "Saltar"
+  },
+  "moments": {
+    "today": "Hoje",
+    "days_ago": {
+      "one": "1 dia atrás",
+      "other": "{{count}} dias atrás"
+    },
+    "in_days": {
+      "one": "em 1 dia",
+      "other": "em {{count}} dias"
+    }
+  },
+  "alerts": {
+    "needLocation": {
+      "title": "farmerJoe necessita da sua localização",
+      "description": "atualmente farmerJoe não tem permissão para aceder à sua localização."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe não consegue determinar a sua localização.",
+      "description": "Ligue o GPS do seu telemóvel."
+    },
+    "needPhotoLibrary": {
+      "title": "Cannot access image",
+      "description": "Please allow access if you want to be able to select images."
+    },
+    "needCameraAccess": {
+      "title": "Cannot access camera",
+      "description": "Please allow access to your camera if you want to take photos."
+    }
+  },
+  "filter": "Filtro"
+}
