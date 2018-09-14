@@ -595,7 +595,7 @@
     "untilTurnedOff": "Until you turn this off",
     "shareNow": "Share now",
     "turnOff": "Turn off",
-    "sendLog": "Email location log"
+    "emailLog": "Email location log"
   },
   "report": {
     "issue": "Report issue"
