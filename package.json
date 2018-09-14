@@ -14,5 +14,6 @@
   },
   "scripts": {
     "postinstall": "babel ./ --out-dir lib --delete-dir-on-start && copyfiles languages/**/*.json lib/"
-  }
+  },
+  "main": "lib/index.js"
 }
