@@ -212,7 +212,8 @@
     "dontMatch": "Le password non corrispondono.",
     "repeat": "Ripeti la password",
     "updated": "Password aggiornata.",
-    "min6char": "La password deve contenere almeno 6 caratteri."
+    "min6char": "La password deve contenere almeno 6 caratteri.",
+    "reset": "Reimposta password"
   },
   "noSearchResults": "Nessun risultato.",
   "login": "Accesso",

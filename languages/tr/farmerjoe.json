@@ -212,7 +212,8 @@
     "dontMatch": "Şifreler eşleşmiyor.",
     "repeat": "Şifreyi Tekrar Girin",
     "updated": "Şifre güncellendi.",
-    "min6char": "Şifre en az 6 karakter uzunluğunda olmalıdır."
+    "min6char": "Şifre en az 6 karakter uzunluğunda olmalıdır.",
+    "reset": "Şifrenizi sıfırlayın"
   },
   "noSearchResults": "Sonuç yok.",
   "login": "GİRİŞ",

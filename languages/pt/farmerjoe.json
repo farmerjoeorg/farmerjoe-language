@@ -212,7 +212,8 @@
     "dontMatch": "As palavras-passe não correspondem.",
     "repeat": "Repita a palavra-passe",
     "updated": "Senha atualizada.",
-    "min6char": "A palavra-passe tem de ter no mínimo 6 carateres."
+    "min6char": "A palavra-passe tem de ter no mínimo 6 carateres.",
+    "reset": "Redefinir sua senha"
   },
   "noSearchResults": "Nenhum resultado.",
   "login": "Iniciar sessão",

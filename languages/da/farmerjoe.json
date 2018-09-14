@@ -212,7 +212,8 @@
     "dontMatch": "Adgangskoderne stemmer ikke overens.",
     "repeat": "Gentag adgangskode",
     "updated": "Adgangskode opdateret.",
-    "min6char": "Adgangskoden skal være mindst 6 tegn lang."
+    "min6char": "Adgangskoden skal være mindst 6 tegn lang.",
+    "reset": "Nulstil din adgangskode"
   },
   "noSearchResults": "Ingen resultater.",
   "login": "Logon",

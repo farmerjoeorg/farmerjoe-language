@@ -212,7 +212,8 @@
     "dontMatch": "Slaptažodžiai nesutampa.",
     "repeat": "Pakartokite slaptažodį",
     "updated": "Slaptažodis atnaujintas.",
-    "min6char": "Slaptažodį turi sudaryti bent 6 ženklai."
+    "min6char": "Slaptažodį turi sudaryti bent 6 ženklai.",
+    "reset": "Nustatykite slaptažodį iš naujo"
   },
   "noSearchResults": "Rezultatų nėra.",
   "login": "Prisijungti",
