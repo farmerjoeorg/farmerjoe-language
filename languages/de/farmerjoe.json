@@ -104,7 +104,8 @@
     "sortByCrop": "Nach Kultur",
     "sortByLatest": "Nach Auftragsdatum",
     "latest": "Letzte Analysen",
-    "analysisType": "Analysetyp"
+    "analysisType": "Analysetyp",
+    "cancelReasonLab": "Grund der Stornierung: {{reason}}"
   },
   "field": {
     "number": "Feldnummer",

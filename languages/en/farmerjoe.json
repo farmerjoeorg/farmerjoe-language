@@ -104,7 +104,8 @@
     "sortByCrop": "By Crop",
 	"sortByLatest": "By latest",
 	"latest": "Last analyses",
-    "analysisType": "Analysis type"
+    "analysisType": "Analysis type",
+    "cancelReasonLab": "Cancelled reason: {{reason}}"
   },
   "field": {
     "number": "Field Number",
