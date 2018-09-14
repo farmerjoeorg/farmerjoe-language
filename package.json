@@ -2,9 +2,7 @@
   "name": "farmerjoe-language",
   "version": "0.1.0",
   "dependencies": {
-    "lodash-es": "^4.17.11"
-  },
-  "devDependencies": {
+    "lodash-es": "^4.17.11",
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
