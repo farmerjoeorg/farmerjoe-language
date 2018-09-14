@@ -12,15 +12,15 @@
     "noInvites": "keine Einladungen"
   },
   "latestActivities": {
-	"tabLabel": "Aktivität",
-	"sceneTitle": "Letzte Aktivität",
-	"period": "Zeitraum",
-	"selectPeriod": "Zeitraum auswählen",
-	"onlyPhotos": "nur Fotos",
-	"photo": "Fotos",
-	"all": "Alles",
-	"noActivity": "Keine Aktivität in den ausgewählten Zeitraum."
-	},
+    "tabLabel": "Aktivität",
+    "sceneTitle": "Letzte Aktivität",
+    "period": "Zeitraum",
+    "selectPeriod": "Zeitraum auswählen",
+    "onlyPhotos": "nur Fotos",
+    "photo": "Fotos",
+    "all": "Alles",
+    "noActivity": "Keine Aktivität in den ausgewählten Zeitraum."
+  },
   "invalid_email": "Die E-Mail Adresse ist ungültig.",
   "analysis": {
     "cancelAnalysis": "Analyse stornieren",
@@ -505,6 +505,10 @@
         "message": "Sie müssen mindestens ein Feld für den Benutzer auswählen"
       }
     },
+    "users": {
+      "users": "Benutzer",
+      "userRight": "Der Benutzer darf andere Benutzer im Betrieb sehen."
+    },
     "access": {
       "fieldAdminAlert": {
         "message": "Der Benutzer ist Administrator und hat Zugriff auf alle Felder im Betrieb. Wenn Sie seinen Zugang zu diesem und anderen Feldern verbieten möchten, dann machen Sie ihm einen normallen Benutzer."
@@ -534,7 +538,7 @@
       "comments": "Notizen",
       "all": "Alle Notizen",
       "selected": "Nur eigene Notizen",
-      "standardUserRights": "Der Benutzer kann eigene Kommentare erstellen und bearbeiten."
+      "standardUserRights": "Der Benutzer kann eigene Notizen erstellen und bearbeiten."
     },
     "fertilizing": {
       "description": "Der Mitarbeiter ist in der Lage eigene Düngungen zu..."

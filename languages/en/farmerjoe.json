@@ -506,6 +506,10 @@
         "message": "You need to select at least one field for the user"
       }
     },
+    "users": {
+      "users": "Employees",
+      "userRight": "The user can see other Employees in the farm."
+    },
     "access": {
       "fieldAdminAlert": {
         "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
