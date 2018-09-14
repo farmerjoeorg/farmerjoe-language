@@ -531,9 +531,9 @@
       "standardUserRights": "Der Benutzer kann keine Kulturen erstellen oder bearbeiten."
     },
     "comments": {
-      "comments": "Kommentare",
-      "all": "Alle Kommentare",
-      "selected": "Nur eigene Kommentare",
+      "comments": "Notizen",
+      "all": "Alle Notizen",
+      "selected": "Nur eigene Notizen",
       "standardUserRights": "Der Benutzer kann eigene Kommentare erstellen und bearbeiten."
     },
     "fertilizing": {
