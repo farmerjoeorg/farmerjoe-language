@@ -250,7 +250,8 @@
     "dontMatch": "Passwörter stimmen nicht überein.",
     "repeat": "Passwort wiederhohlen",
     "updated": "Passwort aktualisiert.",
-    "min6char": "Das Passwort muss mindestens 6 Zeichen lang."
+    "min6char": "Das Passwort muss mindestens 6 Zeichen lang.",
+    "reset": "Passwort zurücksetzen"
   },
   "noSearchResults": "Keine Treffer.",
   "login": "Login",

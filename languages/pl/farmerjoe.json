@@ -212,7 +212,8 @@
     "dontMatch": "Hasła nie pasują do siebie.",
     "repeat": "Powtórz hasło",
     "updated": "Hasło zaktualizowane.",
-    "min6char": "Hasło musi mieć co najmniej 6 znaków."
+    "min6char": "Hasło musi mieć co najmniej 6 znaków.",
+    "reset": "Resetowanie hasła"
   },
   "noSearchResults": "Brak wyników.",
   "login": "Login",

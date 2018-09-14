@@ -212,7 +212,8 @@
     "dontMatch": "Heslá sa nezhodujú.",
     "repeat": "Opakujte heslo",
     "updated": "Heslo aktualizované.",
-    "min6char": "Heslo musí mať dĺžku najmenej 6 znakov."
+    "min6char": "Heslo musí mať dĺžku najmenej 6 znakov.",
+    "reset": "Obnovte svoje heslo"
   },
   "noSearchResults": "Žiadne výsledky.",
   "login": "Prihlásenie",

@@ -251,7 +251,8 @@
     "dontMatch": "The passwords do not match.",
     "repeat": "Repeat Password",
     "updated": "Password updated.",
-    "min6char": "The password must be at least 6 characters long."
+    "min6char": "The password must be at least 6 characters long.",
+    "reset": "Reset your password"
   },
   "noSearchResults": "No results.",
   "login": "Login",

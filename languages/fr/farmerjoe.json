@@ -212,7 +212,8 @@
     "dontMatch": "Les mots de passe ne correspondent pas.",
     "repeat": "Répétez le mot de passe",
     "updated": "Mot de passe mis à jour.",
-    "min6char": "Le mot de passe doit comporter au moins 6 caractères."
+    "min6char": "Le mot de passe doit comporter au moins 6 caractères.",
+    "reset": "Réinitialiser votre mot de passe"
   },
   "noSearchResults": "Aucun résultat.",
   "login": "Login",

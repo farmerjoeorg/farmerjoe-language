@@ -212,7 +212,8 @@
     "dontMatch": "A jelszavak nem egyeznek.",
     "repeat": "Ismételje meg a jelszót",
     "updated": "A jelszó frissítve.",
-    "min6char": "A jelszónak legalább 6 karakter hosszúnak kell lennie."
+    "min6char": "A jelszónak legalább 6 karakter hosszúnak kell lennie.",
+    "reset": "Jelszó visszaállítása"
   },
   "noSearchResults": "Nincs eredmény.",
   "login": "bejelentkezés",

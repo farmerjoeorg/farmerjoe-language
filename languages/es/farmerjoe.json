@@ -212,7 +212,8 @@
     "dontMatch": "Las contraseñas no coinciden.",
     "repeat": "Repetir contraseña",
     "updated": "La contraseña ha sido actualizada.",
-    "min6char": "La contraseña debe tener al menos 6 caracteres de longitud."
+    "min6char": "La contraseña debe tener al menos 6 caracteres de longitud.",
+    "reset": "Cambiar la contraseña"
   },
   "noSearchResults": "Sin resultados.",
   "login": "Iniciar sesión",

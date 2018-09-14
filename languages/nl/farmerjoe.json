@@ -212,7 +212,8 @@
     "dontMatch": "De wachtwoorden komen niet overeen.",
     "repeat": "Wachtwoord opnieuw",
     "updated": "Wachtwoord bijgewerkt.",
-    "min6char": "Het wachtwoord moet minimaal 6 tekens lang zijn."
+    "min6char": "Het wachtwoord moet minimaal 6 tekens lang zijn.",
+    "reset": "Reset uw wachtwoord"
   },
   "noSearchResults": "Geen resultaten.",
   "login": "Aanmelden",

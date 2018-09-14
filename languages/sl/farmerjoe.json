@@ -212,7 +212,8 @@
     "dontMatch": "Gesli se ne ujemata.",
     "repeat": "Ponovite geslo",
     "updated": "Geslo posodobljeno.",
-    "min6char": "Geslo mora biti dolgo najmanj 6 znakov."
+    "min6char": "Geslo mora biti dolgo najmanj 6 znakov.",
+    "reset": "Ponastavitev gesla"
   },
   "noSearchResults": "Ni rezultatov.",
   "login": "Prijava",

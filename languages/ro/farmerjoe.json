@@ -212,7 +212,8 @@
     "dontMatch": "Parolele nu se potrivesc.",
     "repeat": "Reintroduceți parola",
     "updated": "Parolă actualizată.",
-    "min6char": "Parola trebuie să conțină cel puțin 6 caractere."
+    "min6char": "Parola trebuie să conțină cel puțin 6 caractere.",
+    "reset": "Resetați parola"
   },
   "noSearchResults": "Niciun rezultat.",
   "login": "Conectare",

@@ -212,7 +212,8 @@
     "dontMatch": "Hesla nejsou shodná.",
     "repeat": "Opakujte heslo",
     "updated": "Heslo bylo aktualizováno.",
-    "min6char": "Heslo musí mít délku nejméně 6 znaků."
+    "min6char": "Heslo musí mít délku nejméně 6 znaků.",
+    "reset": "Obnovení hesla"
   },
   "noSearchResults": "Žádné výsledky.",
   "login": "Přihlášení",
