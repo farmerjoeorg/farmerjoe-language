@@ -252,7 +252,8 @@
     "repeat": "Repeat Password",
     "updated": "Password updated.",
     "min6char": "The password must be at least 6 characters long.",
-    "reset": "Reset your password"
+    "reset": "Reset your password",
+    "resetHelp": "Enter your new password below."
   },
   "noSearchResults": "No results.",
   "login": "Login",

@@ -251,7 +251,8 @@
     "repeat": "Passwort wiederhohlen",
     "updated": "Passwort aktualisiert.",
     "min6char": "Das Passwort muss mindestens 6 Zeichen lang.",
-    "reset": "Passwort zurücksetzen"
+    "reset": "Passwort zurücksetzen",
+    "resetHelp": "Einfach ein neues Passwort im Feld unten eingeben."
   },
   "noSearchResults": "Keine Treffer.",
   "login": "Login",
