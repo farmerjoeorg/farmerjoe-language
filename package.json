@@ -2,15 +2,16 @@
   "name": "farmerjoe-language",
   "version": "0.1.0",
   "dependencies": {
-    "lodash-es": "^4.17.11",
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-flow": "^7.0.0",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "copyfiles": "^2.1.0"
+    "copyfiles": "^2.1.0",
+    "lodash-es": "^4.17.11"
   },
   "scripts": {
     "postinstall": "babel ./ --out-dir lib --delete-dir-on-start && copyfiles languages/**/*.json lib/"
