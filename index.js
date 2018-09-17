@@ -5,7 +5,9 @@
  */
 import { includes } from 'lodash-es'
 import * as englishLocale from './languages/en'
-import '@babel/polyfill'
+
+// regenerator runtime needs to be imported as regeneratorRuntime for the async functions
+import regeneratorRuntime from 'regenerator-runtime/runtime'
 
 export const supportedLanguages = [
   'ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'fr', 'hu', 'it', 'lt', 'nl', 'pl', 'pt', 'ro', 'ru', 'sk', 'sl', 'tr', 'uk'
