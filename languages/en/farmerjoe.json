@@ -534,7 +534,8 @@
     "crops": {
       "all": "Planted and harvested",
       "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "standardUserRights": "The user can't create or edit any crops.",
+      "activeCrops": "Active crops"
     },
     "comments": {
       "comments": "Comments",
