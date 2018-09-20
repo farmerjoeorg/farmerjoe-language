@@ -192,7 +192,8 @@
     "cropPlanning": "Kulturplanung",
     "age": "Kulturalter",
     "cropDoesntExist": "Die ausgewählte Kultur existiert nicht mehr.",
-    "protection": "Pflanzenschutz"
+    "protection": "Pflanzenschutz",
+    "activeCrops": "Aktive Kulturen"
   },
   "fertilizer": {
     "fertilization": "Düngung",
