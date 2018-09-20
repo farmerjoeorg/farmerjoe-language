@@ -533,8 +533,7 @@
     "crops": {
       "all": "Aktuelle und geerntete",
       "active": "Nur aktive",
-      "standardUserRights": "Der Benutzer kann keine Kulturen erstellen oder bearbeiten.",
-      "activeCrops": "Aktive Kulturen"
+      "standardUserRights": "Der Benutzer kann keine Kulturen erstellen oder bearbeiten."
     },
     "comments": {
       "comments": "Notizen",
