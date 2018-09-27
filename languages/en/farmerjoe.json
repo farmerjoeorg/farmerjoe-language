@@ -471,8 +471,12 @@
       "description": "Please allow access to your camera if you want to take photos."
     },
     "needContactsAccess": {
-      "title": "FarmerJoe needs access to your contacts",
+      "title": "farmerJoe needs access to your contacts",
       "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe needs storage access",
+      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
     }
   },
   "filter": "Filter",

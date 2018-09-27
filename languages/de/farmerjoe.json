@@ -470,8 +470,12 @@
       "description": "Bitte erlauben Sie Zugriff auf Ihre Kamera, wenn Sie fotografieren möchten."
     },
     "needContactsAccess": {
-      "title": "FarmerJoe benötigt Zugriff auf Ihre Kontakte",
+      "title": "farmerJoe benötigt Zugriff auf Ihre Kontakte",
       "description": "Wenn Sie jemanden aus Ihrem Adressbuch einladen möchten, gewähren Sie FarmerJoe Zugriff auf Kontakte."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe benötigt Speicherzugriff ",
+      "description": "Um das Bild manipulieren zu können benötigen wir Zugriff auf dein Speicher. Ohne diese Berechtigung wirst du nicht in der Lage sein das Bild abzuschicken."
     }
   },
   "filter": "Filter",
