@@ -625,7 +625,7 @@
   "browserNotSupported": "farmerJoe non supporta Internet Explorer. Usa un browser moderno e supportato come Firefox, Chrome, Edge, Opera o Safari.",
   "apiKeys": {
     "header": "Chiavi API",
-    "generate": "Genera nuova chiave",
+    "generate": "Generate a new key",
     "key": "Chiave",
     "enabled": "Abilitate",
     "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",

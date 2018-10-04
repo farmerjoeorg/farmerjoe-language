@@ -628,7 +628,7 @@
     "generate": "Neuen Schlüssel generieren",
     "key": "Schlüssel",
     "enabled": "Aktiviert",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "description": "Mit API-Schlüssel kannst du farmerJoe in andere Software integrieren. Die Dokumentation befindet sich {0}.",
+    "descriptionLink": "hier"
   }
 }

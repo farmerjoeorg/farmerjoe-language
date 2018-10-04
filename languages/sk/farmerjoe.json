@@ -625,7 +625,7 @@
   "browserNotSupported": "farmerJoe nepodporuje Internet Explorer. Prosím použite moderný a podporovaný prehliadač, ako napríklad Firefox, Chrome, Edge, Opera alebo Safari.",
   "apiKeys": {
     "header": "API kľúče",
-    "generate": "Generovať nový kľúč",
+    "generate": "Generate a new key",
     "key": "Kľúč",
     "enabled": "Povolené",
     "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
