@@ -567,11 +567,11 @@
     "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
     "newsletter": "Sign up for farmerJoe's newsletter",
     "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {1}.",
+    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
     "continueRegistration": "Continue sign up",
     "next": "Next",
     "enterEmail":"Enter your email",
-    "errorEmailExist": "Another account already users this email address.",
+    "errorEmailExist": "Another account already uses this email address.",
     "retry": "Retry",
     "titles": {
       "finish": "Finish signing up",
