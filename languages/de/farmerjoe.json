@@ -153,8 +153,7 @@
       "upload": "Betriebslogo auswählen",
       "camera": "Betriebslogo aufnehmen"
     },
-    "doYouWantToDeleteCompany": "Wollen Sie den Betrieb wirklich löschen?",
-    "addNew": "Bertieb hinzfügen"
+    "doYouWantToDeleteCompany": "Wollen Sie den Betrieb wirklich löschen?"
   },
   "crop": {
     "cancelCultivation": "Kulturplanung aufheben",
@@ -623,5 +622,13 @@
   "verifyEmailLinkExpired": "Ihre Anfrage zur Bestätigung der E-Mail-Adresse ist abgelaufen oder der Link wurde bereits verwendet",
   "emailChangeReverted": "Ihre Anmelde-E-Mail-Adresse wurde wieder in {{email}} geändert.",
   "invalidActionCode": "Dieser Code ist nicht mehr gültig",
-  "browserNotSupported": "Farmerjoe unterstützt Internet Explorer nicht. Bitte verwenden Sie ein anderer Browser wie Firefox, Chrome, Edge, Opera oder Safari."
+  "browserNotSupported": "FarmerJoe unterstützt Internet Explorer nicht. Bitte verwenden Sie ein anderer Browser wie Firefox, Chrome, Edge, Opera oder Safari.",
+  "apiKeys": {
+    "header": "API-Schlüssel",
+    "generate": "Neuen Schlüssel generieren",
+    "key": "Schlüssel",
+    "enabled": "Aktiviert",
+    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "descriptionLink": "here"
+  }
 }

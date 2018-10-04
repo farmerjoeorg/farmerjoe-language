@@ -1,9 +1,25 @@
 {
   "data_guidelines": "Andmetöötluse põhimõtted",
+  "cookie_policy": "Küpsiste põhimõtted",
+  "info": "Info",
   "invites": {
     "reject": "Keeldu",
     "from": "Kutse isikult {{name}}",
-    "accept": "Aktsepteeri"
+    "accept": "Aktsepteeri",
+    "resend": "Saada uuesti",
+    "resendDoYouReally": "Kas soovite tõesti kutse uuesti saata?",
+    "deleteDoYouReally": "Kas soovite tõesti selle kasutaja ettevõttest kustutada?",
+    "noInvites": "Kutseid pole"
+  },
+  "latestActivities": {
+    "tabLabel": "Viimased",
+    "sceneTitle": "Viimased tegevused",
+    "period": "Ajavahemik",
+    "selectPeriod": "Vali ajavahemik",
+    "onlyPhotos": "Ainult fotod",
+    "photo": "Foto",
+    "all": "Kõik",
+    "noActivity": "Valitud ajavahemikul puuduvad tegevused"
   },
   "invalid_email": "E-posti aadress on kehtetu.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "Telli",
     "plantOrSowDate": "Külvamise kuupäev",
     "pleaseLabelProbe": "Palun märgi proovile!",
+    "dontForgetToLabelProbe": "Palun ärge unustage sondi sildistada!",
     "compostType": "Komposti tüüp",
     "compostAmountInTons": "Kogus tonnides",
     "compostApplicationYear": "Kasutamise aasta",
@@ -80,7 +97,15 @@
     "needFastToday": "Kiiresti tänaseks",
     "pick_up_from_laboratory": "Labori proov",
     "pleaseFollowCurrentFertilizerRegulation": "Järgige palun kehtvat väetamise direktiivi.",
-    "sampleIsTakenAccordingToRegulation": "Näidis võetakse vastavalt kehtivale väetamise direktiivile."
+    "sampleIsTakenAccordingToRegulation": "Näidis võetakse vastavalt kehtivale väetamise direktiivile.",
+    "acceptedFromLab": "{{date}} - accepted by Lab",
+    "acceptedFromLabAndCantBeCancelled": "Analüüs võeti labori poolt vastu ning seda ei saa enam tühistada.",
+    "probeTaken": "{{date}} - probe taken by Lab",
+    "sortByCrop": "By Crop",
+    "sortByLatest": "By latest",
+    "latest": "Last analyses",
+    "analysisType": "Analüüsi tüüp",
+    "cancelReasonLab": "Cancelled reason: {{reason}}"
   },
   "field": {
     "number": "Põllu number",
@@ -89,6 +114,7 @@
     "sendToArchive": "Arhiveeri põld",
     "cultivate": "Hari põldu",
     "harvested_on": "Saak koristati kuupäeval {{date}}",
+    "sown_on": "Crop sown on {{date}}",
     "delete": "Kustuta põld",
     "moveToArchive": "Põld viiakse arhiivi. (Farm -> arhiiv)",
     "area": "Piirkond",
@@ -103,7 +129,11 @@
     "createNow": "Loo põld",
     "toArchive": "Arhiiv",
     "field": "Põld",
-    "created": "Põld on loodud."
+    "created": "Põld on loodud.",
+    "history": "Field history",
+    "show": "Show field",
+    "dropFilesHere": "Poeta failid siia",
+    "followingFilesAreUnsupported": "The following files are unsupported:"
   },
   "no_email_no_password_entered": "Te pole sisestanud e-posti ja parooli",
   "pleaseWaitImageIsBeingUploaded": "Oodake, pilti laaditakse üles",
@@ -119,6 +149,10 @@
     "create_first_company": "Loo oma esimene farm",
     "delete": "Kustuta farm",
     "qs_number": "QS number",
+    "logo": {
+      "upload": "Vali ettevõtte logo",
+      "camera": "Tee uus ettevõtte logo"
+    },
     "doYouWantToDeleteCompany": "Kas soovite tõesti farmi kustutada?"
   },
   "crop": {
@@ -155,7 +189,10 @@
     "select_color": "Valige värv",
     "without": "Ilma kultuurita",
     "cropPlanning": "Kultuuri-planeerimine",
-    "age": "Kultuur vanus"
+    "age": "Kultuur vanus",
+    "cropDoesntExist": "The selected crop doesn't exist.",
+    "protection": "Plant protection",
+    "activeCrops": "Active crops"
   },
   "fertilizer": {
     "fertilization": "Väetamine",
@@ -171,6 +208,7 @@
   "no_first_last_name_entered": "Palun sisestage oma ees- ja perekonnanimi.",
   "deletePhoto": "Kustuta foto",
   "date": "Kuupäev",
+  "datePleaseSelect": "Palun valige kuupäev",
   "invoice": {
     "youDontHaveAddress": "Te pole sisestanud arveldusaadressi."
   },
@@ -190,7 +228,8 @@
     "delete": "Kustuta ooteaeg",
     "doYouReallyWantToDelete": "Kas soovid ooteaja tõesti kustutada?",
     "pesticide": "Pestitsiid",
-    "waitTime": "Ooteaeg"
+    "waitTime": "Ooteaeg",
+    "waitTimeShort": "Ooteaeg"
   },
   "more": "Rohkem",
   "position": "Asukoht",
@@ -200,7 +239,6 @@
     "inform": "Räägi sõbrale sõpru",
     "emailMessage": "Hei!\n\nMa laadisin just farmerjoe oma {{phone}}.\n\nfarmerjoe on lihtsasti kasutatav dokumentatsioonirakendus talunikele. Rakendusega saate näha oma põlde ja saaki kaardil, saate lisada märkusi pildi abil. Võite määrata ooteaegu ja salvestada väetisi.\n\nfarmerjoe on saadaval iPhone'i ja Androidi jaoks.\n\nPaigaldage see {{url}}."
   },
-  "confrim_agb_data_security": "Klõpsates nupul \"Registreeri\", nõustute meie {0}-ga ja kinnitate, et olete meie {1} lugenud.",
   "password": {
     "current": "Praegune parool",
     "password": "Parool",
@@ -212,7 +250,9 @@
     "dontMatch": "Paroolid ei ühti.",
     "repeat": "Korrake parooli",
     "updated": "Parool uuendatud.",
-    "min6char": "Parool peab olema vähemalt 6 tähemärki pikk."
+    "min6char": "Parool peab olema vähemalt 6 tähemärki pikk.",
+    "reset": "Reset your password",
+    "resetHelp": "Enter your new password below."
   },
   "noSearchResults": "Tulemusi pole.",
   "login": "Sisene",
@@ -240,6 +280,7 @@
   "employee": "Töötaja",
   "archive": {
     "archive": "Arhiiv",
+    "archivedFields": "Archived Fields",
     "noFieldsInArchive": "Arhiivis pole põlde."
   },
   "save_as_favorite": "Salvesta lemmikuna",
@@ -262,12 +303,23 @@
   "invoice_address": "Arveldusaadress",
   "logout": "Logi välja",
   "employees": {
+    "addEmployee": "Add Employee",
+    "noAdvisors": "No farm advisors",
+    "noDeactivatedUsers": "No deactivated users",
     "plural": "Töötajad",
+    "active": "Aktiivne",
+    "deactivated": "Deaktiveeritud",
+    "reactivate": "Taasaktiveeri kasutaja",
+    "reactivateDoYouWant": "Kas soovite tõesti kasutaja taasaktiveerida?",
+    "advisors": "Nõunikud",
     "admin": "Administraator",
     "manage": "Halda kasutajaid",
     "adminRWD": "Administraator (loe, kirjuta, kustuta)",
     "invitationSentOn": "Kutse saadeti {{date}}",
-    "invitrationRejectedOn": "Kutse lükati tagasi {{date}}"
+    "invitrationRejectedOn": "Kutse lükati tagasi {{date}}",
+    "getFromPhoneBook": "Otsi telefoniraamatust",
+    "choseEmail": "Vali e-post",
+    "employeeIsDeactivated": "Töötaja on deaktiveeritud"
   },
   "search": "Otsing",
   "satellite": "Satelliit",
@@ -290,6 +342,7 @@
   "favorites": "Lemmikud",
   "legal_data_security": "Andmete turvalisus",
   "coordinates": "Koordinaadid",
+  "deleteForAll": "Kustuta kõigi puhul",
   "deletePermenantly": "Kustuta jäädavalt",
   "comment": {
     "fromField": "Märkused põllult: {{name}}",
@@ -308,7 +361,8 @@
   "create_account": "Uus registreerumine",
   "map": "Kaardid",
   "maps": {
-    "pressToSetPin": "Vajutage kaardile asukoha nööpnõela paigaldamiseks."
+    "pressToSetPin": "Vajutage kaardile asukoha nööpnõela paigaldamiseks.",
+    "clickToShowMore": "Klõpsa, et näha rohkem"
   },
   "no_email_entered": "Te ei sisestanud e-posti aadressi.",
   "camera": "Kaamera",
@@ -321,6 +375,7 @@
   "first_name": "Eesnimi",
   "request_new_password": "Taotle uut parooli",
   "register": "Registreeru",
+  "needAFarmerJoeAccount": "Need a farmerJoe account?",
   "phones": {
     "enterNumber": "Sisestage oma telefoninumber"
   },
@@ -331,6 +386,9 @@
   "settings": "Seaded",
   "help": "Abi",
   "position_company": "Farmi asukoht",
+  "position_verb": "Set location",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
   "copy": "Koopia",
   "share": "Jaga",
   "directions": "Juhised",
@@ -390,9 +448,14 @@
     }
   },
   "alerts": {
+    "openSettings": "Open Settings",
     "needLocation": {
       "title": "farmerjoe vajab teie asukohta",
       "description": "farmerjoe'l ei ole hetkel luba saada juurdepääsu teie asukohale."
+    },
+    "needAlwaysLocation": {
+      "title": "Location permission not granted",
+      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
     },
     "cantDetermineLocation": {
       "title": "farmerjoe ei suuda määrata teie asukohta.",
@@ -405,7 +468,167 @@
     "needCameraAccess": {
       "title": "Cannot access camera",
       "description": "Please allow access to your camera if you want to take photos."
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe needs access to your contacts",
+      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe needs storage access",
+      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
     }
   },
-  "filter": "Filter"
+  "filter": "Filter",
+  "acl": {
+    "view": "View",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "department": "Department",
+    "selectFields": "Select fields",
+    "CRUD": "Create, Edit, Delete",
+    "role": {
+      "restricted": "Restricted access",
+      "allrights": "All rights",
+      "type": "Account type",
+      "admin": "Admin",
+      "standard": "Worker",
+      "advisor": "Advisor"
+    },
+    "user": {
+      "delete": "Delete Employee",
+      "deactivate": "Deactivate Employee",
+      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
+      "doYouWantToDeleteUser": "Kas soovite tõesti selle töötaja kustutada?",
+      "cantDeleteYourself": "Ennast ei saa kustutada",
+      "alertFound": {
+        "title": "Kasutaja on juba ettevõttes",
+        "message": "The user with this email is already existing in the company."
+      },
+      "alertNoFields": {
+        "title": "No fields selected",
+        "message": "You need to select at least one field for the user"
+      }
+    },
+    "users": {
+      "users": "Employees",
+      "userRight": "The user can see other Employees in the farm."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+      },
+      "forbidFieldAlert": {
+        "message": "Do you really want to forbid {{name}} access to this field?"
+      },
+      "grantFieldAlert": {
+        "message": "Do you really want to give {{name}} access to this field?"
+      },
+      "alreadyHasAccess": "Already has access to field.",
+      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+    },
+    "rights": "Rights",
+    "fields": {
+      "all": "All",
+      "selected": "Only selected",
+      "selectDesc": "Select fields which the user is able to see.",
+      "standardUserRights": "The user can't create or edit fields."
+    },
+    "crops": {
+      "all": "Planted and harvested",
+      "active": "Only planted",
+      "standardUserRights": "The user can't create or edit any crops."
+    },
+    "comments": {
+      "comments": "Comments",
+      "all": "All comments",
+      "selected": "Only own comments",
+      "standardUserRights": "The user can create and edit his own comments."
+    },
+    "fertilizing": {
+      "description": "Select below what the user is able to do with Fertilizings."
+    },
+    "waittime": {
+      "description": "Select below what the user is able to do with Wait times."
+    }
+  },
+  "near": {
+    "by": "Near by",
+    "fields": "Nearest fields",
+    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+  },
+  "registerScreen": {
+    "startNow": "Get started",
+    "helpEasySteps": "We'll help you create an account in a few easy steps.",
+    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
+    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
+    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
+    "newsletter": "Sign up for farmerJoe's newsletter",
+    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
+    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
+    "continueRegistration": "Continue sign up",
+    "next": "Next",
+    "enterEmail": "Enter your email",
+    "errorEmailExist": "Another account already users this email address.",
+    "retry": "Retry",
+    "titles": {
+      "finish": "Finish signing up",
+      "haveAnAccount": "Already have an account",
+      "join": "Join farmerJoe",
+      "password": "Create a password",
+      "whatIsYourName": "What's your name?",
+      "whatIsYourPhoneNumber": "What's your mobile number?",
+      "whatIsYourEmailAddress": "What's your email address?",
+      "creating": "Your account is being created."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
+    "sharedWithFarm": "Position is being shared with this farm.",
+    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
+    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "forX": {
+      "x_minutes": {
+        "one": "For {{count}} minute",
+        "other": "For {{count}} minutes"
+      },
+      "x_hours": {
+        "other": "For {{count}} hours",
+        "one": "For 1 hour"
+      },
+      "x_days": {
+        "other": "For {{count}} days",
+        "one": "For 1 day"
+      }
+    },
+    "untilTurnedOff": "Until you turn this off",
+    "shareNow": "Share now",
+    "turnOff": "Turn off",
+    "emailLog": "Email location log"
+  },
+  "report": {
+    "issue": "Report issue"
+  },
+  "no_company_selected": "No company selected",
+  "no_field_selected": "No field selected",
+  "invalid_phone_number": "invalid phone number",
+  "close": "close",
+  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
+  "refresh": "Refresh",
+  "remoteSupport": "Remote support request",
+  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "emailVerified": "Your email has been verified",
+  "resetPasswordLinkExpired": "Your request to reset your password has expired or the link has already been used",
+  "verifyEmailLinkExpired": "Your request to verify your email has expired or the link has already been used",
+  "emailChangeReverted": "Your sign-in email address has been changed back to {{email}}.",
+  "invalidActionCode": "This code is no longer valid",
+  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "apiKeys": {
+    "header": "API keys",
+    "generate": "Generate new key",
+    "key": "Key",
+    "enabled": "Enabled",
+    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "descriptionLink": "here"
+  }
 }

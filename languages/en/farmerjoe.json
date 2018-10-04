@@ -7,8 +7,8 @@
     "from": "Invitation from {{name}}",
     "accept": "Accept",
     "resend": "Resend",
-    "resendDoYouReally":"Do you really want to resend the invitation?",
-    "deleteDoYouReally":"Do you really want to delete the user from the company?",
+    "resendDoYouReally": "Do you really want to resend the invitation?",
+    "deleteDoYouReally": "Do you really want to delete the user from the company?",
     "noInvites": "No invitations"
   },
   "latestActivities": {
@@ -28,7 +28,7 @@
     "order": "Order",
     "plantOrSowDate": "Plant/sow date",
     "pleaseLabelProbe": "Please label the probe!",
-    "dontForgetToLabelProbe":"Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
     "compostType": "Compost Type",
     "compostAmountInTons": "Quantity in tons",
     "compostApplicationYear": "Application year",
@@ -98,12 +98,12 @@
     "pick_up_from_laboratory": "Lab Sample",
     "pleaseFollowCurrentFertilizerRegulation": "Please follow current Fertilizer directive.",
     "sampleIsTakenAccordingToRegulation": "The sample will be taken according to the current Fertilizer directive.",
-	"acceptedFromLab": "{{date}} - accepted by Lab",
-	"acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
+    "acceptedFromLab": "{{date}} - accepted by Lab",
+    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
     "probeTaken": "{{date}} - probe taken by Lab",
     "sortByCrop": "By Crop",
-	"sortByLatest": "By latest",
-	"latest": "Last analyses",
+    "sortByLatest": "By latest",
+    "latest": "Last analyses",
     "analysisType": "Analysis type",
     "cancelReasonLab": "Cancelled reason: {{reason}}"
   },
@@ -153,8 +153,7 @@
       "upload": "Select company logo",
       "camera": "Take a new company logo"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?",
-    "addNew": "Add Farm"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?"
   },
   "crop": {
     "cancelCultivation": "Cancel the planned crop",
@@ -240,7 +239,6 @@
     "inform": "Tell a Friend",
     "emailMessage": "Hey,\n\nI just downloaded farmerJoe for my {{phone}}.\n\nfarmerJoe is a documentation app for farmers that is easy to use. With the app you can see your fields and crops on a map, you can add notes with a picture. You can set wait times and record fertilisers.\n\nfarmerJoe is available for iPhone and Android.\n\nInstall it from {{url}}."
   },
-
   "password": {
     "current": "Current Password",
     "password": "Password",
@@ -312,7 +310,7 @@
     "active": "Active",
     "deactivated": "Deactivated",
     "reactivate": "Reactivate user",
-    "reactivateDoYouWant":"Do you really want to reactivate the user?",
+    "reactivateDoYouWant": "Do you really want to reactivate the user?",
     "advisors": "Advisors",
     "admin": "Admin",
     "manage": "Manage Users",
@@ -503,7 +501,7 @@
       "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Do you really want to delete this employee?",
       "cantDeleteYourself": "You can't delete yourself",
-      "alertFound" : {
+      "alertFound": {
         "title": "User already in company",
         "message": "The user with this email is already existing in the company."
       },
@@ -526,8 +524,8 @@
       "grantFieldAlert": {
         "message": "Do you really want to give {{name}} access to this field?"
       },
-      "alreadyHasAccess":"Already has access to field.",
-      "accessOnceInvitationAccepted":"Has access once user accepts invitation."
+      "alreadyHasAccess": "Already has access to field.",
+      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
     },
     "rights": "Rights",
     "fields": {
@@ -554,8 +552,8 @@
       "description": "Select below what the user is able to do with Wait times."
     }
   },
-  "near" : {
-    "by" : "Near by",
+  "near": {
+    "by": "Near by",
     "fields": "Nearest fields",
     "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
   },
@@ -567,10 +565,10 @@
     "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
     "newsletter": "Sign up for farmerJoe's newsletter",
     "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {1}.",
+    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
     "continueRegistration": "Continue sign up",
     "next": "Next",
-    "enterEmail":"Enter your email",
+    "enterEmail": "Enter your email",
     "errorEmailExist": "Another account already users this email address.",
     "retry": "Retry",
     "titles": {
@@ -581,7 +579,7 @@
       "whatIsYourName": "What's your name?",
       "whatIsYourPhoneNumber": "What's your mobile number?",
       "whatIsYourEmailAddress": "What's your email address?",
-      "creating":"Your account is being created."
+      "creating": "Your account is being created."
     }
   },
   "location": {
@@ -590,7 +588,7 @@
     "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
     "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
     "forX": {
-      "x_minutes" : {
+      "x_minutes": {
         "one": "For {{count}} minute",
         "other": "For {{count}} minutes"
       },
@@ -624,5 +622,13 @@
   "verifyEmailLinkExpired": "Your request to verify your email has expired or the link has already been used",
   "emailChangeReverted": "Your sign-in email address has been changed back to {{email}}.",
   "invalidActionCode": "This code is no longer valid",
-  "browserNotSupported": "farmerJoe doesn't support Internet Expolorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari."
+  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "apiKeys": {
+    "header": "API keys",
+    "generate": "Generate new key",
+    "key": "Key",
+    "enabled": "Enabled",
+    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "descriptionLink": "here"
+  }
 }

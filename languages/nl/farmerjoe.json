@@ -1,9 +1,25 @@
 {
   "data_guidelines": "Gegevensbeleid",
+  "cookie_policy": "Cookie Policy",
+  "info": "Info",
   "invites": {
     "reject": "Weigeren",
     "from": "Uitnodiging van {{name}}",
-    "accept": "Accepteren"
+    "accept": "Accepteren",
+    "resend": "Resend",
+    "resendDoYouReally": "Do you really want to resend the invitation?",
+    "deleteDoYouReally": "Do you really want to delete the user from the company?",
+    "noInvites": "No invitations"
+  },
+  "latestActivities": {
+    "tabLabel": "Latest",
+    "sceneTitle": "Latest activities",
+    "period": "Period",
+    "selectPeriod": "Select period",
+    "onlyPhotos": "Only photos",
+    "photo": "Photo",
+    "all": "All",
+    "noActivity": "No activity for the selected period"
   },
   "invalid_email": "Het e-mailadres is ongeldig.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "Bestellen",
     "plantOrSowDate": "Plant-/zaaidatum",
     "pleaseLabelProbe": "Label het monster!",
+    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
     "compostType": "Composttype",
     "compostAmountInTons": "Hoeveelheid in tonnen",
     "compostApplicationYear": "Uitvoeringsjaar",
@@ -80,7 +97,15 @@
     "needFastToday": "Spoed vandaag",
     "pick_up_from_laboratory": "Labmonster",
     "pleaseFollowCurrentFertilizerRegulation": "Volg de actuele mestrichtlijn.",
-    "sampleIsTakenAccordingToRegulation": "Het monster wordt genomen volgens de actuele mestrichtlijn."
+    "sampleIsTakenAccordingToRegulation": "Het monster wordt genomen volgens de actuele mestrichtlijn.",
+    "acceptedFromLab": "{{date}} - accepted by Lab",
+    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
+    "probeTaken": "{{date}} - probe taken by Lab",
+    "sortByCrop": "By Crop",
+    "sortByLatest": "By latest",
+    "latest": "Last analyses",
+    "analysisType": "Analysis type",
+    "cancelReasonLab": "Cancelled reason: {{reason}}"
   },
   "field": {
     "number": "Veldnummer",
@@ -89,6 +114,7 @@
     "sendToArchive": "Veld archiveren",
     "cultivate": "Veld bebouwen",
     "harvested_on": "Gewas geoogst op {{date}}",
+    "sown_on": "Crop sown on {{date}}",
     "delete": "Veld verwijderen",
     "moveToArchive": "Het veld wordt verplaatst naar het archief. (Boerderij -> Archief)",
     "area": "Oppervlakte",
@@ -103,7 +129,11 @@
     "createNow": "Nu veld aanmaken",
     "toArchive": "Archief",
     "field": "Veld",
-    "created": "Het veld is aangemaakt."
+    "created": "Het veld is aangemaakt.",
+    "history": "Field history",
+    "show": "Show field",
+    "dropFilesHere": "Drop files here",
+    "followingFilesAreUnsupported": "The following files are unsupported:"
   },
   "no_email_no_password_entered": "U heeft geen e-mailadres en wachtwoord ingevoerd",
   "pleaseWaitImageIsBeingUploaded": "Even geduld, de foto wordt geüpload",
@@ -119,6 +149,10 @@
     "create_first_company": "Maak uw eerste boerderij",
     "delete": "Boerderij verwijderen",
     "qs_number": "QS nummer",
+    "logo": {
+      "upload": "Select company logo",
+      "camera": "Take a new company logo"
+    },
     "doYouWantToDeleteCompany": "Wilt u deze boerderij echt verwijderen?"
   },
   "crop": {
@@ -155,7 +189,10 @@
     "select_color": "Selecteer een kleur",
     "without": "Onbebouwd",
     "cropPlanning": "Gewassenplanning",
-    "age": "Gewasleeftijd"
+    "age": "Gewasleeftijd",
+    "cropDoesntExist": "The selected crop doesn't exist.",
+    "protection": "Plant protection",
+    "activeCrops": "Active crops"
   },
   "fertilizer": {
     "fertilization": "Bemesting",
@@ -171,6 +208,7 @@
   "no_first_last_name_entered": "Voer uw voor- en achternaam in.",
   "deletePhoto": "Foto verwijderen",
   "date": "Datum",
+  "datePleaseSelect": "Please select date",
   "invoice": {
     "youDontHaveAddress": "U hebt geen factuuradres ingevoerd."
   },
@@ -190,7 +228,8 @@
     "delete": "Wachttijd verwijderen",
     "doYouReallyWantToDelete": "Wilt u de wachttijd echt verwijderen?",
     "pesticide": "Naam pesticide",
-    "waitTime": "Wachttijd"
+    "waitTime": "Wachttijd",
+    "waitTimeShort": "Wait time"
   },
   "more": "Meer",
   "position": "Positie",
@@ -200,7 +239,6 @@
     "inform": "Vrienden informeren",
     "emailMessage": "Hallo,\n\nIk heb net farmerJoe voor mijn {{phone}} gedownload.\n\nfarmerJoe is een eenvoudig te gebruiken documentatie-app voor boeren. Met de app zie je velden en gewassen op een kaart en kun je notities met een foto toevoegen. wachttijden instellen en bemestingen registreren.\n\nfarmerJoe is beschikbaar voor iPhone en Android.\n\nInstalleer het via {{url}}."
   },
-  "confrim_agb_data_security": "Door op Account aanmaken te klikken, gaat u akkoord met onze {0} en bevestigt u dat u onze {1} heeft gelezen.",
   "password": {
     "current": "Huidig ​​wachtwoord",
     "password": "Wachtwoord",
@@ -213,7 +251,8 @@
     "repeat": "Wachtwoord opnieuw",
     "updated": "Wachtwoord bijgewerkt.",
     "min6char": "Het wachtwoord moet minimaal 6 tekens lang zijn.",
-    "reset": "Reset uw wachtwoord"
+    "reset": "Reset uw wachtwoord",
+    "resetHelp": "Enter your new password below."
   },
   "noSearchResults": "Geen resultaten.",
   "login": "Aanmelden",
@@ -241,6 +280,7 @@
   "employee": "Medewerker",
   "archive": {
     "archive": "Archief",
+    "archivedFields": "Archived Fields",
     "noFieldsInArchive": "Geen velden in het archief."
   },
   "save_as_favorite": "Opslaan als favoriet",
@@ -263,12 +303,23 @@
   "invoice_address": "Factuuradres",
   "logout": "Afmelden",
   "employees": {
+    "addEmployee": "Add Employee",
+    "noAdvisors": "No farm advisors",
+    "noDeactivatedUsers": "No deactivated users",
     "plural": "Medewerkers",
+    "active": "Active",
+    "deactivated": "Deactivated",
+    "reactivate": "Reactivate user",
+    "reactivateDoYouWant": "Do you really want to reactivate the user?",
+    "advisors": "Advisors",
     "admin": "Beheerder",
     "manage": "Medewerkers beheren",
     "adminRWD": "Beheerder (lezen, schrijven, verwijderen)",
     "invitationSentOn": "Uitnodiging verzonden op {{date}}",
-    "invitrationRejectedOn": "Uitnodiging geweigerd op {{date}}"
+    "invitrationRejectedOn": "Uitnodiging geweigerd op {{date}}",
+    "getFromPhoneBook": "Search in Phonebook",
+    "choseEmail": "Choose email",
+    "employeeIsDeactivated": "Employee is deactivated"
   },
   "search": "Zoeken",
   "satellite": "Satelliet",
@@ -291,6 +342,7 @@
   "favorites": "Favorieten",
   "legal_data_security": "Juridisch en gegevensbeveiliging",
   "coordinates": "Coördinaten",
+  "deleteForAll": "Delete for all",
   "deletePermenantly": "Permanent verwijderen",
   "comment": {
     "fromField": "Opmerking bij veld: {{name}}",
@@ -309,7 +361,8 @@
   "create_account": "Nieuwe registratie",
   "map": "Kaart",
   "maps": {
-    "pressToSetPin": "Druk op de kaart om de locatiepin in te stellen."
+    "pressToSetPin": "Druk op de kaart om de locatiepin in te stellen.",
+    "clickToShowMore": "Click to show more"
   },
   "no_email_entered": "U heeft geen e-mailadres ingevoerd.",
   "camera": "Camera",
@@ -322,6 +375,7 @@
   "first_name": "Voornaam",
   "request_new_password": "Nieuw wachtwoord aanvragen",
   "register": "Account aanmaken",
+  "needAFarmerJoeAccount": "Need a farmerJoe account?",
   "phones": {
     "enterNumber": "Voer uw telefoonnummer in"
   },
@@ -332,6 +386,9 @@
   "settings": "Instellingen",
   "help": "Help",
   "position_company": "Boerderijlocatie",
+  "position_verb": "Set location",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
   "copy": "Kopiëren",
   "share": "Delen",
   "directions": "Routebeschrijving",
@@ -391,9 +448,14 @@
     }
   },
   "alerts": {
+    "openSettings": "Open Settings",
     "needLocation": {
       "title": "farmerJoe heeft uw locatie nodig",
       "description": "farmerJoe heeft momenteel geen toegang tot uw locatie."
+    },
+    "needAlwaysLocation": {
+      "title": "Location permission not granted",
+      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe kan uw locatie niet bepalen.",
@@ -406,12 +468,167 @@
     "needCameraAccess": {
       "title": "Cannot access camera",
       "description": "Please allow access to your camera if you want to take photos."
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe needs access to your contacts",
+      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe needs storage access",
+      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
     }
   },
   "filter": "Filter",
+  "acl": {
+    "view": "View",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "department": "Department",
+    "selectFields": "Select fields",
+    "CRUD": "Create, Edit, Delete",
+    "role": {
+      "restricted": "Restricted access",
+      "allrights": "All rights",
+      "type": "Account type",
+      "admin": "Admin",
+      "standard": "Worker",
+      "advisor": "Advisor"
+    },
+    "user": {
+      "delete": "Delete Employee",
+      "deactivate": "Deactivate Employee",
+      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
+      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
+      "cantDeleteYourself": "You can't delete yourself",
+      "alertFound": {
+        "title": "User already in company",
+        "message": "The user with this email is already existing in the company."
+      },
+      "alertNoFields": {
+        "title": "No fields selected",
+        "message": "You need to select at least one field for the user"
+      }
+    },
+    "users": {
+      "users": "Employees",
+      "userRight": "The user can see other Employees in the farm."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+      },
+      "forbidFieldAlert": {
+        "message": "Do you really want to forbid {{name}} access to this field?"
+      },
+      "grantFieldAlert": {
+        "message": "Do you really want to give {{name}} access to this field?"
+      },
+      "alreadyHasAccess": "Already has access to field.",
+      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+    },
+    "rights": "Rights",
+    "fields": {
+      "all": "All",
+      "selected": "Only selected",
+      "selectDesc": "Select fields which the user is able to see.",
+      "standardUserRights": "The user can't create or edit fields."
+    },
+    "crops": {
+      "all": "Planted and harvested",
+      "active": "Only planted",
+      "standardUserRights": "The user can't create or edit any crops."
+    },
+    "comments": {
+      "comments": "Comments",
+      "all": "All comments",
+      "selected": "Only own comments",
+      "standardUserRights": "The user can create and edit his own comments."
+    },
+    "fertilizing": {
+      "description": "Select below what the user is able to do with Fertilizings."
+    },
+    "waittime": {
+      "description": "Select below what the user is able to do with Wait times."
+    }
+  },
+  "near": {
+    "by": "Near by",
+    "fields": "Nearest fields",
+    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+  },
+  "registerScreen": {
+    "startNow": "Get started",
+    "helpEasySteps": "We'll help you create an account in a few easy steps.",
+    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
+    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
+    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
+    "newsletter": "Sign up for farmerJoe's newsletter",
+    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
+    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
+    "continueRegistration": "Continue sign up",
+    "next": "Next",
+    "enterEmail": "Enter your email",
+    "errorEmailExist": "Another account already users this email address.",
+    "retry": "Retry",
+    "titles": {
+      "finish": "Finish signing up",
+      "haveAnAccount": "Already have an account",
+      "join": "Join farmerJoe",
+      "password": "Create a password",
+      "whatIsYourName": "What's your name?",
+      "whatIsYourPhoneNumber": "What's your mobile number?",
+      "whatIsYourEmailAddress": "What's your email address?",
+      "creating": "Your account is being created."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
+    "sharedWithFarm": "Position is being shared with this farm.",
+    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
+    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "forX": {
+      "x_minutes": {
+        "one": "For {{count}} minute",
+        "other": "For {{count}} minutes"
+      },
+      "x_hours": {
+        "other": "For {{count}} hours",
+        "one": "For 1 hour"
+      },
+      "x_days": {
+        "other": "For {{count}} days",
+        "one": "For 1 day"
+      }
+    },
+    "untilTurnedOff": "Until you turn this off",
+    "shareNow": "Share now",
+    "turnOff": "Turn off",
+    "emailLog": "Email location log"
+  },
+  "report": {
+    "issue": "Report issue"
+  },
+  "no_company_selected": "No company selected",
+  "no_field_selected": "No field selected",
+  "invalid_phone_number": "invalid phone number",
+  "close": "close",
+  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
+  "refresh": "Refresh",
+  "remoteSupport": "Remote support request",
+  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
   "emailVerified": "Uw e-mailadres is geverifieerd",
   "resetPasswordLinkExpired": "Uw verzoek om uw wachtwoord te resetten, is verlopen of de link is al gebruikt",
   "verifyEmailLinkExpired": "Uw verzoek om uw e-mailadres te verifiëren, is verlopen of de link is al gebruikt",
   "emailChangeReverted": "Uw inlog-e-mailadres is terugveranderd naar {{email}}.",
-  "invalidActionCode": "Deze code is niet meer geldig"
+  "invalidActionCode": "Deze code is niet meer geldig",
+  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "apiKeys": {
+    "header": "API keys",
+    "generate": "Generate new key",
+    "key": "Key",
+    "enabled": "Enabled",
+    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "descriptionLink": "here"
+  }
 }

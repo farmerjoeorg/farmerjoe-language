@@ -1,9 +1,25 @@
 {
   "data_guidelines": "Pravilnik za podatke",
+  "cookie_policy": "Cookie Policy",
+  "info": "Info",
   "invites": {
     "reject": "Zavrni",
     "from": "Povabilo od osebe {{name}}",
-    "accept": "Sprejmi"
+    "accept": "Sprejmi",
+    "resend": "Resend",
+    "resendDoYouReally": "Do you really want to resend the invitation?",
+    "deleteDoYouReally": "Do you really want to delete the user from the company?",
+    "noInvites": "No invitations"
+  },
+  "latestActivities": {
+    "tabLabel": "Latest",
+    "sceneTitle": "Latest activities",
+    "period": "Period",
+    "selectPeriod": "Select period",
+    "onlyPhotos": "Only photos",
+    "photo": "Photo",
+    "all": "All",
+    "noActivity": "No activity for the selected period"
   },
   "invalid_email": "E-poštni naslov ni veljaven.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "Naroči",
     "plantOrSowDate": "Datum sajenja/žetve",
     "pleaseLabelProbe": "Označite vzorec!",
+    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
     "compostType": "Vrsta komposta",
     "compostAmountInTons": "Količina v tonah",
     "compostApplicationYear": "Leto uporabe",
@@ -80,7 +97,15 @@
     "needFastToday": "Hitro danes",
     "pick_up_from_laboratory": "Lab. vzorec",
     "pleaseFollowCurrentFertilizerRegulation": "Upoštevajte aktualno direktivo o gnojilih.",
-    "sampleIsTakenAccordingToRegulation": "Vzorec bo odvzet glede na zahteve aktualne direktive o gnojilih."
+    "sampleIsTakenAccordingToRegulation": "Vzorec bo odvzet glede na zahteve aktualne direktive o gnojilih.",
+    "acceptedFromLab": "{{date}} - accepted by Lab",
+    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
+    "probeTaken": "{{date}} - probe taken by Lab",
+    "sortByCrop": "By Crop",
+    "sortByLatest": "By latest",
+    "latest": "Last analyses",
+    "analysisType": "Analysis type",
+    "cancelReasonLab": "Cancelled reason: {{reason}}"
   },
   "field": {
     "number": "Številka polja",
@@ -89,6 +114,7 @@
     "sendToArchive": "Arhiviranje polja",
     "cultivate": "Obdelovanje polja",
     "harvested_on": "Žetev opravljena {{date}}",
+    "sown_on": "Crop sown on {{date}}",
     "delete": "Izbriši polje",
     "moveToArchive": "Polje bo premaknjeno v arhiv. (Polje -> Arhiv)",
     "area": "Območje",
@@ -103,7 +129,11 @@
     "createNow": "Ustvari polje zdaj",
     "toArchive": "Arhiv",
     "field": "Polje",
-    "created": "Polje je bilo ustvarjeno."
+    "created": "Polje je bilo ustvarjeno.",
+    "history": "Field history",
+    "show": "Show field",
+    "dropFilesHere": "Drop files here",
+    "followingFilesAreUnsupported": "The following files are unsupported:"
   },
   "no_email_no_password_entered": "Niste vnesli e-pošte in gesla",
   "pleaseWaitImageIsBeingUploaded": "Poteka nalaganja slike",
@@ -119,6 +149,10 @@
     "create_first_company": "Ustvarite svojo prvo farmo",
     "delete": "Izbriši farmo",
     "qs_number": "Številka QS",
+    "logo": {
+      "upload": "Select company logo",
+      "camera": "Take a new company logo"
+    },
     "doYouWantToDeleteCompany": "Res želite izbrisati to farmo?"
   },
   "crop": {
@@ -155,7 +189,10 @@
     "select_color": "Izberite barvo",
     "without": "Brez poljščin",
     "cropPlanning": "Načrtovanje setve",
-    "age": "Starost poljščine"
+    "age": "Starost poljščine",
+    "cropDoesntExist": "The selected crop doesn't exist.",
+    "protection": "Plant protection",
+    "activeCrops": "Active crops"
   },
   "fertilizer": {
     "fertilization": "Gnojenje",
@@ -171,6 +208,7 @@
   "no_first_last_name_entered": "Vnesite svoje ime in priimek.",
   "deletePhoto": "Izbriši sliko",
   "date": "Datum",
+  "datePleaseSelect": "Please select date",
   "invoice": {
     "youDontHaveAddress": "Niste vnesli naslova za izstavitev računa."
   },
@@ -190,7 +228,8 @@
     "delete": "Brisanje čakalnega časa",
     "doYouReallyWantToDelete": "Res želite izbrisati čakalni čas?",
     "pesticide": "Ime pesticida",
-    "waitTime": "Čakalna doba"
+    "waitTime": "Čakalna doba",
+    "waitTimeShort": "Wait time"
   },
   "more": "Več",
   "position": "Lokacija",
@@ -200,7 +239,6 @@
     "inform": "Pošlji prijateljem",
     "emailMessage": "Zdravo,\n\npravkar sem namestil(-a) aplikacijo farmerJoe za {{phone}}.\n\nAplikacija farmerJoe je namenjena beleženja za kmetovalce in je preprosta za uporabo. Z aplikacijo si lahko ogledaš polja na zemljevidu, dodajaš opombe in slike. Prav tako lahko nastavljaš čakalne čase in beležiš gnojila.\n\nAplikacija farmerJoe je na voljo za telefone iPhone in Android.\n\nPrenesi aplikacijo z naslova {{url}}."
   },
-  "confrim_agb_data_security": "S klikom »Ustvari račun « sprejemate naše {0} in potrjujete, da ste prebrali {1}.",
   "password": {
     "current": "Trenutno geslo",
     "password": "Geslo",
@@ -213,7 +251,8 @@
     "repeat": "Ponovite geslo",
     "updated": "Geslo posodobljeno.",
     "min6char": "Geslo mora biti dolgo najmanj 6 znakov.",
-    "reset": "Ponastavitev gesla"
+    "reset": "Ponastavitev gesla",
+    "resetHelp": "Enter your new password below."
   },
   "noSearchResults": "Ni rezultatov.",
   "login": "Prijava",
@@ -241,6 +280,7 @@
   "employee": "Uslužbenec",
   "archive": {
     "archive": "Arhiv",
+    "archivedFields": "Archived Fields",
     "noFieldsInArchive": "Ni arhiviranih polj."
   },
   "save_as_favorite": "Shrani kot priljubljeno",
@@ -263,12 +303,23 @@
   "invoice_address": "Naslov za izstavitev računa",
   "logout": "Odjava",
   "employees": {
+    "addEmployee": "Add Employee",
+    "noAdvisors": "No farm advisors",
+    "noDeactivatedUsers": "No deactivated users",
     "plural": "Zaposleni",
+    "active": "Active",
+    "deactivated": "Deactivated",
+    "reactivate": "Reactivate user",
+    "reactivateDoYouWant": "Do you really want to reactivate the user?",
+    "advisors": "Advisors",
     "admin": "Skrbnik",
     "manage": "Upravljanje uporabnikov",
     "adminRWD": "Skrbnik (branje, pisanje, brisanje)",
     "invitationSentOn": "Povabilo poslano dne {{date}}",
-    "invitrationRejectedOn": "Povabilo zavrnjeno dne {{date}}"
+    "invitrationRejectedOn": "Povabilo zavrnjeno dne {{date}}",
+    "getFromPhoneBook": "Search in Phonebook",
+    "choseEmail": "Choose email",
+    "employeeIsDeactivated": "Employee is deactivated"
   },
   "search": "Iskanje",
   "satellite": "Satelit",
@@ -291,6 +342,7 @@
   "favorites": "Priljubljene",
   "legal_data_security": "Pravne informacije in varnost podatkov",
   "coordinates": "Koordinate",
+  "deleteForAll": "Delete for all",
   "deletePermenantly": "Trajno izbriši",
   "comment": {
     "fromField": "Opombe za polje: {{name}}",
@@ -309,7 +361,8 @@
   "create_account": "Nova registracija",
   "map": "Zemljividi",
   "maps": {
-    "pressToSetPin": "Dotaknite se zemljevida, da nastavite lokacijo."
+    "pressToSetPin": "Dotaknite se zemljevida, da nastavite lokacijo.",
+    "clickToShowMore": "Click to show more"
   },
   "no_email_entered": "Niste vnesli e-poštnega naslova.",
   "camera": "Fotoaparat",
@@ -322,6 +375,7 @@
   "first_name": "Ime",
   "request_new_password": "Zahteva za novo geslo",
   "register": "Ustvari račun",
+  "needAFarmerJoeAccount": "Need a farmerJoe account?",
   "phones": {
     "enterNumber": "Vnesite svojo telefonsko številko"
   },
@@ -332,6 +386,9 @@
   "settings": "Nastavitve",
   "help": "Pomoč",
   "position_company": "Lokacije farme",
+  "position_verb": "Set location",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
   "copy": "Kopiraj",
   "share": "Sk. raba",
   "directions": "Napotki za pot",
@@ -391,9 +448,14 @@
     }
   },
   "alerts": {
+    "openSettings": "Open Settings",
     "needLocation": {
       "title": "Aplikacija farmerJoe potrebuje dostop do vaše lokacije",
       "description": "Aplikacija farmerJoe nima dostopa do vaše trenutne lokacije."
+    },
+    "needAlwaysLocation": {
+      "title": "Location permission not granted",
+      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
     },
     "cantDetermineLocation": {
       "title": "Aplikacija farmerJoe ne najde vaše trenutne lokacije.",
@@ -406,12 +468,167 @@
     "needCameraAccess": {
       "title": "Cannot access camera",
       "description": "Please allow access to your camera if you want to take photos."
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe needs access to your contacts",
+      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe needs storage access",
+      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
     }
   },
   "filter": "Filter",
+  "acl": {
+    "view": "View",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "department": "Department",
+    "selectFields": "Select fields",
+    "CRUD": "Create, Edit, Delete",
+    "role": {
+      "restricted": "Restricted access",
+      "allrights": "All rights",
+      "type": "Account type",
+      "admin": "Admin",
+      "standard": "Worker",
+      "advisor": "Advisor"
+    },
+    "user": {
+      "delete": "Delete Employee",
+      "deactivate": "Deactivate Employee",
+      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
+      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
+      "cantDeleteYourself": "You can't delete yourself",
+      "alertFound": {
+        "title": "User already in company",
+        "message": "The user with this email is already existing in the company."
+      },
+      "alertNoFields": {
+        "title": "No fields selected",
+        "message": "You need to select at least one field for the user"
+      }
+    },
+    "users": {
+      "users": "Employees",
+      "userRight": "The user can see other Employees in the farm."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+      },
+      "forbidFieldAlert": {
+        "message": "Do you really want to forbid {{name}} access to this field?"
+      },
+      "grantFieldAlert": {
+        "message": "Do you really want to give {{name}} access to this field?"
+      },
+      "alreadyHasAccess": "Already has access to field.",
+      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+    },
+    "rights": "Rights",
+    "fields": {
+      "all": "All",
+      "selected": "Only selected",
+      "selectDesc": "Select fields which the user is able to see.",
+      "standardUserRights": "The user can't create or edit fields."
+    },
+    "crops": {
+      "all": "Planted and harvested",
+      "active": "Only planted",
+      "standardUserRights": "The user can't create or edit any crops."
+    },
+    "comments": {
+      "comments": "Comments",
+      "all": "All comments",
+      "selected": "Only own comments",
+      "standardUserRights": "The user can create and edit his own comments."
+    },
+    "fertilizing": {
+      "description": "Select below what the user is able to do with Fertilizings."
+    },
+    "waittime": {
+      "description": "Select below what the user is able to do with Wait times."
+    }
+  },
+  "near": {
+    "by": "Near by",
+    "fields": "Nearest fields",
+    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+  },
+  "registerScreen": {
+    "startNow": "Get started",
+    "helpEasySteps": "We'll help you create an account in a few easy steps.",
+    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
+    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
+    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
+    "newsletter": "Sign up for farmerJoe's newsletter",
+    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
+    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
+    "continueRegistration": "Continue sign up",
+    "next": "Next",
+    "enterEmail": "Enter your email",
+    "errorEmailExist": "Another account already users this email address.",
+    "retry": "Retry",
+    "titles": {
+      "finish": "Finish signing up",
+      "haveAnAccount": "Already have an account",
+      "join": "Join farmerJoe",
+      "password": "Create a password",
+      "whatIsYourName": "What's your name?",
+      "whatIsYourPhoneNumber": "What's your mobile number?",
+      "whatIsYourEmailAddress": "What's your email address?",
+      "creating": "Your account is being created."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
+    "sharedWithFarm": "Position is being shared with this farm.",
+    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
+    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "forX": {
+      "x_minutes": {
+        "one": "For {{count}} minute",
+        "other": "For {{count}} minutes"
+      },
+      "x_hours": {
+        "other": "For {{count}} hours",
+        "one": "For 1 hour"
+      },
+      "x_days": {
+        "other": "For {{count}} days",
+        "one": "For 1 day"
+      }
+    },
+    "untilTurnedOff": "Until you turn this off",
+    "shareNow": "Share now",
+    "turnOff": "Turn off",
+    "emailLog": "Email location log"
+  },
+  "report": {
+    "issue": "Report issue"
+  },
+  "no_company_selected": "No company selected",
+  "no_field_selected": "No field selected",
+  "invalid_phone_number": "invalid phone number",
+  "close": "close",
+  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
+  "refresh": "Refresh",
+  "remoteSupport": "Remote support request",
+  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
   "emailVerified": "E-poštni naslov je bil preverjen",
   "resetPasswordLinkExpired": "Vaša zahteva za ponastavitev gesla je potekla ali pa je bila povezava že uporabljena",
   "verifyEmailLinkExpired": "Vaša zahteva za preverjanje e-poštnega naslova je potekla ali pa je bila povezava že uporabljena",
   "emailChangeReverted": "Vaš e-poštni naslov za prijavo je bil spremenjen nazaj v {{email}}.",
-  "invalidActionCode": "Ta koda ni več veljavna"
+  "invalidActionCode": "Ta koda ni več veljavna",
+  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "apiKeys": {
+    "header": "API keys",
+    "generate": "Generate new key",
+    "key": "Key",
+    "enabled": "Enabled",
+    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "descriptionLink": "here"
+  }
 }
