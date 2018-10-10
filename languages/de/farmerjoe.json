@@ -633,6 +633,7 @@
     "name": "Name",
     "ipFiltering": "IP-Filterung",
     "ipFilter": "Erlaubte IP-Adressen",
-    "ipFilterHelp": "Eine kommagetrennte Liste von IP-Adressen und IP-Adresse Bereichen. Zum Beispiel: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
+    "ipFilterHelp": "Eine kommagetrennte Liste von IP-Adressen und IP-Adresse Bereichen. Zum Beispiel: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "keine API-Schlüssel"
   }
 }
