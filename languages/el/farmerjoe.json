@@ -565,11 +565,11 @@
     "weUseEmail": "Θα χρησιμοποιείτε αυτή τη διεύθυνση email όταν συνδέεστε και εάν ποτέ χρειαστεί να επαναφέρετε τον κωδικό σας πρόσβασης. Οι άλλοι χρήστες farmerJoe θα μπορούν να σας προσκαλέσουν στα αγροκτήματά τους με αυτή τη διεύθυνση email.",
     "newsletter": "Εγγραφείτε στο ενημερωτικό δελτίου του farmerjoe",
     "passwordHelp": "Εισάγετε ένα συνδυασμό από τουλάχιστον έξι αριθμούς, γράμματα και ειδικά σύμβολα (όπως ! και &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
+    "confrim_agb_data_security": "Πατώντας \"Δημιουργία λογαριασμού\", συμφωνείτε με τους {0}. Μάθετε πως συλλέγουμε και χρησιμοποιούμε τα δεδομένα σας στην {1}, και πως χρησιμοποιούμε cookies και παρόμοια τεχνολογία στην {2}.",
     "continueRegistration": "Συνέχεια με την εγγραφή",
     "next": "Επόμενο",
     "enterEmail": "Εισάγετε το email σας",
-    "errorEmailExist": "Another account already users this email address.",
+    "errorEmailExist": "Ένας άλλος λογαριασμός χρησιμοποιεί ήδη αυτή τη διεύθυνση email.",
     "retry": "Επανάληψη",
     "titles": {
       "finish": "Ολοκληρώστε την εγγραφή",
@@ -629,6 +629,10 @@
     "key": "Key",
     "enabled": "Enabled",
     "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "descriptionLink": "here",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

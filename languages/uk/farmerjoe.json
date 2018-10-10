@@ -1,34 +1,34 @@
 {
   "data_guidelines": "політику даних",
-  "cookie_policy": "Cookie Policy",
-  "info": "Info",
+  "cookie_policy": "Політика Конфіденційності",
+  "info": "Інформація",
   "invites": {
     "reject": "Відхилити",
     "from": "Запрошення від {{name}}",
     "accept": "Прийняти",
-    "resend": "Resend",
-    "resendDoYouReally": "Do you really want to resend the invitation?",
-    "deleteDoYouReally": "Do you really want to delete the user from the company?",
-    "noInvites": "No invitations"
+    "resend": "Надіслати повторно",
+    "resendDoYouReally": "Ви дійсно хочете повторно надіслати запрошення?",
+    "deleteDoYouReally": "Ви дійсно хочете видалити користувача з компанії?",
+    "noInvites": "Немає запрошень"
   },
   "latestActivities": {
-    "tabLabel": "Latest",
-    "sceneTitle": "Latest activities",
-    "period": "Period",
-    "selectPeriod": "Select period",
-    "onlyPhotos": "Only photos",
-    "photo": "Photo",
-    "all": "All",
-    "noActivity": "No activity for the selected period"
+    "tabLabel": "Останні",
+    "sceneTitle": "Нещодавні події",
+    "period": "Період",
+    "selectPeriod": "Обрати період",
+    "onlyPhotos": "Лише фото",
+    "photo": "Фото",
+    "all": "Всі",
+    "noActivity": "Немає дій за обраний період"
   },
   "invalid_email": "Адреса електронної пошти недійсна.",
   "analysis": {
     "cancelAnalysis": "Скасувати аналіз",
     "residue": "залишок",
     "order": "замовлення",
-    "plantOrSowDate": "Посів/показати дату",
+    "plantOrSowDate": "Дата посіву",
     "pleaseLabelProbe": "Будь ласка, підпишіть зразок!",
-    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Будь ласка, не забудьте позначити зразок!",
     "compostType": "Тип компосту",
     "compostAmountInTons": "Кількість в тоннах",
     "compostApplicationYear": "Рік застосування",
@@ -98,14 +98,14 @@
     "pick_up_from_laboratory": "Зразок лабораторії",
     "pleaseFollowCurrentFertilizerRegulation": "Будь ласка, дотримуйтесь поточних рекомендацій що до добрива.",
     "sampleIsTakenAccordingToRegulation": "Зразок буде взято згідно поточних рекомендацій.",
-    "acceptedFromLab": "{{date}} - accepted by Lab",
-    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
-    "probeTaken": "{{date}} - probe taken by Lab",
-    "sortByCrop": "By Crop",
-    "sortByLatest": "By latest",
-    "latest": "Last analyses",
-    "analysisType": "Analysis type",
-    "cancelReasonLab": "Cancelled reason: {{reason}}"
+    "acceptedFromLab": "{{date}} - прийнято Лабораторією",
+    "acceptedFromLabAndCantBeCancelled": "Аналіз був прийнятим Лабораторією та не більше не може бути скасованим.",
+    "probeTaken": "{{date}} - зразок, прийнятий Лабораторією",
+    "sortByCrop": "По засіванню",
+    "sortByLatest": "Останні",
+    "latest": "Останні аналізи",
+    "analysisType": "Тип аналізу",
+    "cancelReasonLab": "Скасована причина: {{reason}}"
   },
   "field": {
     "number": "номер поля",
@@ -114,7 +114,7 @@
     "sendToArchive": "Архівувати поле",
     "cultivate": "Культивувати поле",
     "harvested_on": "Урожай зібрано {{date}}",
-    "sown_on": "Crop sown on {{date}}",
+    "sown_on": "Посів культур {{date}}",
     "delete": "Видалити поле",
     "moveToArchive": "Поле переноситься в архів. (Ферма -> Архів)",
     "area": "Площа",
@@ -130,10 +130,10 @@
     "toArchive": "Архів",
     "field": "поле",
     "created": "Поле створено.",
-    "history": "Field history",
-    "show": "Show field",
-    "dropFilesHere": "Drop files here",
-    "followingFilesAreUnsupported": "The following files are unsupported:"
+    "history": "Історія поля",
+    "show": "Показати поле",
+    "dropFilesHere": "Перетягнути файли сюди",
+    "followingFilesAreUnsupported": "Наступні файли не підтримуються:"
   },
   "no_email_no_password_entered": "Ви не ввели електронну пошту та пароль",
   "pleaseWaitImageIsBeingUploaded": "Будь ласка, зачекайте, зображення завантажується",
@@ -150,8 +150,8 @@
     "delete": "Видалити ферму",
     "qs_number": "Номер QS",
     "logo": {
-      "upload": "Select company logo",
-      "camera": "Take a new company logo"
+      "upload": "Оберіть логотип компанії",
+      "camera": "Обрати новий логотип компанії"
     },
     "doYouWantToDeleteCompany": "Ви дійсно хочете видалити цю операцію?"
   },
@@ -190,9 +190,9 @@
     "without": "Не оброблено",
     "cropPlanning": "Планування культур",
     "age": "Вік рослин",
-    "cropDoesntExist": "The selected crop doesn't exist.",
-    "protection": "Plant protection",
-    "activeCrops": "Active crops"
+    "cropDoesntExist": "Обраного посіву не існує.",
+    "protection": "Захист рослин",
+    "activeCrops": "Активні посіви"
   },
   "fertilizer": {
     "fertilization": "Удобрення",
@@ -208,7 +208,7 @@
   "no_first_last_name_entered": "Будь ласка, введіть своє ім'я та прізвище.",
   "deletePhoto": "Видалити зображення",
   "date": "дата",
-  "datePleaseSelect": "Please select date",
+  "datePleaseSelect": "Будь ласка, оберіть дату",
   "invoice": {
     "youDontHaveAddress": "Ви не ввели платіжну адресу."
   },
@@ -229,7 +229,7 @@
     "doYouReallyWantToDelete": "Ви дійсно хочете видалити час очікування?",
     "pesticide": "Назва пестициду",
     "waitTime": "період очікування",
-    "waitTimeShort": "Wait time"
+    "waitTimeShort": "Час очікування"
   },
   "more": "більше",
   "position": "Місцезнаходження",
@@ -252,7 +252,7 @@
     "updated": "Пароль оновлено.",
     "min6char": "Пароль має містити не менш 6 символів.",
     "reset": "Скиньте пароль",
-    "resetHelp": "Enter your new password below."
+    "resetHelp": "Введіть ваш новий пароль нижче."
   },
   "noSearchResults": "Результатів немає.",
   "login": "Ввійти",
@@ -280,7 +280,7 @@
   "employee": "Співробітник",
   "archive": {
     "archive": "Архів",
-    "archivedFields": "Archived Fields",
+    "archivedFields": "Заархівовані Поля",
     "noFieldsInArchive": "В архіві немає полів."
   },
   "save_as_favorite": "Зберегти як вибране",
@@ -303,23 +303,23 @@
   "invoice_address": "платіжний адреса",
   "logout": "Вихід ",
   "employees": {
-    "addEmployee": "Add Employee",
-    "noAdvisors": "No farm advisors",
-    "noDeactivatedUsers": "No deactivated users",
+    "addEmployee": "Додати Працівника",
+    "noAdvisors": "Немає радників ферми",
+    "noDeactivatedUsers": "Немає деактивованих користувачів",
     "plural": "Співробітники",
-    "active": "Active",
-    "deactivated": "Deactivated",
-    "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
-    "advisors": "Advisors",
+    "active": "Активні",
+    "deactivated": "Деактивовані",
+    "reactivate": "Повторна активація користувача",
+    "reactivateDoYouWant": "Ви дійсно хочете повторно активувати користувача?",
+    "advisors": "Радники",
     "admin": "адміністратор",
     "manage": "Управління співробітниками",
     "adminRWD": "Адміністратор (читати, записувати, видаляти)",
     "invitationSentOn": "Запрошення, надіслано {{date}}",
     "invitrationRejectedOn": "Запит відхилено {{date}}",
-    "getFromPhoneBook": "Search in Phonebook",
-    "choseEmail": "Choose email",
-    "employeeIsDeactivated": "Employee is deactivated"
+    "getFromPhoneBook": "Пошук в Телефонній книзі",
+    "choseEmail": "Вибрати електронну адресу",
+    "employeeIsDeactivated": "Працівник деактивований"
   },
   "search": "Пошук",
   "satellite": "Супутник",
@@ -342,7 +342,7 @@
   "favorites": "обране",
   "legal_data_security": "Захист прав та даних",
   "coordinates": "Координати",
-  "deleteForAll": "Delete for all",
+  "deleteForAll": "Видалити назавжди",
   "deletePermenantly": "Видалити назавжди",
   "comment": {
     "fromField": "Коментарі для поля: {{name}}",
@@ -362,7 +362,7 @@
   "map": "Карти",
   "maps": {
     "pressToSetPin": "Натисніть на карту, щоб встановити маркер.",
-    "clickToShowMore": "Click to show more"
+    "clickToShowMore": "Натисніть, щоб показати більше"
   },
   "no_email_entered": "Ви не ввели електрону адресу.",
   "camera": "камера",
@@ -375,7 +375,7 @@
   "first_name": "Ім'я",
   "request_new_password": "Запит нового пароля",
   "register": "Створити обліковий запис",
-  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "needAFarmerJoeAccount": "Потрібен обліковий запис farmerJoe?",
   "phones": {
     "enterNumber": "Введіть свій номер телефону"
   },
@@ -386,9 +386,9 @@
   "settings": "Налаштування",
   "help": "Допомога",
   "position_company": "Місцезнаходження ферми",
-  "position_verb": "Set location",
-  "latitude": "Latitude",
-  "longitude": "Longitude",
+  "position_verb": "Встановити місцезнаходження",
+  "latitude": "Широта",
+  "longitude": "Довгота",
   "copy": "Копіювати",
   "share": "Поділитися",
   "directions": "Напрямки",
@@ -448,187 +448,191 @@
     }
   },
   "alerts": {
-    "openSettings": "Open Settings",
+    "openSettings": "Відкрийте налаштування",
     "needLocation": {
       "title": "farmerJoe потребує Ваше місцезнаходження",
       "description": "farmerJoe в даний час не дозволено отримати доступ до Вашого місцезнаходження."
     },
     "needAlwaysLocation": {
-      "title": "Location permission not granted",
-      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+      "title": "Дозвіл місцезнаходження не надано",
+      "description": "Щоб показувати ваше поточне місцезнаходження, farmerJoe має завжди мати доступ до нього. Якщо ви не надасте доступ, ви не зможете використовувати цю функцію."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe не може визначити Ваше місцезнаходження.",
       "description": "Будь ласка, увімкніть GPS Вашого телефона."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Неможливо отримати доступ до зображення",
+      "description": "Будь ласка, надайте доступ, якщо ви бажаєте мати можливість обирати зображення."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Неможливо отримати доступ до камери",
+      "description": "Будь ласка, надайте доступ до вашої камери, якщо ви бажаєте фотографувати."
     },
     "needContactsAccess": {
-      "title": "farmerJoe needs access to your contacts",
-      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+      "title": "farmerJoe потребує доступ до ваших контактів",
+      "description": "Якщо ви бажаєте запросити користувача з телефонної книги, будь ласка, надайте FarmerJoe доступ до контактів."
     },
     "sketchNeedsStorage": {
-      "title": "farmerJoe needs storage access",
-      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
+      "title": "farmerJoe потребує доступ до файлів",
+      "description": "Щоб ми могли керувати зображенням, нам потрібен доступ до ваших файлів. Без вашого дозволу, ви не зможете опублікувати зображення."
     }
   },
   "filter": "Фільтр",
   "acl": {
-    "view": "View",
-    "create": "Create",
-    "edit": "Edit",
-    "delete": "Delete",
-    "department": "Department",
-    "selectFields": "Select fields",
-    "CRUD": "Create, Edit, Delete",
+    "view": "Переглянути",
+    "create": "Створити",
+    "edit": "Редагувати",
+    "delete": "Видалити",
+    "department": "Відділення",
+    "selectFields": "Обрати поля",
+    "CRUD": "Створити, Редагувати, Видалити",
     "role": {
-      "restricted": "Restricted access",
-      "allrights": "All rights",
-      "type": "Account type",
-      "admin": "Admin",
-      "standard": "Worker",
-      "advisor": "Advisor"
+      "restricted": "Обмежений доступ",
+      "allrights": "Всі права",
+      "type": "Тип облікового запису",
+      "admin": "Адмін",
+      "standard": "Працівник",
+      "advisor": "Радник"
     },
     "user": {
-      "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
-      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
-      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
-      "cantDeleteYourself": "You can't delete yourself",
+      "delete": "Видалити працівника",
+      "deactivate": "Деактивувати працівника",
+      "doYouWantToDeactivateUser": "Ви бажаєте деактивувати цього працівника?",
+      "doYouWantToDeleteUser": "Ви дійсно хочете видалити цього працівника?",
+      "cantDeleteYourself": "Ви не можете видалити себе",
       "alertFound": {
-        "title": "User already in company",
-        "message": "The user with this email is already existing in the company."
+        "title": "Користувач уже в компанії",
+        "message": "Користувач з цією електронною адресою вже існує в компанії."
       },
       "alertNoFields": {
-        "title": "No fields selected",
-        "message": "You need to select at least one field for the user"
+        "title": "Немає обраних полів",
+        "message": "Вам потрібно обрати щонайменше одне поле для користувача"
       }
     },
     "users": {
-      "users": "Employees",
-      "userRight": "The user can see other Employees in the farm."
+      "users": "Працівники",
+      "userRight": "Користувач може бачити інших працівників у фермі."
     },
     "access": {
       "fieldAdminAlert": {
-        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+        "message": "Цей користувач є Адміністратором і має доступ до всіх полів у компанії. Якщо ви бажаєте заборонити йому доступ до цього поля & інших полів, вам потрібно зробити його простим користувачем."
       },
       "forbidFieldAlert": {
-        "message": "Do you really want to forbid {{name}} access to this field?"
+        "message": "Ви дійсно бажаєте заборонити {{name}} доступ до цього поля?"
       },
       "grantFieldAlert": {
-        "message": "Do you really want to give {{name}} access to this field?"
+        "message": "Ви дійсно бажаєте надати {{name}} доступ до цього поля?"
       },
-      "alreadyHasAccess": "Already has access to field.",
-      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+      "alreadyHasAccess": "Вже має доступ до поля.",
+      "accessOnceInvitationAccepted": "Матиме доступ як тільки користувач прийме запрошення."
     },
-    "rights": "Rights",
+    "rights": "Права",
     "fields": {
-      "all": "All",
-      "selected": "Only selected",
-      "selectDesc": "Select fields which the user is able to see.",
-      "standardUserRights": "The user can't create or edit fields."
+      "all": "Всі",
+      "selected": "Тільки обрані",
+      "selectDesc": "Виберіть поля, який користувач може бачити.",
+      "standardUserRights": "Користувач не може створювати або редагувати поля."
     },
     "crops": {
-      "all": "Planted and harvested",
-      "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "all": "Посаджено і зібрано",
+      "active": "Лише посаджені",
+      "standardUserRights": "Користувач не може створювати або редагувати посіви."
     },
     "comments": {
-      "comments": "Comments",
-      "all": "All comments",
-      "selected": "Only own comments",
-      "standardUserRights": "The user can create and edit his own comments."
+      "comments": "Коментарі",
+      "all": "Всі коментарі",
+      "selected": "Лише власні коментарі",
+      "standardUserRights": "Користувач може додавати і редагувати власні коментарі."
     },
     "fertilizing": {
-      "description": "Select below what the user is able to do with Fertilizings."
+      "description": "Виберіть нижче, що користувач може робити з Добривами."
     },
     "waittime": {
-      "description": "Select below what the user is able to do with Wait times."
+      "description": "Виберіть нижче, що користувач може робити з Часом очікування."
     }
   },
   "near": {
-    "by": "Near by",
-    "fields": "Nearest fields",
-    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+    "by": "Поруч з",
+    "fields": "Найближчі поля",
+    "cantSortNoLocation": "Ми не можна сортувати поля від найближчого до вас, тому що ви ще не надали нам доступ до вашого місцезнаходження."
   },
   "registerScreen": {
-    "startNow": "Get started",
-    "helpEasySteps": "We'll help you create an account in a few easy steps.",
-    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
-    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
-    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
-    "newsletter": "Sign up for farmerJoe's newsletter",
-    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
-    "continueRegistration": "Continue sign up",
-    "next": "Next",
-    "enterEmail": "Enter your email",
-    "errorEmailExist": "Another account already users this email address.",
-    "retry": "Retry",
+    "startNow": "Почати",
+    "helpEasySteps": "Ми допоможемо вам створити обліковий запис в кілька простих кроків.",
+    "useRealName": "Використання свого справжнього імені полегшує визначення вас колегами у ваших фермах.",
+    "weUsePhone": "Число буде показано колегам у ваших Фермах, і вони зможуть просто подзвонити вам.",
+    "weUseEmail": "Ви будете використовувати цю електронну адресу для входження в систему, і якщо вам коли-небудь знадобиться відновити пароль. Інші користувачі farmerJoe будуть мати можливість запросити вас до їхніх Ферм використовуючи цю електронну адресу.",
+    "newsletter": "Підписатися на останні новини від farmerJoe",
+    "passwordHelp": "Введіть комбінацію з щонайменше шести цифр, літер та розділових знаків (таких як ! та &)",
+    "confrim_agb_data_security": "Натиснувши \"Створити Обліковий Запис\", ви погоджуєтесь з нашими {0}. Дізнайтесь, як ми збираємо та використовуємо ваші дані в нашому {1}, і як ми використовуємо кікі-файли та схожі технології в нашому {2}.",
+    "continueRegistration": "Продовжити створення облікового запису",
+    "next": "Далі",
+    "enterEmail": "Введіть вашу електронну адресу",
+    "errorEmailExist": "Інший обліковий запис вже використовує цю електронну адресу.",
+    "retry": "Спробувати знову",
     "titles": {
-      "finish": "Finish signing up",
-      "haveAnAccount": "Already have an account",
-      "join": "Join farmerJoe",
-      "password": "Create a password",
-      "whatIsYourName": "What's your name?",
-      "whatIsYourPhoneNumber": "What's your mobile number?",
-      "whatIsYourEmailAddress": "What's your email address?",
-      "creating": "Your account is being created."
+      "finish": "Завершити створення облікового запису",
+      "haveAnAccount": "Вже є обліковий запис",
+      "join": "Приєднатися до farmerJoe",
+      "password": "Створити пароль",
+      "whatIsYourName": "Ваше ім'я",
+      "whatIsYourPhoneNumber": "Ваш номер мобільного телефону",
+      "whatIsYourEmailAddress": "Ваша електронна адреса",
+      "creating": "Ми створюємо ваш обліковий запис."
     }
   },
   "location": {
-    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
-    "sharedWithFarm": "Position is being shared with this farm.",
-    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
-    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "farmCanSeeYourLocation": "Кожен в фермі може бачити ваше місцезнаходження",
+    "sharedWithFarm": "Ділимося вашим місцезнаходженням з цією фермою.",
+    "letColleaguesSeeYourLocationLabel": "Нехай колеги знають, де ви",
+    "letColleaguesSeeYourLocationDesc": "Повідомте ваше поточне місцезнаходження з колегами на цій Фермі.",
     "forX": {
       "x_minutes": {
-        "one": "For {{count}} minute",
-        "other": "For {{count}} minutes"
+        "one": "{{count}} хвилину",
+        "other": "{{count}} хвилин"
       },
       "x_hours": {
-        "other": "For {{count}} hours",
-        "one": "For 1 hour"
+        "other": "{{count}} годин",
+        "one": "Одну годину"
       },
       "x_days": {
-        "other": "For {{count}} days",
-        "one": "For 1 day"
+        "other": "{{count}} днів",
+        "one": "1 день"
       }
     },
-    "untilTurnedOff": "Until you turn this off",
-    "shareNow": "Share now",
-    "turnOff": "Turn off",
-    "emailLog": "Email location log"
+    "untilTurnedOff": "Поки ви не вимкнете це",
+    "shareNow": "Поділитись зараз",
+    "turnOff": "Вимкнути",
+    "emailLog": "Надіслати журнал зареєстрованих локацій на електронну адресу"
   },
   "report": {
-    "issue": "Report issue"
+    "issue": "Поскаржитись на проблему"
   },
-  "no_company_selected": "No company selected",
-  "no_field_selected": "No field selected",
-  "invalid_phone_number": "invalid phone number",
-  "close": "close",
-  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
-  "refresh": "Refresh",
-  "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "no_company_selected": "Немає обраних компанії",
+  "no_field_selected": "Немає вибраного поля",
+  "invalid_phone_number": "невірний номер телефону",
+  "close": "закрити",
+  "errorMessage": "Ой, це не повинно було статись. Ми вже повідомили команду розробників про це.",
+  "refresh": "Оновити",
+  "remoteSupport": "Запит на віддалену підтримку",
+  "screenTooSmall": "Ваш екран занадто малий. Натомість скористуйтесь нашим додатком для iOS та Android.",
   "emailVerified": "Вашу електронну адресу підтверджено",
   "resetPasswordLinkExpired": "Ваш запит на скидання пароля вже не дійсний або посиланням уже скористалися",
   "verifyEmailLinkExpired": "Ваш запит на підтвердження електронної адреси вже не дійсний або посиланням уже скористалися",
   "emailChangeReverted": "Електронну адресу для входу змінено на {{email}}.",
   "invalidActionCode": "Цей код уже не дійсний",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "farmerJoe не підтримує Internet Explorer. Будь ласка, використовуйте сучасний та підтримуваний браузер, такий як Firefox, Chrome, Edge, Opera чи Safari.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "header": "API ключі",
+    "generate": "Згенерувати новий ключ",
+    "key": "Ключ",
+    "enabled": "Дозволено",
+    "description": "API ключі дозволяють вам інтегрувати farmerJoe в інші програми. Ви можете знайти документацію {0}.",
+    "descriptionLink": "тут",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

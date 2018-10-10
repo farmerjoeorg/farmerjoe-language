@@ -1,25 +1,25 @@
 {
   "data_guidelines": "Politica de date",
-  "cookie_policy": "Cookie Policy",
+  "cookie_policy": "Politica modulelor cookie",
   "info": "Info",
   "invites": {
     "reject": "Refuză",
     "from": "Invitație de la {{name}}",
     "accept": "Acceptă",
-    "resend": "Resend",
-    "resendDoYouReally": "Do you really want to resend the invitation?",
-    "deleteDoYouReally": "Do you really want to delete the user from the company?",
-    "noInvites": "No invitations"
+    "resend": "Retrimite",
+    "resendDoYouReally": "Sigur doriți să retrimiteți invitația?",
+    "deleteDoYouReally": "Sigur doriți să ștergeți utilizatorul din companie?",
+    "noInvites": "Nicio invitație"
   },
   "latestActivities": {
-    "tabLabel": "Latest",
-    "sceneTitle": "Latest activities",
-    "period": "Period",
-    "selectPeriod": "Select period",
-    "onlyPhotos": "Only photos",
-    "photo": "Photo",
-    "all": "All",
-    "noActivity": "No activity for the selected period"
+    "tabLabel": "Ultimele",
+    "sceneTitle": "Ultimele activități",
+    "period": "Perioada",
+    "selectPeriod": "Selectați perioada",
+    "onlyPhotos": "Doar fotografii",
+    "photo": "Fotografie",
+    "all": "Toate",
+    "noActivity": "Nicio activitate pentru perioada selectată"
   },
   "invalid_email": "Adresa de e-mail nu este validă.",
   "analysis": {
@@ -28,7 +28,7 @@
     "order": "Comandă",
     "plantOrSowDate": "Dată plantare/însămânțare",
     "pleaseLabelProbe": "Etichetați eșantionul!",
-    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Nu uitați să etichetați eșantionul!",
     "compostType": "Tip compost",
     "compostAmountInTons": "Cantitate în tone",
     "compostApplicationYear": "An aplicare",
@@ -98,14 +98,14 @@
     "pick_up_from_laboratory": "Recoltare laborator",
     "pleaseFollowCurrentFertilizerRegulation": "Respectați directiva în vigoare privind îngrășămintele.",
     "sampleIsTakenAccordingToRegulation": "Proba va fi recoltată în conformitate cu directiva în vigoare privind îngrășămintele.",
-    "acceptedFromLab": "{{date}} - accepted by Lab",
-    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
-    "probeTaken": "{{date}} - probe taken by Lab",
-    "sortByCrop": "By Crop",
-    "sortByLatest": "By latest",
-    "latest": "Last analyses",
-    "analysisType": "Analysis type",
-    "cancelReasonLab": "Cancelled reason: {{reason}}"
+    "acceptedFromLab": "{{date}} - acceptată de laborator",
+    "acceptedFromLabAndCantBeCancelled": "Analiza a fost acceptată de laborator și nu mai poate fi anulată.",
+    "probeTaken": "{{date}} - eșantion recoltat de laborator",
+    "sortByCrop": "După cultură",
+    "sortByLatest": "După ultima dată",
+    "latest": "Ultimele analize",
+    "analysisType": "Tip analiză",
+    "cancelReasonLab": "Motivul anulării: {{reason}}"
   },
   "field": {
     "number": "Număr câmp",
@@ -114,7 +114,7 @@
     "sendToArchive": "Arhivați câmpul",
     "cultivate": "Cultivați câmpul",
     "harvested_on": "Cultură recoltată pe {{date}}",
-    "sown_on": "Crop sown on {{date}}",
+    "sown_on": "Cultură semănată la {{date}}",
     "delete": "Ștergeți câmpul",
     "moveToArchive": "Câmpul va fi mutat în arhivă (Fermă -> Arhivă)",
     "area": "Supraf.",
@@ -130,10 +130,10 @@
     "toArchive": "Arhivă",
     "field": "Câmp",
     "created": "Câmp creat.",
-    "history": "Field history",
-    "show": "Show field",
-    "dropFilesHere": "Drop files here",
-    "followingFilesAreUnsupported": "The following files are unsupported:"
+    "history": "Istoricul câmpului",
+    "show": "Afișare câmp",
+    "dropFilesHere": "Fixați fișierele aici",
+    "followingFilesAreUnsupported": "Următoarele fișiere nu sunt acceptate:"
   },
   "no_email_no_password_entered": "Nu ați introdus un e-mail și o parolă",
   "pleaseWaitImageIsBeingUploaded": "Așteptați; imaginea este încărcată",
@@ -150,8 +150,8 @@
     "delete": "Ștergere fermă",
     "qs_number": "Număr QS",
     "logo": {
-      "upload": "Select company logo",
-      "camera": "Take a new company logo"
+      "upload": "Selectați sigla companiei",
+      "camera": "Selectați o nouă siglă a companiei"
     },
     "doYouWantToDeleteCompany": "Sigur doriți să ștergeți această fermă?"
   },
@@ -190,9 +190,9 @@
     "without": "Necultivat",
     "cropPlanning": "Planificare cultură",
     "age": "Vârstă cultură",
-    "cropDoesntExist": "The selected crop doesn't exist.",
-    "protection": "Plant protection",
-    "activeCrops": "Active crops"
+    "cropDoesntExist": "Cultura selectată nu există.",
+    "protection": "Protecție plante",
+    "activeCrops": "Culturi active"
   },
   "fertilizer": {
     "fertilization": "Fertilizare",
@@ -208,7 +208,7 @@
   "no_first_last_name_entered": "Introduceți numele și prenumele dvs.",
   "deletePhoto": "Ștergeți imaginea",
   "date": "Data",
-  "datePleaseSelect": "Please select date",
+  "datePleaseSelect": "Selectați data",
   "invoice": {
     "youDontHaveAddress": "Nu ați introdus o adresă de facturare."
   },
@@ -229,7 +229,7 @@
     "doYouReallyWantToDelete": "Sigur doriți să ștergeți timpul de așteptare?",
     "pesticide": "Denumire pesticid",
     "waitTime": "Perioadă de așteptare",
-    "waitTimeShort": "Wait time"
+    "waitTimeShort": "Timp de așteptare"
   },
   "more": "Mai mult",
   "position": "Poziție",
@@ -252,7 +252,7 @@
     "updated": "Parolă actualizată.",
     "min6char": "Parola trebuie să conțină cel puțin 6 caractere.",
     "reset": "Resetați parola",
-    "resetHelp": "Enter your new password below."
+    "resetHelp": "Introduceți noua parolă mai jos."
   },
   "noSearchResults": "Niciun rezultat.",
   "login": "Conectare",
@@ -280,10 +280,10 @@
   "employee": "Angajat",
   "archive": {
     "archive": "Arhivă",
-    "archivedFields": "Archived Fields",
+    "archivedFields": "Câmpuri arhivate",
     "noFieldsInArchive": "Niciun câmp arhivat."
   },
-  "save_as_favorite": "Salvați ca favorit",
+  "save_as_favorite": "Salv ca favorit",
   "cover": {
     "photo": "Fotografie de copertă",
     "showCollegesWhatIsImportantToYou": "Arătați-le colegilor dvs. ce vă interesează"
@@ -303,23 +303,23 @@
   "invoice_address": "Adresa de facturare",
   "logout": "Deconectare",
   "employees": {
-    "addEmployee": "Add Employee",
-    "noAdvisors": "No farm advisors",
-    "noDeactivatedUsers": "No deactivated users",
+    "addEmployee": "Adăugare angajat",
+    "noAdvisors": "Niciun consultant agricol",
+    "noDeactivatedUsers": "Niciun utilizator dezactivat",
     "plural": "Angajați",
-    "active": "Active",
-    "deactivated": "Deactivated",
-    "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
-    "advisors": "Advisors",
+    "active": "Activ",
+    "deactivated": "Dezactivat",
+    "reactivate": "Reactivare utilizator",
+    "reactivateDoYouWant": "Sigur doriți să reactivați utilizatorul?",
+    "advisors": "Consultanți",
     "admin": "Admin",
     "manage": "Gestionare angajați",
     "adminRWD": "Administrator (citiți, scrieți, ștergeți)",
     "invitationSentOn": "Invitație trimisă pe {{date}}",
     "invitrationRejectedOn": "Invitație refuzată pe {{date}}",
-    "getFromPhoneBook": "Search in Phonebook",
-    "choseEmail": "Choose email",
-    "employeeIsDeactivated": "Employee is deactivated"
+    "getFromPhoneBook": "Căutați în agenda telefonică",
+    "choseEmail": "Alegeți adresa de e-mail",
+    "employeeIsDeactivated": "Angajatul este dezactivat"
   },
   "search": "Căutare",
   "satellite": "Satelit",
@@ -342,7 +342,7 @@
   "favorites": "Favorite",
   "legal_data_security": "Aspecte juridice și securitatea datelor",
   "coordinates": "Coordonate",
-  "deleteForAll": "Delete for all",
+  "deleteForAll": "Ștergeți pentru toate",
   "deletePermenantly": "Ștergeți definitiv",
   "comment": {
     "fromField": "Comentariu pentru câmpul: {{name}}",
@@ -362,7 +362,7 @@
   "map": "Hărți",
   "maps": {
     "pressToSetPin": "Atingeți pe hartă pentru a marca locul.",
-    "clickToShowMore": "Click to show more"
+    "clickToShowMore": "Faceți clic pentru mai multe info"
   },
   "no_email_entered": "Nu ați introdus o adresă de e-mail.",
   "camera": "Cameră",
@@ -375,7 +375,7 @@
   "first_name": "Prenume",
   "request_new_password": "Solicitare parolă nouă",
   "register": "Creare cont",
-  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "needAFarmerJoeAccount": "Doriți un cont farmerJoe?",
   "phones": {
     "enterNumber": "Introduceți numărul de telefon"
   },
@@ -386,9 +386,9 @@
   "settings": "Setări",
   "help": "Ajutor",
   "position_company": "Localizare fermă",
-  "position_verb": "Set location",
-  "latitude": "Latitude",
-  "longitude": "Longitude",
+  "position_verb": "Setați locația",
+  "latitude": "Latitudine",
+  "longitude": "Longitudine",
   "copy": "Copiere",
   "share": "Partajare",
   "directions": "Îndrumări",
@@ -448,187 +448,191 @@
     }
   },
   "alerts": {
-    "openSettings": "Open Settings",
+    "openSettings": "Deschideți Setări",
     "needLocation": {
       "title": "farmerJoe dorește să vă acceseze locația",
-      "description": "farmerJoe nu are momentan drepturi de acces la locație."
+      "description": "farmerJoe nu vă poate accesa momentan locația."
     },
     "needAlwaysLocation": {
-      "title": "Location permission not granted",
-      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+      "title": "Permisiune locație neacordată",
+      "description": "Pentru a vă partaja locația live, farmerJoe trebuie să aibă întotdeauna acces la locația dvs. Dacă nu acordați această permisiune, nu veți putea utiliza această caracteristică."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe nu vă poate stabili locația.",
       "description": "Activați funcția GPS a telefonului."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Imaginea nu poate fi accesată",
+      "description": "Permiteți accesul dacă doriți să puteți selecta imagini."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Camera foto nu poate fi accesată",
+      "description": "Permiteți accesul la camera foto dacă doriți să faceți fotografii."
     },
     "needContactsAccess": {
-      "title": "farmerJoe needs access to your contacts",
-      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+      "title": "farmerJoe vrea să vă acceseze contactele",
+      "description": "Dacă doriți să invitați pe cineva din agendă, permiteți aplicației farmerJoe să vă acceseze contactele."
     },
     "sketchNeedsStorage": {
-      "title": "farmerJoe needs storage access",
-      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
+      "title": "farmerJoe dorește să vă acceseze spațiul de stocare",
+      "description": "Pentru a putea manipula imaginea, avem nevoie de acces la spațiul de stocare. Fără această permisiune, nu veți putea trimite imaginea."
     }
   },
   "filter": "Filtru",
   "acl": {
-    "view": "View",
-    "create": "Create",
-    "edit": "Edit",
-    "delete": "Delete",
-    "department": "Department",
-    "selectFields": "Select fields",
-    "CRUD": "Create, Edit, Delete",
+    "view": "Vizual.",
+    "create": "Creare",
+    "edit": "Editare",
+    "delete": "Ștergere",
+    "department": "Departament",
+    "selectFields": "Selectați câmpurile",
+    "CRUD": "Creare, editare, ștergere",
     "role": {
-      "restricted": "Restricted access",
-      "allrights": "All rights",
-      "type": "Account type",
+      "restricted": "Acces restricționat",
+      "allrights": "Toate drepturile",
+      "type": "Tip cont",
       "admin": "Admin",
-      "standard": "Worker",
-      "advisor": "Advisor"
+      "standard": "Lucrător",
+      "advisor": "Consultant"
     },
     "user": {
-      "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
-      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
-      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
-      "cantDeleteYourself": "You can't delete yourself",
+      "delete": "Ștergeți angajatul",
+      "deactivate": "Dezactivați angajatul",
+      "doYouWantToDeactivateUser": "Doriți să dezactivați acest angajat?",
+      "doYouWantToDeleteUser": "Sigur doriți să ștergeți acest angajat?",
+      "cantDeleteYourself": "Nu vă puteți șterge pe dvs.",
       "alertFound": {
-        "title": "User already in company",
-        "message": "The user with this email is already existing in the company."
+        "title": "Utilizatorul este deja în companie",
+        "message": "Utilizatorul cu această adresă de e-mail se află deja în companie."
       },
       "alertNoFields": {
-        "title": "No fields selected",
-        "message": "You need to select at least one field for the user"
+        "title": "Niciun câmp selectat",
+        "message": "Trebuie să selectați cel puțin un câmp pentru utilizator"
       }
     },
     "users": {
-      "users": "Employees",
-      "userRight": "The user can see other Employees in the farm."
+      "users": "Angajați",
+      "userRight": "Utilizatorul poate vedea alți angajați din fermă."
     },
     "access": {
       "fieldAdminAlert": {
-        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+        "message": "Utilizatorul este administrator și are acces la toate câmpurile din companie. Dacă doriți să îi interziceți accesul la acest câmp și la alte câmpuri, trebuie să îi acordați rolul de utilizator obișnuit."
       },
       "forbidFieldAlert": {
-        "message": "Do you really want to forbid {{name}} access to this field?"
+        "message": "Sigur doriți să interziceți accesul lui {{name}} la acest câmp?"
       },
       "grantFieldAlert": {
-        "message": "Do you really want to give {{name}} access to this field?"
+        "message": "Sigur doriți să îi acordați lui {{name}} acces la acest câmp?"
       },
-      "alreadyHasAccess": "Already has access to field.",
-      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+      "alreadyHasAccess": "Are deja acces la câmp.",
+      "accessOnceInvitationAccepted": "Are acces după ce utilizatorul acceptă invitația."
     },
-    "rights": "Rights",
+    "rights": "Drepturi",
     "fields": {
-      "all": "All",
-      "selected": "Only selected",
-      "selectDesc": "Select fields which the user is able to see.",
-      "standardUserRights": "The user can't create or edit fields."
+      "all": "Toate",
+      "selected": "Doar selectat",
+      "selectDesc": "Selectați câmpurile pe care utilizatorul le poate vedea.",
+      "standardUserRights": "Utilizatorul nu poate crea sau modifica câmpuri."
     },
     "crops": {
-      "all": "Planted and harvested",
-      "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "all": "Plantat și recoltat",
+      "active": "Doar plantat",
+      "standardUserRights": "Utilizatorul nu poate crea sau modifica culturi."
     },
     "comments": {
-      "comments": "Comments",
-      "all": "All comments",
-      "selected": "Only own comments",
-      "standardUserRights": "The user can create and edit his own comments."
+      "comments": "Comentarii",
+      "all": "Toate comentariile",
+      "selected": "Doar propriile comentarii",
+      "standardUserRights": "Utilizatorul poate crea și modifica propriile comentarii."
     },
     "fertilizing": {
-      "description": "Select below what the user is able to do with Fertilizings."
+      "description": "Selectați mai jos ce poate face utilizatorul cu îngrășămintele."
     },
     "waittime": {
-      "description": "Select below what the user is able to do with Wait times."
+      "description": "Selectați mai jos ce poate face utilizatorul cu timpii de așteptare."
     }
   },
   "near": {
-    "by": "Near by",
-    "fields": "Nearest fields",
-    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+    "by": "Lângă",
+    "fields": "Cel mai apropiate câmpuri",
+    "cantSortNoLocation": "Nu putem sorta cele mai apropiate câmpuri deoarece nu ne-ați acordat acces la locație."
   },
   "registerScreen": {
-    "startNow": "Get started",
-    "helpEasySteps": "We'll help you create an account in a few easy steps.",
-    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
-    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
-    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
-    "newsletter": "Sign up for farmerJoe's newsletter",
-    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
-    "continueRegistration": "Continue sign up",
-    "next": "Next",
-    "enterEmail": "Enter your email",
-    "errorEmailExist": "Another account already users this email address.",
-    "retry": "Retry",
+    "startNow": "Să începem",
+    "helpEasySteps": "Vă vom ajuta să creați un cont în câțiva pași simpli.",
+    "useRealName": "Folosindu-vă numele real, va fi mai simplu pentru colegi să vă recunoască în cadrul fermelor dvs.",
+    "weUsePhone": "Numărul va fi afișat colegilor din cadrul fermelor dvs., iar aceștia vă vor putea suna cu ușurință.",
+    "weUseEmail": "Veți utiliza această adresă de e-mail atunci când vă conectați sau dacă trebuie să vă resetați vreodată parola. Alți utilizatori farmerJoe vă vor putea invita în cadrul fermelor lor cu această adresă de e-mail.",
+    "newsletter": "Abonați-vă la newsletterul farmerJoe",
+    "passwordHelp": "Introduceți o combinație de cel puțin șase cifre, litere și semne de punctuație (cum ar fi ! și &)",
+    "confrim_agb_data_security": "Apăsând „Creare cont”, ești de acord cu {0}. Află cum îți colectăm și utilizăm datele în cadrul {1} și cum utilizăm module cookie și tehnologii similare în cadrul {2}.",
+    "continueRegistration": "Continuare înregistrare",
+    "next": "Continuă",
+    "enterEmail": "Introduceți adresa de e-mail",
+    "errorEmailExist": "Această adresă de e-mail este deja utilizată pentru un alt cont.",
+    "retry": "Reîncearcă",
     "titles": {
-      "finish": "Finish signing up",
-      "haveAnAccount": "Already have an account",
-      "join": "Join farmerJoe",
-      "password": "Create a password",
-      "whatIsYourName": "What's your name?",
-      "whatIsYourPhoneNumber": "What's your mobile number?",
-      "whatIsYourEmailAddress": "What's your email address?",
-      "creating": "Your account is being created."
+      "finish": "Finalizare înregistrare",
+      "haveAnAccount": "Am deja cont",
+      "join": "Înscrieți-vă pe farmerJoe",
+      "password": "Creați o parolă",
+      "whatIsYourName": "Cum vă numiți?",
+      "whatIsYourPhoneNumber": "Care este numărul dvs. de mobil?",
+      "whatIsYourEmailAddress": "Care este adresa dvs. de e-mail?",
+      "creating": "Contul dvs. este creat."
     }
   },
   "location": {
-    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
-    "sharedWithFarm": "Position is being shared with this farm.",
-    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
-    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "farmCanSeeYourLocation": "Oricine din cadrul fermei vă poate vedea locația",
+    "sharedWithFarm": "Poziția este partajată cu această fermă.",
+    "letColleaguesSeeYourLocationLabel": "Permiteți-le colegilor să știe unde sunteți",
+    "letColleaguesSeeYourLocationDesc": "Partajați-vă locația în timp real cu colegii din cadrul acestei ferme.",
     "forX": {
       "x_minutes": {
-        "one": "For {{count}} minute",
-        "other": "For {{count}} minutes"
+        "one": "Pentru {{count}} minut",
+        "other": "Pentru {{count}} (de) minute"
       },
       "x_hours": {
-        "other": "For {{count}} hours",
-        "one": "For 1 hour"
+        "other": "Pentru {{count}} (de) ore",
+        "one": "Pentru 1 oră"
       },
       "x_days": {
-        "other": "For {{count}} days",
-        "one": "For 1 day"
+        "other": "Pentru {{count}} (de) zile",
+        "one": "Pentru 1 zi"
       }
     },
-    "untilTurnedOff": "Until you turn this off",
-    "shareNow": "Share now",
-    "turnOff": "Turn off",
-    "emailLog": "Email location log"
+    "untilTurnedOff": "Până când dezactivați această opțiune",
+    "shareNow": "Partajați acum",
+    "turnOff": "Dezactivare",
+    "emailLog": "Trimitere e-mail istoric locații"
   },
   "report": {
-    "issue": "Report issue"
+    "issue": "Raportați problema"
   },
-  "no_company_selected": "No company selected",
-  "no_field_selected": "No field selected",
-  "invalid_phone_number": "invalid phone number",
-  "close": "close",
-  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
-  "refresh": "Refresh",
-  "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "no_company_selected": "Nicio companie selectată",
+  "no_field_selected": "Niciun câmp selectat",
+  "invalid_phone_number": "număr de telefon incorect",
+  "close": "închideți",
+  "errorMessage": "Oh, acest lucru nu trebuia să se întâmple. Echipa de dezvoltare a fost informată.",
+  "refresh": "Reîmprospătare",
+  "remoteSupport": "Solicitare asistență la distanță",
+  "screenTooSmall": "Ecranul dumneavoastră este prea mic. Utilizați în schimb aplicația noastră pentru iOS și Android.",
   "emailVerified": "Adresa de e-mail a fost confirmată",
   "resetPasswordLinkExpired": "Solicitarea de resetare a parolei a expirat sau linkul a fost folosit deja",
   "verifyEmailLinkExpired": "Solicitarea de confirmare a adresei de e-mail a expirat sau linkul a fost folosit deja",
   "emailChangeReverted": "Adresa de e-mail de conectare a fost schimbată înapoi la {{email}}.",
-  "invalidActionCode": "Codul nu mai este valid",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "invalidActionCode": "Codul nu mai este valabil",
+  "browserNotSupported": "farmerJoe nu acceptă Internet Explorer. Utilizați un browser modern și acceptat, cum ar fi Firefox, Chrome, Edge, Opera sau Safari.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "header": "Chei API",
+    "generate": "Generați o cheie nouă",
+    "key": "Cheie",
+    "enabled": "Activat",
+    "description": "Cheile API vă permit să integrați aplicația farmerJoe într-un alt software. Puteți găsi documentația {0}.",
+    "descriptionLink": "aici",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

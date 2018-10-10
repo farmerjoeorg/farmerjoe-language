@@ -1,25 +1,25 @@
 {
   "data_guidelines": "Gegevensbeleid",
-  "cookie_policy": "Cookie Policy",
+  "cookie_policy": "Cookiebeleid",
   "info": "Info",
   "invites": {
     "reject": "Weigeren",
     "from": "Uitnodiging van {{name}}",
     "accept": "Accepteren",
-    "resend": "Resend",
-    "resendDoYouReally": "Do you really want to resend the invitation?",
-    "deleteDoYouReally": "Do you really want to delete the user from the company?",
-    "noInvites": "No invitations"
+    "resend": "Opnieuw verzenden",
+    "resendDoYouReally": "Wilt u de uitnodiging echt opnieuw verzenden?",
+    "deleteDoYouReally": "Wilt u de gebruiker echt uit het bedrijf verwijderen?",
+    "noInvites": "Geen uitnodigingen"
   },
   "latestActivities": {
-    "tabLabel": "Latest",
-    "sceneTitle": "Latest activities",
-    "period": "Period",
-    "selectPeriod": "Select period",
-    "onlyPhotos": "Only photos",
-    "photo": "Photo",
-    "all": "All",
-    "noActivity": "No activity for the selected period"
+    "tabLabel": "Meest recent",
+    "sceneTitle": "Meest recente activiteiten",
+    "period": "Periode",
+    "selectPeriod": "Periode selecteren",
+    "onlyPhotos": "Alleen foto's",
+    "photo": "Foto",
+    "all": "Alle",
+    "noActivity": "Geen activiteit voor de geselecteerde periode"
   },
   "invalid_email": "Het e-mailadres is ongeldig.",
   "analysis": {
@@ -28,7 +28,7 @@
     "order": "Bestellen",
     "plantOrSowDate": "Plant-/zaaidatum",
     "pleaseLabelProbe": "Label het monster!",
-    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Vergeet niet het monster een label te geven.",
     "compostType": "Composttype",
     "compostAmountInTons": "Hoeveelheid in tonnen",
     "compostApplicationYear": "Uitvoeringsjaar",
@@ -98,14 +98,14 @@
     "pick_up_from_laboratory": "Labmonster",
     "pleaseFollowCurrentFertilizerRegulation": "Volg de actuele mestrichtlijn.",
     "sampleIsTakenAccordingToRegulation": "Het monster wordt genomen volgens de actuele mestrichtlijn.",
-    "acceptedFromLab": "{{date}} - accepted by Lab",
-    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
-    "probeTaken": "{{date}} - probe taken by Lab",
-    "sortByCrop": "By Crop",
-    "sortByLatest": "By latest",
-    "latest": "Last analyses",
-    "analysisType": "Analysis type",
-    "cancelReasonLab": "Cancelled reason: {{reason}}"
+    "acceptedFromLab": "{{date}} - geaccepteerd door lab",
+    "acceptedFromLabAndCantBeCancelled": "De analyse is door het laboratorium aanvaard en kan niet meer worden geannuleerd.",
+    "probeTaken": "{{date}} - monster genomen door lab",
+    "sortByCrop": "Op gewas",
+    "sortByLatest": "Op meest recente",
+    "latest": "Meest recente analyses",
+    "analysisType": "Analysetype",
+    "cancelReasonLab": "Annuleringsreden: {{reason}}"
   },
   "field": {
     "number": "Veldnummer",
@@ -114,7 +114,7 @@
     "sendToArchive": "Veld archiveren",
     "cultivate": "Veld bebouwen",
     "harvested_on": "Gewas geoogst op {{date}}",
-    "sown_on": "Crop sown on {{date}}",
+    "sown_on": "Gewas gezaaid op {{date}}",
     "delete": "Veld verwijderen",
     "moveToArchive": "Het veld wordt verplaatst naar het archief. (Boerderij -> Archief)",
     "area": "Oppervlakte",
@@ -130,10 +130,10 @@
     "toArchive": "Archief",
     "field": "Veld",
     "created": "Het veld is aangemaakt.",
-    "history": "Field history",
-    "show": "Show field",
-    "dropFilesHere": "Drop files here",
-    "followingFilesAreUnsupported": "The following files are unsupported:"
+    "history": "Veldgeschiedenis",
+    "show": "Veld weergeven",
+    "dropFilesHere": "Bestanden hier neerzetten",
+    "followingFilesAreUnsupported": "De volgende bestanden worden niet ondersteund:"
   },
   "no_email_no_password_entered": "U heeft geen e-mailadres en wachtwoord ingevoerd",
   "pleaseWaitImageIsBeingUploaded": "Even geduld, de foto wordt geüpload",
@@ -150,8 +150,8 @@
     "delete": "Boerderij verwijderen",
     "qs_number": "QS nummer",
     "logo": {
-      "upload": "Select company logo",
-      "camera": "Take a new company logo"
+      "upload": "Bedrijfslogo selecteren",
+      "camera": "Nieuw bedrijfslogo nemen"
     },
     "doYouWantToDeleteCompany": "Wilt u deze boerderij echt verwijderen?"
   },
@@ -167,7 +167,7 @@
     "commodityItem": "In winkel",
     "planted_on": "Geplant op",
     "stockItem": "In opslag",
-    "doYouReallyWantToDeleteCrop": "Wil je echt de gewasgeschiedenis verwijderen, inclusief alle opmerkingen voor dit gewas?",
+    "doYouReallyWantToDeleteCrop": "Wilt u echt de gewasgeschiedenis verwijderen, inclusief alle opmerkingen voor dit gewas?",
     "deleteAndWithout": "Gewas verwijderen (onbebouwd laten)",
     "resetAge": "Gewasleeftijd begint nu op 0 dagen",
     "nothingHarvested": "Geen gewassen geoogst.",
@@ -190,9 +190,9 @@
     "without": "Onbebouwd",
     "cropPlanning": "Gewassenplanning",
     "age": "Gewasleeftijd",
-    "cropDoesntExist": "The selected crop doesn't exist.",
-    "protection": "Plant protection",
-    "activeCrops": "Active crops"
+    "cropDoesntExist": "Het geselecteerde gewas bestaat niet.",
+    "protection": "Gewasbescherming",
+    "activeCrops": "Actieve gewassen"
   },
   "fertilizer": {
     "fertilization": "Bemesting",
@@ -208,7 +208,7 @@
   "no_first_last_name_entered": "Voer uw voor- en achternaam in.",
   "deletePhoto": "Foto verwijderen",
   "date": "Datum",
-  "datePleaseSelect": "Please select date",
+  "datePleaseSelect": "Selecteer een datum",
   "invoice": {
     "youDontHaveAddress": "U hebt geen factuuradres ingevoerd."
   },
@@ -229,7 +229,7 @@
     "doYouReallyWantToDelete": "Wilt u de wachttijd echt verwijderen?",
     "pesticide": "Naam pesticide",
     "waitTime": "Wachttijd",
-    "waitTimeShort": "Wait time"
+    "waitTimeShort": "Wachttijd"
   },
   "more": "Meer",
   "position": "Positie",
@@ -252,7 +252,7 @@
     "updated": "Wachtwoord bijgewerkt.",
     "min6char": "Het wachtwoord moet minimaal 6 tekens lang zijn.",
     "reset": "Reset uw wachtwoord",
-    "resetHelp": "Enter your new password below."
+    "resetHelp": "Voer hieronder het nieuwe wachtwoord in."
   },
   "noSearchResults": "Geen resultaten.",
   "login": "Aanmelden",
@@ -280,7 +280,7 @@
   "employee": "Medewerker",
   "archive": {
     "archive": "Archief",
-    "archivedFields": "Archived Fields",
+    "archivedFields": "Gearchiveerde velden",
     "noFieldsInArchive": "Geen velden in het archief."
   },
   "save_as_favorite": "Opslaan als favoriet",
@@ -303,23 +303,23 @@
   "invoice_address": "Factuuradres",
   "logout": "Afmelden",
   "employees": {
-    "addEmployee": "Add Employee",
-    "noAdvisors": "No farm advisors",
-    "noDeactivatedUsers": "No deactivated users",
+    "addEmployee": "Medewerker toevoegen",
+    "noAdvisors": "Geen boerderijadviseurs",
+    "noDeactivatedUsers": "Geen gedeactiveerde gebruikers",
     "plural": "Medewerkers",
-    "active": "Active",
-    "deactivated": "Deactivated",
-    "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
-    "advisors": "Advisors",
+    "active": "Actief",
+    "deactivated": "Gedeactiveerd",
+    "reactivate": "Gebruiker reactiveren",
+    "reactivateDoYouWant": "Wilt u de gebruiker echt reactiveren?",
+    "advisors": "Adviseurs",
     "admin": "Beheerder",
     "manage": "Medewerkers beheren",
     "adminRWD": "Beheerder (lezen, schrijven, verwijderen)",
     "invitationSentOn": "Uitnodiging verzonden op {{date}}",
     "invitrationRejectedOn": "Uitnodiging geweigerd op {{date}}",
-    "getFromPhoneBook": "Search in Phonebook",
-    "choseEmail": "Choose email",
-    "employeeIsDeactivated": "Employee is deactivated"
+    "getFromPhoneBook": "In telefoonboek zoeken",
+    "choseEmail": "E-mail kiezen",
+    "employeeIsDeactivated": "Medewerker is gedeactiveerd"
   },
   "search": "Zoeken",
   "satellite": "Satelliet",
@@ -342,7 +342,7 @@
   "favorites": "Favorieten",
   "legal_data_security": "Juridisch en gegevensbeveiliging",
   "coordinates": "Coördinaten",
-  "deleteForAll": "Delete for all",
+  "deleteForAll": "Verwijderen voor alle",
   "deletePermenantly": "Permanent verwijderen",
   "comment": {
     "fromField": "Opmerking bij veld: {{name}}",
@@ -362,7 +362,7 @@
   "map": "Kaart",
   "maps": {
     "pressToSetPin": "Druk op de kaart om de locatiepin in te stellen.",
-    "clickToShowMore": "Click to show more"
+    "clickToShowMore": "Klik om meer weer te geven"
   },
   "no_email_entered": "U heeft geen e-mailadres ingevoerd.",
   "camera": "Camera",
@@ -375,7 +375,7 @@
   "first_name": "Voornaam",
   "request_new_password": "Nieuw wachtwoord aanvragen",
   "register": "Account aanmaken",
-  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "needAFarmerJoeAccount": "farmerJoe-account nodig?",
   "phones": {
     "enterNumber": "Voer uw telefoonnummer in"
   },
@@ -386,9 +386,9 @@
   "settings": "Instellingen",
   "help": "Help",
   "position_company": "Boerderijlocatie",
-  "position_verb": "Set location",
-  "latitude": "Latitude",
-  "longitude": "Longitude",
+  "position_verb": "Locatie instellen",
+  "latitude": "Breedtegraad",
+  "longitude": "Lengtegraad",
   "copy": "Kopiëren",
   "share": "Delen",
   "directions": "Routebeschrijving",
@@ -448,187 +448,191 @@
     }
   },
   "alerts": {
-    "openSettings": "Open Settings",
+    "openSettings": "Instellingen openen",
     "needLocation": {
       "title": "farmerJoe heeft uw locatie nodig",
       "description": "farmerJoe heeft momenteel geen toegang tot uw locatie."
     },
     "needAlwaysLocation": {
-      "title": "Location permission not granted",
-      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+      "title": "Geen locatietoestemming verleend",
+      "description": "Om de livelocatie te delen heeft farmerJoe altijd toegang tot uw locatie nodig. Als u dit niet verleent, kunt u deze functie niet gebruiken."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe kan uw locatie niet bepalen.",
       "description": "Schakel de GPS van uw telefoon in."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Geen toegang tot afbeelding",
+      "description": "Verleen toegang als u afbeeldingen wilt kunnen selecteren."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Geen toegang tot camera",
+      "description": "Verleen toegang tot de camera als u foto's wilt maken."
     },
     "needContactsAccess": {
-      "title": "farmerJoe needs access to your contacts",
-      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+      "title": "farmerJoe heeft toegang nodig tot uw contacten",
+      "description": "Als u iemand uit uw adresboek wilt uitnodigen, moet u farmerJoe toegang verlenen tot uw contacten."
     },
     "sketchNeedsStorage": {
-      "title": "farmerJoe needs storage access",
-      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
+      "title": "farmerJoe heeft toegang nodig tot de opslag",
+      "description": "We hebben toegang tot de opslag nodig om de afbeelding te kunnen bewerken. Zonder deze toestemming kunt u de afbeelding niet verzenden."
     }
   },
   "filter": "Filter",
   "acl": {
-    "view": "View",
-    "create": "Create",
-    "edit": "Edit",
-    "delete": "Delete",
-    "department": "Department",
-    "selectFields": "Select fields",
-    "CRUD": "Create, Edit, Delete",
+    "view": "Weergeven",
+    "create": "Maken",
+    "edit": "Bewerken",
+    "delete": "Verwijderen",
+    "department": "Afdeling",
+    "selectFields": "Velden selecteren",
+    "CRUD": "Maken, bewerken, verwijderen",
     "role": {
-      "restricted": "Restricted access",
-      "allrights": "All rights",
-      "type": "Account type",
-      "admin": "Admin",
-      "standard": "Worker",
-      "advisor": "Advisor"
+      "restricted": "Beperkte toegang",
+      "allrights": "Alle rechten",
+      "type": "Accounttype",
+      "admin": "Beheerder",
+      "standard": "Medewerker",
+      "advisor": "Adviseur"
     },
     "user": {
-      "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
-      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
-      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
-      "cantDeleteYourself": "You can't delete yourself",
+      "delete": "Medewerker verwijderen",
+      "deactivate": "Medewerker deactiveren",
+      "doYouWantToDeactivateUser": "Wilt u deze medewerker deactiveren?",
+      "doYouWantToDeleteUser": "Wilt u deze medewerker echt verwijderen?",
+      "cantDeleteYourself": "U kunt uzelf niet verwijderen",
       "alertFound": {
-        "title": "User already in company",
-        "message": "The user with this email is already existing in the company."
+        "title": "Gebruiker al aanwezig in bedrijf",
+        "message": "De gebruiker met dit e-mailadres is al aanwezig in het bedrijf."
       },
       "alertNoFields": {
-        "title": "No fields selected",
-        "message": "You need to select at least one field for the user"
+        "title": "Geen velden geselecteerd",
+        "message": "Selecteer minstens één veld voor de gebruiker"
       }
     },
     "users": {
-      "users": "Employees",
-      "userRight": "The user can see other Employees in the farm."
+      "users": "Medewerkers",
+      "userRight": "De gebruiker kan andere medewerkers van de boerderij zien."
     },
     "access": {
       "fieldAdminAlert": {
-        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+        "message": "De gebruiker is Beheerder en heeft toegang tot alle velden in het bedrijf. Als u toegang tot dit veld en andere velden wilt verbieden, maakt u van deze gebruiker een normale gebruiker."
       },
       "forbidFieldAlert": {
-        "message": "Do you really want to forbid {{name}} access to this field?"
+        "message": "Wilt u {{name}} geen toegang tot dit veld verlenen?"
       },
       "grantFieldAlert": {
-        "message": "Do you really want to give {{name}} access to this field?"
+        "message": "Wilt u {{name}} toegang tot dit veld verlenen?"
       },
-      "alreadyHasAccess": "Already has access to field.",
-      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+      "alreadyHasAccess": "Heeft al toegang tot het veld.",
+      "accessOnceInvitationAccepted": "Heeft toegang zodra de gebruiker de uitnodiging aanvaardt."
     },
-    "rights": "Rights",
+    "rights": "Rechten",
     "fields": {
-      "all": "All",
-      "selected": "Only selected",
-      "selectDesc": "Select fields which the user is able to see.",
-      "standardUserRights": "The user can't create or edit fields."
+      "all": "Alle",
+      "selected": "Alleen geselecteerde",
+      "selectDesc": "Selecteer de velden die de gebruiker kan zien.",
+      "standardUserRights": "De gebruiker kan geen velden maken of verbergen."
     },
     "crops": {
-      "all": "Planted and harvested",
-      "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "all": "Geplant en geoogst",
+      "active": "Alleen geplant",
+      "standardUserRights": "De gebruiker kan geen gewassen maken of bewerken."
     },
     "comments": {
-      "comments": "Comments",
-      "all": "All comments",
-      "selected": "Only own comments",
-      "standardUserRights": "The user can create and edit his own comments."
+      "comments": "Opmerkingen",
+      "all": "Alle opmerkingen",
+      "selected": "Alleen eigen opmerkingen",
+      "standardUserRights": "De gebruiker kan eigen opmerkingen maken en bewerken."
     },
     "fertilizing": {
-      "description": "Select below what the user is able to do with Fertilizings."
+      "description": "Selecteer hieronder wat de gebruiker kan doen met bemestingen."
     },
     "waittime": {
-      "description": "Select below what the user is able to do with Wait times."
+      "description": "Selecteer hieronder wat de gebruiker kan doen met wachttijden."
     }
   },
   "near": {
-    "by": "Near by",
-    "fields": "Nearest fields",
-    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+    "by": "In de buurt",
+    "fields": "Dichtsbijzijnde velden",
+    "cantSortNoLocation": "We kunnen de dichtstbijzijnde velden niet sorteren omdat we geen toegang tot uw locatie hebben."
   },
   "registerScreen": {
-    "startNow": "Get started",
-    "helpEasySteps": "We'll help you create an account in a few easy steps.",
-    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
-    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
-    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
-    "newsletter": "Sign up for farmerJoe's newsletter",
-    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
-    "continueRegistration": "Continue sign up",
-    "next": "Next",
-    "enterEmail": "Enter your email",
-    "errorEmailExist": "Another account already users this email address.",
-    "retry": "Retry",
+    "startNow": "Aan de slag",
+    "helpEasySteps": "We helpen u bij het maken van een account in enkele eenvoudige stappen.",
+    "useRealName": "Met uw echte naam kunnen medewerkers van uw boerderijen u beter herkennen.",
+    "weUsePhone": "Het nummer is zichtbaar voor medewerkers van uw boerderijen zodat ze u makkelijk kunnen bellen.",
+    "weUseEmail": "U kunt dit e-mailadres gebruiken als u zich aanmeldt en als u het wachtwoord moet resetten. Andere gebruikers van farmerJoe kunnen u met dit e-mailadres uitnodiging voor hun boerderijen.",
+    "newsletter": "Aanmelden voor de nieuwsbrief van farmerJoe",
+    "passwordHelp": "Voer een combinatie van minstens zes nummers, letters en leestekens in (zoals ! en &)",
+    "confrim_agb_data_security": "Als u op \"Account maken\" tikt, gaat u akkoord met onze {0}. Ontdek hoe we uw gegevens verzamelen en gebruiken in onze {1}, en hoe we cookies en vergelijkbare technologie gebruiken in onze {2}.",
+    "continueRegistration": "Doorgaan met aanmelden",
+    "next": "Volgende",
+    "enterEmail": "E-mailadres invoeren",
+    "errorEmailExist": "Een ander account gebruikt dit e-mailadres al.",
+    "retry": "Opnieuw proberen",
     "titles": {
-      "finish": "Finish signing up",
-      "haveAnAccount": "Already have an account",
-      "join": "Join farmerJoe",
-      "password": "Create a password",
-      "whatIsYourName": "What's your name?",
-      "whatIsYourPhoneNumber": "What's your mobile number?",
-      "whatIsYourEmailAddress": "What's your email address?",
-      "creating": "Your account is being created."
+      "finish": "Aanmelden afronden",
+      "haveAnAccount": "Hebt u al een account?",
+      "join": "Word lid van farmerJoe",
+      "password": "Wachtwoord maken",
+      "whatIsYourName": "Hoe heet u?",
+      "whatIsYourPhoneNumber": "Wat is uw mobiele nummer?",
+      "whatIsYourEmailAddress": "Wat is uw e-mailadres?",
+      "creating": "Het account wordt gemaakt."
     }
   },
   "location": {
-    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
-    "sharedWithFarm": "Position is being shared with this farm.",
-    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
-    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "farmCanSeeYourLocation": "Iedereen in de boerderij kan uw locatie zien",
+    "sharedWithFarm": "Positie wordt gedeeld met deze boerderij.",
+    "letColleaguesSeeYourLocationLabel": "Laat medewerkers weten waar u bent",
+    "letColleaguesSeeYourLocationDesc": "Deel uw locatie in real time met medewerkers van deze boerderij.",
     "forX": {
       "x_minutes": {
-        "one": "For {{count}} minute",
-        "other": "For {{count}} minutes"
+        "one": "Voor {{count}} minuut",
+        "other": "Voor {{count}} minuten"
       },
       "x_hours": {
-        "other": "For {{count}} hours",
-        "one": "For 1 hour"
+        "other": "Voor {{count}} uur",
+        "one": "Voor 1 uur"
       },
       "x_days": {
-        "other": "For {{count}} days",
-        "one": "For 1 day"
+        "other": "Voor {{count}} dagen",
+        "one": "Voor 1 dag"
       }
     },
-    "untilTurnedOff": "Until you turn this off",
-    "shareNow": "Share now",
-    "turnOff": "Turn off",
-    "emailLog": "Email location log"
+    "untilTurnedOff": "Totdat u dit uitschakelt",
+    "shareNow": "Nu delen",
+    "turnOff": "Uitschakelen",
+    "emailLog": "Locatielogboek e-mailen"
   },
   "report": {
-    "issue": "Report issue"
+    "issue": "Probleem rapporteren"
   },
-  "no_company_selected": "No company selected",
-  "no_field_selected": "No field selected",
-  "invalid_phone_number": "invalid phone number",
-  "close": "close",
-  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
-  "refresh": "Refresh",
-  "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "no_company_selected": "Geen bedrijf geselecteerd",
+  "no_field_selected": "Geen veld geselecteerd",
+  "invalid_phone_number": "Ongeldig telefoonnummer",
+  "close": "sluiten",
+  "errorMessage": "Oeps, dit mag eigenlijk niet gebeuren. Het ontwikkelingsteam is op de hoogte gesteld.",
+  "refresh": "Vernieuwen",
+  "remoteSupport": "Aanvraag voor ondersteuning op afstand",
+  "screenTooSmall": "Het scherm is te klein. Gebruik onze app voor iOS en Android.",
   "emailVerified": "Uw e-mailadres is geverifieerd",
   "resetPasswordLinkExpired": "Uw verzoek om uw wachtwoord te resetten, is verlopen of de link is al gebruikt",
   "verifyEmailLinkExpired": "Uw verzoek om uw e-mailadres te verifiëren, is verlopen of de link is al gebruikt",
   "emailChangeReverted": "Uw inlog-e-mailadres is terugveranderd naar {{email}}.",
   "invalidActionCode": "Deze code is niet meer geldig",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "farmerJoe biedt geen ondersteuning voor Internet Explorer. Gebruik een moderne en ondersteunde browser zoals Firefox, Chrome, Edge, Opera of Safari.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "header": "API-sleutels",
+    "generate": "Nieuwe sleutel genereren",
+    "key": "Sleutel",
+    "enabled": "Ingeschakeld",
+    "description": "Met API-sleutels kunt u famerJoe in andere software integreren. U vindt de documentatie {0}.",
+    "descriptionLink": "hier",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

@@ -565,11 +565,11 @@
     "weUseEmail": "O utilizador irá usar este endereço eletrónico quando inicia a sessão e se alguma vez precisar de repor a sua palavra-passe. Os outros utilizadores farmerJoe poderão convidá-lo para as suas quintas através deste endereço eletrónico.",
     "newsletter": "Subscreva o boletim informativo do farmerJoe",
     "passwordHelp": "Introduza uma combinação de no mínimo seis números, letras e sinais de pontuação (como ! e &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
+    "confrim_agb_data_security": "Ao carregar em \"Criar conta\", o utilizador concorda com a nossa {0}. Saiba como recolhemos os seus dados na nossa {1}, e como utilizamos cookies e tecnologia semelhante na nossa {2}.",
     "continueRegistration": "Continuar com o início de sessão",
     "next": "Próximo",
     "enterEmail": "Introduza o seu endereço eletrónico",
-    "errorEmailExist": "Another account already users this email address.",
+    "errorEmailExist": "Este endereço eletrónico já está a ser utilizado em outra conta.",
     "retry": "Tentar novamente",
     "titles": {
       "finish": "Concluir início de sessão",
@@ -622,13 +622,17 @@
   "verifyEmailLinkExpired": "Sua solicitação para verificar o e-mail expirou ou o link já foi usado",
   "emailChangeReverted": "Seu endereço de e-mail de login foi alterado novamente para {{email}}.",
   "invalidActionCode": "Este código não é mais válido.",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "O farmerJoe não suporta o Internet Explorer. Utilize um navegador de Internet moderno e compatível, como o Firefox, Chrome, Edge, Opera ou Safari.",
   "apiKeys": {
     "header": "API keys",
     "generate": "Generate a new key",
     "key": "Key",
     "enabled": "Enabled",
     "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "descriptionLink": "here",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

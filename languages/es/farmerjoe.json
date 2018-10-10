@@ -151,7 +151,7 @@
     "qs_number": "Número QS",
     "logo": {
       "upload": "Seleccionar el logotipo de la empresa",
-      "camera": "Tomar un nuevo logotipo de la empresa"
+      "camera": "Elegir un nuevo logotipo de la empresa"
     },
     "doYouWantToDeleteCompany": "¿Realmente quieres borrar la explotación?"
   },
@@ -167,7 +167,7 @@
     "commodityItem": "Comercio",
     "planted_on": "Plantado el ",
     "stockItem": "Almacén",
-    "doYouReallyWantToDeleteCrop": "¿Realmente quieres eliminar el cultivo y los comentarios correspondientes?",
+    "doYouReallyWantToDeleteCrop": "¿Realmente quieres eliminar el historial del cultivo incluyendo todas las notas de este cultivo?",
     "deleteAndWithout": "Borrar cultivo (Sin cultivo)",
     "resetAge": "La edad del cultivo ahora comienza a los 0 días",
     "nothingHarvested": "No se han cosechado cultivos.",
@@ -251,7 +251,7 @@
     "repeat": "Repetir contraseña",
     "updated": "La contraseña ha sido actualizada.",
     "min6char": "La contraseña debe tener al menos 6 caracteres de longitud.",
-    "reset": "Cambiar la contraseña",
+    "reset": "Restablecer tu contraseña",
     "resetHelp": "Introduce tu nueva contraseña a continuación."
   },
   "noSearchResults": "Sin resultados.",
@@ -451,7 +451,7 @@
     "openSettings": "Abrir ajustes",
     "needLocation": {
       "title": "farmerJoe necesita tu ubicación",
-      "description": "farmerJoe is currently not allow to access your location."
+      "description": "Actualmente no se le permite a farmerJoe acceder a tu ubicación."
     },
     "needAlwaysLocation": {
       "title": "Permiso de ubicación no concedido",
@@ -565,11 +565,11 @@
     "weUseEmail": "Utilizarás esta dirección de correo electrónico cuando inicies sesión y si alguna vez necesitas restablecer tu contraseña. Otros usuarios de farmerjoe podrán invitarte a sus Explotaciones con este correo electrónico.",
     "newsletter": "Apuntarse al boletín de farmerjoe",
     "passwordHelp": "Introduce una combinación de al menos seis números, letras y signos de puntuación (como ! y &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
+    "confrim_agb_data_security": "Al tocar \"Crear cuenta\", aceptas nuestros {0}. Conoce cómo recopilamos y usamos tus datos en nuestra {1}, y cómo utilizamos las cookies y otra tecnología similar en nuestra {2}.",
     "continueRegistration": "Continuar el registro",
     "next": "Siguiente",
     "enterEmail": "Introduce tu correo electrónico",
-    "errorEmailExist": "Another account already users this email address.",
+    "errorEmailExist": "Esta dirección de correo electrónco ya la utiliza otra cuenta.",
     "retry": "Volver a intentarlo",
     "titles": {
       "finish": "Fin del registro",
@@ -622,13 +622,17 @@
   "verifyEmailLinkExpired": "La petición para verificar tu correo electrónico ha caducado o ya se ha usado el enlace",
   "emailChangeReverted": "La dirección de correo electrónico de inicio de sesión se ha vuelto a cambiar a {{email}}.",
   "invalidActionCode": "Este código ya no es válido",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "farmerJoe no es compatible con Internet Expolorer. Utiliza un navegador compatible y moderno como Firefox, Chrome, Edge, Opera o Safari.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "header": "Claves API",
+    "generate": "Generar una nueva clave",
+    "key": "Clave",
+    "enabled": "Habilitado",
+    "description": "Las claves API te permiten integrar farmerJoe en otro software. Puedes encontrar la documentación {0}.",
+    "descriptionLink": "aquí",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

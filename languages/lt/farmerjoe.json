@@ -1,25 +1,25 @@
 {
   "data_guidelines": "duomenų politiką",
-  "cookie_policy": "Cookie Policy",
-  "info": "Info",
+  "cookie_policy": "Slapukų politika",
+  "info": "Informacija",
   "invites": {
     "reject": "Atmesti",
     "from": "Kvietimas iš {{name}}",
     "accept": "Priimti",
-    "resend": "Resend",
-    "resendDoYouReally": "Do you really want to resend the invitation?",
-    "deleteDoYouReally": "Do you really want to delete the user from the company?",
-    "noInvites": "No invitations"
+    "resend": "Persiųsti",
+    "resendDoYouReally": "Ar tikrai norite persiųsti kvietimą?",
+    "deleteDoYouReally": "Ar tikrai norite ištrinti naudotoją iš įmonės?",
+    "noInvites": "Kvietimų nėra"
   },
   "latestActivities": {
-    "tabLabel": "Latest",
-    "sceneTitle": "Latest activities",
-    "period": "Period",
-    "selectPeriod": "Select period",
-    "onlyPhotos": "Only photos",
-    "photo": "Photo",
-    "all": "All",
-    "noActivity": "No activity for the selected period"
+    "tabLabel": "Naujausia",
+    "sceneTitle": "Naujausia veikla",
+    "period": "Laikotarpis",
+    "selectPeriod": "Pasirinkite laikotarpį",
+    "onlyPhotos": "Tik nuotraukos",
+    "photo": "Nuotrauka",
+    "all": "Visa",
+    "noActivity": "Pasirinktu laikotarpiu veiklos nėra"
   },
   "invalid_email": "Netinkamas el. pašto adresas.",
   "analysis": {
@@ -28,7 +28,7 @@
     "order": "Užsakymas",
     "plantOrSowDate": "Sodinimo (sėjos) data",
     "pleaseLabelProbe": "Pažymėkite zondą!",
-    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Nepamirškite pažymėti zondo!",
     "compostType": "Komposto tipas",
     "compostAmountInTons": "Kiekis tonomis",
     "compostApplicationYear": "Išbarstymo metai",
@@ -98,14 +98,14 @@
     "pick_up_from_laboratory": "Laboratorijos mėginys",
     "pleaseFollowCurrentFertilizerRegulation": "Laikykitės dabartinės trąšų direktyvos.",
     "sampleIsTakenAccordingToRegulation": "Mėginys bus paimtas pagal dabartinės trąšų direktyvos reikalavimus.",
-    "acceptedFromLab": "{{date}} - accepted by Lab",
-    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
-    "probeTaken": "{{date}} - probe taken by Lab",
-    "sortByCrop": "By Crop",
-    "sortByLatest": "By latest",
-    "latest": "Last analyses",
-    "analysisType": "Analysis type",
-    "cancelReasonLab": "Cancelled reason: {{reason}}"
+    "acceptedFromLab": "{{date}} – priimta laboratorijos",
+    "acceptedFromLabAndCantBeCancelled": "Analizę priėmė laboratorija ir jos nebegalima atšaukti.",
+    "probeTaken": "{{date}} – zondą paėmė laboratorija",
+    "sortByCrop": "Pagal pasėlius",
+    "sortByLatest": "Pagal naujausius",
+    "latest": "Paskutinės analizės",
+    "analysisType": "Analizės tipas",
+    "cancelReasonLab": "Atšaukimo priežastis: {{reason}}"
   },
   "field": {
     "number": "Lauko numeris",
@@ -114,7 +114,7 @@
     "sendToArchive": "Archyvuoti lauką",
     "cultivate": "Apdirbti lauką",
     "harvested_on": "Derlius nuimtas {{date}}",
-    "sown_on": "Crop sown on {{date}}",
+    "sown_on": "Pasėlio sėjos data {{date}}",
     "delete": "Ištrinti lauką",
     "moveToArchive": "Laukas bus perkeltas į archyvą („Ūkis“ -> „Archyvas“)",
     "area": "Plotas",
@@ -130,10 +130,10 @@
     "toArchive": "Archyvas",
     "field": "Laukas",
     "created": "Laukas sukurtas.",
-    "history": "Field history",
-    "show": "Show field",
-    "dropFilesHere": "Drop files here",
-    "followingFilesAreUnsupported": "The following files are unsupported:"
+    "history": "Lauko istorija",
+    "show": "Rodyti lauką",
+    "dropFilesHere": "Nuvilkite failus čia",
+    "followingFilesAreUnsupported": "Šie failai nepalaikomi:"
   },
   "no_email_no_password_entered": "Neįvedėte el. pašto adreso ir slaptažodžio",
   "pleaseWaitImageIsBeingUploaded": "Palaukite. Vaizdas įkeliamas.",
@@ -150,8 +150,8 @@
     "delete": "Ištrinti ūkį",
     "qs_number": "QS numeris",
     "logo": {
-      "upload": "Select company logo",
-      "camera": "Take a new company logo"
+      "upload": "Pasirinkti įmonės logotipą",
+      "camera": "Nufotografuoti naują įmonės logotipą"
     },
     "doYouWantToDeleteCompany": "Ar tikrai norite ištrinti šį ūkį?"
   },
@@ -167,7 +167,7 @@
     "commodityItem": "Parduotuvėje",
     "planted_on": "Pasodinta",
     "stockItem": "Sandėlyje",
-    "doYouReallyWantToDeleteCrop": "Ar tikrai norite ištrinti pasėlių istoriją, įskaitant visus komentarus?",
+    "doYouReallyWantToDeleteCrop": "Ar tikrai norite ištrinti pasėlio istoriją, įskaitant visus komentarus?",
     "deleteAndWithout": "Ištrinti pasėlius (palikti neapdirbtą)",
     "resetAge": "Pasėlių amžius pradedamas nuo 0 dienų",
     "nothingHarvested": "Jokių pasėlių derlius nenuimtas.",
@@ -190,9 +190,9 @@
     "without": "Neapdirbtas",
     "cropPlanning": "Pasėlių planavimas",
     "age": "Pasėlių amžius",
-    "cropDoesntExist": "The selected crop doesn't exist.",
-    "protection": "Plant protection",
-    "activeCrops": "Active crops"
+    "cropDoesntExist": "Pasirinkto pasėlio nėra.",
+    "protection": "Augalų apsauga",
+    "activeCrops": "Aktyvūs pasėliai"
   },
   "fertilizer": {
     "fertilization": "Tręšimas",
@@ -208,7 +208,7 @@
   "no_first_last_name_entered": "Įveskite savo vardą ir pavardę.",
   "deletePhoto": "Ištrinti nuotrauką",
   "date": "Data",
-  "datePleaseSelect": "Please select date",
+  "datePleaseSelect": "Pasirinkite datą",
   "invoice": {
     "youDontHaveAddress": "Neįvedėte sąskaitų faktūrų adreso."
   },
@@ -229,7 +229,7 @@
     "doYouReallyWantToDelete": "Ar tikrai norite ištrinti laukimo trukmę?",
     "pesticide": "Pesticido pavadinimas",
     "waitTime": "Laukimo laikotarpis",
-    "waitTimeShort": "Wait time"
+    "waitTimeShort": "Laukimo laikas"
   },
   "more": "Daugiau",
   "position": "Vieta",
@@ -252,7 +252,7 @@
     "updated": "Slaptažodis atnaujintas.",
     "min6char": "Slaptažodį turi sudaryti bent 6 ženklai.",
     "reset": "Nustatykite slaptažodį iš naujo",
-    "resetHelp": "Enter your new password below."
+    "resetHelp": "Žemiau įveskite naują slaptažodį."
   },
   "noSearchResults": "Rezultatų nėra.",
   "login": "Prisijungti",
@@ -280,7 +280,7 @@
   "employee": "Darbuotojas",
   "archive": {
     "archive": "Archyvas",
-    "archivedFields": "Archived Fields",
+    "archivedFields": "Archyvuoti laukai",
     "noFieldsInArchive": "Laukų archyve nėra."
   },
   "save_as_favorite": "Išsaugoti kaip mėgstamą",
@@ -303,23 +303,23 @@
   "invoice_address": "Sąskaitų faktūrų adresas",
   "logout": "Atsijungti",
   "employees": {
-    "addEmployee": "Add Employee",
-    "noAdvisors": "No farm advisors",
-    "noDeactivatedUsers": "No deactivated users",
+    "addEmployee": "Pridėti darbuotoją",
+    "noAdvisors": "Ūkio konsultantų nėra",
+    "noDeactivatedUsers": "Išaktyvintų naudotojų nėra",
     "plural": "Darbuotojai",
-    "active": "Active",
-    "deactivated": "Deactivated",
-    "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
-    "advisors": "Advisors",
+    "active": "Aktyvūs",
+    "deactivated": "Išaktyvinti",
+    "reactivate": "Iš naujo suaktyvinti naudotoją",
+    "reactivateDoYouWant": "Ar tikrai norite iš naujo suaktyvinti naudotoją?",
+    "advisors": "Konsultantai",
     "admin": "Administratorius",
     "manage": "Valdyti darbuotojus",
     "adminRWD": "Administratorius (skaityti, rašyti, ištrinti)",
     "invitationSentOn": "Kvietimas išsiųstas {{date}}",
     "invitrationRejectedOn": "Kvietimas atmestas {{date}}",
-    "getFromPhoneBook": "Search in Phonebook",
-    "choseEmail": "Choose email",
-    "employeeIsDeactivated": "Employee is deactivated"
+    "getFromPhoneBook": "Ieškoti telefonų knygelėje",
+    "choseEmail": "Pasirinkite el. pašto adresą",
+    "employeeIsDeactivated": "Darbuotojas išaktyvintas"
   },
   "search": "Paieška",
   "satellite": "Palydovas",
@@ -342,7 +342,7 @@
   "favorites": "Mėgstami",
   "legal_data_security": "Teisinė informacija ir duomenų saugumas",
   "coordinates": "Koordinatės",
-  "deleteForAll": "Delete for all",
+  "deleteForAll": "Ištrinti visiems",
   "deletePermenantly": "Ištrinti visam laikui",
   "comment": {
     "fromField": "Komentaras iš lauko: {{name}}",
@@ -362,7 +362,7 @@
   "map": "Žemėlapiai",
   "maps": {
     "pressToSetPin": "Norėdami nustatyti vietos smeigtuką, spustelėkite žemėlapyje.",
-    "clickToShowMore": "Click to show more"
+    "clickToShowMore": "Spustelėkite, kad būtų parodyta daugiau"
   },
   "no_email_entered": "Neįvedėte el. pašto adreso.",
   "camera": "Fotoaparatas",
@@ -375,7 +375,7 @@
   "first_name": "Vardas",
   "request_new_password": "Prašyti naujo slaptažodžio",
   "register": "Kurti paskyrą",
-  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "needAFarmerJoeAccount": "Reikia „farmerJoe“ paskyros?",
   "phones": {
     "enterNumber": "Įveskite savo telefono numerį"
   },
@@ -386,9 +386,9 @@
   "settings": "Nustatymai",
   "help": "Pagalba",
   "position_company": "Ūkio vieta",
-  "position_verb": "Set location",
-  "latitude": "Latitude",
-  "longitude": "Longitude",
+  "position_verb": "Nustatyti vietą",
+  "latitude": "Platuma",
+  "longitude": "Ilguma",
   "copy": "Kopijuoti",
   "share": "Bendrinti",
   "directions": "Nurodymai",
@@ -448,187 +448,191 @@
     }
   },
   "alerts": {
-    "openSettings": "Open Settings",
+    "openSettings": "Atidaryti nustatymus",
     "needLocation": {
       "title": "Programai „farmerJoe“ reikia jūsų buvimo vietos",
       "description": "Šiuo metu programai „farmerJoe“ neleidžiama gauti jūsų buvimo vietos duomenų."
     },
     "needAlwaysLocation": {
-      "title": "Location permission not granted",
-      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+      "title": "Prieigos prie buvimo vietos teisė nesuteikta",
+      "description": "Kad galėtumėte rodyti savo buvimo vietą realiuoju laiku, „farmerJoe“ reikia nuolatinės prieigos prie jūsų buvimo vietos. Jei nesuteiksite šios teisės, šios funkcijos naudoti negalėsite."
     },
     "cantDetermineLocation": {
       "title": "Programa „farmerJoe“ negali nustatyti jūsų buvimo vietos.",
       "description": "Įjunkite telefono GPS."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Negalime pasiekti nuotraukos",
+      "description": "Suteikite prieigą, kad galėtumėte pasirinkti nuotraukas."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Negalime pasiekti fotoaparato",
+      "description": "Suteikite prieigą prie fotoaparato, jei norite fotografuoti."
     },
     "needContactsAccess": {
-      "title": "farmerJoe needs access to your contacts",
-      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+      "title": "„farmerJoe“ reikia prieigos prie jūsų adresatų",
+      "description": "Jei norite pakviesti ką nors iš savo adresų knygelės, suteikite „FarmerJoe“ prieigą prie adresatų."
     },
     "sketchNeedsStorage": {
-      "title": "farmerJoe needs storage access",
-      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
+      "title": "„farmerJoe“ reikia prieigos prie saugyklos",
+      "description": "Kad galėtume naudoti nuotrauką, mums reikia prieigos prie jūsų saugyklos. Be šio leidimo negalėsite pateikti nuotraukos."
     }
   },
   "filter": "Filtruoti",
   "acl": {
-    "view": "View",
-    "create": "Create",
-    "edit": "Edit",
-    "delete": "Delete",
-    "department": "Department",
-    "selectFields": "Select fields",
-    "CRUD": "Create, Edit, Delete",
+    "view": "Peržiūrėti",
+    "create": "Kurti",
+    "edit": "Redaguoti",
+    "delete": "Ištrinti",
+    "department": "Skyrius",
+    "selectFields": "Pasirinkti laukus",
+    "CRUD": "Kurti, redaguoti, ištrinti",
     "role": {
-      "restricted": "Restricted access",
-      "allrights": "All rights",
-      "type": "Account type",
-      "admin": "Admin",
-      "standard": "Worker",
-      "advisor": "Advisor"
+      "restricted": "Apribota prieiga",
+      "allrights": "Visos teisės",
+      "type": "Paskyros tipas",
+      "admin": "Administratorius",
+      "standard": "Darbininkas",
+      "advisor": "Konsultantas"
     },
     "user": {
-      "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
-      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
-      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
-      "cantDeleteYourself": "You can't delete yourself",
+      "delete": "Ištrinti darbuotoją",
+      "deactivate": "Išaktyvinti darbuotoją",
+      "doYouWantToDeactivateUser": "Ar norite išaktyvinti šį darbuotoją?",
+      "doYouWantToDeleteUser": "Ar tikrai norite ištrinti šį darbuotoją?",
+      "cantDeleteYourself": "Negalite ištrinti savęs",
       "alertFound": {
-        "title": "User already in company",
-        "message": "The user with this email is already existing in the company."
+        "title": "Naudotojas jau yra įmonėje",
+        "message": "Naudotojas su šiuo el. pašto adresu jau yra įmonėje."
       },
       "alertNoFields": {
-        "title": "No fields selected",
-        "message": "You need to select at least one field for the user"
+        "title": "Nepasirinkta laukų",
+        "message": "Turite pasirinkti bent vieną lauką naudotojui"
       }
     },
     "users": {
-      "users": "Employees",
-      "userRight": "The user can see other Employees in the farm."
+      "users": "Darbuotojai",
+      "userRight": "Naudotojas gali matyti kitus darbuotojus ūkyje."
     },
     "access": {
       "fieldAdminAlert": {
-        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+        "message": "Naudotojas yra administratorius ir turi prieigą prie visų laukų įmonėje. Jei norite uždrausti jo prieigą prie šio lauko ir kitų laukų, turite jį padaryti paprastu naudotoju."
       },
       "forbidFieldAlert": {
-        "message": "Do you really want to forbid {{name}} access to this field?"
+        "message": "Ar tikrai norite uždrausti {{name}} prieigą prie šio lauko?"
       },
       "grantFieldAlert": {
-        "message": "Do you really want to give {{name}} access to this field?"
+        "message": "Ar tikrai norite suteikti {{name}} prieigą prie šio lauko?"
       },
-      "alreadyHasAccess": "Already has access to field.",
-      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+      "alreadyHasAccess": "Jau turi prieigą prie lauko.",
+      "accessOnceInvitationAccepted": "Naudotojas turės prieigą, kai priims kvietimą."
     },
-    "rights": "Rights",
+    "rights": "Teisės",
     "fields": {
-      "all": "All",
-      "selected": "Only selected",
-      "selectDesc": "Select fields which the user is able to see.",
-      "standardUserRights": "The user can't create or edit fields."
+      "all": "Visi",
+      "selected": "Tik pasirinkti",
+      "selectDesc": "Pasirinkite laukus, kuriuos naudotojas galės matyti.",
+      "standardUserRights": "Naudotojas negali kurti arba redaguoti laukų."
     },
     "crops": {
-      "all": "Planted and harvested",
-      "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "all": "Pasodinta ir nuimtas derlius",
+      "active": "Tik pasodinta",
+      "standardUserRights": "Naudotojas negali kurti arba redaguoti jokių pasėlių."
     },
     "comments": {
-      "comments": "Comments",
-      "all": "All comments",
-      "selected": "Only own comments",
-      "standardUserRights": "The user can create and edit his own comments."
+      "comments": "Komentarai",
+      "all": "Visi komentarai",
+      "selected": "Tik savi komentarai",
+      "standardUserRights": "Naudotojas gali kurti ir redaguoti savus komentarus."
     },
     "fertilizing": {
-      "description": "Select below what the user is able to do with Fertilizings."
+      "description": "Toliau pasirinkite, ką naudotojas gali atlikti su tręšimais."
     },
     "waittime": {
-      "description": "Select below what the user is able to do with Wait times."
+      "description": "Toliau pasirinkite, ką naudotojas gali atlikti su laukimo laikais."
     }
   },
   "near": {
-    "by": "Near by",
-    "fields": "Nearest fields",
-    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+    "by": "Netoli",
+    "fields": "Artimiausi laukai",
+    "cantSortNoLocation": "Negalime nustatyti artimiausių laukų, nes nesuteikėte mums prieigos prie savo buvimo vietos."
   },
   "registerScreen": {
-    "startNow": "Get started",
-    "helpEasySteps": "We'll help you create an account in a few easy steps.",
-    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
-    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
-    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
-    "newsletter": "Sign up for farmerJoe's newsletter",
-    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
-    "continueRegistration": "Continue sign up",
-    "next": "Next",
-    "enterEmail": "Enter your email",
-    "errorEmailExist": "Another account already users this email address.",
-    "retry": "Retry",
+    "startNow": "Pradėkite",
+    "helpEasySteps": "Padėsime jums sukurti paskyrą keliais paprastais veiksmais.",
+    "useRealName": "Jei naudosite savo tikrąjį vardą, kolegoms bus lengviau jus atpažinti jūsų ūkiuose.",
+    "weUsePhone": "Numeris bus rodomas kolegoms jūsų ūkiuose ir jie galės jums lengvai paskambinti.",
+    "weUseEmail": "Šį el. pašto adresą naudosite prisijungdami ir jei kada nors prireiks iš naujo nustatyti slaptažodį. Kiti „farmerJoe“ naudotojai galės pakviesti jus į savo ūkius šiuo el. pašto adresu.",
+    "newsletter": "Užsiprenumeruokite „farmerJoe“ naujienlaiškį",
+    "passwordHelp": "Įveskite bent šešių skaitmenų, raidžių ir skyrybos ženklų (tokių kaip „!“ ir „&“) derinį",
+    "confrim_agb_data_security": "Paliesdami „Kurti paskyrą“ sutinkate su mūsų {0}. Sužinokite, kaip renkame ir naudojame jūsų duomenis, mūsų {1} bei sužinokite, kaip naudojame slapukus ir panašias technologijas, mūsų {2}.",
+    "continueRegistration": "Tęskite registraciją",
+    "next": "Toliau",
+    "enterEmail": "Įveskite savo el. pašto adresą",
+    "errorEmailExist": "Šis el. pašto adresas jau naudojamas kitai paskyrai.",
+    "retry": "Bandyti dar kartą",
     "titles": {
-      "finish": "Finish signing up",
-      "haveAnAccount": "Already have an account",
-      "join": "Join farmerJoe",
-      "password": "Create a password",
-      "whatIsYourName": "What's your name?",
-      "whatIsYourPhoneNumber": "What's your mobile number?",
-      "whatIsYourEmailAddress": "What's your email address?",
-      "creating": "Your account is being created."
+      "finish": "Baikite registraciją",
+      "haveAnAccount": "Jau turite paskyrą",
+      "join": "Prisijunkite prie „farmerJoe“",
+      "password": "Sukurkite slaptažodį",
+      "whatIsYourName": "Koks jūsų vardas?",
+      "whatIsYourPhoneNumber": "Koks jūsų mobiliojo telefono numeris?",
+      "whatIsYourEmailAddress": "Koks jūsų el. pašto adresas?",
+      "creating": "Jūsų paskyra kuriama."
     }
   },
   "location": {
-    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
-    "sharedWithFarm": "Position is being shared with this farm.",
-    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
-    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "farmCanSeeYourLocation": "Visi ūkyje gali matyti jūsų buvimo vietą",
+    "sharedWithFarm": "Buvimo vieta rodoma šiame ūkyje.",
+    "letColleaguesSeeYourLocationLabel": "Leiskite kolegoms žinoti, kur esate",
+    "letColleaguesSeeYourLocationDesc": "Rodykite savo buvimo vietą realiuoju laiku kolegoms šiame ūkyje.",
     "forX": {
       "x_minutes": {
-        "one": "For {{count}} minute",
-        "other": "For {{count}} minutes"
+        "one": "{{count}} min.",
+        "other": "{{count}} min."
       },
       "x_hours": {
-        "other": "For {{count}} hours",
-        "one": "For 1 hour"
+        "other": "{{count}} val.",
+        "one": "1 val."
       },
       "x_days": {
-        "other": "For {{count}} days",
-        "one": "For 1 day"
+        "other": "{{count}} d.",
+        "one": "1 d."
       }
     },
-    "untilTurnedOff": "Until you turn this off",
-    "shareNow": "Share now",
-    "turnOff": "Turn off",
-    "emailLog": "Email location log"
+    "untilTurnedOff": "Kol išjungsite",
+    "shareNow": "Padaryti matomą dabar",
+    "turnOff": "Išjungti",
+    "emailLog": "Siųsti vietų žurnalą el. paštu"
   },
   "report": {
-    "issue": "Report issue"
+    "issue": "Pranešti apie problemą"
   },
-  "no_company_selected": "No company selected",
-  "no_field_selected": "No field selected",
-  "invalid_phone_number": "invalid phone number",
-  "close": "close",
-  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
-  "refresh": "Refresh",
-  "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "no_company_selected": "Nepasirinkta įmonė",
+  "no_field_selected": "Nepasirinktas laukas",
+  "invalid_phone_number": "netinkamas telefono numeris",
+  "close": "uždaryti",
+  "errorMessage": "Oi, taip neturėjo nutikti. Pranešta kūrėjų komandai.",
+  "refresh": "Atnaujinti",
+  "remoteSupport": "Nuotolinės pagalbos užklausa",
+  "screenTooSmall": "Jūsų ekranas per mažas. Naudokite „iOS“ arba „Android“ skirtą programą.",
   "emailVerified": "Jūsų el. pašto adresas patvirtintas",
-  "resetPasswordLinkExpired": "Jūsų užklausa pakeisti slaptažodį nebegalioja arba nuoroda jau buvo panaudota",
+  "resetPasswordLinkExpired": "Jūsų užklausa iš naujo nustatyti slaptažodį nebegalioja arba nuoroda jau buvo panaudota",
   "verifyEmailLinkExpired": "Jūsų užklausa patvirtinti el. pašto adresą nebegalioja arba nuoroda jau buvo panaudota",
   "emailChangeReverted": "Prisijungimo el. pašto adresas pakeistas į pirminį – {{email}}.",
   "invalidActionCode": "Šis kodas nebegalioja",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "„farmerJoe“ nepalaiko naršyklės „Internet Explorer“. Naudokite modernią ir palaikomą naršyklę, pvz., „Firefox“, „Chrome“, „Edge“, „Opera“ arba „Safari“.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "header": "API raktai",
+    "generate": "Generuoti naują raktą",
+    "key": "Raktas",
+    "enabled": "Įgalinta",
+    "description": "Naudodami API raktus galite integruoti „farmerJoe“ į kitą programinę įrangą. Dokumentaciją galite rasti {0}.",
+    "descriptionLink": "čia",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

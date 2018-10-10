@@ -565,7 +565,7 @@
     "weUseEmail": "سوف تستخدم هذا البريد الإلكتروني عند تسجيل الدخول وإذا احتجت إلى إعادة تعيين كلمة المرور. وسيكون بإمكان مستخدمي farmerJoe الآخرين دعوتك إلى مزارعهم باستخدام هذا البريد الإلكتروني.",
     "newsletter": "سجّل في الرسائل الإخبارية لـ farmerJoe",
     "passwordHelp": "أدخل توليفة من ست أرقام وحروف وعلامات ترقيم على الأقل (مثل ! و&)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
+    "confrim_agb_data_security": "من خلال لمس \"إنشاء حساب\"، فإنك توافق على {0} الخاص بنا. تعرّف كيف نجمع بياناتك ونستخدمها في {1}، وكيف نستخدم ملفات تعريف الارتباط والتقنية المماثلة في {2}.",
     "continueRegistration": "مواصلة التسجيل",
     "next": "التالي",
     "enterEmail": "أدخل بريدك الإلكتروني",
@@ -629,6 +629,10 @@
     "key": "Key",
     "enabled": "Enabled",
     "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "descriptionLink": "here",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

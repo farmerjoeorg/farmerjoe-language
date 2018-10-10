@@ -1,25 +1,25 @@
 {
   "data_guidelines": "Pravilnik za podatke",
-  "cookie_policy": "Cookie Policy",
-  "info": "Info",
+  "cookie_policy": "Politika piškotkov",
+  "info": "Infor.",
   "invites": {
     "reject": "Zavrni",
     "from": "Povabilo od osebe {{name}}",
     "accept": "Sprejmi",
-    "resend": "Resend",
-    "resendDoYouReally": "Do you really want to resend the invitation?",
-    "deleteDoYouReally": "Do you really want to delete the user from the company?",
-    "noInvites": "No invitations"
+    "resend": "Pošlji znova",
+    "resendDoYouReally": "Res želite znova poslati povabilo?",
+    "deleteDoYouReally": "Res želite izbrisati uporabnika iz podjetja?",
+    "noInvites": "Ni povabil"
   },
   "latestActivities": {
-    "tabLabel": "Latest",
-    "sceneTitle": "Latest activities",
-    "period": "Period",
-    "selectPeriod": "Select period",
-    "onlyPhotos": "Only photos",
-    "photo": "Photo",
-    "all": "All",
-    "noActivity": "No activity for the selected period"
+    "tabLabel": "Najnovejše",
+    "sceneTitle": "Zadnje dejavnosti",
+    "period": "Obdobje",
+    "selectPeriod": "Izberite obdobje",
+    "onlyPhotos": "Samo fotografije",
+    "photo": "Foto.",
+    "all": "Vse",
+    "noActivity": "Ni dejavnosti za izbrano obdobje"
   },
   "invalid_email": "E-poštni naslov ni veljaven.",
   "analysis": {
@@ -28,7 +28,7 @@
     "order": "Naroči",
     "plantOrSowDate": "Datum sajenja/žetve",
     "pleaseLabelProbe": "Označite vzorec!",
-    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Ne pozabite označiti vzorca.",
     "compostType": "Vrsta komposta",
     "compostAmountInTons": "Količina v tonah",
     "compostApplicationYear": "Leto uporabe",
@@ -98,14 +98,14 @@
     "pick_up_from_laboratory": "Lab. vzorec",
     "pleaseFollowCurrentFertilizerRegulation": "Upoštevajte aktualno direktivo o gnojilih.",
     "sampleIsTakenAccordingToRegulation": "Vzorec bo odvzet glede na zahteve aktualne direktive o gnojilih.",
-    "acceptedFromLab": "{{date}} - accepted by Lab",
-    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
-    "probeTaken": "{{date}} - probe taken by Lab",
-    "sortByCrop": "By Crop",
-    "sortByLatest": "By latest",
-    "latest": "Last analyses",
-    "analysisType": "Analysis type",
-    "cancelReasonLab": "Cancelled reason: {{reason}}"
+    "acceptedFromLab": "{{date}} - sprejem v laboratorij",
+    "acceptedFromLabAndCantBeCancelled": "Analiza je bila sprejeta v laboratorij, preklic ni več mogoč.",
+    "probeTaken": "{{date}} - sprejem vzorca v laboratorij",
+    "sortByCrop": "Kultura",
+    "sortByLatest": "Najnovejše",
+    "latest": "Zadnja analiza",
+    "analysisType": "Vrsta analize",
+    "cancelReasonLab": "Razlog za preklic: {{reason}}"
   },
   "field": {
     "number": "Številka polja",
@@ -114,7 +114,7 @@
     "sendToArchive": "Arhiviranje polja",
     "cultivate": "Obdelovanje polja",
     "harvested_on": "Žetev opravljena {{date}}",
-    "sown_on": "Crop sown on {{date}}",
+    "sown_on": "Datum žetve {{date}}",
     "delete": "Izbriši polje",
     "moveToArchive": "Polje bo premaknjeno v arhiv. (Polje -> Arhiv)",
     "area": "Območje",
@@ -130,10 +130,10 @@
     "toArchive": "Arhiv",
     "field": "Polje",
     "created": "Polje je bilo ustvarjeno.",
-    "history": "Field history",
-    "show": "Show field",
-    "dropFilesHere": "Drop files here",
-    "followingFilesAreUnsupported": "The following files are unsupported:"
+    "history": "Zgodovina polja",
+    "show": "Prikaži polje",
+    "dropFilesHere": "Spustite datoteko tukaj",
+    "followingFilesAreUnsupported": "Te datoteke niso podprte:"
   },
   "no_email_no_password_entered": "Niste vnesli e-pošte in gesla",
   "pleaseWaitImageIsBeingUploaded": "Poteka nalaganja slike",
@@ -150,8 +150,8 @@
     "delete": "Izbriši farmo",
     "qs_number": "Številka QS",
     "logo": {
-      "upload": "Select company logo",
-      "camera": "Take a new company logo"
+      "upload": "Izberite logotip podjetja",
+      "camera": "Zajem novega logotipa podjetja"
     },
     "doYouWantToDeleteCompany": "Res želite izbrisati to farmo?"
   },
@@ -190,9 +190,9 @@
     "without": "Brez poljščin",
     "cropPlanning": "Načrtovanje setve",
     "age": "Starost poljščine",
-    "cropDoesntExist": "The selected crop doesn't exist.",
-    "protection": "Plant protection",
-    "activeCrops": "Active crops"
+    "cropDoesntExist": "Izbrani pridelek ne obstaja.",
+    "protection": "Zaščita rastlin",
+    "activeCrops": "Trenutni pridelki"
   },
   "fertilizer": {
     "fertilization": "Gnojenje",
@@ -208,7 +208,7 @@
   "no_first_last_name_entered": "Vnesite svoje ime in priimek.",
   "deletePhoto": "Izbriši sliko",
   "date": "Datum",
-  "datePleaseSelect": "Please select date",
+  "datePleaseSelect": "Izberite datum",
   "invoice": {
     "youDontHaveAddress": "Niste vnesli naslova za izstavitev računa."
   },
@@ -229,7 +229,7 @@
     "doYouReallyWantToDelete": "Res želite izbrisati čakalni čas?",
     "pesticide": "Ime pesticida",
     "waitTime": "Čakalna doba",
-    "waitTimeShort": "Wait time"
+    "waitTimeShort": "Čakalni čas"
   },
   "more": "Več",
   "position": "Lokacija",
@@ -252,7 +252,7 @@
     "updated": "Geslo posodobljeno.",
     "min6char": "Geslo mora biti dolgo najmanj 6 znakov.",
     "reset": "Ponastavitev gesla",
-    "resetHelp": "Enter your new password below."
+    "resetHelp": "Vnesite novo geslo spodaj."
   },
   "noSearchResults": "Ni rezultatov.",
   "login": "Prijava",
@@ -280,7 +280,7 @@
   "employee": "Uslužbenec",
   "archive": {
     "archive": "Arhiv",
-    "archivedFields": "Archived Fields",
+    "archivedFields": "Arhivirana polja",
     "noFieldsInArchive": "Ni arhiviranih polj."
   },
   "save_as_favorite": "Shrani kot priljubljeno",
@@ -303,23 +303,23 @@
   "invoice_address": "Naslov za izstavitev računa",
   "logout": "Odjava",
   "employees": {
-    "addEmployee": "Add Employee",
-    "noAdvisors": "No farm advisors",
-    "noDeactivatedUsers": "No deactivated users",
+    "addEmployee": "Dodaj zaposlenega",
+    "noAdvisors": "Ni kmetijskih svetovalcev",
+    "noDeactivatedUsers": "Ni deaktiviranih uporabnikov",
     "plural": "Zaposleni",
-    "active": "Active",
-    "deactivated": "Deactivated",
-    "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
-    "advisors": "Advisors",
+    "active": "Aktivni",
+    "deactivated": "Neaktivni",
+    "reactivate": "Znova aktiviraj uporabnika",
+    "reactivateDoYouWant": "Res želite aktivirati uporabnika?",
+    "advisors": "Svetovalci",
     "admin": "Skrbnik",
     "manage": "Upravljanje uporabnikov",
     "adminRWD": "Skrbnik (branje, pisanje, brisanje)",
     "invitationSentOn": "Povabilo poslano dne {{date}}",
     "invitrationRejectedOn": "Povabilo zavrnjeno dne {{date}}",
-    "getFromPhoneBook": "Search in Phonebook",
-    "choseEmail": "Choose email",
-    "employeeIsDeactivated": "Employee is deactivated"
+    "getFromPhoneBook": "Iskanje v imeniku",
+    "choseEmail": "Izberite e-poštni naslov",
+    "employeeIsDeactivated": "Zaposleni je deaktiviran"
   },
   "search": "Iskanje",
   "satellite": "Satelit",
@@ -342,7 +342,7 @@
   "favorites": "Priljubljene",
   "legal_data_security": "Pravne informacije in varnost podatkov",
   "coordinates": "Koordinate",
-  "deleteForAll": "Delete for all",
+  "deleteForAll": "Izbriši za vse",
   "deletePermenantly": "Trajno izbriši",
   "comment": {
     "fromField": "Opombe za polje: {{name}}",
@@ -362,7 +362,7 @@
   "map": "Zemljividi",
   "maps": {
     "pressToSetPin": "Dotaknite se zemljevida, da nastavite lokacijo.",
-    "clickToShowMore": "Click to show more"
+    "clickToShowMore": "Kliknite za prikaz več informacij"
   },
   "no_email_entered": "Niste vnesli e-poštnega naslova.",
   "camera": "Fotoaparat",
@@ -375,7 +375,7 @@
   "first_name": "Ime",
   "request_new_password": "Zahteva za novo geslo",
   "register": "Ustvari račun",
-  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "needAFarmerJoeAccount": "Potrebujete račun za aplikacijo farmerJoe?",
   "phones": {
     "enterNumber": "Vnesite svojo telefonsko številko"
   },
@@ -386,9 +386,9 @@
   "settings": "Nastavitve",
   "help": "Pomoč",
   "position_company": "Lokacije farme",
-  "position_verb": "Set location",
-  "latitude": "Latitude",
-  "longitude": "Longitude",
+  "position_verb": "Nastavi lokacijo",
+  "latitude": "Zem. širina",
+  "longitude": "Zem. dolžina",
   "copy": "Kopiraj",
   "share": "Sk. raba",
   "directions": "Napotki za pot",
@@ -448,187 +448,191 @@
     }
   },
   "alerts": {
-    "openSettings": "Open Settings",
+    "openSettings": "Odpri nastavitve",
     "needLocation": {
       "title": "Aplikacija farmerJoe potrebuje dostop do vaše lokacije",
       "description": "Aplikacija farmerJoe nima dostopa do vaše trenutne lokacije."
     },
     "needAlwaysLocation": {
-      "title": "Location permission not granted",
-      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+      "title": "Dostop do lokacije ni odobren",
+      "description": "Če želite deliti trenutno loacijo, morate aplikaciji farmerJoe dovoliti dostop do vaše lokacije. Če ne dovolite dostopa, ta funkcija ne bo delovala."
     },
     "cantDetermineLocation": {
       "title": "Aplikacija farmerJoe ne najde vaše trenutne lokacije.",
       "description": "Vklopite funkcijo GPS v telefonu."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Dostop do slik ni mogoč",
+      "description": "Dovolite dostop, če želite izbrati slike."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Dostop do kamere ni mogoč",
+      "description": "Dovolite dostop do kamere, če želite posneti fotografije."
     },
     "needContactsAccess": {
-      "title": "farmerJoe needs access to your contacts",
-      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+      "title": "Aplikacija farmerJoe potrebuje dostop do vaših stikov",
+      "description": "Če želite povabiti osebe iz imenika, dovolite aplikaciji farmerJoe dostop do stikov."
     },
     "sketchNeedsStorage": {
-      "title": "farmerJoe needs storage access",
-      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
+      "title": "Aplikacija farmerJoe potrebuje dostop do shrambe",
+      "description": "Če želite omogočiti spreminjanje slike, potrebuje aplikacija dostop do shrambe. Brez dovoljenja za dostop ne boste mogli poslati slike."
     }
   },
   "filter": "Filter",
   "acl": {
-    "view": "View",
-    "create": "Create",
-    "edit": "Edit",
-    "delete": "Delete",
-    "department": "Department",
-    "selectFields": "Select fields",
-    "CRUD": "Create, Edit, Delete",
+    "view": "Ogled",
+    "create": "Ustvari",
+    "edit": "Uredi",
+    "delete": "Izbriši",
+    "department": "Oddelek",
+    "selectFields": "Izberite polja",
+    "CRUD": "Ustvari, uredi, izbriši",
     "role": {
-      "restricted": "Restricted access",
-      "allrights": "All rights",
-      "type": "Account type",
-      "admin": "Admin",
-      "standard": "Worker",
-      "advisor": "Advisor"
+      "restricted": "Omejen dostop",
+      "allrights": "Vse pravice",
+      "type": "Vrsta računa",
+      "admin": "Skrbnik",
+      "standard": "Zaposleni",
+      "advisor": "Svetovalec"
     },
     "user": {
-      "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
-      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
-      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
-      "cantDeleteYourself": "You can't delete yourself",
+      "delete": "Izbriši zaposlenega",
+      "deactivate": "Deaktiviraj zaposlenega",
+      "doYouWantToDeactivateUser": "Želite deaktivirati tega zaposlenega?",
+      "doYouWantToDeleteUser": "Res želite izbrisati tega zaposlenega?",
+      "cantDeleteYourself": "Sebe ne morete izbrisati",
       "alertFound": {
-        "title": "User already in company",
-        "message": "The user with this email is already existing in the company."
+        "title": "Uporabnik je že v podjetju",
+        "message": "Uporabnik s tem e-poštnim naslovom že obstaja v podjetju."
       },
       "alertNoFields": {
-        "title": "No fields selected",
-        "message": "You need to select at least one field for the user"
+        "title": "Ni izbranih polj",
+        "message": "Za uporabnika morate izbrati vsaj eno polje"
       }
     },
     "users": {
-      "users": "Employees",
-      "userRight": "The user can see other Employees in the farm."
+      "users": "Zaposleni",
+      "userRight": "Uporabnik lahko vidi seznam zaposlenih na farmi."
     },
     "access": {
       "fieldAdminAlert": {
-        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+        "message": "Uporabnik ima pravice skrbnika in ima dostop do vseh polj v podjetju. Če želite omejiti dostop do tega polja in drugih polj, morate uporabniki odvzeti skrbniške pravice."
       },
       "forbidFieldAlert": {
-        "message": "Do you really want to forbid {{name}} access to this field?"
+        "message": "Res želite uporabniku {{name}} omejiti dostop do tega polja?"
       },
       "grantFieldAlert": {
-        "message": "Do you really want to give {{name}} access to this field?"
+        "message": "Res želite uporabniku {{name}} dovoliti dostop do tega polja?"
       },
-      "alreadyHasAccess": "Already has access to field.",
-      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+      "alreadyHasAccess": "Že ima dostop do polja.",
+      "accessOnceInvitationAccepted": "Uporabnik bo imel dostop po potrditvi povabila."
     },
-    "rights": "Rights",
+    "rights": "Pravice",
     "fields": {
-      "all": "All",
-      "selected": "Only selected",
-      "selectDesc": "Select fields which the user is able to see.",
-      "standardUserRights": "The user can't create or edit fields."
+      "all": "Vse",
+      "selected": "Samo izbrana",
+      "selectDesc": "Izberite polja, ki so vidna uporabniku.",
+      "standardUserRights": "Uporabnik ne more ustvariti ali urejati polj."
     },
     "crops": {
-      "all": "Planted and harvested",
-      "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "all": "Posajeno in obdelano",
+      "active": "Samo posajeno",
+      "standardUserRights": "Uporabnik ne more ustvariti ali urejati pridelkov."
     },
     "comments": {
-      "comments": "Comments",
-      "all": "All comments",
-      "selected": "Only own comments",
-      "standardUserRights": "The user can create and edit his own comments."
+      "comments": "Opombe",
+      "all": "Vse opombe",
+      "selected": "Samo lastne opombe",
+      "standardUserRights": "Uporabnik lahko ustvari ali ureja svoje opombe."
     },
     "fertilizing": {
-      "description": "Select below what the user is able to do with Fertilizings."
+      "description": "Izberite možnosti za uporabnika za uporabo gnojil."
     },
     "waittime": {
-      "description": "Select below what the user is able to do with Wait times."
+      "description": "Izberite možnosti za uporabnika za čakalne dobe."
     }
   },
   "near": {
-    "by": "Near by",
-    "fields": "Nearest fields",
-    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+    "by": "V bližini",
+    "fields": "Bližnja polja",
+    "cantSortNoLocation": "Razvrstitev po bližnjih poljih ni mogoča, ker aplikaciji niste dovolili dostopa do lokacije."
   },
   "registerScreen": {
-    "startNow": "Get started",
-    "helpEasySteps": "We'll help you create an account in a few easy steps.",
-    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
-    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
-    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
-    "newsletter": "Sign up for farmerJoe's newsletter",
-    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
-    "continueRegistration": "Continue sign up",
-    "next": "Next",
-    "enterEmail": "Enter your email",
-    "errorEmailExist": "Another account already users this email address.",
-    "retry": "Retry",
+    "startNow": "Začetek",
+    "helpEasySteps": "Pomagali vam bomo ustvariti račun v nekaj preprostih korakih.",
+    "useRealName": "Z uporabo pravega imena vas lahko sodelavci lažje prepoznajo v farmah.",
+    "weUsePhone": "Štavilka bo vidna vašim sodelavcem v farmah in omogoča preprosto klicanje.",
+    "weUseEmail": "Vaš e-poštni naslov je za prijavo v aplikacijo in za ponastavitev gesla. Drugi uporabniki aplikacije farmerJoe vas lahko povabijo v svoje farme s povabilom na vaš e-poštni naslov.",
+    "newsletter": "Prijavite se na novice farmerJoe",
+    "passwordHelp": "Vnesite kombinacijo vsaj 6 številk, črk in ločil (npr. ! in &)",
+    "confrim_agb_data_security": "S klikom »Ustvari račun« se strinjate z našo {0}. Več o tem, kako zbiramo in obdelujemo vaše podatke, si lahko preberete v {1}, politika piškotkov in sorodnih tehnologij je opisana v naši {2}.",
+    "continueRegistration": "Nadaljuj z registracijo",
+    "next": "Naprej",
+    "enterEmail": "Vpišite vaš e-poštni naslov",
+    "errorEmailExist": "Uporabnik s tem e-poštnim naslovom že obstaja.",
+    "retry": "Znova",
     "titles": {
-      "finish": "Finish signing up",
-      "haveAnAccount": "Already have an account",
-      "join": "Join farmerJoe",
-      "password": "Create a password",
-      "whatIsYourName": "What's your name?",
-      "whatIsYourPhoneNumber": "What's your mobile number?",
-      "whatIsYourEmailAddress": "What's your email address?",
-      "creating": "Your account is being created."
+      "finish": "Dokončaj registracijo",
+      "haveAnAccount": "Že imam račun",
+      "join": "Pridružite se v aplikaciji farmerJoe",
+      "password": "Ustvari geslo",
+      "whatIsYourName": "Vaše ime?",
+      "whatIsYourPhoneNumber": "Vaša telefonska številka?",
+      "whatIsYourEmailAddress": "Vaš e-poštni naslov?",
+      "creating": "Vaš račun je ustvarjen."
     }
   },
   "location": {
-    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
-    "sharedWithFarm": "Position is being shared with this farm.",
-    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
-    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "farmCanSeeYourLocation": "Vsi na farmi lahko vidijo vašo lokacijo",
+    "sharedWithFarm": "Vaša lokacija je vidna tej farmi.",
+    "letColleaguesSeeYourLocationLabel": "Omogočite sodelavcem vpogled v vašo lokacijo",
+    "letColleaguesSeeYourLocationDesc": "Delite svojo lokacijo v živo s sodelavci na tej farmi.",
     "forX": {
       "x_minutes": {
-        "one": "For {{count}} minute",
-        "other": "For {{count}} minutes"
+        "one": "Za {{count}} minuto",
+        "other": "Za {{count}} minut"
       },
       "x_hours": {
-        "other": "For {{count}} hours",
-        "one": "For 1 hour"
+        "other": "Za {{count}} ur",
+        "one": "Za 1 uro"
       },
       "x_days": {
-        "other": "For {{count}} days",
-        "one": "For 1 day"
+        "other": "Za {{count}} dni",
+        "one": "Za 1 dan"
       }
     },
-    "untilTurnedOff": "Until you turn this off",
-    "shareNow": "Share now",
-    "turnOff": "Turn off",
-    "emailLog": "Email location log"
+    "untilTurnedOff": "Do izklopa",
+    "shareNow": "Delite zdaj",
+    "turnOff": "Izklop",
+    "emailLog": "Pošlji e-pošto z dnevnikom lokacij"
   },
   "report": {
-    "issue": "Report issue"
+    "issue": "Prijavi težavo"
   },
-  "no_company_selected": "No company selected",
-  "no_field_selected": "No field selected",
-  "invalid_phone_number": "invalid phone number",
-  "close": "close",
-  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
-  "refresh": "Refresh",
-  "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "no_company_selected": "Ni izbranega podjetja",
+  "no_field_selected": "Ni izbranih polj",
+  "invalid_phone_number": "neveljavna telefonska številka",
+  "close": "zapri",
+  "errorMessage": "Do te napake ne bi smelo priti. Razvijalska ekipa je bila obveščena o napaki.",
+  "refresh": "Osveži",
+  "remoteSupport": "Zahteva za oddaljeno pomoč",
+  "screenTooSmall": "Vaš zaslon je premajhen. Uporabite aplikacijo za sistem iOS ali Android.",
   "emailVerified": "E-poštni naslov je bil preverjen",
   "resetPasswordLinkExpired": "Vaša zahteva za ponastavitev gesla je potekla ali pa je bila povezava že uporabljena",
   "verifyEmailLinkExpired": "Vaša zahteva za preverjanje e-poštnega naslova je potekla ali pa je bila povezava že uporabljena",
   "emailChangeReverted": "Vaš e-poštni naslov za prijavo je bil spremenjen nazaj v {{email}}.",
   "invalidActionCode": "Ta koda ni več veljavna",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "Aplikacija farmerJoe ne podpira brskalnika Internet Explorer. Uporabite novejši in združljiv brskalnik, npr. Firefox, Chrome, Edge, Opera ali Safari.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "header": "Ključi API",
+    "generate": "Ustvari nov ključ",
+    "key": "Ključ",
+    "enabled": "Omogočen",
+    "description": "Ključi API omogočajo povezljivost aplikacije farmerJoe z drugo programsko opremo. Dokumentacijo za to najdete na {0}.",
+    "descriptionLink": "tukaj",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

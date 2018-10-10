@@ -1,25 +1,25 @@
 {
   "data_guidelines": "Adatvédelmi irányelv",
-  "cookie_policy": "Cookie Policy",
+  "cookie_policy": "Süti irányelv",
   "info": "Info",
   "invites": {
     "reject": "Hulladék",
     "from": "Meghívó tőle: {{name}}",
     "accept": "Elfogadja",
-    "resend": "Resend",
-    "resendDoYouReally": "Do you really want to resend the invitation?",
-    "deleteDoYouReally": "Do you really want to delete the user from the company?",
-    "noInvites": "No invitations"
+    "resend": "Újraküldés",
+    "resendDoYouReally": "Tényleg szeretné a felkérést újra elküldeni?",
+    "deleteDoYouReally": "Biztosan törli a felhasználót a cégből?",
+    "noInvites": "Nincs meghívás"
   },
   "latestActivities": {
-    "tabLabel": "Latest",
-    "sceneTitle": "Latest activities",
-    "period": "Period",
-    "selectPeriod": "Select period",
-    "onlyPhotos": "Only photos",
-    "photo": "Photo",
-    "all": "All",
-    "noActivity": "No activity for the selected period"
+    "tabLabel": "Legújabb",
+    "sceneTitle": "Legfrissebb tevékenységek",
+    "period": "Időszak",
+    "selectPeriod": "Válasszon időszakot",
+    "onlyPhotos": "Csak fényképek",
+    "photo": "Fénykép",
+    "all": "Minden",
+    "noActivity": "A kiválasztott időszakban nincs tevékenység"
   },
   "invalid_email": "Az e-mail cím érvénytelen.",
   "analysis": {
@@ -28,7 +28,7 @@
     "order": "Megrendelés",
     "plantOrSowDate": "Ültetés/vetés napja",
     "pleaseLabelProbe": "Kérjük, címkézze a mintát!",
-    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Kérjük ne felejtse el felcímkézni a mintát!",
     "compostType": "Komposzt típusa",
     "compostAmountInTons": "Mennyiség tonnában",
     "compostApplicationYear": "Alkalmazás éve",
@@ -98,14 +98,14 @@
     "pick_up_from_laboratory": "Labor minta",
     "pleaseFollowCurrentFertilizerRegulation": "Kérjük, kövesse a trágyázásra vonatkozó utasítást.",
     "sampleIsTakenAccordingToRegulation": "A trágyázási utasításnak megfelelően kell mintát venni.",
-    "acceptedFromLab": "{{date}} - accepted by Lab",
-    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
-    "probeTaken": "{{date}} - probe taken by Lab",
-    "sortByCrop": "By Crop",
-    "sortByLatest": "By latest",
-    "latest": "Last analyses",
-    "analysisType": "Analysis type",
-    "cancelReasonLab": "Cancelled reason: {{reason}}"
+    "acceptedFromLab": "{{date}} - a laboratórium elfogadta",
+    "acceptedFromLabAndCantBeCancelled": "Az elemzést a laboratórium elfogadta, és többé már nem lehet törölni.",
+    "probeTaken": "{{date}} - a laboratórium által vett minta",
+    "sortByCrop": "Haszonnövényenként",
+    "sortByLatest": "A legújabb szerint",
+    "latest": "A legújabb elemzések",
+    "analysisType": "Elemzés típusa",
+    "cancelReasonLab": "Törölt ok: {{reason}}"
   },
   "field": {
     "number": "Mező száma",
@@ -114,7 +114,7 @@
     "sendToArchive": "Mező archiválása",
     "cultivate": "Mező megművelése",
     "harvested_on": "Betakarítás kelte {{date}}",
-    "sown_on": "Crop sown on {{date}}",
+    "sown_on": "Haszonnövény vetése ekkor: {{date}}",
     "delete": "Mező törlése",
     "moveToArchive": "A mező az archívumba kerül. (Farm -> Archívum)",
     "area": "Terület",
@@ -130,10 +130,10 @@
     "toArchive": "Archív",
     "field": "Mező",
     "created": "A mező létrejött.",
-    "history": "Field history",
-    "show": "Show field",
-    "dropFilesHere": "Drop files here",
-    "followingFilesAreUnsupported": "The following files are unsupported:"
+    "history": "Szántóföld eseménynapló",
+    "show": "Szántóföld megjelenítése",
+    "dropFilesHere": "Húzza ide a fájlokat",
+    "followingFilesAreUnsupported": "A következő fájlok nem támogatottak:"
   },
   "no_email_no_password_entered": "Nem adott meg e-mailt és jelszót",
   "pleaseWaitImageIsBeingUploaded": "Kérem várjon, a kép feltöltésre kerül",
@@ -150,8 +150,8 @@
     "delete": "Gazdaság törlése",
     "qs_number": "QS szám",
     "logo": {
-      "upload": "Select company logo",
-      "camera": "Take a new company logo"
+      "upload": "Válasszon cég logót",
+      "camera": "Fogadja el a cég új logóját"
     },
     "doYouWantToDeleteCompany": "Tényleg törölni szeretné a gazdaságot?"
   },
@@ -190,9 +190,9 @@
     "without": "Kultúra nélkül",
     "cropPlanning": "kulturális tervezés",
     "age": "Kultúra Age",
-    "cropDoesntExist": "The selected crop doesn't exist.",
-    "protection": "Plant protection",
-    "activeCrops": "Active crops"
+    "cropDoesntExist": "A kiválasztott haszonnövény nem létezik.",
+    "protection": "Növényvédelem",
+    "activeCrops": "Aktív haszonnövények"
   },
   "fertilizer": {
     "fertilization": "termékenyítés",
@@ -208,7 +208,7 @@
   "no_first_last_name_entered": "Kérjük, adja meg kereszt- és vezetéknevét.",
   "deletePhoto": "Kép törlése",
   "date": "Dátum",
-  "datePleaseSelect": "Please select date",
+  "datePleaseSelect": "Válasszon dátumot",
   "invoice": {
     "youDontHaveAddress": "Nem adott meg számlázási címet."
   },
@@ -229,7 +229,7 @@
     "doYouReallyWantToDelete": "Tényleg törölni szeretné a várakozási időt?",
     "pesticide": "Növényvédő szer neve",
     "waitTime": "Várakozási idő",
-    "waitTimeShort": "Wait time"
+    "waitTimeShort": "Várakozási idő"
   },
   "more": "Több",
   "position": "Pozíció",
@@ -252,7 +252,7 @@
     "updated": "A jelszó frissítve.",
     "min6char": "A jelszónak legalább 6 karakter hosszúnak kell lennie.",
     "reset": "Jelszó visszaállítása",
-    "resetHelp": "Enter your new password below."
+    "resetHelp": "Adja meg alább az új jelszót."
   },
   "noSearchResults": "Nincs eredmény.",
   "login": "bejelentkezés",
@@ -280,7 +280,7 @@
   "employee": "munkavállaló",
   "archive": {
     "archive": "levéltár",
-    "archivedFields": "Archived Fields",
+    "archivedFields": "Archivált mezők",
     "noFieldsInArchive": "Nincsenek archív mezők."
   },
   "save_as_favorite": "Mentés kedvencként",
@@ -303,23 +303,23 @@
   "invoice_address": "számlázási cím",
   "logout": "Kilépés",
   "employees": {
-    "addEmployee": "Add Employee",
-    "noAdvisors": "No farm advisors",
-    "noDeactivatedUsers": "No deactivated users",
+    "addEmployee": "Alkalmazott hozzáadása",
+    "noAdvisors": "Nincs mezőgazdasági tanácsadó",
+    "noDeactivatedUsers": "Nincs inaktivált felhasználó",
     "plural": "Alkalmazottak",
-    "active": "Active",
-    "deactivated": "Deactivated",
-    "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
-    "advisors": "Advisors",
+    "active": "Aktív",
+    "deactivated": "Inaktivált",
+    "reactivate": "Felhasználó újraaktiválása",
+    "reactivateDoYouWant": "Igazán szeretné újraaktiválni a felhasználót?",
+    "advisors": "Tanácsadók",
     "admin": "adminisztrátor",
     "manage": "Alkalmazottak kezelése",
     "adminRWD": "Rendszergazda (olvasás, írás, törlés)",
     "invitationSentOn": "Felszólítás kiküldve ekkor: {{date}}",
     "invitrationRejectedOn": "Felszólítás elutasítva ekkor: {{date}}",
-    "getFromPhoneBook": "Search in Phonebook",
-    "choseEmail": "Choose email",
-    "employeeIsDeactivated": "Employee is deactivated"
+    "getFromPhoneBook": "Keresés a telefonkönyvben",
+    "choseEmail": "Válasszon e-mail-t",
+    "employeeIsDeactivated": "Az alkalmazott inaktivált"
   },
   "search": "Keresés",
   "satellite": "Műhold",
@@ -342,7 +342,7 @@
   "favorites": "Kedvencek",
   "legal_data_security": "Jogi feltételek és adatbiztonság",
   "coordinates": "Koordináták",
-  "deleteForAll": "Delete for all",
+  "deleteForAll": "Törlés az összeshez",
   "deletePermenantly": "Véglegesen törli",
   "comment": {
     "fromField": "Megjegyzés a mezőről: {{name}}",
@@ -362,7 +362,7 @@
   "map": "Térképek",
   "maps": {
     "pressToSetPin": "A képernyő egy pontjának megnyomásával elhelyezheti a helymeghatározó jelet.",
-    "clickToShowMore": "Click to show more"
+    "clickToShowMore": "Kattintással többet mutat"
   },
   "no_email_entered": "Nem írt be e-mail címet.",
   "camera": "Fényképezőgép",
@@ -375,7 +375,7 @@
   "first_name": "Keresztnév",
   "request_new_password": "Kérjen új jelszót",
   "register": "Fiók létrehozása",
-  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "needAFarmerJoeAccount": "farmerJoe fiókra van szüksége?",
   "phones": {
     "enterNumber": "Adja meg a telefonszámát"
   },
@@ -386,9 +386,9 @@
   "settings": "beállítások",
   "help": "Segítség",
   "position_company": "Pozíció működtetése",
-  "position_verb": "Set location",
-  "latitude": "Latitude",
-  "longitude": "Longitude",
+  "position_verb": "Tartózkodási hely beállított",
+  "latitude": "Szélesség",
+  "longitude": "Hosszúság",
   "copy": "másolat",
   "share": "Megosztás",
   "directions": "Irányok",
@@ -448,187 +448,191 @@
     }
   },
   "alerts": {
-    "openSettings": "Open Settings",
+    "openSettings": "Beállítások megnyitása",
     "needLocation": {
       "title": "farmerJoe-nak szüksége van az Ön tartózkodási helyére",
       "description": "farmerJoe jelenleg nem jogosult a helymeghatározási adatok elérésére."
     },
     "needAlwaysLocation": {
-      "title": "Location permission not granted",
-      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+      "title": "Nincs megadva az engedély a tartózkodási helyhez",
+      "description": "Ahhoz, hogy megoszthassa aktuális tartózkodási helyét, a farmerJoe alkalmazásnak állandóan hozzá kell férnie kell az Ön helyadataihoz. Ha nem adja meg ezt az engedélyt, akkor nem használhatja ezt a funkciót."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe nem tudja meghatározni a helyszínt.",
       "description": "Kapcsolja be a telefon GPS funkcióját."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Nem fér hozzá a képhez",
+      "description": "Kérjük, engedélyezze a hozzáférést, ha képeket szeretne kijelölni."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Nem fér hozzá a kamerához",
+      "description": "Engedélyezze a hozzáférést a kamerához, ha fényképeket akar csinálni."
     },
     "needContactsAccess": {
-      "title": "farmerJoe needs access to your contacts",
-      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+      "title": "A farmerJoe alkalmazásnak hozzá kell férnie az Ön névjegyekeihez",
+      "description": "Ha szeretne meghívni valakit a címjegyzékből, engedélyezze hozzáférést névjegyeihez a FarmerJoe számára."
     },
     "sketchNeedsStorage": {
-      "title": "farmerJoe needs storage access",
-      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
+      "title": "farmerJoe hozzáférést igényel a tárolóhoz",
+      "description": "Ahhoz, hogy kezeljük a képet, hozzá kell férnünk az Ön tárolójához. Engedélye nélkül nem tudjuk feladni a képet."
     }
   },
   "filter": "Szűrő",
   "acl": {
-    "view": "View",
-    "create": "Create",
-    "edit": "Edit",
-    "delete": "Delete",
-    "department": "Department",
-    "selectFields": "Select fields",
-    "CRUD": "Create, Edit, Delete",
+    "view": "Nézet",
+    "create": "Létrehozás",
+    "edit": "Szerkesztés",
+    "delete": "Törlés",
+    "department": "Osztály",
+    "selectFields": "Válassza ki a mezőket",
+    "CRUD": "Létrehozás, szerkesztés, törlés",
     "role": {
-      "restricted": "Restricted access",
-      "allrights": "All rights",
-      "type": "Account type",
+      "restricted": "Korlátozott hozzáférés",
+      "allrights": "Minden jog",
+      "type": "Fiók típusa",
       "admin": "Admin",
-      "standard": "Worker",
-      "advisor": "Advisor"
+      "standard": "Munkavállaló",
+      "advisor": "Tanácsadó"
     },
     "user": {
-      "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
-      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
-      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
-      "cantDeleteYourself": "You can't delete yourself",
+      "delete": "Törli az alkalmazottat",
+      "deactivate": "Alkalmazott inaktiválása",
+      "doYouWantToDeactivateUser": "Inaktiválja a munkavállalót?",
+      "doYouWantToDeleteUser": "Biztosan törli a munkavállalót?",
+      "cantDeleteYourself": "Nem törölheti saját magát",
       "alertFound": {
-        "title": "User already in company",
-        "message": "The user with this email is already existing in the company."
+        "title": "A felhasználó már a cégnél van",
+        "message": "Ilyen e-mail című felhasználó már létezik a cégnél."
       },
       "alertNoFields": {
-        "title": "No fields selected",
-        "message": "You need to select at least one field for the user"
+        "title": "Nincs mező kijelölve",
+        "message": "Ki kell választania legalább egy mezőt a felhasználóhoz"
       }
     },
     "users": {
-      "users": "Employees",
-      "userRight": "The user can see other Employees in the farm."
+      "users": "Alkalmazottak",
+      "userRight": "A felhasználó láthatja a gazdaság más Alkalmazottait."
     },
     "access": {
       "fieldAdminAlert": {
-        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+        "message": "A felhasználó rendszergazda, és hozzáférése van a cég minden mezőjéhez. Ha le akarja tiltani hozzáférését ehhez a mezőhöz & más mezőkhöz, ehhez közönséges felhasználóként kell deklarálnia."
       },
       "forbidFieldAlert": {
-        "message": "Do you really want to forbid {{name}} access to this field?"
+        "message": "Tényleg le akarja tiltani {{name}} hozzáférését ehhez a mezőhöz?"
       },
       "grantFieldAlert": {
-        "message": "Do you really want to give {{name}} access to this field?"
+        "message": "Tényleg engedélyezi {{name}} hozzáférését ehhez a mezőhöz?"
       },
-      "alreadyHasAccess": "Already has access to field.",
-      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+      "alreadyHasAccess": "Már van hozzáférése ehhez a mezőhöz.",
+      "accessOnceInvitationAccepted": "Hozzáfér, ha a felhasználó elfogadja a meghívást."
     },
-    "rights": "Rights",
+    "rights": "Jogok",
     "fields": {
-      "all": "All",
-      "selected": "Only selected",
-      "selectDesc": "Select fields which the user is able to see.",
-      "standardUserRights": "The user can't create or edit fields."
+      "all": "Minden",
+      "selected": "Csak a kijelölt",
+      "selectDesc": "Válassza ki azokat a mezőket, amelyeket a felhasználó láthatja.",
+      "standardUserRights": "A felhasználó nem hozhat létre és nem szerkeszthet mezőket."
     },
     "crops": {
-      "all": "Planted and harvested",
-      "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "all": "Beültetve és betakarítás elvégezve",
+      "active": "Csak elültetve",
+      "standardUserRights": "A felhasználó nem hozhat létre és nem szerkeszthet semmilyen haszonnövényt."
     },
     "comments": {
-      "comments": "Comments",
-      "all": "All comments",
-      "selected": "Only own comments",
-      "standardUserRights": "The user can create and edit his own comments."
+      "comments": "Megjegyzések",
+      "all": "Az összes megjegyzés",
+      "selected": "Csak saját megjegyzések",
+      "standardUserRights": "A felhasználó létrehozhatja és szerkesztheti saját megjegyzéseit."
     },
     "fertilizing": {
-      "description": "Select below what the user is able to do with Fertilizings."
+      "description": "Válassza ki alább, hogy mit tehet a felhasználó a trágyákkal."
     },
     "waittime": {
-      "description": "Select below what the user is able to do with Wait times."
+      "description": "Válassza ki alább, hogy mit tehet a felhasználó a Várakozási időkkel."
     }
   },
   "near": {
-    "by": "Near by",
-    "fields": "Nearest fields",
-    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+    "by": "A közelben",
+    "fields": "Legközelebbi mezők",
+    "cantSortNoLocation": "Nem rendezhetjük a mezőket a legközelebbi szerint, mert nem engedélyezte számunkra hozzáférést az Ön tartózkodási helyéhez."
   },
   "registerScreen": {
-    "startNow": "Get started",
-    "helpEasySteps": "We'll help you create an account in a few easy steps.",
-    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
-    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
-    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
-    "newsletter": "Sign up for farmerJoe's newsletter",
-    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
-    "continueRegistration": "Continue sign up",
-    "next": "Next",
-    "enterEmail": "Enter your email",
-    "errorEmailExist": "Another account already users this email address.",
-    "retry": "Retry",
+    "startNow": "Kezdjük",
+    "helpEasySteps": "Segítünk abban, hogy létrehozzon egy fiókot pár egyszerű lépésben.",
+    "useRealName": "A valódi neve használatával megkönnyíti a kollégák számára, hogy felismerjék Önt saját gazdaságaiban.",
+    "weUsePhone": "Ez a szám jelenik meg az Ön gazdaságaiban kollégái számára, így könnyen felhívhatják Önt.",
+    "weUseEmail": "Ezt az e-mail címet használja majd bejelentkezéskor, és ha esetleg új jelszót akar beállítani. A többi farmerJoe felhasználó erre a címre küldhet Önnek meghívást gazdaságaikba.",
+    "newsletter": "Iratkozzon fel a farmerJoe hírlevélre",
+    "passwordHelp": "Legalább hat számjegyből, betűből és írásjelből (például ! és &) álló karakterkombinációt kell megadni",
+    "confrim_agb_data_security": "A \"Fiók létrehozása\" elemre kattintva Ön egyetért ezzel: {0}. Ismerkedjen meg azzal, hogy hogyan gyűjtjük és használjuk az Ön adatait itt: {1}, és hogyan használjuk a sütiket és az ehhez hasonló technológiát itt: {2}.",
+    "continueRegistration": "Folytatja a feliratkozást",
+    "next": "Következő",
+    "enterEmail": "Adja meg e-mail címét",
+    "errorEmailExist": "Egy másik fiók már használja ezt az elektronikus levélcímet.",
+    "retry": "Próbálja meg újra",
     "titles": {
-      "finish": "Finish signing up",
-      "haveAnAccount": "Already have an account",
-      "join": "Join farmerJoe",
-      "password": "Create a password",
-      "whatIsYourName": "What's your name?",
-      "whatIsYourPhoneNumber": "What's your mobile number?",
-      "whatIsYourEmailAddress": "What's your email address?",
-      "creating": "Your account is being created."
+      "finish": "Fejezze be a feliratkozást",
+      "haveAnAccount": "Már van fiókja",
+      "join": "Csatlakozzon a farmerJoe-hoz",
+      "password": "Jelszó létrehozása",
+      "whatIsYourName": "Mi a neve?",
+      "whatIsYourPhoneNumber": "Mi a mobil száma?",
+      "whatIsYourEmailAddress": "Mi az e-mail címe?",
+      "creating": "A fiókja létrehozása."
     }
   },
   "location": {
-    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
-    "sharedWithFarm": "Position is being shared with this farm.",
-    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
-    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "farmCanSeeYourLocation": "A gazdaságban mindenki láthatja az Ön tartózkodási helyét",
+    "sharedWithFarm": "A tartózkodási hely megosztása ezzel a gazdasággal.",
+    "letColleaguesSeeYourLocationLabel": "Hozza munkatársai tudomására tartózkodási helyét",
+    "letColleaguesSeeYourLocationDesc": "Ossza meg valós idejű tartózkodási helyét munkatársaival ebben a Gazdaságban.",
     "forX": {
       "x_minutes": {
-        "one": "For {{count}} minute",
-        "other": "For {{count}} minutes"
+        "one": "{{count}} percenként",
+        "other": "{{count}} percenként"
       },
       "x_hours": {
-        "other": "For {{count}} hours",
-        "one": "For 1 hour"
+        "other": "{{count}} óránként",
+        "one": "1 óra alatt"
       },
       "x_days": {
-        "other": "For {{count}} days",
-        "one": "For 1 day"
+        "other": "{{count}} naponta",
+        "one": "1 napra"
       }
     },
-    "untilTurnedOff": "Until you turn this off",
-    "shareNow": "Share now",
-    "turnOff": "Turn off",
-    "emailLog": "Email location log"
+    "untilTurnedOff": "Amíg ezt ki nem kapcsolja",
+    "shareNow": "Ossza meg most",
+    "turnOff": "Kapcsolja ki",
+    "emailLog": "Tartózkodási hely napló elküldése email-ben"
   },
   "report": {
-    "issue": "Report issue"
+    "issue": "Probléma jelentése"
   },
-  "no_company_selected": "No company selected",
-  "no_field_selected": "No field selected",
-  "invalid_phone_number": "invalid phone number",
-  "close": "close",
-  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
-  "refresh": "Refresh",
-  "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "no_company_selected": "Nincs kiválasztott vállalat",
+  "no_field_selected": "Nincs mező kijelölve",
+  "invalid_phone_number": "érvénytelen telefonszám",
+  "close": "bezár",
+  "errorMessage": "Hoppá, ennek nem lett volna szabad megtörténni. A fejlesztő csapatot már értesítették.",
+  "refresh": "Frissítés",
+  "remoteSupport": "Távoli támogatási kérelem",
+  "screenTooSmall": "A képernyője túl kicsi. Használja helyette a mi alkalmazásunkat iOS és Android platformokra.",
   "emailVerified": "E-mail-címét ellenőriztük",
   "resetPasswordLinkExpired": "A jelszó-visszaállítási kérelem lejárt, vagy pedig már használták a linket.",
   "verifyEmailLinkExpired": "Az e-mail-címe igazolására vonatkozó kérelem lejárt, vagy pedig már használták a linket.",
   "emailChangeReverted": "Bejelentkezési e-mail-címe visszamódosult a következőre: {{email}}.",
   "invalidActionCode": "Ez a kód már nem érvényes.",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "a farmerJoe alkalmazásnem támogatja az Internet Explorert. Kérjük használjon korszerű és támogatott böngészőt, például Firefox, Chrome, Edge, Opera vagy Safari.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "header": "API kulcsok",
+    "generate": "Új kulcs generálása",
+    "key": "Kulcs",
+    "enabled": "Engedélyezve",
+    "description": "Az API kulcs lehetővé teszi a farmerJoe beépítését más szoftverbe. Itt található a dokumentáció: {0}.",
+    "descriptionLink": "itt",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }

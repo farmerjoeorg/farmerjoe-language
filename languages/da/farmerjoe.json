@@ -1,25 +1,25 @@
 {
   "data_guidelines": "Datapolitik",
-  "cookie_policy": "Cookie Policy",
+  "cookie_policy": "Cookie Politik",
   "info": "Info",
   "invites": {
     "reject": "Afvis",
     "from": "Invitation fra {{name}}",
     "accept": "Accepter",
-    "resend": "Resend",
-    "resendDoYouReally": "Do you really want to resend the invitation?",
-    "deleteDoYouReally": "Do you really want to delete the user from the company?",
-    "noInvites": "No invitations"
+    "resend": "Send igen",
+    "resendDoYouReally": "Ønsker du virkelig at sende invitationen igen?",
+    "deleteDoYouReally": "Ønsker du virkelig at slette brugeren fra firmaet?",
+    "noInvites": "Ingen invitationer"
   },
   "latestActivities": {
-    "tabLabel": "Latest",
-    "sceneTitle": "Latest activities",
-    "period": "Period",
-    "selectPeriod": "Select period",
-    "onlyPhotos": "Only photos",
-    "photo": "Photo",
-    "all": "All",
-    "noActivity": "No activity for the selected period"
+    "tabLabel": "Seneste",
+    "sceneTitle": "Seneste aktiviteter",
+    "period": "Periode",
+    "selectPeriod": "Vælg periode",
+    "onlyPhotos": "Kun billeder",
+    "photo": "Billede",
+    "all": "Alle",
+    "noActivity": "Ingen aktivitet i den valgte periode"
   },
   "invalid_email": "E-mail-adressen er ugyldig.",
   "analysis": {
@@ -28,7 +28,7 @@
     "order": "Bestil",
     "plantOrSowDate": "Dato for plantning/såning",
     "pleaseLabelProbe": "Mærk venligst prøven!",
-    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Glem venligst ikke at mærke sonden!",
     "compostType": "Komposttype",
     "compostAmountInTons": "Mængde i ton",
     "compostApplicationYear": "Anvendelsesår",
@@ -98,14 +98,14 @@
     "pick_up_from_laboratory": "Laboratorieprøve",
     "pleaseFollowCurrentFertilizerRegulation": "Følg det aktuelle gødningsdirektiv.",
     "sampleIsTakenAccordingToRegulation": "Prøven bliver taget i overensstemmelse med det aktuelle gødningsdirektiv.",
-    "acceptedFromLab": "{{date}} - accepted by Lab",
-    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
-    "probeTaken": "{{date}} - probe taken by Lab",
-    "sortByCrop": "By Crop",
-    "sortByLatest": "By latest",
-    "latest": "Last analyses",
-    "analysisType": "Analysis type",
-    "cancelReasonLab": "Cancelled reason: {{reason}}"
+    "acceptedFromLab": "{{date}} - accepteret af Lab",
+    "acceptedFromLabAndCantBeCancelled": "Analysen blev accepteret af Laboratoriet og kan ikke længere annulleres.",
+    "probeTaken": "{{date}} - sonde taget af Lab",
+    "sortByCrop": "Af Afgrøde",
+    "sortByLatest": "Senest",
+    "latest": "Seneste analyser",
+    "analysisType": "Analysetype",
+    "cancelReasonLab": "Annulleret grund: {{reason}}"
   },
   "field": {
     "number": "Marknummer",
@@ -114,7 +114,7 @@
     "sendToArchive": "Arkiver marken",
     "cultivate": "Opdyrk mark",
     "harvested_on": "Afgrøde blev høstet den {{date}}",
-    "sown_on": "Crop sown on {{date}}",
+    "sown_on": "Afgrøder sået den {{date}}",
     "delete": "Slet mark",
     "moveToArchive": "Marken flyttes til arkivet. (Landbrug -> Arkiv)",
     "area": "Område",
@@ -130,10 +130,10 @@
     "toArchive": "Arkiv",
     "field": "Mark",
     "created": "Marken er oprettet.",
-    "history": "Field history",
-    "show": "Show field",
-    "dropFilesHere": "Drop files here",
-    "followingFilesAreUnsupported": "The following files are unsupported:"
+    "history": "Feltets historie",
+    "show": "Vis felt",
+    "dropFilesHere": "Slip filer her",
+    "followingFilesAreUnsupported": "Følgende filer understøttes ikke:"
   },
   "no_email_no_password_entered": "Du har ikke indtastet en e-mail og en adgangskode",
   "pleaseWaitImageIsBeingUploaded": "Vent venligst, billedet overføres",
@@ -150,8 +150,8 @@
     "delete": "Slet landbrug",
     "qs_number": "QS-nummer",
     "logo": {
-      "upload": "Select company logo",
-      "camera": "Take a new company logo"
+      "upload": "Vælg firmaets logo",
+      "camera": "Tag et nyt firmalogo"
     },
     "doYouWantToDeleteCompany": "Vil du virkelig slette dette landbrug?"
   },
@@ -190,9 +190,9 @@
     "without": "Uopdyrket",
     "cropPlanning": "Afgrødeplanlægning",
     "age": "Afgrødealder",
-    "cropDoesntExist": "The selected crop doesn't exist.",
-    "protection": "Plant protection",
-    "activeCrops": "Active crops"
+    "cropDoesntExist": "Den valgte afgrøde findes ikke.",
+    "protection": "Plantebeskyttelse",
+    "activeCrops": "Aktive afgrøder"
   },
   "fertilizer": {
     "fertilization": "Gødskning",
@@ -208,7 +208,7 @@
   "no_first_last_name_entered": "Indtast venligst dit for- og efternavn.",
   "deletePhoto": "Slet billede",
   "date": "Dato",
-  "datePleaseSelect": "Please select date",
+  "datePleaseSelect": "Vælg venligst dato",
   "invoice": {
     "youDontHaveAddress": "Du har ikke indtastet en faktureringsadresse."
   },
@@ -229,7 +229,7 @@
     "doYouReallyWantToDelete": "Vil du virkelig slette ventetiden?",
     "pesticide": "Navn på pesticid",
     "waitTime": "Venteperiode",
-    "waitTimeShort": "Wait time"
+    "waitTimeShort": "Ventetid"
   },
   "more": "Mere",
   "position": "Placering",
@@ -252,7 +252,7 @@
     "updated": "Adgangskode opdateret.",
     "min6char": "Adgangskoden skal være mindst 6 tegn lang.",
     "reset": "Nulstil din adgangskode",
-    "resetHelp": "Enter your new password below."
+    "resetHelp": "Indtast dit nye password nedenfor."
   },
   "noSearchResults": "Ingen resultater.",
   "login": "Logon",
@@ -280,7 +280,7 @@
   "employee": "Medarbejder",
   "archive": {
     "archive": "Arkiv",
-    "archivedFields": "Archived Fields",
+    "archivedFields": "Arkiverede Felter",
     "noFieldsInArchive": "Ingen marker i arkivet."
   },
   "save_as_favorite": "Gem som favorit",
@@ -303,23 +303,23 @@
   "invoice_address": "Faktureringsadresse",
   "logout": "Log af",
   "employees": {
-    "addEmployee": "Add Employee",
-    "noAdvisors": "No farm advisors",
-    "noDeactivatedUsers": "No deactivated users",
+    "addEmployee": "Tilføj Medarbejder",
+    "noAdvisors": "Ingen farmrådgivere",
+    "noDeactivatedUsers": "Ingen deaktiverede brugere",
     "plural": "Medarbejdere",
-    "active": "Active",
-    "deactivated": "Deactivated",
-    "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
-    "advisors": "Advisors",
+    "active": "Aktiv",
+    "deactivated": "Deaktiveret",
+    "reactivate": "Genaktiver bruger",
+    "reactivateDoYouWant": "Ønsker du virkelig at genaktivere brugeren?",
+    "advisors": "Rådgivere",
     "admin": "Administrator",
     "manage": "Administrer brugere",
     "adminRWD": "Administrator (læs, skriv, slet)",
     "invitationSentOn": "Invitation sendt d. {{date}}",
     "invitrationRejectedOn": "Invitation blev afvist d. {{date}}",
-    "getFromPhoneBook": "Search in Phonebook",
-    "choseEmail": "Choose email",
-    "employeeIsDeactivated": "Employee is deactivated"
+    "getFromPhoneBook": "Søg i Telefonbog",
+    "choseEmail": "Vælg e-mail",
+    "employeeIsDeactivated": "Medarbejderen er deaktiveret"
   },
   "search": "Søg",
   "satellite": "Satellit",
@@ -342,7 +342,7 @@
   "favorites": "Favoritter",
   "legal_data_security": "Juridiske oplysninger og datasikkerhed",
   "coordinates": "Koordinater",
-  "deleteForAll": "Delete for all",
+  "deleteForAll": "Slet for alle",
   "deletePermenantly": "Slet permanent",
   "comment": {
     "fromField": "Kommentar fra marken: {{name}}",
@@ -362,7 +362,7 @@
   "map": "Kort",
   "maps": {
     "pressToSetPin": "Tryk på kortet for at anbringe placeringsnålen.",
-    "clickToShowMore": "Click to show more"
+    "clickToShowMore": "Klik for at vise flere"
   },
   "no_email_entered": "Du har ikke indtastet en e-mailadresse.",
   "camera": "Kamera",
@@ -375,7 +375,7 @@
   "first_name": "Fornavn",
   "request_new_password": "Anmod om ny adgangskode",
   "register": "Opret konto",
-  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "needAFarmerJoeAccount": "Brug for en farmerJoe-konto?",
   "phones": {
     "enterNumber": "Indtast dit telefonnummer"
   },
@@ -386,7 +386,7 @@
   "settings": "Indstillinger",
   "help": "Hjælp",
   "position_company": "Placering af landbrug",
-  "position_verb": "Set location",
+  "position_verb": "Angiv placering",
   "latitude": "Latitude",
   "longitude": "Longitude",
   "copy": "Kopi",
@@ -540,80 +540,80 @@
       "standardUserRights": "The user can't create or edit any crops."
     },
     "comments": {
-      "comments": "Comments",
-      "all": "All comments",
-      "selected": "Only own comments",
-      "standardUserRights": "The user can create and edit his own comments."
+      "comments": "Kommentarer",
+      "all": "Alle kommentarer",
+      "selected": "Kun egne kommentarer",
+      "standardUserRights": "Brugeren kan oprette og redigere sine egne kommentarer."
     },
     "fertilizing": {
-      "description": "Select below what the user is able to do with Fertilizings."
+      "description": "Vælg nedenfor hvad brugeren er i stand til at gøre med Fertilizings."
     },
     "waittime": {
-      "description": "Select below what the user is able to do with Wait times."
+      "description": "Vælg nedenfor hvad brugeren er i stand til at gøre med Ventetider."
     }
   },
   "near": {
-    "by": "Near by",
-    "fields": "Nearest fields",
-    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+    "by": "I nærheden af",
+    "fields": "Nærmeste felter",
+    "cantSortNoLocation": "Vi kan ikke sortere de nærmeste felter, fordi du ikke har givet os adgang til din lokation."
   },
   "registerScreen": {
-    "startNow": "Get started",
-    "helpEasySteps": "We'll help you create an account in a few easy steps.",
-    "useRealName": "Using your real name makes it easier for colleagues to recognise you in your farms.",
-    "weUsePhone": "The number will be shown to colleagues in your Farms and they'll be able to easily call you.",
-    "weUseEmail": "You'll use this email address when you log in and if you ever need to reset your password. Other farmerJoe users will be able to invite you in their Farms with this email.",
-    "newsletter": "Sign up for farmerJoe's newsletter",
-    "passwordHelp": "Enter a combination of at least six numbers, letters and punctuation marks (like ! and &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
-    "continueRegistration": "Continue sign up",
-    "next": "Next",
-    "enterEmail": "Enter your email",
-    "errorEmailExist": "Another account already users this email address.",
-    "retry": "Retry",
+    "startNow": "Kom godt i gang",
+    "helpEasySteps": "Vi vil hjælpe dig med at oprette en konto via et par enkle trin.",
+    "useRealName": "Brug af dit rigtige navn gør det lettere for mine kolleger at genkende dig på dine gårde.",
+    "weUsePhone": "Tallet vil blive vist til kolleger på dine Gårde og de vil nemt kunne ringe til dig.",
+    "weUseEmail": "Du vil bruge denne e-mail-adresse, når du logger ind, og hvis du nogensinde har brug at nulstille dit password. Andre farmerJoe-brugere vil være i stand til at invitere dig ind på deres Gårde med denne e-mail.",
+    "newsletter": "Tilmeld dig farmerJoes nyhedsbrev",
+    "passwordHelp": "Angiv en kombination af mindst seks tal, bogstaver og tegn (så som ! og &)",
+    "confrim_agb_data_security": "Ved at trykke på \"Opret Konto\" accepterer du vores {0}. Lær hvordan vi indsamler og bruger din data i vores {1}, og hvordan vi bruger cookies og lignende teknologi i vores {2}.",
+    "continueRegistration": "Fortsæt tilmelding",
+    "next": "Næste",
+    "enterEmail": "Indtast din e-mail",
+    "errorEmailExist": "En anden konto bruger allerede denne e-mail-adresse.",
+    "retry": "Prøv igen",
     "titles": {
-      "finish": "Finish signing up",
-      "haveAnAccount": "Already have an account",
-      "join": "Join farmerJoe",
-      "password": "Create a password",
-      "whatIsYourName": "What's your name?",
-      "whatIsYourPhoneNumber": "What's your mobile number?",
-      "whatIsYourEmailAddress": "What's your email address?",
-      "creating": "Your account is being created."
+      "finish": "Færdiggør tilmelding",
+      "haveAnAccount": "Har allerede en konto",
+      "join": "Tilmeld farmerJoe",
+      "password": "Opret et password",
+      "whatIsYourName": "Hvad er dit navn?",
+      "whatIsYourPhoneNumber": "Hvad er dit mobilnummer?",
+      "whatIsYourEmailAddress": "Hvad er din e-mail-adresse?",
+      "creating": "Din konto er ved at blive oprettet."
     }
   },
   "location": {
-    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
-    "sharedWithFarm": "Position is being shared with this farm.",
-    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
-    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "farmCanSeeYourLocation": "Alle på gården kan se din lokation",
+    "sharedWithFarm": "Lokation deles med denne gård.",
+    "letColleaguesSeeYourLocationLabel": "Lad kollegaer vide, hvor du er",
+    "letColleaguesSeeYourLocationDesc": "Del din real-time lokation med kollegaer på denne Gård.",
     "forX": {
       "x_minutes": {
-        "one": "For {{count}} minute",
-        "other": "For {{count}} minutes"
+        "one": "I {{count}} minut",
+        "other": "I {{count}} minutter"
       },
       "x_hours": {
-        "other": "For {{count}} hours",
-        "one": "For 1 hour"
+        "other": "I {{count}} timer",
+        "one": "I en time"
       },
       "x_days": {
-        "other": "For {{count}} days",
-        "one": "For 1 day"
+        "other": "I {{count}} dage",
+        "one": "I en dag"
       }
     },
-    "untilTurnedOff": "Until you turn this off",
-    "shareNow": "Share now",
-    "turnOff": "Turn off",
-    "emailLog": "Email location log"
+    "untilTurnedOff": "Indtil du slukker den",
+    "shareNow": "Del nu",
+    "turnOff": "Sluk",
+    "emailLog": "E-mail lokation-log"
   },
   "report": {
-    "issue": "Report issue"
+    "issue": "Rapportér fejl"
   },
-  "no_company_selected": "No company selected",
-  "no_field_selected": "No field selected",
-  "invalid_phone_number": "invalid phone number",
-  "close": "close",
-  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
+  "no_company_selected": "Intet firma valgt",
+  "no_field_selected": "Intet felt valgt",
+  "invalid_phone_number": "ugyldigt telefonnummer",
+  "close": "luk",
+  "errorMessage": "Ups, dette skulle ikke være sket. Udviklingsholdet er blevet underrettet.",
   "refresh": "Refresh",
   "remoteSupport": "Remote support request",
   "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
@@ -629,6 +629,10 @@
     "key": "Key",
     "enabled": "Enabled",
     "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here"
+    "descriptionLink": "here",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48"
   }
 }
