@@ -637,12 +637,15 @@
     "noKeys": "Ingen API-nøgler"
   },
   "apiLogs": {
+    "header": "API log",
     "result": "Result",
     "ipAddress": "Source IP address",
     "method": "Method",
     "execTime": "Execution time",
     "userAgent": "User agent",
     "version": "Version",
-    "response": "Response"
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
   }
 }

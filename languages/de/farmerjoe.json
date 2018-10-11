@@ -637,12 +637,15 @@
     "noKeys": "keine API-Schlüssel"
   },
   "apiLogs": {
+    "header": "API-Protokoll",
     "result": "Ergebnis",
     "ipAddress": "IP-Quelladresse",
     "method": "Methode",
     "execTime": "Ausführungszeit",
     "userAgent": "User Agent",
     "version": "Version",
-    "response": "Antwort"
+    "response": "Antwort",
+    "noResults": "Keine Treffer",
+    "description": "Die Liste zeigt API-Anrufe von den letzten 24 Stunden."
   }
 }
