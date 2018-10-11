@@ -635,5 +635,14 @@
     "ipFilter": "Allowed IP addresses",
     "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
     "noKeys": "No API keys"
+  },
+  "apiLogs": {
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response"
   }
 }

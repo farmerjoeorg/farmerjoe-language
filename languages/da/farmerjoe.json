@@ -387,8 +387,8 @@
   "help": "Hjælp",
   "position_company": "Placering af landbrug",
   "position_verb": "Angiv placering",
-  "latitude": "Latitude",
-  "longitude": "Longitude",
+  "latitude": "Breddegrad",
+  "longitude": "Længdegrad",
   "copy": "Kopi",
   "share": "Del",
   "directions": "Retningsanvisninger",
@@ -448,96 +448,96 @@
     }
   },
   "alerts": {
-    "openSettings": "Open Settings",
+    "openSettings": "Åbn Indstillinger",
     "needLocation": {
       "title": "farmerJoe har brug for din placering",
       "description": "farmerJoe tillader i øjeblikket ikke adgang til din placering."
     },
     "needAlwaysLocation": {
-      "title": "Location permission not granted",
-      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+      "title": "Lokation-tilladelse ikke givet",
+      "description": "For at dele din live lokation skal farmerJoe altid have adgang til din lokation. Hvis du ikke giver denne tilladelse, kan du ikke bruge denne funktion."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe kan ikke fastslå din placering.",
       "description": "Aktivér din telefons GPS."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Kan ikke få adgang til billedet",
+      "description": "Tillad adgang, hvis du vil kunne vælge billeder."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Kan ikke få adgang til kameraet",
+      "description": "Tillad venligst adgang til dit kamera, hvis du ønsker at tage billeder."
     },
     "needContactsAccess": {
-      "title": "farmerJoe needs access to your contacts",
-      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+      "title": "farmerJoe behøver adgang til dine kontaktpersoner",
+      "description": "Hvis du ønsker at invitere en person fra din adressebog, skal du give FarmerJoe adgang til kontakter."
     },
     "sketchNeedsStorage": {
-      "title": "farmerJoe needs storage access",
-      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
+      "title": "farmerJoe har brug for lagrings-adgang",
+      "description": "For at vi kan manipulere billedet, har vi brug for adgang til din lagring. Uden denne tilladelse vil du ikke kunne indsende billedet."
     }
   },
   "filter": "Filter",
   "acl": {
-    "view": "View",
-    "create": "Create",
-    "edit": "Edit",
-    "delete": "Delete",
-    "department": "Department",
-    "selectFields": "Select fields",
-    "CRUD": "Create, Edit, Delete",
+    "view": "Se",
+    "create": "Opret",
+    "edit": "Rediger",
+    "delete": "Slet",
+    "department": "Afdeling",
+    "selectFields": "Vælg felter",
+    "CRUD": "Opret, Rediger, Slet",
     "role": {
-      "restricted": "Restricted access",
-      "allrights": "All rights",
-      "type": "Account type",
+      "restricted": "Begrænset adgang",
+      "allrights": "Alle rettigheder",
+      "type": "Kontotype",
       "admin": "Admin",
-      "standard": "Worker",
-      "advisor": "Advisor"
+      "standard": "Arbejder",
+      "advisor": "Rådgiver"
     },
     "user": {
-      "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
-      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
-      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
-      "cantDeleteYourself": "You can't delete yourself",
+      "delete": "Slet Medarbejder",
+      "deactivate": "Deaktiver Medarbejder",
+      "doYouWantToDeactivateUser": "Ønsker du at deaktivere denne medarbejder?",
+      "doYouWantToDeleteUser": "Ønsker du virkelig at slette denne medarbejder?",
+      "cantDeleteYourself": "Du kan ikke slette dig selv",
       "alertFound": {
-        "title": "User already in company",
-        "message": "The user with this email is already existing in the company."
+        "title": "Bruger allerede i virksomhed",
+        "message": "Brugeren med denne e-mail findes allerede i virksomheden."
       },
       "alertNoFields": {
-        "title": "No fields selected",
-        "message": "You need to select at least one field for the user"
+        "title": "Ingen felter valgt",
+        "message": "Du skal vælge mindst ét felt til brugeren"
       }
     },
     "users": {
-      "users": "Employees",
-      "userRight": "The user can see other Employees in the farm."
+      "users": "Medarbejdere",
+      "userRight": "Brugeren kan se andre Medarbejdere på gården."
     },
     "access": {
       "fieldAdminAlert": {
-        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+        "message": "Brugeren er Administrator og har adgang på alle felter i virksomheden. Hvis du ønsker at forbyde denne adgang til feltet & andre felter, skal du gøre vedkommende til en normal bruger."
       },
       "forbidFieldAlert": {
-        "message": "Do you really want to forbid {{name}} access to this field?"
+        "message": "Ønsker du virkelig at forbyde {{name}} adgang til dette felt?"
       },
       "grantFieldAlert": {
-        "message": "Do you really want to give {{name}} access to this field?"
+        "message": "Ønsker du virkelig at give {{name}} adgang til dette felt?"
       },
-      "alreadyHasAccess": "Already has access to field.",
-      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+      "alreadyHasAccess": "Har allerede adgang til feltet.",
+      "accessOnceInvitationAccepted": "Har adgang når brugeren accepterer invitation."
     },
-    "rights": "Rights",
+    "rights": "Rettigheder",
     "fields": {
-      "all": "All",
-      "selected": "Only selected",
-      "selectDesc": "Select fields which the user is able to see.",
-      "standardUserRights": "The user can't create or edit fields."
+      "all": "Alle",
+      "selected": "Kun valgte",
+      "selectDesc": "Vælg felter, som brugeren er i stand til at se.",
+      "standardUserRights": "Brugeren kan ikke oprette eller redigere felter."
     },
     "crops": {
-      "all": "Planted and harvested",
-      "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "all": "Plantet og høstet",
+      "active": "Kun plantet",
+      "standardUserRights": "Brugeren kan ikke oprette eller redigere nogen afgrøder."
     },
     "comments": {
       "comments": "Kommentarer",
@@ -614,26 +614,35 @@
   "invalid_phone_number": "ugyldigt telefonnummer",
   "close": "luk",
   "errorMessage": "Ups, dette skulle ikke være sket. Udviklingsholdet er blevet underrettet.",
-  "refresh": "Refresh",
-  "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
+  "refresh": "Opdater",
+  "remoteSupport": "Fjernsupport-anmodning",
+  "screenTooSmall": "Din skærm er for lille. Brug i stedet vores app til iOS og Android.",
   "emailVerified": "Din mail er blevet bekræftet",
   "resetPasswordLinkExpired": "Din anmodning om at nulstille din adgangskode er udløbet, eller linket er allerede brugt",
   "verifyEmailLinkExpired": "Din anmodning om at bekræfte din mail er udløbet, eller linket er allerede brugt",
   "emailChangeReverted": "Din login-mailadresse er allerede blevet ændret tilbage til {{email}}.",
   "invalidActionCode": "Denne kode er ikke længere gyldig",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "farmerJoe understøtter ikke Internet Explorer. Brug venligst en moderne og understøttet browser så som Firefox, Chrome, Edge, Opera eller Safari.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
-    "descriptionLink": "here",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys"
+    "header": "API-nøgler",
+    "generate": "Opret en ny nøgle",
+    "key": "Nøgle",
+    "enabled": "Aktiveret",
+    "description": "API-nøgler lader dig integrere farmerJoe i anden software. Du kan finde dokumentation {0}.",
+    "descriptionLink": "her",
+    "name": "Navn",
+    "ipFiltering": "IP Filtrering",
+    "ipFilter": "Tilladte IP-adresser",
+    "ipFilterHelp": "En kommasepareret liste af IP-adresser og IP-adresseområder. For eksempel: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "Ingen API-nøgler"
+  },
+  "apiLogs": {
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response"
   }
 }

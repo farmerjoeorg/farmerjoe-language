@@ -635,5 +635,14 @@
     "ipFilter": "Erlaubte IP-Adressen",
     "ipFilterHelp": "Eine kommagetrennte Liste von IP-Adressen und IP-Adresse Bereichen. Zum Beispiel: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
     "noKeys": "keine API-Schlüssel"
+  },
+  "apiLogs": {
+    "result": "Ergebnis",
+    "ipAddress": "IP-Quelladresse",
+    "method": "Methode",
+    "execTime": "Ausführungszeit",
+    "userAgent": "User Agent",
+    "version": "Version",
+    "response": "Antwort"
   }
 }
