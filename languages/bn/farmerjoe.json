@@ -1,0 +1,651 @@
+{
+  "data_guidelines": "তথ্য নীতি",
+  "cookie_policy": "কুকি নীতি",
+  "info": "তথ্য",
+  "invites": {
+    "reject": "প্রত্যাখ্যান",
+    "from": "{{name}} থেকে আমন্ত্রণ",
+    "accept": "স্বীকার",
+    "resend": "পুনরায় পাঠান",
+    "resendDoYouReally": "আপনি কি আবার আমন্ত্রণ পাঠাতে চান?",
+    "deleteDoYouReally": "আপনি কি ব্যবহারকারীটিকে কোম্পানি থেকে মুছে ফেলতে চান?",
+    "noInvites": "কোনও আমন্ত্রণ নেই"
+  },
+  "latestActivities": {
+    "tabLabel": "সাম্প্রতিক",
+    "sceneTitle": "সাম্প্রতিক কার্যক্রম",
+    "period": "সময়কাল",
+    "selectPeriod": "সময়কাল নির্বাচন করুন",
+    "onlyPhotos": "কেবলমাত্র ছবি",
+    "photo": "ছবি",
+    "all": "সমস্ত",
+    "noActivity": "নির্বাচিত সময়কালের জন্য কোনও কার্যক্রম নেই"
+  },
+  "invalid_email": "ইমেল ঠিকানাটি বৈধ নয়।",
+  "analysis": {
+    "cancelAnalysis": "বিশ্লেষণ বাতিল করুন",
+    "residue": "অবশিষ্টাংশ",
+    "order": "অর্ডার",
+    "plantOrSowDate": "রোপণের তারিখ",
+    "pleaseLabelProbe": "জমির মাটি যে ব্যাগে রাখা হয়েছে অনুগ্রহ করে তার লেবেল লাগান!",
+    "dontForgetToLabelProbe": "জমির মাটি যে ব্যাগে রাখা হয়েছে তার লেবেল লাগাতে ভুলবেন না!",
+    "compostType": "মিশ্র সারের ধরণ",
+    "compostAmountInTons": "টনের পরিমাণ",
+    "compostApplicationYear": "যে বছর প্রয়োগ করা হয়েছে",
+    "profileNotComplete": "আপনার ব্যবহারকারী প্রোফাইল অসম্পূর্ণ।",
+    "comment": "মন্তব্য",
+    "thankYouForOrder": "আপনার অর্ডারের জন্য {0}।",
+    "thankYou": "ধন্যবাদ",
+    "after_harvest": "ফসল কাটার পর",
+    "commissionWithCharge": "চার্জযোগ্য অর্ডার",
+    "productLabel": "পণ্য লেবেল",
+    "harvest_start": "ফসল কাটা শুরু হয়েছে?",
+    "before_harvest": "ফসল কাটার আগে",
+    "analysisCancelledOn": "{{user}} {{date}} এ {{time}} এ বিশ্লেষণটি বাতিল করেছেন।",
+    "during_harvest": "ফসল কাটার সময়",
+    "result_for": "এই অনুসারে প্রয়োজন",
+    "sample": "নমুনা",
+    "sample_taker": "যিনি নিয়েছেন",
+    "sample_date": "যে তারিখে নেওয়া হয়েছে",
+    "resultResidue": "অবশিষ্টাংশ বিশ্লেষণের ফলাফল",
+    "mondayFriday": "সোমবার-শুক্রবার",
+    "questions": "প্রশ্ন আছে?",
+    "offer": "অফার",
+    "number": "বিশ্লেষণের নম্বর",
+    "cancelled": "বাতিল করা হয়েছে",
+    "result_for_analysis_from_ready": "{{date}} তারিখের আপনার বিশ্লেষণের ফলাফল এখন উপলভ্য।",
+    "noCompanyAddress": "কোম্পানির কোন ঠিকানা নেই",
+    "ourOffers": "বিশ্লেষণ অফার করা হয়েছে",
+    "compost": "মিশ্র সার",
+    "analysis": "বিশ্লেষণ",
+    "cancel": "বাতিল",
+    "results": "ফলাফল",
+    "orderAnalysisWithCommission": "আপনি অর্ডার করার বিষয়ে নিশ্চিত?",
+    "toUserAnalysisEnterProfileData": "বিশ্লেষণ বৈশিষ্ট্যটি ব্যবহার করতে আপনাকে অনুরোধকৃত সমস্ত ব্যবহারকারী তথ্য প্রদান করতে হবে।",
+    "outdoor": "খোলা হাওয়া",
+    "pick_up_service": "সংগ্রহের অনুরোধ করুন",
+    "orderSent": "অর্ডার করুন",
+    "noResultsAvailable": "জমির মাটি যে ব্যাগে রাখা হয়েছে তার কোনও ফলাফল নেই।",
+    "result": "ফলাফল",
+    "self_pick_up": "DIY নমুনা",
+    "doYouReallyWantToCancelAnalysis": "আপনি কি সত্যিই বিশ্লেষণটি বাতিল করতে চান?",
+    "commission": "অর্ডার করুন",
+    "bio": "জৈবিক",
+    "ordered": "বিশ্লেষণ অর্ডার করা হয়েছে",
+    "orderFrom": "{{date}} এ অর্ডার করা হয়েছে",
+    "pending": "মুলতুবি",
+    "takeSampleForm": "জমির মাটি যে ব্যাগে রাখা হয় তার প্রকার",
+    "questionsPleaseCall": "আপনার কোনও প্রশ্ন থাকলে ফোন করুন।",
+    "soilAnalysis": "মাটি বিশ্লেষণ",
+    "orderResidue": "অবশিষ্টাংশ বিশ্লেষণ অর্ডার করুন",
+    "result_expected_on": "এই তারিখে ফলাফল পাওয়া যেতে পারে: {{date}}",
+    "orderSoil": "মাটি বিশ্লেষণ অর্ডার করুন",
+    "conventional": "গতানুগতিক",
+    "residueAnalysis": "অবশিষ্টাংশ বিশ্লেষণ",
+    "input_in_database": "ডেটাবেসে জমা দিন",
+    "result_on": "এ ফলাফল",
+    "needFastTomorrow": "আগামীকাল দ্রুত",
+    "soil": "মাটি",
+    "self_delivery": "DIY ডেলিভারি",
+    "resultSoil": "মাটি বিশ্লেষণের ফলাফল",
+    "greenhouse": "গ্রীন হাউস",
+    "orderNumber": "অর্ডারের নম্বর",
+    "orderSoilAnalysis": "মাটি বিশ্লেষণের {{number}} অর্ডার করুন",
+    "cancelledOn": "যে তারিখে বাতিল করা হয়েছে: {{date}}",
+    "result_till": "এই তারিখে ফলাফল প্রত্যাশিত",
+    "toUseAnalysisEnterCompanyData": "বিশ্লেষণ সুবিধা ব্যবহার করার আগে আপনাকে আপনার কোম্পানিত তথ্য পূরণ করতে হবে।",
+    "needFastToday": "আজ দ্রুত",
+    "pick_up_from_laboratory": "ল্যাবের নমুনা",
+    "pleaseFollowCurrentFertilizerRegulation": "অনুগ্রহ করে বর্তমান ফার্টিলাইজারের নির্দেশ অনুসরণ করুন।",
+    "sampleIsTakenAccordingToRegulation": "বর্তমান ফার্টিলাইজারের নির্দেশ অনুসারে নমুনা নেওয়া হবে।",
+    "acceptedFromLab": "{{date}} - ল্যাব দ্বারা গৃহীত হয়েছে",
+    "acceptedFromLabAndCantBeCancelled": "বিশ্লেষণটি ল্যাবরেটরি দ্বারা গৃহীত হয়েছে এবং আর বাতিল করা যাবে না।",
+    "probeTaken": "{{date}} - ল্যাব জমির মাটি রাখা ব্যাগ গ্রহণ করেছে",
+    "sortByCrop": "ফসল অনুসারে",
+    "sortByLatest": "সাম্প্রতিক অনুসারে",
+    "latest": "শেষ বিশ্লেষণ",
+    "analysisType": "বিশ্লেষণের ধরণ",
+    "cancelReasonLab": "বাতিল করার কারণ: {{reason}}"
+  },
+  "field": {
+    "number": "চাষের জমির নম্বর",
+    "harvested": "চাষের জমির ফসল কাটা হয়েছে",
+    "noFieldsCreated": "কোনও চাষের জমি (ফিল্ড) তৈরি করা হয়নি।",
+    "sendToArchive": "চাষের জমিটি (ফিল্ড) আর্কাইভ করা হয়েছে",
+    "cultivate": "চাষের জমিতে চাষ করুন",
+    "harvested_on": "{{date}} তারিখে ফসল কাটা হয়েছে",
+    "sown_on": "{{date}} তারিখে রোপণ করা হয়েছে",
+    "delete": "চাষের জমি মুছে ফেলুন",
+    "moveToArchive": "চাষের জমিটি আর্কাইভে (খামার ->আর্কাইভ) সরানো হয়েছে",
+    "area": "এলাকা",
+    "when_was_the_field_harvested": "কখন ফসল কাটা হয়েছে?",
+    "movedToArchive": "চাষের জমিতে চাষ শেষ হয়েছে (আর্কাইভ)।",
+    "cultivateAgain": "চাষের জমিতে আবার চাষ করা হচ্ছে।",
+    "fields": "চাষের জমি",
+    "coordinatesFromField": "চাষের জমির স্থানাঙ্ক: {{name}}",
+    "name": "চাষের জমির নাম",
+    "doYouReallyWantToDelete": "আপনি কি সত্যিই এই চাষের জমিটিকে স্থায়ীভাবে মুছে ফেলতে চান?",
+    "position_it": "চাষের জমির অবস্থান",
+    "createNow": "এখন চাষের জমি তৈরি করুন",
+    "toArchive": "আর্কাইভ",
+    "field": "চাষের জমি",
+    "created": "চাষের জমি তৈরি করা হয়েছে।",
+    "history": "চাষের জমির ইতিহাস",
+    "show": "চাষের জমি দেখান",
+    "dropFilesHere": "এখানে ফাইলগুলি ড্রপ করুন",
+    "followingFilesAreUnsupported": "নিম্নলিখিত ফাইলগুলি অসমর্থিত:"
+  },
+  "no_email_no_password_entered": "আপনি কোনও ইমেল ও পাসওয়ার্ড দেননি",
+  "pleaseWaitImageIsBeingUploaded": "অনুগ্রহ করে অপেক্ষা করুন, ছবি আপলোড করা হচ্ছে",
+  "x_employees": {
+    "one": "1 জন কর্মচারী",
+    "other": "{{count}} জন কর্মচারী",
+    "zero": "0 জন কর্মচারী"
+  },
+  "company": {
+    "company": "খামার",
+    "edit": "খামার সম্পাদনা করুন",
+    "create": "তৈরি করুন",
+    "create_first_company": "আপনার প্রথম খামার তৈরি করুন",
+    "delete": "খামার মুছে ফেলুন",
+    "qs_number": "QS নম্বর",
+    "logo": {
+      "upload": "কোম্পানির লোগো নির্বাচন করুন",
+      "camera": "কোম্পানির একটি নতুন লোগো লাগান"
+    },
+    "doYouWantToDeleteCompany": "আপনি কি সত্যিই এই খামারটি মুছে ফেলতে চান?"
+  },
+  "crop": {
+    "cancelCultivation": "পরিকল্পিত ফসল বাতিল করুন",
+    "plant": "ফসল রোপণ",
+    "from_field": "চাষের জমি থেকে ফসল",
+    "catch_crop": "দ্রুত ফলনশীল ফসল",
+    "field_without_crop_since": "{{date}} থেকে চাষের জমিতে কোনও ফসল ফলেনি।",
+    "variety": "প্রকার",
+    "permanent": "স্থায়ী ফসল",
+    "plannedSingle": "পরিকল্পিত ফসল",
+    "commodityItem": "মজুদ",
+    "planted_on": "যে তারিখে রোপণ করা হয়েছে",
+    "stockItem": "গুদামঘরে",
+    "doYouReallyWantToDeleteCrop": "আপনি কি সত্যিই এই ফসলের জন্য মন্তব্য সহ ফসলের ইতিহাস মুছে ফেলতে চান?",
+    "deleteAndWithout": "ফসল মুছুন (অনাবাদি রেখে দিন)",
+    "resetAge": "ফসলের বয়স এখন 0",
+    "nothingHarvested": "কোন ফসল কাটা হয়নি",
+    "plan": "পরিকল্পিত ফসল",
+    "temporary": "বার্ষিক ফসল",
+    "when_was_crop_planted": "কখন চাষের জমি চাষ করা হয়?",
+    "ageBeginsAt0": "ফসলের বয়স 0 তে সেট করুন",
+    "planned": "পরিকল্পিত ফসল",
+    "doYourReallyWantToCancelCultivation": "আপনি কি সত্যিই পরিকল্পিত ফসলটি বাতিল করতে চান?",
+    "pre": "প্রাক-ফসল",
+    "type": "ফসলের ধরণ",
+    "origin": "মূল ফসল",
+    "name": "ফসলের নাম",
+    "delete": "ফসল মুছে ফেলুন",
+    "crop": "ফসল",
+    "planned_crop_is_active": "পরিকল্পিত ফসল।",
+    "isActiveNow": "ফসল রোপণ করা হয়েছে।",
+    "active": "পরিকল্পিত ফসলগুলি",
+    "select_color": "রং বেছে নিন",
+    "without": "অনাবাদি",
+    "cropPlanning": "ফসল পরিকল্পনা",
+    "age": "ফসলের বয়স",
+    "cropDoesntExist": "নির্বাচিত ফসলটির অস্তিত্ব নেই।",
+    "protection": "রোপণ সুরক্ষা",
+    "activeCrops": "সক্রিয় ফসল"
+  },
+  "fertilizer": {
+    "fertilization": "উর্বরতা-সাধন",
+    "fertilizer": "ফার্টিলাইজার",
+    "enter_nutrient_ratio": "পুষ্টি অনুপাত (%) এ লিখুন।",
+    "delete": "উর্বরতা-সাধন মুছে ফেলুন",
+    "doYouReallyWantToDelete": "আপনি কি সত্যিই উর্বরতা-সাধন মুছে দিতে চান?"
+  },
+  "company_name": "খামারের নাম",
+  "cancel": "বাতিল",
+  "country": "দেশ",
+  "add": "যোগ করুন",
+  "no_first_last_name_entered": "অনুগ্রহ করে আপনার নাম ও পদনি লিখুন।",
+  "deletePhoto": "ছবি মুছে ফেলুন",
+  "date": "তারিখ",
+  "datePleaseSelect": "অনুগ্রহ করে তারিখ নির্বাচন করুন",
+  "invoice": {
+    "youDontHaveAddress": "আপনি চালানের কোনও ঠিকানা দেননি।"
+  },
+  "saveChanges": "পরিবর্তনগুলি সেভ করবেন?",
+  "account": {
+    "account": "অ্যাকাউন্ট",
+    "avatar": {
+      "camera": "একটি নতুন প্রোফাইল ছবি তুলুন",
+      "upload": "প্রোফাইল ছবি নির্বাচন করুন"
+    },
+    "edit": "অ্যাকাউন্ট সম্পাদনা করুন"
+  },
+  "waittime": {
+    "set": "অপেক্ষার সময় স্থির করুন",
+    "waiting_period_in_days": "দিনের অপেক্ষার সময়",
+    "application_day": "যে দিন প্রয়োগ করা হয়েছে",
+    "delete": "অপেক্ষার সময় মুছুন",
+    "doYouReallyWantToDelete": "আপনি কি সত্যিই অপেক্ষার সময় মুছতে চান?",
+    "pesticide": "কীটনাশকের নাম",
+    "waitTime": "অপেক্ষার সময়কাল",
+    "waitTimeShort": "অপেক্ষার সময়"
+  },
+  "more": "আরও অনেক কিছু",
+  "position": "স্থান",
+  "harvested": "ফসল কাটা হয়েছে",
+  "friends": {
+    "shortShareMessage": "আপনার স্মার্টফোনে farmerJoe ব্যবহার করে দেখুন। আজই {{url}} থেকে ডাউনলোড করুন।",
+    "inform": "কোনও বন্ধুকে বলুন",
+    "emailMessage": "এই যে,\n\nআমি আমার {{phone}} এ farmerJoe ডাউনলোড করেছি।\n\nfarmerJoe হল চাষীদের জন্য দলিল দস্তাবেজের অ্যাপ যা ব্যবহার করা সহজ। অ্যাপটির মাধ্যমে ম্যাপে আপনি আপনার জমি ও ফসল দেখতে পাবেন, ছবির সঙ্গে কিছু লিখতে চাইলে তাও লিখে রাখতে পারেন। আপনি অপেক্ষার সময় স্থির করতে পারবেন এবং ফার্টিলাইজার রেকর্ড করতে পারবেন।\n\nfarmerJoe iPhone এবং  Android এ উপলভ্য।\n\n{{url}} থেকে ইনস্টল করুন।"
+  },
+  "password": {
+    "current": "বর্তমান পাসওয়ার্ড",
+    "password": "পাসওয়ার্ড",
+    "yourPasswordWasUpdated": "আপনার পাসওয়ার্ড আপডেট করা হয়েছে।",
+    "notUpdated": "পাসওয়ার্ডটি পরিবর্তন হয়নি।",
+    "forgotten": "পাসওয়ার্ড ভুলে গেছেন?",
+    "wrong": "পাসওয়ার্ডটি সঠিক নয়। যদি আপনি তা জানেন তাহলে পাসওয়ার্ড ভুলে যাওয়ার লিঙ্কটি ব্যবহার করুন।",
+    "change": "পাসওয়ার্ড পরিবর্তন করুন",
+    "dontMatch": "পাসওয়ার্ডটি মিলছে না।",
+    "repeat": "পাসওয়ার্ডের পুনরাবৃত্তি করুন",
+    "updated": "পাসওয়ার্ড আপডেট করা হয়েছে।",
+    "min6char": "পাসওয়ার্ড অন্তত 6 অক্ষরের দীর্ঘ হতে হবে",
+    "reset": "আপনার পাসওয়ার্ড রিসেট করুন",
+    "resetHelp": "নিচে আপনার নতুন পাসওয়ার্ডটি লিখুন।"
+  },
+  "noSearchResults": "কোনো ফলাফল নেই।",
+  "login": "লগ ইন",
+  "forgotten_password_mail_sent_to": "পাসওয়ার্ড রিসেট করার লিঙ্ক সহ একটি ইমেল আমরা {0} এ পাঠিয়েছি। পাসওয়ার্ড রিসেট করার জন্য অনুগ্রহ করে ইমেলে নির্দেশনা অনুসরণ করুন।",
+  "add_company": "খামার যোগ করুন",
+  "languages": {
+    "really_change": "আপনি {{language}} ভাষায় পরিবর্তন করার বিষয়ে নিশ্চিত?",
+    "change": "ভাষা পরিবর্তন করুন"
+  },
+  "theImageCouldntBeUploaded": "ছবি আপলোড করা হবে না: {{error}}",
+  "sortFieldsBy": "এই অনুসারে বাছাই করুন",
+  "x_fields": {
+    "zero": "0টি চাষের জমি",
+    "other": "{{count}}টি জমি",
+    "one": "1টি জমি"
+  },
+  "yes": "হ্যাঁ",
+  "warehouse": {
+    "add": "গুদাম যোগ করুন",
+    "noWarehousesCreated": "কোনও গুদাম যোগ করা হয়নি।",
+    "position_it": "গুদামের স্থান",
+    "warehouse": "গুদাম",
+    "name": "গুদামের নাম"
+  },
+  "employee": "কর্মচারী",
+  "archive": {
+    "archive": "আর্কাইভ",
+    "archivedFields": "আর্কাইভ করা জমি",
+    "noFieldsInArchive": "আর্কাইভে কোনও জমি নেই"
+  },
+  "save_as_favorite": "প্রিয় হিসেবে সেভ করুন",
+  "cover": {
+    "photo": "কভার ফটো",
+    "showCollegesWhatIsImportantToYou": "আপনার কাছে গুরুত্বপূর্ণ কোনটি তা আপনার সহকর্মীদের দেখান"
+  },
+  "ok": "ঠিক আছে",
+  "call_laboratory": "ল্যাবরেটরিতে ফোন করুন",
+  "countries": {
+    "select": "দেশ নির্বাচন করুন",
+    "all": "সমস্ত দেশ"
+  },
+  "analysis_plural": "বিশ্লেষণ",
+  "app": {
+    "rate": "অ্যাপের রেট দিন"
+  },
+  "dontKnowHowToOpenUrl": "URL {{url}} খুলছে না",
+  "zip": "পিনকোড",
+  "invoice_address": "চালানের ঠিকানা",
+  "logout": "লগ আউট",
+  "employees": {
+    "addEmployee": "কর্মচারী যোগ করুন",
+    "noAdvisors": "কোনও খামার পরামর্শদাতা নেই",
+    "noDeactivatedUsers": "কোনও নিষ্ক্রিয় ব্যবহারকারী নেই",
+    "plural": "কর্মচারী",
+    "active": "সক্রিয়",
+    "deactivated": "নিষ্ক্রিয় করা হয়েছে",
+    "reactivate": "ব্যবহারকারী পুনরায় সক্রিয় করুন",
+    "reactivateDoYouWant": "আপনি কি সত্যিই ব্যবহারকারী পুনরায় সক্রিয় করতে চান?",
+    "advisors": "পরামর্শদাতা",
+    "admin": "অ্যাডমিন",
+    "manage": "ব্যবহারকারী ব্যবস্থাপনা করুন",
+    "adminRWD": "অ্যাডমিন (পড়া, লেখা, মোছা)",
+    "invitationSentOn": "{{date}} এ আমন্ত্রণ পাঠানো হয়েছে",
+    "invitrationRejectedOn": "{{date}} এ আমন্ত্রণ প্রত্যাখ্যান করা হয়েছে",
+    "getFromPhoneBook": "ফোনবুকে অনুসন্ধান করুন",
+    "choseEmail": "ইমেল বেছে নিন",
+    "employeeIsDeactivated": "কর্মচারী নিষ্ক্রিয় আছে"
+  },
+  "search": "অনুসন্ধান",
+  "satellite": "উপগ্রহ",
+  "hybrid": "হাইব্রিড",
+  "name": "নাম",
+  "agb": "শর্তাবলী",
+  "note": "নোট",
+  "please_correct_your_entry": "অনুগ্রহ করে আপনার এন্ট্রি সংশোধন করুন",
+  "connecting": "সংযোগ করা হচ্ছে",
+  "email_already_in_use": "অন্য একটি অ্যাকাউন্টে ইমেল ঠিকানাটি ইতিমধ্যেই ব্যবহৃত হচ্ছে",
+  "version": "সংস্করণ",
+  "profile": {
+    "reallyLogout": "আপনি কি লগআউট করতে চান?"
+  },
+  "back": "ফিরে যান",
+  "last_name": "পদবি",
+  "mobile_phone": "মোবাইল",
+  "wine_fruit": "আঙুর, ফল",
+  "enter_address": "ঠিকানা লিখুন",
+  "favorites": "পছন্দসই",
+  "legal_data_security": "আইনগত ও তথ্য নিরাপত্তা",
+  "coordinates": "স্থানাঙ্ক",
+  "deleteForAll": "সকলের জন্য মুছে দিন",
+  "deletePermenantly": "স্থায়ীভাবে মুছে ফেলুন",
+  "comment": {
+    "fromField": "জমি থেকে মন্তব্য: {{name}}",
+    "doYouReallyWantToDelete": "আপনি কি সত্যিই এই মন্তব্যটি মুছে ফেলতে চান?",
+    "delete": "মন্তব্যটি মুছে ফেলুন"
+  },
+  "lastEntry": "সর্বশেষ এন্ট্রি",
+  "deleteElement": "উপাদান মুছে দিন",
+  "delete": "মুছে ফেলুন",
+  "current": "বর্তমান",
+  "email": "ইমেল",
+  "ggn_gln_number": "GGN/GLN",
+  "phone": "টেলিফোন",
+  "notes": "নোট",
+  "x_days": "{{days}} দিন",
+  "create_account": "নতুন রেজিস্ট্রেশন",
+  "map": "ম্যাপ",
+  "maps": {
+    "pressToSetPin": "লোকেশন পিন সেট করতে ম্যাপ টিপুন।",
+    "clickToShowMore": "আরও জানতে ক্লিক করুন"
+  },
+  "no_email_entered": "আপনি কোনও ইমেল ঠিকানা দেননি।",
+  "camera": "ক্যামেরা",
+  "areYouSureYouWantToDeleteElement": "আপনি কি সত্যিই এই উপাদানটি মুছে ফেলতে চান?",
+  "enter_notes_here": "এখানে মন্তব্য করুন",
+  "street": "রাস্তা",
+  "photoLibrary": "ফটো লাইব্রেরি",
+  "save": "সেভ করুন",
+  "error": "ত্রুটি",
+  "first_name": "নাম",
+  "request_new_password": "নতুন পাসওয়ার্ডের জন্য অনুরোধ করুন",
+  "register": "অ্যাকাউন্ট তৈরি করুন",
+  "needAFarmerJoeAccount": "farmerJoe অ্যাকাউন্ট প্রয়োজন?",
+  "phones": {
+    "enterNumber": "আপনার ফোন নম্বর লিখুন"
+  },
+  "companies": "খামার",
+  "uploadError": "আপলোড করা ব্যর্থ হয়েছে",
+  "laboratory": "ল্যাবরেটরি",
+  "user_not_found": "প্রদত্ত ইমেল ঠিকানার কোনও ব্যবহারকারী নেই।",
+  "settings": "সেটিংস",
+  "help": "সহায়তা",
+  "position_company": "খামারের অবস্থান",
+  "position_verb": "অবস্থান নির্ধারণ করুন",
+  "latitude": "অক্ষাংশ",
+  "longitude": "দ্রাঘিমাংশ",
+  "copy": "কপি",
+  "share": "শেয়ার",
+  "directions": "পথ নির্দেশনা",
+  "first_last_name": "পুরো নাম",
+  "company_number": "খামারের নম্বর",
+  "select_field": "জমি নির্বাচন করুন",
+  "grains_vegetables": "খাদ্যশস্য, সবজি",
+  "no_password_entered": "আপনি কোনও পাসওয়ার্ড দেননি।",
+  "language": "ভাষা",
+  "edit": "সম্পাদনা করুন",
+  "change": "পরিবর্তন করুন",
+  "contact": {
+    "dontDeleteData": "অনুগ্রহ করে নিম্নলিখিত তথ্য মুছবেন না। আপনাকে আমাদের সিস্টেমে সঠিকভাবে সনাক্ত করার জন্য দরকার। তাহলে আমরা আপনাকে আরো ভালো সহায়তা করতে পারব।\n"
+  },
+  "no": "না",
+  "done": "সম্পন্ন",
+  "city": "শহর",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "FarmerJoe বেছে নেবার জন্য ধন্যবাদ",
+        "description": "এখন আপনি সহজে ও দক্ষতার সাথে আপনার উৎপাদন অনুকূলন করতে পারেন।"
+      },
+      "slide2": {
+        "title": "একাধিক খামার ব্যবস্থাপনা করুন",
+        "description": "আপনার খামারগুলিতে কি হচ্ছে সহজেই জানতে থাকুন"
+      },
+      "slide3": {
+        "title": "কাগজপত্রের প্রক্রিয়া সহজ",
+        "description": "আপনার কাছে গুরুত্বপূর্ণ বিষয়গুলি লিখে রাখুন। আপনি রাখতে চান এমন সব বিষয়ের ছবি তুলুন।"
+      },
+      "slide4": {
+        "title": "সহজেই আপনার চাষের জমি খুঁজে পান",
+        "description": "সমস্ত চাষের জমির উপরিচিত্র সঙ্গে সঙ্গে পান। আপনার সিদ্ধান্তের জন্য ফসলের বয়স ও অপেক্ষার সময় গণনা ব্যবহার করুন।"
+      },
+      "slide5": {
+        "title": "অর্ডার বিশ্লেষণ",
+        "description": "আপনার স্মার্টফোনের মাধ্যমে অর্ডার বিশ্লেষণ। সেই সবের ফলাফল সরাসরি আপনার চাষের জমির হিসাবে যুক্ত হবে।"
+      },
+      "slide6": {
+        "title": "আপনার কর্মচারীদের যোগ করুন",
+        "description": "আরও ভালো কাজ করতে আপনার দলের শক্তিকে ব্যবহার করুন।"
+      },
+      "done": "এখনই শুরু করুন"
+    },
+    "skip": "এড়িয়ে যান"
+  },
+  "moments": {
+    "today": "আজ",
+    "days_ago": {
+      "one": "1 দিন আগে",
+      "other": "{{count}} দিন আগে"
+    },
+    "in_days": {
+      "one": "1 দিনের মধ্যে",
+      "other": "{{count}} দিনের মধ্যে"
+    }
+  },
+  "alerts": {
+    "openSettings": "সেটিংস খুলুন",
+    "needLocation": {
+      "title": "farmerJoe এর আপনার অবস্থানের প্রয়োজন",
+      "description": "farmerJoe এর বর্তমানে আপনার অবস্থান অ্যাক্সেস করতে অনুমতি নেই।"
+    },
+    "needAlwaysLocation": {
+      "title": "অবস্থানের অনুমতি দেওয়া নেই",
+      "description": "আপনার সরাসরি অবস্থান শেয়ার করার জন্য farmerJoe এর সর্বদা আপনার অবস্থানের অ্যাক্সেসের প্রয়োজন। এই অনুমতি আপনি না দিলে এই বৈশিষ্ট্য়টি আপনি ব্যবহার করতে পারবেন না।"
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe আপনার অবস্থান নির্ধারণ করতে পারছে না।",
+      "description": "অনুগ্রহ করে আপনার ফোনের জিপিএস চালু চালু করুন।"
+    },
+    "needPhotoLibrary": {
+      "title": "ছবি অ্যাক্সেস করা যাবে না",
+      "description": "ছবি নির্বাচন করতে অনুগ্রহ করে অ্যাক্সেসের অনুমতি দিন।"
+    },
+    "needCameraAccess": {
+      "title": "ক্যামেরা অ্যাক্সেস করা যাবে না",
+      "description": "ছবি তুলতে হলে অনুগ্রহ করে আপনার ক্যামেরার অ্যাক্সেস দিন।"
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe এর আপনার পরিচিতির অ্যাক্সেসের প্রয়োজন",
+      "description": "আপনার পরিচিত কাউকে আমন্ত্রণ করতে হলে farmerJoe-কে আপনার পরিচিতিসমূহের অ্যাক্সেস দিন।"
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe এর স্টোরেজের অ্যাক্সেস প্রয়োজন",
+      "description": "আপনার স্টোরেজ অ্যাক্সেস করার জন্য যে ছবিটি ব্যবহার করব। এই অনুমতি ছাড়া আপনি ছবি জমা দিতে পারবেন না।"
+    }
+  },
+  "filter": "ফিল্টার",
+  "acl": {
+    "view": "দেখান",
+    "create": "তৈরি করুন",
+    "edit": "সম্পাদনা করুন",
+    "delete": "মুছে ফেলুন",
+    "department": "বিভাগ",
+    "selectFields": "জমি নির্বাচন করুন",
+    "CRUD": "তৈরি করুন, সম্পাদনা করুন, মুছুন",
+    "role": {
+      "restricted": "নিয়ন্ত্রিত প্রবেশাধিকার",
+      "allrights": "সমস্ত অধিকার",
+      "type": "অ্যাকাউন্টের ধরন",
+      "admin": "অ্যাডমিন",
+      "standard": "শ্রমিক",
+      "advisor": "পরামর্শদাতা"
+    },
+    "user": {
+      "delete": "কর্মচারী মুছে ফেলুন",
+      "deactivate": "কর্মচারী নিষ্ক্রিয় করুন",
+      "doYouWantToDeactivateUser": "আপনি কি এই কর্মীকে নিষ্ক্রিয় করতে চান?",
+      "doYouWantToDeleteUser": "আপনি কি সত্যিই এই কর্মচারীটি মুছে ফেলতে চান?",
+      "cantDeleteYourself": "আপনি নিজেকে মুছতে পারবেন না",
+      "alertFound": {
+        "title": "ব্যবহারকারী ইতিমধ্যেই কোম্পানিতে আছে",
+        "message": "এই ইমেল ব্যবহারকারী ইতিমধ্যেই কোম্পানিতে আছে।"
+      },
+      "alertNoFields": {
+        "title": "কোনও জমি নির্বাচন করা নেই",
+        "message": "আপনাকে ব্যবহারকারীর জন্য অন্তত একটি জমি নির্বাচন করতে হবে"
+      }
+    },
+    "users": {
+      "users": "কর্মচারী",
+      "userRight": "ব্যবহারকারী খামারের অন্যান্য কর্মীদের দেখতে পাবে।"
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "ব্যবহারকারী একজন প্রশাসক এবং কোম্পানির সমস্ত জমির অ্যাক্সেস আছে। যদি আপনি এই জমিতে ও অন্যান্য জমিতে আপনার অ্যাক্সেস নিষেধ করতে চান তাহলে আপনাকে তাকে একজন স্বাভাবিক ব্যবহারকারী করতে হবে।"
+      },
+      "forbidFieldAlert": {
+        "message": "এই জমির জন্য কি আপনি {{name}} এর অ্যাক্সেস নিষেধ করতে চান?"
+      },
+      "grantFieldAlert": {
+        "message": "এই জমিতে কি আপনি {{name}} কে অ্যাক্সেস দেবেন?"
+      },
+      "alreadyHasAccess": "জমিতে ইতিমধ্যেই অ্যাক্সেস আছে।",
+      "accessOnceInvitationAccepted": "একজন যে ব্যবহারকারী আমন্ত্রণ গ্রহণ করেছে তার অ্যাক্সেস আছে।"
+    },
+    "rights": "অধিকার",
+    "fields": {
+      "all": "সমস্ত",
+      "selected": "কেবলমাত্র নির্বাচিত",
+      "selectDesc": "ব্যবহারকারী কোন কোন জমি দেখতে পাবে তা নির্বাচন করুন।",
+      "standardUserRights": "ব্যবহারকারী জমি তৈরি বা সম্পাদনা করতে পারবে না।"
+    },
+    "crops": {
+      "all": "রোপণ করা হয়েছে ও ফসল কাটা হয়েছে",
+      "active": "কেবলমাত্র রোপণ করা হয়েছে",
+      "standardUserRights": "ব্যবহারকারী কোনও ফসল তৈরি বা সম্পাদনা করতে পারবে না।"
+    },
+    "comments": {
+      "comments": "মন্তব্য",
+      "all": "সমস্ত মন্তব্য",
+      "selected": "কেবলমাত্র নিজের মন্তব্য",
+      "standardUserRights": "ব্যবহারকারী নিজের মন্তব্য তৈরি এবং সম্পাদনা করতে পারবেন।"
+    },
+    "fertilizing": {
+      "description": "উর্বরতা‌‌‌‌‌ সাধনের মাধ্যমে ব্যবহারকারী কি কি করতে পারবেন তা নিচে নির্বাচন করুন।"
+    },
+    "waittime": {
+      "description": "অপেক্ষা সময়ের মাধ্যমে ব্যবহারকারী কি কি করতে পারবেন তা নিচে নির্বাচন করুন।"
+    }
+  },
+  "near": {
+    "by": "কাছাকাছি",
+    "fields": "নিকটবর্তী জমি",
+    "cantSortNoLocation": "আমরা জমি অনুসারে কাছের বাছাই করতে পারব না, কারণ আপনি আপনার অবস্থানের অ্যাক্সেস আমাদেরকে দেননি।"
+  },
+  "registerScreen": {
+    "startNow": "শুরু করা যাক",
+    "helpEasySteps": "আমরা কয়েকটি ধাপের মাধ্যমে আপনাকে একটি অ্যাকাউন্ট তৈরি করতে সহায়তা করব।",
+    "useRealName": "আপনার আসল নাম ব্যবহার করলে আপনার সহকর্মীরা সহজেই আপনাকে বুঝতে পারবেন।",
+    "weUsePhone": "নম্বরটি শুধুমাত্র আপনার খামারগুলির সহকর্মীদের দেখানো হবে এবং তারা আপনাকে সহজেই ফোন করতে পারবেন।",
+    "weUseEmail": "যখন আপনি লগ ইন করবেন এবং কখনও আপনার পাসওয়ার্ড রিসেট করতে হলে তখন আপনি এটি ব্যবহার করবেন। অন্যান্য farmerJoe ব্যবহারকারীরা এই ইমেল ব্যবহার করে তাদের খামারে আপনাকে আমন্ত্রণ জানাতে পারবেন।",
+    "newsletter": "farmerJoe এর নিউজলেটারের জন্য সাইন আপ করুন",
+    "passwordHelp": "অন্তত ছয়টি সংখ্যা , অক্ষর এবং যতিচিহ্নের (যেমন ! ও &) একত্রীকরণ করে লিখুন",
+    "confrim_agb_data_security": "\"অ্যাকাউন্ট তৈরি করুন\" এ টোকা দিয়ে, আপনি আমাদের {0} এ সম্মত হচ্ছে। আমাদের {1} এ কীভাবে আমরা আপনার তথ্য সংগ্রহ করি ও ব্যবহার করি তা সম্পর্কে জানুন এবং আমাদের {2} এ কীভাবে আমরা কুকিজ ও অনুরূপ প্রযুক্তি ব্যবহার করি তা সম্পর্কে জানুন।",
+    "continueRegistration": "সাইন আপ অব্যাহত রাখুন",
+    "next": "পরবর্তী",
+    "enterEmail": "আপনার ইমেল লিখুন",
+    "errorEmailExist": "এই ইমেল ঠিকানা দিয়ে ইতিমধ্যেই একটি অ্যাকাউন্ট আছে।",
+    "retry": "পুনরায় চেষ্টা করুন",
+    "titles": {
+      "finish": "সাইন আপ শেষ করুন",
+      "haveAnAccount": "ইতিমধ্যেই অ্যাকাউন্ট আছে",
+      "join": "farmerJoe এ যোগ দিন",
+      "password": "একটি পাসওয়ার্ড তৈরি করুন",
+      "whatIsYourName": "আপনার নাম কি?",
+      "whatIsYourPhoneNumber": "আপনার মোবাইল নম্বর কত?",
+      "whatIsYourEmailAddress": "আপনার ইমেল ঠিকানা কি?",
+      "creating": "আপনার অ্যাকাউন্ট তৈরি হচ্ছে।"
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "খামারের সবাই আপনার অবস্থান দেখতে পাবেন",
+    "sharedWithFarm": "অবস্থান এই খামারের সঙ্গে শেয়ার করা হচ্ছে।",
+    "letColleaguesSeeYourLocationLabel": "আপনি কোথায় আছেন তা সহকর্মীদের জানতে দিন",
+    "letColleaguesSeeYourLocationDesc": "এই খামারের সহকর্মীদের সঙ্গে আপনার রিয়েল টাইম অবস্থান শেয়ার করুন।",
+    "forX": {
+      "x_minutes": {
+        "one": "{{count}} মিনিটের জন্য",
+        "other": "{{count}} মিনিটের জন্য"
+      },
+      "x_hours": {
+        "other": "{{count}} ঘণ্টার জন্য",
+        "one": "1 ঘন্টার জন্য"
+      },
+      "x_days": {
+        "other": "{{count}} দিনের জন্য",
+        "one": "1 দিনের জন্য"
+      }
+    },
+    "untilTurnedOff": "আপনার বন্ধ না করা পর্যন্ত",
+    "shareNow": "এখনই শেয়ার করুন",
+    "turnOff": "বন্ধ করুন",
+    "emailLog": "লোকেশন লগ ইমেল করুন"
+  },
+  "report": {
+    "issue": "সমস্যা জানান"
+  },
+  "no_company_selected": "কোনও কোম্পানি নির্বাচন করা নেই",
+  "no_field_selected": "কোনও চাষের জমি নির্বাচন করা নেই",
+  "invalid_phone_number": "অকার্যকর ফোন নম্বর",
+  "close": "বন্ধ করুন",
+  "errorMessage": "ওহ্, এমন হওয়া উচিৎ নয়। বিকাশকারী দলকে জানানো হয়েছে।",
+  "refresh": "রিফ্রেশ করুন",
+  "remoteSupport": "দূরবর্তী সহায়তার অনুরোধ",
+  "screenTooSmall": "আপনার স্ক্রীন খুবই ছোট। আমাদের অ্যাপ iOS এবং Android এর অ্যাপ বিকল্প হিসেবে ব্যবহার করুন।",
+  "emailVerified": "আপনার ইমেল যাচাই করা হয়েছে",
+  "resetPasswordLinkExpired": "আপনার পাসওয়ার্ড রিসেট করার অনুরোধের মেয়াদ শেষ হয়েছে বা লিঙ্কটি ইতিমধ্যেই ব্যবহার করা হয়েছে",
+  "verifyEmailLinkExpired": "আপনার ইমেল যাচাই করার অনুরোধের মেয়াদ শেষ হয়েছে বা লিঙ্কটি ইতিমধ্যেই ব্যবহার করা হয়েছে",
+  "emailChangeReverted": "আপনার সাইন ইন ইমেল পরিবর্তন করে আবার {{email}} করা হয়েছে।",
+  "invalidActionCode": "কোডটি বৈধ নয়।",
+  "browserNotSupported": "farmerJoe Internet Explorer সমর্থন করে না। অনুগ্রহ করে Firefox, Chrome, Edge, Opera বা Safari এর মতো আধুনিক ও সমর্থিত ব্রাউজার ব্যবহার করুন।",
+  "apiKeys": {
+    "header": "API কী",
+    "generate": "নতুন কী তৈরি করুন",
+    "key": "কী",
+    "enabled": "সক্ষমিত",
+    "description": "API কী আপনাকে অন্য সফ্টওয়্যারে farmerJoe একীভূত করার অনুমতি দেয়। আপনি {0} নথি খুঁজে পেতে পারেন।",
+    "descriptionLink": "এখানে",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "No API keys"
+  },
+  "apiLogs": {
+    "header": "API log",
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
+  }
+}
