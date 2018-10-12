@@ -634,7 +634,8 @@
     "ipFiltering": "IP Filtrering",
     "ipFilter": "Tilladte IP-adresser",
     "ipFilterHelp": "En kommasepareret liste af IP-adresser og IP-adresseområder. For eksempel: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "Ingen API-nøgler"
+    "noKeys": "Ingen API-nøgler",
+    "user": "User"
   },
   "apiLogs": {
     "header": "API log",
