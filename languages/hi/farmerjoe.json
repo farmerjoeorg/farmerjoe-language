@@ -140,9 +140,7 @@
     "modified_by": "Field modified by",
     "state": "Field's status",
     "distance": "Distance to field",
-    "analyses": "Analysis count",
-    "active": "active",
-    "archived": "archived"
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "आपने कोई ईमेल और पासवर्ड नहीं डाला है",
   "pleaseWaitImageIsBeingUploaded": "कृपया इंतजार करें, तस्वीर अपलोड की जा रही है",

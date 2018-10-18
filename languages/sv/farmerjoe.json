@@ -140,9 +140,7 @@
     "modified_by": "Field modified by",
     "state": "Field's status",
     "distance": "Distance to field",
-    "analyses": "Analysis count",
-    "active": "active",
-    "archived": "archived"
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "Du har inte angett en e-postadress och ett lösenord",
   "pleaseWaitImageIsBeingUploaded": "Vänta, bilden laddas upp",

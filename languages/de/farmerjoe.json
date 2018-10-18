@@ -140,9 +140,7 @@
     "modified_by": "Feld geändert von",
     "state": "Feldstatus",
     "distance": "Entfernung zum Feld",
-    "analyses": "Analyseanzahl",
-    "active": "aktiv",
-    "archived": "archiviert"
+    "analyses": "Analyseanzahl"
   },
   "no_email_no_password_entered": "Sie haben kein E-Mail und Passwort eingegeben",
   "pleaseWaitImageIsBeingUploaded": "Bitte warten Sie, das Bild wird hochgeladen",

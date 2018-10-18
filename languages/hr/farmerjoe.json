@@ -140,9 +140,7 @@
     "modified_by": "Field modified by",
     "state": "Field's status",
     "distance": "Distance to field",
-    "analyses": "Analysis count",
-    "active": "active",
-    "archived": "archived"
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "Niste unijeli adresu e-pošte i lozinku",
   "pleaseWaitImageIsBeingUploaded": "Pričekajte, postavlja se slika",
