@@ -133,7 +133,16 @@
     "history": "Feld-Verlauf",
     "show": "Feld anzeigen",
     "dropFilesHere": "Dateien hier ablegen",
-    "followingFilesAreUnsupported": "Foldende Dataien werden nicht unterstützt:"
+    "followingFilesAreUnsupported": "Foldende Dataien werden nicht unterstützt:",
+    "createdDate": "Felderstellungsdatum",
+    "created_by": "Feld erstellt von",
+    "modified": "Feldänderungsdatum",
+    "modified_by": "Feld geändert von",
+    "state": "Feldstatus",
+    "distance": "Entfernung zum Feld",
+    "analyses": "Analyseanzahl",
+    "active": "aktiv",
+    "archived": "archiviert"
   },
   "no_email_no_password_entered": "Sie haben kein E-Mail und Passwort eingegeben",
   "pleaseWaitImageIsBeingUploaded": "Bitte warten Sie, das Bild wird hochgeladen",
@@ -192,7 +201,14 @@
     "age": "Kulturalter",
     "cropDoesntExist": "Die ausgewählte Kultur existiert nicht mehr.",
     "protection": "Pflanzenschutz",
-    "activeCrops": "Aktive Kulturen"
+    "activeCrops": "Aktive Kulturen",
+    "created": "Kulturerstellungsdatum",
+    "created_by": "Kultur ertellt von",
+    "favorite": "Kultur ist ein Favorit",
+    "harvested_on": "Erntedatum",
+    "lastComment": "Letzter Kommentar",
+    "modified": "Kulturänderungsdatum",
+    "sown_on": "Saatdatum"
   },
   "fertilizer": {
     "fertilization": "Düngung",

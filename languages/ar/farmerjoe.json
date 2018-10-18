@@ -133,7 +133,16 @@
     "history": "تاريخ الحقل",
     "show": "إظهار الحقل",
     "dropFilesHere": "أسقط الملفات هنا",
-    "followingFilesAreUnsupported": "الملفات التالية غير مدعومة:"
+    "followingFilesAreUnsupported": "الملفات التالية غير مدعومة:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "لم تقم بإدخال بريد إلكتروني وكلمة مرور",
   "pleaseWaitImageIsBeingUploaded": "يرجى الانتظار، سيتم تحميل الصورة",
@@ -192,7 +201,14 @@
     "age": "عمر المحصول",
     "cropDoesntExist": "المحصول المحدد غير موجود.",
     "protection": "حماية النباتات",
-    "activeCrops": "المحاصيل النشطة"
+    "activeCrops": "المحاصيل النشطة",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "التخصيب",
@@ -622,7 +638,7 @@
   "verifyEmailLinkExpired": "انتهت صلاحية طلبك لإثبات ملكية بريدك الإلكتروني أو سبق أن تم استخدام الرابط",
   "emailChangeReverted": "تم تغيير عنوان البريد الإلكتروني لتسجيل الدخول مجددًا إلى {{email}}.",
   "invalidActionCode": "لم يعد هذا الرمز صالحًا",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "browserNotSupported": "برنامج farmerJoe لا يدعم Internet Expolorer. الرجاء استخدام متصفح حديث ومدعوم مثل Firefox أو Chrome أو Edge أو Opera أو Safari.",
   "apiKeys": {
     "header": "API keys",
     "generate": "Generate a new key",

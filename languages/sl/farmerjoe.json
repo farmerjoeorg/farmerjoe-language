@@ -133,7 +133,16 @@
     "history": "Zgodovina polja",
     "show": "Prikaži polje",
     "dropFilesHere": "Spustite datoteko tukaj",
-    "followingFilesAreUnsupported": "Te datoteke niso podprte:"
+    "followingFilesAreUnsupported": "Te datoteke niso podprte:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "Niste vnesli e-pošte in gesla",
   "pleaseWaitImageIsBeingUploaded": "Poteka nalaganja slike",
@@ -192,7 +201,14 @@
     "age": "Starost poljščine",
     "cropDoesntExist": "Izbrani pridelek ne obstaja.",
     "protection": "Zaščita rastlin",
-    "activeCrops": "Trenutni pridelki"
+    "activeCrops": "Trenutni pridelki",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Gnojenje",

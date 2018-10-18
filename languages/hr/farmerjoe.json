@@ -133,7 +133,16 @@
     "history": "Povijest polja",
     "show": "Pokaži polje",
     "dropFilesHere": "Ovdje ispustite datoteke",
-    "followingFilesAreUnsupported": "Sljedeće datoteke nisu podržane:"
+    "followingFilesAreUnsupported": "Sljedeće datoteke nisu podržane:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "Niste unijeli adresu e-pošte i lozinku",
   "pleaseWaitImageIsBeingUploaded": "Pričekajte, postavlja se slika",
@@ -192,7 +201,14 @@
     "age": "Starost usjeva",
     "cropDoesntExist": "Odabrani usjev ne postoji.",
     "protection": "Zaštita bilja",
-    "activeCrops": "Aktivni usjevi"
+    "activeCrops": "Aktivni usjevi",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Gnojidba",

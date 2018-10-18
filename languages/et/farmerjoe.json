@@ -133,7 +133,16 @@
     "history": "Põllu ajalugu",
     "show": "Näita põldu",
     "dropFilesHere": "Poeta failid siia",
-    "followingFilesAreUnsupported": "Järgmisi faile ei toetata:"
+    "followingFilesAreUnsupported": "Järgmisi faile ei toetata:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "Te pole sisestanud e-posti ja parooli",
   "pleaseWaitImageIsBeingUploaded": "Oodake, pilti laaditakse üles",
@@ -192,7 +201,14 @@
     "age": "Kultuur vanus",
     "cropDoesntExist": "Valitud kultuuri ei eksisteeri.",
     "protection": "Taimekaitse",
-    "activeCrops": "Aktiivsed kultuurid"
+    "activeCrops": "Aktiivsed kultuurid",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Väetamine",

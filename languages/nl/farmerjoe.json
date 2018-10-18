@@ -133,7 +133,16 @@
     "history": "Veldgeschiedenis",
     "show": "Veld weergeven",
     "dropFilesHere": "Bestanden hier neerzetten",
-    "followingFilesAreUnsupported": "De volgende bestanden worden niet ondersteund:"
+    "followingFilesAreUnsupported": "De volgende bestanden worden niet ondersteund:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "U heeft geen e-mailadres en wachtwoord ingevoerd",
   "pleaseWaitImageIsBeingUploaded": "Even geduld, de foto wordt geüpload",
@@ -192,7 +201,14 @@
     "age": "Gewasleeftijd",
     "cropDoesntExist": "Het geselecteerde gewas bestaat niet.",
     "protection": "Gewasbescherming",
-    "activeCrops": "Actieve gewassen"
+    "activeCrops": "Actieve gewassen",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Bemesting",

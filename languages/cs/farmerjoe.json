@@ -133,7 +133,16 @@
     "history": "Historie pole",
     "show": "Zobrazit pole",
     "dropFilesHere": "Přetáhněte soubory sem",
-    "followingFilesAreUnsupported": "Následující soubory nejsou podporovány:"
+    "followingFilesAreUnsupported": "Následující soubory nejsou podporovány:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "Nezadali jste e-mail a heslo",
   "pleaseWaitImageIsBeingUploaded": "Počkejte prosím, obrázek bude nahrán",
@@ -192,7 +201,14 @@
     "age": "Stáří plodiny",
     "cropDoesntExist": "Zvolená plodina neexistuje.",
     "protection": "Ochrana rostlin",
-    "activeCrops": "Aktivní plodiny"
+    "activeCrops": "Aktivní plodiny",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Hnojení",

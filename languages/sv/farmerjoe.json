@@ -133,7 +133,16 @@
     "history": "Fälthistorik",
     "show": "Visa fält",
     "dropFilesHere": "Släpp filer här",
-    "followingFilesAreUnsupported": "Följande filer stöds inte:"
+    "followingFilesAreUnsupported": "Följande filer stöds inte:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "Du har inte angett en e-postadress och ett lösenord",
   "pleaseWaitImageIsBeingUploaded": "Vänta, bilden laddas upp",
@@ -192,7 +201,14 @@
     "age": "Grödans ålder",
     "cropDoesntExist": "Den valda grödan finns inte.",
     "protection": "Växtskydd",
-    "activeCrops": "Aktiva grödor"
+    "activeCrops": "Aktiva grödor",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Befruktning",

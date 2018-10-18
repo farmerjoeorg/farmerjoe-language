@@ -133,7 +133,16 @@
     "history": "खेत इतिहास",
     "show": "खेत दिखाएँ",
     "dropFilesHere": "फाइलें यहाँ छोड़ें",
-    "followingFilesAreUnsupported": "इन फाइलों को सपोर्ट प्राप्त नहीं है:"
+    "followingFilesAreUnsupported": "इन फाइलों को सपोर्ट प्राप्त नहीं है:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "आपने कोई ईमेल और पासवर्ड नहीं डाला है",
   "pleaseWaitImageIsBeingUploaded": "कृपया इंतजार करें, तस्वीर अपलोड की जा रही है",
@@ -192,7 +201,14 @@
     "age": "फसल आयु",
     "cropDoesntExist": "चयनित फसल मौजूद नहीं है।",
     "protection": "पौध संरक्षण",
-    "activeCrops": "सक्रिय फसलें"
+    "activeCrops": "सक्रिय फसलें",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "खाद डालना",

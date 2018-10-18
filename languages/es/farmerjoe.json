@@ -133,7 +133,16 @@
     "history": "Historial del campo",
     "show": "Mostrar campo",
     "dropFilesHere": "Soltar archivos aquí",
-    "followingFilesAreUnsupported": "Los siguientes archivos no son compatibles:"
+    "followingFilesAreUnsupported": "Los siguientes archivos no son compatibles:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count",
+    "active": "active",
+    "archived": "archived"
   },
   "no_email_no_password_entered": "No has ingresado dirección de correo electrónico ni contraseña",
   "pleaseWaitImageIsBeingUploaded": "Por favor espera, la imagen está siendo cargada",
@@ -192,7 +201,14 @@
     "age": "Edad del cultivo",
     "cropDoesntExist": "El cultivo seleccionado no existe.",
     "protection": "Protección de las plantas",
-    "activeCrops": "Cultivos activos"
+    "activeCrops": "Cultivos activos",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Fertilización",
