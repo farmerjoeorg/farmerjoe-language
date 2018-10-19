@@ -662,5 +662,11 @@
     "response": "Response",
     "noResults": "No results",
     "description": "The list shows API calls from the last 24 hours."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
   }
 }

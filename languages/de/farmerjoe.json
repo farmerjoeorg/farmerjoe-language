@@ -662,5 +662,11 @@
     "response": "Antwort",
     "noResults": "Keine Treffer",
     "description": "Die Liste zeigt API-Anrufe von den letzten 24 Stunden."
+  },
+  "columnConfigurator": {
+    "title": "Spalten konfigurieren",
+    "possibleColumns": "Verfügbare Spalten",
+    "chosenColumns": "Gewählte Spalten",
+    "dragHere": "hier ziehen"
   }
 }

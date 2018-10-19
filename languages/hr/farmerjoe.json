@@ -662,5 +662,11 @@
     "response": "Odgovor",
     "noResults": "Nema rezultata",
     "description": "Na popisu se prikazuju API pozivi u zadnja 24 sata."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
   }
 }
