@@ -642,7 +642,7 @@
     "generate": "Neuen Schlüssel generieren",
     "key": "Schlüssel",
     "enabled": "Aktiviert",
-    "description": "Mit API-Schlüssel kannst du farmerJoe in andere Software integrieren. Die Dokumentation befindet sich {0}.",
+    "description": "Mit dem API-Schlüssel hast du vollen Zugriff auf deine Betriebsdaten. Bewahre ihn auf!",
     "descriptionLink": "hier",
     "name": "Name",
     "ipFiltering": "IP-Filterung",
@@ -661,7 +661,7 @@
     "version": "Version",
     "response": "Antwort",
     "noResults": "Keine Treffer",
-    "description": "Die Liste zeigt API-Anrufe von den letzten 24 Stunden."
+    "description": "Die Liste zeigt die API-Aufrufe den letzten 24 Stunden."
   },
   "columnConfigurator": {
     "title": "Spalten konfigurieren",

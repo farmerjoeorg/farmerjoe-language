@@ -642,7 +642,7 @@
     "generate": "Generate a new key",
     "key": "Key",
     "enabled": "Enabled",
-    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "description": "API keys provide full access to your farmerJoe farm's data, so keep them save.",
     "descriptionLink": "here",
     "name": "Name",
     "ipFiltering": "IP Filtering",
