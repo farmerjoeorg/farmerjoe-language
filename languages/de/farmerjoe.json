@@ -133,7 +133,14 @@
     "history": "Feld-Verlauf",
     "show": "Feld anzeigen",
     "dropFilesHere": "Dateien hier ablegen",
-    "followingFilesAreUnsupported": "Foldende Dataien werden nicht unterstützt:"
+    "followingFilesAreUnsupported": "Foldende Dataien werden nicht unterstützt:",
+    "createdDate": "Felderstellungsdatum",
+    "created_by": "Feld erstellt von",
+    "modified": "Feldänderungsdatum",
+    "modified_by": "Feld geändert von",
+    "state": "Feldstatus",
+    "distance": "Entfernung zum Feld",
+    "analyses": "Analyseanzahl"
   },
   "no_email_no_password_entered": "Sie haben kein E-Mail und Passwort eingegeben",
   "pleaseWaitImageIsBeingUploaded": "Bitte warten Sie, das Bild wird hochgeladen",
@@ -153,8 +160,7 @@
       "upload": "Betriebslogo auswählen",
       "camera": "Betriebslogo aufnehmen"
     },
-    "doYouWantToDeleteCompany": "Wollen Sie den Betrieb wirklich löschen?",
-    "addNew": "Bertieb hinzfügen"
+    "doYouWantToDeleteCompany": "Wollen Sie den Betrieb wirklich löschen?"
   },
   "crop": {
     "cancelCultivation": "Kulturplanung aufheben",
@@ -193,7 +199,14 @@
     "age": "Kulturalter",
     "cropDoesntExist": "Die ausgewählte Kultur existiert nicht mehr.",
     "protection": "Pflanzenschutz",
-    "activeCrops": "Aktive Kulturen"
+    "activeCrops": "Aktive Kulturen",
+    "created": "Kulturerstellungsdatum",
+    "created_by": "Kultur ertellt von",
+    "favorite": "Kultur ist ein Favorit",
+    "harvested_on": "Erntedatum",
+    "lastComment": "Letzter Kommentar",
+    "modified": "Kulturänderungsdatum",
+    "sown_on": "Saatdatum"
   },
   "fertilizer": {
     "fertilization": "Düngung",
@@ -623,5 +636,37 @@
   "verifyEmailLinkExpired": "Ihre Anfrage zur Bestätigung der E-Mail-Adresse ist abgelaufen oder der Link wurde bereits verwendet",
   "emailChangeReverted": "Ihre Anmelde-E-Mail-Adresse wurde wieder in {{email}} geändert.",
   "invalidActionCode": "Dieser Code ist nicht mehr gültig",
-  "browserNotSupported": "Farmerjoe unterstützt Internet Explorer nicht. Bitte verwenden Sie ein anderer Browser wie Firefox, Chrome, Edge, Opera oder Safari."
+  "browserNotSupported": "FarmerJoe unterstützt Internet Explorer nicht. Bitte verwenden Sie ein anderer Browser wie Firefox, Chrome, Edge, Opera oder Safari.",
+  "apiKeys": {
+    "header": "API-Schlüssel",
+    "generate": "Neuen Schlüssel generieren",
+    "key": "Schlüssel",
+    "enabled": "Aktiviert",
+    "description": "Mit API-Schlüssel kannst du farmerJoe in andere Software integrieren. Die Dokumentation befindet sich {0}.",
+    "descriptionLink": "hier",
+    "name": "Name",
+    "ipFiltering": "IP-Filterung",
+    "ipFilter": "Erlaubte IP-Adressen",
+    "ipFilterHelp": "Eine kommagetrennte Liste von IP-Adressen und IP-Adresse Bereichen. Zum Beispiel: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "keine API-Schlüssel",
+    "user": "Benutzer"
+  },
+  "apiLogs": {
+    "header": "API-Protokoll",
+    "result": "Ergebnis",
+    "ipAddress": "IP-Quelladresse",
+    "method": "Methode",
+    "execTime": "Ausführungszeit",
+    "userAgent": "User Agent",
+    "version": "Version",
+    "response": "Antwort",
+    "noResults": "Keine Treffer",
+    "description": "Die Liste zeigt API-Anrufe von den letzten 24 Stunden."
+  },
+  "columnConfigurator": {
+    "title": "Spalten konfigurieren",
+    "possibleColumns": "Verfügbare Spalten",
+    "chosenColumns": "Gewählte Spalten",
+    "dragHere": "hier ziehen"
+  }
 }

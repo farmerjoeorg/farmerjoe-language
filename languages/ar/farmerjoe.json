@@ -1,9 +1,25 @@
 {
   "data_guidelines": "سياسة البيانات",
+  "cookie_policy": "سياسة ملفات تعريف الارتباط",
+  "info": "معلومات",
   "invites": {
     "reject": "رفض",
     "from": "دعوة من {{name}}",
-    "accept": "قبول"
+    "accept": "قبول",
+    "resend": "إعادة إرسال",
+    "resendDoYouReally": "هل تريد حقًا إعادة إرسال الدعوة؟",
+    "deleteDoYouReally": "هل أنت متأكد من أنك تريد حذف المستخدم من الشركة؟",
+    "noInvites": "لا توجد دعوات"
+  },
+  "latestActivities": {
+    "tabLabel": "الأخير",
+    "sceneTitle": "الأنشطة الأخيرة",
+    "period": "الفترة",
+    "selectPeriod": "حدد فترة",
+    "onlyPhotos": "صور فقط",
+    "photo": "صورة",
+    "all": "الكل",
+    "noActivity": "لا يوجد نشاط في الفترة المحددة"
   },
   "invalid_email": "عنوان البريد الإلكتروني غير صالح.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "طلب",
     "plantOrSowDate": "تاريخ الزرع/البذر",
     "pleaseLabelProbe": "يرجى تسمية المجس!",
+    "dontForgetToLabelProbe": "الرجاء عدم نسيان تسمية المجس!",
     "compostType": "نوع السماد",
     "compostAmountInTons": "الكمية بالطن",
     "compostApplicationYear": "سنة التنفيذ",
@@ -80,7 +97,15 @@
     "needFastToday": "تعجيل اليوم",
     "pick_up_from_laboratory": "عينة المعمل",
     "pleaseFollowCurrentFertilizerRegulation": "يرجى اتباع توجيهات المخصبات.",
-    "sampleIsTakenAccordingToRegulation": "سيتم أخذ العينة وفقًا لتوجيهات المخصبات الحالية."
+    "sampleIsTakenAccordingToRegulation": "سيتم أخذ العينة وفقًا لتوجيهات المخصبات الحالية.",
+    "acceptedFromLab": "{{date}} - مقبول من المعمل",
+    "acceptedFromLabAndCantBeCancelled": "تم قبول التحليل من المعمل ولا يمكن إلغاؤه بعد ذلك.",
+    "probeTaken": "{{date}} - مجس مأخوذ من المعمل",
+    "sortByCrop": "حسب المحصول",
+    "sortByLatest": "حسب الأخير",
+    "latest": "آخر التحليلات",
+    "analysisType": "نوع التحليل",
+    "cancelReasonLab": "سبب الإلغاء: {{reason}}"
   },
   "field": {
     "number": "رقم الحقل",
@@ -89,6 +114,7 @@
     "sendToArchive": "أرشفة الحقل",
     "cultivate": "زراعة الحقل",
     "harvested_on": "تاريخ حصاد المحصول {{date}}",
+    "sown_on": "تاريخ زراعة المحصول {{date}}",
     "delete": "حذف الحقل",
     "moveToArchive": "سيتم نقل الحقل إلى الأرشيف (مزرعة -> أرشيف)",
     "area": "منطقة",
@@ -103,7 +129,18 @@
     "createNow": "إنشاء حقل الآن",
     "toArchive": "أرشيف",
     "field": "حقل",
-    "created": "تم إنشاء الحقل."
+    "created": "تم إنشاء الحقل.",
+    "history": "تاريخ الحقل",
+    "show": "إظهار الحقل",
+    "dropFilesHere": "أسقط الملفات هنا",
+    "followingFilesAreUnsupported": "الملفات التالية غير مدعومة:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "لم تقم بإدخال بريد إلكتروني وكلمة مرور",
   "pleaseWaitImageIsBeingUploaded": "يرجى الانتظار، سيتم تحميل الصورة",
@@ -119,6 +156,10 @@
     "create_first_company": "إنشاء مزرعتك الأولى",
     "delete": "حذف المزرعة",
     "qs_number": "رقم QS",
+    "logo": {
+      "upload": "حدد شعار الشركة",
+      "camera": "التقط شعار شركة جديد"
+    },
     "doYouWantToDeleteCompany": "هل تريد حقا حذف هذه المزرعة؟"
   },
   "crop": {
@@ -155,7 +196,17 @@
     "select_color": "حدد اللون",
     "without": "غير مزروع",
     "cropPlanning": "تخطيط المحصول",
-    "age": "عمر المحصول"
+    "age": "عمر المحصول",
+    "cropDoesntExist": "المحصول المحدد غير موجود.",
+    "protection": "حماية النباتات",
+    "activeCrops": "المحاصيل النشطة",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "التخصيب",
@@ -171,6 +222,7 @@
   "no_first_last_name_entered": "الرجاء إدخال الاسم الأول والأخير.",
   "deletePhoto": "حذف الصورة",
   "date": "تاريخ",
+  "datePleaseSelect": "الرجاء تحديد تاريخ",
   "invoice": {
     "youDontHaveAddress": "لم تدخل عنوان إرسال الفواتير."
   },
@@ -190,7 +242,8 @@
     "delete": "حذف وقت الانتظار",
     "doYouReallyWantToDelete": "هل تريد حقًا حذف وقت الانتظار؟",
     "pesticide": "اسم المبيدات",
-    "waitTime": "فترة الانتظار"
+    "waitTime": "فترة الانتظار",
+    "waitTimeShort": "وقت الانتظار"
   },
   "more": "أكثر",
   "position": "موقع",
@@ -200,7 +253,6 @@
     "inform": "إبلاغ الأصدقاء",
     "emailMessage": "مرحبًا،\nلقد قمت الآن بتحميل farmerJoe لـ {{phone}}.\n\nfarmerJoe هو تطبيق توثيق للمزارعين سهل الاستخدام. من خلال التطبيق يمكنك رؤية حقولك ومحاصيلك على الخريطة، كما أنه يمكنك إضافة ملاحظات مع صورة. يمكنك أيضًا تعيين أوقات الانتظار وتسجيل الأسمدة.\n\nfarmerJoe متاح لأجهزة الآيفون والأندرويد.\n\nقم بتثبيته من {{url}}."
   },
-  "confrim_agb_data_security": "بالنقر على \"إنشاء حساب\"، فإنك توافق على {0} وتأكد أنك قد قرأت {1}.",
   "password": {
     "current": "كلمة المرور الحالية",
     "password": "كلمة المرور",
@@ -213,7 +265,8 @@
     "repeat": "كرر كلمة المرور",
     "updated": "تم تحديث كلمة المرور.",
     "min6char": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.",
-    "reset": "إعادة تعيين كلمة المرور"
+    "reset": "إعادة تعيين كلمة المرور",
+    "resetHelp": "أدخل كلمة المرور الجديدة الخاصة بك أدناه."
   },
   "noSearchResults": "لا توجد نتائج.",
   "login": "دخول",
@@ -241,6 +294,7 @@
   "employee": "الموظف",
   "archive": {
     "archive": "أرشيف",
+    "archivedFields": "حقول مؤرشفة",
     "noFieldsInArchive": "لم يتم أرشفة أية حقول."
   },
   "save_as_favorite": "حفظ كمفضلة",
@@ -263,12 +317,23 @@
   "invoice_address": "عنوان الفواتير",
   "logout": "الخروج",
   "employees": {
+    "addEmployee": "إضافة موظف",
+    "noAdvisors": "بدون مستشاري المزرعة",
+    "noDeactivatedUsers": "بدون مستخدمين غير منشطين",
     "plural": "موظفون",
+    "active": "نشط",
+    "deactivated": "غير منشّط",
+    "reactivate": "إعادة تنشيط المستخدم",
+    "reactivateDoYouWant": "هل تريد حقًا إعادة تنشيط المستخدم؟",
+    "advisors": "المستشارون",
     "admin": "مدير",
     "manage": "إدارة المستخدمين",
     "adminRWD": "مدير (قراءة، كتابة، حذف)",
     "invitationSentOn": "تم إرسال دعوة في {{date}}",
-    "invitrationRejectedOn": "تم رفض الدعوة في {{date}}"
+    "invitrationRejectedOn": "تم رفض الدعوة في {{date}}",
+    "getFromPhoneBook": "بحث في دليل الهاتف",
+    "choseEmail": "اختر البريد الإلكتروني",
+    "employeeIsDeactivated": "الموظف غير منشّط"
   },
   "search": "بحث",
   "satellite": "قمر صناعي",
@@ -291,6 +356,7 @@
   "favorites": "المفضلة",
   "legal_data_security": "معلومات قانونية وأمان البيانات",
   "coordinates": "إحداثيات",
+  "deleteForAll": "حذف الكل",
   "deletePermenantly": "حذف نهائيا",
   "comment": {
     "fromField": "تعليق من الحقل: {{name}}",
@@ -309,7 +375,8 @@
   "create_account": "تسجيل جديد",
   "map": "خرائط",
   "maps": {
-    "pressToSetPin": "اضغط على الخريطة لتعيين دبوس الموقع."
+    "pressToSetPin": "اضغط على الخريطة لتعيين دبوس الموقع.",
+    "clickToShowMore": "انقر لإظهار المزيد"
   },
   "no_email_entered": "لم تقم بإدخال بريد إلكتروني.",
   "camera": "كاميرا",
@@ -322,6 +389,7 @@
   "first_name": "الاسم الأول",
   "request_new_password": "طلب كلمة مرور جديدة",
   "register": "إنشاء حساب",
+  "needAFarmerJoeAccount": "هل تحتاج إلى حساب farmerJoe؟",
   "phones": {
     "enterNumber": "أدخل رقم هاتفك"
   },
@@ -332,6 +400,9 @@
   "settings": "إعدادات",
   "help": "مساعدة",
   "position_company": "موقع المزرعة",
+  "position_verb": "تعيين موقع",
+  "latitude": "خط العرض",
+  "longitude": "خط الطول",
   "copy": "نسخ",
   "share": "مشاركة",
   "directions": "اتجاهات",
@@ -391,27 +462,211 @@
     }
   },
   "alerts": {
+    "openSettings": "فتح الإعدادات",
     "needLocation": {
       "title": "farmerJoe يحتاج إلى الموقع الخاص بك",
       "description": "لا يُسمح لـ farmerJoe بالوصول إلى الموقع الذي توجد به في الوقت الحالي."
+    },
+    "needAlwaysLocation": {
+      "title": "لم يتم منح إذن الموقع",
+      "description": "لمشاركة موقعك المباشر يحتاج farmerJoe إلى الوصول إلى موقعك. وإذا لم تمنح هذا الإذن، فلا يمكنك استخدام هذه الميزة."
     },
     "cantDetermineLocation": {
       "title": "لا يمكن لـ farmerJoe تحديد موقعك.",
       "description": "يرجى تشغيل نظام التموضع العالمي في هاتفك."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "لا يمكن الوصول إلى الصورة",
+      "description": "الرجاء السماح بالوصول إذا كنت تريد أن تكون قادراً على تحديد الصور."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "لا يمكن الوصول إلى الكاميرا",
+      "description": "الرجاء السماح بالوصول إلى الكاميرا الخاصة بك إذا كنت تريد التقاط الصور."
+    },
+    "needContactsAccess": {
+      "title": "يحتاج farmerJoe إلى الوصول إلى جهات الاتصال الخاصة بك",
+      "description": "إذا أردت دعوة شخص من دفتر العناوين الخاص بك فالرجاء منح FarmerJoe الوصول إلى جهات الاتصال."
+    },
+    "sketchNeedsStorage": {
+      "title": "يحتاج farmerJoe إلى الوصول إلى ذاكرة التخزين",
+      "description": "لكي نتمكن من استغلال الصورة نحتاج إلى الوصول إلى ذاكرة التخزين. وبدون هذا الإذن لن تتمكن من إرسال الصورة."
     }
   },
   "filter": "تصفية البحث",
+  "acl": {
+    "view": "عرض",
+    "create": "إنشاء",
+    "edit": "تحرير",
+    "delete": "حذف",
+    "department": "الإدارة",
+    "selectFields": "تحديد الحقول",
+    "CRUD": "إنشاء وتحرير وحذف",
+    "role": {
+      "restricted": "الوصول محظور",
+      "allrights": "جميع الحقوق",
+      "type": "نوع الحساب",
+      "admin": "مدير",
+      "standard": "عامل",
+      "advisor": "مستشار"
+    },
+    "user": {
+      "delete": "حذف الموظف",
+      "deactivate": "إلغاء تنشيط الموظف",
+      "doYouWantToDeactivateUser": "هل تريد إلغاء تنشيط هذا الموظف؟",
+      "doYouWantToDeleteUser": "هل تريد حقا حذف هذا الموظف؟",
+      "cantDeleteYourself": "لا يمكنك حذف نفسك",
+      "alertFound": {
+        "title": "المستخدم موجود في الشركة بالفعل",
+        "message": "يوجد بالفعل مستخدم لديه هذا البريد الإلكتروني في الشركة."
+      },
+      "alertNoFields": {
+        "title": "لم يتم تحديد أي حقول",
+        "message": "تحتاج إلى تحديد حقل واحد على الأقل للمستخدم"
+      }
+    },
+    "users": {
+      "users": "موظفون",
+      "userRight": "يمكن للمستخدم رؤية الموظفين الآخرين في المزرعة."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "المستخدم يتولى دور المسؤول ولديه حق الوصول إلى جميع الحقول في الشركة. إذا أردت حظر وصوله إلى هذا الحقل والحقول الأخرى فيتعين عليك جعله مستخدمًا عاديًا."
+      },
+      "forbidFieldAlert": {
+        "message": "هل تريد حقًا منع {{name}} من الوصول إلى هذا الحقل؟"
+      },
+      "grantFieldAlert": {
+        "message": "هل تريد حقًا منح {{name}} حق الوصول إلى هذا الحقل؟"
+      },
+      "alreadyHasAccess": "لديه بالفعل حق الوصول إلى الحقل.",
+      "accessOnceInvitationAccepted": "لديه حق الوصول بمجرد قبول المستخدم للدعوة."
+    },
+    "rights": "الحقوق",
+    "fields": {
+      "all": "الكل",
+      "selected": "المحددة فقط",
+      "selectDesc": "حدد الحقول التي يمكن للمستخدم رؤيتها.",
+      "standardUserRights": "لا يمكن للمستخدم إنشاء الحقول أو تحريرها."
+    },
+    "crops": {
+      "all": "مزروعة ومحصودة",
+      "active": "مزروعة فقط",
+      "standardUserRights": "لا يمكن للمستخدم إنشاء أي محاصيل أو تحريرها."
+    },
+    "comments": {
+      "comments": "تعليقات",
+      "all": "جميع التعليقات",
+      "selected": "التعليقات الخاصة بي فقط",
+      "standardUserRights": "يمكن للمستخدم إنشاء وتحرير التعليقات الخاصة به فقط."
+    },
+    "fertilizing": {
+      "description": "حدد أدناه ما يمكن أن يفعله المستخدم بالمخصبات."
+    },
+    "waittime": {
+      "description": "حدد أدناه ما يمكن أن يفعله المستخدم بأوقات الانتظار."
+    }
+  },
+  "near": {
+    "by": "القريب",
+    "fields": "أقرب الحقول",
+    "cantSortNoLocation": "لا يمكننا الفرز حسب أقرب الحقول، لأنك لم تمنحنا حق الوصول إلى موقعك."
+  },
+  "registerScreen": {
+    "startNow": "الشروع في العمل",
+    "helpEasySteps": "سوف نساعدك في إنشاء حساب من خلال بضع خطوات سهلة.",
+    "useRealName": "استخدام اسمك الحقيقي يُسهّل على الزملاء التعرف عليك في المزارع الخاصة بك.",
+    "weUsePhone": "سيظهر هذا الرقم للزملاء في مزارعك وسيكون بإمكانهم الاتصال بك بسهولة.",
+    "weUseEmail": "سوف تستخدم هذا البريد الإلكتروني عند تسجيل الدخول وإذا احتجت إلى إعادة تعيين كلمة المرور. وسيكون بإمكان مستخدمي farmerJoe الآخرين دعوتك إلى مزارعهم باستخدام هذا البريد الإلكتروني.",
+    "newsletter": "سجّل في الرسائل الإخبارية لـ farmerJoe",
+    "passwordHelp": "أدخل توليفة من ست أرقام وحروف وعلامات ترقيم على الأقل (مثل ! و&)",
+    "confrim_agb_data_security": "من خلال لمس \"إنشاء حساب\"، فإنك توافق على {0} الخاص بنا. تعرّف كيف نجمع بياناتك ونستخدمها في {1}، وكيف نستخدم ملفات تعريف الارتباط والتقنية المماثلة في {2}.",
+    "continueRegistration": "مواصلة التسجيل",
+    "next": "التالي",
+    "enterEmail": "أدخل بريدك الإلكتروني",
+    "errorEmailExist": "Another account already users this email address.",
+    "retry": "إعادة المحاولة",
+    "titles": {
+      "finish": "إنهاء التسجيل",
+      "haveAnAccount": "لديك حساب بالفعل",
+      "join": "انضم إلى farmerJoe",
+      "password": "إنشاء كلمة مرور",
+      "whatIsYourName": "ما اسمك؟",
+      "whatIsYourPhoneNumber": "ما رقم هاتفك المحمول؟",
+      "whatIsYourEmailAddress": "ما عنوان بريدك الإلكتروني؟",
+      "creating": "يجري إنشاء حسابك."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "يمكن لكل شخص في المزرعة رؤية موقعك",
+    "sharedWithFarm": "تجري مشاركة الموقع مع هذه المزرعة.",
+    "letColleaguesSeeYourLocationLabel": "اسمح للزملاء بمعرفة أين توجد",
+    "letColleaguesSeeYourLocationDesc": "شارك موقعك فورًا مع الزملاء في هذه المزرعة.",
+    "forX": {
+      "x_minutes": {
+        "one": "لمدة {{count}} دقيقة",
+        "other": "لمدة {{count}} دقائق"
+      },
+      "x_hours": {
+        "other": "لمدة {{count}} ساعات",
+        "one": "لمدة 1 ساعة"
+      },
+      "x_days": {
+        "other": "لمدة {{count}} أيام",
+        "one": "لمدة 1 يوم"
+      }
+    },
+    "untilTurnedOff": "حتى توقفه",
+    "shareNow": "مشاركة الآن",
+    "turnOff": "إيقاف التشغيل",
+    "emailLog": "إرسال سجل الموقع بالبريد الإلكتروني"
+  },
+  "report": {
+    "issue": "الإبلاغ عن مشكلة"
+  },
+  "no_company_selected": "لم يتم تحديد أي شركة",
+  "no_field_selected": "لم يتم تحديد أي حقل",
+  "invalid_phone_number": "رقم هاتف غير صالح",
+  "close": "إغلاق",
+  "errorMessage": "معذرة، ما كان ينبغي أن يحدث هذا. تم إخطار فريق التطوير.",
+  "refresh": "تحديث",
+  "remoteSupport": "طلب دعم عن بعد",
+  "screenTooSmall": "شاشتك صغيرة للغاية. استخدم التطبيق الخاص بأنظمة iOS وAndroid بدلا من ذلك.",
   "emailVerified": "تم إثبات ملكية بريدك الإلكتروني",
   "resetPasswordLinkExpired": "انتهت صلاحية طلبك لإعادة تعيين كلمة المرور أو سبق أن تم استخدام الرابط",
   "verifyEmailLinkExpired": "انتهت صلاحية طلبك لإثبات ملكية بريدك الإلكتروني أو سبق أن تم استخدام الرابط",
   "emailChangeReverted": "تم تغيير عنوان البريد الإلكتروني لتسجيل الدخول مجددًا إلى {{email}}.",
-  "invalidActionCode": "لم يعد هذا الرمز صالحًا"
+  "invalidActionCode": "لم يعد هذا الرمز صالحًا",
+  "browserNotSupported": "برنامج farmerJoe لا يدعم Internet Expolorer. الرجاء استخدام متصفح حديث ومدعوم مثل Firefox أو Chrome أو Edge أو Opera أو Safari.",
+  "apiKeys": {
+    "header": "API keys",
+    "generate": "Generate a new key",
+    "key": "Key",
+    "enabled": "Enabled",
+    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "descriptionLink": "here",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "No API keys",
+    "user": "User"
+  },
+  "apiLogs": {
+    "header": "API log",
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
+  }
 }

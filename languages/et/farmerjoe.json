@@ -1,9 +1,25 @@
 {
   "data_guidelines": "Andmetöötluse põhimõtted",
+  "cookie_policy": "Küpsiste põhimõtted",
+  "info": "Info",
   "invites": {
     "reject": "Keeldu",
     "from": "Kutse isikult {{name}}",
-    "accept": "Aktsepteeri"
+    "accept": "Aktsepteeri",
+    "resend": "Saada uuesti",
+    "resendDoYouReally": "Kas soovite tõesti kutse uuesti saata?",
+    "deleteDoYouReally": "Kas soovite tõesti selle kasutaja ettevõttest kustutada?",
+    "noInvites": "Kutseid pole"
+  },
+  "latestActivities": {
+    "tabLabel": "Viimased",
+    "sceneTitle": "Viimased tegevused",
+    "period": "Ajavahemik",
+    "selectPeriod": "Vali ajavahemik",
+    "onlyPhotos": "Ainult fotod",
+    "photo": "Foto",
+    "all": "Kõik",
+    "noActivity": "Valitud ajavahemikul puuduvad tegevused"
   },
   "invalid_email": "E-posti aadress on kehtetu.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "Telli",
     "plantOrSowDate": "Külvamise kuupäev",
     "pleaseLabelProbe": "Palun märgi proovile!",
+    "dontForgetToLabelProbe": "Palun ärge unustage proovi sildistada!",
     "compostType": "Komposti tüüp",
     "compostAmountInTons": "Kogus tonnides",
     "compostApplicationYear": "Kasutamise aasta",
@@ -80,7 +97,15 @@
     "needFastToday": "Kiiresti tänaseks",
     "pick_up_from_laboratory": "Labori proov",
     "pleaseFollowCurrentFertilizerRegulation": "Järgige palun kehtvat väetamise direktiivi.",
-    "sampleIsTakenAccordingToRegulation": "Näidis võetakse vastavalt kehtivale väetamise direktiivile."
+    "sampleIsTakenAccordingToRegulation": "Näidis võetakse vastavalt kehtivale väetamise direktiivile.",
+    "acceptedFromLab": "{{date}} - aktsepteeritud labori poolt",
+    "acceptedFromLabAndCantBeCancelled": "Analüüs võeti labori poolt vastu ning seda ei saa enam tühistada.",
+    "probeTaken": "{{date}} - proov labori poolt võetud",
+    "sortByCrop": "Kultuuri järgi",
+    "sortByLatest": "Hilisema järgi",
+    "latest": "Viimased analüüsid",
+    "analysisType": "Analüüsi tüüp",
+    "cancelReasonLab": "Tühistamise põhjus:{{reason}}"
   },
   "field": {
     "number": "Põllu number",
@@ -89,6 +114,7 @@
     "sendToArchive": "Arhiveeri põld",
     "cultivate": "Hari põldu",
     "harvested_on": "Saak koristati kuupäeval {{date}}",
+    "sown_on": "Kultuur külvatud kuupäeval {{date}}",
     "delete": "Kustuta põld",
     "moveToArchive": "Põld viiakse arhiivi. (Farm -> arhiiv)",
     "area": "Piirkond",
@@ -103,7 +129,18 @@
     "createNow": "Loo põld",
     "toArchive": "Arhiiv",
     "field": "Põld",
-    "created": "Põld on loodud."
+    "created": "Põld on loodud.",
+    "history": "Põllu ajalugu",
+    "show": "Näita põldu",
+    "dropFilesHere": "Poeta failid siia",
+    "followingFilesAreUnsupported": "Järgmisi faile ei toetata:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "Te pole sisestanud e-posti ja parooli",
   "pleaseWaitImageIsBeingUploaded": "Oodake, pilti laaditakse üles",
@@ -119,6 +156,10 @@
     "create_first_company": "Loo oma esimene farm",
     "delete": "Kustuta farm",
     "qs_number": "QS number",
+    "logo": {
+      "upload": "Vali ettevõtte logo",
+      "camera": "Tee uus ettevõtte logo"
+    },
     "doYouWantToDeleteCompany": "Kas soovite tõesti farmi kustutada?"
   },
   "crop": {
@@ -133,7 +174,7 @@
     "commodityItem": "Poes",
     "planted_on": "Külvatud",
     "stockItem": "Laos",
-    "doYouReallyWantToDeleteCrop": "Kas soovite tõesti selle kultuuri kultuuri ajaloo ja kommentaarid eemaldada?",
+    "doYouReallyWantToDeleteCrop": "Kas soovite tõesti selle kultuuri ajaloo ja kommentaarid eemaldada?",
     "deleteAndWithout": "Eemalda kultuur (jäta põld ilma kultuurita)",
     "resetAge": "Kultuuri vanuse loendur alustab nüüd 0 päevast",
     "nothingHarvested": "Saaki pole koristatud.",
@@ -155,7 +196,17 @@
     "select_color": "Valige värv",
     "without": "Ilma kultuurita",
     "cropPlanning": "Kultuuri-planeerimine",
-    "age": "Kultuur vanus"
+    "age": "Kultuur vanus",
+    "cropDoesntExist": "Valitud kultuuri ei eksisteeri.",
+    "protection": "Taimekaitse",
+    "activeCrops": "Aktiivsed kultuurid",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Väetamine",
@@ -171,6 +222,7 @@
   "no_first_last_name_entered": "Palun sisestage oma ees- ja perekonnanimi.",
   "deletePhoto": "Kustuta foto",
   "date": "Kuupäev",
+  "datePleaseSelect": "Palun valige kuupäev",
   "invoice": {
     "youDontHaveAddress": "Te pole sisestanud arveldusaadressi."
   },
@@ -190,7 +242,8 @@
     "delete": "Kustuta ooteaeg",
     "doYouReallyWantToDelete": "Kas soovid ooteaja tõesti kustutada?",
     "pesticide": "Pestitsiid",
-    "waitTime": "Ooteaeg"
+    "waitTime": "Ooteaeg",
+    "waitTimeShort": "Ooteaeg"
   },
   "more": "Rohkem",
   "position": "Asukoht",
@@ -200,7 +253,6 @@
     "inform": "Räägi sõbrale sõpru",
     "emailMessage": "Hei!\n\nMa laadisin just farmerjoe oma {{phone}}.\n\nfarmerjoe on lihtsasti kasutatav dokumentatsioonirakendus talunikele. Rakendusega saate näha oma põlde ja saaki kaardil, saate lisada märkusi pildi abil. Võite määrata ooteaegu ja salvestada väetisi.\n\nfarmerjoe on saadaval iPhone'i ja Androidi jaoks.\n\nPaigaldage see {{url}}."
   },
-  "confrim_agb_data_security": "Klõpsates nupul \"Registreeri\", nõustute meie {0}-ga ja kinnitate, et olete meie {1} lugenud.",
   "password": {
     "current": "Praegune parool",
     "password": "Parool",
@@ -212,7 +264,9 @@
     "dontMatch": "Paroolid ei ühti.",
     "repeat": "Korrake parooli",
     "updated": "Parool uuendatud.",
-    "min6char": "Parool peab olema vähemalt 6 tähemärki pikk."
+    "min6char": "Parool peab olema vähemalt 6 tähemärki pikk.",
+    "reset": "Lähtestage oma salasõna",
+    "resetHelp": "Sisestage allpool uus salasõna."
   },
   "noSearchResults": "Tulemusi pole.",
   "login": "Sisene",
@@ -225,7 +279,7 @@
   "theImageCouldntBeUploaded": "Pilti ei saanud üles laadida: {{error}}",
   "sortFieldsBy": "Sorteeri",
   "x_fields": {
-    "zero": "0 põld",
+    "zero": "0 põldu",
     "other": "{{count}} põldu",
     "one": "1 põld"
   },
@@ -240,6 +294,7 @@
   "employee": "Töötaja",
   "archive": {
     "archive": "Arhiiv",
+    "archivedFields": "Arhiveeritud põllud",
     "noFieldsInArchive": "Arhiivis pole põlde."
   },
   "save_as_favorite": "Salvesta lemmikuna",
@@ -262,12 +317,23 @@
   "invoice_address": "Arveldusaadress",
   "logout": "Logi välja",
   "employees": {
+    "addEmployee": "Lisage töötaja",
+    "noAdvisors": "Puuduvad põllumajandusettevõtte nõustajad",
+    "noDeactivatedUsers": "Puuduvad deaktiveeritud kasutajad",
     "plural": "Töötajad",
+    "active": "Aktiivne",
+    "deactivated": "Deaktiveeritud",
+    "reactivate": "Taasaktiveeri kasutaja",
+    "reactivateDoYouWant": "Kas soovite tõesti kasutaja taasaktiveerida?",
+    "advisors": "Nõunikud",
     "admin": "Administraator",
     "manage": "Halda kasutajaid",
     "adminRWD": "Administraator (loe, kirjuta, kustuta)",
     "invitationSentOn": "Kutse saadeti {{date}}",
-    "invitrationRejectedOn": "Kutse lükati tagasi {{date}}"
+    "invitrationRejectedOn": "Kutse lükati tagasi {{date}}",
+    "getFromPhoneBook": "Otsi telefoniraamatust",
+    "choseEmail": "Vali e-post",
+    "employeeIsDeactivated": "Töötaja on deaktiveeritud"
   },
   "search": "Otsing",
   "satellite": "Satelliit",
@@ -290,6 +356,7 @@
   "favorites": "Lemmikud",
   "legal_data_security": "Andmete turvalisus",
   "coordinates": "Koordinaadid",
+  "deleteForAll": "Kustuta kõigi puhul",
   "deletePermenantly": "Kustuta jäädavalt",
   "comment": {
     "fromField": "Märkused põllult: {{name}}",
@@ -308,7 +375,8 @@
   "create_account": "Uus registreerumine",
   "map": "Kaardid",
   "maps": {
-    "pressToSetPin": "Vajutage kaardile asukoha nööpnõela paigaldamiseks."
+    "pressToSetPin": "Vajutage kaardile asukoha nööpnõela paigaldamiseks.",
+    "clickToShowMore": "Klõpsa, et näha rohkem"
   },
   "no_email_entered": "Te ei sisestanud e-posti aadressi.",
   "camera": "Kaamera",
@@ -321,6 +389,7 @@
   "first_name": "Eesnimi",
   "request_new_password": "Taotle uut parooli",
   "register": "Registreeru",
+  "needAFarmerJoeAccount": "Vajad farmerJoe kontot?",
   "phones": {
     "enterNumber": "Sisestage oma telefoninumber"
   },
@@ -331,6 +400,9 @@
   "settings": "Seaded",
   "help": "Abi",
   "position_company": "Farmi asukoht",
+  "position_verb": "Määra asukoht",
+  "latitude": "Laiuskraad",
+  "longitude": "Pikkuskraad",
   "copy": "Koopia",
   "share": "Jaga",
   "directions": "Juhised",
@@ -390,22 +462,211 @@
     }
   },
   "alerts": {
+    "openSettings": "Ava seaded",
     "needLocation": {
       "title": "farmerjoe vajab teie asukohta",
       "description": "farmerjoe'l ei ole hetkel luba saada juurdepääsu teie asukohale."
+    },
+    "needAlwaysLocation": {
+      "title": "Asukoha määramine ei ole lubatud",
+      "description": "Et jagada teie asukohta reaalajas, vajab farmerJoe alati ligipääsu teie auskohainfole. Kui te seda luba ei anna, ei saa te seda funktsiooni kasutada."
     },
     "cantDetermineLocation": {
       "title": "farmerjoe ei suuda määrata teie asukohta.",
       "description": "Palun lülitage oma telefoni GPS sisse."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Kujutisele ei saa ligi",
+      "description": "Palun lubage ligipääs, kui soovite võimalust pilte valida."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Kaamerale ei saa ligi",
+      "description": "Palun lubage ligipääs kaamerale, kui soovite fotosid teha."
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe vajab ligipääsu teie kontaktidele",
+      "description": "Kui soovite kutsuda kedagi oma aadressiraamatust, andke palun farmerJoe'le ligipääs kontaktidele."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe vajab ligipääsu salvestusruumile",
+      "description": "Selleks, et saaksime pilti töödelda, vajame ligipääsu teie salvestusruumile. Ilma selle loata ei saa te pilti esitada."
     }
   },
-  "filter": "Filter"
+  "filter": "Filter",
+  "acl": {
+    "view": "Vaata",
+    "create": "Loo",
+    "edit": "Muuda",
+    "delete": "Kustuta",
+    "department": "Osakond",
+    "selectFields": "Vali põllud",
+    "CRUD": "Loo, Muuda, Kustuta",
+    "role": {
+      "restricted": "Piiratud juurdepääs",
+      "allrights": "Kõik õigused",
+      "type": "Konto tüüp",
+      "admin": "Administraator",
+      "standard": "Töötaja",
+      "advisor": "Nõunik"
+    },
+    "user": {
+      "delete": "Kustuta töötaja",
+      "deactivate": "Deaktiveerige töötaja",
+      "doYouWantToDeactivateUser": "Kas soovite deaktiveerida selle töötaja?",
+      "doYouWantToDeleteUser": "Kas soovite tõesti selle töötaja kustutada?",
+      "cantDeleteYourself": "Ennast ei saa kustutada",
+      "alertFound": {
+        "title": "Kasutaja on juba ettevõttes",
+        "message": "Selle e-posti aaressiga töötaja on juba ettevõttes olemas."
+      },
+      "alertNoFields": {
+        "title": "Põlde pole valitud",
+        "message": "Peate valima kasutajale vähemalt ühe põllu"
+      }
+    },
+    "users": {
+      "users": "Töötajad",
+      "userRight": "Kasutaja näeb teisi farmi töötajaid."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "See kasutaja on administraator ning tal on ligipääs ettevõtte kõikidele põldudele. Kui tahate tõkestada tema ligipääsu sellele põllule ja teistele põldudele, peate temast tegema tavakasutaja."
+      },
+      "forbidFieldAlert": {
+        "message": "Kas tahate tõesti keelata kasutajale {{name}} ligipääsu sellele põllule?"
+      },
+      "grantFieldAlert": {
+        "message": "Kas tahate tõesti anda kasutajal {{name}} ligipääsu sellele põllule?"
+      },
+      "alreadyHasAccess": "Tal juba on põllule ligipääs.",
+      "accessOnceInvitationAccepted": "Ligipääs tekib, kui kasutaja võtab kutse vastu."
+    },
+    "rights": "Õigused",
+    "fields": {
+      "all": "Kõik",
+      "selected": "Ainult valitud",
+      "selectDesc": "Vali põllud, mida kasutaja näeb.",
+      "standardUserRights": "See kasutaja ei või luua ega muuta põlde."
+    },
+    "crops": {
+      "all": "Külvatud ja koristatud",
+      "active": "Ainult külvatud",
+      "standardUserRights": "See kasutaja ei või luua ega muuta kultuure."
+    },
+    "comments": {
+      "comments": "Märkused",
+      "all": "Kõik märkused",
+      "selected": "Ainult oma märkused",
+      "standardUserRights": "Kasutaja võib luua ja muuta oma märkuseid."
+    },
+    "fertilizing": {
+      "description": "Vali allpool, mida kasutaja väetistega teha saab."
+    },
+    "waittime": {
+      "description": "Vali allpool, mida kasutaja ooteaegadega teha saab."
+    }
+  },
+  "near": {
+    "by": "Läheduses",
+    "fields": "Lähimad põllud",
+    "cantSortNoLocation": "Me ei saa sorteerida lähimate põldude järgi, kuna te pole võimaldanud meile ligipääsu teie asukohale."
+  },
+  "registerScreen": {
+    "startNow": "Alusta",
+    "helpEasySteps": "Aitame teile paari lihtsa sammuga konto luua.",
+    "useRealName": "Kui kasutate oma päris nime, on kolleegidel lihtsam teid teie farmides ära tunda.",
+    "weUsePhone": "Numbrit kuvatakse kolleegidele teie farmides ning nad saavad teile lihtsasti helistada.",
+    "weUseEmail": "Kasutade seda e-posti aadressi, et sisse logida ning siis, kui kunagi tekib vajadus salasõna lähtestada. Teised farmerJoe kasutajad saavad teid selle e-posti aadressi kaudu oma farmidesse kutsuda.",
+    "newsletter": "Tellige farmerjoe uudiskiri",
+    "passwordHelp": "Sisestage kombinatsioon vähemalt kuuest numbrist, tähest või kirjavahemärgist (näiteks ! ja &)",
+    "confrim_agb_data_security": "Klõpsates \"loo konto\" nõustute meie {0}-ga. Vaadake, kuidas kogume ja kasutame teie andmeid meie {1}-st, ning kuidas kasutame küpsiseid ning sarnast tehnoloogiat, meie {2}-st.",
+    "continueRegistration": "Jätka registreerumisega",
+    "next": "Järgmiseks",
+    "enterEmail": "Sisestage oma e-posti aadress",
+    "errorEmailExist": "Üks teine konto juba kasutab seda e-posti aadressi.",
+    "retry": "Proovi uuesti",
+    "titles": {
+      "finish": "Lõpetame registreerumist",
+      "haveAnAccount": "Konto juba eksisteerib",
+      "join": "Liitu farmerJoe'ga",
+      "password": "Loo salasõna",
+      "whatIsYourName": "Mis on teie nimi?",
+      "whatIsYourPhoneNumber": "Mis on teie mobiiltelefoni number?",
+      "whatIsYourEmailAddress": "Mis on teie e-posti aadress?",
+      "creating": "Teie konto on loomisel."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Kõik teised farmist näevad teie asukohta",
+    "sharedWithFarm": "Asukohainfot jagatakse selle farmiga.",
+    "letColleaguesSeeYourLocationLabel": "Andke kolleegidele teada, kus olete",
+    "letColleaguesSeeYourLocationDesc": "Jagage oma asukohta reaalajas kolleegidega sellest farmist.",
+    "forX": {
+      "x_minutes": {
+        "one": "{{count}} minutit",
+        "other": "{{count}} minutit"
+      },
+      "x_hours": {
+        "other": "{{count}} tundi",
+        "one": "Üks tund"
+      },
+      "x_days": {
+        "other": "{{count}} päeva",
+        "one": "Üks päev"
+      }
+    },
+    "untilTurnedOff": "Kuni lülitate selle välja",
+    "shareNow": "Jaga kohe",
+    "turnOff": "Lülita välja",
+    "emailLog": "Saada asukoha logi"
+  },
+  "report": {
+    "issue": "Anna teada probleemist"
+  },
+  "no_company_selected": "Ettevõtet pole valitud",
+  "no_field_selected": "Põlde pole valitud",
+  "invalid_phone_number": "kehtetu telefonunumber",
+  "close": "sulge",
+  "errorMessage": "Ups, seda poleks pidanud juhtuma. Arendustiimi on teavitatud.",
+  "refresh": "Värskenda",
+  "remoteSupport": "Kaugtugiteenuse taotlus",
+  "screenTooSmall": "Teie ekraan on liiga väike. Kasutage meie rakendust iOSi ja Androidi jaoks.",
+  "emailVerified": "Teie e-post on kinnitatud",
+  "resetPasswordLinkExpired": "Teie parooli lähtestamise taotlus on aegunud või on linki juba kasutatud",
+  "verifyEmailLinkExpired": "Teie e-posti aadressi kinnitamise taotlus on aegunud või on linki juba kasutatud",
+  "emailChangeReverted": "Teie sisselogimise e-posti aadress on muudetud {{email}}-ks.",
+  "invalidActionCode": "See kood enam ei kehti",
+  "browserNotSupported": "farmerJoe ei toeta Internet Explorerit. Palun kasutage kaasaegset ja toetatud brauserit nagu Firefox, Chrome, Edge, Opera või Safari.",
+  "apiKeys": {
+    "header": "API võtmed",
+    "generate": "Loo uus võti",
+    "key": "Võti",
+    "enabled": "Lubatud",
+    "description": "API võtmed võimaldavad integreerida farmerJoe'd muu tarkvaraga. Leiate dokumentatsiooni {0}.",
+    "descriptionLink": "siin",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "No API keys",
+    "user": "User"
+  },
+  "apiLogs": {
+    "header": "API log",
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
+  }
 }

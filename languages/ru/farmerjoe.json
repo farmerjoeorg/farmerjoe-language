@@ -1,9 +1,25 @@
 {
   "data_guidelines": "политику использования данных",
+  "cookie_policy": "Политика сookie-файлов",
+  "info": "Информация",
   "invites": {
     "reject": "Отказаться",
     "from": "Приглашение от {{name}}",
-    "accept": "Принять"
+    "accept": "Принять",
+    "resend": "Переслать",
+    "resendDoYouReally": "Вы действительно хотите отправить приглашение снова?",
+    "deleteDoYouReally": "Вы действительно хотите удалить этого пользователя из компании?",
+    "noInvites": "Без приглашений"
+  },
+  "latestActivities": {
+    "tabLabel": "Самый последний",
+    "sceneTitle": "Самые последние мероприятия",
+    "period": "Период",
+    "selectPeriod": "Выберите период",
+    "onlyPhotos": "Только фотографии",
+    "photo": "Фото",
+    "all": "Все",
+    "noActivity": "В выбранном периоде нет мероприятий"
   },
   "invalid_email": "Недопустимый адрес электронной почты.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "Заказать",
     "plantOrSowDate": "Растение/дата посева",
     "pleaseLabelProbe": "Пожалуйста, отметьте образец!",
+    "dontForgetToLabelProbe": "Не забудьте снабдить пробу этикеткой!",
     "compostType": "Тип компоста",
     "compostAmountInTons": "Количество в тоннах",
     "compostApplicationYear": "Год применения",
@@ -80,7 +97,15 @@
     "needFastToday": "Сегодня",
     "pick_up_from_laboratory": "Образец лаборатории",
     "pleaseFollowCurrentFertilizerRegulation": "Пожалуйста, следуйте действующей директиве по удобрениям.",
-    "sampleIsTakenAccordingToRegulation": "Образец будет взята в соответствии с действующей директивой по удобрениям."
+    "sampleIsTakenAccordingToRegulation": "Образец будет взята в соответствии с действующей директивой по удобрениям.",
+    "acceptedFromLab": "{{date}} - принято лабораторией",
+    "acceptedFromLabAndCantBeCancelled": "Анализ был принят лабораторией, и его больше нельзя отменить.",
+    "probeTaken": "{{date}} - проба взята лабораторией",
+    "sortByCrop": "По культуре",
+    "sortByLatest": "По самым последним",
+    "latest": "Последние анализы",
+    "analysisType": "Тип анализа",
+    "cancelReasonLab": "Причина отмены: {{reason}}"
   },
   "field": {
     "number": "номер поля",
@@ -89,6 +114,7 @@
     "sendToArchive": "Архивировать поле",
     "cultivate": "Сельское хозяйство",
     "harvested_on": "Поле было собрано {{date}}",
+    "sown_on": "Дата посева культуры {{date}}",
     "delete": "Удалить поле",
     "moveToArchive": "Поле перемещается в архив (Ферма -> Архив)",
     "area": "область",
@@ -103,7 +129,18 @@
     "createNow": "Создать поле",
     "toArchive": "архив",
     "field": "поле",
-    "created": "Поле создано."
+    "created": "Поле создано.",
+    "history": "История поля",
+    "show": "Показать поле",
+    "dropFilesHere": "Перетащите файлы сюда",
+    "followingFilesAreUnsupported": "Следующие файлы не поддерживаются:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "Вы не ввели e-mail и пароль",
   "pleaseWaitImageIsBeingUploaded": "Пожалуйста, подождите. Картинка загружается",
@@ -119,6 +156,10 @@
     "create_first_company": "Создайте свою первую ферму",
     "delete": "Удалить ферму",
     "qs_number": "Номер QS",
+    "logo": {
+      "upload": "Выбрать логотип компании",
+      "camera": "Установить новый логотип компании"
+    },
     "doYouWantToDeleteCompany": "Вы действительно хотите удалить эту ферму?"
   },
   "crop": {
@@ -155,7 +196,17 @@
     "select_color": "Выберите цвет",
     "without": "Не обработано",
     "cropPlanning": "Планирование культур",
-    "age": "Возраст культуры"
+    "age": "Возраст культуры",
+    "cropDoesntExist": "Выбранная культура не существует.",
+    "protection": "Защита растений",
+    "activeCrops": "Активные культуры",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Удобрение",
@@ -171,6 +222,7 @@
   "no_first_last_name_entered": "Введите свое имя и фамилию.",
   "deletePhoto": "Удалить изображение",
   "date": "дата",
+  "datePleaseSelect": "Выберите дату",
   "invoice": {
     "youDontHaveAddress": "Вы не указали платежный адрес."
   },
@@ -190,7 +242,8 @@
     "delete": "Удалить время ожидания",
     "doYouReallyWantToDelete": "Вы действительно хотите удалить время ожидания?",
     "pesticide": "Название пестицида",
-    "waitTime": "период ожидания"
+    "waitTime": "период ожидания",
+    "waitTimeShort": "Время ожидания"
   },
   "more": "Ещё",
   "position": "место",
@@ -200,7 +253,6 @@
     "inform": "Рассказать другу",
     "emailMessage": "Здравствуйте,\n\nя только-что скачал farmerJoe для своего {{phone}}.\n\nfarmerJoe - это простое в использовании приложение для фермеров для ведения записей. С помощью приложения Вы можете видеть свои поля и посевы на карте, можете добавлять заметки с изображением, можете установить время ожидания и записывать данные о применении удобрений.\n\nfarmerJoe доступено для iPhone и Android.\n\nУстановлено с {{url}}."
   },
-  "confrim_agb_data_security": "Нажимая «Создать аккаунт», вы соглашаетесь с нашим {0} и подтверждаете, что прочитали нашу {1}.",
   "password": {
     "current": "Текущий пароль",
     "password": "Пароль",
@@ -213,7 +265,8 @@
     "repeat": "Повторить пароль",
     "updated": "Пароль обновлен.",
     "min6char": "Пароль должен содержать не менее 6 символов.",
-    "reset": "Сброс пароля"
+    "reset": "Сброс пароля",
+    "resetHelp": "Введите ваш новый пароль ниже."
   },
   "noSearchResults": "Результатов нет.",
   "login": "Войти",
@@ -241,6 +294,7 @@
   "employee": "сотрудник",
   "archive": {
     "archive": "архив",
+    "archivedFields": "Заархивированные поля",
     "noFieldsInArchive": "В архиве нет полей."
   },
   "save_as_favorite": "Сохранить как избранное",
@@ -263,12 +317,23 @@
   "invoice_address": "Адрес выставления счета",
   "logout": "Выход",
   "employees": {
+    "addEmployee": "Добавить работника",
+    "noAdvisors": "Нет советников фермы",
+    "noDeactivatedUsers": "Нет деактивированных пользователей",
     "plural": "Сотрудники",
+    "active": "Активный",
+    "deactivated": "Деактивированный",
+    "reactivate": "Реактивировать пользователя",
+    "reactivateDoYouWant": "Вы действительно хотите реактивировать этого пользователя?",
+    "advisors": "Советники",
     "admin": "администратор",
     "manage": "Управление сотрудниками",
     "adminRWD": "Администратор (чтение, запись, удаление)",
     "invitationSentOn": "Запрос отправлен {{date}}",
-    "invitrationRejectedOn": "Запрос отклонен {{date}}"
+    "invitrationRejectedOn": "Запрос отклонен {{date}}",
+    "getFromPhoneBook": "Поиск в телефонной книге",
+    "choseEmail": "Выбрать адрес эл. почты",
+    "employeeIsDeactivated": "Работник деактивирован"
   },
   "search": "поиск",
   "satellite": "спутник",
@@ -291,6 +356,7 @@
   "favorites": "избранное",
   "legal_data_security": "Безопасность и защита данных",
   "coordinates": "координаты",
+  "deleteForAll": "Удалить всё",
   "deletePermenantly": "Удалить навсегда",
   "comment": {
     "fromField": "Комментарии по полю: {{name}}",
@@ -309,7 +375,8 @@
   "create_account": "Новая регистрация",
   "map": "Карты",
   "maps": {
-    "pressToSetPin": "Нажмите на карту, чтобы поставить маркер местоположения."
+    "pressToSetPin": "Нажмите на карту, чтобы поставить маркер местоположения.",
+    "clickToShowMore": "Нажмите, чтобы показать больше"
   },
   "no_email_entered": "Вы не ввели адрес электронной почты.",
   "camera": "камера",
@@ -322,6 +389,7 @@
   "first_name": "имя",
   "request_new_password": "Запросить новый пароль",
   "register": "Создать аккаунт",
+  "needAFarmerJoeAccount": "Нужна учетная запись farmerJoe?",
   "phones": {
     "enterNumber": "Введите свой номер телефона"
   },
@@ -332,6 +400,9 @@
   "settings": "настройки",
   "help": "Помощь",
   "position_company": "Местоположение фермы",
+  "position_verb": "Установите местонахождения",
+  "latitude": "Широта",
+  "longitude": "Долгота",
   "copy": "Копировать",
   "share": "Поделиться",
   "directions": "Направления",
@@ -391,27 +462,211 @@
     }
   },
   "alerts": {
+    "openSettings": "Открыть настройки",
     "needLocation": {
       "title": "farmerJoe должно знать Ваше местоположение",
       "description": "сейчас у farmerJoe нет доступа к Вашему местоположению."
+    },
+    "needAlwaysLocation": {
+      "title": "Разрешение на определение местоположения не дано",
+      "description": "Чтобы делиться вашим местоположением в режиме реального времени, farmerJoe необходим постоянный доступ к вашему местоположению. Вы не сможете пользоваться этой функцией, если не дадите на это разрешение."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe не может определить Ваше местоположение.",
       "description": "Пожалуйста, включите GPS на Вашем телефоне."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Не удается получить доступ к изображению",
+      "description": "Разрешите доступ, если вы хотите иметь возможность выбирать изображения."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Не удается получить доступ к камере",
+      "description": "Если вы хотите фотографировать, разрешите доступ к вашей камере."
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe необходим доступ к вашим контактам",
+      "description": "Если вы хотите пригласить кого-нибудь из вашей адресной книги, предоставьте farmerJoe доступ к контактам."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe необходим доступ к месту хранения",
+      "description": "Для работы с этим изображением нам необходим доступ к вашему месту хранения. Без такого разрешения вы не сможете отправить изображение."
     }
   },
   "filter": "Фильтр",
+  "acl": {
+    "view": "Посмотреть",
+    "create": "Создать",
+    "edit": "Изменить",
+    "delete": "Удалить",
+    "department": "Отдел",
+    "selectFields": "Выберите поля",
+    "CRUD": "Создание, редактирование, удаление",
+    "role": {
+      "restricted": "Ограниченный доступ",
+      "allrights": "Все права",
+      "type": "Тип учетной записи",
+      "admin": "Администратор",
+      "standard": "Работник",
+      "advisor": "Советник"
+    },
+    "user": {
+      "delete": "Удалить работника",
+      "deactivate": "Деактивировать работника",
+      "doYouWantToDeactivateUser": "Вы хотите деактивировать этого работника?",
+      "doYouWantToDeleteUser": "Вы действительно хотите удалить этого работника?",
+      "cantDeleteYourself": "Вы не можете удалить сами себя",
+      "alertFound": {
+        "title": "Пользователь уже в компании",
+        "message": "Пользователь с таким адресом эл. почты уже есть в компании."
+      },
+      "alertNoFields": {
+        "title": "Поля не выбраны",
+        "message": "Вам необходимо выбрать по крайней мере одно поле для пользователя"
+      }
+    },
+    "users": {
+      "users": "Работники",
+      "userRight": "Пользователь может видеть других работников на ферме."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "Пользователь является администратором и имеет доступ на все поля в компании. Если вы хотите запретить ему доступ на это поле и другие поля, вам необходимо сделать его обычным пользователем."
+      },
+      "forbidFieldAlert": {
+        "message": "Вы действительно хотите запретить пользователю {{name}} доступ к этому полю?"
+      },
+      "grantFieldAlert": {
+        "message": "Вы действительно хотите разрешить пользователю {{name}} доступ к этому полю?"
+      },
+      "alreadyHasAccess": "Уже есть доступ на поле.",
+      "accessOnceInvitationAccepted": "Получит доступ после того, как пользователь примет приглашение."
+    },
+    "rights": "Права",
+    "fields": {
+      "all": "Все",
+      "selected": "Только выбранные",
+      "selectDesc": "Выберите поля, которые может видеть этот пользователь.",
+      "standardUserRights": "Этот пользователь не может создавать или редактировать поля."
+    },
+    "crops": {
+      "all": "Засеянные и убранные",
+      "active": "Только засеянные",
+      "standardUserRights": "Этот пользователь не может создавать или редактировать культуры."
+    },
+    "comments": {
+      "comments": "Комментарии",
+      "all": "Все комментарии",
+      "selected": "Только мои собственные комментарии",
+      "standardUserRights": "Пользователь может создавать и редактировать свои комментарии."
+    },
+    "fertilizing": {
+      "description": "Выберите ниже, что именно может делать пользователь с удобрениями."
+    },
+    "waittime": {
+      "description": "Выберите ниже, что именно может делать пользователь со временем ожидания."
+    }
+  },
+  "near": {
+    "by": "Поблизости от",
+    "fields": "Ближайшие поля",
+    "cantSortNoLocation": "Мы не можем отсортировать ближайшие поля, поскольку вы не разрешили нам доступ к вашему местоположению."
+  },
+  "registerScreen": {
+    "startNow": "С чего начать",
+    "helpEasySteps": "Мы поможем вам создать учетную запись за несколько простых шагов.",
+    "useRealName": "Используя свое реальное имя, вы даете возможность коллегам быстрее узнать вас на фермах.",
+    "weUsePhone": "Номер будет показываться коллегам на ваших Фермах, и они смогут без проблем с вами связываться.",
+    "weUseEmail": "Вы будете использовать этот адрес эл. почты при входе в систему, а также тогда, когда вам необходимо сбросить пароль. По этому адресу эл. почты другие пользователи farmerJoe смогут приглашать вас на свои фермы.",
+    "newsletter": "Подписка на бюллетень farmerJoe",
+    "passwordHelp": "Введите комбинацию из как минимум шести цифр, букв и знаков пунктуации (например, ! и &)",
+    "confrim_agb_data_security": "Нажимая на \"Создать учетную запись\", вы соглашаетесь с нашим документом {0}. Узнайте, как мы собираем и используем ваши данные в нашей {1}, а также то, как мы используем cookie-файлы и аналогичные технологии в нашем {2}.",
+    "continueRegistration": "Регистрация продолжается",
+    "next": "Далее",
+    "enterEmail": "Введите адрес электронной почты",
+    "errorEmailExist": "Этот адрес эл. почты уже используется в другой учетной записи.",
+    "retry": "Повторить попытку",
+    "titles": {
+      "finish": "Завершение регистрации",
+      "haveAnAccount": "Уже есть учетная запись",
+      "join": "Присоединиться к farmerJoe",
+      "password": "Создать пароль",
+      "whatIsYourName": "Как вас зовут?",
+      "whatIsYourPhoneNumber": "Какой у вас номер мобильного телефона?",
+      "whatIsYourEmailAddress": "Какой у вас адрес электронной почты?",
+      "creating": "Создается ваша учетная запись."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Каждый находящийся на ферме может видеть ваше местоположение",
+    "sharedWithFarm": "С этой фермой делятся местоположением.",
+    "letColleaguesSeeYourLocationLabel": "Дайте коллегам знать, где вы",
+    "letColleaguesSeeYourLocationDesc": "Делитесь своим местонахождением с коллегами по этой Ферме в режиме реального времени.",
+    "forX": {
+      "x_minutes": {
+        "one": "В течение {{count}} минуты",
+        "other": "В течение {{count}} минут"
+      },
+      "x_hours": {
+        "other": "В течение {{count}} часов",
+        "one": "В течение 1 часа"
+      },
+      "x_days": {
+        "other": "В течение {{count}} дней",
+        "one": "В течение 1 дня"
+      }
+    },
+    "untilTurnedOff": "До тех пор, пока вы это не отключите",
+    "shareNow": "Поделиться сейчас",
+    "turnOff": "Отключить",
+    "emailLog": "Отправить журнал местоположений по эл. почте"
+  },
+  "report": {
+    "issue": "Сообщить о проблеме"
+  },
+  "no_company_selected": "Компания не выбрана",
+  "no_field_selected": "Поле не выбрано",
+  "invalid_phone_number": "неправильный номер телефона",
+  "close": "закрыть",
+  "errorMessage": "Ой, этого не должно было произойти. Команда разработчиков была уведомлена.",
+  "refresh": "Обновить",
+  "remoteSupport": "Запрос на удаленную поддержку",
+  "screenTooSmall": "Ваш экран слишком мал. Вместо этого используйте наше приложение для iOS и Android.",
   "emailVerified": "Адрес электронной почты подтвержден",
   "resetPasswordLinkExpired": "Срок действия запроса на сброс пароля истек, или ссылка уже использована.",
   "verifyEmailLinkExpired": "Срок действия запроса на подтверждение адреса электронной почты истек, или ссылка уже использована.",
   "emailChangeReverted": "Для входа в аккаунт вновь будет использоваться адрес {{email}}.",
-  "invalidActionCode": "Этот код уже неактивен."
+  "invalidActionCode": "Этот код уже неактивен.",
+  "browserNotSupported": "farmerJoe не поддерживает Internet Explorer. Пользуйтесь современными и поддерживаемыми браузерами, такими как Firefox, Chrome, Edge, Opera или Safari.",
+  "apiKeys": {
+    "header": "Ключи API keys",
+    "generate": "Создать новый ключ",
+    "key": "Ключ",
+    "enabled": "Включено",
+    "description": "Ключи API дают вам возможность интегрировать farmerJoe в другое программное обеспечение. Документация по этому аспекту находится {0}.",
+    "descriptionLink": "здесь",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "No API keys",
+    "user": "User"
+  },
+  "apiLogs": {
+    "header": "API log",
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
+  }
 }

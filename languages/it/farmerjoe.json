@@ -1,9 +1,25 @@
 {
   "data_guidelines": "Informativa sui dati",
+  "cookie_policy": "Informativa sui cookie",
+  "info": "Info",
   "invites": {
     "reject": "Rifiuta",
     "from": "Invito da {{name}}",
-    "accept": "Accetta"
+    "accept": "Accetta",
+    "resend": "Reinvia",
+    "resendDoYouReally": "Vuoi davvero reinviare l'invito?",
+    "deleteDoYouReally": "Vuoi davvero eliminare l'utente dall'azienda?",
+    "noInvites": "Nessun invito"
+  },
+  "latestActivities": {
+    "tabLabel": "Più recenti",
+    "sceneTitle": "Attività più recenti",
+    "period": "Periodo",
+    "selectPeriod": "Seleziona periodo",
+    "onlyPhotos": "Solo foto",
+    "photo": "Foto",
+    "all": "Tutte",
+    "noActivity": "Nessuna attività per il periodo selezionato"
   },
   "invalid_email": "L'indirizzo e-mail non è valido.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "Ordine",
     "plantOrSowDate": "Data della semina",
     "pleaseLabelProbe": "Etichettare la sonda!",
+    "dontForgetToLabelProbe": "Non dimenticare di etichettare la sonda!",
     "compostType": "Tipo di compost",
     "compostAmountInTons": "Quantità in tonnellate",
     "compostApplicationYear": "Anno dell'applicazione",
@@ -80,7 +97,15 @@
     "needFastToday": "Urgente in giornata",
     "pick_up_from_laboratory": "Campione di laboratorio",
     "pleaseFollowCurrentFertilizerRegulation": "Seguire l'attuale direttiva sui fertilizzanti.",
-    "sampleIsTakenAccordingToRegulation": "Il campione verrà prelevato in conformità con l'attuale direttiva sui fertilizzanti."
+    "sampleIsTakenAccordingToRegulation": "Il campione verrà prelevato in conformità con l'attuale direttiva sui fertilizzanti.",
+    "acceptedFromLab": "{{date}} - accettato dal laboratorio",
+    "acceptedFromLabAndCantBeCancelled": "L'analisi è stata accettata dal laboratorio e non può più essere annullata.",
+    "probeTaken": "{{date}} - sonda accettata dal laboratorio",
+    "sortByCrop": "Per coltura",
+    "sortByLatest": "Per più recenti",
+    "latest": "Ultime analisi",
+    "analysisType": "Tipo di analisi",
+    "cancelReasonLab": "Motivo dell'annullamento: {{reason}}"
   },
   "field": {
     "number": "Numero del campo",
@@ -89,6 +114,7 @@
     "sendToArchive": "Archivia campo",
     "cultivate": "Coltiva campo",
     "harvested_on": "Coltura raccolta in data: {{date}}",
+    "sown_on": "Coltura seminata il {{date}}",
     "delete": "Elimina campo",
     "moveToArchive": "Il campo verrà spostato nell'archivio (Azienda agricola -> Archivio)",
     "area": "Zona",
@@ -103,7 +129,18 @@
     "createNow": "Crea campo ora",
     "toArchive": "Archivia",
     "field": "Campo",
-    "created": "Campo creato."
+    "created": "Campo creato.",
+    "history": "Cronologia del campo",
+    "show": "Mostra campo",
+    "dropFilesHere": "Trascina i file qui",
+    "followingFilesAreUnsupported": "I seguenti file non sono supportati:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "Non hai inserito un'e-mail e una password",
   "pleaseWaitImageIsBeingUploaded": "Attendere prego, stiamo caricando l'immagine",
@@ -119,6 +156,10 @@
     "create_first_company": "Crea la tua prima azienda agricola",
     "delete": "Elimina azienda agricola",
     "qs_number": "Numero QS",
+    "logo": {
+      "upload": "Seleziona il logo aziendale",
+      "camera": "Carica un nuovo logo aziendale"
+    },
     "doYouWantToDeleteCompany": "Confermare l'eliminazione di questa azienda agricola?"
   },
   "crop": {
@@ -155,7 +196,17 @@
     "select_color": "Seleziona colore",
     "without": "Senza coltivazione",
     "cropPlanning": "Pianificazione delle colture",
-    "age": "Durata della coltura"
+    "age": "Durata della coltura",
+    "cropDoesntExist": "La coltura selezionata non esiste.",
+    "protection": "Protezione della semina",
+    "activeCrops": "Colture attive",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Concimazione",
@@ -171,6 +222,7 @@
   "no_first_last_name_entered": "Immettere nome e cognome.",
   "deletePhoto": "Elimina foto",
   "date": "Data",
+  "datePleaseSelect": "Seleziona una data",
   "invoice": {
     "youDontHaveAddress": "Non hai immesso un indirizzo di fatturazione."
   },
@@ -190,7 +242,8 @@
     "delete": "Elimina il tempo di attesa",
     "doYouReallyWantToDelete": "Vuoi davvero eliminare il tempo di attesa?",
     "pesticide": "Nome del pesticida",
-    "waitTime": "Periodo di attesa"
+    "waitTime": "Periodo di attesa",
+    "waitTimeShort": "Tempo di attesa"
   },
   "more": "Altro",
   "position": "Posizione",
@@ -200,7 +253,6 @@
     "inform": "Dillo a un amico",
     "emailMessage": "Ehi,\n\nho appena scaricato farmerJoe per il mio {{phone}}.\n\nfarmerJoe è un'applicazione di documentazione agricola molto facile da usare. Con questa applicazione puoi visualizzare i tuoi campi e le tue colture su una mappa e aggiungere note con una foto. Puoi impostare tempi di attesa e registrare i fertilizzanti.\n\nfarmerJoe è disponibile per iPhone e Android.\n\nInstalla farmerJoe da {{url}}."
   },
-  "confrim_agb_data_security": "Cliccando su \"Crea account\", accetti i ​​nostri {0} e confermi di aver letto la nostra {1}.",
   "password": {
     "current": "Password attuale",
     "password": "Password",
@@ -213,7 +265,8 @@
     "repeat": "Ripeti la password",
     "updated": "Password aggiornata.",
     "min6char": "La password deve contenere almeno 6 caratteri.",
-    "reset": "Reimposta password"
+    "reset": "Reimposta password",
+    "resetHelp": "Immetti la nuova password qui sotto."
   },
   "noSearchResults": "Nessun risultato.",
   "login": "Accesso",
@@ -241,6 +294,7 @@
   "employee": "Dipendente",
   "archive": {
     "archive": "Archivio",
+    "archivedFields": "Campi archiviati",
     "noFieldsInArchive": "Nessun campo nell'archivio."
   },
   "save_as_favorite": "Salva nei preferiti",
@@ -263,12 +317,23 @@
   "invoice_address": "Indirizzo di fatturazione",
   "logout": "Esci",
   "employees": {
+    "addEmployee": "Aggiungi dipendente",
+    "noAdvisors": "Nessun consulente per l'azienda agricola",
+    "noDeactivatedUsers": "Nessun utente disattivato",
     "plural": "Dipendenti",
+    "active": "Attivo",
+    "deactivated": "Disattivato",
+    "reactivate": "Riattiva utente",
+    "reactivateDoYouWant": "Vuoi davvero riattivare l'utente?",
+    "advisors": "Consulenti",
     "admin": "Amministratore",
     "manage": "Gestisci utenti",
     "adminRWD": "Amministratore (leggi, scrivi, elimina)",
     "invitationSentOn": "Richiesta inviata il {{date}}",
-    "invitrationRejectedOn": "Richiesta rifiutata il {{date}}"
+    "invitrationRejectedOn": "Richiesta rifiutata il {{date}}",
+    "getFromPhoneBook": "Cerca nella rubrica",
+    "choseEmail": "Scegli e-mail",
+    "employeeIsDeactivated": "Il dipendente è disattivato"
   },
   "search": "Cerca",
   "satellite": "Satellite",
@@ -291,6 +356,7 @@
   "favorites": "Preferiti",
   "legal_data_security": "Disposizioni giuridiche e sicurezza dei dati",
   "coordinates": "Coordinate",
+  "deleteForAll": "Elimina per tutti",
   "deletePermenantly": "Elimina definitivamente",
   "comment": {
     "fromField": "Commento dal campo: {{name}}",
@@ -309,7 +375,8 @@
   "create_account": "Nuova registrazione",
   "map": "Mappe",
   "maps": {
-    "pressToSetPin": "Premi sulla mappa per impostare l'indicatore di posizione."
+    "pressToSetPin": "Premi sulla mappa per impostare l'indicatore di posizione.",
+    "clickToShowMore": "Fai clic per visualizzare altre mappe"
   },
   "no_email_entered": "Non hai inserito un indirizzo e-mail.",
   "camera": "Fotocamera",
@@ -322,6 +389,7 @@
   "first_name": "Nome",
   "request_new_password": "Richiedi una nuova password",
   "register": "Crea account",
+  "needAFarmerJoeAccount": "Vuoi un account farmerJoe?",
   "phones": {
     "enterNumber": "Immetti il tuo numero di telefono"
   },
@@ -332,6 +400,9 @@
   "settings": "Impostazioni",
   "help": "Guida",
   "position_company": "Posizione dell'azienda",
+  "position_verb": "Imposta posizione",
+  "latitude": "Latitudine",
+  "longitude": "Longitudine",
   "copy": "Copia",
   "share": "Condividi",
   "directions": "Indicazioni",
@@ -391,27 +462,211 @@
     }
   },
   "alerts": {
+    "openSettings": "Apri impostazioni",
     "needLocation": {
       "title": "farmerJoe ha bisogno della tua posizione",
       "description": "farmerJoe non è attualmente autorizzato ad accedere alla tua posizione."
+    },
+    "needAlwaysLocation": {
+      "title": "Autorizzazione di localizzazione assente",
+      "description": "Per condividere la tua posizione in tempo reale, farmerJoe deve sempre poter accedere alla tua posizione. Se non concedi questa autorizzazione, non potrai utilizzare questa funzione."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe non è in grado di stabilire la tua posizione.",
       "description": "Attiva il GPS del tuo telefono."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Impossibile accedere all'immagine",
+      "description": "Consenti l'accesso se desideri essere in grado di selezionare le immagini."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Impossibile accedere alla fotocamera",
+      "description": "Consenti l'accesso alla fotocamera se desideri scattare delle foto."
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe richiede l'accesso ai tuoi contatti",
+      "description": "Se vuoi invitare qualcuno dalla tua rubrica, concedi a farmerJoe l'accesso ai contatti."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe richiede l'accesso alla memoria di archiviazione",
+      "description": "Per poter manipolare l'immagine abbiamo bisogno di accedere alla memoria di archiviazione. Senza questa autorizzazione non sarai in grado di inviare l'immagine."
     }
   },
   "filter": "Filtro",
+  "acl": {
+    "view": "Visualizza",
+    "create": "Crea",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "department": "Dipartimento",
+    "selectFields": "Seleziona campi",
+    "CRUD": "Crea, modifica, elimina",
+    "role": {
+      "restricted": "Accesso limitato",
+      "allrights": "Tutti i diritti",
+      "type": "Tipo di account",
+      "admin": "Amministratore",
+      "standard": "Lavoratore",
+      "advisor": "Consulente"
+    },
+    "user": {
+      "delete": "Elimina dipendente",
+      "deactivate": "Disattiva dipendente",
+      "doYouWantToDeactivateUser": "Vuoi disattivare questo dipendente?",
+      "doYouWantToDeleteUser": "Vuoi davvero eliminare questo dipendente?",
+      "cantDeleteYourself": "Il tuo ruolo non consente l'eliminazione",
+      "alertFound": {
+        "title": "Utente già esistente nell'azienda",
+        "message": "Un utente con questo indirizzo e-mail esiste già nell'azienda."
+      },
+      "alertNoFields": {
+        "title": "Nessun campo selezionato",
+        "message": "Devi selezionare almeno un campo per l'utente"
+      }
+    },
+    "users": {
+      "users": "Dipendenti",
+      "userRight": "L'utente può vedere altri dipendenti nell'azienda agricola."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "L'utente ha il ruolo di Amministratore e ha accesso a tutti i campi dell'azienda. Se desideri vietare l'accesso a questo campo e ad altri campi, dovrai assegnargli il ruolo di utente normale."
+      },
+      "forbidFieldAlert": {
+        "message": "Vuoi davvero vietare a {{name}}} di accedere a questo campo?"
+      },
+      "grantFieldAlert": {
+        "message": "Vuoi davvero consentire a {{name}}} di accedere a questo campo?"
+      },
+      "alreadyHasAccess": "Ha già accesso al campo.",
+      "accessOnceInvitationAccepted": "Ha accesso dopo che l'utente accetta l'invito."
+    },
+    "rights": "Diritti",
+    "fields": {
+      "all": "Tutti",
+      "selected": "Solo quelli selezionati",
+      "selectDesc": "Seleziona i campi che l'utente è in grado di vedere.",
+      "standardUserRights": "L'utente non può creare o modificare i campi."
+    },
+    "crops": {
+      "all": "Piantato e raccolto",
+      "active": "Solo piantato",
+      "standardUserRights": "L'utente non può creare o modificare le colture."
+    },
+    "comments": {
+      "comments": "Commenti",
+      "all": "Tutti i commenti",
+      "selected": "Solo i commenti dell'utente",
+      "standardUserRights": "L'utente può creare e modificare i propri commenti."
+    },
+    "fertilizing": {
+      "description": "Seleziona qui sotto ciò che l'utente è in grado di fare con i fertilizzanti."
+    },
+    "waittime": {
+      "description": "Seleziona qui sotto ciò che l'utente è in grado di fare con i tempi di attesa."
+    }
+  },
+  "near": {
+    "by": "Nelle vicinanze",
+    "fields": "Campi più vicini",
+    "cantSortNoLocation": "Non possiamo ordinare i campi in base alla vicinanza perché non ci hai dato l'autorizzazione ad accedere alla tua posizione."
+  },
+  "registerScreen": {
+    "startNow": "Operazioni preliminari",
+    "helpEasySteps": "Ti aiuteremo a creare un account in pochi semplici passaggi.",
+    "useRealName": "L'uso del tuo vero nome aiuta i tuoi colleghi a riconoscerti nelle tue aziende agricole.",
+    "weUsePhone": "Il numero verrà mostrato ai colleghi nelle tue aziende agricole, che potranno così chiamarti facilmente.",
+    "weUseEmail": "Questo indirizzo e-mail verrà usato quando effettui l'accesso e se hai bisogno di resettare la tua password. Altri utenti di farmerJoe potranno invitarti nelle loro aziende agricole usando questo indirizzo e-mail.",
+    "newsletter": "Iscriviti alla newsletter di farmerJoe",
+    "passwordHelp": "Immetti una combinazione di almeno sei numeri, lettere e simboli di punteggiatura (come ! e &)",
+    "confrim_agb_data_security": "Toccando \"Crea account\", accetti la nostra {0}. Scopri come raccogliamo e utilizziamo i tuoi dati nella nostra {1}, e come utilizziamo i cookie e le tecnologie simili nella nostra {2}.",
+    "continueRegistration": "Completa l'accesso",
+    "next": "Avanti",
+    "enterEmail": "Immetti il tuo indirizzo e-mail",
+    "errorEmailExist": "Un altro account utilizza già questo indirizzo e-mail.",
+    "retry": "Riprova",
+    "titles": {
+      "finish": "Completa l'accesso",
+      "haveAnAccount": "Hai già un account",
+      "join": "Iscriviti a farmerJoe",
+      "password": "Crea una password",
+      "whatIsYourName": "Come ti chiami?",
+      "whatIsYourPhoneNumber": "Qual è il tuo numero di cellulare?",
+      "whatIsYourEmailAddress": "Qual è il tuo indirizzo e-mail?",
+      "creating": "Creazione in corso del tuo account."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Tutti gli utenti dell'azienda agricola possono vedere la tua posizione",
+    "sharedWithFarm": "Condivisione in corso della posizione con questa azienda agricola.",
+    "letColleaguesSeeYourLocationLabel": "Condividi la tua posizione con i colleghi",
+    "letColleaguesSeeYourLocationDesc": "Condividi la tua posizione in tempo reale con i colleghi in questa azienda agricola.",
+    "forX": {
+      "x_minutes": {
+        "one": "Per {{count}} minuto",
+        "other": "Per {{count}} minuti"
+      },
+      "x_hours": {
+        "other": "Per {{count}} ore",
+        "one": "Per 1 ora"
+      },
+      "x_days": {
+        "other": "Per {{count}} giorni",
+        "one": "Per 1 giorno"
+      }
+    },
+    "untilTurnedOff": "Finché non disattivi questa opzione",
+    "shareNow": "Condividi ora",
+    "turnOff": "Disattiva",
+    "emailLog": "Invia log di posizione via e-mail"
+  },
+  "report": {
+    "issue": "Segnala il problema"
+  },
+  "no_company_selected": "Nessuna azienda selezionata",
+  "no_field_selected": "Nessun campo selezionato",
+  "invalid_phone_number": "numero di telefono non valido",
+  "close": "chiudi",
+  "errorMessage": "Oops, ci scusiamo per l'inconveniente. Il team di sviluppo è stato notificato.",
+  "refresh": "Aggiorna",
+  "remoteSupport": "Richiesta di assistenza remota",
+  "screenTooSmall": "Lo schermo è troppo piccolo. Usa la nostra app per iOS e Android.",
   "emailVerified": "Il tuo indirizzo email è stato verificato",
   "resetPasswordLinkExpired": "La richiesta di reimpostazione della password è scaduta o il collegamento è già stato utilizzato",
   "verifyEmailLinkExpired": "La tua richiesta di verifica dell'indirizzo email è scaduta o il collegamento è già stato utilizzato",
   "emailChangeReverted": "Il tuo indirizzo email di accesso è stato modificato di nuovo in {{email}}.",
-  "invalidActionCode": "Questo codice non è più valido"
+  "invalidActionCode": "Questo codice non è più valido",
+  "browserNotSupported": "farmerJoe non supporta Internet Explorer. Usa un browser moderno e supportato come Firefox, Chrome, Edge, Opera o Safari.",
+  "apiKeys": {
+    "header": "Chiavi API",
+    "generate": "Generate a new key",
+    "key": "Chiave",
+    "enabled": "Abilitate",
+    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "descriptionLink": "here",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "No API keys",
+    "user": "User"
+  },
+  "apiLogs": {
+    "header": "API log",
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
+  }
 }

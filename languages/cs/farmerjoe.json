@@ -1,9 +1,25 @@
 {
   "data_guidelines": "Směrnice o nakládání s údaji",
+  "cookie_policy": "Zásady používání souborů cookie",
+  "info": "Informace",
   "invites": {
     "reject": "Odmítnout",
     "from": "Pozvánka od {{name}}",
-    "accept": "Přijmout"
+    "accept": "Přijmout",
+    "resend": "Znovu odeslat",
+    "resendDoYouReally": "Opravdu chcete znovu odeslat pozvánku?",
+    "deleteDoYouReally": "Opravdu chcete odstranit uživatele ze společnosti?",
+    "noInvites": "Žádné pozvánky"
+  },
+  "latestActivities": {
+    "tabLabel": "Nejnovější",
+    "sceneTitle": "Nejnovější aktivity",
+    "period": "Období",
+    "selectPeriod": "Vyberte období",
+    "onlyPhotos": "Pouze fotografie",
+    "photo": "Fotografie",
+    "all": "Všechno",
+    "noActivity": "Žádná aktivita pro zvolené období"
   },
   "invalid_email": "E-mailová adresa je neplatná.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "Objednat",
     "plantOrSowDate": "Datum vysazení/výsevu",
     "pleaseLabelProbe": "Označte vzorek!",
+    "dontForgetToLabelProbe": "Prosím nezapomeňte označit vzorek!",
     "compostType": "Typ kompostu",
     "compostAmountInTons": "Množství v tunách",
     "compostApplicationYear": "Rok aplikace",
@@ -80,7 +97,15 @@
     "needFastToday": "Spěchá - dnes",
     "pick_up_from_laboratory": "Laboratorní vzorek",
     "pleaseFollowCurrentFertilizerRegulation": "Postupujte podle stávající směrnice o hnojivech.",
-    "sampleIsTakenAccordingToRegulation": "Vzorek bude odebrán podle stávající směrnice o hnojivech."
+    "sampleIsTakenAccordingToRegulation": "Vzorek bude odebrán podle stávající směrnice o hnojivech.",
+    "acceptedFromLab": "{{date}} - přijaté laboratoří",
+    "acceptedFromLabAndCantBeCancelled": "Analýza byla laboratoří přijata a již nemůže být zrušena.",
+    "probeTaken": "{{date}} - vzorek odebraný Laboratoří",
+    "sortByCrop": "Dle plodin",
+    "sortByLatest": "Od nejnovějších",
+    "latest": "Poslední analýzy",
+    "analysisType": "Typ analýzy",
+    "cancelReasonLab": "Zrušeno z důvodu: {{reason}}"
   },
   "field": {
     "number": "Číslo pole",
@@ -89,6 +114,7 @@
     "sendToArchive": "Archivovat pole",
     "cultivate": "Kultivovat pole",
     "harvested_on": "Plodina byla sklizena dne {{date}}",
+    "sown_on": "Plodiny zaseté dne {{date}}",
     "delete": "Odstranit pole",
     "moveToArchive": "Toto pole bude přesunuto do archivu (Farma -> Archiv)",
     "area": "Plocha",
@@ -103,7 +129,18 @@
     "createNow": "Vytvořit pole nyní",
     "toArchive": "Archiv",
     "field": "Pole",
-    "created": "Pole bylo vytvořeno."
+    "created": "Pole bylo vytvořeno.",
+    "history": "Historie pole",
+    "show": "Zobrazit pole",
+    "dropFilesHere": "Přetáhněte soubory sem",
+    "followingFilesAreUnsupported": "Následující soubory nejsou podporovány:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "Nezadali jste e-mail a heslo",
   "pleaseWaitImageIsBeingUploaded": "Počkejte prosím, obrázek bude nahrán",
@@ -119,6 +156,10 @@
     "create_first_company": "Vytvořte první podnik",
     "delete": "Smazat farmu",
     "qs_number": "Číslo QS",
+    "logo": {
+      "upload": "Vyberte logo společnosti",
+      "camera": "Přijmout nové logo společnosti"
+    },
     "doYouWantToDeleteCompany": "Opravdu chcete smazat tuto farmu?"
   },
   "crop": {
@@ -155,7 +196,17 @@
     "select_color": "Vyberte barvu",
     "without": "Leží ladem",
     "cropPlanning": "Plánování plodin",
-    "age": "Stáří plodiny"
+    "age": "Stáří plodiny",
+    "cropDoesntExist": "Zvolená plodina neexistuje.",
+    "protection": "Ochrana rostlin",
+    "activeCrops": "Aktivní plodiny",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Hnojení",
@@ -171,6 +222,7 @@
   "no_first_last_name_entered": "Zadejte prosím své jméno a příjmení.",
   "deletePhoto": "Smazat fotografii",
   "date": "Datum",
+  "datePleaseSelect": "Zvolte prosím datum",
   "invoice": {
     "youDontHaveAddress": "Nezadali jste fakturační adresu."
   },
@@ -190,7 +242,8 @@
     "delete": "Odstranit dobu čekání",
     "doYouReallyWantToDelete": "Opravdu chcete smazat dobu čekání?",
     "pesticide": "Jméno pesticidu",
-    "waitTime": "Doba čekání"
+    "waitTime": "Doba čekání",
+    "waitTimeShort": "Doba čekání"
   },
   "more": "Více",
   "position": "Pozice",
@@ -200,7 +253,6 @@
     "inform": "Informujte přátele",
     "emailMessage": "Ahoj,\n\nPrávě jsem stáhl FarmerJoe pro můj {{phone}}.\n        \nFarmerJoe je dokumentační aplikace pro zemědělce, která se velmi snadno používá. S aplikací můžeš sledovat svoje pole a plodiny na mapě a můžeš vkládat poznámky i s obrázky. Můžeš nastavovat dobu čekání a zaznamenávat hnojení.\n\nFarmerJoe je k dispozici pro iPhone a Android.\n\nNainstaluj si Farmerjoe z {{url}}."
   },
-  "confrim_agb_data_security": "Kliknutím na tlačítko \"Registrace\" souhlasíte s naší {0} a potvrdíte, že jste si přečetli naše {1}.",
   "password": {
     "current": "Aktuální heslo",
     "password": "Heslo",
@@ -213,7 +265,8 @@
     "repeat": "Opakujte heslo",
     "updated": "Heslo bylo aktualizováno.",
     "min6char": "Heslo musí mít délku nejméně 6 znaků.",
-    "reset": "Obnovení hesla"
+    "reset": "Obnovení hesla",
+    "resetHelp": "Zadejte své nové heslo níže."
   },
   "noSearchResults": "Žádné výsledky.",
   "login": "Přihlášení",
@@ -241,6 +294,7 @@
   "employee": "Zaměstnanec",
   "archive": {
     "archive": "Archiv",
+    "archivedFields": "Archivovaná pole",
     "noFieldsInArchive": "Nebylo nalezeno žádné pole v archivu."
   },
   "save_as_favorite": "Uložit jako oblíbené",
@@ -263,12 +317,23 @@
   "invoice_address": "Fakturační adresa",
   "logout": "Odhlásit se",
   "employees": {
+    "addEmployee": "Přidat zaměstnance",
+    "noAdvisors": "Žádní zemědělští poradci",
+    "noDeactivatedUsers": "Žádní deaktivovaní uživatelé",
     "plural": "Zaměstnanci",
+    "active": "Aktivní",
+    "deactivated": "Deaktivovaní",
+    "reactivate": "Opětovná aktivace uživatele",
+    "reactivateDoYouWant": "Opravdu chcete znovuaktivovat uživatele?",
+    "advisors": "Poradci",
     "admin": "Správce",
     "manage": "Správa uživatelů",
     "adminRWD": "Administrátor (čtení, psaní, mazání)",
     "invitationSentOn": "Pozvánka byla zaslána dne {{date}}",
-    "invitrationRejectedOn": "Pozvánka byla zamítnuta dne {{date}}"
+    "invitrationRejectedOn": "Pozvánka byla zamítnuta dne {{date}}",
+    "getFromPhoneBook": "Vyhledávání v telefonním seznamu",
+    "choseEmail": "Zvolte e-mail",
+    "employeeIsDeactivated": "Zaměstnanec je deaktivován"
   },
   "search": "Hledat",
   "satellite": "Satelit",
@@ -291,6 +356,7 @@
   "favorites": "Oblíbené",
   "legal_data_security": "Právní ujednání a bezpečnost údajů",
   "coordinates": "Souřadnice",
+  "deleteForAll": "Odstranit pro všechny",
   "deletePermenantly": "Trvale odstranit",
   "comment": {
     "fromField": "Komentář z pole: {{name}}",
@@ -309,7 +375,8 @@
   "create_account": "Nová registrace",
   "map": "Mapy",
   "maps": {
-    "pressToSetPin": "Klikněte na mapu k umístění špendlíku."
+    "pressToSetPin": "Klikněte na mapu k umístění špendlíku.",
+    "clickToShowMore": "Klepnutím zobrazíte více"
   },
   "no_email_entered": "Nezadali jste e-mailovou adresu.",
   "camera": "Fotoaparát",
@@ -322,6 +389,7 @@
   "first_name": "Křestní jméno",
   "request_new_password": "Vyžádat si nové heslo",
   "register": "Vytvořit účet",
+  "needAFarmerJoeAccount": "Potřebujete účet farmerJoe?",
   "phones": {
     "enterNumber": "Zadejte své telefonní číslo"
   },
@@ -332,6 +400,9 @@
   "settings": "Nastavení",
   "help": "Nápověda",
   "position_company": "Poloha farmy",
+  "position_verb": "Nastavit polohu",
+  "latitude": "Zeměpisná šířka",
+  "longitude": "Zeměpisná délka",
   "copy": "Kopírovat",
   "share": "Sdílet",
   "directions": "Směrovky",
@@ -391,27 +462,211 @@
     }
   },
   "alerts": {
+    "openSettings": "Otevřít nastavení",
     "needLocation": {
       "title": "farmerJoe potřebuje znát vaši polohu",
       "description": "farmerJoe v současnosti nemá přístup k vaší poloze."
+    },
+    "needAlwaysLocation": {
+      "title": "Oprávnění ke zjištění lokace nebylo uděleno",
+      "description": "Chcete-li sdílet svoji přesnou polohu, farmerJoe musí mít vždy přístup k vaší poloze. Pokud nechcete udělit toto oprávnění, nelze použít tuto funkci."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe nemůže určit vaši polohu.",
       "description": "Prosím zapněte si na telefonu GPS."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Nelze získat přístup k obrázku",
+      "description": "Prosím povolte přístup, pokud chcete být schopni vybírat obrázky."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Není umožněn přístup k fotoaparátu",
+      "description": "Pokud chcete pořizovat fotografie, povolte prosím přístup k Vašemu fotoaparátu."
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe vyžaduje přístup k vašim kontaktům",
+      "description": "Pokud chcete pozvat někoho ze svého adresáře, udělte farmerJoe přístup ke kontaktům."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe vyžaduje přístup k úložišti",
+      "description": "Abychom mohli pracovat s obrázkem, potřebujeme přístup k vašemu úložišti. Bez tohoto povolení nebudete schopen/schopna odeslat obrázek."
     }
   },
   "filter": "Filtr",
+  "acl": {
+    "view": "Zobrazit",
+    "create": "Vytvořit",
+    "edit": "Upravit",
+    "delete": "Smazat",
+    "department": "Oddělení",
+    "selectFields": "Vybrat pole",
+    "CRUD": "Vytvořit, upravit, odstranit",
+    "role": {
+      "restricted": "Omezený přístup",
+      "allrights": "Všechna práva",
+      "type": "Typ účtu",
+      "admin": "Správce",
+      "standard": "Dělník",
+      "advisor": "Poradce"
+    },
+    "user": {
+      "delete": "Odstranit zaměstnance",
+      "deactivate": "Deaktivovat zaměstnance",
+      "doYouWantToDeactivateUser": "Chcete deaktivovat tohoto zaměstnance?",
+      "doYouWantToDeleteUser": "Opravdu chcete smazat tohoto zaměstnance?",
+      "cantDeleteYourself": "Nemůžete smazat sami sebe",
+      "alertFound": {
+        "title": "Uživatel je již ve společnosti",
+        "message": "Uživatel s tímto e-mailem již ve společnosti existuje."
+      },
+      "alertNoFields": {
+        "title": "Nejsou vybrána žádná pole",
+        "message": "Musíte vybrat alespoň jedno pole pro uživatele"
+      }
+    },
+    "users": {
+      "users": "Zaměstnanci",
+      "userRight": "Uživatel může vidět ostatní zaměstnance na farmě."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "Uživatel je správcem a má přístup na všechna pole ve společnosti. Pokud mu chcete zakázat přístup k tomuto poli a ostatním polím, budete mu muset přidělit profil normálního uživatele."
+      },
+      "forbidFieldAlert": {
+        "message": "Opravdu chcete zakázat uživateli {{name}} přístup k tomuto poli?"
+      },
+      "grantFieldAlert": {
+        "message": "Opravdu chcete dát uživateli {{name}} přístup k tomuto poli?"
+      },
+      "alreadyHasAccess": "Uživatel již má přístup k tomuto poli.",
+      "accessOnceInvitationAccepted": "Uživatel získá přístup, jakmile přijme pozvání."
+    },
+    "rights": "Práva",
+    "fields": {
+      "all": "Všechna",
+      "selected": "Pouze vybraná",
+      "selectDesc": "Vyberte pole, která uživatel může vidět.",
+      "standardUserRights": "Uživatel nemůže vytvářet nebo upravovat pole."
+    },
+    "crops": {
+      "all": "Osazené a sklizené plochy",
+      "active": "Pouze osazené",
+      "standardUserRights": "Uživatel nemůže vytvářet nebo upravovat žádné plodiny."
+    },
+    "comments": {
+      "comments": "Komentáře",
+      "all": "Všechny komentáře",
+      "selected": "Pouze vlastní komentáře",
+      "standardUserRights": "Uživatel může vytvářet a upravovat vlastní komentáře."
+    },
+    "fertilizing": {
+      "description": "Vyberte níže, co je uživatel schopen udělat s hnojivy."
+    },
+    "waittime": {
+      "description": "Vyberte níže, co je uživatel schopen dělat s čekací dobou."
+    }
+  },
+  "near": {
+    "by": "Poblíž",
+    "fields": "Nejbližsí pole",
+    "cantSortNoLocation": "Nemůžeme řadit dle nejbližšího pole, protože jste nám nepovolil/a přístup k vaší poloze."
+  },
+  "registerScreen": {
+    "startNow": "Začít",
+    "helpEasySteps": "Pomůžeme vám vytvořit účet v několika jednoduchých krocích.",
+    "useRealName": "Pokud použijete své skutečné jméno, bude pro vaše kolegy jednodušší vás rozpoznat na vaší farmě.",
+    "weUsePhone": "Číslo se zobrazí kolegům na vašich farmách a budou vám moci snadno zavolat.",
+    "weUseEmail": "Tuto e-mailovou adresu budete používat při přihlášení, a pokud budete někdy potřebovat obnovit heslo. Ostatní uživatelé farmerJoe vám na tento e-mail budou moci poslat pozvánku na jejich farmy.",
+    "newsletter": "Odebírat novinky z farmerJoe",
+    "passwordHelp": "Zadejte kombinaci nejméně šesti čísel, písmen a interpunkčních znamének (např. ! a &)",
+    "confrim_agb_data_security": "Klepnutím na tlačítko \"Vytvořit účet\" souhlasíte s našimi {0}. Zjistěte, jak shromažďujeme a používáme vaše data v našich {1} a jak používáme soubory cookie a podobné technologie v našem {2}.",
+    "continueRegistration": "Pokračovat v registraci",
+    "next": "Další",
+    "enterEmail": "Zadejte svůj email",
+    "errorEmailExist": "Tato emailová adresa je již použita v jiném uživatelském účtu.",
+    "retry": "Zkusit znovu",
+    "titles": {
+      "finish": "Dokončit registraci",
+      "haveAnAccount": "Již máte vytvořený účet",
+      "join": "Připojte se k farmerJoe",
+      "password": "Vytvořit heslo",
+      "whatIsYourName": "Jaké je Vaše jméno?",
+      "whatIsYourPhoneNumber": "Jaké je číslo Vašeho mobilního telefonu?",
+      "whatIsYourEmailAddress": "Jaká je Vaše emailová adresa?",
+      "creating": "Váš účet se právě vytváří."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Všichni na farmě si mohou zobrazit vaši polohu",
+    "sharedWithFarm": "Poloha je sdílená s touto farmou.",
+    "letColleaguesSeeYourLocationLabel": "Dejte kolegům vědět, kde jste",
+    "letColleaguesSeeYourLocationDesc": "Sdílejte svoji aktuální polohu v reálném čase s kolegy na této farmě.",
+    "forX": {
+      "x_minutes": {
+        "one": "Za {{count}} minutu",
+        "other": "Za {{count}} minut"
+      },
+      "x_hours": {
+        "other": "Za {{count}} hodin",
+        "one": "Za 1 hodinu"
+      },
+      "x_days": {
+        "other": "Za {{count}} dní",
+        "one": "Za 1 den"
+      }
+    },
+    "untilTurnedOff": "Dokud toto nevypnete",
+    "shareNow": "Sdílet hned teď",
+    "turnOff": "Vypnout",
+    "emailLog": "Zaslat protokol o poloze"
+  },
+  "report": {
+    "issue": "Nahlásit chybu"
+  },
+  "no_company_selected": "Nebyla vybrána žádná společnost",
+  "no_field_selected": "Nebylo vybráno žádné pole",
+  "invalid_phone_number": "neplatné telefonní číslo",
+  "close": "zavřít",
+  "errorMessage": "Jejda, tohle se nemělo stát. Chyba byla zaslána vývojovému týmu.",
+  "refresh": "Obnovit",
+  "remoteSupport": "Požadavek na vzdálenou podporu",
+  "screenTooSmall": "Vaše obrazovka je příliš malá. Použijte naši aplikaci pro iOS a Android.",
   "emailVerified": "Váš e-mail byl ověřen",
   "resetPasswordLinkExpired": "Platnost vaší žádosti o obnovení hesla vypršela nebo byl odkaz již použit",
   "verifyEmailLinkExpired": "Platnost vaší žádosti o ověření e-mailu vypršela nebo byl odkaz již použit",
   "emailChangeReverted": "Vaše přihlašovací e-mailová adresa byla změněna zpět na {{email}}.",
-  "invalidActionCode": "Platnost kódu vypršela"
+  "invalidActionCode": "Platnost kódu vypršela",
+  "browserNotSupported": "farmerJoe nepodporuje aplikaci Internet Explorer. Prosím použijte moderní a podporovaný prohlížeč, například Firefox, Chrome, Edge, Opera nebo Safari.",
+  "apiKeys": {
+    "header": "API klíče",
+    "generate": "Generovat nový klíč",
+    "key": "Klíč",
+    "enabled": "Povoleno",
+    "description": "API klíče umožňují integrovat farmerJoe do dalšího softwaru. Můžete si najít dokumentaci {0}.",
+    "descriptionLink": "zde",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "No API keys",
+    "user": "User"
+  },
+  "apiLogs": {
+    "header": "API log",
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
+  }
 }

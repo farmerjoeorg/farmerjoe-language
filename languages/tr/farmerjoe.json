@@ -1,9 +1,25 @@
 {
   "data_guidelines": "Veri Politikamızı",
+  "cookie_policy": "Çerez Politikası",
+  "info": "Bilgi",
   "invites": {
     "reject": "Reddet",
     "from": "{{name}} size davetiye gönderdi",
-    "accept": "Kabul Et"
+    "accept": "Kabul Et",
+    "resend": "Tekrar gönder",
+    "resendDoYouReally": "Tekrar davet göndermek istiyor musunuz?",
+    "deleteDoYouReally": "Kullanıcıyı şirketten silmek istiyor musunuz?",
+    "noInvites": "Davet yok"
+  },
+  "latestActivities": {
+    "tabLabel": "En son",
+    "sceneTitle": "Son etkinlikler",
+    "period": "Dönem",
+    "selectPeriod": "Dönemi seçin",
+    "onlyPhotos": "Sadece fotoğraflar",
+    "photo": "Fotoğraf",
+    "all": "Tümü",
+    "noActivity": "Seçilen dönem için hiçbir etkinlik yok"
   },
   "invalid_email": "E-posta adresi geçersiz.",
   "analysis": {
@@ -12,6 +28,7 @@
     "order": "Sipariş",
     "plantOrSowDate": "Dikme/tohum atma tarihi",
     "pleaseLabelProbe": "Lütfen örneği etiketleyin!",
+    "dontForgetToLabelProbe": "Numuneyi etiketlemeyi unutmayın!",
     "compostType": "Organik Gübre Türü",
     "compostAmountInTons": "Ton cinsinden miktar",
     "compostApplicationYear": "Uygulama yılı",
@@ -80,7 +97,15 @@
     "needFastToday": "Acil - Bugün İçinde",
     "pick_up_from_laboratory": "Laboratuvar Numunesi",
     "pleaseFollowCurrentFertilizerRegulation": "Lütfen mevcut Gübre düzenlemesine göre hareket edin.",
-    "sampleIsTakenAccordingToRegulation": "Numune, mevcut Gübre düzenlemelerine göre alınacaktır."
+    "sampleIsTakenAccordingToRegulation": "Numune, mevcut Gübre düzenlemelerine göre alınacaktır.",
+    "acceptedFromLab": "{{date}} - Laboratuvar tarafından kabul edildi",
+    "acceptedFromLabAndCantBeCancelled": "Numune, Laboratuvar tarafından kabul edildi ve artık iptal edilemez.",
+    "probeTaken": "{{date}} - numune Laboratuvar tarafından alındı",
+    "sortByCrop": "Ekine göre",
+    "sortByLatest": "Son analize göre",
+    "latest": "Son analizler",
+    "analysisType": "Analiz türü",
+    "cancelReasonLab": "İptal nedeni: {{reason}}"
   },
   "field": {
     "number": "Tarla Numarası",
@@ -89,6 +114,7 @@
     "sendToArchive": "Tarla bilgilerini arşive kaldır",
     "cultivate": "Tarlayı ek",
     "harvested_on": "Ekin {{date}} tarihinde hasat edildi",
+    "sown_on": "{{date}} tarihinde ekilen ürün",
     "delete": "Tarlayı Sil",
     "moveToArchive": "Tarla bilgileri arşive (Çiftlik -> Aşiv) taşınacak",
     "area": "Alan",
@@ -103,7 +129,18 @@
     "createNow": "Tarla kaydını şimdi oluştur",
     "toArchive": "Arşiv",
     "field": "Tarla",
-    "created": "Tarla kaydı oluşturuldu."
+    "created": "Tarla kaydı oluşturuldu.",
+    "history": "Tarla geçmişi",
+    "show": "Tarlayı göster",
+    "dropFilesHere": "Dosyaları buraya bırakın",
+    "followingFilesAreUnsupported": "Aşağıdaki dosyalar desteklenmiyor:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "E-posta adresinizi ve şifrenizi girmediniz",
   "pleaseWaitImageIsBeingUploaded": "Lütfen bekleyin, resim yükleniyor",
@@ -119,6 +156,10 @@
     "create_first_company": "İlk çiftliğinizi oluşturun",
     "delete": "Çiftliği Sil",
     "qs_number": "QS Numarası",
+    "logo": {
+      "upload": "Şirket logosunu seçin",
+      "camera": "Yeni bir şirket logosu alın"
+    },
     "doYouWantToDeleteCompany": "Bu çiftliği gerçekten silmek istiyor musunuz?"
   },
   "crop": {
@@ -155,7 +196,17 @@
     "select_color": "Renk Seçin",
     "without": "Ekilmedi",
     "cropPlanning": "Ekin Planlama",
-    "age": "Mahsul Süresi"
+    "age": "Mahsul Süresi",
+    "cropDoesntExist": "Seçilen ürün yok.",
+    "protection": "Bitki koruma",
+    "activeCrops": "Aktif ekinler",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
   },
   "fertilizer": {
     "fertilization": "Gübreleme",
@@ -171,6 +222,7 @@
   "no_first_last_name_entered": "Lütfen adınızı ve soyadınızı girin.",
   "deletePhoto": "Fotoğrafı Sil",
   "date": "Tarih",
+  "datePleaseSelect": "Lütfen tarihi seçin",
   "invoice": {
     "youDontHaveAddress": "Fatura adresini girmediniz."
   },
@@ -190,7 +242,8 @@
     "delete": "Bekleme Süresini Sil",
     "doYouReallyWantToDelete": "Bekleme süresini gerçekten silmek istiyor musunuz?",
     "pesticide": "Tarım İlacı Adı",
-    "waitTime": "Bekleme Süresi"
+    "waitTime": "Bekleme Süresi",
+    "waitTimeShort": "Bekleme süresi"
   },
   "more": "Daha fazla",
   "position": "Konum",
@@ -200,7 +253,6 @@
     "inform": "Arkadaşına Tavsiye Et",
     "emailMessage": "Selam,\n\nfarmerJoe'yu {{phone}} telefonuma indirdim.\n        \nfarmerJoe, çiftçilere yönelik kullanımı kolay bir dokümantasyon uygulaması. Uygulama sayesinde tarlalarınızı ve ekinlerinizi harita üzerinden görebilir, resimli notlar ekleyebilir, bekleme sürelerini ve gübreleme bilgilerinizi kaydedebilirsiniz.\n\nfarmerJoe, iPhone ve Android cihazlarda kullanılabilir.\n\nfarmerJoe'yu {{url}} adresinden yükleyebilirsiniz."
   },
-  "confrim_agb_data_security": "\"Hesap Oluştur\"u tıklayarak {0} ve {1} okuduğunuzu ve onayladığınızı kabul etmiş sayılırsınız.",
   "password": {
     "current": "Geçerli Şifre",
     "password": "Şifre",
@@ -213,7 +265,8 @@
     "repeat": "Şifreyi Tekrar Girin",
     "updated": "Şifre güncellendi.",
     "min6char": "Şifre en az 6 karakter uzunluğunda olmalıdır.",
-    "reset": "Şifrenizi sıfırlayın"
+    "reset": "Şifrenizi sıfırlayın",
+    "resetHelp": "Yeni şifrenizi aşağıya girin."
   },
   "noSearchResults": "Sonuç yok.",
   "login": "GİRİŞ",
@@ -241,6 +294,7 @@
   "employee": "İşçi",
   "archive": {
     "archive": "Arşiv",
+    "archivedFields": "Arşivlenmiş Tarlalar",
     "noFieldsInArchive": "Arşivde hiç tarla yok."
   },
   "save_as_favorite": "Favori Olarak Kaydet",
@@ -263,12 +317,23 @@
   "invoice_address": "Fatura Adresi",
   "logout": "Çıkış",
   "employees": {
+    "addEmployee": "İşçi Ekle",
+    "noAdvisors": "Hiç çiftlik danışmanı yok",
+    "noDeactivatedUsers": "Devre dışı bırakılan kullanıcı yok",
     "plural": "İşçiler",
+    "active": "Aktif",
+    "deactivated": "Devre dışı",
+    "reactivate": "Kullanıcıyı yeniden etkinleştir",
+    "reactivateDoYouWant": "Kullanıcıyı yeniden etkinleştirmek istiyor musunuz?",
+    "advisors": "Danışmanlar",
     "admin": "Yönetici",
     "manage": "İşçileri Yönet",
     "adminRWD": "Yönetici (okuma, yazma, silme)",
     "invitationSentOn": "Davet {{date}} tarihinde gönderildi",
-    "invitrationRejectedOn": "Davet {{date}} tarihinde reddedildi"
+    "invitrationRejectedOn": "Davet {{date}} tarihinde reddedildi",
+    "getFromPhoneBook": "Telefon rehberinde ara",
+    "choseEmail": "E-posta seçin",
+    "employeeIsDeactivated": "Çalışan devre dışı"
   },
   "search": "Ara",
   "satellite": "Uydu",
@@ -291,6 +356,7 @@
   "favorites": "Favoriler",
   "legal_data_security": "Yasal Hükümler ve Veri Güvenliği",
   "coordinates": "Koordinatlar",
+  "deleteForAll": "Tümünü sil",
   "deletePermenantly": "Kalıcı olarak sil",
   "comment": {
     "fromField": "Tarladan açıklama gönderildi: {{name}}",
@@ -309,7 +375,8 @@
   "create_account": "Yeni Kayıt",
   "map": "Haritalar",
   "maps": {
-    "pressToSetPin": "Konumu sabitlemek için haritaya dokunun."
+    "pressToSetPin": "Konumu sabitlemek için haritaya dokunun.",
+    "clickToShowMore": "Daha fazla görmek için tıklayın"
   },
   "no_email_entered": "E-posta adresi girmediniz.",
   "camera": "Kamera",
@@ -322,6 +389,7 @@
   "first_name": "Ad",
   "request_new_password": "Yeni Şifre İste",
   "register": "Hesap Oluştur",
+  "needAFarmerJoeAccount": "farmerJoe hesabına mı ihtiyacınız var?",
   "phones": {
     "enterNumber": "Telefon numaranızı girin"
   },
@@ -332,6 +400,9 @@
   "settings": "Ayarlar",
   "help": "Yardım",
   "position_company": "Çiftlik Konumu",
+  "position_verb": "Konumu Ayarla",
+  "latitude": "Enlem",
+  "longitude": "Boylam",
   "copy": "Kopyala",
   "share": "Paylaş",
   "directions": "Yol Tarifi",
@@ -391,27 +462,211 @@
     }
   },
   "alerts": {
+    "openSettings": "Ayarları Aç",
     "needLocation": {
       "title": "farmerjoe'nun konumunuza ihtiyacı var",
       "description": "farmerjoe şu anda konumunuza erişemiyor."
+    },
+    "needAlwaysLocation": {
+      "title": "Konum izni verilmemiş",
+      "description": "Bulunduğunuz konumu paylaşabilmek için farmerJoe uygulamasının her zaman konumunuza erişmesi gerekir. Bu izni vermezseniz bu özelliği kullanamazsınız."
     },
     "cantDetermineLocation": {
       "title": "farmerjoe konumunuzu belirleyemiyor.",
       "description": "Lütfen telefonunuzun GPS'ini açın."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Görüntüye erişilemiyor",
+      "description": "Görüntülerin seçebilmesini istiyorsanız lütfen erişime izin verin."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Kameraya erişilemiyor",
+      "description": "Fotoğraf çekmek istiyorsanız lütfen kamera erişimine izin verin."
+    },
+    "needContactsAccess": {
+      "title": "farmerjoe'nun kişilerinize erişmesi gerekiyor",
+      "description": "Adres defterinizdeki kişilere davet göndermek istiyorsanız, lütfen farmerJoe'nun kişilerinize erişmesine izni verin."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe uygulamasının depolama alanına erişmesi gerekiyor",
+      "description": "Görüntüyü işleyebilmek için depolama alanınıza erişmemiz gerekiyor. Bu izin olmadan görüntüleri göndermeniz mümkün değildir."
     }
   },
   "filter": "Filtre",
+  "acl": {
+    "view": "Görüntüle",
+    "create": "Oluştur",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "department": "Bölüm",
+    "selectFields": "Tarlaları seçin",
+    "CRUD": "Oluştur, Düzenle, Sil",
+    "role": {
+      "restricted": "Sınırlı erişim",
+      "allrights": "Tüm haklar",
+      "type": "Hesap türü",
+      "admin": "Yönetici",
+      "standard": "İşçi",
+      "advisor": "Danışman"
+    },
+    "user": {
+      "delete": "İşçiyi Sil",
+      "deactivate": "İşçiyi devre dışı bırak",
+      "doYouWantToDeactivateUser": "Bu işçiyi devre dışı bırakmak istiyor musunuz?",
+      "doYouWantToDeleteUser": "Bu işçiyi gerçekten silmek istiyor musunuz?",
+      "cantDeleteYourself": "Kendinizi silemezsiniz",
+      "alertFound": {
+        "title": "Kullanıcı zaten şirkette",
+        "message": "Şirkette bu e-posta adresine sahip bir kullanıcı zaten var."
+      },
+      "alertNoFields": {
+        "title": "Seçili tarla yok",
+        "message": "Kullanıcı için en az bir alan seçmeniz gerekir"
+      }
+    },
+    "users": {
+      "users": "Çalışanlar",
+      "userRight": "Kullanıcı, çiftlikteki diğer Çalışanları görebilir."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "Kullanıcı, Yönetici konumundadır ve şirketteki tüm alanlara erişebilir. Kullanıcının bu ve diğer alanlara erişimini yasaklamak istiyorsanız, onu normal bir kullanıcı haline getirmelisiniz."
+      },
+      "forbidFieldAlert": {
+        "message": "{{name}} isimli kullanıcının bu alana erişimini gerçekten yasaklamak istiyor musunuz?"
+      },
+      "grantFieldAlert": {
+        "message": "{{name}} isimli kullanıcıya bu alana erişim için gerçekten izin vermek istiyor musunuz?"
+      },
+      "alreadyHasAccess": "Zaten alana erişimi var.",
+      "accessOnceInvitationAccepted": "Kullanıcı, daveti kabul eder etmez erişime izin ver."
+    },
+    "rights": "Haklar",
+    "fields": {
+      "all": "Tümü",
+      "selected": "Sadece seçilen",
+      "selectDesc": "Kullanıcının görebileceği tarlaları seçin.",
+      "standardUserRights": "Kullanıcı alanlar oluşturamaz veya düzenleyemez."
+    },
+    "crops": {
+      "all": "Ekilen ve hasat edilen",
+      "active": "Sadece ekilen",
+      "standardUserRights": "Kullanıcı, ekinler oluşturamaz veya düzenleyemez."
+    },
+    "comments": {
+      "comments": "Yorumlar",
+      "all": "Tüm yorumlar",
+      "selected": "Sadece kendi yorumlarım",
+      "standardUserRights": "Kullanıcı, yorumlar oluşturabilir veya yorumlarını düzenleyebilir."
+    },
+    "fertilizing": {
+      "description": "Kullanıcının gübre ile neler yapabileceğini seçin."
+    },
+    "waittime": {
+      "description": "Kullanıcının Bekleme Süresinde neler yapabileceğini seçin."
+    }
+  },
+  "near": {
+    "by": "Yakınlık",
+    "fields": "Yakındaki tarlalar",
+    "cantSortNoLocation": "Konumunuza erişim izni vermediğiniz için en yakındaki tarlaları sıralayamıyoruz."
+  },
+  "registerScreen": {
+    "startNow": "Başlarken",
+    "helpEasySteps": "Sadece birkaç basit adımda hesap oluşturmanıza yardımcı olacağız.",
+    "useRealName": "Gerçek adınızı kullanmak, meslektaşlarınızın sizi çiftliklerinizden tanımalarını kolaylaştırır.",
+    "weUsePhone": "Numara, Çiftliklerinizdeki meslektaşlarınıza gösterilecek ve böylece sizi kolayca arayabilecekler.",
+    "weUseEmail": "Bu e-posta adresini, giriş yaptığınızda ve şifrenizi sıfırlamanız gerektiğinde kullanacaksınız. Diğer farmerJoe kullanıcıları, sizi bu e-posta ile kendi Çiftliklerine davet edebilir.",
+    "newsletter": "farmerJoe bültenine üye olun",
+    "passwordHelp": "En az altı rakam, harf ve noktalama işaretlerinden (! ve & gibi) oluşan bir kombinasyon girin",
+    "confrim_agb_data_security": "\"Hesap Oluştur\"a dokunarak {0} hükümlerini kabul etmiş olursunuz. Verilerinizi {1} adresimizde nasıl topladığımızı ve kullandığımızı ve {2}'deki çerezleri ve benzer teknolojiyi nasıl kullandığımızı öğrenin.",
+    "continueRegistration": "Kaydolmak için devam et",
+    "next": "Sonraki",
+    "enterEmail": "E-postanızı girin",
+    "errorEmailExist": "Bu e-posta adresi zaten başka bir hesap tarafından kullanılıyor.",
+    "retry": "Tekrar dene",
+    "titles": {
+      "finish": "Kaydı bitir",
+      "haveAnAccount": "Zaten bir hesabınız var",
+      "join": "farmerJoe'ya katılın",
+      "password": "Şifre oluştur",
+      "whatIsYourName": "Adınız?",
+      "whatIsYourPhoneNumber": "Telefon numaranız nedir?",
+      "whatIsYourEmailAddress": "E-posta adresiniz nedir?",
+      "creating": "Hesabınız oluşturuluyor."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Konumunuzu çiftlikteki herkes görebilir",
+    "sharedWithFarm": "Konum, bu çiftlik ile paylaşılıyor.",
+    "letColleaguesSeeYourLocationLabel": "Meslektaşlarınıza nerede olduğunuzu bildirin",
+    "letColleaguesSeeYourLocationDesc": "Konumunuzu, bu çiftlikteki meslektaşlarınızla gerçek zamanlı olarak paylaşın.",
+    "forX": {
+      "x_minutes": {
+        "one": "{{count}} dakika",
+        "other": "{{count}} dakika"
+      },
+      "x_hours": {
+        "other": "{{count}} saat",
+        "one": "1 saat"
+      },
+      "x_days": {
+        "other": "{{count}} gün",
+        "one": "1 gün"
+      }
+    },
+    "untilTurnedOff": "Bunu kapatana kadar",
+    "shareNow": "Şimdi paylaş",
+    "turnOff": "Kapat",
+    "emailLog": "E-posta konum günlüğü"
+  },
+  "report": {
+    "issue": "Sorun bildir"
+  },
+  "no_company_selected": "Hiçbir şirket seçilmedi",
+  "no_field_selected": "Tarla seçilmedi",
+  "invalid_phone_number": "geçersiz telefon numarası",
+  "close": "kapat",
+  "errorMessage": "Beklenmeyen bir hata oluştu. Geliştirme ekibi bilgilendirildi.",
+  "refresh": "Yenile",
+  "remoteSupport": "Uzaktan destek talebi",
+  "screenTooSmall": "Ekranınız çok küçük. Bunun yerine iOS ve Android uygulamamızı kullanın.",
   "emailVerified": "E-postanız doğrulandı",
   "resetPasswordLinkExpired": "Şifrenizi sıfırlama isteğinizin süresi dolmuş veya bağlantı zaten kullanılmış",
   "verifyEmailLinkExpired": "E-postanızı doğrulama isteğinizin süresi dolmuş veya bağlantı zaten kullanılmış",
   "emailChangeReverted": "Oturum açma e-posta adresiniz tekrar {{email}} olarak değiştirildi.",
-  "invalidActionCode": "Bu kod artık geçerli değil"
+  "invalidActionCode": "Bu kod artık geçerli değil",
+  "browserNotSupported": "farmerJoe Internet Explorer'ı desteklemiyor. Lütfen Firefox, Chrome, Edge, Opera veya Safari gibi modern ve desteklenen bir tarayıcı kullanın.",
+  "apiKeys": {
+    "header": "API anahtarları",
+    "generate": "Yeni anahtar oluştur",
+    "key": "Anahtar",
+    "enabled": "Etkin",
+    "description": "API anahtarları, farmerJoe'yu başka bir yazılıma entegre etmenizi sağlar. Belgeleri {0} bulabilirsiniz.",
+    "descriptionLink": "buradan",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "No API keys",
+    "user": "User"
+  },
+  "apiLogs": {
+    "header": "API log",
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
+  }
 }

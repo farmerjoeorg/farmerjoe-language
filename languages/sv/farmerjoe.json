@@ -1,0 +1,672 @@
+{
+  "data_guidelines": "Datapolicy",
+  "cookie_policy": "Cookiepolicy",
+  "info": "Information",
+  "invites": {
+    "reject": "Avvisa",
+    "from": "Inbjudan från {{name}}",
+    "accept": "Acceptera",
+    "resend": "Skicka igen",
+    "resendDoYouReally": "Vill du verkligen skicka inbjudan igen?",
+    "deleteDoYouReally": "Vill du verkligen ta bort användaren från företaget?",
+    "noInvites": "Inga inbjudningar"
+  },
+  "latestActivities": {
+    "tabLabel": "Senaste",
+    "sceneTitle": "Senaste aktiviteter",
+    "period": "Period",
+    "selectPeriod": "Välj period",
+    "onlyPhotos": "Endast foton",
+    "photo": "Foto",
+    "all": "Alla",
+    "noActivity": "Ingen aktivitet för den valda perioden"
+  },
+  "invalid_email": "E-postadressen är inte giltig.",
+  "analysis": {
+    "cancelAnalysis": "Avbryt analys",
+    "residue": "Rester",
+    "order": "Beställ",
+    "plantOrSowDate": "Datum för plantera/så",
+    "pleaseLabelProbe": "Ge etikett på sond!",
+    "dontForgetToLabelProbe": "Glöm inte att ge etikett på sonden!",
+    "compostType": "Typ av kompost",
+    "compostAmountInTons": "Kvantitet i ton",
+    "compostApplicationYear": "Användningsår",
+    "profileNotComplete": "Din användarprofil är inte slutförd.",
+    "comment": "Kommentar",
+    "thankYouForOrder": "{0} för din beställning.",
+    "thankYou": "Tack",
+    "after_harvest": "Efter skörd",
+    "commissionWithCharge": "Debiterbar beställning",
+    "productLabel": "Produktetikett",
+    "harvest_start": "Skörd inleds?",
+    "before_harvest": "Innan skörd",
+    "analysisCancelledOn": "Analysen avbröts den {{date}} kl. {{time}} av {{user}}.",
+    "during_harvest": "Under skörd",
+    "result_for": "Krävs av",
+    "sample": "Prov",
+    "sample_taker": "Togs av",
+    "sample_date": "Togs den",
+    "resultResidue": "Resultat från restanalys",
+    "mondayFriday": "Måndag till fredag",
+    "questions": "Frågor?",
+    "offer": "Erbjudande",
+    "number": "Analysnummer",
+    "cancelled": "Avbruten",
+    "result_for_analysis_from_ready": "Resultaten från din analys den {{date}} är nu tillgängliga.",
+    "noCompanyAddress": "Ingen företagsadress.",
+    "ourOffers": "Analys har erbjudits",
+    "compost": "Kompost",
+    "analysis": "Analys",
+    "cancel": "Avbryt",
+    "results": "Resultat",
+    "orderAnalysisWithCommission": "Vill du verkligen beställa?",
+    "toUserAnalysisEnterProfileData": "För att använda analysfunktionen måste du ange alla användardata som begärs.",
+    "outdoor": "Utomhus",
+    "pick_up_service": "Begär samling",
+    "orderSent": "Gör beställning",
+    "noResultsAvailable": "Inga sondresultat tillgängliga.",
+    "result": "Resultat",
+    "self_pick_up": "Gör det själv-prov",
+    "doYouReallyWantToCancelAnalysis": "Vill du verkligen avbryta analysen?",
+    "commission": "Beställ",
+    "bio": "Ekologiskt",
+    "ordered": "Analys har beställts",
+    "orderFrom": "Beställningen gjordes {{date}}",
+    "pending": "Väntande",
+    "takeSampleForm": "Sondtyp",
+    "questionsPleaseCall": "Ring om du har några frågor.",
+    "soilAnalysis": "Jordanalys",
+    "orderResidue": "Beställ restanalys",
+    "result_expected_on": "Resultat förväntas: {{date}}",
+    "orderSoil": "Beställ jordanalys",
+    "conventional": "Konventionellt",
+    "residueAnalysis": "Restanalys",
+    "input_in_database": "Skicka till databasen",
+    "result_on": "Resultat den",
+    "needFastTomorrow": "Brådskande imorgon",
+    "soil": "Jord",
+    "self_delivery": "Gör det själv-leverans",
+    "resultSoil": "Resultat från jordanalys",
+    "greenhouse": "Växthus",
+    "orderNumber": "Ordernummer",
+    "orderSoilAnalysis": "Beställ jordanalys {{number}}",
+    "cancelledOn": "Avbröts den: {{date}}",
+    "result_till": "Resultat förväntas den",
+    "toUseAnalysisEnterCompanyData": "För att använda analysfunktionen måste du först fylla i alla dina företagsuppgifter.",
+    "needFastToday": "Brådskande idag",
+    "pick_up_from_laboratory": "Laboratorieprov",
+    "pleaseFollowCurrentFertilizerRegulation": "Följ det gällande direktivet för gödningsmedel.",
+    "sampleIsTakenAccordingToRegulation": "Provet kommer att tas enligt det gällande direktivet för gödselmedel.",
+    "acceptedFromLab": "{{date}} - accepterat av laboratorium",
+    "acceptedFromLabAndCantBeCancelled": "Analysen har accepterats av laboratoriet och kan inte avbrytas längre.",
+    "probeTaken": "{{date}} - sond har tagits av laboratorium",
+    "sortByCrop": "Efter gröda",
+    "sortByLatest": "Efter senaste",
+    "latest": "Senaste analyser",
+    "analysisType": "Analystyp",
+    "cancelReasonLab": "Orsak till avbrytning: {{reason}}"
+  },
+  "field": {
+    "number": "Fältnummer",
+    "harvested": "Fält har skördats",
+    "noFieldsCreated": "Inga fält har skapats.",
+    "sendToArchive": "Arkivera fält",
+    "cultivate": "Odla fält",
+    "harvested_on": "Gröda skördades {{date}}",
+    "sown_on": "Gröda såddes {{date}}",
+    "delete": "Ta bort fält",
+    "moveToArchive": "Fältet kommer att flyttas till arkivet (Jordbruk -> Arkiv)",
+    "area": "Område",
+    "when_was_the_field_harvested": "När skördades grödan?",
+    "movedToArchive": "Fältodling avslutad (arkiv).",
+    "cultivateAgain": "Fältet odlas igen.",
+    "fields": "Fält",
+    "coordinatesFromField": "Fältets koordinater: {{name}}",
+    "name": "Fältets namn",
+    "doYouReallyWantToDelete": "Vill du verkligen ta bort det här fältet permanent?",
+    "position_it": "Fältets plats",
+    "createNow": "Skapa fält nu",
+    "toArchive": "Arkiv",
+    "field": "Fält",
+    "created": "Fält har skapats.",
+    "history": "Fälthistorik",
+    "show": "Visa fält",
+    "dropFilesHere": "Släpp filer här",
+    "followingFilesAreUnsupported": "Följande filer stöds inte:",
+    "createdDate": "Field's creation date",
+    "created_by": "Field created by",
+    "modified": "Field's modification date",
+    "modified_by": "Field modified by",
+    "state": "Field's status",
+    "distance": "Distance to field",
+    "analyses": "Analysis count"
+  },
+  "no_email_no_password_entered": "Du har inte angett en e-postadress och ett lösenord",
+  "pleaseWaitImageIsBeingUploaded": "Vänta, bilden laddas upp",
+  "x_employees": {
+    "one": "1 anställd",
+    "other": "{{count}} anställda",
+    "zero": "0 anställda"
+  },
+  "company": {
+    "company": "Jordbruk",
+    "edit": "Redigera jordbruk",
+    "create": "Skapa",
+    "create_first_company": "Skapa ditt första jordbruk",
+    "delete": "Ta bort jordbruk",
+    "qs_number": "QS-nummer",
+    "logo": {
+      "upload": "Välj företagslogo",
+      "camera": "Ta en ny företagslogo"
+    },
+    "doYouWantToDeleteCompany": "Vill du verkligen ta bort det här jordbruket?"
+  },
+  "crop": {
+    "cancelCultivation": "Avbryt den planerade grödan",
+    "plant": "Plantera gröda",
+    "from_field": "Gröda från fält",
+    "catch_crop": "Fånggröda",
+    "field_without_crop_since": "Fältet saknar gröda sedan {{date}}.",
+    "variety": "Variation",
+    "permanent": "Permanent gröda",
+    "plannedSingle": "Planerad gröda",
+    "commodityItem": "I butik",
+    "planted_on": "Planterades den",
+    "stockItem": "I lager",
+    "doYouReallyWantToDeleteCrop": "Vill du verkligen ta bort historik och alla kommentarer för den här grödan?",
+    "deleteAndWithout": "Ta bort gröda (lämna oodlad)",
+    "resetAge": "Grödans ålder startar nu från 0 dagar",
+    "nothingHarvested": "Inga grödor har skördats.",
+    "plan": "Planera gröda",
+    "temporary": "Årlig gröda",
+    "when_was_crop_planted": "När odlades planteringen?",
+    "ageBeginsAt0": "Ställ in grödans ålder till 0",
+    "planned": "Planerade grödor",
+    "doYourReallyWantToCancelCultivation": "Vill du verkligen avbryta den planerade grödan?",
+    "pre": "Före gröda",
+    "type": "Typ av gröda",
+    "origin": "Grödans ursprung",
+    "name": "Grödans namn",
+    "delete": "Ta bort gröda",
+    "crop": "Gröda",
+    "planned_crop_is_active": "Planterad gröda.",
+    "isActiveNow": "Grödan har planterats.",
+    "active": "Planterade grödor",
+    "select_color": "Välj färg",
+    "without": "Oodlad",
+    "cropPlanning": "Planera gröda",
+    "age": "Grödans ålder",
+    "cropDoesntExist": "Den valda grödan finns inte.",
+    "protection": "Växtskydd",
+    "activeCrops": "Aktiva grödor",
+    "created": "Crop creation date",
+    "created_by": "Crop created by",
+    "favorite": "Crop is favourite",
+    "harvested_on": "Harvest date",
+    "lastComment": "Last comment",
+    "modified": "Crop's modification date",
+    "sown_on": "Sow date"
+  },
+  "fertilizer": {
+    "fertilization": "Befruktning",
+    "fertilizer": "Gödningsmedel",
+    "enter_nutrient_ratio": "Ange näringsförhållande i (%)",
+    "delete": "Avsluta befruktning",
+    "doYouReallyWantToDelete": "Vill du verkligen avsluta befruktning?"
+  },
+  "company_name": "Jordbrukets namn",
+  "cancel": "Avbryt",
+  "country": "Land",
+  "add": "Lägg till",
+  "no_first_last_name_entered": "Ange ditt för- och efternamn.",
+  "deletePhoto": "Ta bort foto",
+  "date": "Datum",
+  "datePleaseSelect": "Välj datum",
+  "invoice": {
+    "youDontHaveAddress": "Du har inte angett en faktureringsadress."
+  },
+  "saveChanges": "Vill du spara ändringarna?",
+  "account": {
+    "account": "Konto",
+    "avatar": {
+      "camera": "Ta en ny profilbild",
+      "upload": "Välj profilbild"
+    },
+    "edit": "Redigera konto"
+  },
+  "waittime": {
+    "set": "Ställ in väntetid",
+    "waiting_period_in_days": "Väntetid i dagar",
+    "application_day": "Användningsdag",
+    "delete": "Ta bort väntetid",
+    "doYouReallyWantToDelete": "Vill du verkligen ta bort väntetid?",
+    "pesticide": "Namn på bekämpningsmedel",
+    "waitTime": "Vänteperiod",
+    "waitTimeShort": "Väntetid"
+  },
+  "more": "Mer",
+  "position": "Position",
+  "harvested": "Skördad",
+  "friends": {
+    "shortShareMessage": "Testa farmerJoe på din smarttelefon. Ladda ned den idag från {{url}}.",
+    "inform": "Tipsa en vän",
+    "emailMessage": "Hej!\n\nJag har precis laddat ned farmerJoe på min {{phone}}.\n\nfarmerJoe är en dokumentationsapp för jordbrukare som är enkel att använda. Med appen kan du se dina fält och grödor på en karta och du kan lägga till anteckningar med en bild. Du kan ställa in väntetider och registrera gödningsmedel.\n\nfarmerJoe används med både iPhone och Android.\n\nInstallera den från {{url}}."
+  },
+  "password": {
+    "current": "Nuvarande lösenord",
+    "password": "Lösenord",
+    "yourPasswordWasUpdated": "Ditt lösenord har uppdaterats.",
+    "notUpdated": "Lösenordet har inte ändrats.",
+    "forgotten": "Glömt lösenordet",
+    "wrong": "Lösenordet är inte korrekt. Om du inte kommer ihåg det kan du använda länken Glömt lösenordet.",
+    "change": "Byt lösenord",
+    "dontMatch": "Lösenorden stämmer inte överens.",
+    "repeat": "Upprepa lösenordet",
+    "updated": "Lösenordet har uppdaterats.",
+    "min6char": "Lösenordet måste innehålla minst 6 tecken.",
+    "reset": "Återställ lösenordet",
+    "resetHelp": "Ange ditt nya lösenord nedan."
+  },
+  "noSearchResults": "Inga resultat.",
+  "login": "Logga in",
+  "forgotten_password_mail_sent_to": "Vi har skickat ett e-postmeddelande till {0} med en länk för att återställa ditt lösenord. Följ anvisningarna i e-postmeddelandet för att återställa lösenordet.",
+  "add_company": "Lägg till jordbruk",
+  "languages": {
+    "really_change": "Vill du verkligen ändra språk till {{language}}?",
+    "change": "Ändra språk"
+  },
+  "theImageCouldntBeUploaded": "Det gick inte att ladda upp bilden: {{error}}",
+  "sortFieldsBy": "Sortera efter",
+  "x_fields": {
+    "zero": "0 fält",
+    "other": "{{count}} fält",
+    "one": "1 fält"
+  },
+  "yes": "Ja",
+  "warehouse": {
+    "add": "Lägg till lager",
+    "noWarehousesCreated": "Inget lager har skapats.",
+    "position_it": "Lagerplats",
+    "warehouse": "Lager",
+    "name": "Namn på lager"
+  },
+  "employee": "Anställd",
+  "archive": {
+    "archive": "Arkiv",
+    "archivedFields": "Arkiverade fält",
+    "noFieldsInArchive": "Inga fält i arkivet."
+  },
+  "save_as_favorite": "Spara som favorit",
+  "cover": {
+    "photo": "Omslagsfoto",
+    "showCollegesWhatIsImportantToYou": "Visa vad som är viktigt för dina kollegor"
+  },
+  "ok": "OK",
+  "call_laboratory": "Ring laboratorium",
+  "countries": {
+    "select": "Välj land",
+    "all": "Alla länder"
+  },
+  "analysis_plural": "Analyser",
+  "app": {
+    "rate": "Betygsätt appen"
+  },
+  "dontKnowHowToOpenUrl": "Det går inte att öppna URL {{url}}",
+  "zip": "Postnummer",
+  "invoice_address": "Faktureringsadress",
+  "logout": "Logga ut",
+  "employees": {
+    "addEmployee": "Lägg till anställd",
+    "noAdvisors": "Inga jordbruksrådgivare",
+    "noDeactivatedUsers": "Inga inaktiverade användare",
+    "plural": "Anställda",
+    "active": "Aktiv",
+    "deactivated": "Inaktiverad",
+    "reactivate": "Återaktivera användare",
+    "reactivateDoYouWant": "Vill du verkligen återaktivera användaren?",
+    "advisors": "Rådgivare",
+    "admin": "Administratör",
+    "manage": "Hantera användare",
+    "adminRWD": "Administratör (läsa, skriva, ta bort)",
+    "invitationSentOn": "Inbjudan skickades den {{date}}",
+    "invitrationRejectedOn": "Inbjudan avvisades den {{date}}",
+    "getFromPhoneBook": "Sök i telefonboken",
+    "choseEmail": "Välj e-post",
+    "employeeIsDeactivated": "Anställd är inaktiverad"
+  },
+  "search": "Sök",
+  "satellite": "Satellit",
+  "hybrid": "Hybrid",
+  "name": "Namn",
+  "agb": "Villkor",
+  "note": "Anteckningar",
+  "please_correct_your_entry": "Korrigera ditt inlägg",
+  "connecting": "Ansluter",
+  "email_already_in_use": "E-postadressen används redan av ett annat konto.",
+  "version": "Version",
+  "profile": {
+    "reallyLogout": "Vill du verkligen logga ut?"
+  },
+  "back": "Tillbaka",
+  "last_name": "Efternamn",
+  "mobile_phone": "Mobil",
+  "wine_fruit": "Vindruvor, frukt",
+  "enter_address": "Ange adress",
+  "favorites": "Favoriter",
+  "legal_data_security": "Rättsligt och datasäkerhet",
+  "coordinates": "Koordinater",
+  "deleteForAll": "Ta bort för alla",
+  "deletePermenantly": "Ta bort permanent",
+  "comment": {
+    "fromField": "Kommentar från fält: {{name}}",
+    "doYouReallyWantToDelete": "Vill du verkligen ta bort kommentaren?",
+    "delete": "Ta bort kommentar"
+  },
+  "lastEntry": "Senaste inlägg",
+  "deleteElement": "Ta bort element",
+  "delete": "Ta bort",
+  "current": "Nuvarande",
+  "email": "E-post",
+  "ggn_gln_number": "GGN/GLN",
+  "phone": "Telefon",
+  "notes": "Anteckningar",
+  "x_days": "{{days}} d",
+  "create_account": "Ny registrering",
+  "map": "Kartor",
+  "maps": {
+    "pressToSetPin": "Tryck på kartan för att ange platsnålen.",
+    "clickToShowMore": "Klicka för att visa mer"
+  },
+  "no_email_entered": "Du har inte angett en e-postadress.",
+  "camera": "Kamera",
+  "areYouSureYouWantToDeleteElement": "Vill du verkligen ta bort det här elementet?",
+  "enter_notes_here": "Ange kommentarer här",
+  "street": "Gata",
+  "photoLibrary": "Fotobibliotek",
+  "save": "Spara",
+  "error": "Fel",
+  "first_name": "Förnamn",
+  "request_new_password": "Begär nytt lösenord",
+  "register": "Skapa konto",
+  "needAFarmerJoeAccount": "Vill du ha ett farmerJoe-konto?",
+  "phones": {
+    "enterNumber": "Ange ditt telefonnummer"
+  },
+  "companies": "Jordbruk",
+  "uploadError": "Det gick inte ladda upp",
+  "laboratory": "Laboratorium",
+  "user_not_found": "Det finns ingen användare med den angivna e-postadressen.",
+  "settings": "Inställningar",
+  "help": "Hjälp",
+  "position_company": "Jordbrukets plats",
+  "position_verb": "Ange plats",
+  "latitude": "Latitud",
+  "longitude": "Longitud",
+  "copy": "Kopiera",
+  "share": "Dela",
+  "directions": "Vägbeskrivning",
+  "first_last_name": "Fullständigt namn",
+  "company_number": "Jordbruksnummer",
+  "select_field": "Välj fält",
+  "grains_vegetables": "Spannmål, grönsaker",
+  "no_password_entered": "Du har inte angett ett lösenord.",
+  "language": "Språk",
+  "edit": "Redigera",
+  "change": "Ändra",
+  "contact": {
+    "dontDeleteData": "Ta inte bort följande uppgifter. Vi behöver dem för att kunna identifiera dig i systemet och för att erbjuda dig bättre support.\n"
+  },
+  "no": "Nej",
+  "done": "Klart",
+  "city": "Stad",
+  "slides": {
+    "intro": {
+      "slide1": {
+        "title": "Tack för att du väljer farmerJoe",
+        "description": "Nu kan du enkelt och effektivt optimera din produktion."
+      },
+      "slide2": {
+        "title": "Hantera flera jordbruk",
+        "description": "Håll dig uppdaterad med vad som pågår på dina jordbruk på ett enkelt sätt."
+      },
+      "slide3": {
+        "title": "Enkel dokumentation",
+        "description": "Skriv ner vad som är viktigt för dig. Skapa foton som du vill behålla."
+      },
+      "slide4": {
+        "title": "Hitta dina fält enkelt",
+        "description": "Få en översikt över alla fält direkt. Använd grödans ålder och nedräkning för väntetid för dina beslut."
+      },
+      "slide5": {
+        "title": "Beställ analyser",
+        "description": "Beställ analyser med din smarttelefon. Resultaten hamnar i din fältdokumentation direkt."
+      },
+      "slide6": {
+        "title": "Lägg till dina anställda",
+        "description": "Använd styrkan i ert team för att samarbeta bättre."
+      },
+      "done": "Starta nu"
+    },
+    "skip": "Hoppa över"
+  },
+  "moments": {
+    "today": "Idag",
+    "days_ago": {
+      "one": "För 1 dag sedan",
+      "other": "För {{count}} dagar sedan"
+    },
+    "in_days": {
+      "one": "om 1 dag",
+      "other": "om {{count}} dagar"
+    }
+  },
+  "alerts": {
+    "openSettings": "Öppna inställningar",
+    "needLocation": {
+      "title": "farmerJoe behöver din plats",
+      "description": "farmerJoe har för tillfället inte åtkomst till din plats."
+    },
+    "needAlwaysLocation": {
+      "title": "Platsbehörighet beviljas inte",
+      "description": "För att dela din liveplats behöver farmerJoe alltid åtkomst till din plats. Du kan inte använda den här funktionen om du inte beviljar den här behörigheten."
+    },
+    "cantDetermineLocation": {
+      "title": "farmerJoe kan inte avgöra din plats.",
+      "description": "Slå på GPS på din telefon."
+    },
+    "needPhotoLibrary": {
+      "title": "Kommer inte åt bilden",
+      "description": "Bevilja åtkomst för att kunna välja bilder."
+    },
+    "needCameraAccess": {
+      "title": "Saknar åtkomst till kamera",
+      "description": "Bevilja åtkomst till din kamera om du vill ta foton."
+    },
+    "needContactsAccess": {
+      "title": "farmerJoe behöver åtkomst till dina kontakter",
+      "description": "Om du vill bjuda in någon från din adressbok ger du farmerJoe åtkomst till dina kontakter."
+    },
+    "sketchNeedsStorage": {
+      "title": "farmerJoe behöver lagringsåtkomst",
+      "description": "För att vi ska kunna manipulera bilden behöver vi åtkomst till din lagring. Utan denna behörighet kan vi inte skicka bilden."
+    }
+  },
+  "filter": "Filter",
+  "acl": {
+    "view": "Visa",
+    "create": "Skapa",
+    "edit": "Redigera",
+    "delete": "Ta bort",
+    "department": "Avdelning",
+    "selectFields": "Välj fält",
+    "CRUD": "Skapa, redigera, ta bort",
+    "role": {
+      "restricted": "Begränsad åtkomst",
+      "allrights": "Alla rättigheter",
+      "type": "Kontotyp",
+      "admin": "Administratör",
+      "standard": "Arbetare",
+      "advisor": "Rådgivare"
+    },
+    "user": {
+      "delete": "Ta bort anställd",
+      "deactivate": "Inaktivera anställd",
+      "doYouWantToDeactivateUser": "Vill du inaktivera anställd?",
+      "doYouWantToDeleteUser": "Vill du verkligen ta bort anställd?",
+      "cantDeleteYourself": "Du kan inte ta bort dig själv",
+      "alertFound": {
+        "title": "Användaren finns redan i företaget",
+        "message": "Användaren med den här e-postadressen finns redan i företaget."
+      },
+      "alertNoFields": {
+        "title": "Inga fält har valts",
+        "message": "Du måste välja minst ett fält för användaren"
+      }
+    },
+    "users": {
+      "users": "Anställda",
+      "userRight": "Användaren kan se andra anställda på jordbruket."
+    },
+    "access": {
+      "fieldAdminAlert": {
+        "message": "Användaren är administratör och har tillgång till alla fält i företaget. Om du vill förbjuda hens åtkomst till det här fältet och andra fält måste du göra hen till en normal användare."
+      },
+      "forbidFieldAlert": {
+        "message": "Vill du verkligen förbjuda att {{name}} får åtkomst till det här fältet?"
+      },
+      "grantFieldAlert": {
+        "message": "Vill du verkligen ge {{name}} åtkomst till det här fältet?"
+      },
+      "alreadyHasAccess": "Har redan åtkomst till fältet.",
+      "accessOnceInvitationAccepted": "Får åtkomst när användaren accepterar inbjudan."
+    },
+    "rights": "Rättigheter",
+    "fields": {
+      "all": "Alla",
+      "selected": "Bara valda",
+      "selectDesc": "Välj de fält som användaren kan se.",
+      "standardUserRights": "Användaren kan inte skapa eller redigera fält."
+    },
+    "crops": {
+      "all": "Planterat och skördat",
+      "active": "Bara planterat",
+      "standardUserRights": "Användaren kan inte skapa eller redigera grödor."
+    },
+    "comments": {
+      "comments": "Kommentarer",
+      "all": "Alla kommentarer",
+      "selected": "Endast egna kommentarer",
+      "standardUserRights": "Användaren kan skapa och redigera sina egna kommentarer."
+    },
+    "fertilizing": {
+      "description": "Välj nedan vad användaren kan göra med gödningsmedel."
+    },
+    "waittime": {
+      "description": "Välj nedan vad användaren kan göra med väntetider."
+    }
+  },
+  "near": {
+    "by": "I närheten av",
+    "fields": "Närmaste fält",
+    "cantSortNoLocation": "Vi kan inte sortera närmaste efter fält eftersom du inte gett oss åtkomst till din plats."
+  },
+  "registerScreen": {
+    "startNow": "Kom igång",
+    "helpEasySteps": "Vi hjälper dig att skapa ett konto med några enkla steg.",
+    "useRealName": "Om du använder ditt riktiga namn blir det lättare för dina kollegor att känna igen dig på jordbruket.",
+    "weUsePhone": "Numret visas för kollegor på dina jordbruk och de kommer enkelt att kunna ringa dig.",
+    "weUseEmail": "Du använder den här e-postadressen när du loggar in och om du behöver återställa ditt lösenord. Andra farmerJoe-användare kan bjuda in dig till sina jordbruk med den här e-postadressen.",
+    "newsletter": "Registrera dig för farmerJoes nyhetsbrev",
+    "passwordHelp": "Ange en kombination med minst sex siffror, bokstäver och skiljetecken (som ! och &)",
+    "confrim_agb_data_security": "Genom att trycka på \"Skapa konto\" godkänner du våra {0}. Läs mer om hur vi samlar in och använder dina data i vår {1} och hur vi använder cookies och liknande teknologi i vår {2}.",
+    "continueRegistration": "Fortsätt registrering",
+    "next": "Nästa",
+    "enterEmail": "Ange din e-postadress",
+    "errorEmailExist": "Ett annat konto använder redan den här e-postadressen.",
+    "retry": "Försök igen",
+    "titles": {
+      "finish": "Slutför registrering",
+      "haveAnAccount": "Har redan ett konto",
+      "join": "Gå med i farmerJoe",
+      "password": "Skapa ett lösenord",
+      "whatIsYourName": "Vad heter du?",
+      "whatIsYourPhoneNumber": "Vad har du för mobilnummer?",
+      "whatIsYourEmailAddress": "Vad har du för e-postadress?",
+      "creating": "Ditt konto har skapats."
+    }
+  },
+  "location": {
+    "farmCanSeeYourLocation": "Alla på jordbruket kan se din plats",
+    "sharedWithFarm": "Position delas med det här jordbruket.",
+    "letColleaguesSeeYourLocationLabel": "Berätta för dina kollegor var du befinner dig",
+    "letColleaguesSeeYourLocationDesc": "Dela din plats i realtid med kollegor på det här jordbruket.",
+    "forX": {
+      "x_minutes": {
+        "one": "I {{count}} minut",
+        "other": "I {{count}} minuter"
+      },
+      "x_hours": {
+        "other": "I {{count}} timmar",
+        "one": "I 1 timme"
+      },
+      "x_days": {
+        "other": "I {{count}} dagar",
+        "one": "I 1 dag"
+      }
+    },
+    "untilTurnedOff": "Tills du stänger av det här",
+    "shareNow": "Dela nu",
+    "turnOff": "Stäng av",
+    "emailLog": "Skicka platslogg via e-post"
+  },
+  "report": {
+    "issue": "Anmäl problem"
+  },
+  "no_company_selected": "Inget företag har valts",
+  "no_field_selected": "Inget fält har valts",
+  "invalid_phone_number": "ogiltigt telefonnummer",
+  "close": "stäng",
+  "errorMessage": "Hoppsan! Det här borde inte inträffat. Utvecklingsteamet har fått ett meddelande.",
+  "refresh": "Uppdatera",
+  "remoteSupport": "Begäran om fjärrsupport",
+  "screenTooSmall": "Din skärm är för liten. Använd vår app för iOS och Android istället.",
+  "emailVerified": "Din e-postadress har verifierats",
+  "resetPasswordLinkExpired": "Din begäran att återställa lösenordet har slutat gälla eller länken har redan använts",
+  "verifyEmailLinkExpired": "Din begäran att verifiera e-postadressen har slutat gälla eller länken har redan använts",
+  "emailChangeReverted": "E-postadressen du använder under registreringen har ändrats till {{email}}.",
+  "invalidActionCode": "Den här koden är inte längre giltig",
+  "browserNotSupported": "farmerJoe kan inte användas med Internet Explorer. Använd en ny och kompatibel webbläsare som Firefox, Chrome, Edge, Opera eller Safari.",
+  "apiKeys": {
+    "header": "API-nycklar",
+    "generate": "Generate a new key",
+    "key": "Nyckel",
+    "enabled": "Aktiverad",
+    "description": "API keys allow you to integrate farmerJoe into other software. You can find the documentation {0}.",
+    "descriptionLink": "here",
+    "name": "Name",
+    "ipFiltering": "IP Filtering",
+    "ipFilter": "Allowed IP addresses",
+    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "No API keys",
+    "user": "User"
+  },
+  "apiLogs": {
+    "header": "API log",
+    "result": "Result",
+    "ipAddress": "Source IP address",
+    "method": "Method",
+    "execTime": "Execution time",
+    "userAgent": "User agent",
+    "version": "Version",
+    "response": "Response",
+    "noResults": "No results",
+    "description": "The list shows API calls from the last 24 hours."
+  },
+  "columnConfigurator": {
+    "title": "Configure columns",
+    "possibleColumns": "Available columns",
+    "chosenColumns": "Selected columns",
+    "dragHere": "Drag here"
+  }
+}
