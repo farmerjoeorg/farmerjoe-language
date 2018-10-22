@@ -10,7 +10,7 @@ import * as englishLocale from './languages/en'
 import regeneratorRuntime from 'regenerator-runtime/runtime'
 
 export const supportedLanguages = [
-  'ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'fr', 'hu', 'it', 'lt', 'nl', 'pl', 'pt', 'ro', 'ru', 'sk', 'sl', 'tr', 'uk'
+  'ar', 'bg', 'bn', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'fr', 'hi', 'hr', 'hu', 'it', 'lt', 'nl', 'pl', 'pt', 'ro', 'ru', 'sk', 'sl', 'tr', 'uk'
 ]
 const localeCache = {
   en: englishLocale // default language
