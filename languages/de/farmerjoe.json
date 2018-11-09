@@ -668,5 +668,14 @@
     "possibleColumns": "Verfügbare Spalten",
     "chosenColumns": "Gewählte Spalten",
     "dragHere": "hier ziehen"
+  },
+  "producers": {
+    "single": "Produzent",
+    "plural": "Produzenten",
+    "add": "Produzent hinzufügen",
+    "edit": "Produzent bearbeiten",
+    "name": "Produzentname",
+    "createUser": "Als Mitarbeiter hinzufügen",
+    "contactPerson": "Ansprechpartner"
   }
 }

@@ -11,6 +11,7 @@
     "babel-preset-env": "^1.7.0",
     "copyfiles": "^2.1.0",
     "lodash-es": "^4.17.11",
+    "rc-pagination": "^1.17.3",
     "regenerator-runtime": "^0.12.1"
   },
   "scripts": {
