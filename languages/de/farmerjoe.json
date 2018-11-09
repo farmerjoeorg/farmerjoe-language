@@ -677,5 +677,10 @@
     "name": "Produzentname",
     "createUser": "Als Mitarbeiter hinzufügen",
     "contactPerson": "Ansprechpartner"
+  },
+  "polygon": {
+    "fieldCoordinates": "Feldkoordinaten",
+    "fieldCenter": "Feldmittelpunkt",
+    "calculatedSizeInHa": "Berrechnente Fläche in ha"
   }
 }

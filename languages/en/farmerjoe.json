@@ -677,5 +677,10 @@
     "name": "Producer name",
     "createUser": "Create as admin for producer",
     "contactPerson": "Contact person"
+  },
+  "polygon": {
+    "fieldCoordinates": "Field coordinates",
+    "fieldCenter": "Field center",
+    "calculatedSizeInHa": "Calculated size in ha"
   }
 }
