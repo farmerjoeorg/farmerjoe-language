@@ -681,6 +681,11 @@
   "polygon": {
     "fieldCoordinates": "Feldkoordinaten",
     "fieldCenter": "Feldmittelpunkt",
-    "calculatedSizeInHa": "Berrechnente Fläche in ha"
-  }
+    "calculatedSizeInHa": "Berrechnente Fläche in ha",
+    "panningMode": "Verschieben",
+    "drawingMode": "Polygon zeichnen",
+    "reset": "Zurücksetzen"
+  },
+  "undo": "Ruckgängich machen",
+  "redo": "Wiederherstellen"
 }

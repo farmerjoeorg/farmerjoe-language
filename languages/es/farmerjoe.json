@@ -642,7 +642,7 @@
     "generate": "Generar una nueva clave",
     "key": "Clave",
     "enabled": "Habilitado",
-    "description": "Las claves API te permiten integrar farmerJoe en otro software. Puedes encontrar la documentación {0}.",
+    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe.",
     "descriptionLink": "aquí",
     "name": "Name",
     "ipFiltering": "IP Filtering",
@@ -668,5 +668,24 @@
     "possibleColumns": "Available columns",
     "chosenColumns": "Selected columns",
     "dragHere": "Drag here"
-  }
+  },
+  "producers": {
+    "single": "Producer",
+    "plural": "Producers",
+    "add": "Add producer",
+    "edit": "Edit producer",
+    "name": "Producer name",
+    "createUser": "Create as admin for producer",
+    "contactPerson": "Contact person"
+  },
+  "polygon": {
+    "fieldCoordinates": "Field coordinates",
+    "fieldCenter": "Field center",
+    "calculatedSizeInHa": "Calculated size in ha",
+    "panningMode": "Pan",
+    "drawingMode": "Draw polygon",
+    "reset": "Reset"
+  },
+  "undo": "Undo",
+  "redo": "Redo"
 }
