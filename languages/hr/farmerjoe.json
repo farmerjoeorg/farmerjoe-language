@@ -642,7 +642,7 @@
     "generate": "Generiraj novi ključ",
     "key": "Ključ",
     "enabled": "Omogućeno",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe.",
+    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
     "descriptionLink": "ovdje",
     "name": "Ime",
     "ipFiltering": "IP filtriranje",
@@ -684,7 +684,8 @@
     "calculatedSizeInHa": "Calculated size in ha",
     "panningMode": "Pan",
     "drawingMode": "Draw polygon",
-    "reset": "Reset"
+    "reset": "Reset",
+    "hideMarkers": "Hide markers"
   },
   "undo": "Undo",
   "redo": "Redo"

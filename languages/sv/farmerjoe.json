@@ -642,7 +642,7 @@
     "generate": "Generate a new key",
     "key": "Nyckel",
     "enabled": "Aktiverad",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe.",
+    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
     "descriptionLink": "here",
     "name": "Name",
     "ipFiltering": "IP Filtering",
@@ -684,7 +684,8 @@
     "calculatedSizeInHa": "Calculated size in ha",
     "panningMode": "Pan",
     "drawingMode": "Draw polygon",
-    "reset": "Reset"
+    "reset": "Reset",
+    "hideMarkers": "Hide markers"
   },
   "undo": "Undo",
   "redo": "Redo"

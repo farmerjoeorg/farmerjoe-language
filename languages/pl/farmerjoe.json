@@ -642,7 +642,7 @@
     "generate": "Wygeneruj nowy klucz",
     "key": "Klucz",
     "enabled": "Aktywny",
-    "description": "Klucze API dają pełny dostęp do danych twojej farmy, więc pilnuj ich.",
+    "description": "Klucze API dają pełny dostęp do danych twojej farmy, więc pilnuj ich. Dokumentację znajdziesz {0}.",
     "descriptionLink": "tutaj",
     "name": "Nazwa",
     "ipFiltering": "Filtrowanie IP",
@@ -684,7 +684,8 @@
     "calculatedSizeInHa": "Wyliczony rozmiar w ha",
     "panningMode": "Przesuwaj",
     "drawingMode": "Rysuj wielokąt",
-    "reset": "Zresetuj"
+    "reset": "Zresetuj",
+    "hideMarkers": "Schowaj znaczniki"
   },
   "undo": "Cofnij",
   "redo": "Ponów"
