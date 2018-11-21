@@ -685,7 +685,8 @@
     "panningMode": "Pan",
     "drawingMode": "Draw polygon",
     "reset": "Reset",
-    "hideMarkers": "Hide markers"
+    "hideMarkers": "Hide markers",
+    "measureMode": "Measure"
   },
   "undo": "Undo",
   "redo": "Redo"

@@ -685,7 +685,8 @@
     "panningMode": "Przesuwaj",
     "drawingMode": "Rysuj wielokąt",
     "reset": "Zresetuj",
-    "hideMarkers": "Schowaj znaczniki"
+    "hideMarkers": "Schowaj znaczniki",
+    "measureMode": "Miarka"
   },
   "undo": "Cofnij",
   "redo": "Ponów"

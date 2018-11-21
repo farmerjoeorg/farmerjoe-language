@@ -685,7 +685,8 @@
     "panningMode": "Verschieben",
     "drawingMode": "Polygon zeichnen",
     "reset": "Zurücksetzen",
-    "hideMarkers": "Zeiger ausblenden"
+    "hideMarkers": "Zeiger ausblenden",
+    "measureMode": "Messen"
   },
   "undo": "Ruckgängich machen",
   "redo": "Wiederherstellen"
