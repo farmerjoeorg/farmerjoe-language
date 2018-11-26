@@ -376,7 +376,18 @@
   "map": "Maps",
   "maps": {
     "pressToSetPin": "Press on the map to set the location pin.",
-    "clickToShowMore": "Click to show more"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Click to show more",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distancee measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "You didn't enter an email address.",
   "camera": "Camera",
