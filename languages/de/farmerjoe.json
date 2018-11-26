@@ -653,7 +653,7 @@
     "generate": "Neuen Schlüssel generieren",
     "key": "Schlüssel",
     "enabled": "Aktiviert",
-    "description": "Mit dem API-Schlüssel hast du vollen Zugriff auf deine Betriebsdaten. Bewahre ihn auf!",
+    "description": "Mit dem API-Schlüssel hast du vollen Zugriff auf deine Betriebsdaten. Bewahre ihn auf! Die Dokumentation findest du {0}.",
     "descriptionLink": "hier",
     "name": "Name",
     "ipFiltering": "IP-Filterung",
@@ -692,6 +692,13 @@
   "polygon": {
     "fieldCoordinates": "Feldkoordinaten",
     "fieldCenter": "Feldmittelpunkt",
-    "calculatedSizeInHa": "Berrechnente Fläche in ha"
-  }
+    "calculatedSizeInHa": "Berrechnente Fläche in ha",
+    "panningMode": "Verschieben",
+    "drawingMode": "Polygon zeichnen",
+    "reset": "Zurücksetzen",
+    "hideMarkers": "Zeiger ausblenden",
+    "measureMode": "Messen"
+  },
+  "undo": "Ruckgängich machen",
+  "redo": "Wiederherstellen"
 }

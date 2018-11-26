@@ -642,7 +642,7 @@
     "generate": "नई कुंजी उत्पन्न करें",
     "key": "कुंजी",
     "enabled": "सक्षम",
-    "description": "API कुंजियाँ आपको farmerJoe को अन्य सॉफ़्टवेयर में इंटीग्रेट करने की सुविधा देती हैं। आप दस्तावेजीकरण प्राप्त कर सकते हैं: {0}।",
+    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
     "descriptionLink": "यहाँ",
     "name": "Name",
     "ipFiltering": "IP Filtering",
@@ -668,5 +668,26 @@
     "possibleColumns": "Available columns",
     "chosenColumns": "Selected columns",
     "dragHere": "Drag here"
-  }
+  },
+  "producers": {
+    "single": "Producer",
+    "plural": "Producers",
+    "add": "Add producer",
+    "edit": "Edit producer",
+    "name": "Producer name",
+    "createUser": "Create as admin for producer",
+    "contactPerson": "Contact person"
+  },
+  "polygon": {
+    "fieldCoordinates": "Field coordinates",
+    "fieldCenter": "Field center",
+    "calculatedSizeInHa": "Calculated size in ha",
+    "panningMode": "Pan",
+    "drawingMode": "Draw polygon",
+    "reset": "Reset",
+    "hideMarkers": "Hide markers",
+    "measureMode": "Measure"
+  },
+  "undo": "Undo",
+  "redo": "Redo"
 }

@@ -642,7 +642,7 @@
     "generate": "নতুন কী তৈরি করুন",
     "key": "কী",
     "enabled": "সক্ষমিত",
-    "description": "API কী আপনাকে অন্য সফ্টওয়্যারে farmerJoe একীভূত করার অনুমতি দেয়। আপনি {0} নথি খুঁজে পেতে পারেন।",
+    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
     "descriptionLink": "এখানে",
     "name": "Name",
     "ipFiltering": "IP Filtering",
@@ -668,5 +668,26 @@
     "possibleColumns": "Available columns",
     "chosenColumns": "Selected columns",
     "dragHere": "Drag here"
-  }
+  },
+  "producers": {
+    "single": "Producer",
+    "plural": "Producers",
+    "add": "Add producer",
+    "edit": "Edit producer",
+    "name": "Producer name",
+    "createUser": "Create as admin for producer",
+    "contactPerson": "Contact person"
+  },
+  "polygon": {
+    "fieldCoordinates": "Field coordinates",
+    "fieldCenter": "Field center",
+    "calculatedSizeInHa": "Calculated size in ha",
+    "panningMode": "Pan",
+    "drawingMode": "Draw polygon",
+    "reset": "Reset",
+    "hideMarkers": "Hide markers",
+    "measureMode": "Measure"
+  },
+  "undo": "Undo",
+  "redo": "Redo"
 }

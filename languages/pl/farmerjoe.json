@@ -636,13 +636,13 @@
   "verifyEmailLinkExpired": "Twoja prośba o weryfikację e-maila wygasła lub ktoś użył już tego linka",
   "emailChangeReverted": "Twój e-mail do logowania został z powrotem zmieniony na {{email}}",
   "invalidActionCode": "Ten kod stracił ważność.",
-  "browserNotSupported": "farmerJoe nie wspiera Internet Explorera. Proszę użyć nowoczesnej przeglądarki takiej jak Firefoxm Chrome, Edge, Opera lub Safari.",
+  "browserNotSupported": "farmerJoe nie wspiera Internet Explorera. Proszę użyć nowoczesnej przeglądarki takiej jak Firefox, Chrome, Edge, Opera lub Safari.",
   "apiKeys": {
     "header": "Klucze API",
     "generate": "Wygeneruj nowy klucz",
     "key": "Klucz",
     "enabled": "Aktywny",
-    "description": "Klucze API pozwalają na integrację farmerJoe w innym oprogramowaniu. Dokumentację znajdziesz {0}.",
+    "description": "Klucze API dają pełny dostęp do danych twojej farmy, więc pilnuj ich. Dokumentację znajdziesz {0}.",
     "descriptionLink": "tutaj",
     "name": "Nazwa",
     "ipFiltering": "Filtrowanie IP",
@@ -668,5 +668,26 @@
     "possibleColumns": "Dostępne kolumny",
     "chosenColumns": "Wybrane kolumny",
     "dragHere": "Przeciągnij tutaj"
-  }
+  },
+  "producers": {
+    "single": "Producent",
+    "plural": "Producenci",
+    "add": "Dodaj producenta",
+    "edit": "Edytuj producenta",
+    "name": "Nazwa producenta",
+    "createUser": "Stwórz jako administrator dla producenta",
+    "contactPerson": "Osoba kontaktowa"
+  },
+  "polygon": {
+    "fieldCoordinates": "Współrzędne pola",
+    "fieldCenter": "Środek pola",
+    "calculatedSizeInHa": "Wyliczony rozmiar w ha",
+    "panningMode": "Przesuwaj",
+    "drawingMode": "Rysuj wielokąt",
+    "reset": "Zresetuj",
+    "hideMarkers": "Schowaj znaczniki",
+    "measureMode": "Miarka"
+  },
+  "undo": "Cofnij",
+  "redo": "Ponów"
 }

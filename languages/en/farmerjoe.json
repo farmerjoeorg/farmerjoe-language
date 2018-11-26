@@ -653,7 +653,7 @@
     "generate": "Generate a new key",
     "key": "Key",
     "enabled": "Enabled",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them save.",
+    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
     "descriptionLink": "here",
     "name": "Name",
     "ipFiltering": "IP Filtering",
@@ -692,6 +692,13 @@
   "polygon": {
     "fieldCoordinates": "Field coordinates",
     "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha"
-  }
+    "calculatedSizeInHa": "Calculated size in ha",
+    "panningMode": "Pan",
+    "drawingMode": "Draw polygon",
+    "reset": "Reset",
+    "hideMarkers": "Hide markers",
+    "measureMode": "Measure"
+  },
+  "undo": "Undo",
+  "redo": "Redo"
 }
