@@ -376,7 +376,18 @@
   "map": "Kartor",
   "maps": {
     "pressToSetPin": "Tryck på kartan för att ange platsnålen.",
-    "clickToShowMore": "Klicka för att visa mer"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Klicka för att visa mer",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Du har inte angett en e-postadress.",
   "camera": "Kamera",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

@@ -376,7 +376,18 @@
   "map": "Mapa",
   "maps": {
     "pressToSetPin": "Naciśnij mapę, aby ustawić szpilkę pozycji.",
-    "clickToShowMore": "Kliknij, by pokazać więcej"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Kliknij, by pokazać więcej",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Nie wpisałeś adresu e-mail.",
   "camera": "Kamera",
@@ -686,7 +697,8 @@
     "drawingMode": "Rysuj wielokąt",
     "reset": "Zresetuj",
     "hideMarkers": "Schowaj znaczniki",
-    "measureMode": "Miarka"
+    "measureMode": "Miarka",
+    "hideDistanceMarkers": "Schowaj długości boków wielokątów"
   },
   "undo": "Cofnij",
   "redo": "Ponów"

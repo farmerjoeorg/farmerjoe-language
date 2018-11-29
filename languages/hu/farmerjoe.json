@@ -376,7 +376,18 @@
   "map": "Térképek",
   "maps": {
     "pressToSetPin": "A képernyő egy pontjának megnyomásával elhelyezheti a helymeghatározó jelet.",
-    "clickToShowMore": "Kattintással többet mutat"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Kattintással többet mutat",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Nem írt be e-mail címet.",
   "camera": "Fényképezőgép",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

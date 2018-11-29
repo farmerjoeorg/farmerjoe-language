@@ -376,7 +376,18 @@
   "map": "Kaart",
   "maps": {
     "pressToSetPin": "Druk op de kaart om de locatiepin in te stellen.",
-    "clickToShowMore": "Klik om meer weer te geven"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Klik om meer weer te geven",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "U heeft geen e-mailadres ingevoerd.",
   "camera": "Camera",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

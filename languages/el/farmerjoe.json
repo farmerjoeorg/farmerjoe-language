@@ -376,7 +376,18 @@
   "map": "Χάρτες",
   "maps": {
     "pressToSetPin": "Πατήστε στον χάρτη για να ορίσετε την καρφίτσα της τοποθεσίας.",
-    "clickToShowMore": "Κάντε κλικ για να εμφανίσετε περισσότερα"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Κάντε κλικ για να εμφανίσετε περισσότερα",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Δεν έχετε εισάγει διεύθυνση email.",
   "camera": "φωτογραφική μηχανή",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

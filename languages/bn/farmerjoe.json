@@ -376,7 +376,18 @@
   "map": "ম্যাপ",
   "maps": {
     "pressToSetPin": "লোকেশন পিন সেট করতে ম্যাপ টিপুন।",
-    "clickToShowMore": "আরও জানতে ক্লিক করুন"
+    "searchAddress": "Address search",
+    "clickToShowMore": "আরও জানতে ক্লিক করুন",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "আপনি কোনও ইমেল ঠিকানা দেননি।",
   "camera": "ক্যামেরা",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

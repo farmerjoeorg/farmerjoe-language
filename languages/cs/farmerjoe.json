@@ -376,7 +376,18 @@
   "map": "Mapy",
   "maps": {
     "pressToSetPin": "Klikněte na mapu k umístění špendlíku.",
-    "clickToShowMore": "Klepnutím zobrazíte více"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Klepnutím zobrazíte více",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Nezadali jste e-mailovou adresu.",
   "camera": "Fotoaparát",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"
