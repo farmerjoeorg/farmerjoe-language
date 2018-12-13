@@ -160,7 +160,7 @@
       "upload": "Odaberite logotip tvrtke",
       "camera": "Napravite novi logotip tvrtke"
     },
-    "doYouWantToDeleteCompany": "Želite li zaista izbrisati ovu farmu?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Otkazati planirani urod",

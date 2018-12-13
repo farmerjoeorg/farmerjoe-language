@@ -160,7 +160,7 @@
       "upload": "कंपनी लोगो चुनें",
       "camera": "एक नया कंपनी लोगो लें"
     },
-    "doYouWantToDeleteCompany": "क्या आप वाकई यह फार्म डिलीट करना चाहते हैं?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "प्लान की गई फसल रद्द करें",

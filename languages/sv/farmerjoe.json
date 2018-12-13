@@ -160,7 +160,7 @@
       "upload": "Välj företagslogo",
       "camera": "Ta en ny företagslogo"
     },
-    "doYouWantToDeleteCompany": "Vill du verkligen ta bort det här jordbruket?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Avbryt den planerade grödan",

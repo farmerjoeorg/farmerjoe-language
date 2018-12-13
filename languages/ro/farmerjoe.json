@@ -160,7 +160,7 @@
       "upload": "Selectați sigla companiei",
       "camera": "Selectați o nouă siglă a companiei"
     },
-    "doYouWantToDeleteCompany": "Sigur doriți să ștergeți această fermă?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Anulare cultură planificată",

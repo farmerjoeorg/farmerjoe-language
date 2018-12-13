@@ -160,7 +160,7 @@
       "upload": "Vyberte logo společnosti",
       "camera": "Přijmout nové logo společnosti"
     },
-    "doYouWantToDeleteCompany": "Opravdu chcete smazat tuto farmu?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Zrušit plánované plodiny",

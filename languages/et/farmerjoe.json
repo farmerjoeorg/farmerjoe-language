@@ -160,7 +160,7 @@
       "upload": "Vali ettevõtte logo",
       "camera": "Tee uus ettevõtte logo"
     },
-    "doYouWantToDeleteCompany": "Kas soovite tõesti farmi kustutada?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Tühista planeeritud kultuur",

@@ -160,7 +160,7 @@
       "upload": "Bedrijfslogo selecteren",
       "camera": "Nieuw bedrijfslogo nemen"
     },
-    "doYouWantToDeleteCompany": "Wilt u deze boerderij echt verwijderen?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Geplande gewas annuleren",

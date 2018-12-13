@@ -160,7 +160,7 @@
       "upload": "Επιλέξτε το λογότυπο της εταιρείας",
       "camera": "Χρησιμοποιήστε ένα νέο εταιρικό λογότυπο"
     },
-    "doYouWantToDeleteCompany": "Θέλετε όντως να διαγράψετε αυτό το αγρόκτημα;"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Ακύρωση προγραμματισμένης καλλιέργειας",

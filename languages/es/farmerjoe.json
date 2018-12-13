@@ -160,7 +160,7 @@
       "upload": "Seleccionar el logotipo de la empresa",
       "camera": "Elegir un nuevo logotipo de la empresa"
     },
-    "doYouWantToDeleteCompany": "¿Realmente quieres borrar la explotación?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Cancelar la planificación de cultivo",

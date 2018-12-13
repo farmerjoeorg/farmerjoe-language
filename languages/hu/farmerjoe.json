@@ -160,7 +160,7 @@
       "upload": "Válasszon cég logót",
       "camera": "Fogadja el a cég új logóját"
     },
-    "doYouWantToDeleteCompany": "Tényleg törölni szeretné a gazdaságot?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Tervezett termény törlése",

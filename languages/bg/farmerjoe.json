@@ -160,7 +160,7 @@
       "upload": "Select company logo",
       "camera": "Take a new company logo"
     },
-    "doYouWantToDeleteCompany": "Наистина ли искате да изтриете фермата?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Анулирай заплануваната култура",

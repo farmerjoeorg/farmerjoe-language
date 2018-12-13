@@ -160,7 +160,7 @@
       "upload": "حدد شعار الشركة",
       "camera": "التقط شعار شركة جديد"
     },
-    "doYouWantToDeleteCompany": "هل تريد حقا حذف هذه المزرعة؟"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "إلغاء المحصول المخطط",

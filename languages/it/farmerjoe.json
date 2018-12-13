@@ -160,7 +160,7 @@
       "upload": "Seleziona il logo aziendale",
       "camera": "Carica un nuovo logo aziendale"
     },
-    "doYouWantToDeleteCompany": "Confermare l'eliminazione di questa azienda agricola?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Annulla coltura pianificata",

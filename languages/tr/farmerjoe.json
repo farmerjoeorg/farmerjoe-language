@@ -160,7 +160,7 @@
       "upload": "Şirket logosunu seçin",
       "camera": "Yeni bir şirket logosu alın"
     },
-    "doYouWantToDeleteCompany": "Bu çiftliği gerçekten silmek istiyor musunuz?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Planlanan ekini iptal et",

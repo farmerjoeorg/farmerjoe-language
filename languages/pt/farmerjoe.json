@@ -160,7 +160,7 @@
       "upload": "Selecionar logótipo da empresa",
       "camera": "Obter um novo logótipo de empresa"
     },
-    "doYouWantToDeleteCompany": "Tem a certeza que deseja apagar esta quinta?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Cancelar a planificação da cultura",

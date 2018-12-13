@@ -160,7 +160,7 @@
       "upload": "Pasirinkti įmonės logotipą",
       "camera": "Nufotografuoti naują įmonės logotipą"
     },
-    "doYouWantToDeleteCompany": "Ar tikrai norite ištrinti šį ūkį?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Atšaukti planuotus pasėlius",

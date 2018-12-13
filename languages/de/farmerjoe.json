@@ -160,7 +160,7 @@
       "upload": "Betriebslogo auswählen",
       "camera": "Betriebslogo aufnehmen"
     },
-    "doYouWantToDeleteCompany": "Wollen Sie den Betrieb wirklich löschen?"
+    "doYouWantToDeleteCompany": "Wollen Sie den Betrieb wirklich löschen?\nIhre Daten sind nicht wieder herzustellen!"
   },
   "crop": {
     "cancelCultivation": "Kulturplanung aufheben",

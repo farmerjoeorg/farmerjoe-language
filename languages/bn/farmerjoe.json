@@ -160,7 +160,7 @@
       "upload": "কোম্পানির লোগো নির্বাচন করুন",
       "camera": "কোম্পানির একটি নতুন লোগো লাগান"
     },
-    "doYouWantToDeleteCompany": "আপনি কি সত্যিই এই খামারটি মুছে ফেলতে চান?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "পরিকল্পিত ফসল বাতিল করুন",

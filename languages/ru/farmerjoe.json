@@ -160,7 +160,7 @@
       "upload": "Выбрать логотип компании",
       "camera": "Установить новый логотип компании"
     },
-    "doYouWantToDeleteCompany": "Вы действительно хотите удалить эту ферму?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Отменить запланированный урожай",
