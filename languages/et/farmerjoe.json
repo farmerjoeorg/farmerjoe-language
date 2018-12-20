@@ -266,7 +266,11 @@
     "updated": "Parool uuendatud.",
     "min6char": "Parool peab olema vähemalt 6 tähemärki pikk.",
     "reset": "Lähtestage oma salasõna",
-    "resetHelp": "Sisestage allpool uus salasõna."
+    "resetHelp": "Sisestage allpool uus salasõna.",
+    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
+    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
+    "userDisabled": "The user has been disabled.",
+    "userNotFound": "The user hasn't been found."
   },
   "noSearchResults": "Tulemusi pole.",
   "login": "Sisene",
@@ -701,5 +705,13 @@
     "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
-  "redo": "Redo"
+  "redo": "Redo",
+  "updates": {
+    "changelog": "Changelog",
+    "optional": "Update available",
+    "required": "Required update",
+    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
+    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
+    "updateNow": "Update now"
+  }
 }

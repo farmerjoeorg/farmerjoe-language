@@ -690,7 +690,6 @@
     "add": "Add producer",
     "edit": "Edit producer",
     "name": "Producer name",
-    "name": "Producer name",
     "createUser": "Create as admin for producer",
     "contactPerson": "Contact person"
   },

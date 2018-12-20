@@ -266,7 +266,11 @@
     "updated": "Hasło zaktualizowane.",
     "min6char": "Hasło musi mieć co najmniej 6 znaków.",
     "reset": "Resetowanie hasła",
-    "resetHelp": "Wprowadź swoje nowe hasło poniżej."
+    "resetHelp": "Wprowadź swoje nowe hasło poniżej.",
+    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
+    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
+    "userDisabled": "The user has been disabled.",
+    "userNotFound": "The user hasn't been found."
   },
   "noSearchResults": "Brak wyników.",
   "login": "Login",
@@ -701,5 +705,13 @@
     "hideDistanceMarkers": "Schowaj długości boków wielokątów"
   },
   "undo": "Cofnij",
-  "redo": "Ponów"
+  "redo": "Ponów",
+  "updates": {
+    "changelog": "Changelog",
+    "optional": "Update available",
+    "required": "Required update",
+    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
+    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
+    "updateNow": "Update now"
+  }
 }

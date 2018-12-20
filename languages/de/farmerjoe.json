@@ -430,7 +430,8 @@
   "edit": "Bearbeiten",
   "change": "Ändern",
   "contact": {
-    "dontDeleteData": "Bitte löschen Sie diese Daten nicht. Diese werden benötigt um Sie im System zu identifizieren.\n"  },
+    "dontDeleteData": "Bitte löschen Sie die folgenden Daten nicht. Wir benötigen die um Sie im System zu identifizieren. Somit können wir Ihnen eine effiziente und schnelle Hilfe leisten.\n"
+  },
   "no": "Nein",
   "done": "Fertig",
   "city": "Ort",
@@ -476,14 +477,15 @@
     }
   },
   "alerts": {
-    "openSettings": "Einstellungen öffnen",
+    "openSettings": "Öffne Einstellungen",
     "needLocation": {
       "title": "farmerJoe benötigt Ihren Standort",
       "description": "farmerJoe ist momentan nicht berechtigt auf Ihren Standort zuzugreifen."
     },
     "needAlwaysLocation": {
       "title": "Kein Zugriff auf deinen Standort",
-      "description": "Erteile farmerJoe die Berechtigung zum Standortzugriff, um deinen Standort mit Mitarbeitern zu teilen: \n\n 1. Standort auswählen \n\n 2. Auf \"Immer\" tippen."    },
+      "description": "Erteile farmerJoe die Berechtigung zum Standortzugriff, um deinen Standort mit Mitarbeitern zu teilen: \n\n 1. Standort auswählen \n\n 2. Auf \"Immer\" tippen."
+    },
     "cantDetermineLocation": {
       "title": "farmerJoe kann Ihren Standort nicht ermitteln.",
       "description": "Bitte schalten Sie Ihren GPS module an."
