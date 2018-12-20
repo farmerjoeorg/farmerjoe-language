@@ -266,7 +266,11 @@
     "updated": "Passwort aktualisiert.",
     "min6char": "Das Passwort muss mindestens 6 Zeichen lang.",
     "reset": "Passwort zurücksetzen",
-    "resetHelp": "Einfach ein neues Passwort unten im Feld eingeben."
+    "resetHelp": "Einfach ein neues Passwort unten im Feld eingeben.",
+    "expiredActionCode": "Der Link zum neu setzen des Passworts ist abgelaufen. Bitte verlangen Sie ein neues Passwort noch einmal.",
+    "invalidActionCode": "Der Link, den Sie angeklickt haben ist nicht mehr gültig.",
+    "userDisabled": "Der Benutzer wurde deaktiviert.",
+    "userNotFound": "Der Benutzer wurde nicht gefunden."
   },
   "noSearchResults": "Keine Treffer.",
   "login": "Login",
@@ -704,7 +708,7 @@
     "changelog": "Änderungen",
     "optional": "Update verfügbar",
     "required": "Update erforderlich",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tapp on the button below to update.",
+    "optionalUpdateDesc": "Neues update verfügbar. Drücke auf \"Jetzt aktualisieren\" und führe den Update von deinem App/Play store aus.",
     "requiredUpdateDesc": "Wenn Sie farmerJoe weiter verwenden möchten, müssen Sie ein Update ausführen.",
     "updateNow": "Jetzt aktualisieren"
   }
