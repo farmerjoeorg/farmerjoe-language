@@ -490,7 +490,7 @@
     },
     "needCameraAccess": {
       "title": "Kann auf Kamera nicht zugreifen",
-      "description": "Bitte erlauben Sie Zugriff auf Ihre Kamera, wenn Sie fotografieren möchten.",
+      "description": "Bitte erlauben Sie Zugriff auf Ihre Kamera, wenn Sie fotografieren möchten."
     },
     "needContactsAccess": {
       "title": "farmerJoe benötigt Zugriff auf Ihre Kontakte",
