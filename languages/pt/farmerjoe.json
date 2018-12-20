@@ -160,7 +160,7 @@
       "upload": "Selecionar logótipo da empresa",
       "camera": "Obter um novo logótipo de empresa"
     },
-    "doYouWantToDeleteCompany": "Tem a certeza que deseja apagar esta quinta?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Cancelar a planificação da cultura",
@@ -376,7 +376,18 @@
   "map": "Mapas",
   "maps": {
     "pressToSetPin": "Toque no mapa para fixar o pino de localização.",
-    "clickToShowMore": "Clique para mostrar mais"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Clique para mostrar mais",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Não introduziu um endereço de email.",
   "camera": "Câmera",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

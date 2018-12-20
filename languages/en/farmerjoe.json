@@ -160,7 +160,7 @@
       "upload": "Select company logo",
       "camera": "Take a new company logo"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Cancel the planned crop",
@@ -388,7 +388,7 @@
     "drawFieldDesc": "Move map and set pin.",
     "drawFieldSave": "Save polygon as field.",
     "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distancee measurement",
+    "deleteMeasurement": "Delete distance measurement",
     "styles": {
       "black": "Black"
     }
@@ -701,7 +701,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo",

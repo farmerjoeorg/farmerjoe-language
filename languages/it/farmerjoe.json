@@ -160,7 +160,7 @@
       "upload": "Seleziona il logo aziendale",
       "camera": "Carica un nuovo logo aziendale"
     },
-    "doYouWantToDeleteCompany": "Confermare l'eliminazione di questa azienda agricola?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Annulla coltura pianificata",
@@ -376,7 +376,18 @@
   "map": "Mappe",
   "maps": {
     "pressToSetPin": "Premi sulla mappa per impostare l'indicatore di posizione.",
-    "clickToShowMore": "Fai clic per visualizzare altre mappe"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Fai clic per visualizzare altre mappe",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Non hai inserito un indirizzo e-mail.",
   "camera": "Fotocamera",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

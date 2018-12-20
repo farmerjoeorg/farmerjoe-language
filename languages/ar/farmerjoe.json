@@ -160,7 +160,7 @@
       "upload": "حدد شعار الشركة",
       "camera": "التقط شعار شركة جديد"
     },
-    "doYouWantToDeleteCompany": "هل تريد حقا حذف هذه المزرعة؟"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "إلغاء المحصول المخطط",
@@ -376,7 +376,18 @@
   "map": "خرائط",
   "maps": {
     "pressToSetPin": "اضغط على الخريطة لتعيين دبوس الموقع.",
-    "clickToShowMore": "انقر لإظهار المزيد"
+    "searchAddress": "Address search",
+    "clickToShowMore": "انقر لإظهار المزيد",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "لم تقم بإدخال بريد إلكتروني.",
   "camera": "كاميرا",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

@@ -52,7 +52,7 @@
     "questions": "Pytania?",
     "offer": "Oferta",
     "number": "Numer analizy",
-    "cancelled": "Odwołana",
+    "cancelled": "Odwołane",
     "result_for_analysis_from_ready": "Wynik analizy z {{date}} jest teraz dostępny.",
     "noCompanyAddress": "Brak adresu firmy.",
     "ourOffers": "Nasza oferta analityczna",
@@ -160,7 +160,7 @@
       "upload": "Wybierz logo firmy",
       "camera": "Zrób zdjęcie loga firmy"
     },
-    "doYouWantToDeleteCompany": "Czy na pewno chcesz usunąć farmę?"
+    "doYouWantToDeleteCompany": "Czy na pewno chcesz usunąć farmę?\nNie możesz przywrócić danych!"
   },
   "crop": {
     "cancelCultivation": "Anuluj planowaną uprawę",
@@ -376,7 +376,18 @@
   "map": "Mapa",
   "maps": {
     "pressToSetPin": "Naciśnij mapę, aby ustawić szpilkę pozycji.",
-    "clickToShowMore": "Kliknij, by pokazać więcej"
+    "searchAddress": "Szukaj adresu",
+    "clickToShowMore": "Kliknij, by pokazać więcej",
+    "measure": "Zmierz odległość",
+    "measureDesc": "Przesuń mapę i ustaw szpilkę.",
+    "drawField": "Rysuj wielokąt pola",
+    "drawFieldDesc": "Przesuń mapę i ustaw szpilkę.",
+    "drawFieldSave": "Zapisz wielokąt jako pole.",
+    "deletePolygon": "Usuń wielokąt",
+    "deleteMeasurement": "Usuń pomiar odległości",
+    "styles": {
+      "black": "Czarny"
+    }
   },
   "no_email_entered": "Nie wpisałeś adresu e-mail.",
   "camera": "Kamera",
@@ -686,7 +697,8 @@
     "drawingMode": "Rysuj wielokąt",
     "reset": "Zresetuj",
     "hideMarkers": "Schowaj znaczniki",
-    "measureMode": "Miarka"
+    "measureMode": "Miarka",
+    "hideDistanceMarkers": "Schowaj długości boków wielokątów"
   },
   "undo": "Cofnij",
   "redo": "Ponów"

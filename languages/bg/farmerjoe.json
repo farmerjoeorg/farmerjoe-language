@@ -160,7 +160,7 @@
       "upload": "Select company logo",
       "camera": "Take a new company logo"
     },
-    "doYouWantToDeleteCompany": "Наистина ли искате да изтриете фермата?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Анулирай заплануваната култура",
@@ -376,7 +376,18 @@
   "map": "Карта",
   "maps": {
     "pressToSetPin": "Натиснете върху картата, за да зададете точка.",
-    "clickToShowMore": "Click to show more"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Click to show more",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Не сте въвели имейл.",
   "camera": "Камера",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

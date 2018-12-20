@@ -160,7 +160,7 @@
       "upload": "Выбрать логотип компании",
       "camera": "Установить новый логотип компании"
     },
-    "doYouWantToDeleteCompany": "Вы действительно хотите удалить эту ферму?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Отменить запланированный урожай",
@@ -376,7 +376,18 @@
   "map": "Карты",
   "maps": {
     "pressToSetPin": "Нажмите на карту, чтобы поставить маркер местоположения.",
-    "clickToShowMore": "Нажмите, чтобы показать больше"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Нажмите, чтобы показать больше",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Вы не ввели адрес электронной почты.",
   "camera": "камера",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

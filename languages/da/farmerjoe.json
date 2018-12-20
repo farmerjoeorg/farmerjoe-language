@@ -160,7 +160,7 @@
       "upload": "Vælg firmaets logo",
       "camera": "Tag et nyt firmalogo"
     },
-    "doYouWantToDeleteCompany": "Vil du virkelig slette dette landbrug?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Annuller den planlagte afgrøde",
@@ -376,7 +376,18 @@
   "map": "Kort",
   "maps": {
     "pressToSetPin": "Tryk på kortet for at anbringe placeringsnålen.",
-    "clickToShowMore": "Klik for at vise flere"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Klik for at vise flere",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Du har ikke indtastet en e-mailadresse.",
   "camera": "Kamera",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"

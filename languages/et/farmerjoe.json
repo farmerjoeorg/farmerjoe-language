@@ -160,7 +160,7 @@
       "upload": "Vali ettevõtte logo",
       "camera": "Tee uus ettevõtte logo"
     },
-    "doYouWantToDeleteCompany": "Kas soovite tõesti farmi kustutada?"
+    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
   },
   "crop": {
     "cancelCultivation": "Tühista planeeritud kultuur",
@@ -376,7 +376,18 @@
   "map": "Kaardid",
   "maps": {
     "pressToSetPin": "Vajutage kaardile asukoha nööpnõela paigaldamiseks.",
-    "clickToShowMore": "Klõpsa, et näha rohkem"
+    "searchAddress": "Address search",
+    "clickToShowMore": "Klõpsa, et näha rohkem",
+    "measure": "Measure distance",
+    "measureDesc": "Move map and set pin.",
+    "drawField": "Draw field polygon",
+    "drawFieldDesc": "Move map and set pin.",
+    "drawFieldSave": "Save polygon as field.",
+    "deletePolygon": "Delete polygon",
+    "deleteMeasurement": "Delete distance measurement",
+    "styles": {
+      "black": "Black"
+    }
   },
   "no_email_entered": "Te ei sisestanud e-posti aadressi.",
   "camera": "Kaamera",
@@ -686,7 +697,8 @@
     "drawingMode": "Draw polygon",
     "reset": "Reset",
     "hideMarkers": "Hide markers",
-    "measureMode": "Measure"
+    "measureMode": "Measure",
+    "hideDistanceMarkers": "Hide polygon side length"
   },
   "undo": "Undo",
   "redo": "Redo"
