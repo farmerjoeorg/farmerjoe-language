@@ -376,17 +376,17 @@
   "map": "Karte",
   "maps": {
     "pressToSetPin": "Auf Karte drücken um Pin zu setzen.",
-    "searchAddress": "Address search",
+    "searchAddress": "Addresse suchen",
     "clickToShowMore": "Klicken Sie, um mehr anzuzeigen",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "Entfernung messen",
+    "measureDesc": "Ziehen und Pin setzen.",
+    "drawField": "Fläche einzeichnen",
+    "drawFieldDesc": "Ziehen und Pin setzen.",
+    "drawFieldSave": "Fläche als Feld speichern.",
+    "deletePolygon": "Fläche löschen",
+    "deleteMeasurement": "Entfernung löschen",
     "styles": {
-      "black": "Black"
+      "black": "Schwarz"
     }
   },
   "no_email_entered": "Sie haben keine E-Mail eingegeben.",
@@ -426,8 +426,7 @@
   "edit": "Bearbeiten",
   "change": "Ändern",
   "contact": {
-    "dontDeleteData": "Bitte löschen Sie die folgenden Daten nicht. Wir benötigen die um Sie im System zu identifizieren. Somit können wir Ihnen eine effiziente und schnelle Hilfe leisten.\n"
-  },
+    "dontDeleteData": "Bitte löschen Sie diese Daten nicht. Diese werden benötigt um Sie im System zu identifizieren.\n"  },
   "no": "Nein",
   "done": "Fertig",
   "city": "Ort",
@@ -473,15 +472,14 @@
     }
   },
   "alerts": {
-    "openSettings": "Öffne Einstellungen",
+    "openSettings": "Einstellungen öffnen",
     "needLocation": {
       "title": "farmerJoe benötigt Ihren Standort",
       "description": "farmerJoe ist momentan nicht berechtigt auf Ihren Standort zuzugreifen."
     },
     "needAlwaysLocation": {
       "title": "Kein Zugriff auf deinen Standort",
-      "description": "Um deinen Standort mit anderen zu teilen musst du immer Zugriff auf deinen Standort erlauben (und nicht nur beim Benutzen der App)."
-    },
+      "description": "Erteile farmerJoe die Berechtigung zum Standortzugriff, um deinen Standort mit Mitarbeitern zu teilen: \n\n 1. Standort auswählen \n\n 2. Auf \"Immer\" tippen."    },
     "cantDetermineLocation": {
       "title": "farmerJoe kann Ihren Standort nicht ermitteln.",
       "description": "Bitte schalten Sie Ihren GPS module an."
@@ -492,7 +490,7 @@
     },
     "needCameraAccess": {
       "title": "Kann auf Kamera nicht zugreifen",
-      "description": "Bitte erlauben Sie Zugriff auf Ihre Kamera, wenn Sie fotografieren möchten."
+      "description": "Bitte erlauben Sie Zugriff auf Ihre Kamera, wenn Sie fotografieren möchten.",
     },
     "needContactsAccess": {
       "title": "farmerJoe benötigt Zugriff auf Ihre Kontakte",
