@@ -266,7 +266,11 @@
     "updated": "Password updated.",
     "min6char": "The password must be at least 6 characters long.",
     "reset": "Reset your password",
-    "resetHelp": "Enter your new password below."
+    "resetHelp": "Enter your new password below.",
+    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
+    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
+    "userDisabled": "The user has been disabled",
+    "userNotFound": "The user hasn't been found"
   },
   "noSearchResults": "No results.",
   "login": "Login",
@@ -700,5 +704,13 @@
     "measureMode": "Measure"
   },
   "undo": "Undo",
-  "redo": "Redo"
+  "redo": "Redo",
+  "updates": {
+    "changelog": "Changelog",
+    "optional": "Update available",
+    "required": "Required update",
+    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tapp on the button below to update.",
+    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
+    "updateNow": "Update now"
+  }
 }

@@ -266,7 +266,7 @@
     "updated": "Passwort aktualisiert.",
     "min6char": "Das Passwort muss mindestens 6 Zeichen lang.",
     "reset": "Passwort zurücksetzen",
-    "resetHelp": "Einfach ein neues Passwort im Feld unten eingeben."
+    "resetHelp": "Einfach ein neues Passwort unten im Feld eingeben."
   },
   "noSearchResults": "Keine Treffer.",
   "login": "Login",
@@ -700,5 +700,13 @@
     "measureMode": "Messen"
   },
   "undo": "Ruckgängich machen",
-  "redo": "Wiederherstellen"
+  "redo": "Wiederherstellen",
+  "updates": {
+    "changelog": "Änderungen",
+    "optional": "Update verfügbar",
+    "required": "Update erforderlich",
+    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tapp on the button below to update.",
+    "requiredUpdateDesc": "Wenn Sie farmerJoe weiter verwenden möchten, müssen Sie ein Update ausführen.",
+    "updateNow": "Jetzt aktualisieren"
+  }
 }
