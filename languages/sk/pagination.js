@@ -1,0 +1,1 @@
+export { default } from 'rc-pagination/lib/locale/sk_SK'

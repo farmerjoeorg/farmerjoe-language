@@ -1,0 +1,1 @@
+export { default } from 'rc-pagination/lib/locale/it_IT'

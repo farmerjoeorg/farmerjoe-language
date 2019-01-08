@@ -1,0 +1,1 @@
+export { default } from 'rc-calendar/lib/locale/hu_HU'
