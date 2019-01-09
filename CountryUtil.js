@@ -1,5 +1,5 @@
 // @flow
-import { find, memoize } from 'lodash-es'
+import { find, memoize, keys } from 'lodash-es'
 import { getCountryCallingCode, parseNumber } from 'libphonenumber-js'
 
 type Country = { name: string, key: string, cca2: string, callCode: number }
@@ -12,7 +12,8 @@ export default class CountryUtil {
   }
 
   getCountries: () => Country[] = memoize(() => {
-    const countries = keys(this.countryTranslations).map(countryCode => this.makeCountryObject(countryCode)).filter(Boolean)
+    const countries = keys(this.countryTranslations)
+      .map(countryCode => this.makeCountryObject(countryCode))
     countries.sort((a, b) => a.name.localeCompare(b.name, this.comparisonLocales))
     return countries
   })
@@ -34,15 +35,15 @@ export default class CountryUtil {
     return null
   }
 
-  findCountry (predicate): () => ?Country {
+  findCountry (predicate): ((Country) => boolean) => ?Country {
     return find(this.getCountries(), predicate)
   }
 
-  findCountryByCCA2 (cca2: string): () => ?Country {
+  findCountryByCCA2 (cca2: string): (string) => ?Country {
     return this.findCountry({cca2: cca2.toUpperCase()})
   }
 
-  findCountryByName (name: string): () => ?Country {
+  findCountryByName (name: string): (string) => ?Country {
     const nameLowerCase = name.toLocaleLowerCase(this.comparisonLocales)
     return this.findCountry(({name}) => {
       const countryNameLowerCase = name.toLocaleLowerCase(this.comparisonLocales)
@@ -52,13 +53,17 @@ export default class CountryUtil {
 
   makeCountryObject (countryCode): (string) => Country {
     const countryCodeUC = countryCode.toUpperCase()
-    const countryCodeLC = countryCode.toLowerCase()
+    let callCode = null
+
+    try {
+      callCode = getCountryCallingCode(countryCodeUC)
+    } catch (e) {}
 
     return {
       name:     this.countryTranslations[countryCodeUC],
-      key:      countryCodeLC,
-      cca2:     countryCodeLC,
-      callCode: getCountryCallingCode(countryCodeUC)
+      key:      countryCodeUC,
+      cca2:     countryCodeUC,
+      callCode: callCode
     }
   }
 
