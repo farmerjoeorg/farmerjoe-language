@@ -42,7 +42,7 @@ module.exports = {
   optimization: {
     splitChunks: {
       name: function (module, chunks, cacheGroupKey) {
-        return `languages/${cacheGroupKey}`
+        return chunks.length > 1 || chunks.length === 0 ? `languages/${cacheGroupKey}` : chunks[0].name
       }
     }
   }
