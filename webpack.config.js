@@ -1,6 +1,6 @@
 // const webpack           = require('webpack')
 const path = require('path')
-// const glob              = require('glob')
+const glob = require('glob')
 // const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
     libraryTarget: 'commonjs2',
     publicPath:    '/',
   },
-  entry:        ['./index.js']/*.concat(glob.sync('./languages/!*!/!*.js'))*/.reduce((modules, filePath) => {
+  entry:        ['./index.js'].concat(glob.sync('./languages/*/*.js')).reduce((modules, filePath) => {
     modules[
       path.join(
         path.relative(__dirname, path.dirname(filePath)),
@@ -23,9 +23,9 @@ module.exports = {
       {
         test:    /\.js$/,
         exclude: [
-          path.resolve(__dirname, "node_modules"),
-          path.resolve(__dirname, "dist"),
-          path.resolve(__dirname, "webpack.config.js")
+          path.resolve(__dirname, 'node_modules'),
+          path.resolve(__dirname, 'dist'),
+          path.resolve(__dirname, 'webpack.config.js')
         ],
         use:     {
           loader:  'babel-loader',
