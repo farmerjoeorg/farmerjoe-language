@@ -22,7 +22,11 @@ module.exports = {
     rules: [
       {
         test:    /\.js$/,
-        exclude: /(node_modules|dist|babel\.config\.js|webpack\.config\.js)/,
+        exclude: [
+          path.resolve(__dirname, "node_modules"),
+          path.resolve(__dirname, "dist"),
+          path.resolve(__dirname, "webpack.config.js")
+        ],
         use:     {
           loader:  'babel-loader',
           options: {
