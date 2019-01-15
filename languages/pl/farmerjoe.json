@@ -267,10 +267,10 @@
     "min6char": "Hasło musi mieć co najmniej 6 znaków.",
     "reset": "Resetowanie hasła",
     "resetHelp": "Wprowadź swoje nowe hasło poniżej.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "Link do zresetowania hasła wygasł. Proszę zażądać resetu hasła ponownie.",
+    "invalidActionCode": "Link do hasła, w który kliknąłeś, jest uszkodzony lub został już użyty.",
+    "userDisabled": "Użytkownik został zdezaktywowany.",
+    "userNotFound": "Użytkownik nie został znaleziony."
   },
   "noSearchResults": "Brak wyników.",
   "login": "Login",
@@ -707,11 +707,20 @@
   "undo": "Cofnij",
   "redo": "Ponów",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Dziennik zmian",
+    "optional": "Aktualizacja dostępna",
+    "required": "Wymagana aktualizacja",
+    "optionalUpdateDesc": "Nowa aktualizacja farmerJoe jest dostępna. Wciśnij przycisk poniżej, żeby zaktualizować.",
+    "requiredUpdateDesc": "Jeżeli chcesz kontynuować korzystanie z farmerJoe, musisz zainstalować najnowszą aktualizację.",
+    "updateNow": "Zaktualizuj teraz"
+  },
+  "fieldMark": {
+    "markField": "Oznakuj pole",
+    "deleteMark": "Usuń oznakowanie pola",
+    "doYouReallyWantToDelete": "Czy na pewno chcesz usunąć oznakowanie pola?",
+    "reason": "Powód",
+    "selectColorOrEmoji": "Wybierz kolor lub emoji",
+    "marked": "Pole zostało oznakowane: {0} {1}.",
+    "unmarked": "Oznakowanie zostało usunięte."
   }
 }

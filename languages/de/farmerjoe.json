@@ -713,5 +713,14 @@
     "optionalUpdateDesc": "Neues update verfügbar. Drücke auf \"Jetzt aktualisieren\" und führe den Update von deinem App/Play store aus.",
     "requiredUpdateDesc": "Wenn Sie farmerJoe weiter verwenden möchten, müssen Sie ein Update ausführen.",
     "updateNow": "Jetzt aktualisieren"
+  },
+  "fieldMark": {
+    "markField": "Feld markieren",
+    "deleteMark": "Markierung aufheben",
+    "doYouReallyWantToDelete": "Wollen Sie wirklich die Markierung aufheben?",
+    "reason": "Grund",
+    "selectColorOrEmoji": "Farbe oder Emoji wählen",
+    "marked": "Feld markiert mit: {0} {1}.",
+    "unmarked": "Markierung aufgehoben."
   }
 }
