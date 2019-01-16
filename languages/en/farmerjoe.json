@@ -718,5 +718,14 @@
     "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
     "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
     "updateNow": "Update now"
+  },
+  "fieldMark": {
+    "markField": "Mark field",
+    "deleteMark": "Unmark field",
+    "doYouReallyWantToDelete": "Do you really want to unmark field?",
+    "reason": "Reason",
+    "selectColorOrEmoji": "Select color or emoji",
+    "marked": "Field has been marked with: {0} {1}.",
+    "unmarked": "Field has been unmarked."
   }
 }
