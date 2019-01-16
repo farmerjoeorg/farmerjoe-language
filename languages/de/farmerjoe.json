@@ -685,13 +685,18 @@
     "dragHere": "hier ziehen"
   },
   "producers": {
+    "all": "Alle Produzenten",
+    "recentlyUsed": "Zuletzt verwendet",
+    "noProducerForField": "kein Produzent",
     "single": "Produzent",
     "plural": "Produzenten",
     "add": "Produzent hinzufügen",
     "edit": "Produzent bearbeiten",
     "name": "Produzentname",
+    "select": "Produzent auswählen",
     "createUser": "Als Mitarbeiter hinzufügen",
-    "contactPerson": "Ansprechpartner"
+    "contactPerson": "Ansprechpartner",
+    "noProducer": "Noch keine Produzenten angelegt."
   },
   "polygon": {
     "fieldCoordinates": "Feldkoordinaten",

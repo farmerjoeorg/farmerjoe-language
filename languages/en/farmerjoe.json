@@ -685,13 +685,18 @@
     "dragHere": "Drag here"
   },
   "producers": {
+    "all": "All Producers",
+    "recentlyUsed": "Recently used",
+    "noProducerForField": "No producer",
     "single": "Producer",
     "plural": "Producers",
     "add": "Add producer",
     "edit": "Edit producer",
     "name": "Producer name",
+    "select": "Select producer",
     "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person"
+    "contactPerson": "Contact person",
+    "noProducer": "No producers created yet."
   },
   "polygon": {
     "fieldCoordinates": "Field coordinates",
