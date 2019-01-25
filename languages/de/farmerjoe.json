@@ -696,7 +696,11 @@
     "select": "Produzent auswählen",
     "createUser": "Als Mitarbeiter hinzufügen",
     "contactPerson": "Ansprechpartner",
-    "noProducer": "Noch keine Produzenten angelegt."
+    "noProducer": "Noch keine Produzenten angelegt.",
+    "location": "Produzent positionieren",
+    "number": "Produzentennummer",
+    "delete": "Produzent löschen",
+    "doYouWantToDeleteProducer": "Wollen Sie wirklich den Produzenten löschen?"
   },
   "polygon": {
     "fieldCoordinates": "Feldkoordinaten",

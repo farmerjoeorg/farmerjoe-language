@@ -696,7 +696,11 @@
     "select": "Select producer",
     "createUser": "Create as admin for producer",
     "contactPerson": "Contact person",
-    "noProducer": "No producers created yet."
+    "noProducer": "No producers created yet.",
+    "location": "Producer Location",
+    "number": "Producer number",
+    "delete": "Delete producer",
+    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?"
   },
   "polygon": {
     "fieldCoordinates": "Field coordinates",
