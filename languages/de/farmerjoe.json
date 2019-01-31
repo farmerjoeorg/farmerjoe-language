@@ -700,7 +700,8 @@
     "location": "Produzent positionieren",
     "number": "Produzentennummer",
     "delete": "Produzent löschen",
-    "doYouWantToDeleteProducer": "Wollen Sie wirklich den Produzenten löschen?"
+    "doYouWantToDeleteProducer": "Wollen Sie wirklich den Produzenten löschen?",
+    "creatingUserFor": "Sie erstellen ein Benutzer für {{groupName}}"
   },
   "polygon": {
     "fieldCoordinates": "Feldkoordinaten",

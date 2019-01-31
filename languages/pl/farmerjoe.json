@@ -700,7 +700,8 @@
     "location": "Producer Location",
     "number": "Producer number",
     "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?"
+    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
+    "creatingUserFor": "Creating user for {{groupName}}"
   },
   "polygon": {
     "fieldCoordinates": "Współrzędne pola",
