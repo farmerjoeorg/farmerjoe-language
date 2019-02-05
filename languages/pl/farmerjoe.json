@@ -701,7 +701,8 @@
     "number": "Producer number",
     "delete": "Delete producer",
     "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}"
+    "creatingUserFor": "Creating user for {{groupName}}",
+    "noEmployees": "This producer has no employees."
   },
   "polygon": {
     "fieldCoordinates": "Współrzędne pola",

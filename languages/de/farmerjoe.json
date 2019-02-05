@@ -692,7 +692,7 @@
     "plural": "Produzenten",
     "add": "Produzent hinzufügen",
     "edit": "Produzent bearbeiten",
-    "name": "Produzentname",
+    "name": "Produzentenname",
     "select": "Produzent auswählen",
     "createUser": "Als Mitarbeiter hinzufügen",
     "contactPerson": "Ansprechpartner",
@@ -701,7 +701,8 @@
     "number": "Produzentennummer",
     "delete": "Produzent löschen",
     "doYouWantToDeleteProducer": "Wollen Sie wirklich den Produzenten löschen?",
-    "creatingUserFor": "Sie erstellen ein Benutzer für {{groupName}}"
+    "creatingUserFor": "Sie erstellen ein Benutzer für {{groupName}}",
+    "noEmployees": "Dieser Produzent hat keine Mitarbeiter."
   },
   "polygon": {
     "fieldCoordinates": "Feldkoordinaten",
