@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Povabilo zavrnjeno dne {{date}}",
     "getFromPhoneBook": "Iskanje v imeniku",
     "choseEmail": "Izberite e-poštni naslov",
-    "employeeIsDeactivated": "Zaposleni je deaktiviran"
+    "employeeIsDeactivated": "Zaposleni je deaktiviran",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Iskanje",
   "satellite": "Satelit",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "Uporabnik ima pravice skrbnika in ima dostop do vseh polj v podjetju. Če želite omejiti dostop do tega polja in drugih polj, morate uporabniki odvzeti skrbniške pravice."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Res želite uporabniku {{name}} omejiti dostop do tega polja?"

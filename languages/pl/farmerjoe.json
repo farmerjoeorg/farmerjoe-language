@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Zaproszenie spotkało się z odmową w dniu {{date}}",
     "getFromPhoneBook": "Szukaj w kontaktach",
     "choseEmail": "Wybierz adres e-mail",
-    "employeeIsDeactivated": "Pracownik jest zdezaktywowany"
+    "employeeIsDeactivated": "Pracownik jest zdezaktywowany",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Szukaj",
   "satellite": "Satelita",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "Użytkownik jest administratorem i ma dostęp do wszystkich pól w firmie. Jeżeli chcesz zakazać mu dostępu do tego pola i innych pól, musisz zmienić jego rolę na pracownika."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Czy na pewno chcesz zakazać {{name}} dostępu do tego pola?"

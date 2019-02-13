@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Davet {{date}} tarihinde reddedildi",
     "getFromPhoneBook": "Telefon rehberinde ara",
     "choseEmail": "E-posta seçin",
-    "employeeIsDeactivated": "Çalışan devre dışı"
+    "employeeIsDeactivated": "Çalışan devre dışı",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Ara",
   "satellite": "Uydu",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "Kullanıcı, Yönetici konumundadır ve şirketteki tüm alanlara erişebilir. Kullanıcının bu ve diğer alanlara erişimini yasaklamak istiyorsanız, onu normal bir kullanıcı haline getirmelisiniz."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "{{name}} isimli kullanıcının bu alana erişimini gerçekten yasaklamak istiyor musunuz?"

@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "{{date}} को आमंत्रण अस्वीकारा गया",
     "getFromPhoneBook": "फोनबुक में खोजें",
     "choseEmail": "ईमेल चुनें",
-    "employeeIsDeactivated": "कर्मचारी निष्क्रिय है"
+    "employeeIsDeactivated": "कर्मचारी निष्क्रिय है",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "खोज",
   "satellite": "सैटेलाइट",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "उपयोगकर्ता एक एडमिन यानी व्यवस्थापक है और कंपनी के सभी खेतों तक इसे पहुँच प्राप्त है। यदि आप इस खेत और अन्य खेतों तक उसकी पहुँच को प्रतिबंधित करना चाहें तो आपको उसे एक सामान्य उपयोगकर्ता बनाना होगा।"
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "क्या आप वाकई इस खेत तक {{name}} की पहुँच को मना करना चाहते हैं?"

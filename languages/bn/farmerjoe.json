@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "{{date}} এ আমন্ত্রণ প্রত্যাখ্যান করা হয়েছে",
     "getFromPhoneBook": "ফোনবুকে অনুসন্ধান করুন",
     "choseEmail": "ইমেল বেছে নিন",
-    "employeeIsDeactivated": "কর্মচারী নিষ্ক্রিয় আছে"
+    "employeeIsDeactivated": "কর্মচারী নিষ্ক্রিয় আছে",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "অনুসন্ধান",
   "satellite": "উপগ্রহ",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "ব্যবহারকারী একজন প্রশাসক এবং কোম্পানির সমস্ত জমির অ্যাক্সেস আছে। যদি আপনি এই জমিতে ও অন্যান্য জমিতে আপনার অ্যাক্সেস নিষেধ করতে চান তাহলে আপনাকে তাকে একজন স্বাভাবিক ব্যবহারকারী করতে হবে।"
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "এই জমির জন্য কি আপনি {{name}} এর অ্যাক্সেস নিষেধ করতে চান?"

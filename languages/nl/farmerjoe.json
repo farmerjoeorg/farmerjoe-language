@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Uitnodiging geweigerd op {{date}}",
     "getFromPhoneBook": "In telefoonboek zoeken",
     "choseEmail": "E-mail kiezen",
-    "employeeIsDeactivated": "Medewerker is gedeactiveerd"
+    "employeeIsDeactivated": "Medewerker is gedeactiveerd",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Zoeken",
   "satellite": "Satelliet",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "De gebruiker is Beheerder en heeft toegang tot alle velden in het bedrijf. Als u toegang tot dit veld en andere velden wilt verbieden, maakt u van deze gebruiker een normale gebruiker."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Wilt u {{name}} geen toegang tot dit veld verlenen?"

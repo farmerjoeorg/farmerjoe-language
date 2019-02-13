@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Kutse lükati tagasi {{date}}",
     "getFromPhoneBook": "Otsi telefoniraamatust",
     "choseEmail": "Vali e-post",
-    "employeeIsDeactivated": "Töötaja on deaktiveeritud"
+    "employeeIsDeactivated": "Töötaja on deaktiveeritud",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Otsing",
   "satellite": "Satelliit",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "See kasutaja on administraator ning tal on ligipääs ettevõtte kõikidele põldudele. Kui tahate tõkestada tema ligipääsu sellele põllule ja teistele põldudele, peate temast tegema tavakasutaja."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Kas tahate tõesti keelata kasutajale {{name}} ligipääsu sellele põllule?"

@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Kvietimas atmestas {{date}}",
     "getFromPhoneBook": "Ieškoti telefonų knygelėje",
     "choseEmail": "Pasirinkite el. pašto adresą",
-    "employeeIsDeactivated": "Darbuotojas išaktyvintas"
+    "employeeIsDeactivated": "Darbuotojas išaktyvintas",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Paieška",
   "satellite": "Palydovas",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "Naudotojas yra administratorius ir turi prieigą prie visų laukų įmonėje. Jei norite uždrausti jo prieigą prie šio lauko ir kitų laukų, turite jį padaryti paprastu naudotoju."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Ar tikrai norite uždrausti {{name}} prieigą prie šio lauko?"

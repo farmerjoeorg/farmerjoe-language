@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Inbjudan avvisades den {{date}}",
     "getFromPhoneBook": "Sök i telefonboken",
     "choseEmail": "Välj e-post",
-    "employeeIsDeactivated": "Anställd är inaktiverad"
+    "employeeIsDeactivated": "Anställd är inaktiverad",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Sök",
   "satellite": "Satellit",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "Användaren är administratör och har tillgång till alla fält i företaget. Om du vill förbjuda hens åtkomst till det här fältet och andra fält måste du göra hen till en normal användare."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Vill du verkligen förbjuda att {{name}} får åtkomst till det här fältet?"

@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "تم رفض الدعوة في {{date}}",
     "getFromPhoneBook": "بحث في دليل الهاتف",
     "choseEmail": "اختر البريد الإلكتروني",
-    "employeeIsDeactivated": "الموظف غير منشّط"
+    "employeeIsDeactivated": "الموظف غير منشّط",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "بحث",
   "satellite": "قمر صناعي",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "المستخدم يتولى دور المسؤول ولديه حق الوصول إلى جميع الحقول في الشركة. إذا أردت حظر وصوله إلى هذا الحقل والحقول الأخرى فيتعين عليك جعله مستخدمًا عاديًا."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "هل تريد حقًا منع {{name}} من الوصول إلى هذا الحقل؟"

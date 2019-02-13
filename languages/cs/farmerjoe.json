@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Pozvánka byla zamítnuta dne {{date}}",
     "getFromPhoneBook": "Vyhledávání v telefonním seznamu",
     "choseEmail": "Zvolte e-mail",
-    "employeeIsDeactivated": "Zaměstnanec je deaktivován"
+    "employeeIsDeactivated": "Zaměstnanec je deaktivován",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Hledat",
   "satellite": "Satelit",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "Uživatel je správcem a má přístup na všechna pole ve společnosti. Pokud mu chcete zakázat přístup k tomuto poli a ostatním polím, budete mu muset přidělit profil normálního uživatele."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Opravdu chcete zakázat uživateli {{name}} přístup k tomuto poli?"

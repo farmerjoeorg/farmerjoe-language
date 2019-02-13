@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Felszólítás elutasítva ekkor: {{date}}",
     "getFromPhoneBook": "Keresés a telefonkönyvben",
     "choseEmail": "Válasszon e-mail-t",
-    "employeeIsDeactivated": "Az alkalmazott inaktivált"
+    "employeeIsDeactivated": "Az alkalmazott inaktivált",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Keresés",
   "satellite": "Műhold",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "A felhasználó rendszergazda, és hozzáférése van a cég minden mezőjéhez. Ha le akarja tiltani hozzáférését ehhez a mezőhöz & más mezőkhöz, ehhez közönséges felhasználóként kell deklarálnia."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Tényleg le akarja tiltani {{name}} hozzáférését ehhez a mezőhöz?"

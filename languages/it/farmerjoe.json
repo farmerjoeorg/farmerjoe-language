@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Richiesta rifiutata il {{date}}",
     "getFromPhoneBook": "Cerca nella rubrica",
     "choseEmail": "Scegli e-mail",
-    "employeeIsDeactivated": "Il dipendente è disattivato"
+    "employeeIsDeactivated": "Il dipendente è disattivato",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Cerca",
   "satellite": "Satellite",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "L'utente ha il ruolo di Amministratore e ha accesso a tutti i campi dell'azienda. Se desideri vietare l'accesso a questo campo e ad altri campi, dovrai assegnargli il ruolo di utente normale."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Vuoi davvero vietare a {{name}}} di accedere a questo campo?"

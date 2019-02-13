@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Запрос отклонен {{date}}",
     "getFromPhoneBook": "Поиск в телефонной книге",
     "choseEmail": "Выбрать адрес эл. почты",
-    "employeeIsDeactivated": "Работник деактивирован"
+    "employeeIsDeactivated": "Работник деактивирован",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "поиск",
   "satellite": "спутник",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "Пользователь является администратором и имеет доступ на все поля в компании. Если вы хотите запретить ему доступ на это поле и другие поля, вам необходимо сделать его обычным пользователем."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Вы действительно хотите запретить пользователю {{name}} доступ к этому полю?"

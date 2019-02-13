@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "Invitație refuzată pe {{date}}",
     "getFromPhoneBook": "Căutați în agenda telefonică",
     "choseEmail": "Alegeți adresa de e-mail",
-    "employeeIsDeactivated": "Angajatul este dezactivat"
+    "employeeIsDeactivated": "Angajatul este dezactivat",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Căutare",
   "satellite": "Satelit",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "Utilizatorul este administrator și are acces la toate câmpurile din companie. Dacă doriți să îi interziceți accesul la acest câmp și la alte câmpuri, trebuie să îi acordați rolul de utilizator obișnuit."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Sigur doriți să interziceți accesul lui {{name}} la acest câmp?"

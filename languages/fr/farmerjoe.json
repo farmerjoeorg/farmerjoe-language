@@ -337,7 +337,13 @@
     "invitrationRejectedOn": "L'invitation a été refusée le {{date}}",
     "getFromPhoneBook": "Rechercher dans le répertoire téléphonique",
     "choseEmail": "Choisir une adresse e-mail",
-    "employeeIsDeactivated": "L'employé est désactivé"
+    "employeeIsDeactivated": "L'employé est désactivé",
+    "x_selectedFields": {
+      "zero": "No fields selected",
+      "other": "{{count}} fields selected",
+      "one": "1 field selected."
+    },
+    "selectFields": "Select fields"
   },
   "search": "Chercher",
   "satellite": "Satellite",
@@ -546,6 +552,9 @@
     "access": {
       "fieldAdminAlert": {
         "message": "L'utilisateur est Administrateur et a accès à tous les champs de l'entreprise, si vous voulez lui interdire l'accès à ce champ et à d'autres champs, vous devez faire de lui un utilisateur normal."
+      },
+      "userHasAccessToAllFields": {
+        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
       },
       "forbidFieldAlert": {
         "message": "Voulez-vous vraiment interdire l'accès à {{nom}} à ce champ ?"
