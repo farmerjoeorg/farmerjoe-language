@@ -735,6 +735,7 @@
     "updateNow": "Zaktualizuj teraz"
   },
   "fieldMark": {
+    "marks": "Marks",
     "markField": "Oznakuj pole",
     "deleteMark": "Usuń oznakowanie pola",
     "doYouReallyWantToDelete": "Czy na pewno chcesz usunąć oznakowanie pola?",

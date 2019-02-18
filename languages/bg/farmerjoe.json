@@ -735,6 +735,7 @@
     "updateNow": "Update now"
   },
   "fieldMark": {
+    "marks": "Marks",
     "markField": "Mark field",
     "deleteMark": "Unmark field",
     "doYouReallyWantToDelete": "Do you really want to unmark field?",

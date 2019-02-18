@@ -735,6 +735,7 @@
     "updateNow": "Jetzt aktualisieren"
   },
   "fieldMark": {
+    "marks": "Markierungen",
     "markField": "Feld markieren",
     "deleteMark": "Markierung aufheben",
     "doYouReallyWantToDelete": "Wollen Sie wirklich die Markierung aufheben?",
