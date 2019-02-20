@@ -343,7 +343,9 @@
       "other": "{{count}} Felder ausgewählt.",
       "one": "1 Feld ausgewählt."
     },
-    "selectFields": "Felder auswählen"
+    "selectFields": "Felder auswählen",
+    "countryRestrictionLabel": "Landbeschränkung",
+    "countryRestrictionDesc": "Falls Sie den Benutzer nach Land beschränken wird er nur Felder und Produzenten von diesem Land sehen können."
   },
   "search": "Suchen",
   "satellite": "Satellit",
@@ -588,7 +590,8 @@
     },
     "waittime": {
       "description": "Der Mitarbeiter ist in der Lage eigene Wartezeiten zu ..."
-    }
+    },
+    "countryRestriction": "Landbeschränkung"
   },
   "near": {
     "by": "In der Nähe",

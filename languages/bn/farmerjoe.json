@@ -343,7 +343,9 @@
       "other": "{{count}} fields selected",
       "one": "1 field selected."
     },
-    "selectFields": "Select fields"
+    "selectFields": "Select fields",
+    "countryRestrictionLabel": "Restrict by country",
+    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
   },
   "search": "অনুসন্ধান",
   "satellite": "উপগ্রহ",
@@ -588,7 +590,8 @@
     },
     "waittime": {
       "description": "অপেক্ষা সময়ের মাধ্যমে ব্যবহারকারী কি কি করতে পারবেন তা নিচে নির্বাচন করুন।"
-    }
+    },
+    "countryRestriction": "Country restriction"
   },
   "near": {
     "by": "কাছাকাছি",

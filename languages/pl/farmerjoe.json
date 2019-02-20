@@ -343,7 +343,9 @@
       "other": "{{count}} fields selected",
       "one": "1 field selected."
     },
-    "selectFields": "Select fields"
+    "selectFields": "Select fields",
+    "countryRestrictionLabel": "Restrict by country",
+    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
   },
   "search": "Szukaj",
   "satellite": "Satelita",
@@ -588,7 +590,8 @@
     },
     "waittime": {
       "description": "Wybierz, co użytkownik może zrobić z okresami oczekiwania."
-    }
+    },
+    "countryRestriction": "Country restriction"
   },
   "near": {
     "by": "W pobliżu",
