@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Inbjudan att jobba i {{company}}",
+      "companyXInvitedYou": "Jordbruket {{name}} vill lägga till dig som {{role}} i farmerJoe-appen.",
+      "toAcceptNonUser": "För att acceptera inbjudan måste du installera farmerJoe-appen och registrera dig med din e-postadress {{email}}. Sedan kan du godkänna inbjudan i appen.",
+      "toAcceptExistingUser": "För att acceptera inbjudan öppnar du farmerJoe och trycker på Acceptera.",
+      "ifYouHaveAccountWithOtherEmail": "Om du har ett farmerJoe-konto med en annan e-postadress kan du be {{name}} att bjuda in dig med den andra e-postadressen.",
+      "role": {
+        "admin": "Administratör",
+        "standard": "Arbetare",
+        "advisor": "Rådgivare"
+      },
+      "workerInvitation": "Inbjudan"
+    }
+  },
+  "companyAddress": "Företagets adress"
+}

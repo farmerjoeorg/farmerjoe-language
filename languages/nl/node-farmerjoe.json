@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Uitnodiging om te werken bij {{company}}",
+      "companyXInvitedYou": "Boerderij {{name}} wil u als {{role}} toevoegen in de farmerJoe-app.",
+      "toAcceptNonUser": "Om de uitnodiging te accepteren, installeert u de farmerJoe-app en registreert u zich met uw e-mailadres {{email}}. Vervolgens kunt u de uitnodiging in de app accepteren.",
+      "toAcceptExistingUser": "Open farmerJoe en tik op Accepteren om de uitnodiging te accepteren.",
+      "ifYouHaveAccountWithOtherEmail": "Als u een farmerJoe-account hebt met een ander e-mailadres, vraagt u {{name}} om een uitnodiging naar dat e-mailadres te sturen.",
+      "role": {
+        "admin": "Beheerder",
+        "standard": "Medewerker",
+        "advisor": "Adviseur"
+      },
+      "workerInvitation": "Uitnodiging"
+    }
+  },
+  "companyAddress": "Bedrijfsadres"
+}

@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Invitație pentru a lucra la {{company}}",
+      "companyXInvitedYou": "Ferma {{name}} dorește să vă adauge ca {{role}} în aplicația farmerJoe.",
+      "toAcceptNonUser": "Pentru a accepta invitația, instalați aplicația farmerJoe și înregistrați-vă cu adresa de e-mail {{email}}. Ulterior, puteți accepta invitația în aplicație.",
+      "toAcceptExistingUser": "Pentru a accepta invitația, deschideți aplicația farmerJoe și atingeți Acceptă.",
+      "ifYouHaveAccountWithOtherEmail": "Dacă aveți un cont farmerJoe creat cu altă adresă de e-mail, rugați pe {{name}} să vă invite cu cealaltă adresă de e-mail.",
+      "role": {
+        "admin": "Admin",
+        "standard": "Lucrător",
+        "advisor": "Consultant"
+      },
+      "workerInvitation": "Invitație"
+    }
+  },
+  "companyAddress": "Adresă companie"
+}

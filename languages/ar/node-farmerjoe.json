@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "دعوة للعمل في {{company}}",
+      "companyXInvitedYou": "المزرعة {{name}} تريد إضافتك لتولي دور {{role}} في تطبيق farmerJoe.",
+      "toAcceptNonUser": "لقبول الدعوة، الرجاء تثبيت تطبيق farmerJoe وسجل باستخدام عنوان بريدك الإلكتروني {{email}}. بعد ذلك يمكنك قبول الدعوة في التطبيق.",
+      "toAcceptExistingUser": "لقبول الدعوة افتح farmerJoe والمس قبول.",
+      "ifYouHaveAccountWithOtherEmail": "إذا كان لديك حساب farmerJoe ببريد إلكتروني آخر فاطلب من {{name}} دعوتك باستخدام ذلك البريد الإلكتروني الآخر.",
+      "role": {
+        "admin": "مدير",
+        "standard": "عامل",
+        "advisor": "مستشار"
+      },
+      "workerInvitation": "دعوة"
+    }
+  },
+  "companyAddress": "عنوان الشركة"
+}

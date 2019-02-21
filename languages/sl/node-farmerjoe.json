@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Povabilo za delo v podjetju {{company}}",
+      "companyXInvitedYou": "Farma {{name}} vam želi dodeliti vlogo {{role}} v aplikaciji farmerJoe.",
+      "toAcceptNonUser": "Če želite sprejeti povabilo, namestitite aplikacijo farmerJoe in se prijavite s svojim e-poštnim naslovom {{email}}. Po namestitvi in registraciji lahko sprejmete povabilo v aplikaciji.",
+      "toAcceptExistingUser": "Če želite sprejeti povabilo, odprite aplikacijo farmerJoe in kliknite Sprejmi.",
+      "ifYouHaveAccountWithOtherEmail": "Če ste račun za aplikacijo farmerJoe odprli z drugim e-poštnim naslovom, pošljite zahtevo osebi {{name}}, da vam povabilo pošlje na ta naslov.",
+      "role": {
+        "admin": "Skrbnik",
+        "standard": "Zaposleni",
+        "advisor": "Svetovalec"
+      },
+      "workerInvitation": "Povabilo"
+    }
+  },
+  "companyAddress": "Naslov podjetja"
+}

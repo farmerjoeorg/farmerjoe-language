@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Время ожидания закончилось",
+      "body": "Пестицид: {{pesticide_name}}\nКультура: {{crop_name}}\nПоле: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "анализ почвы",
+      "residue": "анализ остаточных содержаний",
+      "title": "Есть результаты анализа {{analysis_type}}",
+      "body": "Культура: {{crop_name}}\nПоле: {{field_name}}"
+    }
   }
 }

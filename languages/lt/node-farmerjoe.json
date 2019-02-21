@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Kvietimas dirbti „{{company}}“",
+      "companyXInvitedYou": "Ūkis „{{name}}“ nori pridėti jus programoje „farmerJoe“ su šiomis teisėmis: {{role}}.",
+      "toAcceptNonUser": "Jei norite priimti kvietimą, įdiekite programą „farmerJoe“ ir užsiregistruokite naudodami savo el. pašto adresą {{email}}. Tada galėsite priimti kvietimą programoje.",
+      "toAcceptExistingUser": "Jei norite priimti kvietimą, atidarykite „farmerJoe“ ir palieskite „Priimti“.",
+      "ifYouHaveAccountWithOtherEmail": "Jei turite „farmerJoe“ paskyrą, užregistruotą naudojant kitą el. pašto adresą, paprašykite, kad {{name}} jus pakviestų kitu el. pašto adresu.",
+      "role": {
+        "admin": "Administratorius",
+        "standard": "Darbininkas",
+        "advisor": "Konsultantas"
+      },
+      "workerInvitation": "Kvietimas"
+    }
+  },
+  "companyAddress": "Įmonės adresas"
+}

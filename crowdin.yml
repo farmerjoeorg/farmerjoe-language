@@ -127,5 +127,24 @@ files: [
   # e.g. "identifier,source_phrase,context,uk,ru,fr"
   #
   # "scheme" : "",
+ },
+ {
+   #
+   # Source files filter
+   # e.g. "/resources/en/*.json"
+   #
+  "source": "/languages/en/node-farmerjoe.json",                                          #source files filter
+
+   #
+   # where translations live
+   # e.g. "/resources/%two_letters_code%/%original_file_name%"
+   #
+  "translation": "/languages/%two_letters_code%/%original_file_name%",        #where translations are stored
+
+   #
+   # The dest allows you to specify a file name on Crowdin
+   # e.g. "/messages.json"
+   #
+  "dest": "/node-farmerjoe.json",
  }
 ]

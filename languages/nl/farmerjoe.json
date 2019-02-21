@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Wachttijd is beëindigd",
+      "body": "Pesticide: {{pesticide_name}}\nGewas: {{crop_name}}\nVeld: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "bodemanalyse",
+      "residue": "residuanalyse",
+      "title": "Resultaat voor {{analysis_type}} is beschikbaar",
+      "body": "Gewas: {{crop_name}}\nVeld: {{field_name}}"
+    }
   }
 }

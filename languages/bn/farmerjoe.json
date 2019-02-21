@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "অপেক্ষার সময় শেষ হয়েছে",
+      "body": "কীটনাশক: {{pesticide_name}}\nফসল: {{crop_name}}\nজমি: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "মাটি বিশ্লেষণ",
+      "residue": "অবশিষ্টাংশ বিশ্লেষণ",
+      "title": "{{analysis_type}} এর ফলাফল উপলভ্য",
+      "body": "ফসল: {{crop_name}}\nজমি: {{field_name}}"
+    }
   }
 }

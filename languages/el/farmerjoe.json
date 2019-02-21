@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Το διάστημα αναμονής έχει λήξει",
+      "body": "Φυτοφάρμακο: {{pesticide_name}}\nΚαλλιέργεια: {{crop_name}}\nΑγρόκτημα: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "ανάλυση εδάφους",
+      "residue": "ανάλυση υπολειμμάτων",
+      "title": "Το αποτέλεσμα της ανάλυσης {{analysis_type}} είναι διαθέσιμο",
+      "body": "Καλλιέργεια: {{crop_name}}\nΑγρόκτημα: {{field_name}}"
+    }
   }
 }

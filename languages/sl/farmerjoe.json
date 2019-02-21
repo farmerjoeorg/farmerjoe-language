@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Čakalni čas je potekel",
+      "body": "Pesticid: {{pesticide_name}}\nKultura: {{crop_name}}\nPolje: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "analiza tal",
+      "residue": "analiza usedlin",
+      "title": "Rezultati analize za {{analysis_type}} so na voljo",
+      "body": "Kultura: {{crop_name}}\nPolje: {{field_name}}"
+    }
   }
 }

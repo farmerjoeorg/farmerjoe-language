@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "انتهى وقت الانتظار",
+      "body": "المبيد: {{pesticide_name}}\nالمحصول: {{crop_name}}\nالحقل: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "تحليل التربة",
+      "residue": "تحليل البقايا",
+      "title": "النتيجة الخاصة بـ {{analysis_type}} متوفرة",
+      "body": "المحصول: {{crop_name}}\nالحقل: {{field_name}}"
+    }
   }
 }

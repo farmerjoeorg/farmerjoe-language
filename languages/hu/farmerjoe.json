@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "A várakozási idő véget ért",
+      "body": "Növényvédő szer: {{pesticide_name}}\nTermény: {{crop_name}}\nMező: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "talajvizsgálat",
+      "residue": "maradékanyag elemzés",
+      "title": "{{analysis_type}} eredmény rendelkezésre áll",
+      "body": "Haszonnövény: {{crop_name}}\nMező: {{field_name}}"
+    }
   }
 }

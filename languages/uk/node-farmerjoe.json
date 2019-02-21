@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Запрошення на роботу в {{company}}",
+      "companyXInvitedYou": "Ферма {{name}} хоче додати вас як {{role}} в додатку farmerJoe.",
+      "toAcceptNonUser": "Щоб прийняти запрошення, будь ласка встановіть додаток farmerJoe та зареєструйтесь з вашою Електронною адресою {{email}}. Після цього ви зможете прийняти запрошення в Додатку.",
+      "toAcceptExistingUser": "Щоб прийняти запрошення, відкрийте farmerJoe і натисніть Прийняти.",
+      "ifYouHaveAccountWithOtherEmail": "Якщо у вас є обліковий запис у farmerJoe з іншою електронною адресою, попросіть {{name}} запросити вас використовуючи цю адресу.",
+      "role": {
+        "admin": "Адмін",
+        "standard": "Працівник",
+        "advisor": "Радник"
+      },
+      "workerInvitation": "Запрошення"
+    }
+  },
+  "companyAddress": "Адреса компанії"
+}

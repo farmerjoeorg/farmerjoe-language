@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "El tiempo de espera ha finalizado",
+      "body": "Pesticida: {{pesticide_name}}\nCultivo: {{crop_name}}\nCampo: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "análisis de suelos",
+      "residue": "análisis de residuos",
+      "title": "El resultado del {{analysis_type}} está disponible",
+      "body": "Cultivo: {{crop_name}}\nCampo: {{field_name}}"
+    }
   }
 }

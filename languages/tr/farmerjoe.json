@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Bekleme süresi sona erdi",
+      "body": "Pestisit: {{pesticide_name}}\nEkin: {{crop_name}}\nTarla: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "toprak analizi",
+      "residue": "kalıntı analizi",
+      "title": "{{analysis_type}} sonucu hazır",
+      "body": "Ekin: {{crop_name}}\nTarla: {{field_name}}"
+    }
   }
 }

@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Čekací doba skončila",
+      "body": "Pesticid: {{pesticide_name}}\nPlodina: {{crop_name}}\nPole: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "analýza půdy",
+      "residue": "analýza reziduí",
+      "title": "Je k dispozici výsledek pro {{analysis_type}}",
+      "body": "Plodina: {{crop_name}}\nPole: {{field_name}}"
+    }
   }
 }

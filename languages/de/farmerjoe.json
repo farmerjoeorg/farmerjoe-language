@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Farbe oder Emoji wählen",
     "marked": "Feld markiert mit: {0} {1}.",
     "unmarked": "Markierung aufgehoben."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Wartezeit abgelaufen",
+      "body": "Kultur: {{crop_name}}\nFeld: {{field_name}}\nPflanzenschutzmittel: {{pesticide_name}}"
+    },
+    "analysis_result": {
+      "soil": "Bodenanalyse",
+      "residue": "Rückstandsanalyse",
+      "title": "Ergebniss {{analysis_type}}",
+      "body": "Kultur: {{crop_name}}\nFeld: {{field_name}}"
+    }
   }
 }

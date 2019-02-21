@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Meghívás munkára ennél a cégnél: {{company}}",
+      "companyXInvitedYou": "Ez a gazdaság {{name}} {{role}} beosztásban akarja felvenni Önt a farmerJoe alkalmazásban.",
+      "toAcceptNonUser": "A meghívás elfogadásához telepítse a farmerJoe alkalmazást és regisztráljon e-mail címének l {{email}} megadásával. Ezután elfogadhatja a meghívást az alkalmazásban.",
+      "toAcceptExistingUser": "A meghívás elfogadásához nyissa meg a farmerJoe alkalmazást és érintse meg az Accept (elfogadás) elemet.",
+      "ifYouHaveAccountWithOtherEmail": "Ha más e-mail címen már van egy farmerJoe fiókja, kérje meg {{name}}-t, hogy hívja meg Önt azon a másik e-mail címen.",
+      "role": {
+        "admin": "Adminisztrátor",
+        "standard": "Munkavállaló",
+        "advisor": "Tanácsadó"
+      },
+      "workerInvitation": "Meghívó"
+    }
+  },
+  "companyAddress": "Cég címe"
+}

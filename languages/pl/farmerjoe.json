@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Wybierz kolor lub emoji",
     "marked": "Pole zostało oznakowane: {0} {1}.",
     "unmarked": "Oznakowanie zostało usunięte."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Waittime has ended",
+      "body": "Pesticide: {{pesticide_name}}\nCrop: {{crop_name}}\nField: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "Result for {{analysis_type}} is available",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
+    }
   }
 }

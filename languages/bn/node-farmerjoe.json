@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "{{company}} এ কাজ করার আমন্ত্রণ",
+      "companyXInvitedYou": "{{name}} খামার আপনাকে {{role}} হিসাবে farmerJoe অ্যাপে যোগ করতে চাইছে।",
+      "toAcceptNonUser": "আমন্ত্রণ গ্রহণ করতে, অনুগ্রহ করে farmerJoe অ্যাপ ইনস্টল করুন এবং আপনার {{email}} ইমেল ঠিকানা দিয়ে রেজিস্টার করুন। এরপর আপনি অ্যাপে আমন্ত্রণ গ্রহণ করতে পারবেন।",
+      "toAcceptExistingUser": "আমন্ত্রণ গ্রহণ করতে farmerJoe অ্যাপটি খুলে স্বীকার এ টোকা দিন।",
+      "ifYouHaveAccountWithOtherEmail": "যদি আপনার অন্য ইমেল দিয়ে farmerJoe অ্যাকাউন্ট থাকে তাহলে {{name}} কে আপনার অন্য ইমেল দিয়ে আমন্ত্রণ করতে বলুন।",
+      "role": {
+        "admin": "অ্যাডমিন",
+        "standard": "শ্রমিক",
+        "advisor": "পরামর্শদাতা"
+      },
+      "workerInvitation": "আমন্ত্রণ"
+    }
+  },
+  "companyAddress": "কোম্পানির ঠিকানা"
+}

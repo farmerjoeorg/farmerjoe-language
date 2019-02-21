@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Väntetiden är över",
+      "body": "Bekämpningsmedel: {{pesticide_name}}\nGrödor: {{crop_name}}\nFält: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "jordanalys",
+      "residue": "restanalys",
+      "title": "Resultat för {{analysis_type}} är tillgängligt",
+      "body": "Gröda: {{crop_name}}\nFält: {{field_name}}"
+    }
   }
 }

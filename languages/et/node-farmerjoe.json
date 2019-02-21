@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Kutse töötada ettevõttes {{company}}",
+      "companyXInvitedYou": "Farm {{name}} soovib lisada teid kui {{role}} farmerJoe rakenduses.",
+      "toAcceptNonUser": "Et kutse vastu võtta, paigaldage palun farmerJoe rakendus ning registreeruge oma e-posti aadressiga {{email}}. Pärast saate kutse rakenduse sees vastu võtta.",
+      "toAcceptExistingUser": "Kutse vastuvõtmiseks avage farmerJoe ning klõpsake \"nõustun\".",
+      "ifYouHaveAccountWithOtherEmail": "Kui teil on farmerJoe konto teise e-posti aadressiga, palu kasutajal {{name}} kutsuda sind teise e-postiga.",
+      "role": {
+        "admin": "Administraator",
+        "standard": "Töötaja",
+        "advisor": "Nõunik"
+      },
+      "workerInvitation": "Kutse"
+    }
+  },
+  "companyAddress": "Ettevõtte aadress"
+}

@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "Pozvánka k práci v {{company}}",
+      "companyXInvitedYou": "Farma {{name}} vás chce přidat jako {{role}} v aplikaci farmerJoe.",
+      "toAcceptNonUser": "Chcete-li přijmout pozvání, nainstalujte si aplikaci farmerJoe a zaregistrujte vaši e-mailovou adresu {{email}}. Poté můžete přijmout pozvání v aplikaci.",
+      "toAcceptExistingUser": "Pokud chcete přijmout pozvání, otevřete farmerJoe a klepněte na Přijmout.",
+      "ifYouHaveAccountWithOtherEmail": "Pokud již máte farmerJoe účet s jiným e-mailem, požádejte {{name}}, aby vám poslal\/a pozvánku na tento jiný e-mail.",
+      "role": {
+        "admin": "Správce",
+        "standard": "Dělník",
+        "advisor": "Poradce"
+      },
+      "workerInvitation": "Pozvánka"
+    }
+  },
+  "companyAddress": "Adresa společnosti"
+}

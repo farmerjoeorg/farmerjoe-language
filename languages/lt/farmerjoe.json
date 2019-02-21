@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Laukimo laikas baigėsi",
+      "body": "Pesticidas: {{pesticide_name}}\nPasėlis: {{crop_name}}\nLaukas: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "dirvožemio analizė",
+      "residue": "liekanų analizė",
+      "title": "Yra rezultatas: {{analysis_type}}",
+      "body": "Pasėlis: {{crop_name}}\nLaukas: {{field_name}}"
+    }
   }
 }

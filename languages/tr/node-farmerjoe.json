@@ -1,0 +1,18 @@
+{
+  "emails": {
+    "invitations": {
+      "title": "{{company}} şirketinde çalışması için davet et",
+      "companyXInvitedYou": "{{name}} isimli çiftlik sizi farmerJoe uygulamasında {{role}} olarak eklemek istiyor.",
+      "toAcceptNonUser": "Daveti kabul etmek için lütfen farmerJoe uygulamasını yükleyin ve {{email}} E-posta adresinizle kaydolun. Daha sonra, uygulamadaki daveti kabul edebilirsiniz.",
+      "toAcceptExistingUser": "Daveti kabul etmek için farmerJoe'yi açın ve Kabul et'e dokunun.",
+      "ifYouHaveAccountWithOtherEmail": "Başka bir e-posta adresiyle kaydolduğunuz bir farmerJoe hesabınız varsa, {{name}} isimli kullanıcıdan sizi diğer e-posta adresinizle davet etmesini isteyin.",
+      "role": {
+        "admin": "Yönetici",
+        "standard": "İşçi",
+        "advisor": "Danışman"
+      },
+      "workerInvitation": "Davet"
+    }
+  },
+  "companyAddress": "Şirket adresi"
+}

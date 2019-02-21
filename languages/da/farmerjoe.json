@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Ventetiden er forbi",
+      "body": "Pesticider: {{pesticide_name}}\nAfgrøde: {{crop_name}}\nFelt: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "jordbundsanalyse",
+      "residue": "slamanalyse",
+      "title": "Resultat af {{analysis_type}} er tilgængelig",
+      "body": "Afgrøde: {{crop_name}}\nFelt: {{field_name}}"
+    }
   }
 }

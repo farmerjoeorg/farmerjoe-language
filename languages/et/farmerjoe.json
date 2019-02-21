@@ -746,5 +746,17 @@
     "selectColorOrEmoji": "Select color or emoji",
     "marked": "Field has been marked with: {0} {1}.",
     "unmarked": "Field has been unmarked."
+  },
+  "notifications": {
+    "waittime": {
+      "title": "Ooteaeg on lõppenud",
+      "body": "Pestitsiid: {{pesticide_name}}\nKultuur: {{crop_name}}\nPõld: {{field_name}}"
+    },
+    "analysis_result": {
+      "soil": "mullaanalüüs",
+      "residue": "jääkide analüüs",
+      "title": "{{analysis_type}} tulemused on saadaval",
+      "body": "Kultuur: {{crop_name}}\nPõld: {{field_name}}"
+    }
   }
 }
