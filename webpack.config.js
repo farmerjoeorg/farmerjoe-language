@@ -2,7 +2,9 @@
 const path = require('path')
 const glob = require('glob')
 // const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CustomModuleIdsPlugin = require('custom-module-ids-webpack-plugin')
 
+let i = 1
 module.exports = {
   output:       {
     path:          path.resolve(__dirname, 'dist'),
@@ -45,5 +47,12 @@ module.exports = {
         return chunks.length > 1 || chunks.length === 0 ? `languages/${cacheGroupKey}` : chunks[0].name
       }
     }
-  }
+  },
+  plugins: [
+    new CustomModuleIdsPlugin({
+      idFunction: function(libIdent, module) {
+        return 'fjlang' + i++
+      }
+    })
+  ]
 }
