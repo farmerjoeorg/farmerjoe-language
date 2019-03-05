@@ -12,6 +12,29 @@
         "advisor": "Mitarbeiter"
       },
       "workerInvitation": "Mitarbeiter Einladung"
+    },
+    "labInvitations": {
+      "title": "Zugangsdaten für Farmerjoe Labs",
+      "workerInvitation": "Einladung",
+      "XgivenAccessToYou": "{{inviter}} hat Ihnen Zungang zu Ihrer Farmerjoe Labs Seite bereitgestellt.",
+      "accountCreatedForYou": "Ein Konto wurde Ihnen bereitgestellt:",
+      "loginHere": "Hier einloggen",
+      "changePassword": "Um das Passwort zu ändern loggen Sie sich auf der Seite ein und bearbeiten Sie Ihren Account.",
+      "yourUsername": "Benutzername",
+      "yourPassword": "Passwort"
+    },
+    "analysisDeadline": {
+      "title": "Die Frist für die Analyse {{analyse_number}} läuft bald ab"
+    },
+    "newApiKey": {
+      "subject": "Ein neuer API-Schlüssel für {{company}}",
+      "title": "API-Schlüssel-Erzeugung",
+      "message": "Ein neuer API-Schlüssel ({{keyName}}) für {{company}} wurde von {{created_by}} erzeugt."
+    },
+    "updatedApiKey": {
+      "subject": "Ein API-Schlüssel für {{company}} wurde aktualisiert",
+      "title": "API-Schlüssel-Aktualisierung",
+      "message": "Ein API-Schlüssel ({{keyName}}) für {{company}} wurde von {{created_by}} aktualisiert."
     }
   },
   "companyAddress": "Betriebsadresse"
