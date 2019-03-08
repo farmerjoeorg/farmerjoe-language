@@ -758,5 +758,19 @@
       "title": "Result for {{analysis_type}} is available",
       "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
   }
 }

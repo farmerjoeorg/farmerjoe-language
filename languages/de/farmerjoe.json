@@ -758,5 +758,19 @@
       "title": "Ergebniss {{analysis_type}}",
       "body": "Kultur: {{crop_name}}\nFeld: {{field_name}}"
     }
+  },
+  "irrigation": {
+    "irrigationType": "Bewässerungsart",
+    "types": {
+      "drip": "Tröpfchenbewässerung",
+      "sprinkler": "Kleinregner",
+      "machine": "Regenmachine",
+      "flood": "Fluten"
+    },
+    "waterOrigin": {
+      "wells": "Brunnen",
+      "river": "Fluss",
+      "waterNetwork": "Öffentliches Netz"
+    }
   }
 }
