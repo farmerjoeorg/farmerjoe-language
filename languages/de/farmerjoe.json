@@ -767,7 +767,8 @@
       "machine": "Regenmachine",
       "flood": "Fluten"
     },
-    "waterOrigin": {
+    "waterOrigin": "Wasserherkunft",
+    "waterOriginTypes": {
       "wells": "Brunnen",
       "river": "Fluss",
       "waterNetwork": "Öffentliches Netz"

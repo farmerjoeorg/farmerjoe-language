@@ -767,7 +767,8 @@
       "machine": "Irrigation machine",
       "flood": "Flood"
     },
-    "waterOrigin": {
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
       "wells": "Wells",
       "river": "River",
       "waterNetwork": "Public water network"
