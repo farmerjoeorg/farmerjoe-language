@@ -716,6 +716,23 @@
     "creatingUserFor": "Creating user for {{groupName}}",
     "noEmployees": "This producer has no employees."
   },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
+  },
   "polygon": {
     "fieldCoordinates": "Field coordinates",
     "fieldCenter": "Field center",

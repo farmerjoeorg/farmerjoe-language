@@ -716,6 +716,23 @@
     "creatingUserFor": "Sie erstellen ein Benutzer für {{groupName}}",
     "noEmployees": "Dieser Produzent hat keine Mitarbeiter."
   },
+  "traders": {
+    "all": "Alle Händler",
+    "noTraderForField": "kein Händler",
+    "single": "Händler",
+    "plural": "Händler",
+    "add": "Händler hinzufügen",
+    "edit": "Händler bearbeiten",
+    "name": "Händlername",
+    "select": "Händler auswählen",
+    "noTrader": "Noch keine Händler angelegt.",
+    "location": "Händler positionieren",
+    "number": "Händlernummer",
+    "delete": "Händler löschen",
+    "doYouWantToDelete": "Wollen Sie wirklich den Händler löschen?",
+    "creatingUserFor": "Sie erstellen ein Benutzer für {{groupName}}",
+    "noEmployees": "Dieser Händler hat keine Mitarbeiter."
+  },
   "polygon": {
     "fieldCoordinates": "Feldkoordinaten",
     "fieldCenter": "Feldmittelpunkt",
