@@ -134,13 +134,13 @@
     "show": "Zobrazit pole",
     "dropFilesHere": "Přetáhněte soubory sem",
     "followingFilesAreUnsupported": "Následující soubory nejsou podporovány:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "createdDate": "Datum vytvoření pole",
+    "created_by": "Pole bylo vytvořeno uživatelem",
+    "modified": "Datum změny pole",
+    "modified_by": "Pole bylo změněno uživatelem",
+    "state": "Stav pole",
+    "distance": "Vzdálenost k poli",
+    "analyses": "Počet analýz"
   },
   "no_email_no_password_entered": "Nezadali jste e-mail a heslo",
   "pleaseWaitImageIsBeingUploaded": "Počkejte prosím, obrázek bude nahrán",
@@ -160,7 +160,7 @@
       "upload": "Vyberte logo společnosti",
       "camera": "Přijmout nové logo společnosti"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "Opravdu chcete odstranit tuto farmu?\nVaše data nemohou být obnovena!"
   },
   "crop": {
     "cancelCultivation": "Zrušit plánované plodiny",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "Zvolená plodina neexistuje.",
     "protection": "Ochrana rostlin",
     "activeCrops": "Aktivní plodiny",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "Datum vytvoření plodiny",
+    "created_by": "Plodinu vytvořil uživatel",
+    "favorite": "Plodina je oblíbená",
+    "harvested_on": "Datum sklizně",
+    "lastComment": "Poslední komentář",
+    "modified": "Datum změny plodiny",
+    "sown_on": "Datum setby"
   },
   "fertilizer": {
     "fertilization": "Hnojení",
@@ -267,10 +267,10 @@
     "min6char": "Heslo musí mít délku nejméně 6 znaků.",
     "reset": "Obnovení hesla",
     "resetHelp": "Zadejte své nové heslo níže.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "Vypršela platnost odkazu na obnovení hesla, na který jste klikli. Požádejte prosím o nové obnovení hesla.",
+    "invalidActionCode": "Odkaz na heslo, na který jste klikli, je buď poškozený, nebo byl již použit.",
+    "userDisabled": "Uživatel byl zakázán.",
+    "userNotFound": "Uživatel nebyl nalezen."
   },
   "noSearchResults": "Žádné výsledky.",
   "login": "Přihlášení",
@@ -339,13 +339,13 @@
     "choseEmail": "Zvolte e-mail",
     "employeeIsDeactivated": "Zaměstnanec je deaktivován",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "Nejsou vybrána žádná pole",
+      "other": "{{count}} vybraných polí",
+      "one": "Bylo vybráno 1 pole."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Vybrat pole",
+    "countryRestrictionLabel": "Omezit podle země",
+    "countryRestrictionDesc": "Pokud omezíte uživatele podle země, nebude schopen zobrazit pole, která nepatří do této země."
   },
   "search": "Hledat",
   "satellite": "Satelit",
@@ -388,17 +388,17 @@
   "map": "Mapy",
   "maps": {
     "pressToSetPin": "Klikněte na mapu k umístění špendlíku.",
-    "searchAddress": "Address search",
+    "searchAddress": "Vyhledání adresy",
     "clickToShowMore": "Klepnutím zobrazíte více",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "Měření vzdálenosti",
+    "measureDesc": "Posuňte mapu a nastavte pin.",
+    "drawField": "Nakreslit mnohoúhelník ve tvaru pole",
+    "drawFieldDesc": "Posuňte mapu a nastavte pin.",
+    "drawFieldSave": "Uložte mnohoúhelník jako pole.",
+    "deletePolygon": "Odstranit mnohoúhelník",
+    "deleteMeasurement": "Odstranit měření vzdálenosti",
     "styles": {
-      "black": "Black"
+      "black": "Černá"
     }
   },
   "no_email_entered": "Nezadali jste e-mailovou adresu.",
@@ -556,7 +556,7 @@
         "message": "Uživatel je správcem a má přístup na všechna pole ve společnosti. Pokud mu chcete zakázat přístup k tomuto poli a ostatním polím, budete mu muset přidělit profil normálního uživatele."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "Uživatel má přístup do všech polí ve společnosti. Pokud chcete zakázat jeho přístup k tomuto poli a ostatním polím, budete muset upravit jeho profil a změnit jeho přístup ze všech polí pouze na pole, která vyberete."
       },
       "forbidFieldAlert": {
         "message": "Opravdu chcete zakázat uživateli {{name}} přístup k tomuto poli?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "Vyberte níže, co je uživatel schopen dělat s čekací dobou."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Omezení země"
   },
   "near": {
     "by": "Poblíž",
@@ -669,83 +669,100 @@
     "generate": "Generovat nový klíč",
     "key": "Klíč",
     "enabled": "Povoleno",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "API klíče poskytují plný přístup k datům vaší farmy ve farmerJoe, tak je držte v bezpečí. Můžete si najít dokumentaci {0}.",
     "descriptionLink": "zde",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "Název",
+    "ipFiltering": "Filtrování IP adres",
+    "ipFilter": "Povolené IP adresy",
+    "ipFilterHelp": "Čárkami oddělený seznam IP adres a rozsahů IP adres. Například: 127.0.0.1, 10.0.0.0/24, 2001:db8:: /48",
+    "noKeys": "Nejsou k dispozici žádné API klíče",
+    "user": "Uživatel"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "Protokol API",
+    "result": "Výsledek",
+    "ipAddress": "Zdrojová adresa IP",
+    "method": "Metoda",
+    "execTime": "Doba provádění",
+    "userAgent": "Uživatelský agent",
+    "version": "Verze",
+    "response": "Odpověď",
+    "noResults": "Žádné výsledky",
+    "description": "Seznam ukazuje rozhraní požadavků API z posledních 24 hodin."
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "Konfigurovat sloupce",
+    "possibleColumns": "Dostupné sloupce",
+    "chosenColumns": "Vybrané sloupce",
+    "dragHere": "Přetáhněte sem"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "Všichni výrobci",
+    "recentlyUsed": "Nedávno použité",
+    "noProducerForField": "Není k dispozici žádný výrobce",
+    "single": "Výrobce",
+    "plural": "Výrobci",
+    "add": "Přidat výrobce",
+    "edit": "Upravit výrobce",
+    "name": "Jméno výrobce",
+    "select": "Vyberte výrobce",
+    "createUser": "Vytvořit jako admin pro výrobce",
+    "contactPerson": "Kontaktní osoba",
+    "noProducer": "Žádný výrobce dosud nebyl vytvořen.",
+    "location": "Poloha výrobce",
+    "number": "Číslo výrobce",
+    "delete": "Smazat výrobce",
+    "doYouWantToDeleteProducer": "Opravdu chcete smazat tohoto výrobce?",
+    "creatingUserFor": "Probíhá vytváření uživatele pro {{groupName}}",
+    "noEmployees": "Tento výrobce nemá žádné zaměstnance."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "fieldCoordinates": "Souřadnice pole",
+    "fieldCenter": "Centrum polí",
+    "calculatedSizeInHa": "Vypočítaná velikost v ha",
+    "panningMode": "Vytvořit panorama",
+    "drawingMode": "Nakreslit mnohoúhelník",
+    "reset": "Obnovit",
+    "hideMarkers": "Skrýt značky",
+    "measureMode": "Měření",
+    "hideDistanceMarkers": "Skrýt délku strany mnohoúhelníku"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Zpět",
+  "redo": "Znovu",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Záznam změn",
+    "optional": "Aktualizace k dispozici",
+    "required": "Požadovaná aktualizace",
+    "optionalUpdateDesc": "K dispozici je nová aktualizace pro aplikaci farmerJoe. Klepněte na tlačítko Aktualizovat.",
+    "requiredUpdateDesc": "Pokud chcete i nadále používat farmerJoe, je třeba nainstalovat nejnovější aktualizace.",
+    "updateNow": "Aktualizovat nyní"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Značky",
+    "markField": "Označit pole",
+    "deleteMark": "Zrušit označení pole",
+    "doYouReallyWantToDelete": "Opravdu chcete zrušit označení pole?",
+    "reason": "Důvod",
+    "selectColorOrEmoji": "Vyberte barvu nebo emoji",
+    "marked": "Pole bylo označeno pomocí: {0} {1}.",
+    "unmarked": "Označení pole bylo zrušeno."
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "Je k dispozici výsledek pro {{analysis_type}}",
       "body": "Plodina: {{crop_name}}\nPole: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

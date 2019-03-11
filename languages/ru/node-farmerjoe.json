@@ -14,27 +14,27 @@
       "workerInvitation": "Приглашение"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Доступ к странице управления анализами {{labName}}",
+      "workerInvitation": "Приглашение",
+      "XgivenAccessToYou": "{{inviter}} дал вам доступ к странице управления анализами лаборатории {{labName}}.",
+      "accountCreatedForYou": "Для вас была создана учетная запись:",
+      "loginHere": "Вход в систему здесь",
+      "changePassword": "Вы можете изменить свой пароль с помощью меню пользователя в правом верхнем углу страницы.",
+      "yourUsername": "Имя пользователя",
+      "yourPassword": "Пароль"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Приближается срок выполнения анализа {{analyse_number}}"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Новый ключ API для {{company}}",
+      "title": "Новый ключ API",
+      "message": "{{created_by}} создал(а) новый ключ API ({{keyName}}) для {{company}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Ключ API для {{company}} был обновлен",
+      "title": "Обновление ключа API",
+      "message": "{{created_by}} обновил(а) ключ API ({{keyName}}) для {{company}}."
     }
   },
   "companyAddress": "Адрес компании"

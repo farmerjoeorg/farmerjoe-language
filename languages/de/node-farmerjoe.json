@@ -28,8 +28,8 @@
     },
     "newApiKey": {
       "subject": "Ein neuer API-Schlüssel für {{company}}",
-      "title": "API-Schlüssel-Erzeugung",
-      "message": "Ein neuer API-Schlüssel ({{keyName}}) für {{company}} wurde von {{created_by}} erzeugt."
+      "title": "Neuer API-Schlüssel erstellt",
+      "message": "Ein neuer API-Schlüssel ({{keyName}}) für {{company}} wurde von {{created_by}} erstellt."
     },
     "updatedApiKey": {
       "subject": "Ein API-Schlüssel für {{company}} wurde aktualisiert",

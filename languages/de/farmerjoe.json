@@ -249,7 +249,7 @@
   "position": "Standort",
   "harvested": "Geerntet",
   "friends": {
-    "shortShareMessage": "Probiere farmerJoe für dein Smartphone aus. Lade ihn einfach von {{url}} herunter.",
+    "shortShareMessage": "Hallo,\nmit farmerJoe kannst du einfach Feldnotizen durchführen und Mitarbeiter integrieren.\nHol dir die App gratis bei {{url}}.",
     "inform": "Freunde informieren",
     "emailMessage": "Hey,\n\nich habe gerade farmerJoe auf mein {{phone}} heruntergeladen.\n        \nDas ist eine Agrardokumentationsapp, die sehr einfach zu bedienen ist. Mit der App kann man seine Felder und Kulturen auf der Karte sehen und zu jeder Kultur Notizen schreiben, auch mit Bild, Wartezeiten und Düngungen eingeben, und Boden- und Rückstandsanalysen mit ein paar Klicks bestellen und verwalten.\n\nfarmerJoe ist für iPhone und Android erhältlich.      \n\nInstalliere farmerJoe von {{url}}."
   },

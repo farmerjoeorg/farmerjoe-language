@@ -14,27 +14,27 @@
       "workerInvitation": "Uitnodiging"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Toegang tot de analysebeheerpagina van {{labName}}",
+      "workerInvitation": "Uitnodiging",
+      "XgivenAccessToYou": "{{inviter}} heeft u toegang gegeven tot de analysebeheerpagina van {{labName}}.",
+      "accountCreatedForYou": "Er is een account voor u aangemaakt:",
+      "loginHere": "Meld u hier aan",
+      "changePassword": "U kunt uw wachtwoord wijzigen door het gebruikersmenu rechtsboven op de pagina te gebruiken.",
+      "yourUsername": "Gebruikersnaam",
+      "yourPassword": "Wachtwoord"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "De einddatum voor de analyse {{analyse_number}} nadert"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Een nieuwe API-sleutel voor {{company}}",
+      "title": "Nieuwe API-sleutel",
+      "message": "Er is een nieuwe API-sleutel ({{keyName}}) voor {{company}} gegenereerd door {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Een API-sleutel voor {{company}} is bijgewerkt",
+      "title": "Bijwerking van API-sleutel",
+      "message": "Er is een API-sleutel ({{keyName}}) voor {{company}} bijgewerkt door {{created_by}}."
     }
   },
   "companyAddress": "Bedrijfsadres"

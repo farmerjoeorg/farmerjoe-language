@@ -134,13 +134,13 @@
     "show": "Rodyti lauką",
     "dropFilesHere": "Nuvilkite failus čia",
     "followingFilesAreUnsupported": "Šie failai nepalaikomi:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "createdDate": "Lauko sukūrimo data",
+    "created_by": "Lauką sukūrė",
+    "modified": "Lauko keitimo data",
+    "modified_by": "Lauką pakeitė",
+    "state": "Lauko būsena",
+    "distance": "Atstumas iki lauko",
+    "analyses": "Analizių skaičius"
   },
   "no_email_no_password_entered": "Neįvedėte el. pašto adreso ir slaptažodžio",
   "pleaseWaitImageIsBeingUploaded": "Palaukite. Vaizdas įkeliamas.",
@@ -160,7 +160,7 @@
       "upload": "Pasirinkti įmonės logotipą",
       "camera": "Nufotografuoti naują įmonės logotipą"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "Ar tikrai norite ištrinti šį ūkį?\nDuomenų atkurti negalėsite!"
   },
   "crop": {
     "cancelCultivation": "Atšaukti planuotus pasėlius",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "Pasirinkto pasėlio nėra.",
     "protection": "Augalų apsauga",
     "activeCrops": "Aktyvūs pasėliai",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "Pasėlių sukūrimo data",
+    "created_by": "Pasėlius sukūrė",
+    "favorite": "Pasėliai išsaugoti kaip mėgstami",
+    "harvested_on": "Derliaus nuėmimo data",
+    "lastComment": "Paskutinis komentaras",
+    "modified": "Pasėlių keitimo data",
+    "sown_on": "Sėjos data"
   },
   "fertilizer": {
     "fertilization": "Tręšimas",
@@ -267,10 +267,10 @@
     "min6char": "Slaptažodį turi sudaryti bent 6 ženklai.",
     "reset": "Nustatykite slaptažodį iš naujo",
     "resetHelp": "Žemiau įveskite naują slaptažodį.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "Spustelėta slaptažodžio nustatymo iš naujo nuoroda nebegalioja. Pateikite naują slaptažodžio nustatymo iš naujo užklausą.",
+    "invalidActionCode": "Spustelėta slaptažodžio nuoroda yra netinkama arba jau buvo panaudota.",
+    "userDisabled": "Naudotojas neaktyvus.",
+    "userNotFound": "Naudotojas nerastas."
   },
   "noSearchResults": "Rezultatų nėra.",
   "login": "Prisijungti",
@@ -339,13 +339,13 @@
     "choseEmail": "Pasirinkite el. pašto adresą",
     "employeeIsDeactivated": "Darbuotojas išaktyvintas",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "Laukų nepasirinkta",
+      "other": "Pasirinkta laukų: {{count}}",
+      "one": "Pasirinkta laukų: 1."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Pasirinkti laukus",
+    "countryRestrictionLabel": "Apriboti pagal šalį",
+    "countryRestrictionDesc": "Jei apribosite naudotoją pagal šalį, jis negalės matyti tai šaliai nepriklausančių laukų."
   },
   "search": "Paieška",
   "satellite": "Palydovas",
@@ -388,17 +388,17 @@
   "map": "Žemėlapiai",
   "maps": {
     "pressToSetPin": "Norėdami nustatyti vietos smeigtuką, spustelėkite žemėlapyje.",
-    "searchAddress": "Address search",
+    "searchAddress": "Adreso paieška",
     "clickToShowMore": "Spustelėkite, kad būtų parodyta daugiau",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "Matuoti atstumą",
+    "measureDesc": "Slinkite žemėlapį ir nustatykite smeigtuką.",
+    "drawField": "Brėžti lauko daugiakampį",
+    "drawFieldDesc": "Slinkite žemėlapį ir nustatykite smeigtuką.",
+    "drawFieldSave": "Išsaugokite daugiakampį kaip lauką.",
+    "deletePolygon": "Ištrinti daugiakampį",
+    "deleteMeasurement": "Ištrinti atstumo matavimą",
     "styles": {
-      "black": "Black"
+      "black": "Juodas"
     }
   },
   "no_email_entered": "Neįvedėte el. pašto adreso.",
@@ -556,7 +556,7 @@
         "message": "Naudotojas yra administratorius ir turi prieigą prie visų laukų įmonėje. Jei norite uždrausti jo prieigą prie šio lauko ir kitų laukų, turite jį padaryti paprastu naudotoju."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "Naudotojas turi prieigą prie visų įmonės laukų. Jei norite uždrausti jo prieigą prie šio ir kitų laukų, turite redaguoti jo profilį ir pakeisti jo dabartinę prieigą prie visų laukų į tokią, kad galėtų pasiekti tik jūsų pasirinktus laukus."
       },
       "forbidFieldAlert": {
         "message": "Ar tikrai norite uždrausti {{name}} prieigą prie šio lauko?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "Toliau pasirinkite, ką naudotojas gali atlikti su laukimo laikais."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Šalies apribojimas"
   },
   "near": {
     "by": "Netoli",
@@ -669,83 +669,100 @@
     "generate": "Generuoti naują raktą",
     "key": "Raktas",
     "enabled": "Įgalinta",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "API raktai suteikia neribotą prieigą prie „farmerJoe“ ūkio duomenų, todėl laikykite juos saugiai. Dokumentaciją galite rasti {0}.",
     "descriptionLink": "čia",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "Pavadinimas",
+    "ipFiltering": "IP adresų filtravimas",
+    "ipFilter": "Leidžiami IP adresai",
+    "ipFilterHelp": "Kableliais atskirtų IP adresų ir jų diapazonų sąrašas. Pavyzdžiui: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "API raktų nėra",
+    "user": "Naudotojas"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "API žurnalas",
+    "result": "Rezultatas",
+    "ipAddress": "Šaltino IP adresas",
+    "method": "Metodas",
+    "execTime": "Vykdymo laikas",
+    "userAgent": "Naudotojo agentas",
+    "version": "Versija",
+    "response": "Atsakymas",
+    "noResults": "Rezultatų nėra",
+    "description": "Šiame sąraše rodomi pastarųjų 24 valandų API iškvietimai."
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "Stulpelių konfigūravimas",
+    "possibleColumns": "Prieinami stulpeliai",
+    "chosenColumns": "Pasirinkti stulpeliai",
+    "dragHere": "Nuvilkite čia"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "Visi gamintojai",
+    "recentlyUsed": "Paskutiniai naudoti",
+    "noProducerForField": "Gamintojo nėra",
+    "single": "Gamintojas",
+    "plural": "Gamintojai",
+    "add": "Pridėti gamintoją",
+    "edit": "Redaguoti gamintoją",
+    "name": "Gamintojo pavadinimas",
+    "select": "Pasirinkti gamintoją",
+    "createUser": "Kurti kaip gamintojo administratorių",
+    "contactPerson": "Kontaktinis asmuo",
+    "noProducer": "Gamintojų dar nesukurta.",
+    "location": "Gamintojo vieta",
+    "number": "Gamintojo numeris",
+    "delete": "Ištrinti gamintoją",
+    "doYouWantToDeleteProducer": "Ar tikrai norite ištrinti šį gamintoją?",
+    "creatingUserFor": "Kuriamas grupės „{{groupName}}“ naudotojas",
+    "noEmployees": "Šis gamintojas neturi darbuotojų."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "fieldCoordinates": "Lauko koordinatės",
+    "fieldCenter": "Lauko centras",
+    "calculatedSizeInHa": "Apskaičiuotas dydis hektarais",
+    "panningMode": "Slinkimas",
+    "drawingMode": "Brėžti daugiakampį",
+    "reset": "Nustatyti iš naujo",
+    "hideMarkers": "Slėpti žymeklius",
+    "measureMode": "Matavimas",
+    "hideDistanceMarkers": "Slėpti daugiakampio kraštinės ilgį"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Anuliuoti",
+  "redo": "Perdaryti",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Keitimų žurnalas",
+    "optional": "Yra naujinys",
+    "required": "Būtinas naujinys",
+    "optionalUpdateDesc": "Išleistas programos „farmerJoe“ naujinys. Palieskite toliau esantį mygtuką, kad atnaujintumėte.",
+    "requiredUpdateDesc": "Jei norite toliau naudoti „farmerJoe“, turite įdiegti naujinį.",
+    "updateNow": "Naujinti dabar"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Žymės",
+    "markField": "Žymėti lauką",
+    "deleteMark": "Panaikinti lauko žymę",
+    "doYouReallyWantToDelete": "Ar tikrai norite panaikinti lauko žymę?",
+    "reason": "Priežastis",
+    "selectColorOrEmoji": "Pasirinkite spalvą arba „emoji“ ženklą",
+    "marked": "Laukas pažymėtas: {0} {1}.",
+    "unmarked": "Lauko žymė panaikinta."
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "Yra rezultatas: {{analysis_type}}",
       "body": "Pasėlis: {{crop_name}}\nLaukas: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

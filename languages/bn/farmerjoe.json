@@ -134,12 +134,12 @@
     "show": "চাষের জমি দেখান",
     "dropFilesHere": "এখানে ফাইলগুলি ড্রপ করুন",
     "followingFilesAreUnsupported": "নিম্নলিখিত ফাইলগুলি অসমর্থিত:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
+    "createdDate": "চাষের জমি তৈরির তারিখ",
+    "created_by": "চাষের জমি তৈরি করেছেন",
+    "modified": "চাষের জমি সংশোধনের তারিখ",
+    "modified_by": "চাষের জমি সংশোধন করেছেন",
+    "state": "চাষের জমির অবস্থা",
+    "distance": "চাষের জমির থেকে দূরত্ব",
     "analyses": "Analysis count"
   },
   "no_email_no_password_entered": "আপনি কোনও ইমেল ও পাসওয়ার্ড দেননি",
@@ -160,7 +160,7 @@
       "upload": "কোম্পানির লোগো নির্বাচন করুন",
       "camera": "কোম্পানির একটি নতুন লোগো লাগান"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "আপনি কি সত্যিই এই খামারটি মুছে ফেলতে চান?\nআপনার তথ্য পুনরুদ্ধার করা যাবে না!"
   },
   "crop": {
     "cancelCultivation": "পরিকল্পিত ফসল বাতিল করুন",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "নির্বাচিত ফসলটির অস্তিত্ব নেই।",
     "protection": "রোপণ সুরক্ষা",
     "activeCrops": "সক্রিয় ফসল",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "ফসল তৈরির তারিখ",
+    "created_by": "ফসল তৈরি করেছেন",
+    "favorite": "পছন্দের ফসল",
+    "harvested_on": "ফসল তোলার তারিখ",
+    "lastComment": "শেষ মন্তব্য",
+    "modified": "ফসল সংশোধনের তারিখ",
+    "sown_on": "বপণ করার তারিখ"
   },
   "fertilizer": {
     "fertilization": "উর্বরতা-সাধন",
@@ -267,10 +267,10 @@
     "min6char": "পাসওয়ার্ড অন্তত 6 অক্ষরের দীর্ঘ হতে হবে",
     "reset": "আপনার পাসওয়ার্ড রিসেট করুন",
     "resetHelp": "নিচে আপনার নতুন পাসওয়ার্ডটি লিখুন।",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "আপনি যে পাসওয়ার্ড রিসেট লিঙ্কে ক্লিক করেছেন সেটির মেয়াদ উত্তীর্ণ হয়ে গেছে। অনুগ্রহ করে একটি নতুন পাসওয়ার্ড রিসেটের অনুরোধ করুন।",
+    "invalidActionCode": "আপনি যে পাসওয়ার্ড লিঙ্কে ক্লিক করেছেন হয় সেটি ঠিক মতো তৈরি করা হয়নি অথবা ব্যবহৃত হচ্ছে।",
+    "userDisabled": "ব্যবহারকারী অক্ষম করা হয়েছে।",
+    "userNotFound": "ব্যবহারকারী খুঁজে পাওয়া যায়নি।"
   },
   "noSearchResults": "কোনো ফলাফল নেই।",
   "login": "লগ ইন",
@@ -339,13 +339,13 @@
     "choseEmail": "ইমেল বেছে নিন",
     "employeeIsDeactivated": "কর্মচারী নিষ্ক্রিয় আছে",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "কোনও জমি নির্বাচন করা নেই",
+      "other": "{{count}}টি জমি নির্বাচন করা হয়েছে",
+      "one": "1টি জমি নির্বাচন করা হয়েছে।"
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "জমি নির্বাচন করুন",
+    "countryRestrictionLabel": "দেশ অনুযায়ী সীমিত",
+    "countryRestrictionDesc": "যদি আপনি দেশ অনুসারে ব্যবহারকারী সীমিত করেন, তাহলে তিনি জমি দেখতে পাবেন না এবং জমি সেই দেশের অন্তর্ভুক্ত থাকবে না।"
   },
   "search": "অনুসন্ধান",
   "satellite": "উপগ্রহ",
@@ -388,17 +388,17 @@
   "map": "ম্যাপ",
   "maps": {
     "pressToSetPin": "লোকেশন পিন সেট করতে ম্যাপ টিপুন।",
-    "searchAddress": "Address search",
+    "searchAddress": "ঠিকানা সন্ধান করুন",
     "clickToShowMore": "আরও জানতে ক্লিক করুন",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "দূরত্ব পরিমাপ করুন",
+    "measureDesc": "মানচিত্র সরান এবং পিন করুন।",
+    "drawField": "জমির বহুভুজ অঙ্কন করুন",
+    "drawFieldDesc": "মানচিত্র সরান এবং পিন করুন।",
+    "drawFieldSave": "বহুভুজ জমি হিসেবে সেভ করুন।",
+    "deletePolygon": "বহুভুজ মুছে ফেলুন",
+    "deleteMeasurement": "দূরত্ব পরিমাপ মুছে ফেলুন",
     "styles": {
-      "black": "Black"
+      "black": "কালো"
     }
   },
   "no_email_entered": "আপনি কোনও ইমেল ঠিকানা দেননি।",
@@ -556,7 +556,7 @@
         "message": "ব্যবহারকারী একজন প্রশাসক এবং কোম্পানির সমস্ত জমির অ্যাক্সেস আছে। যদি আপনি এই জমিতে ও অন্যান্য জমিতে আপনার অ্যাক্সেস নিষেধ করতে চান তাহলে আপনাকে তাকে একজন স্বাভাবিক ব্যবহারকারী করতে হবে।"
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "কোম্পানির সমস্ত জমিতে ব্যবহারকারীর প্রবেশাধিকার আছে। এই জমিতে ও অন্যান্য জমিতে তার প্রবেশিকার নিষেধ করতে চাইলে আপনাকে তার প্রোফাইল সম্পাদনা করতে হবে এবং সমস্ত জমি থেকে প্রবেশাধিকার বন্ধ করে আপনার নির্বাচিত জমিতে কেবল প্রবেশাধিকার দিন।"
       },
       "forbidFieldAlert": {
         "message": "এই জমির জন্য কি আপনি {{name}} এর অ্যাক্সেস নিষেধ করতে চান?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "অপেক্ষা সময়ের মাধ্যমে ব্যবহারকারী কি কি করতে পারবেন তা নিচে নির্বাচন করুন।"
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "দেশের নিষেধাজ্ঞা"
   },
   "near": {
     "by": "কাছাকাছি",
@@ -669,83 +669,100 @@
     "generate": "নতুন কী তৈরি করুন",
     "key": "কী",
     "enabled": "সক্ষমিত",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "API কীগুলি আপানার farmerJoe জমির তথ্যের সম্পূর্ণ প্রবেশাধিকার প্রদান করে, তাই সেগুলিকে নিরাপদে রাখুন। আপনি এখানে {0} নথি রয়েছে।",
     "descriptionLink": "এখানে",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "নাম",
+    "ipFiltering": "আইপি ফিল্টারিং",
+    "ipFilter": "অনুমোদিত IP ঠিকানা",
+    "ipFilterHelp": "IP ঠিকানা এবং IP ঠিকানার পরিসরের একটি কমা দ্বারা পৃথক করা তালিকা। উদাহরণস্বরুরুপ: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "কোনও API কী নেই",
+    "user": "ব্যবহারকারী"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "API লগ",
+    "result": "ফলাফল",
+    "ipAddress": "উৎস IP ঠিকানা",
+    "method": "পদ্ধতি",
+    "execTime": "সম্পাদনার সময়",
+    "userAgent": "ব্যবহারকারী এজেন্ট",
+    "version": "সংস্করণ",
+    "response": "উত্তর",
+    "noResults": "কোনও ফলাফল নেই।",
+    "description": "তালিকাটিতে গত 24 ঘণ্টার API কল দেখাবে।"
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "কলাম কনফিগার করুন",
+    "possibleColumns": "উপলভ্য কলাম",
+    "chosenColumns": "নির্বাচিত কলাম",
+    "dragHere": "এখানে টানুন"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "সমস্ত নির্মাতা",
+    "recentlyUsed": "সম্প্রতি ব্যবহৃত",
+    "noProducerForField": "কোনও নির্মাতা নেই",
+    "single": "নির্মাতা",
+    "plural": "নির্মাতা",
+    "add": "নির্মাতা যোগ করুন",
+    "edit": "নির্মাতা সম্পাদনা করুন",
+    "name": "নির্মাতার নাম",
+    "select": "নির্মাতা নির্বাচন করুন",
+    "createUser": "নির্মাতার জন্য অ্যাডমিন হিসাবে তৈরি করুন",
+    "contactPerson": "যে ব্যক্তির সাথে যোগাযোগ করতে হবে",
+    "noProducer": "এখনও কোনও নির্মাতা তৈরি করা হয়নি।",
+    "location": "নির্মাতার অবস্থান",
+    "number": "নির্মাতার নম্বর",
+    "delete": "নির্মাতা মুছুন",
+    "doYouWantToDeleteProducer": "আপনি কি সত্যিই এই নির্মাতাকে মুছে ফেলতে চান?",
+    "creatingUserFor": "{{groupName}} এর জন্য ব্যবহারকারী তৈরি করা হচ্ছে",
+    "noEmployees": "এই নির্মাতার কোনও কর্মী নেই।"
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
+    "fieldCoordinates": "জমির স্থানাঙ্ক",
+    "fieldCenter": "জমির কেন্দ্র",
     "calculatedSizeInHa": "Calculated size in ha",
     "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "drawingMode": "বহুভুজ অঙ্কন করুন",
+    "reset": "রিসেট করুন",
+    "hideMarkers": "মার্কার চিহ্নিত করুন",
+    "measureMode": "পরিমাপ",
+    "hideDistanceMarkers": "বহুভুজের পাশের দৈর্ঘ্য লুকান"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "পূর্বাবস্থায় ফেরান",
+  "redo": "আগের অবস্থায় নিয়ে যান",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "পরিবর্তনের লগ",
+    "optional": "আপডেট উপলব্ধ",
+    "required": "প্রয়োজনীয় আপডেট",
+    "optionalUpdateDesc": "FarmerJoe অ্যাপটির নতুন আপডেট উপলব্ধ। আপডেট করতে নিচের বোতামে টোকা দিন।",
+    "requiredUpdateDesc": "আপনি farmerJoe ব্যবহার করা চালিয়ে যেতে চাইলে সর্বশেষ আপডেট ইনস্টল করতে হবে।",
+    "updateNow": "এখন আপডেট করুন"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "চিহ্ন",
+    "markField": "জমি চিহ্নিত করুন",
+    "deleteMark": "জমি চিহ্নমুক্ত করুন",
+    "doYouReallyWantToDelete": "আপনি কি সত্যিই জমি চিহ্নমুক্ত করতে চান?",
+    "reason": "কারণ",
+    "selectColorOrEmoji": "রঙ বা ইমোজি নির্বাচন করুন",
+    "marked": "জমি এই দিয়ে চিহ্নিত করা হয়েছে: {0} {1}.",
+    "unmarked": "জমি চিহ্নমুক্ত করা হয়েছে।"
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "{{analysis_type}} এর ফলাফল উপলভ্য",
       "body": "ফসল: {{crop_name}}\nজমি: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

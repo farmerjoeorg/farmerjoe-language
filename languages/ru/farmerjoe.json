@@ -134,13 +134,13 @@
     "show": "Показать поле",
     "dropFilesHere": "Перетащите файлы сюда",
     "followingFilesAreUnsupported": "Следующие файлы не поддерживаются:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "createdDate": "Дата создания поля",
+    "created_by": "Автор создания поля",
+    "modified": "Дата изменения поля",
+    "modified_by": "Автор изменения поля",
+    "state": "Статус поля",
+    "distance": "Расстояние до поля",
+    "analyses": "Номер анализа"
   },
   "no_email_no_password_entered": "Вы не ввели e-mail и пароль",
   "pleaseWaitImageIsBeingUploaded": "Пожалуйста, подождите. Картинка загружается",
@@ -160,7 +160,7 @@
       "upload": "Выбрать логотип компании",
       "camera": "Установить новый логотип компании"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "Вы действительно хотите удалить эту ферму?\nВаши данные будет невозможно восстановить!"
   },
   "crop": {
     "cancelCultivation": "Отменить запланированный урожай",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "Выбранная культура не существует.",
     "protection": "Защита растений",
     "activeCrops": "Активные культуры",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "Дата создания культуры",
+    "created_by": "Автор создания культуры",
+    "favorite": "Избранная культура",
+    "harvested_on": "Дата сбора урожая",
+    "lastComment": "Последний комментарий",
+    "modified": "Дата изменения культуры",
+    "sown_on": "Дата посева"
   },
   "fertilizer": {
     "fertilization": "Удобрение",
@@ -267,10 +267,10 @@
     "min6char": "Пароль должен содержать не менее 6 символов.",
     "reset": "Сброс пароля",
     "resetHelp": "Введите ваш новый пароль ниже.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "Срок действия ссылки на сброс пароля, по которой вы перешли, истек. Запросите новый сброс пароля.",
+    "invalidActionCode": "Ссылка на сброс пароля, по которой вы перешли, была либо неправильно сформирована, либо уже использована.",
+    "userDisabled": "Пользователь был отключен.",
+    "userNotFound": "Пользователь не найден."
   },
   "noSearchResults": "Результатов нет.",
   "login": "Войти",
@@ -339,13 +339,13 @@
     "choseEmail": "Выбрать адрес эл. почты",
     "employeeIsDeactivated": "Работник деактивирован",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "Поля не выбраны",
+      "other": "Выбрано полей: {{count}}",
+      "one": "Выбрано 1 поле."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Выберите поля",
+    "countryRestrictionLabel": "Ограничение по стране",
+    "countryRestrictionDesc": "Если вы ограничите пользователя по стране, такой пользователь не сможет просматривать поля, не относящиеся к такой стране."
   },
   "search": "поиск",
   "satellite": "спутник",
@@ -388,17 +388,17 @@
   "map": "Карты",
   "maps": {
     "pressToSetPin": "Нажмите на карту, чтобы поставить маркер местоположения.",
-    "searchAddress": "Address search",
+    "searchAddress": "Поиск адреса",
     "clickToShowMore": "Нажмите, чтобы показать больше",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "Измерить расстояние",
+    "measureDesc": "Переместите карту и установите маркер.",
+    "drawField": "Нарисуйте многоугольник поля",
+    "drawFieldDesc": "Переместите карту и установите маркер.",
+    "drawFieldSave": "Сохраните многоугольник как поле.",
+    "deletePolygon": "Удалить многоугольник",
+    "deleteMeasurement": "Удалить измерение расстояния",
     "styles": {
-      "black": "Black"
+      "black": "Черный"
     }
   },
   "no_email_entered": "Вы не ввели адрес электронной почты.",
@@ -556,7 +556,7 @@
         "message": "Пользователь является администратором и имеет доступ на все поля в компании. Если вы хотите запретить ему доступ на это поле и другие поля, вам необходимо сделать его обычным пользователем."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "Пользователь имеет доступ ко всем полям в компании. Если вы хотите запретить пользователю доступ к этому полю и другим полям, вам необходимо внести изменения в его профиль и изменить его доступ - со всех полей лишь к тем полям, которые вы выберете."
       },
       "forbidFieldAlert": {
         "message": "Вы действительно хотите запретить пользователю {{name}} доступ к этому полю?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "Выберите ниже, что именно может делать пользователь со временем ожидания."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Ограничение по стране"
   },
   "near": {
     "by": "Поблизости от",
@@ -669,83 +669,100 @@
     "generate": "Создать новый ключ",
     "key": "Ключ",
     "enabled": "Включено",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "Ключи API обеспечивают полный доступ к вашим данным на farmerJoe, поэтому храните их в безопасном месте. Вы можете найти документацию {0}.",
     "descriptionLink": "здесь",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "Имя",
+    "ipFiltering": "IP-фильтрация",
+    "ipFilter": "Разрешенные IP-адреса",
+    "ipFilterHelp": "Список с IP-адресами и диапазонами IP-адресов, разделенных запятыми. Например: 127.0.0.1, 10.0.0.0/24, 2001:db8:: / 48",
+    "noKeys": "Нет ключей API",
+    "user": "Пользователь"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "Журнал API",
+    "result": "Результат",
+    "ipAddress": "Исходный IP-адрес",
+    "method": "Способ",
+    "execTime": "Время выполнения",
+    "userAgent": "Агент пользователя",
+    "version": "Версия",
+    "response": "Ответ",
+    "noResults": "Результатов нет",
+    "description": "В списке показаны вызовы API за последние 24 часа."
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "Конфигурация столбцов",
+    "possibleColumns": "Имеющиеся столбцы",
+    "chosenColumns": "Выбранные столбцы",
+    "dragHere": "Перетащите сюда"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "Все производители",
+    "recentlyUsed": "Недавно использовано",
+    "noProducerForField": "Нет производителя",
+    "single": "Производитель",
+    "plural": "Производитель",
+    "add": "Добавить производителя",
+    "edit": "Редактировать производителя",
+    "name": "Название производителя",
+    "select": "Выберите производителя",
+    "createUser": "Создайте как администратор для производителя",
+    "contactPerson": "Контактное лицо",
+    "noProducer": "Производители еще не созданы.",
+    "location": "Местоположение производителя",
+    "number": "Номер производителя",
+    "delete": "Удалить производителя",
+    "doYouWantToDeleteProducer": "Вы действительно хотите удалить этого Производителя?",
+    "creatingUserFor": "Создание пользователя для {{groupName}}",
+    "noEmployees": "У этого производителя нет работников."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "fieldCoordinates": "Координаты поля",
+    "fieldCenter": "Центр поля",
+    "calculatedSizeInHa": "Подсчитанная площадь в гектарах",
+    "panningMode": "Панорамирование",
+    "drawingMode": "Нарисовать многоугольник",
+    "reset": "Сброс",
+    "hideMarkers": "Скрыть маркеры",
+    "measureMode": "Мера",
+    "hideDistanceMarkers": "Скрыть длину стороны многоугольника"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Отменить",
+  "redo": "Повторить",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Журнал изменений",
+    "optional": "Есть обновление",
+    "required": "Требуемое обновление",
+    "optionalUpdateDesc": "Появилось свежее обновление для приложения farmerJoe. Нажмите на кнопку ниже, чтобы обновить приложение.",
+    "requiredUpdateDesc": "Если вы хотите продолжить использование farmerJoe, вам необходимо установить самое последнее обновление.",
+    "updateNow": "Обновить сейчас"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Маркеры",
+    "markField": "Разметить поле",
+    "deleteMark": "Снять разметку поля",
+    "doYouReallyWantToDelete": "Вы уверены, что хотите убрать разметку поля?",
+    "reason": "Причина",
+    "selectColorOrEmoji": "Выберите цвет или эмотикон",
+    "marked": "Поле было размечено следующим образом: {0} {1}.",
+    "unmarked": "С поля были удалена разметка."
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "Есть результаты анализа {{analysis_type}}",
       "body": "Культура: {{crop_name}}\nПоле: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

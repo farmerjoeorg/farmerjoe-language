@@ -134,13 +134,13 @@
     "show": "खेत दिखाएँ",
     "dropFilesHere": "फाइलें यहाँ छोड़ें",
     "followingFilesAreUnsupported": "इन फाइलों को सपोर्ट प्राप्त नहीं है:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "createdDate": "फ़ील्ड बनाने की तिथि",
+    "created_by": "फ़ील्ड निर्माता",
+    "modified": "फ़ील्ड के संशोधन की तिथि",
+    "modified_by": "फ़ील्ड संशोधनकर्ता",
+    "state": "फ़ील्ड की स्थिति",
+    "distance": "फ़ील्ड की दूरी",
+    "analyses": "विश्लेषण की गणना"
   },
   "no_email_no_password_entered": "आपने कोई ईमेल और पासवर्ड नहीं डाला है",
   "pleaseWaitImageIsBeingUploaded": "कृपया इंतजार करें, तस्वीर अपलोड की जा रही है",
@@ -160,7 +160,7 @@
       "upload": "कंपनी लोगो चुनें",
       "camera": "एक नया कंपनी लोगो लें"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "क्या आप वास्तव में इस फ़ार्म को हटाना चाहते हैं?\nआपके डेटा को फिर से प्राप्त नहीं किया जा सकता है!"
   },
   "crop": {
     "cancelCultivation": "प्लान की गई फसल रद्द करें",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "चयनित फसल मौजूद नहीं है।",
     "protection": "पौध संरक्षण",
     "activeCrops": "सक्रिय फसलें",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "फसल निर्माण की तिथि",
+    "created_by": "फसल निर्माता",
+    "favorite": "फसल पसंदीदा है",
+    "harvested_on": "फसल कटाई की तिथि",
+    "lastComment": "अंतिम टिप्पणी",
+    "modified": "फसल के संशोधन की तिथि",
+    "sown_on": "बुआई की तिथि"
   },
   "fertilizer": {
     "fertilization": "खाद डालना",
@@ -267,10 +267,10 @@
     "min6char": "पासवर्ड कम से कम 6 वर्ण लंबाई का होना चाहिए।",
     "reset": "अपना पासवर्ड रीसेट करें",
     "resetHelp": "अपना नया पासवर्ड नीचे दर्ज करें।",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "आपने जिस पासवर्ड रीसेट लिंक पर क्लिक किया है उसकी वैधता समाप्त हो गयी है। कृपया एक नए पासवर्ड रीसेट का अनुरोध करें।",
+    "invalidActionCode": "आपने जिस पासवर्ड लिंक पर क्लिक किया है वह या तो विकृत हो गया है या पहले ही उपयोग कर लिया गया है।",
+    "userDisabled": "प्रयोक्ता को अक्षम कर दिया गया है।",
+    "userNotFound": "प्रयोक्ता नहीं मिला है।"
   },
   "noSearchResults": "कोई परिणाम नहीं।",
   "login": "लॉगिन",
@@ -339,13 +339,13 @@
     "choseEmail": "ईमेल चुनें",
     "employeeIsDeactivated": "कर्मचारी निष्क्रिय है",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "कोई फ़ील्ड चयनित नहीं",
+      "other": "{{count}} फील्ड्स चयनित",
+      "one": "1 फ़ील्ड चयनित।"
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "फील्ड्स चयन करें",
+    "countryRestrictionLabel": "देश के अनुसार प्रतिबंधित करें",
+    "countryRestrictionDesc": "यदि आप देश के अनुसार प्रयोक्ता को प्रतिबंधित करते हैं तो वह उन फ़ील्ड्स को देखने में सक्षम नहीं होगा जो उस देश से संबंध नहीं रखते हैं।"
   },
   "search": "खोज",
   "satellite": "सैटेलाइट",
@@ -388,17 +388,17 @@
   "map": "नक्शे",
   "maps": {
     "pressToSetPin": "लोकेशन पिन सेट करने के लिए नक्शे पर दबाएँ।",
-    "searchAddress": "Address search",
+    "searchAddress": "पता की खोज",
     "clickToShowMore": "अधिक दिखाने के लिए क्लिक करें",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "दूरी मापें",
+    "measureDesc": "नक़्शे को ले जाएं और पिन को सेट करें।",
+    "drawField": "बहुभुज फ़ील्ड को आरेखित करें",
+    "drawFieldDesc": "नक़्शे को ले जाएं और पिन को सेट करें।",
+    "drawFieldSave": "फ़ील्ड के रूप में बहुभुज को सहेजें ।",
+    "deletePolygon": "बहुभुज को हटाएं",
+    "deleteMeasurement": "दूरी मापन को हटाएं",
     "styles": {
-      "black": "Black"
+      "black": "काला"
     }
   },
   "no_email_entered": "आपने ईमेल पता नहीं डाला है",
@@ -556,7 +556,7 @@
         "message": "उपयोगकर्ता एक एडमिन यानी व्यवस्थापक है और कंपनी के सभी खेतों तक इसे पहुँच प्राप्त है। यदि आप इस खेत और अन्य खेतों तक उसकी पहुँच को प्रतिबंधित करना चाहें तो आपको उसे एक सामान्य उपयोगकर्ता बनाना होगा।"
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "कंपनी में प्रयोक्ता के पास सभी फ़ील्ड्स के लिए पहुँच है । यदि आप इस फ़ील्ड तथा अन्य फ़ील्ड्स के लिए उसकी पहुंच को निषेध करना चाहते हैं, तो आपको उसकी प्रोफ़ाइल को संपादित करना होगा और सभी फ़ील्ड्स से उसकी पहुंच को केवल आपके द्वारा चुने गए फ़ील्ड्स में बदलना होगा ।"
       },
       "forbidFieldAlert": {
         "message": "क्या आप वाकई इस खेत तक {{name}} की पहुँच को मना करना चाहते हैं?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "प्रतीक्षा समयों के साथ उपयोगकर्ता क्या कर सकता है नीचे चुनें।"
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "देश प्रतिबंध"
   },
   "near": {
     "by": "निकट",
@@ -669,83 +669,100 @@
     "generate": "नई कुंजी उत्पन्न करें",
     "key": "कुंजी",
     "enabled": "सक्षम",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "API कुंजियां आपके farmerJoe के फार्म के डेटा के लिए पूर्ण पहुँच प्रदान करती हैं, इसलिए उन्हें सुरक्षित रखें। आप दस्तावेज़ीकरण पा सकते हैं {0}.",
     "descriptionLink": "यहाँ",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "नाम",
+    "ipFiltering": "IP फिल्टर करना",
+    "ipFilter": "अनुमत IP पते",
+    "ipFilterHelp": "अल्पविराम से विभक्त IP पतों की सूची तथा IP पते की रेंज। उदाहरण के लिए: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "कोई API कुंजियां नहीं",
+    "user": "प्रयोक्ता"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "API लॉग",
+    "result": "परिणाम",
+    "ipAddress": "स्रोत IP पता",
+    "method": "विधि",
+    "execTime": "निष्पादन समय",
+    "userAgent": "प्रयोक्ता एजेंट",
+    "version": "संस्करण",
+    "response": "प्रतिक्रिया",
+    "noResults": "कोई परिणाम नहीं",
+    "description": "सूची पिछले 24 घंटों से API कॉल्स दिखाती है।"
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "कॉलम्स कॉन्फ़िगर करें",
+    "possibleColumns": "उपलब्ध कॉलम्स",
+    "chosenColumns": "चयनित कॉलम्स",
+    "dragHere": "यहाँ ड्रैग करें"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "सभी उत्पादक",
+    "recentlyUsed": "हाल ही में प्रयुक्त",
+    "noProducerForField": "कोई उत्पादक नहीं",
+    "single": "उत्पादक",
+    "plural": "उत्पादक",
+    "add": "उत्पादक जोड़ें",
+    "edit": "उत्पादक संपादित करें",
+    "name": "उत्पादक का नाम",
+    "select": "उत्पादक का चयन करें",
+    "createUser": "उत्पादक के लिए एडमिन के रूप में बनाएं",
+    "contactPerson": "संपर्क व्यक्ति",
+    "noProducer": "अभी तक कोई उत्पादक नहीं बनाए गए ।",
+    "location": "उत्पादक स्थान",
+    "number": "उत्पादक संख्या",
+    "delete": "उत्पादक हटाएं",
+    "doYouWantToDeleteProducer": "क्या आप वास्तव में इस उत्पादक को हटाना चाहते हैं?",
+    "creatingUserFor": "{{groupName}} के लिए प्रयोक्ता बनाना",
+    "noEmployees": "इस उत्पादक के पास कोई कर्मचारी नहीं हैं।"
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
+    "fieldCoordinates": "फ़ील्ड समन्वय करता है",
+    "fieldCenter": "फ़ील्ड का केन्द्र",
+    "calculatedSizeInHa": "Ha में गणना किया गया आकार",
     "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "drawingMode": "बहुभुज आरेखित करें",
+    "reset": "रीसेट करें",
+    "hideMarkers": "मार्कर्स छिपाएं",
+    "measureMode": "माप करें",
+    "hideDistanceMarkers": "बहुभुज पार्श्व की लंबाई छिपाएं"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "पूर्ववत करें",
+  "redo": "फिर से करें",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "लॉग बदलें",
+    "optional": "अद्यतन उपलब्ध",
+    "required": "अपेक्षित अद्यतन",
+    "optionalUpdateDesc": "Farmer Joe अनुप्रयोग के लिए एक नया अद्यतन उपलब्ध है। अद्यतन करने के लिए नीचे दिए गए बटन पर टैप करें।",
+    "requiredUpdateDesc": "यदि आप farmer Joe का उपयोग करना जारी रखना चाहते हैं तो आपको नवीनतम अद्यतन स्थापित करने की जरूरत है।",
+    "updateNow": "अब अद्यतन करें"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "चिह्न",
+    "markField": "फ़ील्ड को चिह्नित करें",
+    "deleteMark": "फ़ील्ड को अचिह्नित करें",
+    "doYouReallyWantToDelete": "क्या आप वास्तव में फ़ील्ड अचिह्नित करना चाहते हैं?",
+    "reason": "कारण",
+    "selectColorOrEmoji": "रंग या इमोजी का चयन करें",
+    "marked": "फ़ील्ड को इससे चिह्नित किया गया है: {0} {1}।",
+    "unmarked": "फ़ील्ड को अचिह्नित किया गया है।"
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "{{analysis_type}} हेतु परिणाम उपलब्ध है",
       "body": "फसल: {{crop_name}}\nखेत: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

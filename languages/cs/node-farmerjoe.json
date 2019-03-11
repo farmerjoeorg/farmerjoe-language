@@ -14,27 +14,27 @@
       "workerInvitation": "Pozvánka"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Přístup na stránku pro správu analýz {{labName}}",
+      "workerInvitation": "Pozvánka",
+      "XgivenAccessToYou": "{{inviter}} vám udělil přístup na stránku pro správu analýz {{labName}}.",
+      "accountCreatedForYou": "Byl pro vás vytvořen účet:",
+      "loginHere": "Přihlaste se zde",
+      "changePassword": "Své heslo můžete změnit pomocí uživatelského menu v pravém horním rohu stránky.",
+      "yourUsername": "Uživatelské jméno",
+      "yourPassword": "Heslo"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Blíží se konečný termín analýzy {{analyse_number}}"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Nový API klíč pro {{company}}",
+      "title": "Nový API klíč",
+      "message": "Nový API klíč ({{keyName}}) pro {{company}} byl vytvořen uživatelem {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "API klíč pro {{company}} byl aktualizován",
+      "title": "Aktualizace API klíče",
+      "message": "API klíč ({{keyName}}) pro {{company}} byl aktualizován uživatelem {{created_by}}."
     }
   },
   "companyAddress": "Adresa společnosti"

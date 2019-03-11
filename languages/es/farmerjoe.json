@@ -134,13 +134,13 @@
     "show": "Mostrar campo",
     "dropFilesHere": "Soltar archivos aquí",
     "followingFilesAreUnsupported": "Los siguientes archivos no son compatibles:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "createdDate": "Fecha de creación del campo",
+    "created_by": "Campo creado por",
+    "modified": "Fecha de modificación del campo",
+    "modified_by": "Campo modificado por",
+    "state": "Estado del campo",
+    "distance": "Distancia al campo",
+    "analyses": "Recuento del análisis"
   },
   "no_email_no_password_entered": "No has ingresado dirección de correo electrónico ni contraseña",
   "pleaseWaitImageIsBeingUploaded": "Por favor espera, la imagen está siendo cargada",
@@ -160,7 +160,7 @@
       "upload": "Seleccionar el logotipo de la empresa",
       "camera": "Elegir un nuevo logotipo de la empresa"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "¿De verdad que desea eliminar esta explotación?\n¡Sus datos no se podrán restaurar!"
   },
   "crop": {
     "cancelCultivation": "Cancelar la planificación de cultivo",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "El cultivo seleccionado no existe.",
     "protection": "Protección de las plantas",
     "activeCrops": "Cultivos activos",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "Fecha de creación del cultivo",
+    "created_by": "Creado cultivo por",
+    "favorite": "El cultivo es favorito",
+    "harvested_on": "Fecha de la cosecha",
+    "lastComment": "Último comentario",
+    "modified": "Fecha de modificación del cultivo",
+    "sown_on": "Fecha de la siembra"
   },
   "fertilizer": {
     "fertilization": "Fertilización",
@@ -267,10 +267,10 @@
     "min6char": "La contraseña debe tener al menos 6 caracteres de longitud.",
     "reset": "Restablecer tu contraseña",
     "resetHelp": "Introduce tu nueva contraseña a continuación.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "Ha caducado el enlace de restablecimiento de contraseña en el que hiciste clic. Solicita un nuevo restablecimiento de contraseña.",
+    "invalidActionCode": "El enlace de contraseña en el que hiciste clic es incorrecto o ya se ha utilizado.",
+    "userDisabled": "El usuario se ha desactivado.",
+    "userNotFound": "No se ha encontrado el usuario."
   },
   "noSearchResults": "Sin resultados.",
   "login": "Iniciar sesión",
@@ -339,13 +339,13 @@
     "choseEmail": "Elegir correo electrónico",
     "employeeIsDeactivated": "El empleado está desactivado",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "No se ha seleccionado ningún campo",
+      "other": "{{count}} campos seleccionados",
+      "one": "1 campo seleccionado."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Seleccionar campos",
+    "countryRestrictionLabel": "Restringir por país",
+    "countryRestrictionDesc": "Si restringes al usuario por país no podrás ver los campos que no pertenezcan a ese país."
   },
   "search": "Buscar",
   "satellite": "Satélite",
@@ -388,17 +388,17 @@
   "map": "Mapa",
   "maps": {
     "pressToSetPin": "Presiona sobre el mapa para fijar el alfiler.",
-    "searchAddress": "Address search",
+    "searchAddress": "Búsqueda de direcciones",
     "clickToShowMore": "Haz clic para ver más",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "Medir la distancia",
+    "measureDesc": "Mover el mapa y fijar el alfiler.",
+    "drawField": "Dibujar el polígono del campo",
+    "drawFieldDesc": "Mover el mapa y fijar el alfiler.",
+    "drawFieldSave": "Guardar el polígono como campo.",
+    "deletePolygon": "Eliminar polígono",
+    "deleteMeasurement": "Eliminar la medición de distancia",
     "styles": {
-      "black": "Black"
+      "black": "Negro"
     }
   },
   "no_email_entered": "No has ingresado ninguna dirección de correo electrónico.",
@@ -556,7 +556,7 @@
         "message": "El usuario es Administrador y tiene acceso a todos los campos de la empresa. Si quieres prohibir su acceso a este campo y a otros campos, tienes que configurarlo como usuario normal."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "El usuario tiene acceso a todos los campos de la empresa. Si quiere prohibir su acceso a este campo y otros campos, deberá editar su perfil y cambiar su acceso de todos los campos a solamente los campos que seleccione."
       },
       "forbidFieldAlert": {
         "message": "¿Realmente quieres prohibir el acceso de {{name}} a este campo?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "Selecciona a continuación lo que el usuario puede hacer con los tiempos de espera."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Restricción de país"
   },
   "near": {
     "by": "Cerca de",
@@ -669,83 +669,100 @@
     "generate": "Generar una nueva clave",
     "key": "Clave",
     "enabled": "Habilitado",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "Las claves API proporcionan acceso completo a los datos de su explotación de farmerJoe, así que guárdelas en un lugar seguro. Puede encontrar la documentación {0}.",
     "descriptionLink": "aquí",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "Nombre",
+    "ipFiltering": "Filtrado de IP",
+    "ipFilter": "Direcciones IP permitidas",
+    "ipFilterHelp": "Una lista de direcciones IP e intervalos de direcciones IP separadas por comas. Por ejemplo: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "Sin claves API",
+    "user": "Usuario"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "Registro API",
+    "result": "Resultado",
+    "ipAddress": "Dirección IP de origen",
+    "method": "Método",
+    "execTime": "Tiempo de ejecución",
+    "userAgent": "Navegador del usuario",
+    "version": "Versión",
+    "response": "Respuesta",
+    "noResults": "Sin resultados",
+    "description": "La lista muestra las llamadas a la API en las últimas 24 horas."
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "Configurar columnas",
+    "possibleColumns": "Columnas disponibles",
+    "chosenColumns": "Columnas seleccionadas",
+    "dragHere": "Arrastrar aquí"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "Todos los productores",
+    "recentlyUsed": "Utilizados recientemente",
+    "noProducerForField": "Ningún productor",
+    "single": "Productor",
+    "plural": "Productores",
+    "add": "Añadir productor",
+    "edit": "Editar productor",
+    "name": "Nombre del productor",
+    "select": "Seleccionar productor",
+    "createUser": "Crear como administrador para el productor",
+    "contactPerson": "Persona de contacto",
+    "noProducer": "Aún no se ha creado ningún productor.",
+    "location": "Ubicación del productor",
+    "number": "Número del productor",
+    "delete": "Eliminar productor",
+    "doYouWantToDeleteProducer": "¿De verdad que quieres eliminar este productor?",
+    "creatingUserFor": "Creando el usuario para {{groupName}}",
+    "noEmployees": "Este productor no tiene ningún empleado."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "fieldCoordinates": "Coordenadas del campo",
+    "fieldCenter": "Centro del campo",
+    "calculatedSizeInHa": "Tamaño calculado en ha",
+    "panningMode": "Panorámica",
+    "drawingMode": "Dibujar polígono",
+    "reset": "Restablecer",
+    "hideMarkers": "Ocultar marcadores",
+    "measureMode": "Medición",
+    "hideDistanceMarkers": "Ocultar longitud lateral del polígono"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Deshacer",
+  "redo": "Volver a hacer",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Registro de cambios",
+    "optional": "Actualización disponible",
+    "required": "Se requiere una actualización",
+    "optionalUpdateDesc": "Hay una nueva actualización disponible para la aplicación de farmerJoe. Toca el botón de abajo para actualizar.",
+    "requiredUpdateDesc": "Si quieres seguir utilizando farmerJoe deberás instalar la última actualización.",
+    "updateNow": "Actualizar ahora"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Marcas",
+    "markField": "Marcar campo",
+    "deleteMark": "Desmarcar campo",
+    "doYouReallyWantToDelete": "¿De verdad que quieres desmarcar el campo?",
+    "reason": "Razón",
+    "selectColorOrEmoji": "Seleccionar color o emoji",
+    "marked": "El campo se ha marcado con: {0} {1}.",
+    "unmarked": "El campo se ha desmarcado."
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "El resultado del {{analysis_type}} está disponible",
       "body": "Cultivo: {{crop_name}}\nCampo: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

@@ -14,27 +14,27 @@
       "workerInvitation": "Meghívó"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Hozzáférés a(z) {{labName}}elemzéseit kezelő oldalhoz",
+      "workerInvitation": "Meghívó",
+      "XgivenAccessToYou": "{{inviter}} hozzáférést adott Önnek a {{labName}}elemzés-kezelő oldalához.",
+      "accountCreatedForYou": "Egy fiókot hoztunk létre Önnek:",
+      "loginHere": "Bejelentkezés itt",
+      "changePassword": "Módosíthatja a jelszót a lap jobb felső sarkában található felhasználói menü használatával.",
+      "yourUsername": "Felhasználó neve",
+      "yourPassword": "Jelszó"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Közeledik az {{analyse_number}} elemzés határideje"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Új API-kulcs a(z) {{company}} részére",
+      "title": "Új API kulcs",
+      "message": "{{created_by}} új API-kulcsot ({{keyName}}) hozott létre a(z) {{company}} részére."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "A(z) {{company}} API-kulcsa frissült",
+      "title": "API kulcs frissítése",
+      "message": "{{created_by}} frissítette a(z) {{company}} új API-kulcsát ({{keyName}})."
     }
   },
   "companyAddress": "Cég címe"

@@ -14,27 +14,27 @@
       "workerInvitation": "আমন্ত্রণ"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "{{labName}} এর বিশ্লেষণ পরিচালনা পৃষ্ঠাতে প্রবেশাধিকার",
+      "workerInvitation": "আমন্ত্রণ",
+      "XgivenAccessToYou": "{{inviter}} {{labName}} এর বিশ্লেষণ পরিচালনা পৃষ্ঠাতে প্রবেশাধিকার প্রদান করেছে।",
+      "accountCreatedForYou": "আপনার জন্য একটি অ্যাকাউন্ট তৈরি করা হয়েছে:",
+      "loginHere": "এখানে লগইন করুন",
+      "changePassword": "পৃষ্ঠার উপরের ডান কোণার ইউজার মেনু ব্যবহার করে আপনি আপনার পাসওয়ার্ড পরিবর্তন করতে পারেন।",
+      "yourUsername": "ইউজারনেম",
+      "yourPassword": "পাসওয়ার্ড"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "{{analyse_number}} বিশ্লেষণের শেষ সময় কাছে এসে গেছে।"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "{{company}} এর জন্য নতুন API কী",
+      "title": "নতুন API কী",
+      "message": "{{created_by}} দ্বারা {{company}} এর জন্য নতুন API কী ({{keyName}}) তৈরি করা হয়েছে।"
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "{{company}} জন্য API কী আপডেট করা হয়েছে",
+      "title": "API কী আপডেট",
+      "message": "{{created_by}} দ্বারা {{company}} এর জন্য নতুন API কী ({{keyName}}) আপডেট করা হয়েছে।"
     }
   },
   "companyAddress": "কোম্পানির ঠিকানা"

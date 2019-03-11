@@ -14,27 +14,27 @@
       "workerInvitation": "Pozvánka"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Prístup na stránku pre správu analýz {{labName}}",
+      "workerInvitation": "Pozvánka",
+      "XgivenAccessToYou": "{{inviter}} vám udelil\/a prístup na stránku pre správu analýz {{labName}}.",
+      "accountCreatedForYou": "Bol pre vás vytvorený účet:",
+      "loginHere": "Prihláste sa tu",
+      "changePassword": "Heslo si môžete zmeniť v používateľskej ponuke v pravej hornej časti stránky.",
+      "yourUsername": "Používateľské meno",
+      "yourPassword": "Heslo"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Konečný termín pre analýzu {{analyse_number}} sa blíži"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Nový kľúč API pre {{company}}",
+      "title": "Nový kľúč API",
+      "message": "{{created_by}} vytvoril\/a nový kľúč API ({{keyName}}) pre {{company}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Kľúč API pre {{company}} bol aktualizovaný",
+      "title": "Aktualizácia kľúča API",
+      "message": "{{created_by}} aktualizoval\/a kľúč API ({{keyName}}) pre {{company}}."
     }
   },
   "companyAddress": "Adresa spoločnosti"

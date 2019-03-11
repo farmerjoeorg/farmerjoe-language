@@ -14,27 +14,27 @@
       "workerInvitation": "Πρόσκληση"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Πρόσβαση στη σελίδα διαχείρισης αναλύσεων του εργαστηρίου {{labName}}",
+      "workerInvitation": "Πρόσκληση",
+      "XgivenAccessToYou": "Ο χρήστης {{inviter}} σας έχει δώσει πρόσβαση στη σελίδα διαχείρισης αναλύσεων του εργαστηρίου {{labName}}.",
+      "accountCreatedForYou": "Έχει δημιουργηθεί ένας λογαριασμός για εσάς:",
+      "loginHere": "Συνδεθείτε εδώ",
+      "changePassword": "Μπορείτε να αλλάξετε τον κωδικό πρόσβασης χρησιμοποιώντας το μενού χρήστη στην επάνω δεξιά γωνία της σελίδας.",
+      "yourUsername": "Όνομα χρήστη",
+      "yourPassword": "Κωδικός πρόσβασης"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Η προθεσμία για την ανάλυση {{analyse_number}} πλησιάζει"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Ένα νέο κλειδί API για την εταιρεία {{company}}",
+      "title": "Νέο κλειδί API",
+      "message": "Δημιουργήθηκε ένα νέο κλειδί API ({{keyName}}) για την εταιρεία {{company}} από τον χρήστη {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Ενημερώθηκε ένα κλειδί API για την εταιρεία {{company}}",
+      "title": "Ενημέρωση κλειδιού ΑΡΙ",
+      "message": "Ενημερώθηκε ένα κλειδί API ({{keyName}}) για την εταιρεία {{company}} από τον χρήστη {{created_by}}."
     }
   },
   "companyAddress": "Διεύθυνση εταιρείας"

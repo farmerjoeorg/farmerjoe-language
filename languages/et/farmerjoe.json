@@ -134,13 +134,13 @@
     "show": "Näita põldu",
     "dropFilesHere": "Poeta failid siia",
     "followingFilesAreUnsupported": "Järgmisi faile ei toetata:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "createdDate": "Põllu loomise kuupäev",
+    "created_by": "Põllu lõi",
+    "modified": "Põllu muutmiskuupäev",
+    "modified_by": "Põllu muutja",
+    "state": "Põllu olek",
+    "distance": "Põllu kaugus",
+    "analyses": "Analüüside arv"
   },
   "no_email_no_password_entered": "Te pole sisestanud e-posti ja parooli",
   "pleaseWaitImageIsBeingUploaded": "Oodake, pilti laaditakse üles",
@@ -160,7 +160,7 @@
       "upload": "Vali ettevõtte logo",
       "camera": "Tee uus ettevõtte logo"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "Kas soovid selle talu kustutada? Andmeid hiljem taastada ei saa!"
   },
   "crop": {
     "cancelCultivation": "Tühista planeeritud kultuur",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "Valitud kultuuri ei eksisteeri.",
     "protection": "Taimekaitse",
     "activeCrops": "Aktiivsed kultuurid",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "Vilja loomiskuupäev",
+    "created_by": "Vilja looja",
+    "favorite": "Vili on lemmik",
+    "harvested_on": "Lõikamiskuupäev",
+    "lastComment": "Viimane kommentaar",
+    "modified": "Vilja muutmiskuupäev",
+    "sown_on": "Külvikuupäev"
   },
   "fertilizer": {
     "fertilization": "Väetamine",
@@ -267,10 +267,10 @@
     "min6char": "Parool peab olema vähemalt 6 tähemärki pikk.",
     "reset": "Lähtestage oma salasõna",
     "resetHelp": "Sisestage allpool uus salasõna.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "Parooli lähtestamise link, millel klõpsasid, on aegunud.",
+    "invalidActionCode": "Parooli link, mida klõpsasid, on vigane või juba kasutatud.",
+    "userDisabled": "Kasutaja on keelatud.",
+    "userNotFound": "Kasutajat ei leitud."
   },
   "noSearchResults": "Tulemusi pole.",
   "login": "Sisene",
@@ -339,13 +339,13 @@
     "choseEmail": "Vali e-post",
     "employeeIsDeactivated": "Töötaja on deaktiveeritud",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "Põlde pole valitud",
+      "other": "Valitud on {{count}} põldu",
+      "one": "Valitud on 1 põld."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Vali põllud",
+    "countryRestrictionLabel": "Keela riikide kaupa",
+    "countryRestrictionDesc": "Kui sead kasutajale riikidega seotud piiranguid ei saa ta keelatud riikidega seotud põlde vaadata."
   },
   "search": "Otsing",
   "satellite": "Satelliit",
@@ -388,17 +388,17 @@
   "map": "Kaardid",
   "maps": {
     "pressToSetPin": "Vajutage kaardile asukoha nööpnõela paigaldamiseks.",
-    "searchAddress": "Address search",
+    "searchAddress": "Aadressiotsing",
     "clickToShowMore": "Klõpsa, et näha rohkem",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "Vahemaa mõõtmine",
+    "measureDesc": "Liiguta kaarti ja määra markeri asukoht.",
+    "drawField": "Joonista põllu kuju",
+    "drawFieldDesc": "Liiguta kaarti ja määra markeri asukoht.",
+    "drawFieldSave": "Salvesta kujund põlluna.",
+    "deletePolygon": "Kustuta kujund",
+    "deleteMeasurement": "Kustuta kauguse mõõtmine",
     "styles": {
-      "black": "Black"
+      "black": "Must"
     }
   },
   "no_email_entered": "Te ei sisestanud e-posti aadressi.",
@@ -556,7 +556,7 @@
         "message": "See kasutaja on administraator ning tal on ligipääs ettevõtte kõikidele põldudele. Kui tahate tõkestada tema ligipääsu sellele põllule ja teistele põldudele, peate temast tegema tavakasutaja."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "Kasutajal on juurdepääs kõigile selle ettevõttega seotud põldudele. Kui soovid tema ligipääsu sellele või teistele põldudele piirata, pead muutma tema profiili ja määrama, et tal on juurdepääs ainult valitud põldudele, mitte kõigile põldudele."
       },
       "forbidFieldAlert": {
         "message": "Kas tahate tõesti keelata kasutajale {{name}} ligipääsu sellele põllule?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "Vali allpool, mida kasutaja ooteaegadega teha saab."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Riigi piirang"
   },
   "near": {
     "by": "Läheduses",
@@ -669,83 +669,100 @@
     "generate": "Loo uus võti",
     "key": "Võti",
     "enabled": "Lubatud",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "API-võtmeid annavad täieliku juurdepääsu Sinu farmerJoe farmi andmetele. Hoia neid andmeid hoolikalt. Asjakohased dokumendid leiad {0}.",
     "descriptionLink": "siin",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "Nimi",
+    "ipFiltering": "IP filtreerimine",
+    "ipFilter": "Lubatud IP-aadressid",
+    "ipFilterHelp": "Komaeraldusega loend IP-aadressidest ja IP-aadresside vahemikest. Näiteks: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "API-võtmeid pole",
+    "user": "Kasutaja"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "API Logi",
+    "result": "Tulemus",
+    "ipAddress": "Allika IP-aadress",
+    "method": "Meetod",
+    "execTime": "Täitmisaeg",
+    "userAgent": "Kasutaja agent",
+    "version": "Versioon",
+    "response": "Vastus",
+    "noResults": "Tulemusi pole",
+    "description": "Loendis kuvatakse teave viimase 24 tunni API kutsete kohta."
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "Veergude konfigureerimine",
+    "possibleColumns": "Vabad veerud",
+    "chosenColumns": "Valitud veerud",
+    "dragHere": "Tiri siia"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "Kõik tootjad",
+    "recentlyUsed": "Viimati kasutatud",
+    "noProducerForField": "Tootjat pole",
+    "single": "Tootja",
+    "plural": "Tootjad",
+    "add": "Lisa tootja",
+    "edit": "Muuda tootjat",
+    "name": "Tootja nimi",
+    "select": "Vali tootja",
+    "createUser": "Loo tootja administraatorina",
+    "contactPerson": "Kontaktisik",
+    "noProducer": "Tootjaid pole veel loodud.",
+    "location": "Tootja asukoht",
+    "number": "Tootja number",
+    "delete": "Kustuta tootja",
+    "doYouWantToDeleteProducer": "Kas soovite tõesti selle Tootja kustutada?",
+    "creatingUserFor": "Luuakse kasutajat gruppi {{groupName}}",
+    "noEmployees": "Sellel tootjal pole töötajaid."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "fieldCoordinates": "Väljakoordinaadid",
+    "fieldCenter": "Välja kese",
+    "calculatedSizeInHa": "Arvutatud suurus ha",
+    "panningMode": "Panoraamimine",
+    "drawingMode": "Joonista hulknurk",
+    "reset": "Lähtesta",
+    "hideMarkers": "Peida markerid",
+    "measureMode": "Mõõda",
+    "hideDistanceMarkers": "Peida hulknurga külje pikkus"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Võta tagasi",
+  "redo": "Tee uuesti",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Muutuste logi",
+    "optional": "Värskendus on saadaval",
+    "required": "Kohustuslik värskendus",
+    "optionalUpdateDesc": "Rakenduse farmerJoe jaoks on saadaval uus värskendus. Värskenduse installimiseks koputa nuppu Värskenda.",
+    "requiredUpdateDesc": "Kui soovid jätkata rakenduse farmerJoe kasutamist, pead installima uusima värskenduse.",
+    "updateNow": "Värskenda kohe"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Märgid",
+    "markField": "Märgi väli",
+    "deleteMark": "Tühjenda välja märge",
+    "doYouReallyWantToDelete": "Kas soovid välja märke tühjendada?",
+    "reason": "Põhjus",
+    "selectColorOrEmoji": "Vali värv või emotikon",
+    "marked": "Väli on märgitud tähisega {0} {1}.",
+    "unmarked": "Välja märgistus eemaldati."
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "{{analysis_type}} tulemused on saadaval",
       "body": "Kultuur: {{crop_name}}\nPõld: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

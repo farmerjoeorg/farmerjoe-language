@@ -14,27 +14,27 @@
       "workerInvitation": "Invitație"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Acces la pagina de gestionare a analizelor {{labName}}",
+      "workerInvitation": "Invitație",
+      "XgivenAccessToYou": "{{inviter}} v-a permis accesul la pagina de gestionare a analizelor {{labName}}.",
+      "accountCreatedForYou": "A fost creat un cont pentru dvs.:",
+      "loginHere": "Conectați-vă aici",
+      "changePassword": "Vă puteți schimba parola folosind meniul utilizatorului din colțul din dreapta sus a paginii.",
+      "yourUsername": "Nume de utiliz.",
+      "yourPassword": "Parolă"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Termenul-limită pentru analiza {{analyse_number}} se apropie"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "O cheie API nouă pentru {{company}}",
+      "title": "Cheie API nouă",
+      "message": "A fost creată o cheie API ({{keyName}}) nouă pentru {{company}} de către {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "A fost actualizată o cheie API pentru {{company}}",
+      "title": "Actualizare cheie API",
+      "message": "A fost actualizată o cheie API ({{keyName}}) nouă pentru {{company}} de către {{created_by}}."
     }
   },
   "companyAddress": "Adresă companie"

@@ -1,25 +1,25 @@
 {
   "data_guidelines": "Директива данни",
-  "cookie_policy": "Cookie Policy",
-  "info": "Info",
+  "cookie_policy": "Правила за „бисквитките“",
+  "info": "Информация",
   "invites": {
     "reject": "Откажи",
     "from": "Покана от {{name}}",
     "accept": "Приеми",
-    "resend": "Resend",
-    "resendDoYouReally": "Do you really want to resend the invitation?",
-    "deleteDoYouReally": "Do you really want to delete the user from the company?",
-    "noInvites": "No invitations"
+    "resend": "Повторно изпращане",
+    "resendDoYouReally": "Наистина ли искате да изпратите повторно поканата?",
+    "deleteDoYouReally": "Наистина ли искате да изтриете потребителя от предприятието?",
+    "noInvites": "Няма покани"
   },
   "latestActivities": {
-    "tabLabel": "Latest",
-    "sceneTitle": "Latest activities",
-    "period": "Period",
-    "selectPeriod": "Select period",
-    "onlyPhotos": "Only photos",
-    "photo": "Photo",
-    "all": "All",
-    "noActivity": "No activity for the selected period"
+    "tabLabel": "Най-нови",
+    "sceneTitle": "Най-нови дейности",
+    "period": "Период",
+    "selectPeriod": "Изберете период",
+    "onlyPhotos": "Само снимки",
+    "photo": "Снимка",
+    "all": "Всички",
+    "noActivity": "Няма дейност за избрания период"
   },
   "invalid_email": "Въведеният адрес не е валиден.",
   "analysis": {
@@ -28,7 +28,7 @@
     "order": "Поръчка",
     "plantOrSowDate": "Дата на засаждане или сеитба",
     "pleaseLabelProbe": "Моля надпишете пробата!",
-    "dontForgetToLabelProbe": "Please don't forget to label the probe!",
+    "dontForgetToLabelProbe": "Моля, не забравяйте да етикетирате пробата!",
     "compostType": "Вид компост",
     "compostAmountInTons": "Количеството в тонове",
     "compostApplicationYear": "Година на изнасяне",
@@ -98,14 +98,14 @@
     "pick_up_from_laboratory": "Вземане от лабораторията",
     "pleaseFollowCurrentFertilizerRegulation": "Моля следвайте актуалният регламент за торене.",
     "sampleIsTakenAccordingToRegulation": "Пробата ще бъде взета спазвайки се актуалниалният регламент за торене.",
-    "acceptedFromLab": "{{date}} - accepted by Lab",
-    "acceptedFromLabAndCantBeCancelled": "The analysis was accepted by the Laboratory and cannot be cancelled anymore.",
-    "probeTaken": "{{date}} - probe taken by Lab",
-    "sortByCrop": "By Crop",
-    "sortByLatest": "By latest",
-    "latest": "Last analyses",
-    "analysisType": "Analysis type",
-    "cancelReasonLab": "Cancelled reason: {{reason}}"
+    "acceptedFromLab": "{{date}} – приет от лабораторията",
+    "acceptedFromLabAndCantBeCancelled": "Анализът беше приет от лабораторията и вече не може да се отмени.",
+    "probeTaken": "{{date}} – пробата е взета от лабораторията",
+    "sortByCrop": "По култура",
+    "sortByLatest": "По най-нови",
+    "latest": "Най-нови анализи",
+    "analysisType": "Вид анализ",
+    "cancelReasonLab": "Основание за отмяна: {{reason}}"
   },
   "field": {
     "number": "Номер на полето",
@@ -114,7 +114,7 @@
     "sendToArchive": "Приключване обработката на полето",
     "cultivate": "Обработвай полето",
     "harvested_on": "Полето беше ожънато на {{date}}",
-    "sown_on": "Crop sown on {{date}}",
+    "sown_on": "Култура е засята на {{date}}",
     "delete": "Изтриване на полето",
     "moveToArchive": "Полето беше преместено в архива (ферма->архив)",
     "area": "Площ",
@@ -130,17 +130,17 @@
     "toArchive": "архивиране",
     "field": "Поле",
     "created": "Полето е създадено.",
-    "history": "Field history",
-    "show": "Show field",
-    "dropFilesHere": "Drop files here",
-    "followingFilesAreUnsupported": "The following files are unsupported:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "history": "История на полето",
+    "show": "Показване на поле",
+    "dropFilesHere": "Пуснете файлове тук",
+    "followingFilesAreUnsupported": "Следните файлове не се поддържат:",
+    "createdDate": "Дата на създаване на полето",
+    "created_by": "Полето е създадено от",
+    "modified": "Дата на изменение на полето",
+    "modified_by": "Полето е изменено от",
+    "state": "Статус на полето",
+    "distance": "Разстояние до полето",
+    "analyses": "Брой анализи"
   },
   "no_email_no_password_entered": "Не сте въвели имейл и парола",
   "pleaseWaitImageIsBeingUploaded": "Моля изчакайте, снимката се зарежда",
@@ -157,10 +157,10 @@
     "delete": "Изтрий фермата",
     "qs_number": "QS номер",
     "logo": {
-      "upload": "Select company logo",
-      "camera": "Take a new company logo"
+      "upload": "Изберете лого на предприятието",
+      "camera": "Вземете ново лого на предприятието"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "Наистина ли искате да изтриете това стопанство?\nДанните ви не могат да бъдат възстановени!"
   },
   "crop": {
     "cancelCultivation": "Анулирай заплануваната култура",
@@ -197,16 +197,16 @@
     "without": "Без култури",
     "cropPlanning": "Запланувана култура",
     "age": "Възраст на културата",
-    "cropDoesntExist": "The selected crop doesn't exist.",
-    "protection": "Plant protection",
-    "activeCrops": "Active crops",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "cropDoesntExist": "Избраната култура не съществува.",
+    "protection": "Растителна защита",
+    "activeCrops": "Активни култури",
+    "created": "Дата на създаване на културата",
+    "created_by": "Културата е създадена от",
+    "favorite": "Културата е фаворит",
+    "harvested_on": "Дата на събиране на реколтата",
+    "lastComment": "Последен коментар",
+    "modified": "Дата на изменение на културата",
+    "sown_on": "Дата на засяване"
   },
   "fertilizer": {
     "fertilization": "Торене",
@@ -222,7 +222,7 @@
   "no_first_last_name_entered": "Моля въведете Вашето име и фамилия.",
   "deletePhoto": "Изтриване на снимка",
   "date": "дата",
-  "datePleaseSelect": "Please select date",
+  "datePleaseSelect": "Моля, изберете дата",
   "invoice": {
     "youDontHaveAddress": "Адрес за фактурата не е въведен."
   },
@@ -243,7 +243,7 @@
     "doYouReallyWantToDelete": "Наистина ли желаете да изтриете времето за изчакване?",
     "pesticide": "Продукт за растителна защита",
     "waitTime": "Време за изчакване",
-    "waitTimeShort": "Wait time"
+    "waitTimeShort": "Време за изчакване"
   },
   "more": "Повече",
   "position": "Позиция",
@@ -266,11 +266,11 @@
     "updated": "Паролата беше актуализирана.",
     "min6char": "Паролата трябва да е дълга най-малко 6 знака.",
     "reset": "Повторно задаване на паролата",
-    "resetHelp": "Enter your new password below.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "resetHelp": "Въведете новата си парола по-долу.",
+    "expiredActionCode": "Връзката за повторно задаване на паролата, върху която щракнахте, е с изтекла валидност. Моля, заявете ново повторно задаване на паролата.",
+    "invalidActionCode": "Връзката за паролата, върху която щракнахте, е с неправилна форма или вече е използвана.",
+    "userDisabled": "Потребителят е деактивиран.",
+    "userNotFound": "Потребителят не е намерен."
   },
   "noSearchResults": "Няма резултати.",
   "login": "Влизане",
@@ -298,7 +298,7 @@
   "employee": "Работник",
   "archive": {
     "archive": "Архив",
-    "archivedFields": "Archived Fields",
+    "archivedFields": "Архивирани полета",
     "noFieldsInArchive": "Няма архивирани полета."
   },
   "save_as_favorite": "Запази като фаворит",
@@ -321,31 +321,31 @@
   "invoice_address": "Адрес за фактура",
   "logout": "Излизане",
   "employees": {
-    "addEmployee": "Add Employee",
-    "noAdvisors": "No farm advisors",
-    "noDeactivatedUsers": "No deactivated users",
+    "addEmployee": "Добавяне на служител",
+    "noAdvisors": "Няма съветници на стопанството",
+    "noDeactivatedUsers": "Няма деактивирани потребители",
     "plural": "Работници",
-    "active": "Active",
-    "deactivated": "Deactivated",
-    "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
-    "advisors": "Advisors",
+    "active": "Активни",
+    "deactivated": "Деактивирани",
+    "reactivate": "Реактивиране на потребител",
+    "reactivateDoYouWant": "Наистина ли искате да реактивирате потребителя?",
+    "advisors": "Съветници",
     "admin": "Администратор",
     "manage": "Управление на работниците",
     "adminRWD": "Администратор (четене, писане, триене)",
     "invitationSentOn": "Поканата изпратена на {{date}}",
     "invitrationRejectedOn": "Поканата беше отхвърлена на {{date}}",
-    "getFromPhoneBook": "Search in Phonebook",
-    "choseEmail": "Choose email",
-    "employeeIsDeactivated": "Employee is deactivated",
+    "getFromPhoneBook": "Търсене в телефонния бележник",
+    "choseEmail": "Избиране на имейл",
+    "employeeIsDeactivated": "Служителят е деактивиран",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "Няма избрани полета",
+      "other": "{{count}} избрани полета",
+      "one": "1 избрано поле."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Избиране на полета",
+    "countryRestrictionLabel": "Ограничаване по държава",
+    "countryRestrictionDesc": "Ако ограничите потребителя по държава, той няма да може да вижда полета, които не се намират в тази държава."
   },
   "search": "Търсене",
   "satellite": "Сателит",
@@ -368,7 +368,7 @@
   "favorites": "Фаворити",
   "legal_data_security": "Права и поверителност на данните",
   "coordinates": "Координати",
-  "deleteForAll": "Delete for all",
+  "deleteForAll": "Изтриване за всички",
   "deletePermenantly": "Окончателно изтриване",
   "comment": {
     "fromField": "Коментар от поле: {{name}}",
@@ -388,17 +388,17 @@
   "map": "Карта",
   "maps": {
     "pressToSetPin": "Натиснете върху картата, за да зададете точка.",
-    "searchAddress": "Address search",
-    "clickToShowMore": "Click to show more",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "searchAddress": "Търсене на адрес",
+    "clickToShowMore": "Щракнете за показване на още",
+    "measure": "Измерване на разстоянието",
+    "measureDesc": "Движение на картата и задаване на точка.",
+    "drawField": "Очертаване на многоъгълника на полето",
+    "drawFieldDesc": "Движение на картата и задаване на точка.",
+    "drawFieldSave": "Запазване на многоъгълника като поле.",
+    "deletePolygon": "Изтриване на многоъгълник",
+    "deleteMeasurement": "Изтриване на измерването на разстоянието",
     "styles": {
-      "black": "Black"
+      "black": "Черно"
     }
   },
   "no_email_entered": "Не сте въвели имейл.",
@@ -412,7 +412,7 @@
   "first_name": "Име",
   "request_new_password": "Поискай нава парола",
   "register": "Регистрация",
-  "needAFarmerJoeAccount": "Need a farmerJoe account?",
+  "needAFarmerJoeAccount": "Имате нужда от профил във farmerJoe?",
   "phones": {
     "enterNumber": "Въведете телефонен номер"
   },
@@ -423,9 +423,9 @@
   "settings": "Настройки",
   "help": "Помощ",
   "position_company": "Позиция на фермата",
-  "position_verb": "Set location",
-  "latitude": "Latitude",
-  "longitude": "Longitude",
+  "position_verb": "Задайте местоположение",
+  "latitude": "Географска ширина",
+  "longitude": "Географска дължина",
   "copy": "Копиране",
   "share": "Сподели",
   "directions": "Навигирай",
@@ -485,118 +485,118 @@
     }
   },
   "alerts": {
-    "openSettings": "Open Settings",
+    "openSettings": "Отваряне на настройките",
     "needLocation": {
       "title": "farmerJoe се нуждае от вашата позиция",
       "description": "farmerJoe в момента няма право на достъп до вашата позиция."
     },
     "needAlwaysLocation": {
-      "title": "Location permission not granted",
-      "description": "To share your live location farmerJoe needs to always access your location. If you don't grant this permission you can't use this feature."
+      "title": "Не е дадено разрешение за местоположението",
+      "description": "За да споделяте местоположението си в реално време, farmerJoe трябва винаги да има достъп до местоположението ви. Ако не дадете това разрешение, не можете да използвате тази функция."
     },
     "cantDetermineLocation": {
       "title": "farmerJoe не може да определи вашето местоположение.",
       "description": "Моля включете GPS модула на вашият телефон."
     },
     "needPhotoLibrary": {
-      "title": "Cannot access image",
-      "description": "Please allow access if you want to be able to select images."
+      "title": "Няма достъп до изображението",
+      "description": "Моля, дайте достъп, ако искате да можете да избирате изображения."
     },
     "needCameraAccess": {
-      "title": "Cannot access camera",
-      "description": "Please allow access to your camera if you want to take photos."
+      "title": "Няма достъп до камерата",
+      "description": "Моля, дайте достъп до камерата си, ако искате да правите снимки."
     },
     "needContactsAccess": {
-      "title": "farmerJoe needs access to your contacts",
-      "description": "If you want to invite someone from your address book, please grant FarmerJoe access to contacts."
+      "title": "farmerJoe трябва да има достъп до контактите ви",
+      "description": "Ако искате да поканите някого от бележника си с адреси, моля, дайте на farmerJoe достъп до контактите."
     },
     "sketchNeedsStorage": {
-      "title": "farmerJoe needs storage access",
-      "description": "In order for us to manipulate the image we need access to your storage. Without this permission you won't be able to submit the image."
+      "title": "farmerJoe трябва да има достъп до съхранението",
+      "description": "За да можем да боравим с изображението, трябва да имаме достъп до съхранението ви. Без това разрешение няма да можете да подадете изображението."
     }
   },
   "filter": "Филтър",
   "acl": {
-    "view": "View",
-    "create": "Create",
-    "edit": "Edit",
-    "delete": "Delete",
-    "department": "Department",
-    "selectFields": "Select fields",
-    "CRUD": "Create, Edit, Delete",
+    "view": "Преглед",
+    "create": "Създаване",
+    "edit": "Редактиране",
+    "delete": "Изтриване",
+    "department": "Отдел",
+    "selectFields": "Избиране на полета",
+    "CRUD": "Създаване, Редактиране, Изтриване",
     "role": {
-      "restricted": "Restricted access",
-      "allrights": "All rights",
-      "type": "Account type",
-      "admin": "Admin",
-      "standard": "Worker",
-      "advisor": "Advisor"
+      "restricted": "Ограничен достъп",
+      "allrights": "Всички права",
+      "type": "Вид профил",
+      "admin": "Администратор",
+      "standard": "Работник",
+      "advisor": "Съветник"
     },
     "user": {
-      "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
-      "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
-      "doYouWantToDeleteUser": "Do you really want to delete this employee?",
-      "cantDeleteYourself": "You can't delete yourself",
+      "delete": "Изтриване на служителя",
+      "deactivate": "Деактивиране на служителя",
+      "doYouWantToDeactivateUser": "Искате ли да деактивирате този служител?",
+      "doYouWantToDeleteUser": "Наистина ли искате да изтриете този служител?",
+      "cantDeleteYourself": "Не можете да изтриете себе си",
       "alertFound": {
-        "title": "User already in company",
-        "message": "The user with this email is already existing in the company."
+        "title": "Потребителят вече е в предприятието",
+        "message": "Потребителят с този имейл вече съществува в предприятието."
       },
       "alertNoFields": {
-        "title": "No fields selected",
-        "message": "You need to select at least one field for the user"
+        "title": "Няма избрани полета",
+        "message": "Трябва да изберете поне едно поле за потребителя"
       }
     },
     "users": {
-      "users": "Employees",
-      "userRight": "The user can see other Employees in the farm."
+      "users": "Служители",
+      "userRight": "Потребителят може да вижда други служители в стопанството."
     },
     "access": {
       "fieldAdminAlert": {
-        "message": "The user is Administrator and has access on all fields in the company. If you want to forbid his access to this field & other fields you would have to make him a normal user."
+        "message": "Потребителят е администратор и има достъп до всички полета в предприятието. Ако искате да забраните достъпа му до това поле и до други полета, трябва да го превърнете в обикновен потребител."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "Потребителят има достъп до всички полета в предприятието. Ако искате да забраните достъпа му до това поле и до други полета, трябва да редактирате профила му и да промените достъпа му от всички полета на единствено полета, които изберете вие."
       },
       "forbidFieldAlert": {
-        "message": "Do you really want to forbid {{name}} access to this field?"
+        "message": "Наистина ли искате да забраните достъпа на {{name}} до това поле?"
       },
       "grantFieldAlert": {
-        "message": "Do you really want to give {{name}} access to this field?"
+        "message": "Наистина ли искате да дадете достъп на {{name}} до това поле?"
       },
-      "alreadyHasAccess": "Already has access to field.",
-      "accessOnceInvitationAccepted": "Has access once user accepts invitation."
+      "alreadyHasAccess": "Вече има достъп до полето.",
+      "accessOnceInvitationAccepted": "Има достъп, щом потребителят приеме поканата."
     },
-    "rights": "Rights",
+    "rights": "Права",
     "fields": {
-      "all": "All",
-      "selected": "Only selected",
-      "selectDesc": "Select fields which the user is able to see.",
-      "standardUserRights": "The user can't create or edit fields."
+      "all": "Всички",
+      "selected": "Само избраните",
+      "selectDesc": "Изберете полета, които потребителят може да вижда.",
+      "standardUserRights": "Потребителят не може да създава или редактира полета."
     },
     "crops": {
-      "all": "Planted and harvested",
-      "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "all": "Засадени и със събрана реколта",
+      "active": "Само засадени",
+      "standardUserRights": "Потребителят не може да създава или редактира никакви култури."
     },
     "comments": {
-      "comments": "Comments",
-      "all": "All comments",
-      "selected": "Only own comments",
-      "standardUserRights": "The user can create and edit his own comments."
+      "comments": "Коментари",
+      "all": "Всички коментари",
+      "selected": "Само собствените коментари",
+      "standardUserRights": "Потребителят може да създава и редактира собствените си коментари."
     },
     "fertilizing": {
-      "description": "Select below what the user is able to do with Fertilizings."
+      "description": "Изберете по-долу какво може да прави потребителят с наторяванията."
     },
     "waittime": {
-      "description": "Select below what the user is able to do with Wait times."
+      "description": "Изберете по-долу какво може да прави потребителят с времената за изчакване."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Ограничение по държава"
   },
   "near": {
-    "by": "Near by",
-    "fields": "Nearest fields",
-    "cantSortNoLocation": "We can't sort the nearest by fields, because you haven't allowed us access to your location."
+    "by": "Близо до",
+    "fields": "Най-близки полета",
+    "cantSortNoLocation": "Не можем да сортираме по най-близки полета, тъй като не сте ни дали достъп до местоположението си."
   },
   "registerScreen": {
     "startNow": "Започни сега",
@@ -606,11 +606,11 @@
     "weUseEmail": "Ще ползваш този имейл за да се логваш в farmerJoe, или в случай, че забравиш своята парола и трябва да я възстановиш. Други потребнители ще могат да те канят с този имейл в тяхното предприятие.",
     "newsletter": " Запиши ме за информационният бюлетин на farmerJoe?",
     "passwordHelp": "Използвай комбинация от минимум 6 символа - цифри, букви и пунктуационни знаци (например ! или &)",
-    "confrim_agb_data_security": "By tapping \"Create Account\", you agree to our {0}. Learn how we collect and use your data in our {1}, and how we use cookies and similar technology in our {2}.",
-    "continueRegistration": "Continue sign up",
+    "confrim_agb_data_security": "С натискането на „Създаване на профил“ приемате нашите {0}. Научете как събираме и използваме данните ви в нашата {1} и как използваме „бисквитки“ и подобни технологии в нашите {2}.",
+    "continueRegistration": "Продължаване на регистрацията",
     "next": "Следващ",
     "enterEmail": "Въведи своят имейл адрес",
-    "errorEmailExist": "Another account already users this email address.",
+    "errorEmailExist": "Този имейл адрес вече се използва в друг профил.",
     "retry": "Опитай отново",
     "titles": {
       "finish": "Почти сме готови",
@@ -624,139 +624,173 @@
     }
   },
   "location": {
-    "farmCanSeeYourLocation": "Everyone in the farm can see your location",
-    "sharedWithFarm": "Position is being shared with this farm.",
-    "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
-    "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "farmCanSeeYourLocation": "Всеки в стопанството може да вижда местоположението ви",
+    "sharedWithFarm": "Местоположението се споделя с това стопанство.",
+    "letColleaguesSeeYourLocationLabel": "Позволете на колегите да знаят къде сте",
+    "letColleaguesSeeYourLocationDesc": "Споделяйте местоположението си в реално време с колегите в това стопанство.",
     "forX": {
       "x_minutes": {
-        "one": "For {{count}} minute",
-        "other": "For {{count}} minutes"
+        "one": "За {{count}} минута",
+        "other": "За {{count}} минути"
       },
       "x_hours": {
-        "other": "For {{count}} hours",
-        "one": "For 1 hour"
+        "other": "За {{count}} часа",
+        "one": "За 1 час"
       },
       "x_days": {
-        "other": "For {{count}} days",
-        "one": "For 1 day"
+        "other": "За {{count}} дни",
+        "one": "За 1 ден"
       }
     },
-    "untilTurnedOff": "Until you turn this off",
-    "shareNow": "Share now",
-    "turnOff": "Turn off",
-    "emailLog": "Email location log"
+    "untilTurnedOff": "Докато не го изключите",
+    "shareNow": "Споделете сега",
+    "turnOff": "Изключване",
+    "emailLog": "Изпратете регистъра на местоположенията по имейл"
   },
   "report": {
-    "issue": "Report issue"
+    "issue": "Сигнализиране за проблем"
   },
-  "no_company_selected": "No company selected",
-  "no_field_selected": "No field selected",
-  "invalid_phone_number": "invalid phone number",
-  "close": "close",
-  "errorMessage": "Oops, this shouldn't have happened. The development team has been notified.",
-  "refresh": "Refresh",
-  "remoteSupport": "Remote support request",
-  "screenTooSmall": "Your screen is too small. Use our app for iOS and Android instead.",
-  "emailVerified": "Your email has been verified",
-  "resetPasswordLinkExpired": "Your request to reset your password has expired or the link has already been used",
-  "verifyEmailLinkExpired": "Your request to verify your email has expired or the link has already been used",
-  "emailChangeReverted": "Your sign-in email address has been changed back to {{email}}.",
-  "invalidActionCode": "This code is no longer valid",
-  "browserNotSupported": "farmerJoe doesn't support Internet Explorer. Please use a modern and supported browser such as Firefox, Chrome, Edge, Opera or Safari.",
+  "no_company_selected": "Няма избрано предприятие",
+  "no_field_selected": "Няма избрано поле",
+  "invalid_phone_number": "невалиден телефонен номер",
+  "close": "затваряне",
+  "errorMessage": "Това не трябваше да се случва. Екипът от разработчици е уведомен.",
+  "refresh": "Опресняване",
+  "remoteSupport": "Заявка за дистанционна поддръжка",
+  "screenTooSmall": "Екранът ви е твърде малък. Вместо това използвайте приложението ни за iOS и Android.",
+  "emailVerified": "Имейлът ви беше потвърден",
+  "resetPasswordLinkExpired": "Заявката ви за повторно задаване на парола е с изтекла валидност или връзката вече е използвана",
+  "verifyEmailLinkExpired": "Заявката ви за потвърждаване на вашия имейл е с изтекла валидност или връзката вече е използвана",
+  "emailChangeReverted": "Имейл адресът ви за вход беше променен обратно на {{email}}.",
+  "invalidActionCode": "Този код вече не е валиден",
+  "browserNotSupported": "farmerJoe не поддържа Internet Explorer. Моля, използвайте съвременен и поддържан браузър, като например Firefox, Chrome, Edge, Opera или Safari.",
   "apiKeys": {
-    "header": "API keys",
-    "generate": "Generate a new key",
-    "key": "Key",
-    "enabled": "Enabled",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
-    "descriptionLink": "here",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "header": "Ключове за приложния програмен интерфейс (API)",
+    "generate": "Генериране на нов ключ",
+    "key": "Ключ",
+    "enabled": "Активирани",
+    "description": "Ключовете за приложния програмен интерфейс (API) предоставят пълен достъп до данните за стопанството ви във farmerJoe, така че ги пазете. Можете да намерите документацията {0}.",
+    "descriptionLink": "тук",
+    "name": "Име",
+    "ipFiltering": "Филтриране по IP",
+    "ipFilter": "Разрешени IP адреси",
+    "ipFilterHelp": "Списък с разделени със запетая IP адреси и диапазони от IP адреси. Например: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "Няма ключове за приложния програмен интерфейс (API)",
+    "user": "Потребител"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "Регистър на приложния програмен интерфейс (API)",
+    "result": "Резултат",
+    "ipAddress": "Изходен IP адрес",
+    "method": "Метод",
+    "execTime": "Време за изпълнение",
+    "userAgent": "Потребителско приложение",
+    "version": "Версия",
+    "response": "Отговор",
+    "noResults": "Няма резултати",
+    "description": "В списъка са показани повикванията към приложния програмен интерфейс (API) от последните 24 часа."
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "Конфигуриране на графи",
+    "possibleColumns": "Налични графи",
+    "chosenColumns": "Избрани графи",
+    "dragHere": "Хванете с мишката и пуснете тук"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "Всички производители",
+    "recentlyUsed": "Наскоро използвани",
+    "noProducerForField": "Няма производител",
+    "single": "Производител",
+    "plural": "Производители",
+    "add": "Добавяне на производител",
+    "edit": "Редактиране на производител",
+    "name": "Име на производител",
+    "select": "Избиране на производител",
+    "createUser": "Създаване като администратор за производителя",
+    "contactPerson": "Лице за връзка",
+    "noProducer": "Все още не са създадени производители.",
+    "location": "Местоположение на производителя",
+    "number": "Номер на производителя",
+    "delete": "Изтриване на производителя",
+    "doYouWantToDeleteProducer": "Наистина ли искате да изтриете този производител?",
+    "creatingUserFor": "Създаване на потребител за {{groupName}}",
+    "noEmployees": "Този производител няма служители."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "fieldCoordinates": "Координати на полето",
+    "fieldCenter": "Център на полето",
+    "calculatedSizeInHa": "Изчислена големина в хектари",
+    "panningMode": "Панорама",
+    "drawingMode": "Очертаване на многоъгълник",
+    "reset": "Повторно задаване",
+    "hideMarkers": "Скриване на маркерите",
+    "measureMode": "Измерване",
+    "hideDistanceMarkers": "Скриване на страничната дължина на многоъгълника"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Отмяна",
+  "redo": "Връщане",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Регистър на промените",
+    "optional": "Налична е актуализация",
+    "required": "Задължителна актуализация",
+    "optionalUpdateDesc": "Налична е нова актуализация за приложението farmerJoe. Натиснете бутона по-долу, за да актуализирате.",
+    "requiredUpdateDesc": "Ако искате да продължите да използвате farmerJoe, трябва да инсталирате най-новата актуализация.",
+    "updateNow": "Актуализирайте сега"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Маркирания",
+    "markField": "Маркиране на полето",
+    "deleteMark": "Размаркиране на полето",
+    "doYouReallyWantToDelete": "Наистина ли искате да размаркирате полето?",
+    "reason": "Основание",
+    "selectColorOrEmoji": "Избиране на цвят или емоджи",
+    "marked": "Полето беше маркирано с/ъс: {0} {1}.",
+    "unmarked": "Полето беше размаркирано."
   },
   "notifications": {
     "waittime": {
-      "title": "Waittime has ended",
-      "body": "Pesticide: {{pesticide_name}}\nCrop: {{crop_name}}\nField: {{field_name}}"
+      "title": "Времето за изчакване изтече",
+      "body": "Пестицид: {{pesticide_name}}\nКултура: {{crop_name}}\nПоле: {{field_name}}"
     },
     "analysis_result": {
-      "soil": "soil analysis",
-      "residue": "residue analysis",
-      "title": "Result for {{analysis_type}} is available",
-      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
+      "soil": "почвен анализ",
+      "residue": "анализ на остатъци",
+      "title": "Резултатът за {{analysis_type}} е наличен",
+      "body": "Култура: {{crop_name}}\nПоле: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

@@ -134,13 +134,13 @@
     "show": "Afișare câmp",
     "dropFilesHere": "Fixați fișierele aici",
     "followingFilesAreUnsupported": "Următoarele fișiere nu sunt acceptate:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "createdDate": "Data creării câmpului",
+    "created_by": "Câmp creat de",
+    "modified": "Data modificării câmpului",
+    "modified_by": "Câmp modificat de",
+    "state": "Stadiu câmp",
+    "distance": "Distanța până la câmp",
+    "analyses": "Număr de analize"
   },
   "no_email_no_password_entered": "Nu ați introdus un e-mail și o parolă",
   "pleaseWaitImageIsBeingUploaded": "Așteptați; imaginea este încărcată",
@@ -160,7 +160,7 @@
       "upload": "Selectați sigla companiei",
       "camera": "Selectați o nouă siglă a companiei"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "Sigur doriți să ștergeți această fermă?\nDatele dvs. nu pot fi restabilite!"
   },
   "crop": {
     "cancelCultivation": "Anulare cultură planificată",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "Cultura selectată nu există.",
     "protection": "Protecție plante",
     "activeCrops": "Culturi active",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "Data creării culturii",
+    "created_by": "Cultură creată de",
+    "favorite": "Cultura este salvată ca favorită",
+    "harvested_on": "Data recoltării",
+    "lastComment": "Ultimul comentariu",
+    "modified": "Data modificării culturii",
+    "sown_on": "Data semănării"
   },
   "fertilizer": {
     "fertilization": "Fertilizare",
@@ -267,10 +267,10 @@
     "min6char": "Parola trebuie să conțină cel puțin 6 caractere.",
     "reset": "Resetați parola",
     "resetHelp": "Introduceți noua parolă mai jos.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "Linkul de resetare a parolei pe care ați făcut clic a expirat. Solicitați o nouă resetare a parolei.",
+    "invalidActionCode": "Linkul de resetare a parolei pe care ați făcut clic fie este incorect, fie a fost utilizat deja.",
+    "userDisabled": "Utilizatorul a fost dezactivat.",
+    "userNotFound": "Utilizatorul nu a fost găsit."
   },
   "noSearchResults": "Niciun rezultat.",
   "login": "Conectare",
@@ -339,13 +339,13 @@
     "choseEmail": "Alegeți adresa de e-mail",
     "employeeIsDeactivated": "Angajatul este dezactivat",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "Niciun câmp selectat",
+      "other": "{{count}} (de) câmpuri selectate",
+      "one": "1 câmp selectat."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Selectați câmpurile",
+    "countryRestrictionLabel": "Restricționare după țară",
+    "countryRestrictionDesc": "Dacă restricționați utilizatorul în funcție de țară, acesta nu va putea vizualiza câmpurile care nu aparțin țării respective."
   },
   "search": "Căutare",
   "satellite": "Satelit",
@@ -388,17 +388,17 @@
   "map": "Hărți",
   "maps": {
     "pressToSetPin": "Atingeți pe hartă pentru a marca locul.",
-    "searchAddress": "Address search",
+    "searchAddress": "Căutare adresă",
     "clickToShowMore": "Faceți clic pentru mai multe info",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "Măsurare distanță",
+    "measureDesc": "Mutare hartă și fixare indicator.",
+    "drawField": "Desenare poligon câmp",
+    "drawFieldDesc": "Mutare hartă și fixare indicator.",
+    "drawFieldSave": "Salvare poligon drept câmp.",
+    "deletePolygon": "Ștergere poligon",
+    "deleteMeasurement": "Ștergere măsurare distanță",
     "styles": {
-      "black": "Black"
+      "black": "Negru"
     }
   },
   "no_email_entered": "Nu ați introdus o adresă de e-mail.",
@@ -556,7 +556,7 @@
         "message": "Utilizatorul este administrator și are acces la toate câmpurile din companie. Dacă doriți să îi interziceți accesul la acest câmp și la alte câmpuri, trebuie să îi acordați rolul de utilizator obișnuit."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "Utilizatorul are acces la toate câmpurile ce aparțin companiei. Dacă vreți să îi interziceți accesul la acest câmp și la alte câmpuri, va trebui să îi editați profilul și să îi schimbați accesul de la toate câmpurile, doar la câmpurile pe care le selectați."
       },
       "forbidFieldAlert": {
         "message": "Sigur doriți să interziceți accesul lui {{name}} la acest câmp?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "Selectați mai jos ce poate face utilizatorul cu timpii de așteptare."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Restricționare țară"
   },
   "near": {
     "by": "Lângă",
@@ -669,83 +669,100 @@
     "generate": "Generați o cheie nouă",
     "key": "Cheie",
     "enabled": "Activat",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "Cheile API oferă acces complet la datele fermei dvs. farmerJoe, prin urmare, păstrați-le în siguranță. Puteți găsi documentația {0}.",
     "descriptionLink": "aici",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "Nume",
+    "ipFiltering": "Filtrare IP",
+    "ipFilter": "Adrese IP permise",
+    "ipFilterHelp": "O listă de adrese IP și intervale de adrese IP separate prin virgulă. De exemplu: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
+    "noKeys": "Nicio cheie API",
+    "user": "Utiliz."
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "Jurnal API",
+    "result": "Rezultat",
+    "ipAddress": "Adresă IP sursă",
+    "method": "Metodă",
+    "execTime": "Timp de execuție",
+    "userAgent": "Agent utilizator",
+    "version": "Versiune",
+    "response": "Răspuns",
+    "noResults": "Niciun rezultat",
+    "description": "Lista indică apelurile API din ultimele 24 de ore."
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "Configurare coloane",
+    "possibleColumns": "Coloane disponibile",
+    "chosenColumns": "Coloane selectate",
+    "dragHere": "Glisați aici"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "Toți producătorii",
+    "recentlyUsed": "Recent utilizate",
+    "noProducerForField": "Niciun producător",
+    "single": "Producător",
+    "plural": "Producători",
+    "add": "Adăugare producător",
+    "edit": "Modificare producător",
+    "name": "Nume producător",
+    "select": "Selectare producător",
+    "createUser": "Creare ca admin pentru producător",
+    "contactPerson": "Persoană de contact",
+    "noProducer": "Niciun producător nu a fost creat încă.",
+    "location": "Localizare producător",
+    "number": "Numărul de producători",
+    "delete": "Ștergere producător",
+    "doYouWantToDeleteProducer": "Sigur doriți să ștergeți acest producător?",
+    "creatingUserFor": "Creare utilizator pentru {{groupName}}",
+    "noEmployees": "Acest producător nu are angajați."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "fieldCoordinates": "Coordonate câmp",
+    "fieldCenter": "Centru câmp",
+    "calculatedSizeInHa": "Dimensiune calculată în ha",
+    "panningMode": "Panor.",
+    "drawingMode": "Desenare poligon",
+    "reset": "Resetare",
+    "hideMarkers": "Ascundere indicatori",
+    "measureMode": "Măsurare",
+    "hideDistanceMarkers": "Ascundere latură poligon"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Anulare",
+  "redo": "Refacere",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Jurnal modificări",
+    "optional": "Actualizare disponibilă",
+    "required": "Actualizare necesară",
+    "optionalUpdateDesc": "Este disponibilă o nouă actualizare pentru aplicația farmerJoe. Apăsați pe butonul de mai jos pentru a permite actualizarea.",
+    "requiredUpdateDesc": "Dacă doriți să utilizați în continuare aplicația farmerJoe, este necesar să instalați ultima actualizare.",
+    "updateNow": "Actualizați acum"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Marcaje",
+    "markField": "Marcare câmp",
+    "deleteMark": "Anulare marcare câmp",
+    "doYouReallyWantToDelete": "Sigur doriți să anulați marcarea câmpului?",
+    "reason": "Motiv",
+    "selectColorOrEmoji": "Selectare culoare sau emoji",
+    "marked": "Câmpul a fost marcat cu: {0} {1}.",
+    "unmarked": "Marcarea câmpului a fost anulată."
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "Rezultatul pentru {{analysis_type}} este disponibil",
       "body": "Cultură: {{crop_name}}\nCâmp: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

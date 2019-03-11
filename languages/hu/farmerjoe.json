@@ -134,13 +134,13 @@
     "show": "Szántóföld megjelenítése",
     "dropFilesHere": "Húzza ide a fájlokat",
     "followingFilesAreUnsupported": "A következő fájlok nem támogatottak:",
-    "createdDate": "Field's creation date",
-    "created_by": "Field created by",
-    "modified": "Field's modification date",
-    "modified_by": "Field modified by",
-    "state": "Field's status",
-    "distance": "Distance to field",
-    "analyses": "Analysis count"
+    "createdDate": "Mező létrehozásának napja",
+    "created_by": "Mezőt létrehozta:",
+    "modified": "Mező módosításának napja",
+    "modified_by": "Mezőt módosította:",
+    "state": "Mező állapota",
+    "distance": "Távolság a mezőig",
+    "analyses": "Elemzés száma"
   },
   "no_email_no_password_entered": "Nem adott meg e-mailt és jelszót",
   "pleaseWaitImageIsBeingUploaded": "Kérem várjon, a kép feltöltésre kerül",
@@ -160,7 +160,7 @@
       "upload": "Válasszon cég logót",
       "camera": "Fogadja el a cég új logóját"
     },
-    "doYouWantToDeleteCompany": "Do you really want to delete this farm?\nYour data cannot be restored!"
+    "doYouWantToDeleteCompany": "Biztosan törli ezt a farmot?\nAz Ön adatait nem lehet visszaállítani!"
   },
   "crop": {
     "cancelCultivation": "Tervezett termény törlése",
@@ -200,13 +200,13 @@
     "cropDoesntExist": "A kiválasztott haszonnövény nem létezik.",
     "protection": "Növényvédelem",
     "activeCrops": "Aktív haszonnövények",
-    "created": "Crop creation date",
-    "created_by": "Crop created by",
-    "favorite": "Crop is favourite",
-    "harvested_on": "Harvest date",
-    "lastComment": "Last comment",
-    "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "created": "Kultúra létrehozásának dátuma",
+    "created_by": "Kultúrát létrehozta:",
+    "favorite": "A kultúra a kedvenc",
+    "harvested_on": "Betakarítás napja",
+    "lastComment": "Utolsó megjegyzés",
+    "modified": "Kultúra módosításának napja",
+    "sown_on": "Vetés napja"
   },
   "fertilizer": {
     "fertilization": "termékenyítés",
@@ -267,10 +267,10 @@
     "min6char": "A jelszónak legalább 6 karakter hosszúnak kell lennie.",
     "reset": "Jelszó visszaállítása",
     "resetHelp": "Adja meg alább az új jelszót.",
-    "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
-    "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
-    "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "expiredActionCode": "A jelszó-visszaállító link, amelyre rákattintott, lejárt. Kérje új jelszó visszaállítást.",
+    "invalidActionCode": "A jelszó link, amelyre rákattintott, szabálytalan, vagy már használt.",
+    "userDisabled": "A felhasználót letiltották.",
+    "userNotFound": "A felhasználó nem található."
   },
   "noSearchResults": "Nincs eredmény.",
   "login": "bejelentkezés",
@@ -339,13 +339,13 @@
     "choseEmail": "Válasszon e-mail-t",
     "employeeIsDeactivated": "Az alkalmazott inaktivált",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "Nincs mező kijelölve",
+      "other": "{{count}} mező van kijelölve",
+      "one": "1 mező van kijelölve."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Válasszon mezőket",
+    "countryRestrictionLabel": "Korlátozza országonként",
+    "countryRestrictionDesc": "Ha országonként korlátozza a felhasználót, akkor az nem tudja megtekinteni azokat a mezőket, amelyek nem tartoznak ahhoz az országhoz."
   },
   "search": "Keresés",
   "satellite": "Műhold",
@@ -388,17 +388,17 @@
   "map": "Térképek",
   "maps": {
     "pressToSetPin": "A képernyő egy pontjának megnyomásával elhelyezheti a helymeghatározó jelet.",
-    "searchAddress": "Address search",
+    "searchAddress": "Cím keresése",
     "clickToShowMore": "Kattintással többet mutat",
-    "measure": "Measure distance",
-    "measureDesc": "Move map and set pin.",
-    "drawField": "Draw field polygon",
-    "drawFieldDesc": "Move map and set pin.",
-    "drawFieldSave": "Save polygon as field.",
-    "deletePolygon": "Delete polygon",
-    "deleteMeasurement": "Delete distance measurement",
+    "measure": "Távolság mérése",
+    "measureDesc": "Mozgassa a térképet, és állítsa be a helymeghatározó jelet.",
+    "drawField": "Rajzoljon mező-sokszöget",
+    "drawFieldDesc": "Mozgassa a térképet, és állítsa be a helymeghatározó jelet.",
+    "drawFieldSave": "Sokszög mentése mezőként.",
+    "deletePolygon": "Sokszög törlése",
+    "deleteMeasurement": "Távolságmérés törlése",
     "styles": {
-      "black": "Black"
+      "black": "Fekete"
     }
   },
   "no_email_entered": "Nem írt be e-mail címet.",
@@ -556,7 +556,7 @@
         "message": "A felhasználó rendszergazda, és hozzáférése van a cég minden mezőjéhez. Ha le akarja tiltani hozzáférését ehhez a mezőhöz & más mezőkhöz, ehhez közönséges felhasználóként kell deklarálnia."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "A felhasználó hozzáfér a vállalat összes mezőjéhez. Ha meg akarja tiltani a hozzáférését ehhez és más mezőkhöz, szerkesztenie kell profilját és módosítania kell hozzáférési jogosultságát az összes mezőből csakis az Ön által kijelölt mezőkre."
       },
       "forbidFieldAlert": {
         "message": "Tényleg le akarja tiltani {{name}} hozzáférését ehhez a mezőhöz?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "Válassza ki alább, hogy mit tehet a felhasználó a Várakozási időkkel."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Ország korlátozás"
   },
   "near": {
     "by": "A közelben",
@@ -669,83 +669,100 @@
     "generate": "Új kulcs generálása",
     "key": "Kulcs",
     "enabled": "Engedélyezve",
-    "description": "API keys provide full access to your farmerJoe farm's data, so keep them safe. You can find the documentation {0}.",
+    "description": "Az API kulcsok teljes hozzáférést biztosítanak az Ön farmerJoe gazdasága adataihoz, tehát tartsa ezeket biztonságos helyen. Megtalálhatja a dokumentációban {0}.",
     "descriptionLink": "itt",
-    "name": "Name",
-    "ipFiltering": "IP Filtering",
-    "ipFilter": "Allowed IP addresses",
-    "ipFilterHelp": "A comma-separated list of IP addresses and IP address ranges. For example: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
-    "noKeys": "No API keys",
-    "user": "User"
+    "name": "Név",
+    "ipFiltering": "IP szűrés",
+    "ipFilter": "Megengedett IP-címek",
+    "ipFilterHelp": "IP-címek és IP-címtartományok vesszővel elválasztott listája. Például: 127.0.0.1, 10.0.0.0/24, 2001:db8::/ 48",
+    "noKeys": "Nincsenek API kulcsok",
+    "user": "Felhasználó"
   },
   "apiLogs": {
-    "header": "API log",
-    "result": "Result",
-    "ipAddress": "Source IP address",
-    "method": "Method",
-    "execTime": "Execution time",
-    "userAgent": "User agent",
-    "version": "Version",
-    "response": "Response",
-    "noResults": "No results",
-    "description": "The list shows API calls from the last 24 hours."
+    "header": "API-napló",
+    "result": "Eredmény",
+    "ipAddress": "Forrás IP-címe",
+    "method": "Módszer",
+    "execTime": "Végrehajtási idő",
+    "userAgent": "Felhasználó ügynök",
+    "version": "Változat",
+    "response": "Válasz",
+    "noResults": "Nincs eredmény",
+    "description": "A listában az elmúlt 24 óra API hívásai láthatók."
   },
   "columnConfigurator": {
-    "title": "Configure columns",
-    "possibleColumns": "Available columns",
-    "chosenColumns": "Selected columns",
-    "dragHere": "Drag here"
+    "title": "Oszlopok beállítása",
+    "possibleColumns": "Elérhető oszlopok",
+    "chosenColumns": "Kijelölt oszlopok",
+    "dragHere": "Húzza ide"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
-    "single": "Producer",
-    "plural": "Producers",
-    "add": "Add producer",
-    "edit": "Edit producer",
-    "name": "Producer name",
-    "select": "Select producer",
-    "createUser": "Create as admin for producer",
-    "contactPerson": "Contact person",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "all": "Minden termelő",
+    "recentlyUsed": "A legutóbb használt",
+    "noProducerForField": "Nincs termelő",
+    "single": "Termelő",
+    "plural": "Termelők",
+    "add": "Termelő hozzáadása",
+    "edit": "Termelő szerkesztése",
+    "name": "Termelő neve",
+    "select": "Válassza ki a termelőt",
+    "createUser": "Létrehozás mint admin a termelő számára",
+    "contactPerson": "Kapcsolattartó személy",
+    "noProducer": "Még nincs létrehozott termelő.",
+    "location": "Termelő helye",
+    "number": "Termelő száma",
+    "delete": "Termelő törlése",
+    "doYouWantToDeleteProducer": "Biztosan törli ezt a termelőt?",
+    "creatingUserFor": "Felhasználó létrehozása ehhez: {{groupName}}",
+    "noEmployees": "Ennek a termelőnek nincs alkalmazottja."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
-    "fieldCoordinates": "Field coordinates",
-    "fieldCenter": "Field center",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
-    "drawingMode": "Draw polygon",
-    "reset": "Reset",
-    "hideMarkers": "Hide markers",
-    "measureMode": "Measure",
-    "hideDistanceMarkers": "Hide polygon side length"
+    "fieldCoordinates": "Mező koordinátái",
+    "fieldCenter": "Mező középpontja",
+    "calculatedSizeInHa": "Becsült méret, hektár",
+    "panningMode": "Pásztázás",
+    "drawingMode": "Sokszög rajzolása",
+    "reset": "Visszaállítás",
+    "hideMarkers": "Jelzők elrejtése",
+    "measureMode": "Mérés",
+    "hideDistanceMarkers": "Sokszög oldalhosszúságának elrejtése"
   },
-  "undo": "Undo",
-  "redo": "Redo",
+  "undo": "Visszavonás",
+  "redo": "Mégis",
   "updates": {
-    "changelog": "Changelog",
-    "optional": "Update available",
-    "required": "Required update",
-    "optionalUpdateDesc": "A new update for the farmerJoe app is available. Tap on the button below to update.",
-    "requiredUpdateDesc": "If you want to continue using farmerJoe you need to install the latest update.",
-    "updateNow": "Update now"
+    "changelog": "Változás napló",
+    "optional": "Frissítés elérhető",
+    "required": "Szükséges frissítés",
+    "optionalUpdateDesc": "Új frissítés elérhető a farmerJoe alkalmazáshoz. Kattintson az alábbi gombra a frissítéshez.",
+    "requiredUpdateDesc": "Ha továbbra is használni szeretné a farmerJoe alkalmazást, telepítse a legújabb frissítést.",
+    "updateNow": "Frissítés most"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Jelölések",
+    "markField": "Mező jelölése",
+    "deleteMark": "Mező jelölésének megszüntetése",
+    "doYouReallyWantToDelete": "Tényleg meg akarja szüntetni a mező jelölését?",
+    "reason": "Ok",
+    "selectColorOrEmoji": "Szín vagy hangulatjel választása",
+    "marked": "A mező ezzel van jelölve: {0} - {1}.",
+    "unmarked": "A mező jelöletlen volt."
   },
   "notifications": {
     "waittime": {
@@ -758,5 +775,22 @@
       "title": "{{analysis_type}} eredmény rendelkezésre áll",
       "body": "Haszonnövény: {{crop_name}}\nMező: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

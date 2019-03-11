@@ -1,41 +1,41 @@
 {
   "emails": {
     "invitations": {
-      "title": "Invitation to work in {{company}}",
-      "companyXInvitedYou": "Farm {{name}} wants to add you as {{role}} in the farmerJoe app.",
-      "toAcceptNonUser": "To accept the invitation, please install the farmerJoe app and register with your E-Mail address {{email}}. Afterwards you can accept the invitation in the App.",
-      "toAcceptExistingUser": "To accept the invitation open farmerJoe and tap on Accept.",
-      "ifYouHaveAccountWithOtherEmail": "If you have a farmerJoe account with another email ask {{name}} to invite you with that other email.",
+      "title": "Zaproszenie do pracy w firmie {{company}}",
+      "companyXInvitedYou": "Gospodarstwo {{name}} chce cię dodać w aplikacji farmerJoe jako: {{role}}.",
+      "toAcceptNonUser": "Aby przyjąć zaproszenie, zainstaluj aplikację farmerJoe i zarejestruj się za pomocą adresu e-mail {{email}}, a następnie przyjmij zaproszenie w aplikacji.",
+      "toAcceptExistingUser": "Aby przyjąć zaproszenie, otwórz aplikację farmerJoe i wciśnij Akceptuj.",
+      "ifYouHaveAccountWithOtherEmail": "Jeśli masz już konto farmerJoe z przypisanym innym adresem e-mail, poproś użytkownika {{name}} o wysłanie zaproszenia na ten adres.",
       "role": {
-        "admin": "Admin",
-        "standard": "Worker",
-        "advisor": "Advisor"
+        "admin": "Administrator",
+        "standard": "Pracownik",
+        "advisor": "Doradca"
       },
-      "workerInvitation": "Invitation"
+      "workerInvitation": "Zaproszenie"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Dostęp do strony zarządzania analizami od {{labName}}",
+      "workerInvitation": "Zaproszenie",
+      "XgivenAccessToYou": "Użytkownik {{inviter}} udzielił ci dostępu strony zarządzania analizami od {{labName}}.",
+      "accountCreatedForYou": "Utworzono dla ciebie konto:",
+      "loginHere": "Zaloguj się tutaj",
+      "changePassword": "Hasło można zmienić za pomocą menu użytkownika w prawym górnym rogu strony.",
+      "yourUsername": "Nazwa użytkownika",
+      "yourPassword": "Hasło"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Zbliża się termin analizy {{analyse_number}}"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Nowy klucz interfejsu dla firmy {{company}}",
+      "title": "Nowy klucz interfejsu API",
+      "message": "Użytkownik {{created_by}} utworzył nowy klucz interfejsu API ({{keyName}}) dla firmy {{company}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Zaktualizowano klucz interfejsu API dla firmy {{company}}",
+      "title": "Aktualizacja klucza interfejsu API",
+      "message": "Użytkownik {{created_by}} zaktualizował klucz interfejsu API ({{keyName}}) dla firmy {{company}}."
     }
   },
-  "companyAddress": "Company address"
+  "companyAddress": "Adres firmy"
 }

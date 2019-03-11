@@ -14,27 +14,27 @@
       "workerInvitation": "Invito"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
+      "title": "Accesso alla pagina di gestione delle analisi di {{labName}}",
+      "workerInvitation": "Invito",
+      "XgivenAccessToYou": "{{inviter}} ti ha fornito l'accesso alla pagina di gestione delle analisi di {{labName}}.",
+      "accountCreatedForYou": "Un account è stato creato per te:",
+      "loginHere": "Accedi qui",
+      "changePassword": "Puoi modificare la password utilizzando il menu utente nell'angolo in alto a destra della pagina.",
+      "yourUsername": "Nome utente",
       "yourPassword": "Password"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Manca poco alla scadenza per l'analisi {{analyse_number}}"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Una nuova chiave API per {{company}}",
+      "title": "Nuova chiave API",
+      "message": "Una nuova chiave API ({{keyName}}) per {{company}} è stata creata da {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Una chiave API per {{company}} è stata aggiornata",
+      "title": "Aggiornamento chiave API",
+      "message": "Una chiave API ({{keyName}}) per {{company}} è stata aggiornata da {{created_by}}."
     }
   },
   "companyAddress": "Indirizzo aziendale"

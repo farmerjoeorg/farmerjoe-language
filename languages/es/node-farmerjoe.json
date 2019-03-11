@@ -14,27 +14,27 @@
       "workerInvitation": "Invitación"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Acceso a la página de gestión de análisis de {{labName}}",
+      "workerInvitation": "Invitación",
+      "XgivenAccessToYou": "{{inviter}} te ha dado acceso a la página de gestión de análisis de {{labName}}.",
+      "accountCreatedForYou": "Se ha creado una cuenta para ti:",
+      "loginHere": "Inicia sesión aquí",
+      "changePassword": "Puedes cambiar tu contraseña utilizando el menú de usuario situado en la esquina superior derecha de la página.",
+      "yourUsername": "Nombre de usuario",
+      "yourPassword": "Contraseña"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Se acerca la fecha límite del análisis {{analyse_number}}"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Una nueva clave API para {{company}}",
+      "title": "Nueva clave API",
+      "message": "{{created_by}} ha creado una nueva clave API ({{keyName}}) para {{company}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Se ha actualizado una clave API para {{company}}",
+      "title": "Actualización de clave API",
+      "message": "{{created_by}} ha actualizado una clave API ({{keyName}}) para {{company}}."
     }
   },
   "companyAddress": "Dirección de la empresa"

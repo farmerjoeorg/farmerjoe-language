@@ -14,27 +14,27 @@
       "workerInvitation": "Invitation"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
+      "title": "Adgang til {{labName}}s administrationsside til analyser",
       "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "XgivenAccessToYou": "{{inviter}} har givet dig adgang til {{labName}}s administrationsside til analyser.",
+      "accountCreatedForYou": "Der er blevet oprettet en konto til dig:",
+      "loginHere": "Log på her",
+      "changePassword": "Du kan ændre din adgangskode ved at anvende brugermenuen i øverste højre hjørne på siden.",
+      "yourUsername": "Brugernavn",
+      "yourPassword": "Adgangskode"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Deadline for analyse {{analyse_number}} nærmer sig"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "En ny API-nøgle til {{company}}",
+      "title": "Ny API-nøgle",
+      "message": "En ny API-nøgle ({{keyName}}) til {{company}} blev oprettet af {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "En API-nøgle til {{company}} blev opdateret",
+      "title": "API-nøgleopdatering",
+      "message": "En API-nøgle ({{keyName}}) til {{company}} blev opdateret af {{created_by}}."
     }
   },
   "companyAddress": "Firmaadresse"

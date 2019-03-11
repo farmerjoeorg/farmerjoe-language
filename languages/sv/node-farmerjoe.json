@@ -14,27 +14,27 @@
       "workerInvitation": "Inbjudan"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Åtkomst till {{labName}}s hanteringssida för analys",
+      "workerInvitation": "Inbjudan",
+      "XgivenAccessToYou": "{{inviter}} har beviljat dig åtkomst till {{labName}}s hanteringssida för analys.",
+      "accountCreatedForYou": "Ett konto har skapats för dig:",
+      "loginHere": "Logga in här",
+      "changePassword": "Du kan ändra ditt lösenord i användarmenyn uppe till höger på sidan.",
+      "yourUsername": "Användarnamn",
+      "yourPassword": "Lösenord"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Deadline för analys {{analyse_number}} inträffar snart"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "En ny API-nyckel för {{company}}",
+      "title": "Ny API-nyckel",
+      "message": "En ny API-nyckel ({{keyName}}) för {{company}} skapades av {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "En API-nyckel för {{company}} har uppdaterats",
+      "title": "Uppdatering av API-nyckel",
+      "message": "En API-nyckel ({{keyName}}) för {{company}} har uppdaterats av {{created_by}}."
     }
   },
   "companyAddress": "Företagets adress"

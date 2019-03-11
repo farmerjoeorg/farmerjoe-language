@@ -14,27 +14,27 @@
       "workerInvitation": "Kvietimas"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Prieiga prie laboratorijos „{{labName}}“ analizių valdymo puslapio",
+      "workerInvitation": "Kvietimas",
+      "XgivenAccessToYou": "{{inviter}} suteikė jums prieigą prie laboratorijos „{{labName}}“ analizių valdymo puslapio.",
+      "accountCreatedForYou": "Jums sukurta paskyra:",
+      "loginHere": "Prisijunkite čia",
+      "changePassword": "Slaptažodį galite pakeisti per viršutiniame dešiniajame puslapio kampe esantį naudotojo meniu.",
+      "yourUsername": "Naudotojo vardas",
+      "yourPassword": "Slaptažodis"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Artėja analizės {{analyse_number}} terminas"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Naujas įmonės „{{company}}“ API raktas",
+      "title": "Naujas API raktas",
+      "message": "{{created_by}} sukūrė naują įmonės „{{company}}“ API raktą ({{keyName}})."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Atnaujintas įmonės „{{company}}“ API raktas",
+      "title": "Atnaujintas API raktas",
+      "message": "{{created_by}} atnaujino įmonės „{{company}}“ API raktą ({{keyName}})."
     }
   },
   "companyAddress": "Įmonės adresas"

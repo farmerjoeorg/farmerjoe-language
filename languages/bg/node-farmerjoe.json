@@ -4,8 +4,8 @@
       "title": "Покана за работа в {{company}}",
       "companyXInvitedYou": "Предприятие {{name}} иска да ви добави като {{role}} в апликацията farmerJoe.",
       "toAcceptNonUser": "За да приемете поканае, моле инсалирайте farmerJoe и се регистрирайте с вашият имейл {{email}}. След това може да приемете поканата в апликацията.",
-      "toAcceptExistingUser": "To accept the invitation open farmerJoe and tap on Accept.",
-      "ifYouHaveAccountWithOtherEmail": "If you have a farmerJoe account with another email ask {{name}} to invite you with that other email.",
+      "toAcceptExistingUser": "За да приемете поканата, отворете farmerJoe и натиснете „Приемане“.",
+      "ifYouHaveAccountWithOtherEmail": "Ако имате профил във farmerJoe с друг имейл, поискайте от {{name}} да ви покани с този друг имейл.",
       "role": {
         "admin": "Администратор",
         "standard": "Работник",
@@ -14,27 +14,27 @@
       "workerInvitation": "Покана"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Достъп до страницата на {{labName}} за управление на анализи",
+      "workerInvitation": "Покана",
+      "XgivenAccessToYou": "{{inviter}} ви даде достъп до страницата на {{labName}} за управление на анализи.",
+      "accountCreatedForYou": "За вас беше създаден профил:",
+      "loginHere": "Влезте тук",
+      "changePassword": "Можете да промените паролата си, като използвате потребителското меню в горния десен ъгъл на страницата.",
+      "yourUsername": "Потребителско име",
+      "yourPassword": "Парола"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Крайният срок за анализа {{analyse_number}} наближава"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Нов ключ за приложния програмен интерфейс (API) за {{company}}",
+      "title": "Нов ключ за приложния програмен интерфейс (API)",
+      "message": "Нов ключ за приложния програмен интерфейс (API) ({{keyName}}) за {{company}} беше създаден от {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Ключ за приложния програмен интерфейс (API) за {{company}} беше актуализиран",
+      "title": "Актуализация на ключ за приложния програмен интерфейс (API)",
+      "message": "Ключ за приложния програмен интерфейс (API) ({{keyName}}) за {{company}} беше актуализиран от {{created_by}}."
     }
   },
   "companyAddress": "Адрес на предприятито"

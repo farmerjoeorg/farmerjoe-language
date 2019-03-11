@@ -4,8 +4,8 @@
       "title": "Convite para trabalhar na {{company}}",
       "companyXInvitedYou": "A quinta {{name}} pretende contratar-te como {{role}} na app farmerJoe.",
       "toAcceptNonUser": "Para aceitar o convite, instala a app farmerJoe e regista-te com o teu endereço eletrónico {{email}}. Depois poderás aceitar o convite na aplicação.",
-      "toAcceptExistingUser": "Para aceitar o convite, inicie o farmerJoe e carregue em Aceitar.",
-      "ifYouHaveAccountWithOtherEmail": "Se já tem uma conta farmerJoe com outro endereço eletrónico, peça ao {{name}} para o convidar para esse endereço eletrónico.",
+      "toAcceptExistingUser": "Para aceitar o convite, inicia o farmerJoe e carrega em Aceitar.",
+      "ifYouHaveAccountWithOtherEmail": "Se já tens uma conta farmerJoe com outro endereço eletrónico, pde ao {{name}} para te convidar para esse endereço eletrónico.",
       "role": {
         "admin": "Administrador",
         "standard": "Trabalhador",

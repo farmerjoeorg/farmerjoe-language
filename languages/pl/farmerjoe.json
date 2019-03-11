@@ -339,13 +339,13 @@
     "choseEmail": "Wybierz adres e-mail",
     "employeeIsDeactivated": "Pracownik jest zdezaktywowany",
     "x_selectedFields": {
-      "zero": "No fields selected",
-      "other": "{{count}} fields selected",
-      "one": "1 field selected."
+      "zero": "Brak zaznaczonych pól",
+      "other": "Wybrane pola: {{count}}",
+      "one": "Wybrano 1 pole."
     },
-    "selectFields": "Select fields",
-    "countryRestrictionLabel": "Restrict by country",
-    "countryRestrictionDesc": "If you restrict the user by country he won't be able to view fields that don't belong to that country."
+    "selectFields": "Wybierz pola",
+    "countryRestrictionLabel": "Ogranicz wg kraju",
+    "countryRestrictionDesc": "Jeśli ograniczysz użytkownika według kraju, nie będzie mógł przeglądać pól nienależących spoza tego kraju."
   },
   "search": "Szukaj",
   "satellite": "Satelita",
@@ -556,7 +556,7 @@
         "message": "Użytkownik jest administratorem i ma dostęp do wszystkich pól w firmie. Jeżeli chcesz zakazać mu dostępu do tego pola i innych pól, musisz zmienić jego rolę na pracownika."
       },
       "userHasAccessToAllFields": {
-        "message": "The user has access to all fields in the company. If you want to forbid his access to this field & other fields you would have to edit his profile & change his access from all fields to only fields that you select."
+        "message": "Użytkownik ma dostęp do wszystkich pól firmy. Aby ograniczyć jego dostęp do tego i innych pól, należy edytować jego profil i zmienić dostęp z wszystkich do wybranych pól."
       },
       "forbidFieldAlert": {
         "message": "Czy na pewno chcesz zakazać {{name}} dostępu do tego pola?"
@@ -591,7 +591,7 @@
     "waittime": {
       "description": "Wybierz, co użytkownik może zrobić z okresami oczekiwania."
     },
-    "countryRestriction": "Country restriction"
+    "countryRestriction": "Ograniczenie kraju"
   },
   "near": {
     "by": "W pobliżu",
@@ -697,24 +697,41 @@
     "dragHere": "Przeciągnij tutaj"
   },
   "producers": {
-    "all": "All Producers",
-    "recentlyUsed": "Recently used",
-    "noProducerForField": "No producer",
+    "all": "Wszyscy producenci",
+    "recentlyUsed": "Ostatnio używani",
+    "noProducerForField": "Brak producenta",
     "single": "Producent",
     "plural": "Producenci",
     "add": "Dodaj producenta",
     "edit": "Edytuj producenta",
     "name": "Nazwa producenta",
-    "select": "Select producer",
+    "select": "Wybierz producenta",
     "createUser": "Stwórz jako administrator dla producenta",
     "contactPerson": "Osoba kontaktowa",
-    "noProducer": "No producers created yet.",
-    "location": "Producer Location",
-    "number": "Producer number",
-    "delete": "Delete producer",
-    "doYouWantToDeleteProducer": "Do you really want to delete this Producer?",
-    "creatingUserFor": "Creating user for {{groupName}}",
-    "noEmployees": "This producer has no employees."
+    "noProducer": "Nie utworzono jeszcze żadnych producentów.",
+    "location": "Lokalizacja producenta",
+    "number": "Numer producenta",
+    "delete": "Usuń producenta",
+    "doYouWantToDeleteProducer": "Czy na pewno chcesz usunąć tego producenta?",
+    "creatingUserFor": "Tworzenie użytkownika dla grupy {{groupName}}",
+    "noEmployees": "Ten producent nie ma żadnych pracowników."
+  },
+  "traders": {
+    "all": "All Traders",
+    "noTraderForField": "No trader",
+    "single": "Trader",
+    "plural": "Traders",
+    "add": "Add trader",
+    "edit": "Edit trader",
+    "name": "Trader name",
+    "select": "Select trader",
+    "noTrader": "No Traders created yet.",
+    "location": "Position trader",
+    "number": "Trader number",
+    "delete": "Delete trader",
+    "doYouWantToDelete": "Do you really want to delete the trader?",
+    "creatingUserFor": "You are creating a user for {{groupName}}",
+    "noEmployees": "This trader has no employees."
   },
   "polygon": {
     "fieldCoordinates": "Współrzędne pola",
@@ -738,7 +755,7 @@
     "updateNow": "Zaktualizuj teraz"
   },
   "fieldMark": {
-    "marks": "Marks",
+    "marks": "Oznakowania",
     "markField": "Oznakuj pole",
     "deleteMark": "Usuń oznakowanie pola",
     "doYouReallyWantToDelete": "Czy na pewno chcesz usunąć oznakowanie pola?",
@@ -749,14 +766,31 @@
   },
   "notifications": {
     "waittime": {
-      "title": "Waittime has ended",
-      "body": "Pesticide: {{pesticide_name}}\nCrop: {{crop_name}}\nField: {{field_name}}"
+      "title": "Czas oczekiwania upłynął",
+      "body": "Pestycyd: {{pesticide_name}}\nUprawa: {{crop_name}}\nPole: {{field_name}}"
     },
     "analysis_result": {
-      "soil": "soil analysis",
-      "residue": "residue analysis",
-      "title": "Result for {{analysis_type}} is available",
-      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
+      "soil": "analiza gleby",
+      "residue": "analiza pozostałości",
+      "title": "Dostępne wyniki dla: {{analysis_type}}",
+      "body": "Uprawa: {{crop_name}}\nPole: {{field_name}}"
     }
-  }
+  },
+  "irrigation": {
+    "irrigationType": "Irrigation type",
+    "types": {
+      "0none": "No irrigation",
+      "drip": "Drip irrigation",
+      "sprinkler": "Sprinkler irrigation",
+      "machine": "Irrigation machine",
+      "flood": "Flood"
+    },
+    "waterOrigin": "Water origin",
+    "waterOriginTypes": {
+      "wells": "Wells",
+      "river": "River",
+      "waterNetwork": "Public water network"
+    }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }

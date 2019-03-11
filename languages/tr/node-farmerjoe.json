@@ -14,27 +14,27 @@
       "workerInvitation": "Davet"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "{{labName}} analiz yönetim sayfasına erişin",
+      "workerInvitation": "Davet",
+      "XgivenAccessToYou": "{{inviter}} size {{labName}} analiz yönetimi sayfasına erişim izni verdi.",
+      "accountCreatedForYou": "Hesabınız oluşturuldu:",
+      "loginHere": "Buradan giriş yapın",
+      "changePassword": "Şifrenizi, sayfanın sağ üst köşesindeki kullanıcı menüsünü kullanarak değiştirebilirsiniz.",
+      "yourUsername": "Kullanıcı adı",
+      "yourPassword": "Şifre"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "{{analyse_number}} numaralı analizin teslim tarihi yakında"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "{{company}} için yeni API anahtarı",
+      "title": "Yeni API anahtarı",
+      "message": "{{created_by}} tarafından {{company}} için ({{keyName}}) adında yeni bir API anahtarı oluşturuldu."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "{{company}} için API anahtarı güncellendi",
+      "title": "API anahtarını güncelle",
+      "message": "{{company}} için ({{keyName}}) API anahtarı {{created_by}} tarafından güncellendi."
     }
   },
   "companyAddress": "Şirket adresi"
