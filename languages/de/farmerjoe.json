@@ -779,6 +779,7 @@
   "irrigation": {
     "irrigationType": "Bewässerungsart",
     "types": {
+      "0none": "Keine Bewässerung",
       "drip": "Tröpfchenbewässerung",
       "sprinkler": "Kleinregner",
       "machine": "Regenmachine",
@@ -790,5 +791,6 @@
       "river": "Fluss",
       "waterNetwork": "Öffentliches Netz"
     }
-  }
+  },
+  "selectPlaceholderDropdown": "Auswählen..."
 }

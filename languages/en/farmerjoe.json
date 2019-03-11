@@ -779,6 +779,7 @@
   "irrigation": {
     "irrigationType": "Irrigation type",
     "types": {
+      "0none": "No irrigation",
       "drip": "Drip irrigation",
       "sprinkler": "Sprinkler irrigation",
       "machine": "Irrigation machine",
@@ -790,5 +791,6 @@
       "river": "River",
       "waterNetwork": "Public water network"
     }
-  }
+  },
+  "selectPlaceholderDropdown": "Select..."
 }
