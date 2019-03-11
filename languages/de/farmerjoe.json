@@ -792,5 +792,6 @@
       "waterNetwork": "Öffentliches Netz"
     }
   },
-  "selectPlaceholderDropdown": "Auswählen..."
+  "selectPlaceholderDropdown": "Auswählen...",
+  "resetFilter":  "Filter zurücksetzen"
 }

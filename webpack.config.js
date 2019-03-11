@@ -3,6 +3,7 @@ const path = require('path')
 const glob = require('glob')
 // const CopyWebpackPlugin = require('copy-webpack-plugin')
 const CustomModuleIdsPlugin = require('custom-module-ids-webpack-plugin')
+const ExtraWatchWebpackPlugin = require('extra-watch-webpack-plugin')
 
 let i = 1
 module.exports = {
@@ -53,6 +54,9 @@ module.exports = {
       idFunction: function(libIdent, module) {
         return 'fjlang' + i++
       }
-    })
+    }),
+    new ExtraWatchWebpackPlugin({
+      dirs: [ 'languages' ],
+    }),
   ]
 }

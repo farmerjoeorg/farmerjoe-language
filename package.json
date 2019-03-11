@@ -11,6 +11,7 @@
     "babel-loader": "^8.0.5",
     "copy-webpack-plugin": "^4.6.0",
     "custom-module-ids-webpack-plugin": "^1.1.0",
+    "extra-watch-webpack-plugin": "^1.0.3",
     "glob": "^7.1.3",
     "i18n-iso-countries": "^3.7.8",
     "libphonenumber-js": "^1.7.4",

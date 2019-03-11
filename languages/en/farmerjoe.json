@@ -792,5 +792,6 @@
       "waterNetwork": "Public water network"
     }
   },
-  "selectPlaceholderDropdown": "Select..."
+  "selectPlaceholderDropdown": "Select...",
+  "resetFilter":  "Reset filter"
 }
