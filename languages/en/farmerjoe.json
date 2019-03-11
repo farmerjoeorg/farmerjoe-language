@@ -758,5 +758,6 @@
       "title": "Result for {{analysis_type}} is available",
       "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
-  }
+  },
+  "resetFilter":  "Reset filter"
 }
