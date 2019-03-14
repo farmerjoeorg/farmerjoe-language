@@ -793,7 +793,7 @@
     }
   },
   "selectPlaceholderDropdown": "Select...",
-  "resetFilter":  "Reset filter",
+  "resetFilter": "Reset filter",
   "webUpdate": {
     "updateAvailable": "Update available. Click here to apply.",
     "update": "Update"

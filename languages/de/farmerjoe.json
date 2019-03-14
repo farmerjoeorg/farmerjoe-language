@@ -793,5 +793,9 @@
     }
   },
   "selectPlaceholderDropdown": "Auswählen...",
-  "resetFilter":  "Filter zurücksetzen"
+  "resetFilter": "Filter zurücksetzen",
+  "webUpdate": {
+    "updateAvailable": "Neues Update verfügbar. Jetzt anwenden.",
+    "update": "Update"
+  }
 }
