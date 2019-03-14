@@ -681,7 +681,7 @@
   "apiLogs": {
     "header": "Protokol API",
     "result": "Výsledek",
-    "ipAddress": "Zdrojová adresa IP",
+    "ipAddress": "Zdrojová IP adresa",
     "method": "Metoda",
     "execTime": "Doba provádění",
     "userAgent": "Uživatelský agent",
@@ -709,7 +709,7 @@
     "createUser": "Vytvořit jako admin pro výrobce",
     "contactPerson": "Kontaktní osoba",
     "noProducer": "Žádný výrobce dosud nebyl vytvořen.",
-    "location": "Poloha výrobce",
+    "location": "Loakce výrobce",
     "number": "Číslo výrobce",
     "delete": "Smazat výrobce",
     "doYouWantToDeleteProducer": "Opravdu chcete smazat tohoto výrobce?",
@@ -717,21 +717,21 @@
     "noEmployees": "Tento výrobce nemá žádné zaměstnance."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Všichni obchodníci",
+    "noTraderForField": "Žádný obchodník",
+    "single": "Obchodník",
+    "plural": "Obchodníci",
+    "add": "Přidat obchodníka",
+    "edit": "Upravit obchodníka",
+    "name": "Jméno obchodníka",
+    "select": "Vyberte obchodníka",
+    "noTrader": "Žádný obchodník dosud nebyl vytvořen.",
+    "location": "Pozice obchodníka",
+    "number": "Číslo obchodníka",
+    "delete": "Odstranit obchodníka",
+    "doYouWantToDelete": "Opravdu chcete smazat tohoto obchodníka?",
+    "creatingUserFor": "Vytváříte uživatele pro {{groupName}}",
+    "noEmployees": "Tento obchodník nemá žádné zaměstnance."
   },
   "polygon": {
     "fieldCoordinates": "Souřadnice pole",
@@ -777,20 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Typ zavlažování",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Žádné zavlažování",
+      "drip": "Kapková závlaha",
+      "sprinkler": "Zavlažování pomocí postřikovačů",
+      "machine": "Zavlažovací počítač",
+      "flood": "Zavlažování podmáčením"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Zdroj vody",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Studny",
+      "river": "Řeka",
+      "waterNetwork": "Veřejná vodovodní síť"
     }
   },
-  "selectPlaceholderDropdown": "Select..."
+  "selectPlaceholderDropdown": "Vyberte...",
+  "resetFilter": "Obnovit filtr",
+  "webUpdate": {
+    "updateAvailable": "Update available. Click here to apply.",
+    "update": "Update"
+  }
 }
