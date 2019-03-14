@@ -795,7 +795,7 @@
   "selectPlaceholderDropdown": "Select...",
   "resetFilter":  "Reset filter",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Update available.",
+    "update": "Click here to apply."
   }
 }
