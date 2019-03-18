@@ -135,12 +135,12 @@
     "dropFilesHere": "Перетягнути файли сюди",
     "followingFilesAreUnsupported": "Наступні файли не підтримуються:",
     "createdDate": "Дата створення поля",
-    "created_by": "Поле створено",
+    "created_by": "Поле створене",
     "modified": "Дата зміни поля",
-    "modified_by": "Поле змінено",
+    "modified_by": "Поле змінене",
     "state": "Стан поля",
     "distance": "Відстань до поля",
-    "analyses": "Підрахунок аналізу"
+    "analyses": "Кількість аналізів"
   },
   "no_email_no_password_entered": "Ви не ввели електронну пошту та пароль",
   "pleaseWaitImageIsBeingUploaded": "Будь ласка, зачекайте, зображення завантажується",
@@ -200,12 +200,12 @@
     "cropDoesntExist": "Обраного посіву не існує.",
     "protection": "Захист рослин",
     "activeCrops": "Активні посіви",
-    "created": "Дата створення врожаю",
-    "created_by": "Врожай створено",
-    "favorite": "Врожай додано до улюблених",
+    "created": "Дата створення культури",
+    "created_by": "Культуру створено",
+    "favorite": "Культуру додано до улюблених",
     "harvested_on": "Дата збору врожаю",
     "lastComment": "Останній коментар",
-    "modified": "Дата зміни врожаю",
+    "modified": "Дата зміни культури",
     "sown_on": "Дата засівання"
   },
   "fertilizer": {
@@ -388,7 +388,7 @@
   "map": "Карти",
   "maps": {
     "pressToSetPin": "Натисніть на карту, щоб встановити маркер.",
-    "searchAddress": "Адресний пошук",
+    "searchAddress": "Пошук адреси",
     "clickToShowMore": "Натисніть, щоб показати більше",
     "measure": "Виміряйте відстань",
     "measureDesc": "Перемістить мапу та встановіть шпильку.",
@@ -681,13 +681,13 @@
   "apiLogs": {
     "header": "Журнал API",
     "result": "Результат",
-    "ipAddress": "IP-адреса джерела",
+    "ipAddress": "Початкова IP-адреса",
     "method": "Метод",
     "execTime": "Час виконання",
     "userAgent": "Агент користувача",
     "version": "Версія",
     "response": "Відповідь",
-    "noResults": "Результатів немає",
+    "noResults": "Немає результатів",
     "description": "Список відображає API виклики за останні 24 години."
   },
   "columnConfigurator": {
@@ -717,27 +717,27 @@
     "noEmployees": "Цей виробник не має працівників."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Всі трейдери",
+    "noTraderForField": "Немає трейдерів",
+    "single": "Трейдер",
+    "plural": "Трейдери",
+    "add": "Додати трейдера",
+    "edit": "Редагувати трейдера",
+    "name": "Ім'я трейдера",
+    "select": "Обрати трейдера",
+    "noTrader": "Трейдери ще не створені.",
+    "location": "Знайти трейдера",
+    "number": "Номер трейдера",
+    "delete": "Видалити трейдера",
+    "doYouWantToDelete": "Ви дійсно хочете видалити цього трейдера?",
+    "creatingUserFor": "Ви створюєте нового користувача для {{groupName}}",
+    "noEmployees": "Цей трейдер не має працівників."
   },
   "polygon": {
     "fieldCoordinates": "Координати поля",
     "fieldCenter": "Центр поля",
     "calculatedSizeInHa": "Розрахувати розмір в гектарах",
-    "panningMode": "Шар",
+    "panningMode": "Панорамування",
     "drawingMode": "Намалювати багатокутник",
     "reset": "Скинути",
     "hideMarkers": "Приховати маркери",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Тип зрошення",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Немає зрошення",
+      "drip": "Крапельне зрошення",
+      "sprinkler": "Спринклерне зрошення",
+      "machine": "Зрошувальна машина",
+      "flood": "Повінь"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Походження води",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Колодязі",
+      "river": "Річка",
+      "waterNetwork": "Громадська мережа водопостачання"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Оберіть...",
+  "resetFilter": "Скинути фільтр",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Доступне оновлення.",
+    "update": "Натисніть тут для застосування"
   }
 }

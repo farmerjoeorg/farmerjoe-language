@@ -140,7 +140,7 @@
     "modified_by": "Автор изменения поля",
     "state": "Статус поля",
     "distance": "Расстояние до поля",
-    "analyses": "Номер анализа"
+    "analyses": "Количество анализов"
   },
   "no_email_no_password_entered": "Вы не ввели e-mail и пароль",
   "pleaseWaitImageIsBeingUploaded": "Пожалуйста, подождите. Картинка загружается",
@@ -717,21 +717,21 @@
     "noEmployees": "У этого производителя нет работников."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Все трейдеры",
+    "noTraderForField": "Нет трейдеров",
+    "single": "Трейдер",
+    "plural": "Трейдеры",
+    "add": "Добавить трейдера",
+    "edit": "Редактировать трейдера",
+    "name": "Имя трейдера",
+    "select": "Выберите трейдера",
+    "noTrader": "Трейдеры еще не созданы.",
+    "location": "Определить координаты трейдера",
+    "number": "Номер трейдера",
+    "delete": "Удалить трейдера",
+    "doYouWantToDelete": "Вы действительно хотите удалить этого трейдера?",
+    "creatingUserFor": "Вы создаете пользователя для {{groupName}}",
+    "noEmployees": "У этого трейдера нет работников."
   },
   "polygon": {
     "fieldCoordinates": "Координаты поля",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Тип орошения",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Нет орошения",
+      "drip": "Капельное орошение",
+      "sprinkler": "Дождевальное орошение",
+      "machine": "Дождевальная машина",
+      "flood": "Затопление"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Происхождение воды",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Колодцы",
+      "river": "Река",
+      "waterNetwork": "Общественный водопровод"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Выберите...",
+  "resetFilter": "Сбросить фильтр",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Есть обновление.",
+    "update": "Нажмите здесь, чтобы применить"
   }
 }

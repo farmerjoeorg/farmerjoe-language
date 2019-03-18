@@ -26,9 +26,9 @@
     "cancelAnalysis": "Cancelar análisis",
     "residue": "Residuos",
     "order": "Pedido",
-    "plantOrSowDate": "Fecah de plantación/siembra",
+    "plantOrSowDate": "Fecha de plantación/siembra",
     "pleaseLabelProbe": "¡Por favor, marca la muestra!",
-    "dontForgetToLabelProbe": "¡No te olvides de etiquetar la sonda!",
+    "dontForgetToLabelProbe": "¡No te olvides de etiquetar la muestra!",
     "compostType": "Tipo de compost",
     "compostAmountInTons": "Cantidad en toneladas",
     "compostApplicationYear": "Año de aplicación",
@@ -100,7 +100,7 @@
     "sampleIsTakenAccordingToRegulation": "La muestra se tomará según la actual directiva de fertilizantes.",
     "acceptedFromLab": "{{date}} - aceptado por el laboratorio",
     "acceptedFromLabAndCantBeCancelled": "El análisis fue aceptado por el laboratorio y ya no se puede cancelar.",
-    "probeTaken": "{{date}} - sonda realizada por el laboratorio",
+    "probeTaken": "{{date}} - muestra tomada por el laboratorio",
     "sortByCrop": "Por cultivo",
     "sortByLatest": "Por más reciente",
     "latest": "Últimos análisis",
@@ -140,7 +140,7 @@
     "modified_by": "Campo modificado por",
     "state": "Estado del campo",
     "distance": "Distancia al campo",
-    "analyses": "Recuento del análisis"
+    "analyses": "Número de análisis realizado"
   },
   "no_email_no_password_entered": "No has ingresado dirección de correo electrónico ni contraseña",
   "pleaseWaitImageIsBeingUploaded": "Por favor espera, la imagen está siendo cargada",
@@ -508,7 +508,7 @@
     },
     "needContactsAccess": {
       "title": "farmerJoe necesita acceder a tus contactos",
-      "description": "Si quieres invitar a alguien de tu libreta de direcciones, concede acceso a FarmerJoe a tus contactos."
+      "description": "Si quieres invitar a alguien de tu libreta de direcciones, concede acceso a farmerJoe a tus contactos."
     },
     "sketchNeedsStorage": {
       "title": "farmerJoe necesita acceso al almacenamiento",
@@ -717,21 +717,21 @@
     "noEmployees": "Este productor no tiene ningún empleado."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Todos los comerciantes",
+    "noTraderForField": "Sin comerciante",
+    "single": "Comerciante",
+    "plural": "Comerciantes",
+    "add": "Añadir comerciante",
+    "edit": "Editar comerciante",
+    "name": "Nombre del comerciante",
+    "select": "Seleccionar comerciante",
+    "noTrader": "Aún no se ha creado ningún comerciante.",
+    "location": "Situar al comerciante",
+    "number": "Número de comerciante",
+    "delete": "Eliminar comerciante",
+    "doYouWantToDelete": "¿De verdad que quieres eliminar este comerciante?",
+    "creatingUserFor": "Estás creando un usuario para {{groupName}}",
+    "noEmployees": "Este comerciante no tiene ningún empleado."
   },
   "polygon": {
     "fieldCoordinates": "Coordenadas del campo",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Tipo de riego",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Sin riego",
+      "drip": "Riego por goteo",
+      "sprinkler": "Riego por aspersión",
+      "machine": "Máquina de riego",
+      "flood": "Riego por inundación"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Origen del agua",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Pozos",
+      "river": "Río",
+      "waterNetwork": "Red pública de agua"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Seleccionar...",
+  "resetFilter": "Restablecer filtro",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Actualización disponible.",
+    "update": "Haga clic aquí para aplicar"
   }
 }

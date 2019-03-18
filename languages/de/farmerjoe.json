@@ -795,7 +795,7 @@
   "selectPlaceholderDropdown": "Auswählen...",
   "resetFilter": "Filter zurücksetzen",
   "webUpdate": {
-    "updateAvailable": "Neues Update verfügbar. Jetzt anwenden.",
-    "update": "Update"
+    "updateAvailable": "Neues update verfügbar.",
+    "update": "Jetzt updaten"
   }
 }

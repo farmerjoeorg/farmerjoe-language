@@ -736,8 +736,8 @@
   "polygon": {
     "fieldCoordinates": "Souřadnice pole",
     "fieldCenter": "Centrum polí",
-    "calculatedSizeInHa": "Vypočítaná velikost v ha",
-    "panningMode": "Vytvořit panorama",
+    "calculatedSizeInHa": "Vypočítaná plocha v ha",
+    "panningMode": "Posouvat",
     "drawingMode": "Nakreslit mnohoúhelník",
     "reset": "Obnovit",
     "hideMarkers": "Skrýt značky",
@@ -795,7 +795,7 @@
   "selectPlaceholderDropdown": "Vyberte...",
   "resetFilter": "Obnovit filtr",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Aktualizace k dispozici.",
+    "update": "Klikněte zde, pokud chcete použít"
   }
 }

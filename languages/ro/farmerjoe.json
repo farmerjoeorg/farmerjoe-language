@@ -717,21 +717,21 @@
     "noEmployees": "Acest producător nu are angajați."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Toți comercianții",
+    "noTraderForField": "Niciun comerciant",
+    "single": "Comerciant",
+    "plural": "Comercianți",
+    "add": "Adăugare comerciant",
+    "edit": "Modificare comerciant",
+    "name": "Nume comerciant",
+    "select": "Selectare comerciant",
+    "noTrader": "Niciun comerciant nu a fost creat încă.",
+    "location": "Poziționare comerciant",
+    "number": "Cod comerciant",
+    "delete": "Ștergere comerciant",
+    "doYouWantToDelete": "Sigur doriți să ștergeți comerciantul?",
+    "creatingUserFor": "Creați un utilizator pentru {{groupName}}",
+    "noEmployees": "Acest comerciant nu are angajați."
   },
   "polygon": {
     "fieldCoordinates": "Coordonate câmp",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Tip de irigare",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Fără irigare",
+      "drip": "Irigare prin picurare",
+      "sprinkler": "Irigare prin aspersiune",
+      "machine": "Echipament de irigat",
+      "flood": "Inundare"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Proveniență apă",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Puțuri",
+      "river": "Râu",
+      "waterNetwork": "Rețea publică de apă"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Selectare...",
+  "resetFilter": "Resetare filtru",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Actualizare disponibilă.",
+    "update": "Faceți clic aici pentru a vă înscrie"
   }
 }

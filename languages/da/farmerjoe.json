@@ -672,7 +672,7 @@
     "description": "API-nøgler giver fuld adgang til dit farmerJoe-landbrugs data, så sørg for, at de er sikrede. Du kan finde dokumentationen {0}.",
     "descriptionLink": "her",
     "name": "Navn",
-    "ipFiltering": "IP Filtrering",
+    "ipFiltering": "IP-filtrering",
     "ipFilter": "Tilladte IP-adresser",
     "ipFilterHelp": "En kommasepareret liste af IP-adresser og IP-adresseområder. For eksempel: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
     "noKeys": "Ingen API-nøgler",
@@ -717,21 +717,21 @@
     "noEmployees": "Denne producent har ingen medarbejdere."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Alle forhandlere",
+    "noTraderForField": "Ingen forhandler",
+    "single": "Forhandler",
+    "plural": "Forhandlere",
+    "add": "Tilføj forhandler",
+    "edit": "Rediger forhandler",
+    "name": "Forhandlernavn",
+    "select": "Vælg forhandler",
+    "noTrader": "Ingen forhandlere oprettet endnu.",
+    "location": "Placer forhandler",
+    "number": "Forhandlernummer",
+    "delete": "Slet forhandler",
+    "doYouWantToDelete": "Ønsker du virkelig at slette forhandleren?",
+    "creatingUserFor": "Du opretter en bruger for {{groupName}}",
+    "noEmployees": "Denne forhandler har ingen medarbejder."
   },
   "polygon": {
     "fieldCoordinates": "Markkoordinater",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Kunstvandingstype",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Ingen kunstvanding",
+      "drip": "Kunstvanding ved overrisling",
+      "sprinkler": "Sprinklerkunstvanding",
+      "machine": "Kunstvandingsmaskine",
+      "flood": "Oversvømmelseskunstvanding"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Oprindelse af vand",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Brønde",
+      "river": "Flod",
+      "waterNetwork": "Offentligt vandværk"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Vælg...",
+  "resetFilter": "Nulstil filter",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Opdatering tilgængelig.",
+    "update": "Klik her for at anvende"
   }
 }

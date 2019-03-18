@@ -140,7 +140,7 @@
     "modified_by": "Το αγρόκτημα τροποποιήθηκε από τον χρήστη",
     "state": "Κατάσταση αγροκτήματος",
     "distance": "Απόσταση μέχρι το αγρόκτημα",
-    "analyses": "Μέτρηση ανάλυσης"
+    "analyses": "Αριθμός αναλύσεων"
   },
   "no_email_no_password_entered": "Δεν έχετε εισάγει email και κωδικό πρόσβασης",
   "pleaseWaitImageIsBeingUploaded": "Περιμένετε, γίνεται μεταφόρτωση της εικόνας",
@@ -672,7 +672,7 @@
     "description": "Τα κλειδιά API παρέχουν πλήρη πρόσβαση στα δεδομένα farmerJoe, και κατά συνέπεια είναι ασφαλή. Μπορείτε να βρείτε την τεκμηρίωση {0}.",
     "descriptionLink": "εδώ",
     "name": "Όνομα",
-    "ipFiltering": "Φίτρο ΙΡ",
+    "ipFiltering": "Φίλτρο διεύθυνσης ΙΡ",
     "ipFilter": "Εγκεκριμένες διευθύνσεις ΙΡ",
     "ipFilterHelp": "Μια λίστα διευθύνσεων IP που διαχωρίζονται με κόμμα και ένα εύρος διευθύνσεων IP. Για παράδειγμα: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
     "noKeys": "Δεν υπάρχουν κλειδιά ΑΡΙ",
@@ -717,21 +717,21 @@
     "noEmployees": "Αυτός ο παραγωγός δεν έχει υπαλλήλους."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Όλοι οι έμποροι",
+    "noTraderForField": "Κανένας έμπορος",
+    "single": "Έμπορος",
+    "plural": "Έμποροι",
+    "add": "Προσθήκη εμπόρου",
+    "edit": "Επεξεργασία εμπόρου",
+    "name": "Όνομα εμπόρου",
+    "select": "Επιλέξτε έμπορο",
+    "noTrader": "Δεν έχουν δημιουργηθεί έμποροι προς το παρόν.",
+    "location": "Γεωγραφική θέση εμπόρου",
+    "number": "Αριθμός εμπόρου",
+    "delete": "Διαγραφή εμπόρου",
+    "doYouWantToDelete": "Θέλετε όντως να διαγράψετε αυτό τον έμπορο;",
+    "creatingUserFor": "Δημιουργείτε ένα χρήστη για την ομάδα {{groupName}}",
+    "noEmployees": "Αυτός ο έμπορος δεν έχει υπαλλήλους."
   },
   "polygon": {
     "fieldCoordinates": "Συντεταγμένες αγροκτήματος",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Τύπος άρδευσης",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Δεν υπάρχει σύστημα άρδευσης",
+      "drip": "Ψεκαστήρες άρδευσης",
+      "sprinkler": "Άρδευση τεχνητής βροχής",
+      "machine": "Μηχάνημα άρδευσης",
+      "flood": "Αυλάκια άρδευσης"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Προέλευση νερού",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Πηγάδια",
+      "river": "Ποτάμι",
+      "waterNetwork": "Δημόσιο δίκτυο ύδρευσης"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Επιλέξτε...",
+  "resetFilter": "Επαναφορά φίλτρου",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Υπάρχει διαθέσιμη ενημέρωση.",
+    "update": "Κάντε κλικ εδώ για εφαρμογή"
   }
 }

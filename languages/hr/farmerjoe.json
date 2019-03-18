@@ -795,7 +795,7 @@
   "selectPlaceholderDropdown": "Odaberite...",
   "resetFilter": "Resetiraj filtar",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Dostupno ažuriranje.",
+    "update": "Kliknite ovdje za primjenu"
   }
 }

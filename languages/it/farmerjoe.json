@@ -717,27 +717,27 @@
     "noEmployees": "Questo produttore non ha dipendenti."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Tutti i commercianti",
+    "noTraderForField": "Nessun commerciante",
+    "single": "Commerciante",
+    "plural": "Commercianti",
+    "add": "Aggiungi commerciante",
+    "edit": "Modifica commerciante",
+    "name": "Nome commerciante",
+    "select": "Seleziona commerciante",
+    "noTrader": "Non è stato ancora creato alcun commerciante.",
+    "location": "Posizione commerciante",
+    "number": "Numero commerciante",
+    "delete": "Elimina commerciante",
+    "doYouWantToDelete": "Vuoi davvero eliminare il commerciante?",
+    "creatingUserFor": "Stai creando un utente per {{groupName}}",
+    "noEmployees": "Questo commerciante non ha dipendenti."
   },
   "polygon": {
     "fieldCoordinates": "Coordinate del campo",
     "fieldCenter": "Centro del campo",
     "calculatedSizeInHa": "Dimensione calcolata in ettari",
-    "panningMode": "Espandi",
+    "panningMode": "Panoramica",
     "drawingMode": "Disegna poligono",
     "reset": "Resetta",
     "hideMarkers": "Nascondi indicatori",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Tipo di irrigazione",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Nessuna irrigazione",
+      "drip": "Irrigazione a goccia",
+      "sprinkler": "Irrigazione a pioggia",
+      "machine": "Macchina di irrigazione",
+      "flood": "Inondazione"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Origine dell'acqua",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Pozzi",
+      "river": "Fiume",
+      "waterNetwork": "Rete idrica pubblica"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Seleziona...",
+  "resetFilter": "Resetta filtro",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Aggiornamento disponibile.",
+    "update": "Fai clic qui per applicare"
   }
 }

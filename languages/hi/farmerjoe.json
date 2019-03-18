@@ -140,7 +140,7 @@
     "modified_by": "फ़ील्ड संशोधनकर्ता",
     "state": "फ़ील्ड की स्थिति",
     "distance": "फ़ील्ड की दूरी",
-    "analyses": "विश्लेषण की गणना"
+    "analyses": "किए गए विश्लेषणों की संख्या"
   },
   "no_email_no_password_entered": "आपने कोई ईमेल और पासवर्ड नहीं डाला है",
   "pleaseWaitImageIsBeingUploaded": "कृपया इंतजार करें, तस्वीर अपलोड की जा रही है",
@@ -672,7 +672,7 @@
     "description": "API कुंजियां आपके farmerJoe के फार्म के डेटा के लिए पूर्ण पहुँच प्रदान करती हैं, इसलिए उन्हें सुरक्षित रखें। आप दस्तावेज़ीकरण पा सकते हैं {0}.",
     "descriptionLink": "यहाँ",
     "name": "नाम",
-    "ipFiltering": "IP फिल्टर करना",
+    "ipFiltering": "IP फिल्टरिंग",
     "ipFilter": "अनुमत IP पते",
     "ipFilterHelp": "अल्पविराम से विभक्त IP पतों की सूची तथा IP पते की रेंज। उदाहरण के लिए: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
     "noKeys": "कोई API कुंजियां नहीं",
@@ -717,27 +717,27 @@
     "noEmployees": "इस उत्पादक के पास कोई कर्मचारी नहीं हैं।"
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "सभी ट्रेडर्स",
+    "noTraderForField": "कोई ट्रेडर नहीं",
+    "single": "ट्रेडर",
+    "plural": "ट्रेडर्स",
+    "add": "ट्रेडर जोड़ें",
+    "edit": "ट्रेडर संपादित करें",
+    "name": "ट्रेडर का नाम",
+    "select": "ट्रेडर चयन करें",
+    "noTrader": "अभी तक कोई ट्रेडर्स नहीं बनाए गए।",
+    "location": "ट्रेडर की स्थिति निर्धारित करें",
+    "number": "ट्रेडर नंबर",
+    "delete": "ट्रेडर हटाएं",
+    "doYouWantToDelete": "क्या आप वास्तव में ट्रेडर को हटाना चाहते हैं?",
+    "creatingUserFor": "आप {{groupName}} के लिए एक प्रयोक्ता बना रहे हैं",
+    "noEmployees": "इस ट्रेडर के पास कोई कर्मचारी नहीं हैं।"
   },
   "polygon": {
     "fieldCoordinates": "फ़ील्ड समन्वय करता है",
     "fieldCenter": "फ़ील्ड का केन्द्र",
-    "calculatedSizeInHa": "Ha में गणना किया गया आकार",
-    "panningMode": "Pan",
+    "calculatedSizeInHa": "हेक्टेयर में गणना किया गया आकार",
+    "panningMode": "अपनी डिवाइस पर संकेतों से नक्शे पर इधर-उधर जाना",
     "drawingMode": "बहुभुज आरेखित करें",
     "reset": "रीसेट करें",
     "hideMarkers": "मार्कर्स छिपाएं",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "सिंचाई का प्रकार",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "कोई सिंचाई नहीं",
+      "drip": "ड्रिप सिंचाई",
+      "sprinkler": "फव्वारे से सिंचाई",
+      "machine": "सिंचाई की मशीन",
+      "flood": "बाढ़"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "जल का उद्गम",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "कुएं",
+      "river": "नदी",
+      "waterNetwork": "सार्वजनिक जल नेटवर्क"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "चयन करें...",
+  "resetFilter": "फ़िल्टर रीसेट करें",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "अद्यतन उपलब्ध।",
+    "update": "लागू करने के लिए यहां क्लिक करें"
   }
 }

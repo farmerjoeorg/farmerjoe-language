@@ -14,27 +14,27 @@
       "workerInvitation": "Povabilo"
     },
     "labInvitations": {
-      "title": "Access to {{labName}}'s analyses management page",
-      "workerInvitation": "Invitation",
-      "XgivenAccessToYou": "{{inviter}} has given you access to {{labName}}'s analyses management page.",
-      "accountCreatedForYou": "An account has been created for you:",
-      "loginHere": "Log in here",
-      "changePassword": "You can change your password by using the user menu in the top right corner of the page.",
-      "yourUsername": "Username",
-      "yourPassword": "Password"
+      "title": "Dostop do upravljavske strani z analizami laboratorija {{labName}}",
+      "workerInvitation": "Povabilo",
+      "XgivenAccessToYou": "Oseba {{inviter}} vam je odobrila dostop do upravljavske strani z analizami laboratorija {{labName}}.",
+      "accountCreatedForYou": "Za vas je bil ustvarjen račun:",
+      "loginHere": "Prijavite se tukaj",
+      "changePassword": "Geslo lahko spremenite v uporabniškem meniju v zgornjem desnem kotu strani.",
+      "yourUsername": "Uporabniško ime",
+      "yourPassword": "Geslo"
     },
     "analysisDeadline": {
-      "title": "The deadline for the analysis {{analyse_number}} is near"
+      "title": "Rok za analizo št. {{analyse_number}} se bliža"
     },
     "newApiKey": {
-      "subject": "A new API key for {{company}}",
-      "title": "New API key",
-      "message": "A new API key ({{keyName}}) for {{company}} was created by {{created_by}}."
+      "subject": "Nov ključ vmesnika API za podjetje {{company}}",
+      "title": "Nov ključ vmesnika API",
+      "message": "Nov ključ vmesnika API ({{keyName}}) za podjetje {{company}} je ustvaril(-a) {{created_by}}."
     },
     "updatedApiKey": {
-      "subject": "An API key for {{company}} was updated",
-      "title": "API key update",
-      "message": "An API key ({{keyName}}) for {{company}} was updated by {{created_by}}."
+      "subject": "Ključ vmesnika API za podjetje {{company}} je bil posodobljen",
+      "title": "Posodobitev ključa vmesnika API",
+      "message": "Ključ vmesnika API ({{keyName}}) za podjetje {{company}} je posodobil(-a) {{created_by}}."
     }
   },
   "companyAddress": "Naslov podjetja"

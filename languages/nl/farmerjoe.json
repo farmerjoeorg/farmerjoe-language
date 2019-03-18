@@ -15,7 +15,7 @@
     "tabLabel": "Meest recent",
     "sceneTitle": "Meest recente activiteiten",
     "period": "Periode",
-    "selectPeriod": "Periode selecteren",
+    "selectPeriod": "Selecteer periode",
     "onlyPhotos": "Alleen foto's",
     "photo": "Foto",
     "all": "Alle",
@@ -343,7 +343,7 @@
       "other": "{{count}} velden geselecteerd",
       "one": "1 veld geselecteerd."
     },
-    "selectFields": "Geselecteerde velden",
+    "selectFields": "Velden selecteren",
     "countryRestrictionLabel": "Beperken op land",
     "countryRestrictionDesc": "Als u de gebruiker beperkt op land, kan deze geen velden zien die niet tot dat land behoren."
   },
@@ -705,7 +705,7 @@
     "add": "Producent toevoegen",
     "edit": "Producent bewerken",
     "name": "Producentnaam",
-    "select": "Producent selecteren",
+    "select": "Selecteer een producent",
     "createUser": "Aanmaken als beheerder voor producent",
     "contactPerson": "Contactpersoon",
     "noProducer": "Nog geen producenten aangemaakt.",
@@ -717,21 +717,21 @@
     "noEmployees": "Deze producent heeft geen medewerkers."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Alle handelaren",
+    "noTraderForField": "Geen handelaar",
+    "single": "Handelaar",
+    "plural": "Handelaren",
+    "add": "Handelaar toevoegen",
+    "edit": "Handelaar bewerken",
+    "name": "Handelaarnaam",
+    "select": "Selecteer een handelaar",
+    "noTrader": "Nog geen handelaren aangemaakt.",
+    "location": "Handelaarspositie",
+    "number": "Handelaarsnummer",
+    "delete": "Handelaar verwijderen",
+    "doYouWantToDelete": "Wilt u deze handelaar echt verwijderen?",
+    "creatingUserFor": "U maakt een gebruiker aan voor {{groupName}}",
+    "noEmployees": "Deze handelaar heeft geen medewerkers."
   },
   "polygon": {
     "fieldCoordinates": "Veldcoördinaten",
@@ -752,17 +752,17 @@
     "required": "Update vereist",
     "optionalUpdateDesc": "Er is een nieuwe update beschikbaar voor de farmerJoe-app. Tik op de knop hieronder om de update te installeren.",
     "requiredUpdateDesc": "Als u farmerJoe wilt blijven gebruiken, moet u de nieuwste update installeren.",
-    "updateNow": "Update now"
+    "updateNow": "Nu bijwerken"
   },
   "fieldMark": {
-    "marks": "Marks",
-    "markField": "Mark field",
-    "deleteMark": "Unmark field",
-    "doYouReallyWantToDelete": "Do you really want to unmark field?",
-    "reason": "Reason",
-    "selectColorOrEmoji": "Select color or emoji",
-    "marked": "Field has been marked with: {0} {1}.",
-    "unmarked": "Field has been unmarked."
+    "marks": "Markeringen",
+    "markField": "Veld markeren",
+    "deleteMark": "Veld demarkeren",
+    "doYouReallyWantToDelete": "Wilt u het veld echt demarkeren?",
+    "reason": "Reden",
+    "selectColorOrEmoji": "Selecteer een kleur of emoji",
+    "marked": "Veld is gemarkeerd met: {0} {1}.",
+    "unmarked": "Veld is gedemarkeerd."
   },
   "notifications": {
     "waittime": {
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Irrigatietype",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Geen irrigatie",
+      "drip": "Druppelirrigatie",
+      "sprinkler": "Sproeierirrigatie",
+      "machine": "Irrigatiemachine",
+      "flood": "Bevloeiing"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Waterherkomst",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Putten",
+      "river": "Rivier",
+      "waterNetwork": "Openbare watervoorziening"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Selecteer...",
+  "resetFilter": "Filter resetten",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Update beschikbaar.",
+    "update": "Klik hier om toe te passen"
   }
 }

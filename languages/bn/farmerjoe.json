@@ -140,7 +140,7 @@
     "modified_by": "চাষের জমি সংশোধন করেছেন",
     "state": "চাষের জমির অবস্থা",
     "distance": "চাষের জমির থেকে দূরত্ব",
-    "analyses": "Analysis count"
+    "analyses": "করা বিশ্লেষণের সংখ্যা"
   },
   "no_email_no_password_entered": "আপনি কোনও ইমেল ও পাসওয়ার্ড দেননি",
   "pleaseWaitImageIsBeingUploaded": "অনুগ্রহ করে অপেক্ষা করুন, ছবি আপলোড করা হচ্ছে",
@@ -717,27 +717,27 @@
     "noEmployees": "এই নির্মাতার কোনও কর্মী নেই।"
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "সকল ব্যবসায়ী",
+    "noTraderForField": "কোনও ব্যবসায়ী নেই",
+    "single": "ব্যবসায়ী",
+    "plural": "ব্যবসায়ী",
+    "add": "ব্যবসায়ী যুক্ত করুন",
+    "edit": "ব্যবসায়ী সম্পাদনা করুন",
+    "name": "ব্যবসায়ীর নাম",
+    "select": "ব্যবসায়ী নির্বাচন করুন",
+    "noTrader": "এখনও কোনও ব্যবসায়ী তৈরি করা হয়নি।",
+    "location": "ব্যবসায়ীর অবস্থান",
+    "number": "ব্যবসায়ীর নম্বর",
+    "delete": "ব্যবসায়ী মুছে ফেলুন",
+    "doYouWantToDelete": "আপনি কি সত্যিই এই ব্যবসায়ীকে মুছে ফেলতে চান?",
+    "creatingUserFor": "{{groupName}} এর জন্য ব্যবহারকারী তৈরি করছেন",
+    "noEmployees": "ব্যবসায়ীর কোনও কর্মী নেই।"
   },
   "polygon": {
     "fieldCoordinates": "জমির স্থানাঙ্ক",
     "fieldCenter": "জমির কেন্দ্র",
-    "calculatedSizeInHa": "Calculated size in ha",
-    "panningMode": "Pan",
+    "calculatedSizeInHa": "ha-তে গণনা করা আকার",
+    "panningMode": "প্যান",
     "drawingMode": "বহুভুজ অঙ্কন করুন",
     "reset": "রিসেট করুন",
     "hideMarkers": "মার্কার চিহ্নিত করুন",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "সেচের ধরণ",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "কোনও সেচ নেই",
+      "drip": "ড্রিপ সেচ",
+      "sprinkler": "ছেটানোর সেচ",
+      "machine": "সেচের যন্ত্র",
+      "flood": "বন্যা"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "জল/পানির উৎস",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "কুয়ো",
+      "river": "নদী",
+      "waterNetwork": "সরকারি জল/পানির নেটওয়ার্ক"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "বেছে নিন...",
+  "resetFilter": "ফিল্টার রিসেট করুন",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "আপডেট উপলব্ধ।",
+    "update": "প্রয়োগ করতে এখানে ক্লিক করুন"
   }
 }

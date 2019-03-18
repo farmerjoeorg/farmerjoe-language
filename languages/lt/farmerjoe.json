@@ -717,21 +717,21 @@
     "noEmployees": "Šis gamintojas neturi darbuotojų."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Visi prekiautojai",
+    "noTraderForField": "Prekiautojo nėra",
+    "single": "Prekiautojas",
+    "plural": "Prekiautojai",
+    "add": "Pridėti prekiautoją",
+    "edit": "Redaguoti prekiautoją",
+    "name": "Prekiautojo vardas / pavadinimas",
+    "select": "Pasirinkite prekiautoją",
+    "noTrader": "Prekiautojų dar nesukurta.",
+    "location": "Prekiautojo vieta",
+    "number": "Prekiautojo numeris",
+    "delete": "Ištrinti prekiautoją",
+    "doYouWantToDelete": "Ar tikrai norite ištrinti šį prekiautoją?",
+    "creatingUserFor": "Kuriate grupės „{{groupName}}“ naudotoją",
+    "noEmployees": "Šis prekiautojas neturi darbuotojų."
   },
   "polygon": {
     "fieldCoordinates": "Lauko koordinatės",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Laistymo tipas",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Nėra laistymo",
+      "drip": "Lašinis laistymas",
+      "sprinkler": "Purškiamasis laistymas",
+      "machine": "Laistymo mašina",
+      "flood": "Lietinimas"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Vandens šaltinis",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Šuliniai",
+      "river": "Upė",
+      "waterNetwork": "Komunalinis vandentiekio tinklas"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Pasirinkite...",
+  "resetFilter": "Iš naujo nustatyti filtrą",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Yra naujinys.",
+    "update": "Spustelėkite čia, kad pritaikytumėte"
   }
 }

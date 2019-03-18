@@ -265,7 +265,7 @@
     "repeat": "Repita a palavra-passe",
     "updated": "Senha atualizada.",
     "min6char": "A palavra-passe tem de ter no mínimo 6 carateres.",
-    "reset": "Redefinir sua senha",
+    "reset": "Redefinir a sua palavra-passe",
     "resetHelp": "Introduza a sua nova palavra-passe abaixo.",
     "expiredActionCode": "A ligação para a redefinição da palavra-passe que clicou já expirou. Solicite uma nova redefinição da palavra-passe.",
     "invalidActionCode": "A ligação de palavra-passe que clicou está incorreta ou já foi utilizada.",
@@ -609,12 +609,12 @@
     "confrim_agb_data_security": "Ao carregar em \"Criar conta\", o utilizador concorda com a nossa {0}. Saiba como recolhemos os seus dados na nossa {1}, e como utilizamos cookies e tecnologia semelhante na nossa {2}.",
     "continueRegistration": "Continuar com o início de sessão",
     "next": "Próximo",
-    "enterEmail": "Introduza o seu endereço eletrónico",
+    "enterEmail": "Introduza o seu email",
     "errorEmailExist": "Este endereço eletrónico já está a ser utilizado em outra conta.",
     "retry": "Tentar novamente",
     "titles": {
       "finish": "Concluir início de sessão",
-      "haveAnAccount": "Tem tenho uma conta",
+      "haveAnAccount": "Já tenho uma conta",
       "join": "Junte-se ao farmerJoe",
       "password": "Crie uma palavra-passe",
       "whatIsYourName": "Qual é o seu nome?",
@@ -717,21 +717,21 @@
     "noEmployees": "Este produtor não tem empregados."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Todos os comerciantes",
+    "noTraderForField": "Nenhum comerciante",
+    "single": "Comerciante",
+    "plural": "Comerciantes",
+    "add": "Adicionar comerciante",
+    "edit": "Editar comerciante",
+    "name": "Nome do comerciante",
+    "select": "Selecionar comerciante",
+    "noTrader": "Nenhum comerciante criado ainda.",
+    "location": "Localização do comerciante",
+    "number": "Número do comerciante",
+    "delete": "Apagar comerciante",
+    "doYouWantToDelete": "Tem a certeza que deseja apagar o comerciante?",
+    "creatingUserFor": "Está a criar um utilizador para {{groupName}}",
+    "noEmployees": "Este comerciante não tem empregados."
   },
   "polygon": {
     "fieldCoordinates": "Coordenadas do campo",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Tipo de irrigação",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Sem irrigação",
+      "drip": "Irrigação gota a gota",
+      "sprinkler": "Irrigação por aspersão",
+      "machine": "Máquina de irrigação",
+      "flood": "Alagamento"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Origem da água",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Poços",
+      "river": "Rio",
+      "waterNetwork": "Água da rede pública"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Selecionar...",
+  "resetFilter": "Repor filtro",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Atualização disponível.",
+    "update": "Clique aqui para aplicar"
   }
 }

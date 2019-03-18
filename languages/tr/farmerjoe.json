@@ -717,21 +717,21 @@
     "noEmployees": "Üreticinin hiç işçisi yok."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Tüm Tüccarlar",
+    "noTraderForField": "Tüccar yok",
+    "single": "Tüccar",
+    "plural": "Tüccarlar",
+    "add": "Tüccar ekle",
+    "edit": "Tüccarı düzenle",
+    "name": "Tüccar adı",
+    "select": "Tüccar seç",
+    "noTrader": "Henüz hiç tüccar oluşturulmadı.",
+    "location": "Tüccar konumu",
+    "number": "Tüccar numarası",
+    "delete": "Tüccarı sil",
+    "doYouWantToDelete": "Tüccarı gerçekten silmek istiyor musunuz?",
+    "creatingUserFor": "{{groupName}} için bir kullanıcı oluşturuyorsunuz",
+    "noEmployees": "Tüccarın hiç işçisi yok."
   },
   "polygon": {
     "fieldCoordinates": "Tarla koordinatları",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Sulama türü",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Sulama yok",
+      "drip": "Damla sulama",
+      "sprinkler": "Yağmurlama sulama",
+      "machine": "Sulama makinesi",
+      "flood": "Sel"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Su kaynağı",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Kuyu",
+      "river": "Nehir",
+      "waterNetwork": "Genel su şebekesi"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Seç...",
+  "resetFilter": "Filtreyi sıfırla",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Güncelleme mevcut.",
+    "update": "Uygulamak için tıklayın"
   }
 }

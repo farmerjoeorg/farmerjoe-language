@@ -717,27 +717,27 @@
     "noEmployees": "Ta pridelovalec nima zaposlenih."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Vsi trgovci",
+    "noTraderForField": "Ni trgovcev",
+    "single": "Trgovec",
+    "plural": "Trgovci",
+    "add": "Dodaj trgovca",
+    "edit": "Uredi trgovca",
+    "name": "Ime trgovca",
+    "select": "Izberi trgovca",
+    "noTrader": "Ni ustvarjenih trgovcev.",
+    "location": "Lokacija trgovca",
+    "number": "Številka trgovca",
+    "delete": "Izbriši trgovca",
+    "doYouWantToDelete": "Res želite izbrisati tega trgovca?",
+    "creatingUserFor": "Ustvarjate uporabnika za skupino {{groupName}}",
+    "noEmployees": "Ta trgovec nima zaposlenih."
   },
   "polygon": {
     "fieldCoordinates": "Koordinate polja",
     "fieldCenter": "Središče polja",
     "calculatedSizeInHa": "Izračunana velikost v hektarjih",
-    "panningMode": "Premikanje",
+    "panningMode": "Pomikanje",
     "drawingMode": "Narišite obliko",
     "reset": "Ponastavitev",
     "hideMarkers": "Skrij oznake",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Vrsta namakanja",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Brez namakanja",
+      "drip": "Kapljično namakanje",
+      "sprinkler": "Namakanje s škropljenjem",
+      "machine": "Stroj za namakanje",
+      "flood": "Namakanje s poplavljanjem"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Izvir vode",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Vodnjaki",
+      "river": "Reka",
+      "waterNetwork": "Javno vodno omrežje"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Izberite...",
+  "resetFilter": "Ponastavitev filtra",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Posodobitev je na voljo.",
+    "update": "Kliknite za posodobitev"
   }
 }

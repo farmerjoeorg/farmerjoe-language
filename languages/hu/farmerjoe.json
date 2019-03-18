@@ -717,21 +717,21 @@
     "noEmployees": "Ennek a termelőnek nincs alkalmazottja."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Minden kereskedő",
+    "noTraderForField": "Nincs kereskedő",
+    "single": "Kereskedő",
+    "plural": "Kereskedők",
+    "add": "Kereskedő hozzáadása",
+    "edit": "Kereskedő szerkesztése",
+    "name": "Kereskedő neve",
+    "select": "Válassza ki a kereskedőt",
+    "noTrader": "Még nem hozott létre kereskedőt.",
+    "location": "Kereskedő pozíciója",
+    "number": "Kereskedő száma",
+    "delete": "Kereskedő törlése",
+    "doYouWantToDelete": "Biztosan törli ezt a kereskedőt?",
+    "creatingUserFor": "Felhasználó létrehozása ehhez: {{groupName}}",
+    "noEmployees": "Ennek a kereskedőnek nincs alkalmazottja."
   },
   "polygon": {
     "fieldCoordinates": "Mező koordinátái",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Öntözés típusa",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Nincs öntözés",
+      "drip": "Csepegtető öntözés",
+      "sprinkler": "Permetező öntözés",
+      "machine": "Öntöző gép",
+      "flood": "Árasztás"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Víz eredete",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Kutak",
+      "river": "Folyó",
+      "waterNetwork": "Nyilvános vízhálózat"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Jelölje ki...",
+  "resetFilter": "Szűrő visszaállítása",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Frissítés elérhető.",
+    "update": "Jelentkezéshez kattintson ide"
   }
 }

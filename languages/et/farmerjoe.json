@@ -717,26 +717,26 @@
     "noEmployees": "Sellel tootjal pole töötajaid."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Kõik kauplejad",
+    "noTraderForField": "Kauplejaid pole",
+    "single": "Kaupleja",
+    "plural": "Kauplejad",
+    "add": "Lisa kaupleja",
+    "edit": "Muuda kauplejat",
+    "name": "Kaupleja nimi",
+    "select": "Vali kaupleja",
+    "noTrader": "Kauplejaid pole veel loodud.",
+    "location": "Paiguta kaupleja",
+    "number": "Kaupleja number",
+    "delete": "Kustuta kaupleja",
+    "doYouWantToDelete": "Kas soovite tõesti selle Kaupleja kustutada?",
+    "creatingUserFor": "Lood kasutajat gruppi {{groupName}}",
+    "noEmployees": "Sellel Kauplejal pole töötajaid."
   },
   "polygon": {
     "fieldCoordinates": "Väljakoordinaadid",
     "fieldCenter": "Välja kese",
-    "calculatedSizeInHa": "Arvutatud suurus ha",
+    "calculatedSizeInHa": "Arvutatud suurus hektarites",
     "panningMode": "Panoraamimine",
     "drawingMode": "Joonista hulknurk",
     "reset": "Lähtesta",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Niisutuse tüüp",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Ilma niisutuseta",
+      "drip": "Tilkniisutus",
+      "sprinkler": "Pihustiga niisutus",
+      "machine": "Niisutusmasin",
+      "flood": "Üleujutus"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Vee päritolu",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Kaev",
+      "river": "Jõgi",
+      "waterNetwork": "Avalik veevõrk"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Vali...",
+  "resetFilter": "Lähtesta filter",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Värskendus on saadaval.",
+    "update": "Rakendamiseks klõpsa siia"
   }
 }

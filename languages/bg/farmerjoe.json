@@ -717,21 +717,21 @@
     "noEmployees": "Този производител няма служители."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Всички търговци",
+    "noTraderForField": "Няма търговец",
+    "single": "Търговец",
+    "plural": "Търговци",
+    "add": "Добавяне на търговец",
+    "edit": "Редактиране на търговец",
+    "name": "Име на търговец",
+    "select": "Избиране на търговец",
+    "noTrader": "Все още не са създадени търговци.",
+    "location": "Позициониране на търговеца",
+    "number": "Номер на търговец",
+    "delete": "Изтриване на търговец",
+    "doYouWantToDelete": "Наистина ли искате да изтриете търговеца?",
+    "creatingUserFor": "Създавате потребител за {{groupName}}",
+    "noEmployees": "Този търговец няма служители."
   },
   "polygon": {
     "fieldCoordinates": "Координати на полето",
@@ -760,7 +760,7 @@
     "deleteMark": "Размаркиране на полето",
     "doYouReallyWantToDelete": "Наистина ли искате да размаркирате полето?",
     "reason": "Основание",
-    "selectColorOrEmoji": "Избиране на цвят или емоджи",
+    "selectColorOrEmoji": "Изберете цвят или емоджи",
     "marked": "Полето беше маркирано с/ъс: {0} {1}.",
     "unmarked": "Полето беше размаркирано."
   },
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Вид напояване",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Няма напояване",
+      "drip": "Капково напояване",
+      "sprinkler": "Дъждуване",
+      "machine": "Машина за напояване",
+      "flood": "Наводняване"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Източник на вода",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Кладенци",
+      "river": "Река",
+      "waterNetwork": "Комунално водоснабдяване"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Изберете...",
+  "resetFilter": "Повторно задаване на филтъра",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Налична е актуализация.",
+    "update": "Щракнете тук, за да приложите"
   }
 }

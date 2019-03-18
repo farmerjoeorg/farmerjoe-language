@@ -672,7 +672,7 @@
     "description": "Klucze API dają pełny dostęp do danych twojej farmy, więc pilnuj ich. Dokumentację znajdziesz {0}.",
     "descriptionLink": "tutaj",
     "name": "Nazwa",
-    "ipFiltering": "Filtrowanie IP",
+    "ipFiltering": "Filtrowanie adresu IP",
     "ipFilter": "Dozwolone adresy IP",
     "ipFilterHelp": "Lista oddzielonych przecinkami adresów IP i przedziałów adresów IP. Na przykład: 127.0.0.1, 10.0.0.0/24, 2001:db8::/48",
     "noKeys": "Brak kluczy API",
@@ -717,21 +717,21 @@
     "noEmployees": "Ten producent nie ma żadnych pracowników."
   },
   "traders": {
-    "all": "All Traders",
-    "noTraderForField": "No trader",
-    "single": "Trader",
-    "plural": "Traders",
-    "add": "Add trader",
-    "edit": "Edit trader",
-    "name": "Trader name",
-    "select": "Select trader",
-    "noTrader": "No Traders created yet.",
-    "location": "Position trader",
-    "number": "Trader number",
-    "delete": "Delete trader",
-    "doYouWantToDelete": "Do you really want to delete the trader?",
-    "creatingUserFor": "You are creating a user for {{groupName}}",
-    "noEmployees": "This trader has no employees."
+    "all": "Wszyscy handlowcy",
+    "noTraderForField": "Brak handlowca",
+    "single": "Handlowiec",
+    "plural": "Handlowcy",
+    "add": "Dodaj handlowca",
+    "edit": "Edytuj handlowca",
+    "name": "Nazwa handlowca",
+    "select": "Wybierz handlowca",
+    "noTrader": "Nie utworzono jeszcze żadnych handlowców.",
+    "location": "Lokalizacja handlowca",
+    "number": "Numer handlowca",
+    "delete": "Usuń handlowca",
+    "doYouWantToDelete": "Czy na pewno chcesz usunąć tego handlowca?",
+    "creatingUserFor": "Tworzysz użytkownika dla grupy {{groupName}}",
+    "noEmployees": "Ten handlowiec nie ma żadnych pracowników."
   },
   "polygon": {
     "fieldCoordinates": "Współrzędne pola",
@@ -777,25 +777,25 @@
     }
   },
   "irrigation": {
-    "irrigationType": "Irrigation type",
+    "irrigationType": "Rodzaj nawadniania",
     "types": {
-      "0none": "No irrigation",
-      "drip": "Drip irrigation",
-      "sprinkler": "Sprinkler irrigation",
-      "machine": "Irrigation machine",
-      "flood": "Flood"
+      "0none": "Brak nawadniania",
+      "drip": "Kroplowe",
+      "sprinkler": "Deszczowanie",
+      "machine": "Maszyna do irygacji",
+      "flood": "Zalewowe"
     },
-    "waterOrigin": "Water origin",
+    "waterOrigin": "Źródło wody",
     "waterOriginTypes": {
-      "wells": "Wells",
-      "river": "River",
-      "waterNetwork": "Public water network"
+      "wells": "Studnie",
+      "river": "Rzeka",
+      "waterNetwork": "Publiczna sieć wodociągowa"
     }
   },
-  "selectPlaceholderDropdown": "Select...",
-  "resetFilter": "Reset filter",
+  "selectPlaceholderDropdown": "Wybierz...",
+  "resetFilter": "Wyłącz filtr",
   "webUpdate": {
-    "updateAvailable": "Update available. Click here to apply.",
-    "update": "Update"
+    "updateAvailable": "Aktualizacja dostępna.",
+    "update": "Kliknij tutaj, aby zastosować"
   }
 }
