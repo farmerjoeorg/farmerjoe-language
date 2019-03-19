@@ -774,6 +774,12 @@
       "residue": "аналіз залишку",
       "title": "Результат для {{analysis_type}} доступний",
       "body": "Посів: {{crop_name}}\nПоле: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

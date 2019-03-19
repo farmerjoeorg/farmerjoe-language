@@ -774,6 +774,12 @@
       "residue": "analýza reziduí",
       "title": "Je k dispozici výsledek pro {{analysis_type}}",
       "body": "Plodina: {{crop_name}}\nPole: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

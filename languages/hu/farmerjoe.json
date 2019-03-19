@@ -774,6 +774,12 @@
       "residue": "maradékanyag elemzés",
       "title": "{{analysis_type}} eredmény rendelkezésre áll",
       "body": "Haszonnövény: {{crop_name}}\nMező: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

@@ -774,6 +774,12 @@
       "residue": "تحليل البقايا",
       "title": "النتيجة الخاصة بـ {{analysis_type}} متوفرة",
       "body": "المحصول: {{crop_name}}\nالحقل: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

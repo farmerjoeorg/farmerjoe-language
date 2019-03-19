@@ -774,6 +774,12 @@
       "residue": "анализ остаточных содержаний",
       "title": "Есть результаты анализа {{analysis_type}}",
       "body": "Культура: {{crop_name}}\nПоле: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

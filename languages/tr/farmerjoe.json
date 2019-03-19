@@ -774,6 +774,12 @@
       "residue": "kalıntı analizi",
       "title": "{{analysis_type}} sonucu hazır",
       "body": "Ekin: {{crop_name}}\nTarla: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

@@ -774,6 +774,12 @@
       "residue": "analiza reziduurilor",
       "title": "Rezultatul pentru {{analysis_type}} este disponibil",
       "body": "Cultură: {{crop_name}}\nCâmp: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

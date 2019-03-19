@@ -774,6 +774,12 @@
       "residue": "Rückstandsanalyse",
       "title": "Ergebniss {{analysis_type}}",
       "body": "Kultur: {{crop_name}}\nFeld: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "Bodenanalyse",
+      "residue": "Rückstandsanalyse",
+      "title": "{{user_name}} hat eine {{analysis_type}} bestellt.",
+      "body": "Kultur: {{crop_name}}\nFeld: {{field_name}}"
     }
   },
   "irrigation": {

@@ -774,6 +774,12 @@
       "residue": "analiza usedlin",
       "title": "Rezultati analize za {{analysis_type}} so na voljo",
       "body": "Kultura: {{crop_name}}\nPolje: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

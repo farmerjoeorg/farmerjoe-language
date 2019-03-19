@@ -774,6 +774,12 @@
       "residue": "analiza pozostałości",
       "title": "Dostępne wyniki dla: {{analysis_type}}",
       "body": "Uprawa: {{crop_name}}\nPole: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "analizę gleby",
+      "residue": "analizę pozostałości",
+      "title": "{{user_name}} zamówił(a) {{analysis_type}}.",
+      "body": "Uprawa: {{crop_name}}\nPole: {{field_name}}"
     }
   },
   "irrigation": {

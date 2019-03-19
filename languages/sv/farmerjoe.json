@@ -774,6 +774,12 @@
       "residue": "restanalys",
       "title": "Resultat för {{analysis_type}} är tillgängligt",
       "body": "Gröda: {{crop_name}}\nFält: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

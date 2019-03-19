@@ -774,6 +774,12 @@
       "residue": "অবশিষ্টাংশ বিশ্লেষণ",
       "title": "{{analysis_type}} এর ফলাফল উপলভ্য",
       "body": "ফসল: {{crop_name}}\nজমি: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

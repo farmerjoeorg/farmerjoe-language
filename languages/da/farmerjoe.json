@@ -774,6 +774,12 @@
       "residue": "slamanalyse",
       "title": "Resultat af {{analysis_type}} er tilgængelig",
       "body": "Afgrøde: {{crop_name}}\nFelt: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

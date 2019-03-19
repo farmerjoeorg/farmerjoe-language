@@ -774,6 +774,12 @@
       "residue": "liekanų analizė",
       "title": "Yra rezultatas: {{analysis_type}}",
       "body": "Pasėlis: {{crop_name}}\nLaukas: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

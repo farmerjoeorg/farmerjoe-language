@@ -774,6 +774,12 @@
       "residue": "residuanalyse",
       "title": "Resultaat voor {{analysis_type}} is beschikbaar",
       "body": "Gewas: {{crop_name}}\nVeld: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

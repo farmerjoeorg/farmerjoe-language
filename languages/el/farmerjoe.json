@@ -774,6 +774,12 @@
       "residue": "ανάλυση υπολειμμάτων",
       "title": "Το αποτέλεσμα της ανάλυσης {{analysis_type}} είναι διαθέσιμο",
       "body": "Καλλιέργεια: {{crop_name}}\nΑγρόκτημα: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

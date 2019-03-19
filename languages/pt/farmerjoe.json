@@ -774,6 +774,12 @@
       "residue": "análise de resíduos",
       "title": "O resultado da {{analysis_type}} está disponível",
       "body": "Cultura: {{crop_name}}\nCampo: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {

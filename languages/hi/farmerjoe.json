@@ -774,6 +774,12 @@
       "residue": "अवशेष विश्लेषण",
       "title": "{{analysis_type}} हेतु परिणाम उपलब्ध है",
       "body": "फसल: {{crop_name}}\nखेत: {{field_name}}"
+    },
+    "analysis_order": {
+      "soil": "soil analysis",
+      "residue": "residue analysis",
+      "title": "{{user_name}} ordered a {{analysis_type}}.",
+      "body": "Crop: {{crop_name}}\nField: {{field_name}}"
     }
   },
   "irrigation": {
