@@ -1,6 +1,6 @@
 // @flow
 import { find, memoize, keys } from 'lodash-es'
-import { getCountryCallingCode, parseNumber } from 'libphonenumber-js'
+import callCodes from './callCodes.json'
 
 type Country = { name: string, key: string, cca2: string, callCode: number }
 
@@ -22,19 +22,6 @@ export default class CountryUtil {
     return this.getCountries().filter(c => !!c.callCode)
   })
 
-  detectCountry (feature, value): ('tel' | 'name', undefined | null | string) => ?Country {
-    if (feature === 'tel' && value) {
-      let parsed  = parseNumber(value)
-      if (parsed.country) {
-        return this.findCountryByCCA2(parsed.country)
-      }
-    } else if (feature === 'name' && value) {
-      return this.findCountryByName(value)
-    }
-
-    return null
-  }
-
   findCountry (predicate): ((Country) => boolean) => ?Country {
     return find(this.getCountries(), predicate)
   }
@@ -53,11 +40,7 @@ export default class CountryUtil {
 
   makeCountryObject (countryCode): (string) => Country {
     const countryCodeUC = countryCode.toUpperCase()
-    let callCode = null
-
-    try {
-      callCode = getCountryCallingCode(countryCodeUC)
-    } catch (e) {}
+    const callCode      = callCodes[countryCodeUC] || null
 
     return {
       name:     this.countryTranslations[countryCodeUC],
