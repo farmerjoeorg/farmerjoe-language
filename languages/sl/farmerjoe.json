@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Posodobitev je na voljo.",
     "update": "Kliknite za posodobitev"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

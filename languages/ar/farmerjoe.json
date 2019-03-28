@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "التحديث متوفر.",
     "update": "انقر هنا للتطبيق"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

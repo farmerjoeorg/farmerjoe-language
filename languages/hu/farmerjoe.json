@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Frissítés elérhető.",
     "update": "Jelentkezéshez kattintson ide"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

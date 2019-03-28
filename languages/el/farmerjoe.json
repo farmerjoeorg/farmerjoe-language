@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Υπάρχει διαθέσιμη ενημέρωση.",
     "update": "Κάντε κλικ εδώ για εφαρμογή"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

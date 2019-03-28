@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "अद्यतन उपलब्ध।",
     "update": "लागू करने के लिए यहां क्लिक करें"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }
