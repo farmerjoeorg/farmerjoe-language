@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Aktualizácia je k dispozícii.",
     "update": "Nainštalujete ju kliknutím sem"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

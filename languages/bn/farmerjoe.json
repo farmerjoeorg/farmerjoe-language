@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "আপডেট উপলব্ধ।",
     "update": "প্রয়োগ করতে এখানে ক্লিক করুন"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

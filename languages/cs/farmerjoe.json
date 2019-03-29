@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Aktualizace k dispozici.",
     "update": "Klikněte zde, pokud chcete použít"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

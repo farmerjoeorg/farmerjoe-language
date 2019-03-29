@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Update beschikbaar.",
     "update": "Klik hier om toe te passen"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

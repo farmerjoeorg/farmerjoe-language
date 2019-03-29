@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Opdatering tilgængelig.",
     "update": "Klik her for at anvende"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

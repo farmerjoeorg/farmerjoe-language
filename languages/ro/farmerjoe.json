@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Actualizare disponibilă.",
     "update": "Faceți clic aici pentru a vă înscrie"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

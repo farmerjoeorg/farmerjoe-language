@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Yra naujinys.",
     "update": "Spustelėkite čia, kad pritaikytumėte"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }

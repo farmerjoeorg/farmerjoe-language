@@ -803,5 +803,10 @@
   "webUpdate": {
     "updateAvailable": "Värskendus on saadaval.",
     "update": "Rakendamiseks klõpsa siia"
+  },
+  "helpScreen": {
+    "somethingDoesntWork": "Something doesn't work",
+    "feedback": "General feedback",
+    "locationSharingIssues": "Location sharing issue"
   }
 }
