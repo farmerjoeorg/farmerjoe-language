@@ -780,7 +780,10 @@
       "residue": "Rückstandsanalyse",
       "title": "{{user_name}} hat eine {{analysis_type}} bestellt.",
       "body": "Kultur: {{crop_name}}\nFeld: {{field_name}}"
-    }
+    },
+    "viewAll": "Alle anzeigen",
+    "noNotifications": "Keine Benachrichtigungen",
+    "markAllAsRead": "Alle als gelesen markieren"
   },
   "irrigation": {
     "irrigationType": "Bewässerungsart",

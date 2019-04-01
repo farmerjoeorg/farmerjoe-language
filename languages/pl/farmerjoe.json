@@ -780,7 +780,10 @@
       "residue": "analizę pozostałości",
       "title": "{{user_name}} zamówił(a) {{analysis_type}}.",
       "body": "Uprawa: {{crop_name}}\nPole: {{field_name}}"
-    }
+    },
+    "viewAll": "View all",
+    "noNotifications": "No notifications",
+    "markAllAsRead": "Mark all as read"
   },
   "irrigation": {
     "irrigationType": "Rodzaj nawadniania",

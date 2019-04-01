@@ -780,7 +780,10 @@
       "residue": "residue analysis",
       "title": "{{user_name}} ordered a {{analysis_type}}.",
       "body": "Crop: {{crop_name}}\nField: {{field_name}}"
-    }
+    },
+    "viewAll": "Преглед на всички",
+    "noNotifications": "Няма известия",
+    "markAllAsRead": "Отбелязване на всички като прочетени"
   },
   "irrigation": {
     "irrigationType": "Вид напояване",
