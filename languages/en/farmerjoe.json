@@ -126,7 +126,7 @@
     "name": "Field Name",
     "doYouReallyWantToDelete": "Do you really want to permanently delete this Field?",
     "position_it": "Field Location",
-    "createNow": "Create field now",
+    "createNow": "Create field",
     "toArchive": "Archive",
     "field": "Field",
     "created": "Field created.",
