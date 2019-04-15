@@ -126,7 +126,7 @@
     "name": "Marknavn",
     "doYouReallyWantToDelete": "Vil du virkelig slette denne mark permanent?",
     "position_it": "Markplacering",
-    "createNow": "Opret mark nu",
+    "createNow": "Create field",
     "toArchive": "Arkiv",
     "field": "Mark",
     "created": "Marken er oprettet.",
@@ -206,7 +206,10 @@
     "harvested_on": "Høstdato",
     "lastComment": "Seneste kommentar",
     "modified": "Afgrødes ændringsdato",
-    "sown_on": "Dato for såning"
+    "sown_on": "Dato for såning",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Gødskning",

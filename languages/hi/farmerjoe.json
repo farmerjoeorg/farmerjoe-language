@@ -126,7 +126,7 @@
     "name": "खेत का नाम",
     "doYouReallyWantToDelete": "क्या आप वाकई इस खेत को स्थायी रूप से डिलीट करना चाहते हैं?",
     "position_it": "खेत की लोकेशन",
-    "createNow": "अब खेत बनाएँ",
+    "createNow": "Create field",
     "toArchive": "संग्रह",
     "field": "खेत",
     "created": "खेत बनाया गया।",
@@ -206,7 +206,10 @@
     "harvested_on": "फसल कटाई की तिथि",
     "lastComment": "अंतिम टिप्पणी",
     "modified": "फसल के संशोधन की तिथि",
-    "sown_on": "बुआई की तिथि"
+    "sown_on": "बुआई की तिथि",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "खाद डालना",

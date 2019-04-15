@@ -126,7 +126,7 @@
     "name": "Nazwa pola",
     "doYouReallyWantToDelete": "Czy na pewno chcesz trwale usunąć to pole?",
     "position_it": "Określ pozycję pola",
-    "createNow": "Stwórz teraz pole",
+    "createNow": "Create field",
     "toArchive": "Archiwizuj",
     "field": "Pole",
     "created": "Pole zostało stworzone.",
@@ -206,7 +206,10 @@
     "harvested_on": "Data żniwa",
     "lastComment": "Ostatni komentarz",
     "modified": "Data modyfikacji uprawy",
-    "sown_on": "Data zasiania"
+    "sown_on": "Data zasiania",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Nawożenie",

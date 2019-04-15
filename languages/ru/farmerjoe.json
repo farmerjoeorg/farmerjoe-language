@@ -126,7 +126,7 @@
     "name": "Название поля",
     "doYouReallyWantToDelete": "Вы действительно хотите навсегда удалить поле?",
     "position_it": "Расположение поля",
-    "createNow": "Создать поле",
+    "createNow": "Create field",
     "toArchive": "архив",
     "field": "поле",
     "created": "Поле создано.",
@@ -206,7 +206,10 @@
     "harvested_on": "Дата сбора урожая",
     "lastComment": "Последний комментарий",
     "modified": "Дата изменения культуры",
-    "sown_on": "Дата посева"
+    "sown_on": "Дата посева",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Удобрение",

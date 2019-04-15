@@ -206,7 +206,10 @@
     "harvested_on": "Harvest date",
     "lastComment": "Last comment",
     "modified": "Crop's modification date",
-    "sown_on": "Sow date"
+    "sown_on": "Sow date",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Fertilisation",

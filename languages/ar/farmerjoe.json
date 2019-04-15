@@ -126,7 +126,7 @@
     "name": "اسم الحقل",
     "doYouReallyWantToDelete": "هل تريد حقا حذف هذا الحقل نهائيا؟",
     "position_it": "موقع الحقل",
-    "createNow": "إنشاء حقل الآن",
+    "createNow": "Create field",
     "toArchive": "أرشيف",
     "field": "حقل",
     "created": "تم إنشاء الحقل.",
@@ -206,7 +206,10 @@
     "harvested_on": "تاريخ الحصاد",
     "lastComment": "التعليق الأخير",
     "modified": "تاريخ تعديل المحصول",
-    "sown_on": "تاريخ الزرع"
+    "sown_on": "تاريخ الزرع",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "التخصيب",

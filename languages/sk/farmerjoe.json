@@ -126,7 +126,7 @@
     "name": "Názov poľa",
     "doYouReallyWantToDelete": "Naozaj chcete pole natrvalo odstrániť?",
     "position_it": "Poloha poľa",
-    "createNow": "Vytvoriť pole teraz",
+    "createNow": "Create field",
     "toArchive": "Archív",
     "field": "Pole",
     "created": "Pole bolo vytvorené.",
@@ -206,7 +206,10 @@
     "harvested_on": "Dátum zberu",
     "lastComment": "Posledný komentár",
     "modified": "Dátum úpravy plodiny",
-    "sown_on": "Dátum siatia"
+    "sown_on": "Dátum siatia",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Hnojenie",

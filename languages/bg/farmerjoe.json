@@ -126,7 +126,7 @@
     "name": "Име на полето",
     "doYouReallyWantToDelete": "Наистина ли искате полето да бъде изтрито окончателно?",
     "position_it": "Позиция на полето",
-    "createNow": "Създаване на поле",
+    "createNow": "Create field",
     "toArchive": "архивиране",
     "field": "Поле",
     "created": "Полето е създадено.",
@@ -206,7 +206,10 @@
     "harvested_on": "Дата на събиране на реколтата",
     "lastComment": "Последен коментар",
     "modified": "Дата на изменение на културата",
-    "sown_on": "Дата на засяване"
+    "sown_on": "Дата на засяване",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Торене",

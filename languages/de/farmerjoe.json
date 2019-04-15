@@ -206,7 +206,10 @@
     "harvested_on": "Erntedatum",
     "lastComment": "Letzter Kommentar",
     "modified": "Kulturänderungsdatum",
-    "sown_on": "Saatdatum"
+    "sown_on": "Saatdatum",
+    "yield": "Ertrag",
+    "yieldInT": "Ertrag in t",
+    "addYield": "Ertrag hinzufügen"
   },
   "fertilizer": {
     "fertilization": "Düngung",

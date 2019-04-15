@@ -126,7 +126,7 @@
     "name": "Naziv polja",
     "doYouReallyWantToDelete": "Želite li zaista trajno izbrisati ovo polje?",
     "position_it": "Lokacija polja",
-    "createNow": "Stvori polje sada",
+    "createNow": "Create field",
     "toArchive": "Arhiva",
     "field": "Polje",
     "created": "Polje stvoreno.",
@@ -206,7 +206,10 @@
     "harvested_on": "Datum žetve",
     "lastComment": "Posljednji komentar",
     "modified": "Datum promjene prinosa",
-    "sown_on": "Datum sijanja"
+    "sown_on": "Datum sijanja",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Gnojidba",

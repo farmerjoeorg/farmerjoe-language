@@ -126,7 +126,7 @@
     "name": "চাষের জমির নাম",
     "doYouReallyWantToDelete": "আপনি কি সত্যিই এই চাষের জমিটিকে স্থায়ীভাবে মুছে ফেলতে চান?",
     "position_it": "চাষের জমির অবস্থান",
-    "createNow": "এখন চাষের জমি তৈরি করুন",
+    "createNow": "Create field",
     "toArchive": "আর্কাইভ",
     "field": "চাষের জমি",
     "created": "চাষের জমি তৈরি করা হয়েছে।",
@@ -206,7 +206,10 @@
     "harvested_on": "ফসল তোলার তারিখ",
     "lastComment": "শেষ মন্তব্য",
     "modified": "ফসল সংশোধনের তারিখ",
-    "sown_on": "বপণ করার তারিখ"
+    "sown_on": "বপণ করার তারিখ",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "উর্বরতা-সাধন",

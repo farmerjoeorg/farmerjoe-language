@@ -126,7 +126,7 @@
     "name": "Lauko pavadinimas",
     "doYouReallyWantToDelete": "Ar tikrai norite visam laikui ištrinti šį lauką?",
     "position_it": "Lauko vieta",
-    "createNow": "Kurti lauką dabar",
+    "createNow": "Create field",
     "toArchive": "Archyvas",
     "field": "Laukas",
     "created": "Laukas sukurtas.",
@@ -206,7 +206,10 @@
     "harvested_on": "Derliaus nuėmimo data",
     "lastComment": "Paskutinis komentaras",
     "modified": "Pasėlių keitimo data",
-    "sown_on": "Sėjos data"
+    "sown_on": "Sėjos data",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Tręšimas",

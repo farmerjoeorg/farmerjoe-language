@@ -126,7 +126,7 @@
     "name": "Põllu nimi",
     "doYouReallyWantToDelete": "Kas soovite kustutada selle põllu jäädavalt?",
     "position_it": "Põllu asukoht",
-    "createNow": "Loo põld",
+    "createNow": "Create field",
     "toArchive": "Arhiiv",
     "field": "Põld",
     "created": "Põld on loodud.",
@@ -206,7 +206,10 @@
     "harvested_on": "Lõikamiskuupäev",
     "lastComment": "Viimane kommentaar",
     "modified": "Vilja muutmiskuupäev",
-    "sown_on": "Külvikuupäev"
+    "sown_on": "Külvikuupäev",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Väetamine",

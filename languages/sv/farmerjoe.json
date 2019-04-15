@@ -126,7 +126,7 @@
     "name": "Fältets namn",
     "doYouReallyWantToDelete": "Vill du verkligen ta bort det här fältet permanent?",
     "position_it": "Fältets plats",
-    "createNow": "Skapa fält nu",
+    "createNow": "Create field",
     "toArchive": "Arkiv",
     "field": "Fält",
     "created": "Fält har skapats.",
@@ -206,7 +206,10 @@
     "harvested_on": "Skördedatum",
     "lastComment": "Senaste kommentar",
     "modified": "Grödans modifieringsdatum",
-    "sown_on": "Datum för att så"
+    "sown_on": "Datum för att så",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Befruktning",

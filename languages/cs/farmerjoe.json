@@ -126,7 +126,7 @@
     "name": "Název pole",
     "doYouReallyWantToDelete": "Opravdu chcete trvale smazat toto pole?",
     "position_it": "Pozice pole",
-    "createNow": "Vytvořit pole nyní",
+    "createNow": "Create field",
     "toArchive": "Archiv",
     "field": "Pole",
     "created": "Pole bylo vytvořeno.",
@@ -206,7 +206,10 @@
     "harvested_on": "Datum sklizně",
     "lastComment": "Poslední komentář",
     "modified": "Datum změny plodiny",
-    "sown_on": "Datum setby"
+    "sown_on": "Datum setby",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Hnojení",

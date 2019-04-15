@@ -126,7 +126,7 @@
     "name": "Nombre de campo",
     "doYouReallyWantToDelete": "¿Realmente quieres borrar permanentemente el campo?",
     "position_it": "Coordenadas del campo",
-    "createNow": "Crear campo",
+    "createNow": "Create field",
     "toArchive": "Archivar",
     "field": "Campo",
     "created": "El campo ha sido creado.",
@@ -206,7 +206,10 @@
     "harvested_on": "Fecha de la cosecha",
     "lastComment": "Último comentario",
     "modified": "Fecha de modificación del cultivo",
-    "sown_on": "Fecha de la siembra"
+    "sown_on": "Fecha de la siembra",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Fertilización",

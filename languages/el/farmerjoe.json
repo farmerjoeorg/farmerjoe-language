@@ -126,7 +126,7 @@
     "name": "Όνομα αγροκτήματος",
     "doYouReallyWantToDelete": "Θέλετε όντως να διαγράψετε οριστικά αυτό το αγρόκτημα;",
     "position_it": "Θέση αγροκτήματος",
-    "createNow": "Δημιουργία αγροκτήματος τώρα",
+    "createNow": "Create field",
     "toArchive": "Αρχείο",
     "field": "Αγρόκτημα",
     "created": "Δημιουργήθηκε αγρόκτημα.",
@@ -206,7 +206,10 @@
     "harvested_on": "Ημερομηνία συγκομιδής",
     "lastComment": "Τελευταίο σχόλιο",
     "modified": "Ημερομηνία τροποποίησης καλλιέργειας",
-    "sown_on": "Ημερομηνία σποράς"
+    "sown_on": "Ημερομηνία σποράς",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Εφαρμογή λιπάσματος",

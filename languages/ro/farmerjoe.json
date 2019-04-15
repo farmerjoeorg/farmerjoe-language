@@ -126,7 +126,7 @@
     "name": "Denumire câmp",
     "doYouReallyWantToDelete": "Sigur doriți să ștergeți definitiv acest câmp?",
     "position_it": "Localizare câmp",
-    "createNow": "Creați acum un câmp",
+    "createNow": "Create field",
     "toArchive": "Arhivă",
     "field": "Câmp",
     "created": "Câmp creat.",
@@ -206,7 +206,10 @@
     "harvested_on": "Data recoltării",
     "lastComment": "Ultimul comentariu",
     "modified": "Data modificării culturii",
-    "sown_on": "Data semănării"
+    "sown_on": "Data semănării",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Fertilizare",

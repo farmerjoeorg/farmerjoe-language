@@ -126,7 +126,7 @@
     "name": "Veldnaam",
     "doYouReallyWantToDelete": "Wilt u dit veld echt permanent verwijderen?",
     "position_it": "Veldlocatie",
-    "createNow": "Nu veld aanmaken",
+    "createNow": "Create field",
     "toArchive": "Archief",
     "field": "Veld",
     "created": "Het veld is aangemaakt.",
@@ -206,7 +206,10 @@
     "harvested_on": "Oogstdatum",
     "lastComment": "Laatste opmerking",
     "modified": "Wijzigingsdatum gewas",
-    "sown_on": "Zaaidatum"
+    "sown_on": "Zaaidatum",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Bemesting",

@@ -126,7 +126,7 @@
     "name": "Tarla Adı",
     "doYouReallyWantToDelete": "Bu tarlayı kalıcı olarak silmek istiyor musunuz?",
     "position_it": "Tarla Konumu",
-    "createNow": "Tarla kaydını şimdi oluştur",
+    "createNow": "Create field",
     "toArchive": "Arşiv",
     "field": "Tarla",
     "created": "Tarla kaydı oluşturuldu.",
@@ -206,7 +206,10 @@
     "harvested_on": "Hasat tarihi",
     "lastComment": "Son yorum",
     "modified": "Mahsulün değiştirilme tarihi",
-    "sown_on": "Ekim tarihi"
+    "sown_on": "Ekim tarihi",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Gübreleme",

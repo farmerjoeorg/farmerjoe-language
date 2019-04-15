@@ -126,7 +126,7 @@
     "name": "Nom de champ",
     "doYouReallyWantToDelete": "Voulez-vous vraiment supprimer définitivement ce champ ?",
     "position_it": "Localisation du champ",
-    "createNow": "Créer maintenant un champ",
+    "createNow": "Create field",
     "toArchive": "Archives",
     "field": "Terrain",
     "created": "Le champ a été créé.",
@@ -206,7 +206,10 @@
     "harvested_on": "Date de récolte",
     "lastComment": "Dernier commentaire",
     "modified": "Date de modification de la culture",
-    "sown_on": "Date de semence"
+    "sown_on": "Date de semence",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "Fertilisation",

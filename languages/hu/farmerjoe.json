@@ -126,7 +126,7 @@
     "name": "Mező neve",
     "doYouReallyWantToDelete": "Tényleg szeretné véglegesen törölni ezt a Mezőt?",
     "position_it": "Mező helyzete",
-    "createNow": "Hozzon létre egy mezőt most",
+    "createNow": "Create field",
     "toArchive": "Archív",
     "field": "Mező",
     "created": "A mező létrejött.",
@@ -206,7 +206,10 @@
     "harvested_on": "Betakarítás napja",
     "lastComment": "Utolsó megjegyzés",
     "modified": "Kultúra módosításának napja",
-    "sown_on": "Vetés napja"
+    "sown_on": "Vetés napja",
+    "yield": "Yield",
+    "yieldInT": "Yield in t",
+    "addYield": "Add yield"
   },
   "fertilizer": {
     "fertilization": "termékenyítés",
