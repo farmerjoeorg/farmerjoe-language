@@ -209,7 +209,9 @@
     "sown_on": "Saatdatum",
     "yield": "Ertrag",
     "yieldInT": "Ertrag in t",
-    "addYield": "Ertrag hinzufügen"
+    "addYield": "Ertrag hinzufügen",
+    "deleteYield": "Ertrag löschen",
+    "doYouReallyWantToDeleteYield": "Wollen Sie wirklich den Ertrag für diese Kultur löschen?"
   },
   "fertilizer": {
     "fertilization": "Düngung",
