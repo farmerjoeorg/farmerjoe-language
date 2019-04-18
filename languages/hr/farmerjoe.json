@@ -275,7 +275,9 @@
     "expiredActionCode": "Istekla je pozivnica za resetiranje lozinke. Zatražite novo resetiranje lozinke.",
     "invalidActionCode": "Poveznica lozinke koju ste kliknuli ima pogrešan oblik ili se već koristi.",
     "userDisabled": "Korisnik je onemogućen.",
-    "userNotFound": "Korisnik nije pronađen."
+    "userNotFound": "Korisnik nije pronađen.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Nema rezultata.",
   "login": "Prijava",

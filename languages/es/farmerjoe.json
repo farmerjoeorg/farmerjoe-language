@@ -275,7 +275,9 @@
     "expiredActionCode": "Ha caducado el enlace de restablecimiento de contraseña en el que hiciste clic. Solicita un nuevo restablecimiento de contraseña.",
     "invalidActionCode": "El enlace de contraseña en el que hiciste clic es incorrecto o ya se ha utilizado.",
     "userDisabled": "El usuario se ha desactivado.",
-    "userNotFound": "No se ha encontrado el usuario."
+    "userNotFound": "No se ha encontrado el usuario.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Sin resultados.",
   "login": "Iniciar sesión",

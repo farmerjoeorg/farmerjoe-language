@@ -275,7 +275,9 @@
     "expiredActionCode": "انتهت صلاحية ارتباط إعادة تعيين كلمة المرور الذي نقرت فوقه. يرجى طلب إعادة تعيين كلمة المرور من جديد.",
     "invalidActionCode": "ارتباط كلمة المرور الذي نقرت عليه إما متعطل أو جرى استخدامه بالفعل.",
     "userDisabled": "تم تعطيل المستخدم.",
-    "userNotFound": "لم يتم العثور على المستخدم."
+    "userNotFound": "لم يتم العثور على المستخدم.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "لا توجد نتائج.",
   "login": "دخول",

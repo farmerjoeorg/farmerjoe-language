@@ -275,7 +275,9 @@
     "expiredActionCode": "Povezava za ponastavitev gesla, je potekla. Pošljite zahtevo za novo ponastavitev gesla.",
     "invalidActionCode": "Povezava za ponastavitev gesla ni veljavna ali pa je že bila uporabljena.",
     "userDisabled": "Uporabnik je onemogočen.",
-    "userNotFound": "Uporabnika ni bilo mogoče najti."
+    "userNotFound": "Uporabnika ni bilo mogoče najti.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Ni rezultatov.",
   "login": "Prijava",

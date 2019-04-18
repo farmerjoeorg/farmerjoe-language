@@ -275,7 +275,9 @@
     "expiredActionCode": "Link do zresetowania hasła wygasł. Proszę zażądać resetu hasła ponownie.",
     "invalidActionCode": "Link do hasła, w który kliknąłeś, jest uszkodzony lub został już użyty.",
     "userDisabled": "Użytkownik został zdezaktywowany.",
-    "userNotFound": "Użytkownik nie został znaleziony."
+    "userNotFound": "Użytkownik nie został znaleziony.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Brak wyników.",
   "login": "Login",

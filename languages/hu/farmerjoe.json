@@ -275,7 +275,9 @@
     "expiredActionCode": "A jelszó-visszaállító link, amelyre rákattintott, lejárt. Kérje új jelszó visszaállítást.",
     "invalidActionCode": "A jelszó link, amelyre rákattintott, szabálytalan, vagy már használt.",
     "userDisabled": "A felhasználót letiltották.",
-    "userNotFound": "A felhasználó nem található."
+    "userNotFound": "A felhasználó nem található.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Nincs eredmény.",
   "login": "bejelentkezés",

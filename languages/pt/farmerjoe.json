@@ -275,7 +275,9 @@
     "expiredActionCode": "A ligação para a redefinição da palavra-passe que clicou já expirou. Solicite uma nova redefinição da palavra-passe.",
     "invalidActionCode": "A ligação de palavra-passe que clicou está incorreta ou já foi utilizada.",
     "userDisabled": "O utilizador foi desativado.",
-    "userNotFound": "Utilizador não encontrado."
+    "userNotFound": "Utilizador não encontrado.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Nenhum resultado.",
   "login": "Iniciar sessão",

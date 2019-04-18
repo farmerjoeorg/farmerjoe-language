@@ -275,7 +275,9 @@
     "expiredActionCode": "Spustelėta slaptažodžio nustatymo iš naujo nuoroda nebegalioja. Pateikite naują slaptažodžio nustatymo iš naujo užklausą.",
     "invalidActionCode": "Spustelėta slaptažodžio nuoroda yra netinkama arba jau buvo panaudota.",
     "userDisabled": "Naudotojas neaktyvus.",
-    "userNotFound": "Naudotojas nerastas."
+    "userNotFound": "Naudotojas nerastas.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Rezultatų nėra.",
   "login": "Prisijungti",

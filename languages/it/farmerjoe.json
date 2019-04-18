@@ -275,7 +275,9 @@
     "expiredActionCode": "Il link per la reimpostazione della password su cui hai cliccato è scaduto. Richiedi una nuova reimpostazione della password.",
     "invalidActionCode": "Il link della password su cui hai fatto clic non è corretto o è già stato utilizzato.",
     "userDisabled": "L'utente è stato disabilitato.",
-    "userNotFound": "Impossibile trovare l'utente."
+    "userNotFound": "Impossibile trovare l'utente.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Nessun risultato.",
   "login": "Accesso",

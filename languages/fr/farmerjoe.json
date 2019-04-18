@@ -275,7 +275,9 @@
     "expiredActionCode": "Vous avez cliqué sur un lien de réinitialisation de mot de passe expiré. Veuillez demander une nouvelle réinitialisation de mot de passe.",
     "invalidActionCode": "Vous avez cliqué sur un lien de mot de passe mal construit ou déjà utilisé.",
     "userDisabled": "L'utilisateur a été désactivé.",
-    "userNotFound": "L'utilisateur est introuvable."
+    "userNotFound": "L'utilisateur est introuvable.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Aucun résultat.",
   "login": "Login",

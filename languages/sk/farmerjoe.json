@@ -275,7 +275,9 @@
     "expiredActionCode": "Platnosť odkazu na obnovenie hesla, na ktorý ste klikli, vypršala. Prosím požiadajte o nové obnovenie hesla.",
     "invalidActionCode": "Odkaz s heslom, na ktorý ste klikli, je buď nesprávny alebo už bol použitý.",
     "userDisabled": "Používateľ je blokovaný.",
-    "userNotFound": "Používateľa nebolo možné nájsť."
+    "userNotFound": "Používateľa nebolo možné nájsť.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Žiadne výsledky.",
   "login": "Prihlásenie",

@@ -275,7 +275,9 @@
     "expiredActionCode": "Parooli lähtestamise link, millel klõpsasid, on aegunud.",
     "invalidActionCode": "Parooli link, mida klõpsasid, on vigane või juba kasutatud.",
     "userDisabled": "Kasutaja on keelatud.",
-    "userNotFound": "Kasutajat ei leitud."
+    "userNotFound": "Kasutajat ei leitud.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Tulemusi pole.",
   "login": "Sisene",

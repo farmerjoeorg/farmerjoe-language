@@ -275,7 +275,9 @@
     "expiredActionCode": "Vypršela platnost odkazu na obnovení hesla, na který jste klikli. Požádejte prosím o nové obnovení hesla.",
     "invalidActionCode": "Odkaz na heslo, na který jste klikli, je buď poškozený, nebo byl již použit.",
     "userDisabled": "Uživatel byl zakázán.",
-    "userNotFound": "Uživatel nebyl nalezen."
+    "userNotFound": "Uživatel nebyl nalezen.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Žádné výsledky.",
   "login": "Přihlášení",

@@ -275,7 +275,9 @@
     "expiredActionCode": "Länken för återställning av lösenord som du klickat på har slutat gälla. Begär en ny återställning av lösenord.",
     "invalidActionCode": "Lösenordslänken som du klickat på är antingen skadad eller så har den redan använts.",
     "userDisabled": "Användaren har inaktiverats.",
-    "userNotFound": "Användaren hittades inte."
+    "userNotFound": "Användaren hittades inte.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Inga resultat.",
   "login": "Logga in",

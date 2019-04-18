@@ -275,7 +275,9 @@
     "expiredActionCode": "Linkul de resetare a parolei pe care ați făcut clic a expirat. Solicitați o nouă resetare a parolei.",
     "invalidActionCode": "Linkul de resetare a parolei pe care ați făcut clic fie este incorect, fie a fost utilizat deja.",
     "userDisabled": "Utilizatorul a fost dezactivat.",
-    "userNotFound": "Utilizatorul nu a fost găsit."
+    "userNotFound": "Utilizatorul nu a fost găsit.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Niciun rezultat.",
   "login": "Conectare",

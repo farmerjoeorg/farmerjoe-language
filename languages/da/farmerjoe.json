@@ -275,7 +275,9 @@
     "expiredActionCode": "Det nulstillingslink til adgangskode, som du har klikket på, er udløbet. Anmod om et nyt link til nulstilling af adgangskode.",
     "invalidActionCode": "Det nulstillingslink til adgangskode, som du har klikket på, er enten forkert udformet eller er allerede blevet brugt.",
     "userDisabled": "Brugeren er blevet deaktiveret.",
-    "userNotFound": "Brugeren blev ikke fundet."
+    "userNotFound": "Brugeren blev ikke fundet.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Ingen resultater.",
   "login": "Logon",

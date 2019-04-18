@@ -275,7 +275,9 @@
     "expiredActionCode": "Tıkladığınız şifre sıfırlama bağlantısının süresi doldu. Lütfen yeni bir şifre sıfırlama bağlantısı isteyin.",
     "invalidActionCode": "Tıkladığınız şifreyi sıfırlama bağlantısı hatalı ya da daha önce kullanılmış.",
     "userDisabled": "Kullanıcı devre dışı bırakıldı.",
-    "userNotFound": "Kullanıcı bulunamadı."
+    "userNotFound": "Kullanıcı bulunamadı.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Sonuç yok.",
   "login": "GİRİŞ",

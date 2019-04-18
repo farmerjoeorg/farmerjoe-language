@@ -275,7 +275,9 @@
     "expiredActionCode": "The password reset link that you've clicked on has expired. Please request a new password reset.",
     "invalidActionCode": "The password link you've clicked on is either malformed or has been already used.",
     "userDisabled": "The user has been disabled.",
-    "userNotFound": "The user hasn't been found."
+    "userNotFound": "The user hasn't been found.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "No results.",
   "login": "Login",

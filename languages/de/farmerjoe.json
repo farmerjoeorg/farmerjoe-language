@@ -275,7 +275,9 @@
     "expiredActionCode": "Der Link zum neu setzen des Passworts ist abgelaufen. Bitte verlangen Sie ein neues Passwort noch einmal.",
     "invalidActionCode": "Der Link, den Sie angeklickt haben ist nicht mehr gültig.",
     "userDisabled": "Der Benutzer wurde deaktiviert.",
-    "userNotFound": "Der Benutzer wurde nicht gefunden."
+    "userNotFound": "Der Benutzer wurde nicht gefunden.",
+    "showPassword": "Passwort anzeigen",
+    "hidePassword": "Passwort ausblenden"
   },
   "noSearchResults": "Keine Treffer.",
   "login": "Login",

@@ -275,7 +275,9 @@
     "expiredActionCode": "De wachtwoordherstellink waarop u heeft geklikt is verlopen. Vraag opnieuw wachtwoordherstel aan.",
     "invalidActionCode": "De wachtwoordlink waarop u heeft geklikt is misvormd of is reeds gebruikt.",
     "userDisabled": "De gebruiker is uitgeschakeld.",
-    "userNotFound": "De gebruiker is niet gevonden."
+    "userNotFound": "De gebruiker is niet gevonden.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "noSearchResults": "Geen resultaten.",
   "login": "Aanmelden",
