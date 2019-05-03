@@ -335,7 +335,11 @@
     "active": "Активні",
     "deactivated": "Деактивовані",
     "reactivate": "Повторна активація користувача",
-    "reactivateDoYouWant": "Ви дійсно хочете повторно активувати користувача?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Радники",
     "admin": "адміністратор",
     "manage": "Управління співробітниками",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Запит відхилено {{date}}",
     "getFromPhoneBook": "Пошук в Телефонній книзі",
     "choseEmail": "Вибрати електронну адресу",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Працівник деактивований",
     "x_selectedFields": {
       "zero": "Немає обраних полів",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Видалити працівника",
-      "deactivate": "Деактивувати працівника",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Ви бажаєте деактивувати цього працівника?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Ви дійсно хочете видалити цього працівника?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Ви не можете видалити себе",
       "alertFound": {
         "title": "Користувач уже в компанії",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Посаджено і зібрано",
       "active": "Лише посаджені",
-      "standardUserRights": "Користувач не може створювати або редагувати посіви."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Коментарі",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

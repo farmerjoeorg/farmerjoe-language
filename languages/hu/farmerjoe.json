@@ -335,7 +335,11 @@
     "active": "Aktív",
     "deactivated": "Inaktivált",
     "reactivate": "Felhasználó újraaktiválása",
-    "reactivateDoYouWant": "Igazán szeretné újraaktiválni a felhasználót?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Tanácsadók",
     "admin": "adminisztrátor",
     "manage": "Alkalmazottak kezelése",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Felszólítás elutasítva ekkor: {{date}}",
     "getFromPhoneBook": "Keresés a telefonkönyvben",
     "choseEmail": "Válasszon e-mail-t",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Az alkalmazott inaktivált",
     "x_selectedFields": {
       "zero": "Nincs mező kijelölve",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Törli az alkalmazottat",
-      "deactivate": "Alkalmazott inaktiválása",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Inaktiválja a munkavállalót?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Biztosan törli a munkavállalót?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Nem törölheti saját magát",
       "alertFound": {
         "title": "A felhasználó már a cégnél van",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Beültetve és betakarítás elvégezve",
       "active": "Csak elültetve",
-      "standardUserRights": "A felhasználó nem hozhat létre és nem szerkeszthet semmilyen haszonnövényt."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Megjegyzések",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

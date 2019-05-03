@@ -335,7 +335,11 @@
     "active": "Aktivni",
     "deactivated": "Deaktivirani",
     "reactivate": "Ponovna aktivacija korisnika",
-    "reactivateDoYouWant": "Zaista želite ponovno aktivirati korisnika?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Savjetnici",
     "admin": "Administrator",
     "manage": "Upravljanje korisnicima",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Pozivnica je odbijena na {{date}}",
     "getFromPhoneBook": "Traži u telefonskom imeniku",
     "choseEmail": "Odaberi e-poštu",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Zaposlenik je deaktiviran",
     "x_selectedFields": {
       "zero": "Nisu odabrana polja",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Brisanje zaposlenika",
-      "deactivate": "Deaktiviranje zaposlenika",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Želite li deaktivirati ovog zaposlenika?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Želite li zaista izbrisati ovog zaposlenika?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Ne možete izbrisati sebe",
       "alertFound": {
         "title": "Korisnik je već u tvrtki",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Posađeno i požeto",
       "active": "Samo posađeno",
-      "standardUserRights": "Korisnik ne može stvoriti ili uređivati usjev."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Komentari",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

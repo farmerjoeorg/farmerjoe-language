@@ -335,7 +335,11 @@
     "active": "Aktiv",
     "deactivated": "Inaktiverad",
     "reactivate": "Återaktivera användare",
-    "reactivateDoYouWant": "Vill du verkligen återaktivera användaren?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Rådgivare",
     "admin": "Administratör",
     "manage": "Hantera användare",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Inbjudan avvisades den {{date}}",
     "getFromPhoneBook": "Sök i telefonboken",
     "choseEmail": "Välj e-post",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Anställd är inaktiverad",
     "x_selectedFields": {
       "zero": "Inga fält har valts",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Ta bort anställd",
-      "deactivate": "Inaktivera anställd",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Vill du inaktivera anställd?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Vill du verkligen ta bort anställd?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Du kan inte ta bort dig själv",
       "alertFound": {
         "title": "Användaren finns redan i företaget",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Planterat och skördat",
       "active": "Bara planterat",
-      "standardUserRights": "Användaren kan inte skapa eller redigera grödor."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Kommentarer",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

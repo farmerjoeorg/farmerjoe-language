@@ -335,7 +335,11 @@
     "active": "Actif",
     "deactivated": "Désactivé",
     "reactivate": "Réactiver l'utilisateur",
-    "reactivateDoYouWant": "Voulez-vous vraiment réactiver l'utilisateur ?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Conseillers",
     "admin": "Administrateur",
     "manage": "Gérer les utilisateurs",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "L'invitation a été refusée le {{date}}",
     "getFromPhoneBook": "Rechercher dans le répertoire téléphonique",
     "choseEmail": "Choisir une adresse e-mail",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "L'employé est désactivé",
     "x_selectedFields": {
       "zero": "Aucun champ sélectionné",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Supprimer un employé",
-      "deactivate": "Désactiver l'employé",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Souhaitez-vous désactiver cet employé ?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Voulez-vous vraiment supprimer cet employé ?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Vous ne pouvez pas vous supprimer",
       "alertFound": {
         "title": "Utilisateur déjà dans l'entreprise",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Planté et récolté",
       "active": "Seulement planté",
-      "standardUserRights": "L'utilisateur ne peut pas créer ou modifier des cultures."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Remarques",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

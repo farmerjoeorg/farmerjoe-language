@@ -335,7 +335,11 @@
     "active": "Activ",
     "deactivated": "Dezactivat",
     "reactivate": "Reactivare utilizator",
-    "reactivateDoYouWant": "Sigur doriți să reactivați utilizatorul?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Consultanți",
     "admin": "Admin",
     "manage": "Gestionare angajați",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Invitație refuzată pe {{date}}",
     "getFromPhoneBook": "Căutați în agenda telefonică",
     "choseEmail": "Alegeți adresa de e-mail",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Angajatul este dezactivat",
     "x_selectedFields": {
       "zero": "Niciun câmp selectat",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Ștergeți angajatul",
-      "deactivate": "Dezactivați angajatul",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Doriți să dezactivați acest angajat?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Sigur doriți să ștergeți acest angajat?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Nu vă puteți șterge pe dvs.",
       "alertFound": {
         "title": "Utilizatorul este deja în companie",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Plantat și recoltat",
       "active": "Doar plantat",
-      "standardUserRights": "Utilizatorul nu poate crea sau modifica culturi."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Comentarii",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

@@ -335,7 +335,11 @@
     "active": "सक्रिय",
     "deactivated": "निष्क्रिय",
     "reactivate": "उपयोगकर्ता को पुनः सक्रिय करें",
-    "reactivateDoYouWant": "क्या आप वाकई उपयोगकर्ता को पुनः सक्रिय करना चाहते हैं?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "सलाहकार",
     "admin": "व्यवस्थापक",
     "manage": "उपयोगकर्ताओं को प्रबंधित करें",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "{{date}} को आमंत्रण अस्वीकारा गया",
     "getFromPhoneBook": "फोनबुक में खोजें",
     "choseEmail": "ईमेल चुनें",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "कर्मचारी निष्क्रिय है",
     "x_selectedFields": {
       "zero": "कोई फ़ील्ड चयनित नहीं",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "कर्मचारी डिलीट करें",
-      "deactivate": "कर्मचारी निष्क्रिय करें",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "क्या आप इस कर्मचारी को निष्क्रिय करना चाहते हैं?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "क्या आप वाकई यह कर्मचारी डिलीट करना चाहते हैं?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "आप खुद को डिलीट नहीं कर सकते हैं",
       "alertFound": {
         "title": "उपयोगकर्ता पहले से कंपनी में है",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "लगाया और काटा गया",
       "active": "केवल लगाई गई",
-      "standardUserRights": "उपयोगकर्ता किसी भी फसल को बना या संपादित नहीं कर सकता।"
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "टिप्पणियाँ",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

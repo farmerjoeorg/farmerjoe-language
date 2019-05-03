@@ -335,7 +335,11 @@
     "active": "সক্রিয়",
     "deactivated": "নিষ্ক্রিয় করা হয়েছে",
     "reactivate": "ব্যবহারকারী পুনরায় সক্রিয় করুন",
-    "reactivateDoYouWant": "আপনি কি সত্যিই ব্যবহারকারী পুনরায় সক্রিয় করতে চান?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "পরামর্শদাতা",
     "admin": "অ্যাডমিন",
     "manage": "ব্যবহারকারী ব্যবস্থাপনা করুন",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "{{date}} এ আমন্ত্রণ প্রত্যাখ্যান করা হয়েছে",
     "getFromPhoneBook": "ফোনবুকে অনুসন্ধান করুন",
     "choseEmail": "ইমেল বেছে নিন",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "কর্মচারী নিষ্ক্রিয় আছে",
     "x_selectedFields": {
       "zero": "কোনও জমি নির্বাচন করা নেই",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "কর্মচারী মুছে ফেলুন",
-      "deactivate": "কর্মচারী নিষ্ক্রিয় করুন",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "আপনি কি এই কর্মীকে নিষ্ক্রিয় করতে চান?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "আপনি কি সত্যিই এই কর্মচারীটি মুছে ফেলতে চান?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "আপনি নিজেকে মুছতে পারবেন না",
       "alertFound": {
         "title": "ব্যবহারকারী ইতিমধ্যেই কোম্পানিতে আছে",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "রোপণ করা হয়েছে ও ফসল কাটা হয়েছে",
       "active": "কেবলমাত্র রোপণ করা হয়েছে",
-      "standardUserRights": "ব্যবহারকারী কোনও ফসল তৈরি বা সম্পাদনা করতে পারবে না।"
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "মন্তব্য",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

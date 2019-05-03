@@ -335,7 +335,11 @@
     "active": "Активный",
     "deactivated": "Деактивированный",
     "reactivate": "Реактивировать пользователя",
-    "reactivateDoYouWant": "Вы действительно хотите реактивировать этого пользователя?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Советники",
     "admin": "администратор",
     "manage": "Управление сотрудниками",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Запрос отклонен {{date}}",
     "getFromPhoneBook": "Поиск в телефонной книге",
     "choseEmail": "Выбрать адрес эл. почты",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Работник деактивирован",
     "x_selectedFields": {
       "zero": "Поля не выбраны",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Удалить работника",
-      "deactivate": "Деактивировать работника",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Вы хотите деактивировать этого работника?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Вы действительно хотите удалить этого работника?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Вы не можете удалить сами себя",
       "alertFound": {
         "title": "Пользователь уже в компании",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Засеянные и убранные",
       "active": "Только засеянные",
-      "standardUserRights": "Этот пользователь не может создавать или редактировать культуры."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Комментарии",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

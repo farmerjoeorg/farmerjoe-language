@@ -335,7 +335,11 @@
     "active": "Aktyvūs",
     "deactivated": "Išaktyvinti",
     "reactivate": "Iš naujo suaktyvinti naudotoją",
-    "reactivateDoYouWant": "Ar tikrai norite iš naujo suaktyvinti naudotoją?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Konsultantai",
     "admin": "Administratorius",
     "manage": "Valdyti darbuotojus",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Kvietimas atmestas {{date}}",
     "getFromPhoneBook": "Ieškoti telefonų knygelėje",
     "choseEmail": "Pasirinkite el. pašto adresą",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Darbuotojas išaktyvintas",
     "x_selectedFields": {
       "zero": "Laukų nepasirinkta",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Ištrinti darbuotoją",
-      "deactivate": "Išaktyvinti darbuotoją",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Ar norite išaktyvinti šį darbuotoją?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Ar tikrai norite ištrinti šį darbuotoją?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Negalite ištrinti savęs",
       "alertFound": {
         "title": "Naudotojas jau yra įmonėje",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Pasodinta ir nuimtas derlius",
       "active": "Tik pasodinta",
-      "standardUserRights": "Naudotojas negali kurti arba redaguoti jokių pasėlių."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Komentarai",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

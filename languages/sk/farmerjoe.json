@@ -335,7 +335,11 @@
     "active": "Aktívni",
     "deactivated": "Deaktivovaní",
     "reactivate": "Znovu aktivovať používateľa",
-    "reactivateDoYouWant": "Naozaj chcete znovu aktivovať používateľa?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Poradcovia",
     "admin": "Správca",
     "manage": "Správa používateľov",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Pozvánka bola odmietnutá dňa {{date}}",
     "getFromPhoneBook": "Vyhľadať v telefónnom zozname",
     "choseEmail": "Vybrať e-mail",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Zamestnanec je deaktivovaný",
     "x_selectedFields": {
       "zero": "Žiadne vybrané polia",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Vymazať zamestnanca",
-      "deactivate": "Deaktivovať zamestnanca",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Chcete deaktivovať tohto zamestnanca?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Naozaj chcete tohto zamestnanca odstrániť?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Nemôžete odstrániť seba samého",
       "alertFound": {
         "title": "Používateľ je už v spoločnosti",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Zasadené a pozberané",
       "active": "Len zasadené",
-      "standardUserRights": "Používateľ nemôže vytvárať alebo upravovať plodiny."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Komentáre",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

@@ -335,7 +335,11 @@
     "active": "Ενεργοποιημένοι",
     "deactivated": "Απενεργοποιημένοι",
     "reactivate": "Ενεργοποίηση χρήστη ξανά",
-    "reactivateDoYouWant": "Θέλετε όντως να ενεργοποιήσετε το χρήστη ξανά;",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Σύμβουλοι",
     "admin": "Διαχειριστής",
     "manage": "Διαχείριση χρηστών",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Η πρόσκληση απορρίφθηκε στις {{date}}",
     "getFromPhoneBook": "Αναζήτηση στον Τηλεφωνικό κατάλογο",
     "choseEmail": "Επιλέξτε email",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Ο υπάλληλος είναι απενεργοποιημένος",
     "x_selectedFields": {
       "zero": "Δεν έχει επιλεγεί κανένα αγρόκτημα",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Διαγραφή υπαλλήλου",
-      "deactivate": "Απενεργοποίηση υπαλλήλου",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Θέλετε να απενεργοποιήσετε αυτό τον υπάλληλο;",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Θέλετε όντως να διαγράψετε αυτό τον υπάλληλο;",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Δε μπορείτε να διαγράψετε τον εαυτό σας",
       "alertFound": {
         "title": "Ο χρήστης υπάρχει ήδη στην εταιρεία",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Έχει γίνει φύτευση και συγκομιδή",
       "active": "Μόνο όσα έχει γίνει φύτευση",
-      "standardUserRights": "Ο χρήστης δε μπορεί να δημιουργήσει ή να επεξεργαστεί καμία καλλιέργεια."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Σχόλια",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

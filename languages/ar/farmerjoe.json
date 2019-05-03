@@ -335,7 +335,11 @@
     "active": "نشط",
     "deactivated": "غير منشّط",
     "reactivate": "إعادة تنشيط المستخدم",
-    "reactivateDoYouWant": "هل تريد حقًا إعادة تنشيط المستخدم؟",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "المستشارون",
     "admin": "مدير",
     "manage": "إدارة المستخدمين",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "تم رفض الدعوة في {{date}}",
     "getFromPhoneBook": "بحث في دليل الهاتف",
     "choseEmail": "اختر البريد الإلكتروني",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "الموظف غير منشّط",
     "x_selectedFields": {
       "zero": "لم يتم تحديد أي حقول",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "حذف الموظف",
-      "deactivate": "إلغاء تنشيط الموظف",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "هل تريد إلغاء تنشيط هذا الموظف؟",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "هل تريد حقا حذف هذا الموظف؟",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "لا يمكنك حذف نفسك",
       "alertFound": {
         "title": "المستخدم موجود في الشركة بالفعل",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "مزروعة ومحصودة",
       "active": "مزروعة فقط",
-      "standardUserRights": "لا يمكن للمستخدم إنشاء أي محاصيل أو تحريرها."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "تعليقات",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

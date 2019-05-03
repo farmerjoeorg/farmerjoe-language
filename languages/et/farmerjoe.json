@@ -335,7 +335,11 @@
     "active": "Aktiivne",
     "deactivated": "Deaktiveeritud",
     "reactivate": "Taasaktiveeri kasutaja",
-    "reactivateDoYouWant": "Kas soovite tõesti kasutaja taasaktiveerida?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Nõunikud",
     "admin": "Administraator",
     "manage": "Halda kasutajaid",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Kutse lükati tagasi {{date}}",
     "getFromPhoneBook": "Otsi telefoniraamatust",
     "choseEmail": "Vali e-post",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Töötaja on deaktiveeritud",
     "x_selectedFields": {
       "zero": "Põlde pole valitud",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Kustuta töötaja",
-      "deactivate": "Deaktiveerige töötaja",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Kas soovite deaktiveerida selle töötaja?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Kas soovite tõesti selle töötaja kustutada?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Ennast ei saa kustutada",
       "alertFound": {
         "title": "Kasutaja on juba ettevõttes",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Külvatud ja koristatud",
       "active": "Ainult külvatud",
-      "standardUserRights": "See kasutaja ei või luua ega muuta kultuure."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Märkused",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

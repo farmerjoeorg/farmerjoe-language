@@ -335,7 +335,11 @@
     "active": "Aktif",
     "deactivated": "Devre dışı",
     "reactivate": "Kullanıcıyı yeniden etkinleştir",
-    "reactivateDoYouWant": "Kullanıcıyı yeniden etkinleştirmek istiyor musunuz?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Danışmanlar",
     "admin": "Yönetici",
     "manage": "İşçileri Yönet",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Davet {{date}} tarihinde reddedildi",
     "getFromPhoneBook": "Telefon rehberinde ara",
     "choseEmail": "E-posta seçin",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Çalışan devre dışı",
     "x_selectedFields": {
       "zero": "Seçili tarla yok",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "İşçiyi Sil",
-      "deactivate": "İşçiyi devre dışı bırak",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Bu işçiyi devre dışı bırakmak istiyor musunuz?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Bu işçiyi gerçekten silmek istiyor musunuz?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Kendinizi silemezsiniz",
       "alertFound": {
         "title": "Kullanıcı zaten şirkette",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Ekilen ve hasat edilen",
       "active": "Sadece ekilen",
-      "standardUserRights": "Kullanıcı, ekinler oluşturamaz veya düzenleyemez."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Yorumlar",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

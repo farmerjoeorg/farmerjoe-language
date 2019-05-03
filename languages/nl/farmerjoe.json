@@ -335,7 +335,11 @@
     "active": "Actief",
     "deactivated": "Gedeactiveerd",
     "reactivate": "Gebruiker reactiveren",
-    "reactivateDoYouWant": "Wilt u de gebruiker echt reactiveren?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Adviseurs",
     "admin": "Beheerder",
     "manage": "Medewerkers beheren",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Uitnodiging geweigerd op {{date}}",
     "getFromPhoneBook": "In telefoonboek zoeken",
     "choseEmail": "E-mail kiezen",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Medewerker is gedeactiveerd",
     "x_selectedFields": {
       "zero": "Geen velden geselecteerd",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Medewerker verwijderen",
-      "deactivate": "Medewerker deactiveren",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Wilt u deze medewerker deactiveren?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Wilt u deze medewerker echt verwijderen?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "U kunt uzelf niet verwijderen",
       "alertFound": {
         "title": "Gebruiker al aanwezig in bedrijf",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Geplant en geoogst",
       "active": "Alleen geplant",
-      "standardUserRights": "De gebruiker kan geen gewassen maken of bewerken."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Opmerkingen",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

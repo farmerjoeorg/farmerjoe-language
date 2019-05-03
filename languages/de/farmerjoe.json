@@ -335,7 +335,11 @@
     "active": "Aktiv",
     "deactivated": "Deaktiviert",
     "reactivate": "Mitarbeiter reaktivieren",
+    "activate": "Mitarbeiter aktivieren",
+    "activateAdvisor": "Berater aktivieren",
     "reactivateDoYouWant": "Wollen Sie wirklich den Mitarbeiter reaktivieren?",
+    "activateDoYouWant": "Wollen Sie wirklich den Mitarbeiter aktivieren?",
+    "activateDoYouWantAdvisor": "Wollen Sie wirklich den Berater aktivieren?",
     "advisors": "Berater",
     "admin": "Administrator",
     "manage": "Mitarbeiter verwalten",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Anfrage wurde abgelehnt am {{date}}",
     "getFromPhoneBook": "Im Adressbuch suchen",
     "choseEmail": "E-Mail auswählen",
+    "chosePhone": "Telefonnummer auswählen",
     "employeeIsDeactivated": "Mitarbeiter ist deaktiviert",
     "x_selectedFields": {
       "zero": "Keine Felder ausgewählt.",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Mitarbeiter löschen",
+      "deleteAdvisor": "Berater löschen",
       "deactivate": "Mitarbeiter deaktivieren",
+      "deactivateAdvisor": "Berater deaktivieren",
       "doYouWantToDeactivateUser": "Wollen Sie wirklich diesen Mitarbeiter deaktivieren?",
+      "doYouWantToDeactivateAdvisor": "Wollen Sie wirklich diesen Berater deaktivieren?",
       "doYouWantToDeleteUser": "Wollen Sie wirklich den Mitarbeiter löschen?",
+      "doYouWantToDeleteAdvisor": "Wollen Sie wirklich den Berater löschen?",
       "cantDeleteYourself": "Sie können Ihren Account selbst nicht löschen",
       "alertFound": {
         "title": "Benutzer bereits im Betrieb",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Aktuelle und geerntete",
       "active": "Nur aktive",
-      "standardUserRights": "Der Benutzer kann keine Kulturen erstellen oder bearbeiten."
+      "canCreateEditHarvest": "Der Benutzer ist in der Lage Kulturen zu...",
+      "harvest": "Ernten",
+      "planPlantEdit": "Plannen, Anlegen, bearbeiten"
     },
     "comments": {
       "comments": "Notizen",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Etwas funktioniert nicht",
     "feedback": "Allgemeines Feedback",
     "locationSharingIssues": "Ortungsproblem"
+  },
+  "x_days_full": {
+    "one": "1 Tag",
+    "other": "{{count}} Tage",
+    "zero": "0 Tage"
   }
 }

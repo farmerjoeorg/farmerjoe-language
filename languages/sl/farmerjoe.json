@@ -335,7 +335,11 @@
     "active": "Aktivni",
     "deactivated": "Neaktivni",
     "reactivate": "Znova aktiviraj uporabnika",
-    "reactivateDoYouWant": "Res želite aktivirati uporabnika?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Svetovalci",
     "admin": "Skrbnik",
     "manage": "Upravljanje uporabnikov",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Povabilo zavrnjeno dne {{date}}",
     "getFromPhoneBook": "Iskanje v imeniku",
     "choseEmail": "Izberite e-poštni naslov",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Zaposleni je deaktiviran",
     "x_selectedFields": {
       "zero": "Ni izbranih polj",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Izbriši zaposlenega",
-      "deactivate": "Deaktiviraj zaposlenega",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Želite deaktivirati tega zaposlenega?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Res želite izbrisati tega zaposlenega?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Sebe ne morete izbrisati",
       "alertFound": {
         "title": "Uporabnik je že v podjetju",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Posajeno in obdelano",
       "active": "Samo posajeno",
-      "standardUserRights": "Uporabnik ne more ustvariti ali urejati pridelkov."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Opombe",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

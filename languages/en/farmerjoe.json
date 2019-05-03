@@ -335,7 +335,11 @@
     "active": "Active",
     "deactivated": "Deactivated",
     "reactivate": "Reactivate user",
-    "reactivateDoYouWant": "Do you really want to reactivate the user?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Advisors",
     "admin": "Admin",
     "manage": "Manage Users",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Invitation rejected on {{date}}",
     "getFromPhoneBook": "Search in Phonebook",
     "choseEmail": "Choose email",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Employee is deactivated",
     "x_selectedFields": {
       "zero": "No fields selected",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Delete Employee",
-      "deactivate": "Deactivate Employee",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Do you want to deactivate this employee?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Do you really want to delete this employee?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "You can't delete yourself",
       "alertFound": {
         "title": "User already in company",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Planted and harvested",
       "active": "Only planted",
-      "standardUserRights": "The user can't create or edit any crops."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Comments",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

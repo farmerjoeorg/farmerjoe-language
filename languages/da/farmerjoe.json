@@ -335,7 +335,11 @@
     "active": "Aktiv",
     "deactivated": "Deaktiveret",
     "reactivate": "Genaktiver bruger",
-    "reactivateDoYouWant": "Ønsker du virkelig at genaktivere brugeren?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Rådgivere",
     "admin": "Administrator",
     "manage": "Administrer brugere",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Invitation blev afvist d. {{date}}",
     "getFromPhoneBook": "Søg i Telefonbog",
     "choseEmail": "Vælg e-mail",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Medarbejderen er deaktiveret",
     "x_selectedFields": {
       "zero": "Ingen marker valgt",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Slet Medarbejder",
-      "deactivate": "Deaktiver Medarbejder",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Ønsker du at deaktivere denne medarbejder?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Ønsker du virkelig at slette denne medarbejder?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Du kan ikke slette dig selv",
       "alertFound": {
         "title": "Bruger allerede i virksomhed",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Plantet og høstet",
       "active": "Kun plantet",
-      "standardUserRights": "Brugeren kan ikke oprette eller redigere nogen afgrøder."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Kommentarer",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

@@ -335,7 +335,11 @@
     "active": "Ativo",
     "deactivated": "Desativado",
     "reactivate": "Reativar utilizador",
-    "reactivateDoYouWant": "Tem a certeza que deseja reativar este utilizador?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Consultores",
     "admin": "Administrador",
     "manage": "Gerir utilizadores",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Convite recusado em {{date}}",
     "getFromPhoneBook": "Procurar na lista telefónica",
     "choseEmail": "Escolher email",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "O funcionário está desativado",
     "x_selectedFields": {
       "zero": "Não foram selecionados campos",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Apagar funcionário",
-      "deactivate": "Desativar funcionário",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Deseja desativar este funcionário?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Tem a certeza que deseja apagar este funcionário?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Não se pode apagar a si próprio",
       "alertFound": {
         "title": "Utilizador já na empresa",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Plantado e colhiido",
       "active": "Apenas plantado",
-      "standardUserRights": "O utilizador não pode criar ou editar quaisquer culturas."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Comentários",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }

@@ -335,7 +335,11 @@
     "active": "Aktivní",
     "deactivated": "Deaktivovaní",
     "reactivate": "Opětovná aktivace uživatele",
-    "reactivateDoYouWant": "Opravdu chcete znovuaktivovat uživatele?",
+    "activate": "Activate employee",
+    "activateAdvisor": "Activate advisor",
+    "reactivateDoYouWant": "Do you really want to reactivate the employee?",
+    "activateDoYouWant": "Do you really want to activate the employee?",
+    "activateDoYouWantAdvisor": "Do you really want to activate the advisor?",
     "advisors": "Poradci",
     "admin": "Správce",
     "manage": "Správa uživatelů",
@@ -344,6 +348,7 @@
     "invitrationRejectedOn": "Pozvánka byla zamítnuta dne {{date}}",
     "getFromPhoneBook": "Vyhledávání v telefonním seznamu",
     "choseEmail": "Zvolte e-mail",
+    "chosePhone": "Choose phone",
     "employeeIsDeactivated": "Zaměstnanec je deaktivován",
     "x_selectedFields": {
       "zero": "Nejsou vybrána žádná pole",
@@ -541,9 +546,13 @@
     },
     "user": {
       "delete": "Odstranit zaměstnance",
-      "deactivate": "Deaktivovat zaměstnance",
+      "deleteAdvisor": "Delete advisor",
+      "deactivate": "Deactivate employee",
+      "deactivateAdvisor": "Deactivate advisor",
       "doYouWantToDeactivateUser": "Chcete deaktivovat tohoto zaměstnance?",
+      "doYouWantToDeactivateAdvisor": "Do you want to deactivate this employee?",
       "doYouWantToDeleteUser": "Opravdu chcete smazat tohoto zaměstnance?",
+      "doYouWantToDeleteAdvisor": "Do you really want to delete this advisor?",
       "cantDeleteYourself": "Nemůžete smazat sami sebe",
       "alertFound": {
         "title": "Uživatel je již ve společnosti",
@@ -584,7 +593,9 @@
     "crops": {
       "all": "Osazené a sklizené plochy",
       "active": "Pouze osazené",
-      "standardUserRights": "Uživatel nemůže vytvářet nebo upravovat žádné plodiny."
+      "canCreateEditHarvest": "Select below what the user is able to do with Crops",
+      "harvest": "Harvest",
+      "planPlantEdit": "Plan, Plant, Edit"
     },
     "comments": {
       "comments": "Komentáře",
@@ -818,5 +829,10 @@
     "somethingDoesntWork": "Something doesn't work",
     "feedback": "General feedback",
     "locationSharingIssues": "Location sharing issue"
+  },
+  "x_days_full": {
+    "one": "1 day",
+    "other": "{{count}} days",
+    "zero": "0 days"
   }
 }
