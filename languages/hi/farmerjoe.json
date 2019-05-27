@@ -834,5 +834,8 @@
     "one": "1 day",
     "other": "{{count}} days",
     "zero": "0 days"
+  },
+  "bonitur": {
+    "dropFiles": "Drag 'n' drop file here, or click to select a file"
   }
 }

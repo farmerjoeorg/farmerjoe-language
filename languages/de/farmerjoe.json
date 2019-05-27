@@ -834,5 +834,8 @@
     "one": "1 Tag",
     "other": "{{count}} Tage",
     "zero": "0 Tage"
+  },
+  "bonitur": {
+    "dropFiles": "Bild hineinziehen oder auswählen"
   }
 }
