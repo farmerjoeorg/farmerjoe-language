@@ -837,5 +837,7 @@
   },
   "bonitur": {
     "dropFiles": "Bild hineinziehen oder auswählen"
-  }
+  },
+  "list": "Liste",
+  "table": "Tabelle"
 }

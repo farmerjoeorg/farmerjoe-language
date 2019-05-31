@@ -837,5 +837,7 @@
   },
   "bonitur": {
     "dropFiles": "Drag 'n' drop file here, or click to select a file"
-  }
+  },
+  "list": "Lista",
+  "table": "Tabela"
 }
