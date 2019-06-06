@@ -840,5 +840,6 @@
   },
   "list": "List",
   "table": "Table",
-  "created": "Created on"
+  "created": "Created on",
+  "crypticErrorMessage": "Ooops, something went wrong. Please try again. If problem persist contact support."
 }
