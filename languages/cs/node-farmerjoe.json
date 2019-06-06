@@ -41,7 +41,8 @@
       "requestedReset": "You recently requested to reset your password for your farmerJoe account. Use the button below to reset it. This password reset is only valid for the next 60 mins.",
       "ifyoudidntask": "If you didn't ask to reset your password, you can ignore this email.",
       "resetPasswordButton": "Reset your password"
-    }
+    },
+    "signatureYourFJTeam": "Your farmerJoe-Team"
   },
   "companyAddress": "Adresa společnosti"
 }
