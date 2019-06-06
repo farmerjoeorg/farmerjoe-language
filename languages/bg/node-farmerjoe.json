@@ -35,6 +35,12 @@
       "subject": "Ключ за приложния програмен интерфейс (API) за {{company}} беше актуализиран",
       "title": "Актуализация на ключ за приложния програмен интерфейс (API)",
       "message": "Ключ за приложния програмен интерфейс (API) ({{keyName}}) за {{company}} беше актуализиран от {{created_by}}."
+    },
+    "passwordReset": {
+      "hello": "Hello",
+      "requestedReset": "You recently requested to reset your password for your farmerJoe account. Use the button below to reset it. This password reset is only valid for the next 60 mins.",
+      "ifyoudidntask": "If you didn't ask to reset your password, you can ignore this email.",
+      "resetPasswordButton": "Reset your password"
     }
   },
   "companyAddress": "Адрес на предприятито"

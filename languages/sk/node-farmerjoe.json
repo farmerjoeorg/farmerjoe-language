@@ -35,6 +35,12 @@
       "subject": "Kľúč API pre {{company}} bol aktualizovaný",
       "title": "Aktualizácia kľúča API",
       "message": "{{created_by}} aktualizoval\/a kľúč API ({{keyName}}) pre {{company}}."
+    },
+    "passwordReset": {
+      "hello": "Hello",
+      "requestedReset": "You recently requested to reset your password for your farmerJoe account. Use the button below to reset it. This password reset is only valid for the next 60 mins.",
+      "ifyoudidntask": "If you didn't ask to reset your password, you can ignore this email.",
+      "resetPasswordButton": "Reset your password"
     }
   },
   "companyAddress": "Adresa spoločnosti"

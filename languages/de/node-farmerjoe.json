@@ -35,6 +35,12 @@
       "subject": "Ein API-Schlüssel für {{company}} wurde aktualisiert",
       "title": "API-Schlüssel-Aktualisierung",
       "message": "Ein API-Schlüssel ({{keyName}}) für {{company}} wurde von {{created_by}} aktualisiert."
+    },
+    "passwordReset": {
+      "hello": "Hallo",
+      "requestedReset": "Sie haben um das zurücksetzen Ihres Passworts gebeten. Bitte clicken Sie den nachstehenden Knopf. Das Zurücksezten des Passwort ist innerhalb der nächsten 60min möglich.",
+      "ifyoudidntask": "Falls Sie nicht um die Zurücksetzung Ihres Passworts gebeten haben, können Sie diese E-Mail ignorieren.",
+      "resetPasswordButton": "Passwort zurücksetzen"
     }
   },
   "companyAddress": "Betriebsadresse"

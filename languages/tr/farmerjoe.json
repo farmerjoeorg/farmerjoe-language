@@ -839,5 +839,6 @@
     "dropFiles": "Drag 'n' drop file here, or click to select a file"
   },
   "list": "List",
-  "table": "Table"
+  "table": "Table",
+  "created": "Created on"
 }

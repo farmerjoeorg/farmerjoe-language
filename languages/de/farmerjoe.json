@@ -839,5 +839,6 @@
     "dropFiles": "Bild hineinziehen oder auswählen"
   },
   "list": "Liste",
-  "table": "Tabelle"
+  "table": "Tabelle",
+  "created": "Erstellt am"
 }
