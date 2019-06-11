@@ -841,5 +841,9 @@
   "list": "Liste",
   "table": "Tabelle",
   "created": "Erstellt am",
-  "crypticErrorMessage": "Ooops, something went wrong. Please try again. If problem persist contact support."
+  "crypticErrorMessage": "Ooops, something went wrong. Please try again. If problem persist contact support.",
+  "dateRange": "Zeitraum",
+  "lastXDays": "Letzte {{days}} Tage",
+  "totalRange": "Gesamte Zeit",
+  "customRange": "Benutzerdefiniert"
 }
