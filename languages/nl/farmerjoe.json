@@ -849,5 +849,6 @@
   "lastXDays": "Last {{days}} days",
   "totalRange": "All time",
   "customRange": "Custom",
-  "invalid_email_or_password": "Your email or password is wrong. If you've forgotten your password, please reset it."
+  "invalid_email_or_password": "Your email or password is wrong. If you've forgotten your password, please reset it.",
+  "export": "Export"
 }

@@ -849,5 +849,6 @@
   "lastXDays": "Letzte {{days}} Tage",
   "totalRange": "Gesamte Zeit",
   "customRange": "Benutzerdefiniert",
-  "invalid_email_or_password": "Ihre E-Mail oder Ihr Passwort waren leider nicht richtig. Wenn Sie Ihr Passwort nicht wissen, setzen Sie es zurück."
+  "invalid_email_or_password": "Ihre E-Mail oder Ihr Passwort waren leider nicht richtig. Wenn Sie Ihr Passwort nicht wissen, setzen Sie es zurück.",
+  "export": "Exportieren"
 }
