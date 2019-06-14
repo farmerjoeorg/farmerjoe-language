@@ -43,6 +43,11 @@
       "ifyoudidntask": "Wenn du diese Anfrage nicht gestellt hast ignoriere diese Mail.",
       "resetPasswordButton": "Passwort zurücksetzen"
     },
+    "activationEmail": {
+      "requestedAction": "Klicke auf den folgenden Link, um dein farmerJoe Konto zu bestätigen.",
+      "ifyoudidntask": "Falls du nicht um die Möglichkeit zur Bestätigung dein Konto gebeten hast, bitte ignoriere diese Mail.",
+      "requestedActionButton": "Bestätige dein Konto"
+    },
     "signatureYourFJTeam": "Dein farmerJoe-Team"
   },
   "companyAddress": "Betriebsadresse"

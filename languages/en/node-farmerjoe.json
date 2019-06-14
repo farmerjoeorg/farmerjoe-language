@@ -43,6 +43,11 @@
       "ifyoudidntask": "If you did not make this request you can ignore this mail.",
       "resetPasswordButton": "Reset your password"
     },
+    "activationEmail": {
+      "requestedAction": "Click on the button below to activate your farmerJoe account.",
+      "ifyoudidntask": "If you didn’t ask to activate your account, you can ignore this email.",
+      "requestedActionButton": "Activate account now"
+    },
     "signatureYourFJTeam": "Your farmerJoe-Team"
   },
   "companyAddress": "Company address"
