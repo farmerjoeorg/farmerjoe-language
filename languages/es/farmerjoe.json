@@ -280,7 +280,8 @@
     "userDisabled": "El usuario se ha desactivado.",
     "userNotFound": "No se ha encontrado el usuario.",
     "showPassword": "Show password",
-    "hidePassword": "Hide password"
+    "hidePassword": "Hide password",
+    "requiresRecentLogin": "You haven't logged in recently. To continue please enter your password first."
   },
   "noSearchResults": "Sin resultados.",
   "login": "Iniciar sesión",

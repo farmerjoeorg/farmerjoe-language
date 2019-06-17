@@ -280,7 +280,8 @@
     "userDisabled": "ব্যবহারকারী অক্ষম করা হয়েছে।",
     "userNotFound": "ব্যবহারকারী খুঁজে পাওয়া যায়নি।",
     "showPassword": "Show password",
-    "hidePassword": "Hide password"
+    "hidePassword": "Hide password",
+    "requiresRecentLogin": "You haven't logged in recently. To continue please enter your password first."
   },
   "noSearchResults": "কোনো ফলাফল নেই।",
   "login": "লগ ইন",

@@ -280,7 +280,8 @@
     "userDisabled": "Kasutaja on keelatud.",
     "userNotFound": "Kasutajat ei leitud.",
     "showPassword": "Show password",
-    "hidePassword": "Hide password"
+    "hidePassword": "Hide password",
+    "requiresRecentLogin": "You haven't logged in recently. To continue please enter your password first."
   },
   "noSearchResults": "Tulemusi pole.",
   "login": "Sisene",

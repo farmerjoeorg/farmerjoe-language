@@ -280,7 +280,8 @@
     "userDisabled": "Korisnik je onemogućen.",
     "userNotFound": "Korisnik nije pronađen.",
     "showPassword": "Show password",
-    "hidePassword": "Hide password"
+    "hidePassword": "Hide password",
+    "requiresRecentLogin": "You haven't logged in recently. To continue please enter your password first."
   },
   "noSearchResults": "Nema rezultata.",
   "login": "Prijava",

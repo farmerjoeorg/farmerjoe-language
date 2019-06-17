@@ -280,7 +280,8 @@
     "userDisabled": "Der Benutzer wurde deaktiviert.",
     "userNotFound": "Der Benutzer wurde nicht gefunden.",
     "showPassword": "Passwort anzeigen",
-    "hidePassword": "Passwort ausblenden"
+    "hidePassword": "Passwort ausblenden",
+    "requiresRecentLogin": "Du hast dich lange Zeit nicht eingeloggt. Um fortzufahren bitte gib zuerst dein Konto-Passwort ein."
   },
   "noSearchResults": "Keine Treffer.",
   "login": "Login",
