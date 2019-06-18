@@ -211,7 +211,8 @@
     "yieldInT": "Ertrag in t",
     "addYield": "Ertrag hinzufügen",
     "deleteYield": "Ertrag löschen",
-    "doYouReallyWantToDeleteYield": "Wollen Sie wirklich den Ertrag für diese Kultur löschen?"
+    "doYouReallyWantToDeleteYield": "Wollen Sie wirklich den Ertrag für diese Kultur löschen?",
+    "color": "Kulturfarbe"
   },
   "fertilizer": {
     "fertilization": "Düngung",

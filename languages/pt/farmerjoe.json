@@ -211,7 +211,8 @@
     "yieldInT": "Yield in t",
     "addYield": "Add yield",
     "deleteYield": "Delete yield",
-    "doYouReallyWantToDeleteYield": "Do you really want to delete the yield for this crop?"
+    "doYouReallyWantToDeleteYield": "Do you really want to delete the yield for this crop?",
+    "color": "Crop colour"
   },
   "fertilizer": {
     "fertilization": "Fertilização",
