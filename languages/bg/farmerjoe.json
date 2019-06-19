@@ -212,7 +212,8 @@
     "addYield": "Add yield",
     "deleteYield": "Delete yield",
     "doYouReallyWantToDeleteYield": "Do you really want to delete the yield for this crop?",
-    "color": "Crop colour"
+    "color": "Crop colour",
+    "status": "Crop status"
   },
   "fertilizer": {
     "fertilization": "Торене",
@@ -852,5 +853,6 @@
   "totalRange": "All time",
   "customRange": "Custom",
   "invalid_email_or_password": "Your email or password is wrong. If you've forgotten your password, please reset it.",
-  "export": "Export"
+  "export": "Export",
+  "chooseExportFormat": "Choose export format"
 }

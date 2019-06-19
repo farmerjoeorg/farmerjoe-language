@@ -212,7 +212,8 @@
     "addYield": "Ertrag hinzufügen",
     "deleteYield": "Ertrag löschen",
     "doYouReallyWantToDeleteYield": "Wollen Sie wirklich den Ertrag für diese Kultur löschen?",
-    "color": "Kulturfarbe"
+    "color": "Kulturfarbe",
+    "status": "Kulturstatus"
   },
   "fertilizer": {
     "fertilization": "Düngung",
@@ -852,5 +853,6 @@
   "totalRange": "Gesamte Zeit",
   "customRange": "Benutzerdefiniert",
   "invalid_email_or_password": "Ihre E-Mail oder Ihr Passwort waren leider nicht richtig. Wenn Sie Ihr Passwort nicht wissen, setzen Sie es zurück.",
-  "export": "Exportieren"
+  "export": "Exportieren",
+  "chooseExportFormat": "Exportformat auswählen"
 }
