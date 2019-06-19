@@ -844,6 +844,16 @@
   "bonitur": {
     "dropFiles": "Bild hineinziehen oder auswählen"
   },
+  "activation": {
+    "confirmAccountTitle": "Konto bestätigen",
+    "confirmAccountDesc": "Wir haben dir einen Link zur Konto bestätigen gemailt. Bitte bestätige diesen um dein Konto zu aktivieren.",
+    "changeEmailIfNotCorrect": "falls nicht korrekt ändern",
+    "waitValidatingAccount": "Bitte warten, wir validieren dein Konto",
+    "accountVerified": "Dein Konto wurde erfolgreich validiert. Viel Spaß mit farmerJoe!",
+    "sentNewEmail": "Wir haben dir einen neuen Link zur Konto bestätigen an {{email}} gemailt. Bitte bestätige diesen um dein Konto zu aktivieren.",
+    "changeAccountAndSendVerification": "Konto ändern und neuen link schicken.",
+    "sendVerification": "Neue Verifizierungsmail send"
+  },
   "list": "Liste",
   "table": "Tabelle",
   "created": "Erstellt am",
