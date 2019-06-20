@@ -262,6 +262,7 @@
   },
   "password": {
     "current": "Текущий пароль",
+    "youNeedToEnterCurrent": "You need to enter your current password.",
     "password": "Пароль",
     "yourPasswordWasUpdated": "Ваш пароль обновлен.",
     "notUpdated": "Пароль не был изменен.",
@@ -272,6 +273,10 @@
     "repeat": "Повторить пароль",
     "updated": "Пароль обновлен.",
     "minXchars": "The password must be at least {{length}} characters long.",
+    "minXcharsShort": "Minimum {{length}} chars",
+    "lowercase": "Lowercase",
+    "uppercase": "Uppercase",
+    "digitOrSpecialChar": "Number or special character (like ! and &)",
     "atLeastXUppercase": "The password must contain at least {{length}} uppercase.",
     "atLeastXLowercase": "The password must contain at least {{length}} uppercase.",
     "atLeastNumberOrSpecialCharacter": "The password must contain at least {{length}} digit or Special character.",
@@ -849,10 +854,11 @@
     "confirmAccountDesc": "Please confirm your account by clicking on the link we've sent to your email.",
     "changeEmailIfNotCorrect": "change your mail if not correct",
     "waitValidatingAccount": "Please wait. We are validating your account.",
-    "accountVerified": "You account was successfully verified. Have fun using farmerJoe.",
+    "accountVerified": "Your account was successfully verified. Have fun using farmerJoe.",
     "sentNewEmail": "We've sent a new verification email to {{email}}. Please click the link in it to verify your account.",
     "changeAccountAndSendVerification": "Change account and send a new verification email",
-    "sendVerification": "Send a new verification email"
+    "sendVerification": "Send a new verification email",
+    "accountIsUnverified": "Your account is unverified."
   },
   "list": "List",
   "table": "Table",
