@@ -858,7 +858,8 @@
     "sentNewEmail": "Wir haben dir einen neuen Link zur Konto bestätigen an {{email}} gemailt. Bitte bestätige diesen um dein Konto zu aktivieren.",
     "changeAccountAndSendVerification": "Konto ändern und neuen link schicken.",
     "sendVerification": "Neue Verifizierungsmail senden",
-    "accountIsUnverified": "Dein Konto ist nicht bestätigt."
+    "accountIsUnverified": "Dein Konto ist nicht bestätigt.",
+    "pleaseCheckMail": "Bitte überprüfe deine E-Mails."
   },
   "list": "Liste",
   "table": "Tabelle",

@@ -858,7 +858,8 @@
     "sentNewEmail": "We've sent a new verification email to {{email}}. Please click the link in it to verify your account.",
     "changeAccountAndSendVerification": "Change account and send a new verification email",
     "sendVerification": "Send a new verification email",
-    "accountIsUnverified": "Your account is unverified."
+    "accountIsUnverified": "Your account is unverified.",
+    "pleaseCheckMail": "Please check your email."
   },
   "list": "List",
   "table": "Table",
