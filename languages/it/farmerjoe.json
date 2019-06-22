@@ -872,5 +872,6 @@
   "customRange": "Custom",
   "invalid_email_or_password": "Your email or password is wrong. If you've forgotten your password, please reset it.",
   "export": "Export",
-  "chooseExportFormat": "Choose export format"
+  "chooseExportFormat": "Choose export format",
+  "pageWillRedirectAutomaticallyIn": "The page will redirect automatically in {{seconds}}"
 }
