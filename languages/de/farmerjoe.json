@@ -860,7 +860,10 @@
     "changeAccountAndSendVerification": "Konto ändern und neuen link schicken.",
     "sendVerification": "Neue Verifizierungsmail senden",
     "accountIsUnverified": "Dein Konto ist nicht bestätigt.",
-    "pleaseCheckMail": "Bitte überprüfe deine E-Mails."
+    "pleaseCheckMail": "Bitte überprüfe deine E-Mails.",
+    "cantAddUsers": "Du kannst keine Mitarbeiter einladen.",
+    "cantOrderAnalyses": "Du kannst keine Analysen bestellen.",
+    "cantAcceptInvitations": "Du kannst keine Einladungen akzeptieren."
   },
   "list": "Liste",
   "table": "Tabelle",

@@ -860,7 +860,10 @@
     "changeAccountAndSendVerification": "Change account and send a new verification email",
     "sendVerification": "Send a new verification email",
     "accountIsUnverified": "Your account is unverified.",
-    "pleaseCheckMail": "Please check your email."
+    "pleaseCheckMail": "Please check your email.",
+    "cantAddUsers": "You can't add other users to company.",
+    "cantOrderAnalyses": "You can't order analyses.",
+    "cantAcceptInvitations": "You can't accept any invitations."
   },
   "list": "List",
   "table": "Table",
