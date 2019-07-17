@@ -876,5 +876,7 @@
   "invalid_email_or_password": "Ihre E-Mail oder Ihr Passwort waren leider nicht richtig. Wenn Sie Ihr Passwort nicht wissen, setzen Sie es zurück.",
   "export": "Exportieren",
   "chooseExportFormat": "Exportformat auswählen",
-  "pageWillRedirectAutomaticallyIn": "Die Seite wird automatisch weitergeleitet in {{seconds}}"
+  "pageWillRedirectAutomaticallyIn": "Die Seite wird automatisch weitergeleitet in {{seconds}}",
+  "from": "von:",
+  "to": "bis:"
 }
