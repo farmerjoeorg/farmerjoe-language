@@ -878,5 +878,10 @@
   "chooseExportFormat": "Exportformat auswählen",
   "pageWillRedirectAutomaticallyIn": "Die Seite wird automatisch weitergeleitet in {{seconds}}",
   "from": "von:",
-  "to": "bis:"
+  "to": "bis:",
+  "fileUpload": {
+    "upload": "hochladen",
+    "noFiles": "keine Dateien",
+    "files": "Dateien"
+  }
 }

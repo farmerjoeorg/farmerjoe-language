@@ -878,5 +878,10 @@
   "chooseExportFormat": "Choose export format",
   "pageWillRedirectAutomaticallyIn": "The page will redirect automatically in {{seconds}}",
   "from": "from:",
-  "to": "to:"
+  "to": "to:",
+  "fileUpload": {
+    "upload": "Upload",
+    "noFiles": "No files",
+    "files": "Files"
+  }
 }
