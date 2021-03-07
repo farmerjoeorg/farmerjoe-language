@@ -657,6 +657,7 @@
     "sharedWithFarm": "Position is being shared with this farm.",
     "letColleaguesSeeYourLocationLabel": "Let colleagues know where you are",
     "letColleaguesSeeYourLocationDesc": "Share your real-time location with colleagues in this Farm.",
+    "letColleaguesSeeYourLocationAndroidDesc": "The app collects location data to enable this feature even when the app is closed or not in use.",
     "forX": {
       "x_minutes": {
         "one": "For {{count}} minute",
